@@ -1,7 +1,7 @@
 {
   "title": "纱间 · 织屏摩尔纹",
   "slug": "05-moire-screens",
-  "description": "三层染色纱网叠出摩尔纹；微移、转角、局部梳曲和掀纱圆窗可以连续组合。",
+  "description": "三层染色纱网可明显改变疏密、宽高、转角、大范围涡褶和掀纱窗口；多种材料操作组合出持续变化的摩尔纹。",
   "implementation": "原创 Canvas 2D 程序纹理，无第三方代码、字体或图像；独立离线。",
   "controls": {
     "layer0": "选择青纱",
@@ -9,12 +9,14 @@
     "layer2": "选择金纱",
     "move": "拖动选层",
     "turn": "绕纱中心拖动旋转",
-    "comb": "横拖局部改变线的曲率",
-    "lift": "拖动位置并扩大选层透气圆窗",
+    "comb": "长拖揉出大范围涡褶，可叠加12处/层",
+    "lift": "按住掀窗，再拖移并放大窗口，105–350纹理像素",
     "palette": "循环三个染色组合，保留形态",
     "undo": "退回最后一次画布操作，最多24步",
     "pause": "停驻或继续缓慢漂移",
-    "reset": "恢复初始构图"
+    "reset": "恢复初始构图",
+    "density": "左右拖改变网孔大小0.55–3.2倍，上下拖改变横向纱距0.6–2.8倍",
+    "stretch": "左右/上下拖，拉宽收窄与拉长压扁，0.58–1.6倍"
   },
   "test_actions": [
     "选择青纱挪动两次",
@@ -30,13 +32,36 @@
     "combs_per_layer": 12,
     "apertures_per_layer": 8,
     "undo_states": 24,
-    "device_pixel_ratio": 2
+    "device_pixel_ratio": 2,
+    "pitch_range": [
+      0.55,
+      3.2
+    ],
+    "cross_spacing_range": [
+      0.6,
+      2.8
+    ],
+    "stretch_range": [
+      0.58,
+      1.6
+    ],
+    "warp_displacement_pixels": 460,
+    "warp_radius_pixels": [
+      240,
+      390
+    ],
+    "window_radius_pixels": [
+      105,
+      350
+    ]
   },
   "sources": [],
   "license": "原创实现；未使用第三方许可素材",
-  "audio": "none",
+  "audio": "original procedural WebAudio",
   "testControls": [
     "#layer1",
+    "#density",
+    "#stretch",
     "#turn",
     "#comb",
     "#layer2",
@@ -45,11 +70,99 @@
     "#undo",
     "#pause"
   ],
-  "testNotes": "选择模式后使用画布实际鼠标或触摸拖动；移动端应避开底部工具栏，画面中央可操作。无声作品为非交互状态文字。两次reset不得清零累计计数。",
+  "testNotes": "先选择模式，再在画面上持续拖动。疏密与拉幅是全层变换；揉褶长拖会留下大涡褶；掀纱长拖有明显露层大窗。两次reset不得清零累计计数。音频由root统一接入，真实画布操作发art-sound语义事件。",
   "sourceNotes": "视觉材料取向参考用户确认的Library附件；织屏机制及实现原创，未复制第三方代码素材。",
   "audioStatus": {
-    "selector": "#sound-status",
-    "text": "无声作品",
-    "interactive": false
-  }
+    "selector": "#mute",
+    "interactive": true,
+    "firstGestureUnlock": true,
+    "resetPreservesMute": true,
+    "blurStopsSound": true,
+    "maxVoices": 6,
+    "maxConnectedNodes": 26,
+    "outputProbe": "post-master AnalyserNode waveform RMS"
+  },
+  "visualTestNotes": [
+    {
+      "precondition": "每个独立动作先reset，再pause停住漂移并选择金纱layer2，方便观察上层变化",
+      "control": "#density",
+      "from": [
+        0.46,
+        0.34
+      ],
+      "to": [
+        0.72,
+        0.5
+      ],
+      "effect": "疏网明显露出下层，宽拍频和网格尺度变化"
+    },
+    {
+      "control": "#stretch",
+      "from": [
+        0.46,
+        0.34
+      ],
+      "to": [
+        0.72,
+        0.5
+      ],
+      "effect": "宽高同时伸展，纱片轮廓明显增大；反向拖收窄"
+    },
+    {
+      "control": "#turn",
+      "from": [
+        0.75,
+        0.28
+      ],
+      "to": [
+        0.35,
+        0.52
+      ],
+      "effect": "层转角大幅改变；小角度微调可制造宽拍频"
+    },
+    {
+      "control": "#comb",
+      "from": [
+        0.46,
+        0.34
+      ],
+      "to": [
+        0.72,
+        0.5
+      ],
+      "effect": "大范围揉褶扭动全层线网，可叠加横竖不同方向"
+    },
+    {
+      "control": "#lift",
+      "from": [
+        0.46,
+        0.34
+      ],
+      "to": [
+        0.72,
+        0.5
+      ],
+      "effect": "明显大圆窗露出下层，缝边标出掀走的纱"
+    }
+  ],
+  "soundEvents": [
+    "weave-grab",
+    "weave-move",
+    "weave-turn",
+    "weave-density",
+    "weave-stretch",
+    "weave-comb",
+    "weave-lift",
+    "weave-release",
+    "weave-layer",
+    "weave-dye",
+    "weave-settle"
+  ],
+  "selfCheck": {
+    "continuous": "65–70秒mobile浏览器触摸/desktop鼠标真实组合，371事件/设备，无页面错误/外链请求、无横向溢出，bounded=true；这是浏览器触摸模拟，未测试实体手机",
+    "finalVisual": "最终锚点修复后，两视口逐模式独立前后截图核对，疏密/拉幅/旋转/揉褶/掀窗均产生明显画布变化",
+    "evidence": "evidence-v6/self-test.json 和 evidence-v6/visual-test-final.json",
+    "sound": "现已接入统一原创WebAudio；最终音频/静音波形证据见全局evidence/audio-v7，原视觉自检仅验证语义事件。"
+  },
+  "audioInstructions": "首次点按或拖动画面后启用声音；静音按钮关闭所有声音，开声音可恢复。重置保留静音选择，离开窗口停止声音。合成音色随操作材料、速度与位置变化。"
 }

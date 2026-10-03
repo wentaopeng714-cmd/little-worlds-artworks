@@ -64,7 +64,7 @@
   "designNotes": "高程是真实二维数值场；走刀、堆积、平滑会保留形状变化；等高线使用独立实现的 marching-squares 插值。",
   "implementation": "原创 Canvas 2D；未复制第三方代码、图片或字体，数学模型仅作背景参考。",
   "license": "MIT",
-  "audio": "none",
+  "audio": "original procedural WebAudio",
   "offline": "CSS 和 JavaScript 全内联，无网络请求，直接打开 index.html。",
   "qa": {
     "selector": "#qa",
@@ -76,7 +76,7 @@
       "cells"
     ],
     "counters": "frames、inputs、resets 始终累计，重置不归零",
-    "audio": "none"
+    "audio": "original procedural WebAudio"
   },
   "fonts": "系统 Georgia / Songti SC，无捆绑字体",
   "selfCheck": {
@@ -95,8 +95,14 @@
     "note": "根任务负责独立60–90秒真实触屏事件组合、reset、resize复测。"
   },
   "audioStatus": {
-    "selector": "#sound-status",
-    "text": "无声作品",
-    "interactive": false
-  }
+    "selector": "#mute",
+    "interactive": true,
+    "firstGestureUnlock": true,
+    "resetPreservesMute": true,
+    "blurStopsSound": true,
+    "maxVoices": 6,
+    "maxConnectedNodes": 26,
+    "outputProbe": "post-master AnalyserNode waveform RMS"
+  },
+  "audioInstructions": "首次点按或拖动画面后启用声音；静音按钮关闭所有声音，开声音可恢复。重置保留静音选择，离开窗口停止声音。合成音色随操作材料、速度与位置变化。"
 }

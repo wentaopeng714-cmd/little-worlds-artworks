@@ -3,40 +3,49 @@
   "title": "光的拼片",
   "englishTitle": "Stained Glass",
   "slug": "04-stained-glass",
-  "description": "一扇带铅线和彩色投影的拱形玻璃窗。划线切出新片，移走或转动玻璃，焊合共边邻片，再拖动太阳改变窗外彩色光影。",
+  "description": "可拆解的彩窗：切片后裂缝会真正张开，玻璃可脱框移动与30°旋转。整窗翻转散落并碰地，磁吸回拼保留切线；共边焊合成为更大片。光源与三档棱镜光束产生大尺度折射变化。",
   "mechanism": "真实多边形半平面分割；片的位移与转动；共边边界消除合并；片的归位；独立光源控制彩色投影。颜色与几何状态独立保留。",
   "controls": {
     "art": "移片模式点选拖玻璃，切片模式划线；拖带光环的灯改变投影",
     "arrange": "点选拖移玻璃片",
-    "cut": "以画出的切线分割所有相交玻璃，增加铅线",
-    "rotate": "选片转15度，露出与遮盖新的留白",
-    "weld": "将选片与一块具有完整共边的邻片合并，消除共有铅线",
-    "home": "选片回到切出时位置，有助于恢复共边再焊合",
+    "cut": "真实多边形分割，沿切线向两侧分离并显示短暂裂光",
+    "rotate": "选片转30度并脱离窗框，露出新的留白",
+    "weld": "消除选片与原共边邻片共有铅线；分离的邻片磁吸焊回",
+    "home": "选片沿路径磁吸回到切出时位置",
     "blue": "采光配色改为海蓝午光；保留分片位置",
     "red": "采光配色改为石榴暮色；保留分片位置",
     "green": "采光配色改为苔色清晨；保留分片位置",
-    "reset": "恢复完整初始彩窗，保留所选配色"
+    "reset": "恢复完整初始彩窗，保留所选配色",
+    "collapse": "松开整窗玻璃，翻转散落，撞地后减速；碎片可继续捡起",
+    "assemble": "全部碎片沿路径回拼到窗框，已切出的铅线保留",
+    "beam": "漫射/折射/棱镜三档，扩大彩色光束范围与强度"
   },
   "testControls": [
     "#cut",
     "#arrange",
     "#rotate",
-    "#home",
+    "#collapse",
+    "#assemble",
+    "#beam",
     "#weld",
+    "#home",
     "#red",
-    "#green",
-    "#blue"
+    "#green"
   ],
   "testNotes": "点cut，在canvas相对(.13,.52)到(.87,.48)划线，切换arrange，点(.33,.46)后weld可消除共边。另选(.45,.5)拖移并rotate，再home后weld。把相对(.88,.89)光源拖到(.25,.8)看窗外投影，换配色保留几何。反复切/合并测试56片cap；两次reset/resize。",
   "boundedCaps": {
     "glassCells": 56,
     "initialCells": 31,
     "textureMarks": 650,
-    "devicePixelRatio": 2
+    "devicePixelRatio": 2,
+    "gravityNormalized": 0.52,
+    "frameDeltaSeconds": 0.035,
+    "semanticSoundThrottleMs": 130,
+    "polygonUnionGuard": 256
   },
   "format": "offline standalone HTML",
   "renderer": "Canvas 2D 原创实现，无第三方运行库",
-  "audio": "none",
+  "audio": "original procedural WebAudio",
   "license": "MIT — 本作品原创HTML/CSS/JavaScript；系统字体不另行打包",
   "sources": [
     {
@@ -57,8 +66,112 @@
   "assetPolicy": "剪纸轮廓/玻璃几何/纸纹均由本作品代码程序化生成；没有外链资源或复制附件图片；字体为设备系统字体。",
   "validation": "作者快速自检已在Chromium离线file://页面运行桌面1440×900、手机390×844；鼠标拖移/按钮组合无pageerror，截图人工查看。完整60–90秒持续触控测试由集成代理执行。",
   "audioStatus": {
-    "selector": "#sound-status",
-    "text": "无声作品",
-    "interactive": false
-  }
+    "selector": "#mute",
+    "interactive": true,
+    "firstGestureUnlock": true,
+    "resetPreservesMute": true,
+    "blurStopsSound": true,
+    "maxVoices": 6,
+    "maxConnectedNodes": 26,
+    "outputProbe": "post-master AnalyserNode waveform RMS"
+  },
+  "visualEnhancementVersion": 7,
+  "visualTestNotes": [
+    {
+      "name": "切片裂开—重排",
+      "coords": [
+        [
+          0.12,
+          0.48
+        ],
+        [
+          0.88,
+          0.53
+        ]
+      ],
+      "buttons": [
+        "#cut",
+        "#arrange",
+        "#rotate"
+      ],
+      "expected": "横切使沿线碎片向两侧分开；选(.33,.46)移动到(.44,.37)后转30°，碎片可脱出窗框。"
+    },
+    {
+      "name": "整窗坍落—回拼",
+      "buttons": [
+        "#collapse",
+        "#assemble"
+      ],
+      "expected": "散落后1–2秒整窗玻璃翻转下坠，窗框显露；再磁吸回拼，几何回到切片形态且切线继续保留。"
+    },
+    {
+      "name": "大尺度棱镜光",
+      "coords": [
+        [
+          0.88,
+          0.89
+        ],
+        [
+          0.22,
+          0.2
+        ]
+      ],
+      "buttons": [
+        "#beam",
+        "#beam"
+      ],
+      "expected": "两次光束按钮进入棱镜，拖灯从右下到左上，彩色投影和透射光束横穿舞台，强度显著增加。"
+    },
+    {
+      "name": "散片选中—焊合",
+      "coords": [
+        [
+          0.33,
+          0.46
+        ],
+        [
+          0.44,
+          0.37
+        ]
+      ],
+      "buttons": [
+        "#home",
+        "#weld"
+      ],
+      "expected": "归位使用平滑路径；焊合原共边邻片时铅线消失，形成面积更大的玻璃。反复切分、回拼、合并不超过56片。"
+    }
+  ],
+  "soundEvents": [
+    "glass-grab",
+    "glass-slide",
+    "glass-turn",
+    "glass-cut",
+    "glass-collapse",
+    "glass-collision",
+    "glass-assemble",
+    "glass-weld",
+    "glass-light"
+  ],
+  "soundInterface": "仅向window派发art-sound自定义事件，包含kind、energy、x、y；没有本地音频合成。集成代理负责实际WebAudio与开关。",
+  "visualValidation": {
+    "views": [
+      "1440×900",
+      "390×844"
+    ],
+    "inputs": [
+      "real mouse drag and click",
+      "Chromium CDP touchStart/touchMove/touchEnd plus touchscreen taps"
+    ],
+    "resetCountEach": 2,
+    "resize": "both viewports and return",
+    "pageErrors": 0,
+    "horizontalOverflow": false,
+    "screenshots": [
+      "enhanced-mobile.png",
+      "enhanced-desktop.png"
+    ],
+    "scope": "7–12秒组合smoke，不冒充60–90秒持续或真手机实测；集成代理负责完整测试",
+    "semanticSoundEventsObserved": true
+  },
+  "audioInstructions": "首次点按或拖动画面后启用声音；静音按钮关闭所有声音，开声音可恢复。重置保留静音选择，离开窗口停止声音。合成音色随操作材料、速度与位置变化。"
 }

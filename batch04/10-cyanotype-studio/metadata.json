@@ -63,7 +63,7 @@
     "暂停日光移动遮光片后继续",
     "水洗拖动显影、拿片查看",
     "重排遮光片继续扫光水洗叠印",
-    "重复重置、无声状态文字与横竖尺寸切换"
+    "重复重置、声音与静音状态文字与横竖尺寸切换"
   ],
   "caps": {
     "stencils": 32,
@@ -83,11 +83,17 @@
   "code_reuse": "None. Original procedural drawing, raster exposure and reveal code.",
   "asset_reuse": "None. No external images, fonts or audio.",
   "license": "MIT (original implementation); see LICENSE.txt",
-  "audio": "none",
+  "audio": "original procedural WebAudio",
   "model_note": "艺术化接触印刷模型，非化学实验模拟。",
   "audioStatus": {
-    "selector": "#sound-status",
-    "text": "无声作品",
-    "interactive": false
-  }
+    "selector": "#mute",
+    "interactive": true,
+    "firstGestureUnlock": true,
+    "resetPreservesMute": true,
+    "blurStopsSound": true,
+    "maxVoices": 6,
+    "maxConnectedNodes": 26,
+    "outputProbe": "post-master AnalyserNode waveform RMS"
+  },
+  "audioInstructions": "首次点按或拖动画面后启用声音；静音按钮关闭所有声音，开声音可恢复。重置保留静音选择，离开窗口停止声音。合成音色随操作材料、速度与位置变化。"
 }

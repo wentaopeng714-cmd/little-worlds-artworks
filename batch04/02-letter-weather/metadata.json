@@ -1,61 +1,91 @@
 {
   "title": "字雨 · Letter Weather",
   "slug": "02-letter-weather",
-  "description": "奶油纸面上的字雨海报。摆放、移动与旋转挡板、伞和接字槽，把飘落的字接住；拖字留下，再放飞重排。",
+  "description": "纸面上的活排版：挡板导流，接字槽蓄成字阵；画风轨控制去向，排字留下结构，风雨与放飞改变整片文字的密度和运动。",
   "controls": [
     {
       "id": "add-board",
-      "action": "添加可拖动、旋转的挡板"
+      "action": "添加斜面挡板；拖动与旋转改变字流的滑落方向"
     },
     {
       "id": "add-umbrella",
-      "action": "添加雨伞，字从伞面弹开"
+      "action": "添加雨伞，字被分流并从两侧落下"
     },
     {
       "id": "add-bowl",
-      "action": "添加接字槽，聚拢飘落文字"
+      "action": "添加接字槽，每槽最多24枚字自动形成6列字阵，移动槽时整体携带"
+    },
+    {
+      "id": "wind-path",
+      "action": "切换画风轨；在画布拖动定向路径，字会沿轨迹流动；再点回到拖物件"
     },
     {
       "id": "rotate",
-      "action": "所选物件旋转15度，也可拖其右侧圆点连续旋转"
+      "action": "所选物件转15度，也可拖右端圆点连续旋转"
     },
     {
       "id": "weather",
-      "action": "循环微雨、阵雨、向上逆风，改变流速与方向"
+      "action": "微雨、密集高速阵雨、强上行逆风三态；立即改变现有字流与持续出生密度"
     },
     {
       "id": "letters",
-      "action": "循环雨RAIN、PLAY、想象、SLOW四组字"
+      "action": "雨RAIN、PLAY、想象、SLOW四组字循环"
+    },
+    {
+      "id": "compose",
+      "action": "将当前字排为持久行列字阵，再点变阶梯构图；逐字拖动可重组"
     },
     {
       "id": "release",
-      "action": "把拖放固定的字释放回风里"
+      "action": "释放手动固定字和槽内字，整页快速抬升、旋转、散开，形成3.4秒运动段"
     },
     {
       "id": "reset",
-      "action": "恢复初始天气和三个物件"
+      "action": "恢复微雨与初始三个物件，清除字阵与风轨"
     }
   ],
   "testControls": [
-    "#add-board",
-    "#add-umbrella",
-    "#add-bowl",
-    "#rotate",
     "#weather",
+    "#add-board",
+    "#rotate",
+    "#add-bowl",
+    "#compose",
+    "#wind-path",
     "#letters",
     "#release"
   ],
-  "testNotes": "在画布内直接拖动初始三个物件；所选物件的右端圆点可连续旋转；拖一个字后松手固定，继续拖三枚重组；放飞解除固定；组合三种天气与新增挡板，最后重置两次与resize两次。",
+  "testNotes": "组合雨强、导流、蓄字、排字、画风轨与放飞，检查变化落在画布上。风轨模式下画布只画轨，需再次点风轨后才能拖字/物件。",
   "qa": {
     "canvas": "#art",
     "telemetry": "#qa",
     "caps": {
-      "letters": 180,
+      "letters": 240,
       "boards": 8,
+      "tracks": 6,
+      "pointsPerTrack": 48,
+      "capturedPerBowl": 24,
+      "pinnedLetters": 64,
       "devicePixelRatio": 2
     },
-    "audio": "none",
-    "offline": true
+    "audio": "original procedural WebAudio",
+    "offline": true,
+    "telemetryFields": [
+      "frames",
+      "inputs",
+      "resets",
+      "bounded",
+      "objects",
+      "cap",
+      "letters",
+      "boards",
+      "pinned",
+      "captured",
+      "tracks",
+      "collisions",
+      "captures",
+      "weather",
+      "burst"
+    ]
   },
   "sources": [
     {
@@ -79,11 +109,78 @@
     "copyright": "2026 Little Worlds / original Canvas implementation",
     "assets": "字形来自设备系统字体，不分发字体文件。伞、槽、挡板及纸纹全为代码原创绘制。"
   },
-  "notes": "没有CDN、外部资源、音频或网络请求。离线双击HTML即可打开。",
-  "audio": "none",
+  "notes": "没有CDN、外部素材或网络请求。原生音频层使用原创WebAudio合成，并接收节流art-sound语义事件。离线双击HTML可打开。",
+  "audio": "original procedural WebAudio",
   "audioStatus": {
-    "selector": "#sound-status",
-    "text": "无声作品",
-    "interactive": false
-  }
+    "selector": "#mute",
+    "interactive": true,
+    "firstGestureUnlock": true,
+    "resetPreservesMute": true,
+    "blurStopsSound": true,
+    "maxVoices": 6,
+    "maxConnectedNodes": 26,
+    "outputProbe": "post-master AnalyserNode waveform RMS"
+  },
+  "visualTestNotes": [
+    {
+      "name": "导流并蓄字",
+      "actions": "点天气一次到阵雨；初始挡板中心约(0.46W,0.54H)，拖至(0.62W,0.49H)，右圆点约(0.60W,0.51H)连续旋转；把槽中心(0.62W,0.72H)移到挡板低端下方。等8秒观察槽内6列蓄字与下降密度。",
+      "desktopCoordinates": {
+        "initialBoard": [
+          662,
+          486
+        ],
+        "initialBowl": [
+          893,
+          648
+        ]
+      },
+      "mobileCoordinates": {
+        "initialBoard": [
+          179,
+          456
+        ],
+        "initialBowl": [
+          242,
+          608
+        ]
+      }
+    },
+    {
+      "name": "持久排字与重排",
+      "actions": "点换字，再点排字，屏幕中央出现3行(桌面)/4行(手机)的大字阵；拖其中一枚(约0.20W,0.37H)至(0.31W,0.62H)。等5秒，字阵及拖出的字均保持。再次排字可换阶梯构图。"
+    },
+    {
+      "name": "风轨导流与逆风",
+      "actions": "点画风轨，从(0.78W,0.28H)拖弧线经(0.70W,0.44H)至(0.24W,0.58H)，可画两条交叉方向；落字沿蓝色箭头轨流动。点天气到逆风，现有游离字迅速向上。点画风轨退出。"
+    },
+    {
+      "name": "整页放飞",
+      "actions": "在排字、蓄字后点放飞；马上截图(0.35-0.8秒)与2秒后截图，观察整个字页抬升、旋转和散开；固定字/蓄字归零，不仅提示变化。"
+    }
+  ],
+  "soundEvents": {
+    "event": "art-sound",
+    "detail": "kind, energy (0–1), x/y (0–1)",
+    "kinds": [
+      "place",
+      "rotate",
+      "tool",
+      "weather",
+      "letters",
+      "compose",
+      "release",
+      "reset",
+      "pick",
+      "wind",
+      "wind-end",
+      "type",
+      "move",
+      "drop",
+      "catch",
+      "collision"
+    ],
+    "implementation": "仅发语义事件，不含音频实现；画布操作、控件操作、实际碰撞触发，拖动100–110ms、捕获140ms、碰撞200ms节流。"
+  },
+  "audioInstructions": "首次点按或拖动画面后启用声音；静音按钮关闭所有声音，开声音可恢复。重置保留静音选择，离开窗口停止声音。合成音色随操作材料、速度与位置变化。"
 }

@@ -60,7 +60,7 @@
       "ripples": 60,
       "devicePixelRatio": 2
     },
-    "audio": "none",
+    "audio": "original procedural WebAudio",
     "offline": true
   },
   "sources": [
@@ -80,11 +80,17 @@
     "copyright": "2026 Little Worlds / original Canvas implementation",
     "assets": "全部鱼、叶、水面纹理为代码原创绘制；无图片与字体文件；使用设备系统字体。"
   },
-  "notes": "真实输入记录、帧数与上限通过隐藏qa元素提供；无CDN、fetch、音频或外部资源。",
-  "audio": "none",
+  "notes": "真实输入记录、帧数与上限通过隐藏qa元素提供；无CDN、fetch或外部素材；声音由原创WebAudio合成。",
+  "audio": "original procedural WebAudio",
   "audioStatus": {
-    "selector": "#sound-status",
-    "text": "无声作品",
-    "interactive": false
-  }
+    "selector": "#mute",
+    "interactive": true,
+    "firstGestureUnlock": true,
+    "resetPreservesMute": true,
+    "blurStopsSound": true,
+    "maxVoices": 6,
+    "maxConnectedNodes": 26,
+    "outputProbe": "post-master AnalyserNode waveform RMS"
+  },
+  "audioInstructions": "首次点按或拖动画面后启用声音；静音按钮关闭所有声音，开声音可恢复。重置保留静音选择，离开窗口停止声音。合成音色随操作材料、速度与位置变化。"
 }

@@ -58,7 +58,7 @@
     "吹风连拖观察邻近枝条弯曲并回弹",
     "束成花束后拖动花头移栽",
     "修枝后再栽花",
-    "切季节、重置、无声状态与横竖尺寸切换"
+    "切季节、重置、声音与静音状态与横竖尺寸切换"
   ],
   "caps": {
     "plants": 100,
@@ -77,7 +77,7 @@
   "code_reuse": "None. Original procedural drawing and interaction code.",
   "asset_reuse": "None. No external images, fonts or audio.",
   "license": "MIT (original implementation); see LICENSE.txt",
-  "audio": "none",
+  "audio": "original procedural WebAudio",
   "testControls": [
     "#poppy",
     "#plant",
@@ -90,8 +90,14 @@
   ],
   "testNotes": "采花需点实际花头（花茎上端）；gather将花束插入右侧陶瓶，再move拖花头可逐枝重排。",
   "audioStatus": {
-    "selector": "#sound-status",
-    "text": "无声作品",
-    "interactive": false
-  }
+    "selector": "#mute",
+    "interactive": true,
+    "firstGestureUnlock": true,
+    "resetPreservesMute": true,
+    "blurStopsSound": true,
+    "maxVoices": 6,
+    "maxConnectedNodes": 26,
+    "outputProbe": "post-master AnalyserNode waveform RMS"
+  },
+  "audioInstructions": "首次点按或拖动画面后启用声音；静音按钮关闭所有声音，开声音可恢复。重置保留静音选择，离开窗口停止声音。合成音色随操作材料、速度与位置变化。"
 }

@@ -33,7 +33,7 @@
   },
   "sources": [],
   "license": "原创实现；未使用第三方许可素材",
-  "audio": "none",
+  "audio": "original procedural WebAudio",
   "testControls": [
     "#valley",
     "#corner",
@@ -44,10 +44,16 @@
     "#blank",
     "#undo"
   ],
-  "testNotes": "选择模式后使用画布实际鼠标或触摸拖动；移动端应避开底部工具栏，画面中央可操作。无声作品为非交互状态文字。两次reset不得清零累计计数。",
+  "testNotes": "选择模式后使用画布实际鼠标或触摸拖动；移动端应避开底部工具栏，画面中央可操作。声音为原创实时合成；静音按钮控制全部声音。两次reset不得清零累计计数。",
   "audioStatus": {
-    "selector": "#sound-status",
-    "text": "无声作品",
-    "interactive": false
-  }
+    "selector": "#mute",
+    "interactive": true,
+    "firstGestureUnlock": true,
+    "resetPreservesMute": true,
+    "blurStopsSound": true,
+    "maxVoices": 6,
+    "maxConnectedNodes": 26,
+    "outputProbe": "post-master AnalyserNode waveform RMS"
+  },
+  "audioInstructions": "首次点按或拖动画面后启用声音；静音按钮关闭所有声音，开声音可恢复。重置保留静音选择，离开窗口停止声音。合成音色随操作材料、速度与位置变化。"
 }

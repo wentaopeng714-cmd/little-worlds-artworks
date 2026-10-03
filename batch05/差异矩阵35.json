@@ -1,0 +1,496 @@
+[
+  {
+    "id": "A01",
+    "title": "黄铜星仪",
+    "visualSubject": "黄铜与氧化铜的动力雕塑",
+    "primaryMechanism": "啮合树传动、逆转、离合、抓取齿轮重组",
+    "differenceFromHistoryAndOtherWorks": "主体是传动关系；不沿用旧磁石舞/重力音符的吸力或降落",
+    "references": [
+      "https://www.arthurganson.com/thumbnails",
+      "https://www.johnedmark.com/rotating/"
+    ],
+    "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a01-brass-orrery/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a01-brass-orrery/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a01-brass-orrery.zip"
+  },
+  {
+    "id": "A02",
+    "title": "双摆绘谱",
+    "visualSubject": "暖纸与深多色摆迹",
+    "primaryMechanism": "拖摆锤、锁第二摆、耦合比、转纸、留页",
+    "differenceFromHistoryAndOtherWorks": "由双摆动力学留下运动轨迹；不复用字螺文字和织光线笔触",
+    "references": [
+      "https://www.exploratorium.edu/snacks/coupled-resonant-pendulums"
+    ],
+    "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a02-pendulum-score/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a02-pendulum-score/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a02-pendulum-score.zip"
+  },
+  {
+    "id": "A03",
+    "title": "张力虹膜",
+    "visualSubject": "虹彩弹性膜与浮起固定钉",
+    "primaryMechanism": "拉钉、敲击波、驻波模态叠加",
+    "differenceFromHistoryAndOtherWorks": "真正弹性波面；区别旧折纸山谷的折痕和声波水庭液面",
+    "references": [
+      "https://amhistory.si.edu/science/chladni.htm"
+    ],
+    "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a03-tension-membrane/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a03-tension-membrane/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a03-tension-membrane.zip"
+  },
+  {
+    "id": "A04",
+    "title": "翻叶潮阵",
+    "visualSubject": "双色实体翻叶阵列",
+    "primaryMechanism": "刷动180°翻面、固定叶片、连锁与错相传播",
+    "differenceFromHistoryAndOtherWorks": "可翻的片面与局部锁定；区别纱间网线叠层摩尔纹",
+    "references": [
+      "https://www.johnedmark.com/rotating/"
+    ],
+    "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a04-flip-leaf-array/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a04-flip-leaf-array/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a04-flip-leaf-array.zip"
+  },
+  {
+    "id": "A05",
+    "title": "棱镜关节",
+    "visualSubject": "大型切割晶体与黄铜接头",
+    "primaryMechanism": "关节展开、逐模块接装、全构架旋转",
+    "differenceFromHistoryAndOtherWorks": "实体3D模块装配；区别玻璃果园的散置玻璃物、B12矿壳刷尘",
+    "references": [
+      "https://www.johnedmark.com/space-packings/"
+    ],
+    "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a05-prism-joints/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a05-prism-joints/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a05-prism-joints.zip"
+  },
+  {
+    "id": "A06",
+    "title": "色谱唱片",
+    "visualSubject": "黑金属双盘与色谱刻槽",
+    "primaryMechanism": "双盘相位、按压刻槽、扫描条、锁相",
+    "differenceFromHistoryAndOtherWorks": "主角是衍射光学相位；B08以大封套编辑为主且移除scratch",
+    "references": [
+      "https://www.exploratorium.edu/snacks/cd-spectroscope"
+    ],
+    "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a06-diffraction-records/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a06-diffraction-records/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a06-diffraction-records.zip"
+  },
+  {
+    "id": "A07",
+    "title": "气体的骨骼",
+    "visualSubject": "粉青玻璃辉光管雕塑",
+    "primaryMechanism": "弯管、充气、点火、分支、封闭循环",
+    "differenceFromHistoryAndOtherWorks": "粗玻璃内发光充气；不做星网细丝切断修补种植",
+    "references": [
+      "https://olafureliasson.net/artwork/your-atmospheric-colour-atlas-2009/"
+    ],
+    "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a07-gaslight-sculpture/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a07-gaslight-sculpture/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a07-gaslight-sculpture.zip"
+  },
+  {
+    "id": "A08",
+    "title": "云的内侧",
+    "visualSubject": "奶油蓝层云体积标本",
+    "primaryMechanism": "雕孔、移动剖面、太阳散射、压缩",
+    "differenceFromHistoryAndOtherWorks": "有限云体雕刻剖面；区别旧天鹅绒星云的粒子背景",
+    "references": [
+      "https://olafureliasson.net/artwork/your-atmospheric-colour-atlas-2009/"
+    ],
+    "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a08-cloud-section/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a08-cloud-section/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a08-cloud-section.zip"
+  },
+  {
+    "id": "A09",
+    "title": "三层胶片放映室",
+    "visualSubject": "暖白投影板上的三片透明胶片",
+    "primaryMechanism": "选片、整层移动和镜像、滴墨、移灯",
+    "differenceFromHistoryAndOtherWorks": "实体透明层决定叠色投影；区别蓝晒曝光水洗与流体混色",
+    "references": [
+      "https://www.sfmoma.org/watch/laszlo-moholy-nagys-shadow-play/"
+    ],
+    "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a09-ink-film-projector/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a09-ink-film-projector/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a09-ink-film-projector.zip"
+  },
+  {
+    "id": "A10",
+    "title": "极光的褶皱",
+    "visualSubject": "紫绿极光帘与高空辉光",
+    "primaryMechanism": "拖基点、折叠展开、锋面与高度",
+    "differenceFromHistoryAndOtherWorks": "整体帘曲面形变；区别欧泊织机与纱网的交织线",
+    "references": [
+      "https://spaceplace.nasa.gov/aurora/en/"
+    ],
+    "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a10-aurora-front/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a10-aurora-front/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a10-aurora-front.zip"
+  },
+  {
+    "id": "A11",
+    "title": "色点交响",
+    "visualSubject": "彩点三维抽象雕塑",
+    "primaryMechanism": "按压挤出、聚团、展层、重编点群",
+    "differenceFromHistoryAndOtherWorks": "固定点云分层形态；无捏脸/人物资产",
+    "references": [
+      "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884"
+    ],
+    "technology": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a11-chromatic-choir/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a11-chromatic-choir/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a11-chromatic-choir.zip"
+  },
+  {
+    "id": "A12",
+    "title": "四色滚版",
+    "visualSubject": "四色独立印版与套封纸",
+    "primaryMechanism": "拖套准、滚压显影、擦版留白、换版",
+    "differenceFromHistoryAndOtherWorks": "CMYK独立套准；区别旧地形等高线刻版/菌纹生长印花",
+    "references": [
+      "https://en.wikipedia.org/wiki/CMYK_color_model",
+      "https://www.metmuseum.org/art/collection/search/336482"
+    ],
+    "technology": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a12-four-colour-press/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a12-four-colour-press/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a12-four-colour-press.zip"
+  },
+  {
+    "id": "A13",
+    "title": "单面虹带",
+    "visualSubject": "柔光莫比乌斯宽实体色带",
+    "primaryMechanism": "扭数、宽度、切中缝、分带、铺展",
+    "differenceFromHistoryAndOtherWorks": "拓扑半扭曲面；不复用织线/纱网，区别糖带的碎裂熔炼",
+    "references": [
+      "https://www.mathcurve.com/surfaces.gb/mobius/mobius.shtml"
+    ],
+    "technology": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a13-single-sided-ribbon/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a13-single-sided-ribbon/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a13-single-sided-ribbon.zip"
+  },
+  {
+    "id": "A14",
+    "title": "珊瑚珐琅",
+    "visualSubject": "曲枝锥度珊瑚与珐琅亮面",
+    "primaryMechanism": "剪子枝、嫁接、钙化、转台",
+    "differenceFromHistoryAndOtherWorks": "三维枝骨编辑与材质发展；区别旧花园/风中花圃的种花导风",
+    "references": [
+      "https://oceanservice.noaa.gov/facts/coral.html",
+      "https://algorithmicbotany.org/papers/"
+    ],
+    "technology": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a14-enamel-corallium/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a14-enamel-corallium/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a14-enamel-corallium.zip"
+  },
+  {
+    "id": "A15",
+    "title": "悖论房间",
+    "visualSubject": "暖色透视房与棋盘地",
+    "primaryMechanism": "拖消失点、开合墙、折空间、吊体投影",
+    "differenceFromHistoryAndOtherWorks": "可变多空间透视；不复用昼夜小屋的居家昼夜场景",
+    "references": [
+      "https://mcescher.com/gallery/recognition-success/"
+    ],
+    "technology": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a15-paradox-chamber/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a15-paradox-chamber/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a15-paradox-chamber.zip"
+  },
+  {
+    "id": "B01",
+    "title": "糖纸档案",
+    "visualSubject": "金属透明糖纸的编辑档案",
+    "primaryMechanism": "拆封、压褶、扭封、压印、收藏",
+    "differenceFromHistoryAndOtherWorks": "包装材料的机械褶皱；不同于旧折纸剧场/山谷",
+    "references": [
+      "https://jamescandy.com/"
+    ],
+    "technology": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b01-sugar-archive/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b01-sugar-archive/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b01-sugar-archive.zip"
+  },
+  {
+    "id": "B02",
+    "title": "果冻切面",
+    "visualSubject": "暖光盘内多层凝胶甜品",
+    "primaryMechanism": "叠层、戳弹、倾盘、切面分离、装饰",
+    "differenceFromHistoryAndOtherWorks": "固体弹性层与剖面；不复用流彩池/颜料潮汐流动",
+    "references": [
+      "https://shop.bompasandparr.com/products/copy-of-jelly-with-bompas-parr"
+    ],
+    "technology": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b02-jelly-slice/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b02-jelly-slice/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b02-jelly-slice.zip"
+  },
+  {
+    "id": "B03",
+    "title": "色棒印记",
+    "visualSubject": "黄铜镜台与色棒厚痕",
+    "primaryMechanism": "描画、唇印、金箔纹、擦拭、成册",
+    "differenceFromHistoryAndOtherWorks": "厚印痕编辑；没有捏脸角色，没有菌纹自动生长",
+    "references": [
+      "https://www.dior.com/en_sa/beauty/products/rouge-dior-Y0356009.html",
+      "https://www.lisaeldridge.com/collections/true-velvet-lip-colour"
+    ],
+    "technology": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b03-rouge-impressions/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b03-rouge-impressions/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b03-rouge-impressions.zip"
+  },
+  {
+    "id": "B04",
+    "title": "奶沫练习室",
+    "visualSubject": "陶瓷杯与连续奶沫曲线",
+    "primaryMechanism": "浇奶、针拖花、旋杯、撒粉、双杯陈列",
+    "differenceFromHistoryAndOtherWorks": "受杯容器约束的泡沫拉花；不同于无边颜料潮汐",
+    "references": [
+      "https://espressovivace.com/latte-art-gallery/"
+    ],
+    "technology": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b04-foam-studio/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b04-foam-studio/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b04-foam-studio.zip"
+  },
+  {
+    "id": "B05",
+    "title": "丝绒珠匣",
+    "visualSubject": "暗绿丝绒上的珠饰",
+    "primaryMechanism": "落珠、拖排、穿环、扣合、展陈灯",
+    "differenceFromHistoryAndOtherWorks": "离散实物首饰构件闭合；不同于欧泊织机的连续纤维",
+    "references": [
+      "https://the-collection.vancleefarpels.com/en/collection/creations/"
+    ],
+    "technology": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b05-velvet-jewels/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b05-velvet-jewels/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b05-velvet-jewels.zip"
+  },
+  {
+    "id": "B06",
+    "title": "皂石切片",
+    "visualSubject": "乳白矿层皂与嵌彩皂片",
+    "primaryMechanism": "切层、镶料、压花、泡沫擦洗",
+    "differenceFromHistoryAndOtherWorks": "切片揭露块体内部；区别色釉窑表面上釉",
+    "references": [
+      "https://haruharustudio.com/products/ondo-body-soap-apple-sage"
+    ],
+    "technology": "Canvas 2D + original procedural Web Audio; local-only assets",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b06-soap-strata/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b06-soap-strata/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b06-soap-strata.zip"
+  },
+  {
+    "id": "B07",
+    "title": "香气试映室",
+    "visualSubject": "冷暖玻璃香瓶与彩香雾",
+    "primaryMechanism": "三香混喷、旋瓶遮光、纸签采样、清风",
+    "differenceFromHistoryAndOtherWorks": "局部香域随时间混合与采样；不复用旧星云粒子画笔",
+    "references": [
+      "https://www.rawpixel.com/image/13881895/perfume-light-leaks-bottle-cosmetics-glowing"
+    ],
+    "technology": "Canvas 2D + original procedural Web Audio; local-only assets",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b07-scent-cinema/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b07-scent-cinema/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b07-scent-cinema.zip"
+  },
+  {
+    "id": "B08",
+    "title": "唱片封面工房",
+    "visualSubject": "抽象印刷大封套与角落黑胶",
+    "primaryMechanism": "拖版、贴印、折页、翻版、声轨编排",
+    "differenceFromHistoryAndOtherWorks": "封套编辑是主体，黑胶仅声源；与A06径向光学刻槽明确不同",
+    "references": [
+      "https://www.architecturaldigest.com/story/josef-albers-album-covers-bezar"
+    ],
+    "technology": "Canvas 2D + original procedural Web Audio; local-only assets",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b08-record-atelier/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b08-record-atelier/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b08-record-atelier.zip"
+  },
+  {
+    "id": "B09",
+    "title": "糖光折炼",
+    "visualSubject": "多色渐变盘绕糖雕",
+    "primaryMechanism": "局部拉糖、结糖、敲碎、热熔重组",
+    "differenceFromHistoryAndOtherWorks": "熔炼仍保留多条糖雕；不同于A13的拓扑宽带",
+    "references": [
+      "https://pourlesgourmets.fr/sucre/47422-sucre-isomalt-le-magnifique--pot-de-1-kg"
+    ],
+    "technology": "Canvas 2D + original procedural Web Audio; local-only assets",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b09-sugar-ribbon/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b09-sugar-ribbon/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b09-sugar-ribbon.zip"
+  },
+  {
+    "id": "B10",
+    "title": "绳结染布",
+    "visualSubject": "分区染布与束结留白",
+    "primaryMechanism": "结点束缚、分区染色、展开、再折重染",
+    "differenceFromHistoryAndOtherWorks": "束结控制渗染留白；区别纱间摩尔纹、菌纹印花、蓝晒曝光",
+    "references": [
+      "https://www.vam.ac.uk/articles/kimono"
+    ],
+    "technology": "Canvas 2D + original procedural Web Audio; local-only assets",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b10-knot-dye/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b10-knot-dye/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b10-knot-dye.zip"
+  },
+  {
+    "id": "B11",
+    "title": "风的桌面",
+    "visualSubject": "薄荷风扇与丝绸长带静物",
+    "primaryMechanism": "扇轴局部风锥、挂点、夹带、放飞",
+    "differenceFromHistoryAndOtherWorks": "局部锥形气流方向/衰减；C03为滑轮和衣物附着重挂",
+    "references": [
+      "https://www.creativeboom.com/news/rainbow-ribbons/"
+    ],
+    "technology": "Canvas 2D + original Web Audio synthesis, fully local",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b11-wind-desk/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b11-wind-desk/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b11-wind-desk.zip"
+  },
+  {
+    "id": "B12",
+    "title": "晶壳标本室",
+    "visualSubject": "深蓝展柜与多色矿石",
+    "primaryMechanism": "局部敲晶壳、刷尘、转光、装柜",
+    "differenceFromHistoryAndOtherWorks": "矿壳揭露、表面尘层；不复用玻璃果园/A05关节装配",
+    "references": [
+      "https://australian.museum/exhibition/minerals/"
+    ],
+    "technology": "Canvas 2D + original Web Audio synthesis, fully local",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b12-crystal-cabinet/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b12-crystal-cabinet/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b12-crystal-cabinet.zip"
+  },
+  {
+    "id": "B13",
+    "title": "晨光吐司拼贴",
+    "visualSubject": "奶油餐盘与果实吐司拼贴",
+    "primaryMechanism": "多酱涂抹、摆水果、烤纹、实际位移切拼",
+    "differenceFromHistoryAndOtherWorks": "厚酱和食物剪拼构图；不同于B02的弹性凝胶剖面",
+    "references": [
+      "https://www.donnahay.com.au/recipes/breakfast"
+    ],
+    "technology": "Canvas 2D + original Web Audio synthesis, fully local",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b13-breakfast-collage/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b13-breakfast-collage/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b13-breakfast-collage.zip"
+  },
+  {
+    "id": "B14",
+    "title": "蝶翅邮局",
+    "visualSubject": "暖纸收藏页与原创蝶邮票",
+    "primaryMechanism": "取票、镂孔、盖章、翻页、摆阵",
+    "differenceFromHistoryAndOtherWorks": "离散藏票页编辑；不复用纸幕剧场折纸表演",
+    "references": [
+      "https://store.usps.com/store/stamps"
+    ],
+    "technology": "Canvas 2D + original Web Audio synthesis, fully local",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b14-butterfly-post/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b14-butterfly-post/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b14-butterfly-post.zip"
+  },
+  {
+    "id": "B15",
+    "title": "雨窗夜刊",
+    "visualSubject": "墨蓝雨窗与原创霓虹城市",
+    "primaryMechanism": "擦雾、开窗、移窗格、灯牌和时段",
+    "differenceFromHistoryAndOtherWorks": "雾层遮挡/窗体开合；不复用字雨文字降落/镜港镜像",
+    "references": [
+      "https://www.saulleiterfoundation.org/color"
+    ],
+    "technology": "Canvas 2D + original Web Audio synthesis, fully local",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b15-neon-window/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b15-neon-window/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b15-neon-window.zip"
+  },
+  {
+    "id": "C01",
+    "title": "慢城电车",
+    "visualSubject": "柔色城图与小电车",
+    "primaryMechanism": "岔道拓扑、拖车站改轨、快慢、装卸",
+    "differenceFromHistoryAndOtherWorks": "持续交通路径玩具；不是C02模块机械装配，也非旧镜港",
+    "references": [
+      "https://blog.railwaymuseum.org.uk/network-rail-team-provides-tlc-museum-icon/"
+    ],
+    "technology": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c01-pocket-tram/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c01-pocket-tram/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c01-pocket-tram.zip"
+  },
+  {
+    "id": "C02",
+    "title": "星际维修坞",
+    "visualSubject": "深蓝维修坞与几何船件",
+    "primaryMechanism": "六零件四插口、机械臂搬运、转船体、往返试飞",
+    "differenceFromHistoryAndOtherWorks": "模块机械装配；没有C01的线路、岔道、车站系统",
+    "references": [
+      "https://www.moma.org/artists/4163-bruno-munari"
+    ],
+    "technology": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c02-orbital-workshop/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c02-orbital-workshop/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c02-orbital-workshop.zip"
+  },
+  {
+    "id": "C03",
+    "title": "好风晾衣场",
+    "visualSubject": "纹样衣物与晴日小院",
+    "primaryMechanism": "滑轮升降、衣夹松落、取下与重挂、风摆",
+    "differenceFromHistoryAndOtherWorks": "夹取与附着、升降重挂；B11为方向性风锥丝绸实验",
+    "references": [
+      "https://www.vitra.com/en-us/product/wooden-dolls"
+    ],
+    "technology": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c03-good-wind-laundry/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c03-good-wind-laundry/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c03-good-wind-laundry.zip"
+  },
+  {
+    "id": "C04",
+    "title": "风递小邮局",
+    "visualSubject": "三色管道与彩信收件箱",
+    "primaryMechanism": "转阀路由、拖弯管线、风力、倒流、收回",
+    "differenceFromHistoryAndOtherWorks": "三路气流路由和循环彩信；区别字雨、交通电车",
+    "references": [
+      "https://www.moma.org/artists/4163-bruno-munari"
+    ],
+    "technology": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c04-airmail-house/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c04-airmail-house/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c04-airmail-house.zip"
+  },
+  {
+    "id": "C05",
+    "title": "关节朋友",
+    "visualSubject": "彩绘关节木人舞台",
+    "primaryMechanism": "拖受限手脚、四姿态记忆、连续插值、镜像和换舞台",
+    "differenceFromHistoryAndOtherWorks": "关节姿态编排与重放；区别旧纸幕剧场的纸材折叠光影",
+    "references": [
+      "https://www.vitra.com/en-us/product/wooden-dolls"
+    ],
+    "technology": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+    "independentHTML": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c05-kinetic-friend/index.html",
+    "page": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c05-kinetic-friend/",
+    "zip": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c05-kinetic-friend.zip"
+  }
+]

@@ -1,6 +1,3798 @@
 {
-  "stage": "35-final-offline-passed-public-B-pending",
-  "individualZipGroups": {
+  "status": "complete",
+  "publicIndividualPagesAndBrowserDownloads": {
+    "A": {
+      "groups": [
+        "A"
+      ],
+      "rows": [
+        {
+          "slug": "a01-brass-orrery",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a01-brass-orrery/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "2da5f84c36f45e4b64712e05826155ff164a828edf9cde7538b582ee28bd0bc1",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.007485131022099309,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "07e6277698b565235a1197f95291529e1a586c820551f3b32fde71b474646a94",
+          "zipEqual": true,
+          "filename": "a01-brass-orrery.zip",
+          "pass": true
+        },
+        {
+          "slug": "a02-pendulum-score",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a02-pendulum-score/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "4fe07eab3d9adf49c56ec38a7cb8780caa62118e1fc4c4834114d704b0422161",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.008116471987329872,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "95f23b6e722ff69fe01a1db6ceb473be6f61f91457fde9620f2fb35c415fde0f",
+          "zipEqual": true,
+          "filename": "a02-pendulum-score.zip",
+          "pass": true
+        },
+        {
+          "slug": "a03-tension-membrane",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a03-tension-membrane/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "b5a033f0feec10146bf4a039925e1050e0e5830066b56a2c0c6a1867b28be2ae",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.007682496503526543,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "4d171046306f89546ee443f6055775626bc380186ca7740a1e15a7ff9cc14340",
+          "zipEqual": true,
+          "filename": "a03-tension-membrane.zip",
+          "pass": true
+        },
+        {
+          "slug": "a04-flip-leaf-array",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a04-flip-leaf-array/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "758ef0dc969a28fac7451d2bdafb200405715143db04131dd8169eb4d7c47284",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.0051636091215053245,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "35e44e665b8d7b2da3dd2a096da4c068a190efcc0421982a9ed28b738d969a5c",
+          "zipEqual": true,
+          "filename": "a04-flip-leaf-array.zip",
+          "pass": true
+        },
+        {
+          "slug": "a05-prism-joints",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a05-prism-joints/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "91052aa51a195009508b6463690e93c88ae7593307c45d30f09fe7459425f198",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005561747633780196,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "279da020a34332da0978877f1c40feefeb7ef2037e3453ad2ca56b11c0fa758a",
+          "zipEqual": true,
+          "filename": "a05-prism-joints.zip",
+          "pass": true
+        },
+        {
+          "slug": "a06-diffraction-records",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a06-diffraction-records/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "7a57735942f848466a82a75a0a0a9fe69ec0d29bb93cc711e2f0db8df92a6beb",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.00558012855950955,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "054ad1088f7243a6685b41b9b05b85e77fb85540866c0d76ecb46446d8afc919",
+          "zipEqual": true,
+          "filename": "a06-diffraction-records.zip",
+          "pass": true
+        },
+        {
+          "slug": "a07-gaslight-sculpture",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a07-gaslight-sculpture/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "3e5649c64d783d6522c1cffd1fd83cde2b73382367cf7d0e7ac807f0f4b7f847",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005986389839858566,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "11bc110882fa7ed70225a036b9aae131481bd5535ad9dfe6be4c773305b56c7e",
+          "zipEqual": true,
+          "filename": "a07-gaslight-sculpture.zip",
+          "pass": true
+        },
+        {
+          "slug": "a08-cloud-section",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a08-cloud-section/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "2eae26f06bf3b6382697d34070acf7980fc63a62215a0264822f20d18b81dbad",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.006165054739257208,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "5a162536d90cd7f7b97a040e592d23c37e153753e09d21a48d5d7aaae48245cb",
+          "zipEqual": true,
+          "filename": "a08-cloud-section.zip",
+          "pass": true
+        },
+        {
+          "slug": "a09-ink-film-projector",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a09-ink-film-projector/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "fc731349d9a838818d99a8747ee005bddc5813b751ed45ca37bf0a0c119dc905",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005559815967194845,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "68b2e3e5c63462948db3073603caed2b3bec33194ba956948a417c9972d14b2d",
+          "zipEqual": true,
+          "filename": "a09-ink-film-projector.zip",
+          "pass": true
+        },
+        {
+          "slug": "a10-aurora-front",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a10-aurora-front/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "ed1d6c1b8c3c19e6d0459d7d4271f857d50a6d69481c9c9a45e7f91435c63405",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.006366471436621247,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "b791ff0e0544c75e9f95c46500579fe4dc19bcd5e6a3c02e7007d1acc80131ac",
+          "zipEqual": true,
+          "filename": "a10-aurora-front.zip",
+          "pass": true
+        },
+        {
+          "slug": "a11-chromatic-choir",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a11-chromatic-choir/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "2a9e6da4a7823189cd95bde60d8410a5c08b4e2bc55c907a1513fc63a362d57b",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005303993127785251,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "c976918bad5ae07e7b6910e4917d04f731a2cc44ef02203d6f67fae2ee852e82",
+          "zipEqual": true,
+          "filename": "a11-chromatic-choir.zip",
+          "pass": true
+        },
+        {
+          "slug": "a12-four-colour-press",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a12-four-colour-press/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "6b2e9d102b45d94736b758e20a2fd42faa601bd4b042cd0c5f712322c8ec1761",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 2,
+            "peakVoices": 2,
+            "nodeCount": 6,
+            "nodeLimit": 26,
+            "rms": 0.005782895692668298,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 2,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 2,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "downloadSha": "5ec5bd06f5947f69a03a91c04f3b1199252afe6f3bde32c56cb3d518c10bdddf",
+          "zipEqual": true,
+          "filename": "a12-four-colour-press.zip",
+          "pass": true
+        },
+        {
+          "slug": "a13-single-sided-ribbon",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a13-single-sided-ribbon/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "7a4aee3968f914d0a5779e8eb2756d92a9dd7a7114bb3e6ad1ff8fc8a5029a6d",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 2,
+            "peakVoices": 2,
+            "nodeCount": 6,
+            "nodeLimit": 26,
+            "rms": 0.005247807161415273,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 2,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 2,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "downloadSha": "653727b998eed69ad8568ce180454d2ee57b38d8fb37205041bbe71a8a7c65e5",
+          "zipEqual": true,
+          "filename": "a13-single-sided-ribbon.zip",
+          "pass": true
+        },
+        {
+          "slug": "a14-enamel-corallium",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a14-enamel-corallium/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "b08af270de9ebbf654d9c2ecf9314833d9d34cdb8f295a1ae3baa0fcee1bd12b",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 2,
+            "peakVoices": 2,
+            "nodeCount": 6,
+            "nodeLimit": 26,
+            "rms": 0.008134814484781303,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 2,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 2,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "downloadSha": "b17e64916be148393c96c6706e57b94caa8b26d25de88637edfdc8fddbe2a27c",
+          "zipEqual": true,
+          "filename": "a14-enamel-corallium.zip",
+          "pass": true
+        },
+        {
+          "slug": "a15-paradox-chamber",
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a15-paradox-chamber/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "p5.min.js",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "c8a2de3ffa2a759760b40c194ff582fd021b8bc40b2b46c19a0795b354c2c880",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 2,
+            "peakVoices": 2,
+            "nodeCount": 6,
+            "nodeLimit": 26,
+            "rms": 0.0056055561952169635,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 2,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 2,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 0
+          },
+          "downloadSha": "3a440747ea4fb05a05392895e066cbc8a0463f49b1ea6b5224ec30c9262752cc",
+          "zipEqual": true,
+          "filename": "a15-paradox-chamber.zip",
+          "pass": true
+        }
+      ],
+      "groupReports": [
+        {
+          "group": "A",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a/",
+          "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/batch05-A-p5-art.zip",
+          "actualBrowserDownload": true,
+          "zipEqual": true,
+          "zipSha256": "ad3e1297e84f2b61bff1659e64586b8f72c0eed8180380d59a9f62026c275603"
+        }
+      ],
+      "pass": true,
+      "audioMethod": "Production post-master analyser RMS; humanListening=false, physicalPhone=false",
+      "checkedAt": "2026-10-03T18:40:06.288Z"
+    },
+    "B": {
+      "groups": [
+        "B"
+      ],
+      "rows": [
+        {
+          "slug": "b01-sugar-archive",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b01-sugar-archive/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "019c517279ee2722829a8b51cf2e7befe181fbab123f8ede3b36e5c5ac06d69b",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.007055152227865246,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "c9654f2bc674235e5056852b675509f56503e56704cb892ca786b97bdfc1e234",
+          "zipEqual": true,
+          "filename": "b01-sugar-archive.zip",
+          "pass": true
+        },
+        {
+          "slug": "b02-jelly-slice",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b02-jelly-slice/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "1598409e3626d79175cb61d557c4a3c7574fa0b3becda313485129bc037b211e",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.007222621584625629,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "20cf034340fae788c13d37748d7d02b7f6782c487e6a780f625776af69557137",
+          "zipEqual": true,
+          "filename": "b02-jelly-slice.zip",
+          "pass": true
+        },
+        {
+          "slug": "b03-rouge-impressions",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b03-rouge-impressions/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "9b7f2ca5712583ba29cb0c7df92ccc45f6a11e014fe975d837cf868d2ddeffe0",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.007386926478921574,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "2b6d5fd23f8d1c11d49d024fb79b451bc349ce4b09507ed491e836a5e81a131f",
+          "zipEqual": true,
+          "filename": "b03-rouge-impressions.zip",
+          "pass": true
+        },
+        {
+          "slug": "b04-foam-studio",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b04-foam-studio/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "5d440f076f2140edb4a2eee64ed4c7649e79be686e802780193bd6197dc9af5a",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 2,
+            "peakVoices": 3,
+            "nodeCount": 6,
+            "nodeLimit": 26,
+            "rms": 0.005224008881100251,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "bf2d6783f438872bb4792be310f9a8eeb87b0d1d43beb57b654e3a2bb1574d95",
+          "zipEqual": true,
+          "filename": "b04-foam-studio.zip",
+          "pass": true
+        },
+        {
+          "slug": "b05-velvet-jewels",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b05-velvet-jewels/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "1a4c221127b48ea841f635c1bf00ade7c2ddb32e50b76a6f888cd4fb084f9792",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 2,
+            "peakVoices": 3,
+            "nodeCount": 6,
+            "nodeLimit": 26,
+            "rms": 0.005718389772471214,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "621cb6ad5f3076423e0f8c65b85d44a1e5c89d6d778886a3229353d2a62f89be",
+          "zipEqual": true,
+          "filename": "b05-velvet-jewels.zip",
+          "pass": true
+        },
+        {
+          "slug": "b06-soap-strata",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b06-soap-strata/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "370ebed16b1812bf29053e87bd27ae02bd3be12b4af2fc0e0bdd42a2afd776c8",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005361644385208164,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "945792333592ed1269f0403e6838847934ef8a82b9ba2f0e51f4cf4890a07c4a",
+          "zipEqual": true,
+          "filename": "b06-soap-strata.zip",
+          "pass": true
+        },
+        {
+          "slug": "b07-scent-cinema",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b07-scent-cinema/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "356fc299c9d37cd973c54428cc88eeda60a9ca6ef8ad098f31ab0d083d6d5c28",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005878264822656175,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "da22059aef0ff6ff59e4db8bba5e09c1fd5df0fa496a43cdfa43b8eec3cc5cf6",
+          "zipEqual": true,
+          "filename": "b07-scent-cinema.zip",
+          "pass": true
+        },
+        {
+          "slug": "b08-record-atelier",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b08-record-atelier/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "c0f933b39d80b8c1e0c4bc5039a0021afd5d395dad195f4caca0c8e6bbccb72f",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005598503415426209,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "72d906d348770fac2a5a59922136718b05a53b3ec1677ad2096455549c9d7e65",
+          "zipEqual": true,
+          "filename": "b08-record-atelier.zip",
+          "pass": true
+        },
+        {
+          "slug": "b09-sugar-ribbon",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b09-sugar-ribbon/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "dbaea5200defc7d848b10ee6917ad7dcd45cda779826341ff759a5ffe11975e5",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005678024911608043,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "7c799950b54020b7cdb76b1fe66c63f3f51d91456a06b863466f5c49332ebbce",
+          "zipEqual": true,
+          "filename": "b09-sugar-ribbon.zip",
+          "pass": true
+        },
+        {
+          "slug": "b10-knot-dye",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b10-knot-dye/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "runtime.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "1074170f33b7d2e2b9a698ddfe79d9d336bc3472c78685fd4b67f596524d9bbc",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005881169935522207,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "57fd863560c63cb99ac70ff8c0efc0c9247ed5051ac9da2db2850f379f550022",
+          "zipEqual": true,
+          "filename": "b10-knot-dye.zip",
+          "pass": true
+        },
+        {
+          "slug": "b11-wind-desk",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b11-wind-desk/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "68f57dc7e9b1de995092cffb3bc89b8e03766f9123556d87a7d6703e5e489b23",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005583941107757393,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "95c019af3326c87016b2d84479178961409cca3677e25cd248e8d2b927368a0e",
+          "zipEqual": true,
+          "filename": "b11-wind-desk.zip",
+          "pass": true
+        },
+        {
+          "slug": "b12-crystal-cabinet",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b12-crystal-cabinet/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "873f2a696f34e34cbe38826411a26ec02e9ace470b2cab17fc98f30cd551fcb0",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.006023405730125637,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "fc49f559c908fd96d77df3f0a259572dc071d37b97c8b67b38cd2bd84aa6a686",
+          "zipEqual": true,
+          "filename": "b12-crystal-cabinet.zip",
+          "pass": true
+        },
+        {
+          "slug": "b13-breakfast-collage",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b13-breakfast-collage/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "25d6f9005ccdb50ec176dc242315f2dec656ee45fe1bd64291bd2f6823ec61c2",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 2,
+            "peakVoices": 3,
+            "nodeCount": 6,
+            "nodeLimit": 26,
+            "rms": 0.0050824984661134625,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "a91b3edf9a5f9a7b66f45a572f5b4438a03c31fcbc6fb4b6303be1244f611f32",
+          "zipEqual": true,
+          "filename": "b13-breakfast-collage.zip",
+          "pass": true
+        },
+        {
+          "slug": "b14-butterfly-post",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b14-butterfly-post/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "1a1a562fb1bde03e12abc2a36fff917eae7770b3940b2fa35b8261394b45a36e",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005118370400229936,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "0d13dd4a3d464614ae8c157126c43c892e602422baa29086c859c417e0a79e9d",
+          "zipEqual": true,
+          "filename": "b14-butterfly-post.zip",
+          "pass": true
+        },
+        {
+          "slug": "b15-neon-window",
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b15-neon-window/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "art.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "fc48430bebaf9114ccef16a2e38aa0f2bdd0aa56b26c06176a9e9d07bd394264",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 2,
+            "peakVoices": 3,
+            "nodeCount": 6,
+            "nodeLimit": 26,
+            "rms": 0.005347357883978675,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "f5f3bc86f0763d404b2233011561ccb8f98de51b327c13e91ff5e08a12dc8130",
+          "zipEqual": true,
+          "filename": "b15-neon-window.zip",
+          "pass": true
+        }
+      ],
+      "groupReports": [
+        {
+          "group": "B",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b/",
+          "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/batch05-B-material-art.zip",
+          "actualBrowserDownload": true,
+          "zipEqual": true,
+          "zipSha256": "42b0a71fc35a75398500e497129d1f543314886b904abcd284f0119d62f08e3c"
+        }
+      ],
+      "pass": true,
+      "audioMethod": "Production post-master analyser RMS; humanListening=false, physicalPhone=false",
+      "checkedAt": "2026-10-03T18:47:19.162Z"
+    },
+    "C": {
+      "groups": [
+        "C"
+      ],
+      "rows": [
+        {
+          "slug": "c01-pocket-tram",
+          "group": "C",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c01-pocket-tram/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "common.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "config.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "1c82de990a8f328913872e9d4c41b378c40449b8c6ddeb350b75a4418f4b65d4",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.0053440340822102205,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "73ce6f5f912d040c758ef1b5156cb7a16b1e942e20632d119692246d1cda63ee",
+          "zipEqual": true,
+          "filename": "c01-pocket-tram.zip",
+          "pass": true
+        },
+        {
+          "slug": "c02-orbital-workshop",
+          "group": "C",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c02-orbital-workshop/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "common.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "config.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "30755067f307ec529f108b52f60b58af5fcad5efef081b6badd538183421e5ca",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.006360764357871332,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "50c2e135bcee989e2a63fa060dc721329c5b6b496e8fb8b86ac4039d483d3838",
+          "zipEqual": true,
+          "filename": "c02-orbital-workshop.zip",
+          "pass": true
+        },
+        {
+          "slug": "c03-good-wind-laundry",
+          "group": "C",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c03-good-wind-laundry/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "common.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "config.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "b1554b638ba22e2e8c5138a883d94b2a70d53aaa18a16a67764b6f0477a347c0",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005317834165824622,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "df8960000f3f21718795630f18367d57caceb82e58af68ab87ca7da957747e7c",
+          "zipEqual": true,
+          "filename": "c03-good-wind-laundry.zip",
+          "pass": true
+        },
+        {
+          "slug": "c04-airmail-house",
+          "group": "C",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c04-airmail-house/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "common.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "config.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "7992fb9f82e929c41087549de44851734c62f54406605448623b8a3ba66da4d8",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005154418951400382,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "0e07cd29920606c8fdbfe1cf573d6afa717debf736fa1e2b3bf4b103a90c451b",
+          "zipEqual": true,
+          "filename": "c04-airmail-house.zip",
+          "pass": true
+        },
+        {
+          "slug": "c05-kinetic-friend",
+          "group": "C",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c05-kinetic-friend/",
+          "errors": [],
+          "consoleErrors": [],
+          "files": [
+            {
+              "path": "app.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "audio.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "base.css",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "common.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "config.js",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "index.html",
+              "status": 200,
+              "equal": true
+            },
+            {
+              "path": "style.css",
+              "status": 200,
+              "equal": true
+            }
+          ],
+          "clickDownload": true,
+          "pageStatus": 200,
+          "htmlSha256": "e5df82b91523bdf42d071086ec84f5cba7d5e74c393b6ca6a4965210c21a7af7",
+          "htmlEqual": true,
+          "active": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 3,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.005740961028663732,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "muted": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "mutedReset": {
+            "state": "running",
+            "unlocked": true,
+            "muted": true,
+            "paused": false,
+            "voices": 0,
+            "peakVoices": 3,
+            "nodeCount": 2,
+            "nodeLimit": 26,
+            "rms": 0,
+            "errors": 0,
+            "musicNotes": 2,
+            "fxNotes": 1
+          },
+          "downloadSha": "7f0b9f1c5a3cef38b640365d2512baa2f557fda8865d8ebfc8894b48c4161d6b",
+          "zipEqual": true,
+          "filename": "c05-kinetic-friend.zip",
+          "pass": true
+        }
+      ],
+      "groupReports": [
+        {
+          "group": "C",
+          "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c/",
+          "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/batch05-C-flat-toys.zip",
+          "actualBrowserDownload": true,
+          "zipEqual": true,
+          "zipSha256": "909cc051b44cdac754bb7f2dbe71eb106f2d2db22e7cf66df48c00097b6bbd38"
+        }
+      ],
+      "pass": true,
+      "audioMethod": "Production post-master analyser RMS; humanListening=false, physicalPhone=false",
+      "checkedAt": "2026-10-03T18:34:43.768Z"
+    }
+  },
+  "finalPublicAggregateAndHistoricalPreservation": {
+    "downloads": [
+      {
+        "name": "batch05-A-p5-art.zip",
+        "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/batch05-A-p5-art.zip",
+        "actualBrowserClick": true,
+        "status": "downloaded",
+        "suggestedFilename": "batch05-A-p5-art.zip",
+        "sha256": "4e39749a9c170a246d26e39c9035ab1fee51dd06ee310533d766ef435f36a6bd",
+        "localBytesEqual": true
+      },
+      {
+        "name": "batch05-B-material-art.zip",
+        "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/batch05-B-material-art.zip",
+        "actualBrowserClick": true,
+        "status": "downloaded",
+        "suggestedFilename": "batch05-B-material-art.zip",
+        "sha256": "42b0a71fc35a75398500e497129d1f543314886b904abcd284f0119d62f08e3c",
+        "localBytesEqual": true
+      },
+      {
+        "name": "batch05-C-flat-toys.zip",
+        "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/batch05-C-flat-toys.zip",
+        "actualBrowserClick": true,
+        "status": "downloaded",
+        "suggestedFilename": "batch05-C-flat-toys.zip",
+        "sha256": "d1c1395eca0e2f1500ba8661f1eaf485d9904a6fd9db8b48b98012fd47d391c1",
+        "localBytesEqual": true
+      },
+      {
+        "name": "batch05-all-35.zip",
+        "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/batch05-all-35.zip",
+        "actualBrowserClick": true,
+        "status": "downloaded",
+        "suggestedFilename": "batch05-all-35.zip",
+        "sha256": "ed0278596083478d09c7c3693e7f9df8b598e345019b230cf8b62c69502cc9de",
+        "localBytesEqual": true
+      }
+    ],
+    "historicalPages": [
+      {
+        "path": "index.html",
+        "status": 200,
+        "unchanged": true
+      },
+      {
+        "path": "batch03/index.html",
+        "status": 200,
+        "unchanged": true
+      },
+      {
+        "path": "batch04/index.html",
+        "status": 200,
+        "unchanged": true
+      }
+    ],
+    "gallery": {
+      "status": 200,
+      "sourceEqual": true
+    },
+    "pass": true,
+    "manifest": {
+      "status": 200,
+      "sourceEqual": true
+    },
+    "changedFiles": [
+      "batch05/a/index.html",
+      "batch05/a01-brass-orrery.zip",
+      "batch05/a01-brass-orrery/app.js",
+      "batch05/a01-brass-orrery/audio.js",
+      "batch05/a01-brass-orrery/files-sha256.json",
+      "batch05/a01-brass-orrery/index.html",
+      "batch05/a01-brass-orrery/metadata.json",
+      "batch05/a01-brass-orrery/p5-LICENSE.txt",
+      "batch05/a01-brass-orrery/p5.min.js",
+      "batch05/a01-brass-orrery/preview-desktop.png",
+      "batch05/a01-brass-orrery/preview-mobile.png",
+      "batch05/a01-brass-orrery/style.css",
+      "batch05/a01-brass-orrery/verification/desktop-qa.json",
+      "batch05/a01-brass-orrery/verification/mobile-qa.json",
+      "batch05/a01-brass-orrery/verification/offline-zip.json",
+      "batch05/a01-brass-orrery/技术与权利.txt",
+      "batch05/a01-brass-orrery/来源与许可.json",
+      "batch05/a01-brass-orrery/测试报告.md",
+      "batch05/a01-brass-orrery/说明.txt",
+      "batch05/a01-brass-orrery/验证边界.txt",
+      "batch05/a02-pendulum-score.zip",
+      "batch05/a02-pendulum-score/app.js",
+      "batch05/a02-pendulum-score/audio.js",
+      "batch05/a02-pendulum-score/files-sha256.json",
+      "batch05/a02-pendulum-score/index.html",
+      "batch05/a02-pendulum-score/metadata.json",
+      "batch05/a02-pendulum-score/p5-LICENSE.txt",
+      "batch05/a02-pendulum-score/p5.min.js",
+      "batch05/a02-pendulum-score/preview-desktop.png",
+      "batch05/a02-pendulum-score/preview-mobile.png",
+      "batch05/a02-pendulum-score/style.css",
+      "batch05/a02-pendulum-score/verification/desktop-qa.json",
+      "batch05/a02-pendulum-score/verification/mobile-qa.json",
+      "batch05/a02-pendulum-score/verification/offline-zip.json",
+      "batch05/a02-pendulum-score/技术与权利.txt",
+      "batch05/a02-pendulum-score/来源与许可.json",
+      "batch05/a02-pendulum-score/测试报告.md",
+      "batch05/a02-pendulum-score/说明.txt",
+      "batch05/a02-pendulum-score/验证边界.txt",
+      "batch05/a03-tension-membrane.zip",
+      "batch05/a03-tension-membrane/app.js",
+      "batch05/a03-tension-membrane/audio.js",
+      "batch05/a03-tension-membrane/files-sha256.json",
+      "batch05/a03-tension-membrane/index.html",
+      "batch05/a03-tension-membrane/metadata.json",
+      "batch05/a03-tension-membrane/p5-LICENSE.txt",
+      "batch05/a03-tension-membrane/p5.min.js",
+      "batch05/a03-tension-membrane/preview-desktop.png",
+      "batch05/a03-tension-membrane/preview-mobile.png",
+      "batch05/a03-tension-membrane/style.css",
+      "batch05/a03-tension-membrane/verification/desktop-qa.json",
+      "batch05/a03-tension-membrane/verification/mobile-qa.json",
+      "batch05/a03-tension-membrane/verification/offline-zip.json",
+      "batch05/a03-tension-membrane/技术与权利.txt",
+      "batch05/a03-tension-membrane/来源与许可.json",
+      "batch05/a03-tension-membrane/测试报告.md",
+      "batch05/a03-tension-membrane/说明.txt",
+      "batch05/a03-tension-membrane/验证边界.txt",
+      "batch05/a04-flip-leaf-array.zip",
+      "batch05/a04-flip-leaf-array/app.js",
+      "batch05/a04-flip-leaf-array/audio.js",
+      "batch05/a04-flip-leaf-array/files-sha256.json",
+      "batch05/a04-flip-leaf-array/index.html",
+      "batch05/a04-flip-leaf-array/metadata.json",
+      "batch05/a04-flip-leaf-array/p5-LICENSE.txt",
+      "batch05/a04-flip-leaf-array/p5.min.js",
+      "batch05/a04-flip-leaf-array/preview-desktop.png",
+      "batch05/a04-flip-leaf-array/preview-mobile.png",
+      "batch05/a04-flip-leaf-array/style.css",
+      "batch05/a04-flip-leaf-array/verification/desktop-qa.json",
+      "batch05/a04-flip-leaf-array/verification/mobile-qa.json",
+      "batch05/a04-flip-leaf-array/verification/offline-zip.json",
+      "batch05/a04-flip-leaf-array/技术与权利.txt",
+      "batch05/a04-flip-leaf-array/来源与许可.json",
+      "batch05/a04-flip-leaf-array/测试报告.md",
+      "batch05/a04-flip-leaf-array/说明.txt",
+      "batch05/a04-flip-leaf-array/验证边界.txt",
+      "batch05/a05-prism-joints.zip",
+      "batch05/a05-prism-joints/app.js",
+      "batch05/a05-prism-joints/audio.js",
+      "batch05/a05-prism-joints/files-sha256.json",
+      "batch05/a05-prism-joints/index.html",
+      "batch05/a05-prism-joints/metadata.json",
+      "batch05/a05-prism-joints/p5-LICENSE.txt",
+      "batch05/a05-prism-joints/p5.min.js",
+      "batch05/a05-prism-joints/preview-desktop.png",
+      "batch05/a05-prism-joints/preview-mobile.png",
+      "batch05/a05-prism-joints/style.css",
+      "batch05/a05-prism-joints/verification/desktop-qa.json",
+      "batch05/a05-prism-joints/verification/mobile-qa.json",
+      "batch05/a05-prism-joints/verification/offline-zip.json",
+      "batch05/a05-prism-joints/技术与权利.txt",
+      "batch05/a05-prism-joints/来源与许可.json",
+      "batch05/a05-prism-joints/测试报告.md",
+      "batch05/a05-prism-joints/说明.txt",
+      "batch05/a05-prism-joints/验证边界.txt",
+      "batch05/a06-diffraction-records.zip",
+      "batch05/a06-diffraction-records/art.js",
+      "batch05/a06-diffraction-records/audio.js",
+      "batch05/a06-diffraction-records/base.css",
+      "batch05/a06-diffraction-records/index.html",
+      "batch05/a06-diffraction-records/metadata.json",
+      "batch05/a06-diffraction-records/p5-LICENSE.txt",
+      "batch05/a06-diffraction-records/p5.min.js",
+      "batch05/a06-diffraction-records/preview-desktop.png",
+      "batch05/a06-diffraction-records/preview-mobile.png",
+      "batch05/a06-diffraction-records/runtime.js",
+      "batch05/a06-diffraction-records/style.css",
+      "batch05/a06-diffraction-records/test-report.json",
+      "batch05/a06-diffraction-records/verification/a06-diffraction-records-desktop.json",
+      "batch05/a06-diffraction-records/verification/a06-diffraction-records-mobile.json",
+      "batch05/a06-diffraction-records/verification/a06-diffraction-records-offline-source.json",
+      "batch05/a06-diffraction-records/verification/a06-diffraction-records-touch-audio.json",
+      "batch05/a06-diffraction-records/技术与权利.txt",
+      "batch05/a06-diffraction-records/来源与许可.json",
+      "batch05/a06-diffraction-records/说明.txt",
+      "batch05/a06-diffraction-records/验证边界.txt",
+      "batch05/a07-gaslight-sculpture.zip",
+      "batch05/a07-gaslight-sculpture/art.js",
+      "batch05/a07-gaslight-sculpture/audio.js",
+      "batch05/a07-gaslight-sculpture/base.css",
+      "batch05/a07-gaslight-sculpture/index.html",
+      "batch05/a07-gaslight-sculpture/metadata.json",
+      "batch05/a07-gaslight-sculpture/p5-LICENSE.txt",
+      "batch05/a07-gaslight-sculpture/p5.min.js",
+      "batch05/a07-gaslight-sculpture/preview-desktop.png",
+      "batch05/a07-gaslight-sculpture/preview-mobile.png",
+      "batch05/a07-gaslight-sculpture/runtime.js",
+      "batch05/a07-gaslight-sculpture/style.css",
+      "batch05/a07-gaslight-sculpture/test-report.json",
+      "batch05/a07-gaslight-sculpture/verification/a07-gaslight-sculpture-desktop.json",
+      "batch05/a07-gaslight-sculpture/verification/a07-gaslight-sculpture-mobile.json",
+      "batch05/a07-gaslight-sculpture/verification/a07-gaslight-sculpture-offline-source.json",
+      "batch05/a07-gaslight-sculpture/verification/a07-gaslight-sculpture-touch-audio.json",
+      "batch05/a07-gaslight-sculpture/技术与权利.txt",
+      "batch05/a07-gaslight-sculpture/来源与许可.json",
+      "batch05/a07-gaslight-sculpture/说明.txt",
+      "batch05/a07-gaslight-sculpture/验证边界.txt",
+      "batch05/a08-cloud-section.zip",
+      "batch05/a08-cloud-section/art.js",
+      "batch05/a08-cloud-section/audio.js",
+      "batch05/a08-cloud-section/base.css",
+      "batch05/a08-cloud-section/index.html",
+      "batch05/a08-cloud-section/metadata.json",
+      "batch05/a08-cloud-section/p5-LICENSE.txt",
+      "batch05/a08-cloud-section/p5.min.js",
+      "batch05/a08-cloud-section/preview-desktop.png",
+      "batch05/a08-cloud-section/preview-mobile.png",
+      "batch05/a08-cloud-section/runtime.js",
+      "batch05/a08-cloud-section/style.css",
+      "batch05/a08-cloud-section/test-report.json",
+      "batch05/a08-cloud-section/verification/a08-cloud-section-desktop.json",
+      "batch05/a08-cloud-section/verification/a08-cloud-section-mobile.json",
+      "batch05/a08-cloud-section/verification/a08-cloud-section-offline-source.json",
+      "batch05/a08-cloud-section/verification/a08-cloud-section-touch-audio.json",
+      "batch05/a08-cloud-section/技术与权利.txt",
+      "batch05/a08-cloud-section/来源与许可.json",
+      "batch05/a08-cloud-section/说明.txt",
+      "batch05/a08-cloud-section/验证边界.txt",
+      "batch05/a09-ink-film-projector.zip",
+      "batch05/a09-ink-film-projector/art.js",
+      "batch05/a09-ink-film-projector/audio.js",
+      "batch05/a09-ink-film-projector/base.css",
+      "batch05/a09-ink-film-projector/index.html",
+      "batch05/a09-ink-film-projector/metadata.json",
+      "batch05/a09-ink-film-projector/p5-LICENSE.txt",
+      "batch05/a09-ink-film-projector/p5.min.js",
+      "batch05/a09-ink-film-projector/preview-desktop.png",
+      "batch05/a09-ink-film-projector/preview-mobile.png",
+      "batch05/a09-ink-film-projector/runtime.js",
+      "batch05/a09-ink-film-projector/style.css",
+      "batch05/a09-ink-film-projector/test-report.json",
+      "batch05/a09-ink-film-projector/verification/a09-ink-film-projector-desktop.json",
+      "batch05/a09-ink-film-projector/verification/a09-ink-film-projector-mobile.json",
+      "batch05/a09-ink-film-projector/verification/a09-ink-film-projector-offline-source.json",
+      "batch05/a09-ink-film-projector/verification/a09-ink-film-projector-touch-audio.json",
+      "batch05/a09-ink-film-projector/技术与权利.txt",
+      "batch05/a09-ink-film-projector/来源与许可.json",
+      "batch05/a09-ink-film-projector/说明.txt",
+      "batch05/a09-ink-film-projector/验证边界.txt",
+      "batch05/a10-aurora-front.zip",
+      "batch05/a10-aurora-front/art.js",
+      "batch05/a10-aurora-front/audio.js",
+      "batch05/a10-aurora-front/base.css",
+      "batch05/a10-aurora-front/index.html",
+      "batch05/a10-aurora-front/metadata.json",
+      "batch05/a10-aurora-front/p5-LICENSE.txt",
+      "batch05/a10-aurora-front/p5.min.js",
+      "batch05/a10-aurora-front/preview-desktop.png",
+      "batch05/a10-aurora-front/preview-mobile.png",
+      "batch05/a10-aurora-front/runtime.js",
+      "batch05/a10-aurora-front/style.css",
+      "batch05/a10-aurora-front/test-report.json",
+      "batch05/a10-aurora-front/verification/a10-aurora-front-desktop.json",
+      "batch05/a10-aurora-front/verification/a10-aurora-front-mobile.json",
+      "batch05/a10-aurora-front/verification/a10-aurora-front-offline-source.json",
+      "batch05/a10-aurora-front/verification/a10-aurora-front-touch-audio.json",
+      "batch05/a10-aurora-front/技术与权利.txt",
+      "batch05/a10-aurora-front/来源与许可.json",
+      "batch05/a10-aurora-front/说明.txt",
+      "batch05/a10-aurora-front/验证边界.txt",
+      "batch05/a11-chromatic-choir.zip",
+      "batch05/a11-chromatic-choir/art.js",
+      "batch05/a11-chromatic-choir/audio.js",
+      "batch05/a11-chromatic-choir/base.css",
+      "batch05/a11-chromatic-choir/index.html",
+      "batch05/a11-chromatic-choir/metadata.json",
+      "batch05/a11-chromatic-choir/p5-LICENSE.txt",
+      "batch05/a11-chromatic-choir/p5.min.js",
+      "batch05/a11-chromatic-choir/preview-desktop.png",
+      "batch05/a11-chromatic-choir/preview-mobile.png",
+      "batch05/a11-chromatic-choir/verification/desktop-test.json",
+      "batch05/a11-chromatic-choir/verification/mobile-test.json",
+      "batch05/a11-chromatic-choir/verification/offline-test.json",
+      "batch05/a11-chromatic-choir/verification/zip-integrity.json",
+      "batch05/a11-chromatic-choir/实测报告.txt",
+      "batch05/a11-chromatic-choir/技术与权利.txt",
+      "batch05/a11-chromatic-choir/来源与许可.json",
+      "batch05/a11-chromatic-choir/说明.txt",
+      "batch05/a11-chromatic-choir/验证边界.txt",
+      "batch05/a12-four-colour-press.zip",
+      "batch05/a12-four-colour-press/art.js",
+      "batch05/a12-four-colour-press/audio.js",
+      "batch05/a12-four-colour-press/base.css",
+      "batch05/a12-four-colour-press/index.html",
+      "batch05/a12-four-colour-press/metadata.json",
+      "batch05/a12-four-colour-press/p5-LICENSE.txt",
+      "batch05/a12-four-colour-press/p5.min.js",
+      "batch05/a12-four-colour-press/preview-desktop.png",
+      "batch05/a12-four-colour-press/preview-mobile.png",
+      "batch05/a12-four-colour-press/verification/desktop-test.json",
+      "batch05/a12-four-colour-press/verification/mobile-test.json",
+      "batch05/a12-four-colour-press/verification/offline-test.json",
+      "batch05/a12-four-colour-press/verification/zip-integrity.json",
+      "batch05/a12-four-colour-press/实测报告.txt",
+      "batch05/a12-four-colour-press/技术与权利.txt",
+      "batch05/a12-four-colour-press/来源与许可.json",
+      "batch05/a12-four-colour-press/说明.txt",
+      "batch05/a12-four-colour-press/验证边界.txt",
+      "batch05/a13-single-sided-ribbon.zip",
+      "batch05/a13-single-sided-ribbon/art.js",
+      "batch05/a13-single-sided-ribbon/audio.js",
+      "batch05/a13-single-sided-ribbon/base.css",
+      "batch05/a13-single-sided-ribbon/index.html",
+      "batch05/a13-single-sided-ribbon/metadata.json",
+      "batch05/a13-single-sided-ribbon/p5-LICENSE.txt",
+      "batch05/a13-single-sided-ribbon/p5.min.js",
+      "batch05/a13-single-sided-ribbon/preview-desktop.png",
+      "batch05/a13-single-sided-ribbon/preview-mobile.png",
+      "batch05/a13-single-sided-ribbon/verification/desktop-test.json",
+      "batch05/a13-single-sided-ribbon/verification/mobile-test.json",
+      "batch05/a13-single-sided-ribbon/verification/offline-test.json",
+      "batch05/a13-single-sided-ribbon/verification/zip-integrity.json",
+      "batch05/a13-single-sided-ribbon/实测报告.txt",
+      "batch05/a13-single-sided-ribbon/技术与权利.txt",
+      "batch05/a13-single-sided-ribbon/来源与许可.json",
+      "batch05/a13-single-sided-ribbon/说明.txt",
+      "batch05/a13-single-sided-ribbon/验证边界.txt",
+      "batch05/a14-enamel-corallium.zip",
+      "batch05/a14-enamel-corallium/art.js",
+      "batch05/a14-enamel-corallium/audio.js",
+      "batch05/a14-enamel-corallium/base.css",
+      "batch05/a14-enamel-corallium/index.html",
+      "batch05/a14-enamel-corallium/metadata.json",
+      "batch05/a14-enamel-corallium/p5-LICENSE.txt",
+      "batch05/a14-enamel-corallium/p5.min.js",
+      "batch05/a14-enamel-corallium/preview-desktop.png",
+      "batch05/a14-enamel-corallium/preview-mobile.png",
+      "batch05/a14-enamel-corallium/verification/desktop-test.json",
+      "batch05/a14-enamel-corallium/verification/final-soft-branches.json",
+      "batch05/a14-enamel-corallium/verification/mobile-test.json",
+      "batch05/a14-enamel-corallium/verification/offline-test.json",
+      "batch05/a14-enamel-corallium/verification/zip-integrity.json",
+      "batch05/a14-enamel-corallium/实测报告.txt",
+      "batch05/a14-enamel-corallium/技术与权利.txt",
+      "batch05/a14-enamel-corallium/来源与许可.json",
+      "batch05/a14-enamel-corallium/说明.txt",
+      "batch05/a14-enamel-corallium/验证边界.txt",
+      "batch05/a15-paradox-chamber.zip",
+      "batch05/a15-paradox-chamber/art.js",
+      "batch05/a15-paradox-chamber/audio.js",
+      "batch05/a15-paradox-chamber/base.css",
+      "batch05/a15-paradox-chamber/index.html",
+      "batch05/a15-paradox-chamber/metadata.json",
+      "batch05/a15-paradox-chamber/p5-LICENSE.txt",
+      "batch05/a15-paradox-chamber/p5.min.js",
+      "batch05/a15-paradox-chamber/preview-desktop.png",
+      "batch05/a15-paradox-chamber/preview-mobile.png",
+      "batch05/a15-paradox-chamber/verification/desktop-test.json",
+      "batch05/a15-paradox-chamber/verification/mobile-test.json",
+      "batch05/a15-paradox-chamber/verification/offline-test.json",
+      "batch05/a15-paradox-chamber/verification/zip-integrity.json",
+      "batch05/a15-paradox-chamber/实测报告.txt",
+      "batch05/a15-paradox-chamber/技术与权利.txt",
+      "batch05/a15-paradox-chamber/来源与许可.json",
+      "batch05/a15-paradox-chamber/说明.txt",
+      "batch05/a15-paradox-chamber/验证边界.txt",
+      "batch05/b/index.html",
+      "batch05/b01-sugar-archive.zip",
+      "batch05/b01-sugar-archive/README.txt",
+      "batch05/b01-sugar-archive/art.js",
+      "batch05/b01-sugar-archive/audio.js",
+      "batch05/b01-sugar-archive/index.html",
+      "batch05/b01-sugar-archive/metadata.json",
+      "batch05/b01-sugar-archive/preview-desktop.png",
+      "batch05/b01-sugar-archive/preview-mobile.png",
+      "batch05/b01-sugar-archive/style.css",
+      "batch05/b01-sugar-archive/verification/b01-sugar-archive-1440.json",
+      "batch05/b01-sugar-archive/verification/b01-sugar-archive-390.json",
+      "batch05/b01-sugar-archive/技术与权利.txt",
+      "batch05/b01-sugar-archive/来源与许可.json",
+      "batch05/b01-sugar-archive/说明.txt",
+      "batch05/b01-sugar-archive/验证边界.txt",
+      "batch05/b02-jelly-slice.zip",
+      "batch05/b02-jelly-slice/README.txt",
+      "batch05/b02-jelly-slice/art.js",
+      "batch05/b02-jelly-slice/audio.js",
+      "batch05/b02-jelly-slice/index.html",
+      "batch05/b02-jelly-slice/metadata.json",
+      "batch05/b02-jelly-slice/preview-desktop.png",
+      "batch05/b02-jelly-slice/preview-mobile.png",
+      "batch05/b02-jelly-slice/style.css",
+      "batch05/b02-jelly-slice/verification/b02-jelly-slice-1440.json",
+      "batch05/b02-jelly-slice/verification/b02-jelly-slice-390.json",
+      "batch05/b02-jelly-slice/技术与权利.txt",
+      "batch05/b02-jelly-slice/来源与许可.json",
+      "batch05/b02-jelly-slice/说明.txt",
+      "batch05/b02-jelly-slice/验证边界.txt",
+      "batch05/b03-rouge-impressions.zip",
+      "batch05/b03-rouge-impressions/README.txt",
+      "batch05/b03-rouge-impressions/art.js",
+      "batch05/b03-rouge-impressions/audio.js",
+      "batch05/b03-rouge-impressions/index.html",
+      "batch05/b03-rouge-impressions/metadata.json",
+      "batch05/b03-rouge-impressions/preview-desktop.png",
+      "batch05/b03-rouge-impressions/preview-mobile.png",
+      "batch05/b03-rouge-impressions/style.css",
+      "batch05/b03-rouge-impressions/verification/b03-rouge-impressions-1440.json",
+      "batch05/b03-rouge-impressions/verification/b03-rouge-impressions-390.json",
+      "batch05/b03-rouge-impressions/技术与权利.txt",
+      "batch05/b03-rouge-impressions/来源与许可.json",
+      "batch05/b03-rouge-impressions/说明.txt",
+      "batch05/b03-rouge-impressions/验证边界.txt",
+      "batch05/b04-foam-studio.zip",
+      "batch05/b04-foam-studio/README.txt",
+      "batch05/b04-foam-studio/art.js",
+      "batch05/b04-foam-studio/audio.js",
+      "batch05/b04-foam-studio/index.html",
+      "batch05/b04-foam-studio/metadata.json",
+      "batch05/b04-foam-studio/preview-desktop.png",
+      "batch05/b04-foam-studio/preview-mobile.png",
+      "batch05/b04-foam-studio/style.css",
+      "batch05/b04-foam-studio/verification/b04-foam-studio-1440.json",
+      "batch05/b04-foam-studio/verification/b04-foam-studio-390.json",
+      "batch05/b04-foam-studio/技术与权利.txt",
+      "batch05/b04-foam-studio/来源与许可.json",
+      "batch05/b04-foam-studio/说明.txt",
+      "batch05/b04-foam-studio/验证边界.txt",
+      "batch05/b05-velvet-jewels.zip",
+      "batch05/b05-velvet-jewels/README.txt",
+      "batch05/b05-velvet-jewels/art.js",
+      "batch05/b05-velvet-jewels/audio.js",
+      "batch05/b05-velvet-jewels/index.html",
+      "batch05/b05-velvet-jewels/metadata.json",
+      "batch05/b05-velvet-jewels/preview-desktop.png",
+      "batch05/b05-velvet-jewels/preview-mobile.png",
+      "batch05/b05-velvet-jewels/style.css",
+      "batch05/b05-velvet-jewels/verification/b05-velvet-jewels-1440.json",
+      "batch05/b05-velvet-jewels/verification/b05-velvet-jewels-390.json",
+      "batch05/b05-velvet-jewels/技术与权利.txt",
+      "batch05/b05-velvet-jewels/来源与许可.json",
+      "batch05/b05-velvet-jewels/说明.txt",
+      "batch05/b05-velvet-jewels/验证边界.txt",
+      "batch05/b06-soap-strata.zip",
+      "batch05/b06-soap-strata/README.md",
+      "batch05/b06-soap-strata/app.js",
+      "batch05/b06-soap-strata/audio.js",
+      "batch05/b06-soap-strata/index.html",
+      "batch05/b06-soap-strata/metadata.json",
+      "batch05/b06-soap-strata/preview-desktop.png",
+      "batch05/b06-soap-strata/preview-mobile.png",
+      "batch05/b06-soap-strata/runtime.js",
+      "batch05/b06-soap-strata/style.css",
+      "batch05/b06-soap-strata/verification/b06-b10-60s-report.json",
+      "batch05/b06-soap-strata/技术与权利.txt",
+      "batch05/b06-soap-strata/来源与许可.json",
+      "batch05/b06-soap-strata/说明.txt",
+      "batch05/b06-soap-strata/验证边界.txt",
+      "batch05/b07-scent-cinema.zip",
+      "batch05/b07-scent-cinema/README.md",
+      "batch05/b07-scent-cinema/app.js",
+      "batch05/b07-scent-cinema/audio.js",
+      "batch05/b07-scent-cinema/index.html",
+      "batch05/b07-scent-cinema/metadata.json",
+      "batch05/b07-scent-cinema/preview-desktop.png",
+      "batch05/b07-scent-cinema/preview-mobile.png",
+      "batch05/b07-scent-cinema/runtime.js",
+      "batch05/b07-scent-cinema/style.css",
+      "batch05/b07-scent-cinema/verification/b06-b10-60s-report.json",
+      "batch05/b07-scent-cinema/技术与权利.txt",
+      "batch05/b07-scent-cinema/来源与许可.json",
+      "batch05/b07-scent-cinema/说明.txt",
+      "batch05/b07-scent-cinema/验证边界.txt",
+      "batch05/b08-record-atelier.zip",
+      "batch05/b08-record-atelier/README.md",
+      "batch05/b08-record-atelier/app.js",
+      "batch05/b08-record-atelier/audio.js",
+      "batch05/b08-record-atelier/index.html",
+      "batch05/b08-record-atelier/metadata.json",
+      "batch05/b08-record-atelier/preview-desktop.png",
+      "batch05/b08-record-atelier/preview-mobile.png",
+      "batch05/b08-record-atelier/runtime.js",
+      "batch05/b08-record-atelier/style.css",
+      "batch05/b08-record-atelier/verification/b06-b10-60s-report.json",
+      "batch05/b08-record-atelier/技术与权利.txt",
+      "batch05/b08-record-atelier/来源与许可.json",
+      "batch05/b08-record-atelier/说明.txt",
+      "batch05/b08-record-atelier/验证边界.txt",
+      "batch05/b09-sugar-ribbon.zip",
+      "batch05/b09-sugar-ribbon/README.md",
+      "batch05/b09-sugar-ribbon/app.js",
+      "batch05/b09-sugar-ribbon/audio.js",
+      "batch05/b09-sugar-ribbon/index.html",
+      "batch05/b09-sugar-ribbon/metadata.json",
+      "batch05/b09-sugar-ribbon/preview-desktop.png",
+      "batch05/b09-sugar-ribbon/preview-mobile.png",
+      "batch05/b09-sugar-ribbon/runtime.js",
+      "batch05/b09-sugar-ribbon/style.css",
+      "batch05/b09-sugar-ribbon/verification/b06-b10-60s-report.json",
+      "batch05/b09-sugar-ribbon/技术与权利.txt",
+      "batch05/b09-sugar-ribbon/来源与许可.json",
+      "batch05/b09-sugar-ribbon/说明.txt",
+      "batch05/b09-sugar-ribbon/验证边界.txt",
+      "batch05/b10-knot-dye.zip",
+      "batch05/b10-knot-dye/README.md",
+      "batch05/b10-knot-dye/app.js",
+      "batch05/b10-knot-dye/audio.js",
+      "batch05/b10-knot-dye/index.html",
+      "batch05/b10-knot-dye/metadata.json",
+      "batch05/b10-knot-dye/preview-desktop.png",
+      "batch05/b10-knot-dye/preview-mobile.png",
+      "batch05/b10-knot-dye/runtime.js",
+      "batch05/b10-knot-dye/style.css",
+      "batch05/b10-knot-dye/verification/b06-b10-60s-report.json",
+      "batch05/b10-knot-dye/技术与权利.txt",
+      "batch05/b10-knot-dye/来源与许可.json",
+      "batch05/b10-knot-dye/说明.txt",
+      "batch05/b10-knot-dye/验证边界.txt",
+      "batch05/b11-wind-desk.zip",
+      "batch05/b11-wind-desk/LICENSE.txt",
+      "batch05/b11-wind-desk/art.js",
+      "batch05/b11-wind-desk/audio.js",
+      "batch05/b11-wind-desk/index.html",
+      "batch05/b11-wind-desk/metadata.json",
+      "batch05/b11-wind-desk/preview-desktop.png",
+      "batch05/b11-wind-desk/preview-mobile.png",
+      "batch05/b11-wind-desk/style.css",
+      "batch05/b11-wind-desk/verification/desktop.json",
+      "batch05/b11-wind-desk/verification/final-isolation-pagehide.json",
+      "batch05/b11-wind-desk/verification/mobile.json",
+      "batch05/b11-wind-desk/verification/offline.json",
+      "batch05/b11-wind-desk/实测报告.json",
+      "batch05/b11-wind-desk/技术与权利.txt",
+      "batch05/b11-wind-desk/来源与许可.json",
+      "batch05/b11-wind-desk/说明.txt",
+      "batch05/b11-wind-desk/验证边界.txt",
+      "batch05/b12-crystal-cabinet.zip",
+      "batch05/b12-crystal-cabinet/LICENSE.txt",
+      "batch05/b12-crystal-cabinet/art.js",
+      "batch05/b12-crystal-cabinet/audio.js",
+      "batch05/b12-crystal-cabinet/index.html",
+      "batch05/b12-crystal-cabinet/metadata.json",
+      "batch05/b12-crystal-cabinet/preview-desktop.png",
+      "batch05/b12-crystal-cabinet/preview-mobile.png",
+      "batch05/b12-crystal-cabinet/style.css",
+      "batch05/b12-crystal-cabinet/verification/desktop.json",
+      "batch05/b12-crystal-cabinet/verification/final-isolation-pagehide.json",
+      "batch05/b12-crystal-cabinet/verification/mobile.json",
+      "batch05/b12-crystal-cabinet/verification/offline.json",
+      "batch05/b12-crystal-cabinet/实测报告.json",
+      "batch05/b12-crystal-cabinet/技术与权利.txt",
+      "batch05/b12-crystal-cabinet/来源与许可.json",
+      "batch05/b12-crystal-cabinet/说明.txt",
+      "batch05/b12-crystal-cabinet/验证边界.txt",
+      "batch05/b13-breakfast-collage.zip",
+      "batch05/b13-breakfast-collage/LICENSE.txt",
+      "batch05/b13-breakfast-collage/art.js",
+      "batch05/b13-breakfast-collage/audio.js",
+      "batch05/b13-breakfast-collage/index.html",
+      "batch05/b13-breakfast-collage/metadata.json",
+      "batch05/b13-breakfast-collage/preview-desktop.png",
+      "batch05/b13-breakfast-collage/preview-mobile.png",
+      "batch05/b13-breakfast-collage/style.css",
+      "batch05/b13-breakfast-collage/verification/desktop.json",
+      "batch05/b13-breakfast-collage/verification/final-isolation-pagehide.json",
+      "batch05/b13-breakfast-collage/verification/mobile.json",
+      "batch05/b13-breakfast-collage/verification/offline.json",
+      "batch05/b13-breakfast-collage/实测报告.json",
+      "batch05/b13-breakfast-collage/技术与权利.txt",
+      "batch05/b13-breakfast-collage/来源与许可.json",
+      "batch05/b13-breakfast-collage/说明.txt",
+      "batch05/b13-breakfast-collage/验证边界.txt",
+      "batch05/b14-butterfly-post.zip",
+      "batch05/b14-butterfly-post/LICENSE.txt",
+      "batch05/b14-butterfly-post/art.js",
+      "batch05/b14-butterfly-post/audio.js",
+      "batch05/b14-butterfly-post/index.html",
+      "batch05/b14-butterfly-post/metadata.json",
+      "batch05/b14-butterfly-post/preview-desktop.png",
+      "batch05/b14-butterfly-post/preview-mobile.png",
+      "batch05/b14-butterfly-post/style.css",
+      "batch05/b14-butterfly-post/verification/desktop.json",
+      "batch05/b14-butterfly-post/verification/final-isolation-pagehide.json",
+      "batch05/b14-butterfly-post/verification/mobile.json",
+      "batch05/b14-butterfly-post/verification/offline.json",
+      "batch05/b14-butterfly-post/实测报告.json",
+      "batch05/b14-butterfly-post/技术与权利.txt",
+      "batch05/b14-butterfly-post/来源与许可.json",
+      "batch05/b14-butterfly-post/说明.txt",
+      "batch05/b14-butterfly-post/验证边界.txt",
+      "batch05/b15-neon-window.zip",
+      "batch05/b15-neon-window/LICENSE.txt",
+      "batch05/b15-neon-window/art.js",
+      "batch05/b15-neon-window/audio.js",
+      "batch05/b15-neon-window/index.html",
+      "batch05/b15-neon-window/metadata.json",
+      "batch05/b15-neon-window/preview-desktop.png",
+      "batch05/b15-neon-window/preview-mobile.png",
+      "batch05/b15-neon-window/style.css",
+      "batch05/b15-neon-window/verification/desktop.json",
+      "batch05/b15-neon-window/verification/final-isolation-pagehide.json",
+      "batch05/b15-neon-window/verification/mobile.json",
+      "batch05/b15-neon-window/verification/offline.json",
+      "batch05/b15-neon-window/实测报告.json",
+      "batch05/b15-neon-window/技术与权利.txt",
+      "batch05/b15-neon-window/来源与许可.json",
+      "batch05/b15-neon-window/说明.txt",
+      "batch05/b15-neon-window/验证边界.txt",
+      "batch05/batch05-A-p5-art.zip",
+      "batch05/batch05-B-material-art.zip",
+      "batch05/batch05-C-flat-toys.zip",
+      "batch05/batch05-all-35.zip",
+      "batch05/c/index.html",
+      "batch05/c01-pocket-tram.zip",
+      "batch05/c01-pocket-tram/app.js",
+      "batch05/c01-pocket-tram/audio.js",
+      "batch05/c01-pocket-tram/base.css",
+      "batch05/c01-pocket-tram/common.js",
+      "batch05/c01-pocket-tram/config.js",
+      "batch05/c01-pocket-tram/index.html",
+      "batch05/c01-pocket-tram/metadata.json",
+      "batch05/c01-pocket-tram/preview-desktop.png",
+      "batch05/c01-pocket-tram/preview-mobile.png",
+      "batch05/c01-pocket-tram/style.css",
+      "batch05/c01-pocket-tram/verification/c01-pocket-tram-desktop.json",
+      "batch05/c01-pocket-tram/verification/c01-pocket-tram-mobile.json",
+      "batch05/c01-pocket-tram/技术与权利.txt",
+      "batch05/c01-pocket-tram/来源与许可.json",
+      "batch05/c01-pocket-tram/说明.txt",
+      "batch05/c01-pocket-tram/验证边界.txt",
+      "batch05/c02-orbital-workshop.zip",
+      "batch05/c02-orbital-workshop/app.js",
+      "batch05/c02-orbital-workshop/audio.js",
+      "batch05/c02-orbital-workshop/base.css",
+      "batch05/c02-orbital-workshop/common.js",
+      "batch05/c02-orbital-workshop/config.js",
+      "batch05/c02-orbital-workshop/index.html",
+      "batch05/c02-orbital-workshop/metadata.json",
+      "batch05/c02-orbital-workshop/preview-desktop.png",
+      "batch05/c02-orbital-workshop/preview-mobile.png",
+      "batch05/c02-orbital-workshop/style.css",
+      "batch05/c02-orbital-workshop/verification/c02-orbital-workshop-desktop.json",
+      "batch05/c02-orbital-workshop/verification/c02-orbital-workshop-mobile.json",
+      "batch05/c02-orbital-workshop/技术与权利.txt",
+      "batch05/c02-orbital-workshop/来源与许可.json",
+      "batch05/c02-orbital-workshop/说明.txt",
+      "batch05/c02-orbital-workshop/验证边界.txt",
+      "batch05/c03-good-wind-laundry.zip",
+      "batch05/c03-good-wind-laundry/app.js",
+      "batch05/c03-good-wind-laundry/audio.js",
+      "batch05/c03-good-wind-laundry/base.css",
+      "batch05/c03-good-wind-laundry/common.js",
+      "batch05/c03-good-wind-laundry/config.js",
+      "batch05/c03-good-wind-laundry/index.html",
+      "batch05/c03-good-wind-laundry/metadata.json",
+      "batch05/c03-good-wind-laundry/preview-desktop.png",
+      "batch05/c03-good-wind-laundry/preview-mobile.png",
+      "batch05/c03-good-wind-laundry/style.css",
+      "batch05/c03-good-wind-laundry/verification/c03-good-wind-laundry-desktop.json",
+      "batch05/c03-good-wind-laundry/verification/c03-good-wind-laundry-mobile.json",
+      "batch05/c03-good-wind-laundry/技术与权利.txt",
+      "batch05/c03-good-wind-laundry/来源与许可.json",
+      "batch05/c03-good-wind-laundry/说明.txt",
+      "batch05/c03-good-wind-laundry/验证边界.txt",
+      "batch05/c04-airmail-house.zip",
+      "batch05/c04-airmail-house/app.js",
+      "batch05/c04-airmail-house/audio.js",
+      "batch05/c04-airmail-house/base.css",
+      "batch05/c04-airmail-house/common.js",
+      "batch05/c04-airmail-house/config.js",
+      "batch05/c04-airmail-house/index.html",
+      "batch05/c04-airmail-house/metadata.json",
+      "batch05/c04-airmail-house/preview-desktop.png",
+      "batch05/c04-airmail-house/preview-mobile.png",
+      "batch05/c04-airmail-house/style.css",
+      "batch05/c04-airmail-house/verification/c04-airmail-house-desktop.json",
+      "batch05/c04-airmail-house/verification/c04-airmail-house-mobile.json",
+      "batch05/c04-airmail-house/技术与权利.txt",
+      "batch05/c04-airmail-house/来源与许可.json",
+      "batch05/c04-airmail-house/说明.txt",
+      "batch05/c04-airmail-house/验证边界.txt",
+      "batch05/c05-kinetic-friend.zip",
+      "batch05/c05-kinetic-friend/app.js",
+      "batch05/c05-kinetic-friend/audio.js",
+      "batch05/c05-kinetic-friend/base.css",
+      "batch05/c05-kinetic-friend/common.js",
+      "batch05/c05-kinetic-friend/config.js",
+      "batch05/c05-kinetic-friend/index.html",
+      "batch05/c05-kinetic-friend/metadata.json",
+      "batch05/c05-kinetic-friend/preview-desktop.png",
+      "batch05/c05-kinetic-friend/preview-mobile.png",
+      "batch05/c05-kinetic-friend/style.css",
+      "batch05/c05-kinetic-friend/verification/c05-kinetic-friend-desktop.json",
+      "batch05/c05-kinetic-friend/verification/c05-kinetic-friend-mobile.json",
+      "batch05/c05-kinetic-friend/技术与权利.txt",
+      "batch05/c05-kinetic-friend/来源与许可.json",
+      "batch05/c05-kinetic-friend/说明.txt",
+      "batch05/c05-kinetic-friend/验证边界.txt",
+      "batch05/index.html",
+      "batch05/manifest.json",
+      "batch05/previews/a01-brass-orrery.png",
+      "batch05/previews/a02-pendulum-score.png",
+      "batch05/previews/a03-tension-membrane.png",
+      "batch05/previews/a04-flip-leaf-array.png",
+      "batch05/previews/a05-prism-joints.png",
+      "batch05/previews/a06-diffraction-records.png",
+      "batch05/previews/a07-gaslight-sculpture.png",
+      "batch05/previews/a08-cloud-section.png",
+      "batch05/previews/a09-ink-film-projector.png",
+      "batch05/previews/a10-aurora-front.png",
+      "batch05/previews/a11-chromatic-choir.png",
+      "batch05/previews/a12-four-colour-press.png",
+      "batch05/previews/a13-single-sided-ribbon.png",
+      "batch05/previews/a14-enamel-corallium.png",
+      "batch05/previews/a15-paradox-chamber.png",
+      "batch05/previews/b01-sugar-archive.png",
+      "batch05/previews/b02-jelly-slice.png",
+      "batch05/previews/b03-rouge-impressions.png",
+      "batch05/previews/b04-foam-studio.png",
+      "batch05/previews/b05-velvet-jewels.png",
+      "batch05/previews/b06-soap-strata.png",
+      "batch05/previews/b07-scent-cinema.png",
+      "batch05/previews/b08-record-atelier.png",
+      "batch05/previews/b09-sugar-ribbon.png",
+      "batch05/previews/b10-knot-dye.png",
+      "batch05/previews/b11-wind-desk.png",
+      "batch05/previews/b12-crystal-cabinet.png",
+      "batch05/previews/b13-breakfast-collage.png",
+      "batch05/previews/b14-butterfly-post.png",
+      "batch05/previews/b15-neon-window.png",
+      "batch05/previews/c01-pocket-tram.png",
+      "batch05/previews/c02-orbital-workshop.png",
+      "batch05/previews/c03-good-wind-laundry.png",
+      "batch05/previews/c04-airmail-house.png",
+      "batch05/previews/c05-kinetic-friend.png",
+      "batch05/下载链接.html",
+      "batch05/发布验证.json",
+      "batch05/实测报告.html",
+      "batch05/设计与来源矩阵.json"
+    ],
+    "onlyNewBatchChanged": true,
+    "checkedAt": "2026-10-03T18:47:22.788Z",
+    "assertionRepair": "Historical-file assertion rerun with NUL-delimited raw UTF-8 paths; first test used quoted Chinese Git output. No product mutation and no repeated download test."
+  },
+  "finalOfflineIndividuals": {
     "A": {
       "group": "A",
       "manifest": "repo/batch05/manifest.json",
@@ -20562,7 +24354,7 @@
       ]
     }
   },
-  "aggregate": {
+  "finalOfflineAggregates": {
     "aggregates": [
       {
         "group": "A",
@@ -21025,9 +24817,506 @@
     "archiveIntegrityPass": true,
     "pass": true
   },
+  "visualReview": {
+    "status": "Final visual review complete. Primary issues observed in earlier audit resolved in frozen final source.",
+    "method": "Actual Chromium screenshots from frozen repo/batch05 file:// source in an offline context. Targeted interactions for six revised works; no repeat of full QA.",
+    "sourceCount": 35,
+    "renderErrors": 0,
+    "capturedSourcesStillUnchanged": true,
+    "changedFilesAfterCapture": [],
+    "deliverables": [
+      "evidence/contact-a-final.png",
+      "evidence/contact-b-final.png",
+      "evidence/contact-c-final.png"
+    ],
+    "screenshotSources": "evidence/contact-final-sources.json",
+    "sourceHashesAndTargetedStates": "evidence/final-visual-captures.json",
+    "revisedFindings": [
+      {
+        "work": "a02-pendulum-score",
+        "status": "resolved",
+        "finding": "Final image shows legible multicolour drawn traces with clearer line weight and active coupled pendulums.",
+        "evidence": "evidence/final-previews/a02-pendulum-score-composed.png",
+        "targetedState": {
+          "inputs": 2,
+          "resets": 0,
+          "state": {
+            "a1": -0.10130283459769791,
+            "a2": 0.5904697592485424,
+            "locked": false,
+            "paper": true,
+            "ratio": 0,
+            "ink": 1,
+            "angle": 0.07199999999999994,
+            "points": 4880,
+            "pages": 0
+          },
+          "bounded": true,
+          "counts": {
+            "points": 4880,
+            "pages": 0,
+            "maxPoints": 6000,
+            "maxPages": 3,
+            "frames": 80,
+            "fps": 35.2
+          }
+        }
+      },
+      {
+        "work": "a05-prism-joints",
+        "status": "resolved",
+        "finding": "Large twenty-face cut crystal group fills the hero area. Gradient face light, internal refraction, material edge lines and visible gold joints replace small sparse flat blocks. Actual unfold retains the composition.",
+        "evidence": "evidence/final-previews/a05-prism-joints-composed.png",
+        "targetedState": {
+          "inputs": 1,
+          "resets": 0,
+          "state": {
+            "selected": 0,
+            "yaw": 0.58,
+            "pitch": 0.18,
+            "material": 1,
+            "form": 0,
+            "joint": 0,
+            "openings": [
+              0.3891696423249644,
+              0.2,
+              0.4,
+              0,
+              0.2,
+              0.4,
+              0
+            ]
+          },
+          "bounded": true,
+          "counts": {
+            "modules": 7,
+            "maxModules": 18,
+            "facets": 140,
+            "frames": 50,
+            "fps": 26.5
+          }
+        }
+      },
+      {
+        "work": "a14-enamel-corallium",
+        "status": "resolved",
+        "finding": "Gently curved tapered branches and soft material joints reduce the regular straight Y-tree impression. Enamel highlights, terminal beads and calcified granules retain a clear sculptural subject.",
+        "evidence": "evidence/final-previews/a14-enamel-corallium-composed.png",
+        "targetedState": {
+          "inputs": 2,
+          "resets": 0,
+          "frames": 67,
+          "state": {
+            "rotation": 0.25,
+            "calc": 0.21394058123928922,
+            "calcTo": 1,
+            "enamel": 1,
+            "current": 1,
+            "mode": "rotate",
+            "picked": -1,
+            "branches": 189
+          },
+          "bounded": true,
+          "counts": {
+            "branches": 189,
+            "branchCap": 210
+          },
+          "audio": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 4,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.004483439022991858,
+            "errors": 0,
+            "musicNotes": 5,
+            "fxNotes": 1
+          }
+        }
+      },
+      {
+        "work": "b08-record-atelier",
+        "status": "resolved",
+        "finding": "Sleeve is now the large directly edited subject: stamp and drag shapes, rotate layout and open the side fold. Record is a small accessory sound source; scratch input removed. Main mechanism differs from A06 diffraction-phase discs.",
+        "evidence": "evidence/final-previews/b08-record-atelier-composed.png",
+        "targetedState": {
+          "inputs": 50,
+          "resets": 0,
+          "state": {
+            "playing": false,
+            "edition": 1,
+            "track": 0,
+            "fold": 0.9300966957583685,
+            "foldTarget": 1,
+            "layout": {
+              "x": 0,
+              "y": 0.06000001892562984,
+              "a": 0.12000006313981681
+            },
+            "overprints": 4,
+            "mode": 2
+          },
+          "bounded": true,
+          "counts": {
+            "overprints": 4,
+            "foldPanels": 2,
+            "soundRecordGrooves": 28
+          },
+          "audio": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 7,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.000499160869403838,
+            "errors": 0,
+            "musicNotes": 4,
+            "fxNotes": 6
+          },
+          "frames": 176
+        }
+      },
+      {
+        "work": "b09-sugar-ribbon",
+        "status": "resolved",
+        "finding": "Actual fracture, remelt and local pull retain a substantial multicolour sugar sculpture. No degeneration to an isolated short noodle.",
+        "evidence": "evidence/final-previews/b09-sugar-ribbon-composed.png",
+        "targetedState": {
+          "inputs": 26,
+          "resets": 0,
+          "state": {
+            "flavor": 1,
+            "heat": 0.3045983025682181,
+            "knots": 0,
+            "ribbons": 5,
+            "shards": 0,
+            "mode": 0
+          },
+          "bounded": true,
+          "counts": {
+            "ribbons": 5,
+            "points": 425,
+            "shards": 0
+          },
+          "audio": {
+            "state": "running",
+            "unlocked": true,
+            "muted": false,
+            "paused": false,
+            "voices": 3,
+            "peakVoices": 6,
+            "nodeCount": 8,
+            "nodeLimit": 26,
+            "rms": 0.000382609122968941,
+            "errors": 0,
+            "musicNotes": 8,
+            "fxNotes": 6
+          },
+          "frames": 269
+        },
+        "afterRemelt": {
+          "ribbons": 5,
+          "points": 425,
+          "shards": 0
+        },
+        "afterLocalPull": {
+          "ribbons": 5,
+          "points": 425,
+          "shards": 0
+        }
+      },
+      {
+        "work": "b11-wind-desk",
+        "status": "resolved",
+        "finding": "Actual upward/downward fan-axis drags change the local force region, separating selective ribbon wave response from C03 pulley/clothespin laundry play.",
+        "evidence": [
+          "evidence/final-previews/b11-wind-desk-axis-up.png",
+          "evidence/final-previews/b11-wind-desk-axis-down.png"
+        ],
+        "targetedState": {
+          "inputs": 46,
+          "resets": 0,
+          "frames": 198,
+          "fps": 80.40935672495156,
+          "state": {
+            "speed": 2,
+            "angle": 0.65,
+            "fanY": 330,
+            "endpoints": [
+              [
+                467,
+                492
+              ],
+              [
+                517,
+                566
+              ],
+              [
+                565,
+                639
+              ],
+              [
+                611,
+                608
+              ],
+              [
+                661,
+                521
+              ],
+              [
+                707,
+                600
+              ],
+              [
+                759,
+                572
+              ]
+            ],
+            "windCoefficients": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "affected": 0,
+            "mode": "move",
+            "clipped": 1,
+            "free": 0,
+            "positions": [
+              [
+                465,
+                230
+              ],
+              [
+                514,
+                265
+              ],
+              [
+                563,
+                300
+              ],
+              [
+                612,
+                230
+              ],
+              [
+                661,
+                265
+              ],
+              [
+                710,
+                300
+              ],
+              [
+                759,
+                230
+              ]
+            ]
+          },
+          "bounded": true,
+          "counts": {
+            "ribbons": 7,
+            "cap": 20
+          }
+        },
+        "axisUp": {
+          "speed": 2,
+          "angle": -0.6186442941363298,
+          "fanY": 330,
+          "endpoints": [
+            [
+              582,
+              352
+            ],
+            [
+              574,
+              499
+            ],
+            [
+              566,
+              639
+            ],
+            [
+              669,
+              547
+            ],
+            [
+              669,
+              518
+            ],
+            [
+              710,
+              598
+            ],
+            [
+              761,
+              559
+            ]
+          ],
+          "windCoefficients": [
+            0.711,
+            0.345,
+            0.013,
+            0.272,
+            0.028,
+            0,
+            0.036
+          ],
+          "affected": 3,
+          "mode": "move",
+          "clipped": 1,
+          "free": 0,
+          "positions": [
+            [
+              465,
+              230
+            ],
+            [
+              514,
+              265
+            ],
+            [
+              563,
+              300
+            ],
+            [
+              612,
+              230
+            ],
+            [
+              661,
+              265
+            ],
+            [
+              710,
+              300
+            ],
+            [
+              759,
+              230
+            ]
+          ]
+        },
+        "axisDown": {
+          "speed": 2,
+          "angle": 0.65,
+          "fanY": 330,
+          "endpoints": [
+            [
+              466,
+              492
+            ],
+            [
+              517,
+              567
+            ],
+            [
+              566,
+              640
+            ],
+            [
+              612,
+              608
+            ],
+            [
+              662,
+              520
+            ],
+            [
+              707,
+              599
+            ],
+            [
+              757,
+              571
+            ]
+          ],
+          "windCoefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "affected": 0,
+          "mode": "move",
+          "clipped": 1,
+          "free": 0,
+          "positions": [
+            [
+              465,
+              230
+            ],
+            [
+              514,
+              265
+            ],
+            [
+              563,
+              300
+            ],
+            [
+              612,
+              230
+            ],
+            [
+              661,
+              265
+            ],
+            [
+              710,
+              300
+            ],
+            [
+              759,
+              230
+            ]
+          ]
+        }
+      }
+    ],
+    "remaining": [
+      {
+        "work": "b10-knot-dye",
+        "severity": "minor aesthetic preference, no primary blocker observed",
+        "finding": "Fabric and ties remain softer/more abstract than the strongest still-life pieces. Colour spread, resist areas and unfolding distinguish it; richer gathered-knot material could be a future enhancement. Frozen source not changed."
+      },
+      {
+        "works": [
+          "a12-four-colour-press",
+          "b03-rouge-impressions"
+        ],
+        "severity": "presentation note",
+        "finding": "Raw QA includes legitimate fully erased states. Final contacts use rich actual initial states; raw erase evidence preserved."
+      }
+    ],
+    "groupVerdicts": {
+      "A": "Acceptable subject/material diversity across mechanisms, elastic surface, hinged tiles, optical records, gas tubes, volume sections, films, aurora, pointillist surface, CMYK prints, topology, enamel sculpture and perspective room.",
+      "B": "Editorial art/still-life family with distinct materials and direct editing. Prior record-mechanism overlap and post-play sparse sugar composition issues resolved. No score/level-game framing observed.",
+      "C": "Five precise flat scenes: train routing, spacecraft assembly, clothes pulley, pneumatic post and recorded puppet choreography."
+    },
+    "CAlreadyPublishedEvidence": {
+      "file": "evidence/public-C.json",
+      "count": 5,
+      "priorIntegratorChecks": "Supplied C evidence records successful page status and matching HTML. This visual pass itself uses frozen local source."
+    },
+    "boundary": "Actual screenshots only; no artwork/audio/publishing files modified. This targeted pass does not repeat full sustained QA. Audio/ZIP/public checks remain supported by integrator reports; no physical-phone/manual-listening claim."
+  },
   "boundaries": {
-    "mobile": "390×844 Chromium touch emulation, not physical device",
+    "physicalPhone": false,
     "humanListening": false,
-    "audioMeasurement": "Post-master analyser actual waveform RMS; FX isolated by temporarily disabling music sequence in test only"
+    "audioMeasurement": "实际Web Audio master后分析仪时域RMS；音效诊断临时关闭音乐音序，生产程序不更换音频引擎",
+    "historicalFiles": "旧主站、batch03、batch04公开HTML SHA相同；Git差异只新增batch05"
   }
 }

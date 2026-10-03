@@ -1,0 +1,22 @@
+{
+  "implementation": "本次独立编写的Canvas 2D程序；没有打包第三方库、图片、字体或音频。参考仅作为视觉或行为研究，未复制附件像素。",
+  "sources": [
+    {
+      "url": "https://rzrabbi.github.io/interactive-koi-pond/demo/",
+      "role": "可交互鱼庭的行为参考",
+      "codeReused": false
+    },
+    {
+      "url": "https://github.com/rzrabbi/interactive-koi-pond/blob/master/LICENSE",
+      "role": "参考实现为MIT；本作未复制其代码或素材",
+      "codeReused": false
+    }
+  ],
+  "code_license": {
+    "code": "MIT",
+    "copyright": "2026 Little Worlds / original Canvas implementation",
+    "assets": "全部鱼、叶、水面纹理为代码原创绘制；无图片与字体文件；使用设备系统字体。"
+  },
+  "asset_license": "原始程序生成；设备系统字体；无外部素材文件",
+  "exclusive_rights_claimed": false
+}

@@ -1,0 +1,62 @@
+{
+  "number": 3,
+  "title": "纸幕剧场",
+  "englishTitle": "Paper Theatre",
+  "slug": "03-paper-theatre",
+  "description": "候鸟、归帆与花间来信的三幕剪纸舞台。拖动纸片、改变前后叠层和高度，再牵动一盏灯，让影子成为构图的一部分。",
+  "mechanism": "保持放置的纸片舞台；命中选择、相对拖移、15°转动、抬高投影、前景重排，独立光源位置同时改变全场投影。",
+  "controls": {
+    "art": "拖移纸片或带光环的灯；选中纸片后支持方向键和滚轮",
+    "forest": "重建候鸟入林幕场",
+    "harbor": "重建月湾归帆幕场",
+    "garden": "重建花间来信幕场",
+    "turnLeft": "选片逆时针转15度",
+    "turnRight": "选片顺时针转15度",
+    "lift": "循环改变选片离幕高度，投影距离跟随",
+    "front": "将选片移至前景",
+    "reset": "重置当前幕场"
+  },
+  "testControls": [
+    "#turnRight",
+    "#lift",
+    "#front",
+    "#harbor",
+    "#garden",
+    "#forest",
+    "#turnLeft"
+  ],
+  "testNotes": "先在canvas相对(.43,.47)选主鸟拖到(.57,.42)，再旋转、抬高、移到前景；拖相对(.74,.18)的灯到(.3,.3)观察各片投影变化。切换三个幕场重复拖移，最后两次重置与resize。无声作品为非交互状态文字。",
+  "boundedCaps": {
+    "paperObjects": 14,
+    "actualMax": 11,
+    "textureMarks": 650,
+    "devicePixelRatio": 2
+  },
+  "format": "offline standalone HTML",
+  "renderer": "Canvas 2D 原创实现，无第三方运行库",
+  "audio": "none",
+  "license": "MIT — 本作品原创HTML/CSS/JavaScript；系统字体不另行打包",
+  "sources": [
+    {
+      "title": "用户提供的图片与视频",
+      "kind": "视觉方向参考；不复制图像像素、不臆测作者或原交互"
+    },
+    {
+      "title": "Canvas API / Path2D",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "kind": "标准接口文档；未复用样例或第三方代码"
+    },
+    {
+      "title": "Pointer Events",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "kind": "鼠标与触屏输入接口文档；未复用样例代码"
+    }
+  ],
+  "assetPolicy": "剪纸轮廓/玻璃几何/纸纹均由本作品代码程序化生成；没有外链资源或复制附件图片；字体为设备系统字体。",
+  "validation": "作者快速自检已在Chromium离线file://页面运行桌面1440×900、手机390×844；鼠标拖移/按钮组合无pageerror，截图人工查看。完整60–90秒持续触控测试由集成代理执行。",
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

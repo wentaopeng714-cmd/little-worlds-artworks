@@ -1,0 +1,90 @@
+{
+  "title": "青庭 · Koi Courtyard",
+  "slug": "01-koi-courtyard",
+  "description": "在青绿水庭中投饵、画水流、放置并移动荷叶，组合改变鱼群的路径。清晨与薄暮各有一套完整水色。",
+  "controls": [
+    {
+      "id": "mode-feed",
+      "action": "点按与慢划投饵，观察鱼群聚散"
+    },
+    {
+      "id": "mode-current",
+      "action": "拖画水平、环形或交叉水流"
+    },
+    {
+      "id": "mode-lily",
+      "action": "轻点空处新增荷叶，拖动已有叶子改变绕行"
+    },
+    {
+      "id": "add-fish",
+      "action": "添加一尾鱼，最多28尾"
+    },
+    {
+      "id": "palette",
+      "action": "切换清晨与薄暮"
+    },
+    {
+      "id": "clear-current",
+      "action": "清除食物和水流，保留鱼与荷叶"
+    },
+    {
+      "id": "reset",
+      "action": "恢复初始庭院"
+    }
+  ],
+  "testControls": [
+    "#mode-feed",
+    "#mode-current",
+    "#mode-lily",
+    "#add-fish",
+    "#palette",
+    "#clear-current"
+  ],
+  "testNotes": "投饵慢划形成食物路径；水流拖画交叉与环形；荷叶模式拖初始左侧荷叶并在空处加叶；加鱼至上限；静水；薄暮与清晨两套色；重置两次与resize两次。",
+  "qa": {
+    "canvas": "#art",
+    "telemetry": "#qa",
+    "suggestedSequence": [
+      "投饵画弧线",
+      "水流画交叉与环形",
+      "放三片荷叶并拖动",
+      "连续添鱼至上限",
+      "切换薄暮与清晨",
+      "静水、重置及窗口调整"
+    ],
+    "caps": {
+      "fish": 28,
+      "food": 48,
+      "flows": 100,
+      "lilies": 12,
+      "ripples": 60,
+      "devicePixelRatio": 2
+    },
+    "audio": "none",
+    "offline": true
+  },
+  "sources": [
+    {
+      "url": "https://rzrabbi.github.io/interactive-koi-pond/demo/",
+      "role": "可交互鱼庭的行为参考",
+      "codeReused": false
+    },
+    {
+      "url": "https://github.com/rzrabbi/interactive-koi-pond/blob/master/LICENSE",
+      "role": "参考实现为MIT；本作未复制其代码或素材",
+      "codeReused": false
+    }
+  ],
+  "license": {
+    "code": "MIT",
+    "copyright": "2026 Little Worlds / original Canvas implementation",
+    "assets": "全部鱼、叶、水面纹理为代码原创绘制；无图片与字体文件；使用设备系统字体。"
+  },
+  "notes": "真实输入记录、帧数与上限通过隐藏qa元素提供；无CDN、fetch、音频或外部资源。",
+  "audio": "none",
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

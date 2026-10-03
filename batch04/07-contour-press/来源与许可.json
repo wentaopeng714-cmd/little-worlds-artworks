@@ -1,0 +1,13 @@
+{
+  "implementation": "本次独立编写的Canvas 2D程序；没有打包第三方库、图片、字体或音频。参考仅作为视觉或行为研究，未复制附件像素。",
+  "sources": [
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "relationship": "Canvas API 文档背景；未复用示例代码、素材或字体",
+      "license": "文档未打包；本作品原创代码 MIT"
+    }
+  ],
+  "code_license": "MIT",
+  "asset_license": "原始程序生成；设备系统字体；无外部素材文件",
+  "exclusive_rights_claimed": false
+}

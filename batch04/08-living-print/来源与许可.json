@@ -1,0 +1,18 @@
+{
+  "implementation": "本次独立编写的Canvas 2D程序；没有打包第三方库、图片、字体或音频。参考仅作为视觉或行为研究，未复制附件像素。",
+  "sources": [
+    {
+      "url": "https://www.karlsims.com/rd.html",
+      "relationship": "Gray–Scott 数学背景，独立扩展为双菌种共享养分与阻隔；未复制代码、图片、视频",
+      "license": "原文 All rights reserved；仅引用链接和数学概念，未打包。原创程序 MIT。"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "relationship": "Canvas API 文档背景；未复用代码或素材",
+      "license": "文档未打包"
+    }
+  ],
+  "code_license": "MIT",
+  "asset_license": "原始程序生成；设备系统字体；无外部素材文件",
+  "exclusive_rights_claimed": false
+}

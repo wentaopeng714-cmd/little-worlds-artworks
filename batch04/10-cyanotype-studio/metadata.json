@@ -1,0 +1,93 @@
+{
+  "title": "蓝晒暗房",
+  "slug": "10-cyanotype-studio",
+  "description": "摆放原创植物、蕾丝与字母遮光片，扫光、水洗，拿起遮片查看印迹；曝光保留，重排后能局部叠印。",
+  "engine": "Canvas 2D, original procedural JavaScript",
+  "controls": [
+    {
+      "id": "arrange",
+      "action": "空处点按添加当前遮光片；拖动已存在的片"
+    },
+    {
+      "id": "expose",
+      "action": "拖动用软边日光扫光，曝光按遮挡累积"
+    },
+    {
+      "id": "wash",
+      "action": "拖动水洗区域，逐步显影"
+    },
+    {
+      "id": "type",
+      "action": "阔叶、羽叶、蕾丝圆、字母片循环"
+    },
+    {
+      "id": "rotate",
+      "action": "选片旋转30度"
+    },
+    {
+      "id": "remove",
+      "action": "移除所选遮光片"
+    },
+    {
+      "id": "sun",
+      "action": "逐带自动扫光，可暂停"
+    },
+    {
+      "id": "lift",
+      "action": "拿起或放回遮光片，检查显影印迹"
+    },
+    {
+      "id": "fresh",
+      "action": "换一张未曝光相纸，保留当前布局"
+    },
+    {
+      "id": "reset",
+      "action": "恢复初始植物印样"
+    }
+  ],
+  "testControls": [
+    "#fresh",
+    "#type",
+    "#arrange",
+    "#rotate",
+    "#sun",
+    "#expose",
+    "#wash",
+    "#lift",
+    "#remove"
+  ],
+  "testNotes": "纸面是画布中央约0.8宽高比矩形；先fresh，再arrange点空处与拖遮片，然后expose拖纸面或sun扫描，wash拖动会显蓝；已有印迹不会因移动片被抹去，重排叠印可持续累积。",
+  "test_plan": [
+    "新相纸并添加不同遮光片",
+    "拖动遮光片、旋转、局部扫光",
+    "暂停日光移动遮光片后继续",
+    "水洗拖动显影、拿片查看",
+    "重排遮光片继续扫光水洗叠印",
+    "重复重置、无声状态文字与横竖尺寸切换"
+  ],
+  "caps": {
+    "stencils": 32,
+    "wetRings": 24,
+    "simulationPixels": 128000,
+    "devicePixelRatio": 2
+  },
+  "sources": [
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "role": "技术 API 参考；未复制代码"
+    },
+    {
+      "role": "用户蓝白画面与留白美术参考；没有复用图像像素"
+    }
+  ],
+  "code_reuse": "None. Original procedural drawing, raster exposure and reveal code.",
+  "asset_reuse": "None. No external images, fonts or audio.",
+  "license": "MIT (original implementation); see LICENSE.txt",
+  "audio": "none",
+  "model_note": "艺术化接触印刷模型，非化学实验模拟。",
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": "风中花圃",
+  "slug": "09-wind-garden",
+  "description": "在植物纸画里栽花、修枝、采入陶瓶、束成静物，再逐枝移栽；拖动风迹令花枝回弹。",
+  "engine": "Canvas 2D, original procedural JavaScript",
+  "controls": [
+    {
+      "id": "plant",
+      "action": "栽花：点按添一枝，拖动每170ms栽一枝"
+    },
+    {
+      "id": "wind",
+      "action": "吹风：拖动影响邻近花枝的弹性摆动"
+    },
+    {
+      "id": "move",
+      "action": "移栽：拖住花头移动整株"
+    },
+    {
+      "id": "prune",
+      "action": "修枝：点按花头缩短花枝"
+    },
+    {
+      "id": "daisy",
+      "action": "白雏菊"
+    },
+    {
+      "id": "poppy",
+      "action": "珊瑚罂粟"
+    },
+    {
+      "id": "fern",
+      "action": "青绿羽叶"
+    },
+    {
+      "id": "bell",
+      "action": "蓝色铃花"
+    },
+    {
+      "id": "gather",
+      "action": "收束成一束，接着逐枝移栽散开"
+    },
+    {
+      "id": "season",
+      "action": "切换晚夏、清晨、秋日画纸与植物色彩"
+    },
+    {
+      "id": "reset",
+      "action": "重置固定初始构图"
+    },
+    {
+      "id": "harvest",
+      "action": "剪取点按的花，重新插入右侧陶瓶形成静物花束"
+    }
+  ],
+  "test_plan": [
+    "栽不同品种与连拖种植",
+    "吹风连拖观察邻近枝条弯曲并回弹",
+    "束成花束后拖动花头移栽",
+    "修枝后再栽花",
+    "切季节、重置、无声状态与横竖尺寸切换"
+  ],
+  "caps": {
+    "plants": 100,
+    "gusts": 80,
+    "devicePixelRatio": 2
+  },
+  "sources": [
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "role": "技术 API 参考；未复制代码"
+    },
+    {
+      "role": "用户提供的平面植物与色彩美术参考；没有复用图像像素"
+    }
+  ],
+  "code_reuse": "None. Original procedural drawing and interaction code.",
+  "asset_reuse": "None. No external images, fonts or audio.",
+  "license": "MIT (original implementation); see LICENSE.txt",
+  "audio": "none",
+  "testControls": [
+    "#poppy",
+    "#plant",
+    "#wind",
+    "#harvest",
+    "#gather",
+    "#move",
+    "#prune",
+    "#season"
+  ],
+  "testNotes": "采花需点实际花头（花茎上端）；gather将花束插入右侧陶瓶，再move拖花头可逐枝重排。",
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

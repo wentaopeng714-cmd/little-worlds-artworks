@@ -1,0 +1,27 @@
+{
+  "implementation": "本次独立编写的Canvas 2D程序；没有打包第三方库、图片、字体或音频。参考仅作为视觉或行为研究，未复制附件像素。",
+  "sources": [
+    {
+      "url": "https://editor.p5js.org/pattvira/sketches/I6nhJ_Ffq",
+      "role": "落字遇挡板的概念参考；未采用其源码，其特定草图许可未确认",
+      "codeReused": false
+    },
+    {
+      "url": "https://brm.io/matter-js/demo/#svg",
+      "role": "可拖动字形物件的交互参考；本作直接使用独立编写的简化线段碰撞",
+      "codeReused": false
+    },
+    {
+      "url": "https://github.com/liabru/matter-js/blob/master/LICENSE",
+      "role": "参考引擎为MIT；没有捆绑或复制Matter.js代码",
+      "codeReused": false
+    }
+  ],
+  "code_license": {
+    "code": "MIT",
+    "copyright": "2026 Little Worlds / original Canvas implementation",
+    "assets": "字形来自设备系统字体，不分发字体文件。伞、槽、挡板及纸纹全为代码原创绘制。"
+  },
+  "asset_license": "原始程序生成；设备系统字体；无外部素材文件",
+  "exclusive_rights_claimed": false
+}

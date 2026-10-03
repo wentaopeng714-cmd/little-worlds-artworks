@@ -1,0 +1,22 @@
+{
+  "implementation": "本次独立编写的Canvas 2D程序；没有打包第三方库、图片、字体或音频。参考仅作为视觉或行为研究，未复制附件像素。",
+  "sources": [
+    {
+      "title": "用户提供的图片与视频",
+      "kind": "视觉方向参考；不复制图像像素、不臆测作者或原交互"
+    },
+    {
+      "title": "Canvas API / Path2D",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "kind": "标准接口文档；未复用样例或第三方代码"
+    },
+    {
+      "title": "Pointer Events",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "kind": "鼠标与触屏输入接口文档；未复用样例代码"
+    }
+  ],
+  "code_license": "MIT — 本作品原创HTML/CSS/JavaScript；系统字体不另行打包",
+  "asset_license": "原始程序生成；设备系统字体；无外部素材文件",
+  "exclusive_rights_claimed": false
+}

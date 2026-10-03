@@ -1,0 +1,53 @@
+{
+  "title": "纸上山谷 · 折纸浮雕",
+  "slug": "06-folded-landscape",
+  "description": "纸面留下山折、谷折和局部熨平的痕迹；抓起纸角并转动光线，持续改变折纸浮雕。",
+  "implementation": "原创 Canvas 2D 高度场及面片法线光照，程序纸纤维，无第三方代码、字体或图像；独立离线。",
+  "controls": {
+    "mountain": "沿纸面拖动新增向上山折",
+    "valley": "沿纸面拖动新增向下谷折",
+    "corner": "按住后上下拖动抬落最近纸角",
+    "flatten": "拖动局部熨平",
+    "light": "拖动画布调整光向和高度",
+    "paper": "循环四色染纸，保留折痕",
+    "sun": "开启或停驻缓慢日光漫游",
+    "blank": "清成平纸，可撤回",
+    "undo": "撤回最近纸面操作，最多20步",
+    "reset": "恢复初始纸雕"
+  },
+  "test_actions": [
+    "交叉拖出长山折和短谷折",
+    "选择抓角从左上向上拖再右下向下拖",
+    "在交叉折痕上熨平",
+    "转光左右和上下拖动",
+    "换纸色、日光漫游和撤回",
+    "空白纸重新折；连续90秒组合及两次重置/调整视口"
+  ],
+  "limits": {
+    "creases": 18,
+    "flatten_spots": 40,
+    "undo_states": 20,
+    "mesh_triangles": 5120,
+    "device_pixel_ratio": 2,
+    "render_hz_cap": 31
+  },
+  "sources": [],
+  "license": "原创实现；未使用第三方许可素材",
+  "audio": "none",
+  "testControls": [
+    "#valley",
+    "#corner",
+    "#flatten",
+    "#light",
+    "#paper",
+    "#sun",
+    "#blank",
+    "#undo"
+  ],
+  "testNotes": "选择模式后使用画布实际鼠标或触摸拖动；移动端应避开底部工具栏，画面中央可操作。无声作品为非交互状态文字。两次reset不得清零累计计数。",
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

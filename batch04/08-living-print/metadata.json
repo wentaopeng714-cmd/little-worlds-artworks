@@ -1,0 +1,118 @@
+{
+  "slug": "08-living-print",
+  "title": "菌纹印花",
+  "subtitle": "Living Print",
+  "description": "在象牙纸面播种靛蓝和朱红菌纹。纹样持续扩散，画出的阻隔让它分流，擦开通道后两种印花相遇。",
+  "controls": [
+    {
+      "id": "seed-blue",
+      "action": "点播或拖动靛蓝种子"
+    },
+    {
+      "id": "seed-red",
+      "action": "点播或拖动朱红种子"
+    },
+    {
+      "id": "barrier",
+      "action": "拖动建立不透过的留白阻隔"
+    },
+    {
+      "id": "erase",
+      "action": "擦开阻隔和菌纹，形成新通道"
+    },
+    {
+      "id": "pause",
+      "action": "暂停或继续反应扩散"
+    },
+    {
+      "id": "weather",
+      "action": "切换两种养分参数，改变生长形态"
+    },
+    {
+      "id": "harvest",
+      "action": "冻结并以五级色密度拓印；再落笔继续培养"
+    },
+    {
+      "id": "reset",
+      "action": "恢复初始菌种、养分和生长状态"
+    }
+  ],
+  "testControls": [
+    "#seed-red",
+    "#barrier",
+    "#erase",
+    "#weather",
+    "#pause",
+    "#harvest",
+    "#seed-blue"
+  ],
+  "testNotes": "播种蓝红菌种；阻隔围住局部菌纹后擦开缺口；换养分等数秒；暂停与恢复；拓印冻结，再播种退出拓印。两次 reset 和手机桌面 resize。",
+  "caps": {
+    "fieldCells": 25344,
+    "fieldResolution": [
+      176,
+      144
+    ],
+    "simulationArrays": 6,
+    "wallMasks": 1,
+    "stepsPerFrame": 4,
+    "initialWarmupSteps": 900,
+    "grainMarks": 3200,
+    "maxPointerInterpolationSteps": 32,
+    "targetFPS": 30,
+    "devicePixelRatioMax": 2,
+    "history": "无无限种子队列"
+  },
+  "sources": [
+    {
+      "url": "https://www.karlsims.com/rd.html",
+      "relationship": "Gray–Scott 数学背景，独立扩展为双菌种共享养分与阻隔；未复制代码、图片、视频",
+      "license": "原文 All rights reserved；仅引用链接和数学概念，未打包。原创程序 MIT。"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "relationship": "Canvas API 文档背景；未复用代码或素材",
+      "license": "文档未打包"
+    }
+  ],
+  "designNotes": "双菌种艺术模拟，不代表真实生物学；共享养分场，双色反应扩散加竞争项，阻隔为零通量边界。",
+  "implementation": "原创 Canvas 2D；未复制第三方代码、图片或字体，数学模型仅作背景参考。",
+  "license": "MIT",
+  "audio": "none",
+  "offline": "CSS 和 JavaScript 全内联，无网络请求，直接打开 index.html。",
+  "qa": {
+    "selector": "#qa",
+    "fields": [
+      "frames",
+      "inputs",
+      "resets",
+      "bounded",
+      "cells",
+      "activeCells"
+    ],
+    "counters": "frames、inputs、resets 始终累计，重置不归零",
+    "audio": "none"
+  },
+  "fonts": "系统 Georgia / Songti SC，无捆绑字体",
+  "selfCheck": {
+    "viewports": [
+      "390x844",
+      "1440x900"
+    ],
+    "browser": "Playwright Chromium headless; 鼠标模拟拖动快速检查，非真机测试",
+    "consoleErrors": 0,
+    "horizontalOverflow": false,
+    "minButtonHeight": 44,
+    "screenshots": [
+      "preview-mobile.png",
+      "preview-desktop.png"
+    ],
+    "note": "根任务负责独立60–90秒真实触屏事件组合、reset、resize复测。"
+  },
+  "parameterChecks": "独立1900步数值扫描7组反应参数；选择种群可持续的两组，第二组不再清空双菌群。",
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

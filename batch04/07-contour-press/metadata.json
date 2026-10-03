@@ -1,0 +1,102 @@
+{
+  "slug": "07-contour-press",
+  "title": "浮洲刻版",
+  "subtitle": "Contour Press",
+  "description": "把靛蓝海面中的岛屿当作可雕刻的印版。堆高地形、刻出海峡、变换潮位，再叠上朱红错版轮廓。",
+  "controls": [
+    {
+      "id": "carve",
+      "action": "雕刻拖动降低高程；按住慢慢走刀"
+    },
+    {
+      "id": "raise",
+      "action": "堆积拖动抬高高程，形成新岛"
+    },
+    {
+      "id": "smooth",
+      "action": "揉平坡面，改变等高线曲率"
+    },
+    {
+      "id": "tide",
+      "action": "四级潮位循环，改变露出的岛屿和层线"
+    },
+    {
+      "id": "register",
+      "action": "切换红色错位套印"
+    },
+    {
+      "id": "print",
+      "action": "切换压印色调和纸面颗粒；继续落笔返版"
+    },
+    {
+      "id": "reset",
+      "action": "恢复初始地形、潮位和印版状态"
+    }
+  ],
+  "testControls": [
+    "#raise",
+    "#carve",
+    "#smooth",
+    "#tide",
+    "#register",
+    "#print"
+  ],
+  "testNotes": "堆积拖画新岛；雕刻拖出水道；揉平边缘；四级潮位循环；错版与压印组合；压印后拖动返版。按住持续改变高程。两次 reset 和手机桌面 resize。",
+  "caps": {
+    "fieldCells": 29184,
+    "fieldResolution": [
+      192,
+      152
+    ],
+    "grainMarks": 3400,
+    "maxPointerInterpolationSteps": 32,
+    "targetFPS": 30,
+    "devicePixelRatioMax": 2,
+    "history": "无无限历史队列"
+  },
+  "sources": [
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "relationship": "Canvas API 文档背景；未复用示例代码、素材或字体",
+      "license": "文档未打包；本作品原创代码 MIT"
+    }
+  ],
+  "designNotes": "高程是真实二维数值场；走刀、堆积、平滑会保留形状变化；等高线使用独立实现的 marching-squares 插值。",
+  "implementation": "原创 Canvas 2D；未复制第三方代码、图片或字体，数学模型仅作背景参考。",
+  "license": "MIT",
+  "audio": "none",
+  "offline": "CSS 和 JavaScript 全内联，无网络请求，直接打开 index.html。",
+  "qa": {
+    "selector": "#qa",
+    "fields": [
+      "frames",
+      "inputs",
+      "resets",
+      "bounded",
+      "cells"
+    ],
+    "counters": "frames、inputs、resets 始终累计，重置不归零",
+    "audio": "none"
+  },
+  "fonts": "系统 Georgia / Songti SC，无捆绑字体",
+  "selfCheck": {
+    "viewports": [
+      "390x844",
+      "1440x900"
+    ],
+    "browser": "Playwright Chromium headless; 鼠标模拟拖动快速检查，非真机测试",
+    "consoleErrors": 0,
+    "horizontalOverflow": false,
+    "minButtonHeight": 44,
+    "screenshots": [
+      "preview-mobile.png",
+      "preview-desktop.png"
+    ],
+    "note": "根任务负责独立60–90秒真实触屏事件组合、reset、resize复测。"
+  },
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

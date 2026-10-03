@@ -1,0 +1,55 @@
+{
+  "title": "纱间 · 织屏摩尔纹",
+  "slug": "05-moire-screens",
+  "description": "三层染色纱网叠出摩尔纹；微移、转角、局部梳曲和掀纱圆窗可以连续组合。",
+  "implementation": "原创 Canvas 2D 程序纹理，无第三方代码、字体或图像；独立离线。",
+  "controls": {
+    "layer0": "选择青纱",
+    "layer1": "选择桃纱",
+    "layer2": "选择金纱",
+    "move": "拖动选层",
+    "turn": "绕纱中心拖动旋转",
+    "comb": "横拖局部改变线的曲率",
+    "lift": "拖动位置并扩大选层透气圆窗",
+    "palette": "循环三个染色组合，保留形态",
+    "undo": "退回最后一次画布操作，最多24步",
+    "pause": "停驻或继续缓慢漂移",
+    "reset": "恢复初始构图"
+  },
+  "test_actions": [
+    "选择青纱挪动两次",
+    "选择桃纱转动，小角度制造宽波带",
+    "梳曲横向拖动至少三处",
+    "切到金纱掀纱，移动圆窗位置",
+    "换色、退一步、停驻及继续",
+    "连续90秒组合，再两次重置及调整视口"
+  ],
+  "limits": {
+    "layers": 3,
+    "texture_size": 1000,
+    "combs_per_layer": 12,
+    "apertures_per_layer": 8,
+    "undo_states": 24,
+    "device_pixel_ratio": 2
+  },
+  "sources": [],
+  "license": "原创实现；未使用第三方许可素材",
+  "audio": "none",
+  "testControls": [
+    "#layer1",
+    "#turn",
+    "#comb",
+    "#layer2",
+    "#lift",
+    "#palette",
+    "#undo",
+    "#pause"
+  ],
+  "testNotes": "选择模式后使用画布实际鼠标或触摸拖动；移动端应避开底部工具栏，画面中央可操作。无声作品为非交互状态文字。两次reset不得清零累计计数。",
+  "sourceNotes": "视觉材料取向参考用户确认的Library附件；织屏机制及实现原创，未复制第三方代码素材。",
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

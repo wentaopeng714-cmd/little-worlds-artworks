@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "01-koi-courtyard",
+    "title": "青庭 · Koi Courtyard",
+    "sources": [
+      {
+        "url": "https://rzrabbi.github.io/interactive-koi-pond/demo/",
+        "role": "可交互鱼庭的行为参考",
+        "codeReused": false
+      },
+      {
+        "url": "https://github.com/rzrabbi/interactive-koi-pond/blob/master/LICENSE",
+        "role": "参考实现为MIT；本作未复制其代码或素材",
+        "codeReused": false
+      }
+    ],
+    "license": {
+      "code": "MIT",
+      "copyright": "2026 Little Worlds / original Canvas implementation",
+      "assets": "全部鱼、叶、水面纹理为代码原创绘制；无图片与字体文件；使用设备系统字体。"
+    },
+    "actual_code_reuse": "未复制参考代码；原创Canvas实现"
+  },
+  {
+    "slug": "02-letter-weather",
+    "title": "字雨 · Letter Weather",
+    "sources": [
+      {
+        "url": "https://editor.p5js.org/pattvira/sketches/I6nhJ_Ffq",
+        "role": "落字遇挡板的概念参考；未采用其源码，其特定草图许可未确认",
+        "codeReused": false
+      },
+      {
+        "url": "https://brm.io/matter-js/demo/#svg",
+        "role": "可拖动字形物件的交互参考；本作直接使用独立编写的简化线段碰撞",
+        "codeReused": false
+      },
+      {
+        "url": "https://github.com/liabru/matter-js/blob/master/LICENSE",
+        "role": "参考引擎为MIT；没有捆绑或复制Matter.js代码",
+        "codeReused": false
+      }
+    ],
+    "license": {
+      "code": "MIT",
+      "copyright": "2026 Little Worlds / original Canvas implementation",
+      "assets": "字形来自设备系统字体，不分发字体文件。伞、槽、挡板及纸纹全为代码原创绘制。"
+    },
+    "actual_code_reuse": "未复制参考代码；原创Canvas实现"
+  },
+  {
+    "slug": "03-paper-theatre",
+    "title": "纸幕剧场",
+    "sources": [
+      {
+        "title": "用户提供的图片与视频",
+        "kind": "视觉方向参考；不复制图像像素、不臆测作者或原交互"
+      },
+      {
+        "title": "Canvas API / Path2D",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "kind": "标准接口文档；未复用样例或第三方代码"
+      },
+      {
+        "title": "Pointer Events",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+        "kind": "鼠标与触屏输入接口文档；未复用样例代码"
+      }
+    ],
+    "license": "MIT — 本作品原创HTML/CSS/JavaScript；系统字体不另行打包",
+    "actual_code_reuse": "未复制参考代码；原创Canvas实现"
+  },
+  {
+    "slug": "04-stained-glass",
+    "title": "光的拼片",
+    "sources": [
+      {
+        "title": "用户提供的图片与视频",
+        "kind": "视觉方向参考；不复制图像像素、不臆测作者或原交互"
+      },
+      {
+        "title": "Canvas API / Path2D",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "kind": "标准接口文档；未复用样例或第三方代码"
+      },
+      {
+        "title": "Pointer Events",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+        "kind": "鼠标与触屏输入接口文档；未复用样例代码"
+      }
+    ],
+    "license": "MIT — 本作品原创HTML/CSS/JavaScript；系统字体不另行打包",
+    "actual_code_reuse": "未复制参考代码；原创Canvas实现"
+  },
+  {
+    "slug": "05-moire-screens",
+    "title": "纱间 · 织屏摩尔纹",
+    "sources": [],
+    "license": "原创实现；未使用第三方许可素材",
+    "actual_code_reuse": "未复制参考代码；原创Canvas实现"
+  },
+  {
+    "slug": "06-folded-landscape",
+    "title": "纸上山谷 · 折纸浮雕",
+    "sources": [],
+    "license": "原创实现；未使用第三方许可素材",
+    "actual_code_reuse": "未复制参考代码；原创Canvas实现"
+  },
+  {
+    "slug": "07-contour-press",
+    "title": "浮洲刻版",
+    "sources": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "relationship": "Canvas API 文档背景；未复用示例代码、素材或字体",
+        "license": "文档未打包；本作品原创代码 MIT"
+      }
+    ],
+    "license": "MIT",
+    "actual_code_reuse": "未复制参考代码；原创Canvas实现"
+  },
+  {
+    "slug": "08-living-print",
+    "title": "菌纹印花",
+    "sources": [
+      {
+        "url": "https://www.karlsims.com/rd.html",
+        "relationship": "Gray–Scott 数学背景，独立扩展为双菌种共享养分与阻隔；未复制代码、图片、视频",
+        "license": "原文 All rights reserved；仅引用链接和数学概念，未打包。原创程序 MIT。"
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "relationship": "Canvas API 文档背景；未复用代码或素材",
+        "license": "文档未打包"
+      }
+    ],
+    "license": "MIT",
+    "actual_code_reuse": "未复制参考代码；原创Canvas实现"
+  },
+  {
+    "slug": "09-wind-garden",
+    "title": "风中花圃",
+    "sources": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "role": "技术 API 参考；未复制代码"
+      },
+      {
+        "role": "用户提供的平面植物与色彩美术参考；没有复用图像像素"
+      }
+    ],
+    "license": "MIT (original implementation); see LICENSE.txt",
+    "actual_code_reuse": "None. Original procedural drawing and interaction code."
+  },
+  {
+    "slug": "10-cyanotype-studio",
+    "title": "蓝晒暗房",
+    "sources": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "role": "技术 API 参考；未复制代码"
+      },
+      {
+        "role": "用户蓝白画面与留白美术参考；没有复用图像像素"
+      }
+    ],
+    "license": "MIT (original implementation); see LICENSE.txt",
+    "actual_code_reuse": "None. Original procedural drawing, raster exposure and reveal code."
+  }
+]

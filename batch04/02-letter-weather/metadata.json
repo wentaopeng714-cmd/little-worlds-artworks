@@ -1,0 +1,89 @@
+{
+  "title": "字雨 · Letter Weather",
+  "slug": "02-letter-weather",
+  "description": "奶油纸面上的字雨海报。摆放、移动与旋转挡板、伞和接字槽，把飘落的字接住；拖字留下，再放飞重排。",
+  "controls": [
+    {
+      "id": "add-board",
+      "action": "添加可拖动、旋转的挡板"
+    },
+    {
+      "id": "add-umbrella",
+      "action": "添加雨伞，字从伞面弹开"
+    },
+    {
+      "id": "add-bowl",
+      "action": "添加接字槽，聚拢飘落文字"
+    },
+    {
+      "id": "rotate",
+      "action": "所选物件旋转15度，也可拖其右侧圆点连续旋转"
+    },
+    {
+      "id": "weather",
+      "action": "循环微雨、阵雨、向上逆风，改变流速与方向"
+    },
+    {
+      "id": "letters",
+      "action": "循环雨RAIN、PLAY、想象、SLOW四组字"
+    },
+    {
+      "id": "release",
+      "action": "把拖放固定的字释放回风里"
+    },
+    {
+      "id": "reset",
+      "action": "恢复初始天气和三个物件"
+    }
+  ],
+  "testControls": [
+    "#add-board",
+    "#add-umbrella",
+    "#add-bowl",
+    "#rotate",
+    "#weather",
+    "#letters",
+    "#release"
+  ],
+  "testNotes": "在画布内直接拖动初始三个物件；所选物件的右端圆点可连续旋转；拖一个字后松手固定，继续拖三枚重组；放飞解除固定；组合三种天气与新增挡板，最后重置两次与resize两次。",
+  "qa": {
+    "canvas": "#art",
+    "telemetry": "#qa",
+    "caps": {
+      "letters": 180,
+      "boards": 8,
+      "devicePixelRatio": 2
+    },
+    "audio": "none",
+    "offline": true
+  },
+  "sources": [
+    {
+      "url": "https://editor.p5js.org/pattvira/sketches/I6nhJ_Ffq",
+      "role": "落字遇挡板的概念参考；未采用其源码，其特定草图许可未确认",
+      "codeReused": false
+    },
+    {
+      "url": "https://brm.io/matter-js/demo/#svg",
+      "role": "可拖动字形物件的交互参考；本作直接使用独立编写的简化线段碰撞",
+      "codeReused": false
+    },
+    {
+      "url": "https://github.com/liabru/matter-js/blob/master/LICENSE",
+      "role": "参考引擎为MIT；没有捆绑或复制Matter.js代码",
+      "codeReused": false
+    }
+  ],
+  "license": {
+    "code": "MIT",
+    "copyright": "2026 Little Worlds / original Canvas implementation",
+    "assets": "字形来自设备系统字体，不分发字体文件。伞、槽、挡板及纸纹全为代码原创绘制。"
+  },
+  "notes": "没有CDN、外部资源、音频或网络请求。离线双击HTML即可打开。",
+  "audio": "none",
+  "audioStatus": {
+    "selector": "#sound-status",
+    "text": "无声作品",
+    "interactive": false
+  }
+}

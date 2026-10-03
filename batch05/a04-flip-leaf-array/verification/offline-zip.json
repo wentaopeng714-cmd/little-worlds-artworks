@@ -1,0 +1,70 @@
+{
+  "slug": "a04-flip-leaf-array",
+  "offlineZip": true,
+  "networkRequests": [],
+  "errors": [],
+  "snapshot": {
+    "art": {
+      "inputs": 17,
+      "resets": 1,
+      "state": {
+        "wave": false,
+        "face": 0,
+        "axis": 0,
+        "pinMode": false,
+        "pinned": 0,
+        "turns": [
+          0,
+          0.23641616532907164,
+          0.4517139787160283,
+          0.6266615277019867,
+          0.745631268773781,
+          0.7979959892832436,
+          0.7790781047025562,
+          0.6905674933190991,
+          0.5403705444409208,
+          0.3419039041870642,
+          0.11289600644789377,
+          -0.12619655531459859
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "leaves": 255,
+        "pinned": 0,
+        "maxLeaves": 255,
+        "frames": 16,
+        "fps": 23.4
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 4
+    }
+  },
+  "manifest": {
+    "zipSha256": "994a3d6a144bb08f0bdf4e86c9287feb50e0b120ae48d8992cb4629d2b354e26",
+    "files": {
+      "index.html": "758ef0dc969a28fac7451d2bdafb200405715143db04131dd8169eb4d7c47284",
+      "app.js": "ba5a27babb8878598b4ced1f6644439d9826c5d6bd97761ed7c275e16cbc8825",
+      "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+      "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+      "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+      "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+      "metadata.json": "4d4acd643afe88cc0d62711e4f903b7ec9dd239e7b5a7e2df7cebae2febf47b6",
+      "说明.txt": "95a35180568c99ae3819fd3db1c971acbf0708c8e0b31347d1912f2bff69a9a7",
+      "来源与许可.json": "53b81304414187f0a72f16bbfc5cf1e6e57ff059a995c2ec6f6b0d98ce227e58"
+    }
+  },
+  "pass": true
+}

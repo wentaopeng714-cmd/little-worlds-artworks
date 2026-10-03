@@ -1,0 +1,20 @@
+{
+  "references": [
+    {
+      "title": "NOAA · Are corals animals or plants?",
+      "url": "https://oceanservice.noaa.gov/facts/coral.html",
+      "use": "已实际查看珊瑚结构图与说明；学习团簇、钙质层次；本作是想象雕塑，不声称科学模拟",
+      "license": "未复制或打包 NOAA 图片"
+    },
+    {
+      "title": "Algorithmic Botany · Publications",
+      "url": "https://algorithmicbotany.org/papers/",
+      "use": "已读 L-system 建模文献目录；独立有限递归枝骨实现，不复制研究代码/插图",
+      "license": "论文及图像未打包，无第三方程序代码"
+    }
+  ],
+  "bundled": {
+    "p5.js": "1.11.11，见 p5-LICENSE.txt"
+  },
+  "originalContent": "本次原创视觉程序与生成音序，未擅自附公开许可；不保证独占AI版权"
+}

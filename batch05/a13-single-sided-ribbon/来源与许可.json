@@ -1,0 +1,14 @@
+{
+  "references": [
+    {
+      "title": "MathCurve · Möbius strip",
+      "url": "https://www.mathcurve.com/surfaces.gb/mobius/mobius.shtml",
+      "use": "已实际查看曲面、三角带与半扭图示；独立参数曲面实现，艺术铺展是形态插值而非严格可展面证明",
+      "license": "页末著作权归 Robert Ferréol 等；未复制代码或图片，仅数学与形态背景"
+    }
+  ],
+  "bundled": {
+    "p5.js": "1.11.11，见 p5-LICENSE.txt"
+  },
+  "originalContent": "本次原创视觉程序与生成音序，未擅自附公开许可；不保证独占AI版权"
+}

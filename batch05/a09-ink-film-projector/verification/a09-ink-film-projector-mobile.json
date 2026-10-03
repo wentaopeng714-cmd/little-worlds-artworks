@@ -1,0 +1,287 @@
+{
+  "slug": "a09-ink-film-projector",
+  "device": "390x844 mobile-emulation",
+  "durationMs": 65911,
+  "visibleControls": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "state": {
+      "sel": 0,
+      "drop": false,
+      "lightMode": false,
+      "expanded": false,
+      "lamp": {
+        "x": -350,
+        "y": -280
+      },
+      "films": [
+        {
+          "x": -55,
+          "y": -35,
+          "a": -0.18,
+          "flip": 1,
+          "ink": 2
+        },
+        {
+          "x": 65,
+          "y": 20,
+          "a": 0.17,
+          "flip": 1,
+          "ink": 2
+        },
+        {
+          "x": 10,
+          "y": 55,
+          "a": -0.03,
+          "flip": 1,
+          "ink": 2
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "films": 3,
+      "drops": 6
+    },
+    "frames": 25,
+    "audio": {
+      "state": "not-created",
+      "unlocked": false,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 0,
+      "nodeCount": 0,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 0,
+      "fxNotes": 0
+    }
+  },
+  "final": {
+    "inputs": 221,
+    "resets": 1,
+    "state": {
+      "sel": 2,
+      "drop": true,
+      "lightMode": false,
+      "expanded": true,
+      "lamp": {
+        "x": -350,
+        "y": -280
+      },
+      "films": [
+        {
+          "x": -55,
+          "y": -35,
+          "a": -0.18,
+          "flip": 1,
+          "ink": 2
+        },
+        {
+          "x": 65,
+          "y": 20,
+          "a": 0.17,
+          "flip": 1,
+          "ink": 2
+        },
+        {
+          "x": 10,
+          "y": 55,
+          "a": -0.03,
+          "flip": 1,
+          "ink": 3
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "films": 3,
+      "drops": 7
+    },
+    "frames": 1666,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.005051198011736665,
+      "errors": 0,
+      "musicNotes": 223,
+      "fxNotes": 41
+    }
+  },
+  "resetMuted": true,
+  "mutedRms": 0,
+  "musicNonzero": true,
+  "fxCount": 41,
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 6,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.001240034935459899,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 4
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.008856728522845006,
+      "errors": 0,
+      "musicNotes": 29,
+      "fxNotes": 8
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.012247726681999617,
+      "errors": 0,
+      "musicNotes": 52,
+      "fxNotes": 11
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.005346592029815434,
+      "errors": 0,
+      "musicNotes": 74,
+      "fxNotes": 15
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.012110959497491131,
+      "errors": 0,
+      "musicNotes": 102,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.008187833896680966,
+      "errors": 0,
+      "musicNotes": 129,
+      "fxNotes": 24
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00027184275731452273,
+      "errors": 0,
+      "musicNotes": 154,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.013290470646881557,
+      "errors": 0,
+      "musicNotes": 182,
+      "fxNotes": 34
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.001971879863617482,
+      "errors": 0,
+      "musicNotes": 204,
+      "fxNotes": 37
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0006188554275733174,
+      "errors": 0,
+      "musicNotes": 213,
+      "fxNotes": 41
+    }
+  ],
+  "lifecycle": {
+    "blur": {
+      "trusted": true
+    },
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 7,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 231,
+      "fxNotes": 41
+    }
+  },
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "a14-enamel-corallium",
+  "title": "珊瑚珐琅",
+  "group": "A",
+  "description": "修剪、嫁接与缓慢钙化的雕塑",
+  "instructions": "旋台拖动改变角度；修剪点按枝尖剪去该枝与后代；嫁接点按枝尖长出新分叉。钙化让枝骨逐渐变粗并长出釉珠；焕釉改变三种珐琅材料，潮流改变摆动方向。选中枝尖时有金色指示，反复修剪再嫁接会形成自己的枝骨结构。",
+  "testControls": [
+    "#rotate",
+    "#prune",
+    "#graft",
+    "#calcify",
+    "#enamel",
+    "#current"
+  ],
+  "referenceURLs": [
+    "https://oceanservice.noaa.gov/facts/coral.html",
+    "https://algorithmicbotany.org/papers/"
+  ],
+  "references": [
+    {
+      "title": "NOAA · Are corals animals or plants?",
+      "url": "https://oceanservice.noaa.gov/facts/coral.html",
+      "use": "已实际查看珊瑚结构图与说明；学习团簇、钙质层次；本作是想象雕塑，不声称科学模拟",
+      "license": "未复制或打包 NOAA 图片"
+    },
+    {
+      "title": "Algorithmic Botany · Publications",
+      "url": "https://algorithmicbotany.org/papers/",
+      "use": "已读 L-system 建模文献目录；独立有限递归枝骨实现，不复制研究代码/插图",
+      "license": "论文及图像未打包，无第三方程序代码"
+    }
+  ],
+  "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+  "audio": {
+    "tempo": 62,
+    "scale": [
+      46,
+      53,
+      58,
+      60,
+      65,
+      67,
+      70
+    ],
+    "original": true
+  },
+  "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+  "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+  "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+  "mainMechanism": "有限递归三维珊瑚枝骨树，可删除整支后代与嫁接新子树，转台、钙化釉珠与珐琅材料",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "durationsSeconds": [
+      74,
+      84
+    ],
+    "inputs": [
+      486,
+      594
+    ],
+    "consoleErrors": [
+      0,
+      0
+    ],
+    "bounded": true,
+    "audioMusicRMS": [
+      0.011115060524418994,
+      0.006339173295971053
+    ],
+    "audioFXRMS": [
+      0.012387346522353352,
+      0.006690451561352922
+    ],
+    "muteRMS": [
+      0,
+      0
+    ],
+    "resetPreservesMute": true,
+    "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+    "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+    "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+    "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+    "screenshots": [
+      "preview-desktop.png",
+      "preview-mobile.png",
+      "evidence/desktop-combined.png",
+      "evidence/mobile-combined.png"
+    ],
+    "reports": [
+      "evidence/desktop-test.json",
+      "evidence/mobile-test.json",
+      "evidence/offline-test.json"
+    ],
+    "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。",
+    "finalVisualPatch": "已将枝条绘制微调为轻弯锥形珐琅枝、柔和接头与枝端；枝骨数据/剪枝/嫁接/音序未改变。两视口各70次真实鼠标输入补测通过、无错误、bounded、静音重置RMS0；证据evidence/final-soft-branches.json，非真机。"
+  }
+}

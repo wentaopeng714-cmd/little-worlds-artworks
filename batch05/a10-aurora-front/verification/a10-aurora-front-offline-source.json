@@ -1,0 +1,59 @@
+{
+  "slug": "a10-aurora-front",
+  "method": "Chromium offline context before file:// navigation; independent source directory with all local dependencies. ZIP extraction validation remains integrator responsibility.",
+  "snapshot": {
+    "inputs": 1,
+    "resets": 0,
+    "state": {
+      "anchors": [
+        {
+          "x": -400,
+          "y": 210
+        },
+        {
+          "x": -200,
+          "y": 160
+        },
+        {
+          "x": 0,
+          "y": 215
+        },
+        {
+          "x": 200,
+          "y": 150
+        },
+        {
+          "x": 400,
+          "y": 190
+        }
+      ],
+      "folded": false,
+      "high": 1,
+      "view": 0,
+      "fronts": 0
+    },
+    "bounded": true,
+    "counts": {
+      "anchors": 5,
+      "rays": 800,
+      "fronts": 0
+    },
+    "frames": 15,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 3,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0013650391211911725,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 1
+    }
+  },
+  "errors": [],
+  "passed": true
+}

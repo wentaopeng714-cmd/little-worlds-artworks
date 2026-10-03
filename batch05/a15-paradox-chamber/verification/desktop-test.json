@@ -1,0 +1,416 @@
+{
+  "slug": "a15-paradox-chamber",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "durationSeconds": 73,
+  "iteration": 27,
+  "phases": [
+    {
+      "second": 11,
+      "control": "#perspective",
+      "state": {
+        "vanish": [
+          660.0000264412229,
+          430
+        ],
+        "hang": [
+          520,
+          345
+        ],
+        "wall": false,
+        "fold": 0,
+        "foldTo": 0,
+        "objects": 0,
+        "lamp": 0,
+        "mode": "perspective"
+      },
+      "bounded": true
+    },
+    {
+      "second": 21,
+      "control": "#objects",
+      "state": {
+        "vanish": [
+          660.0000264412229,
+          430
+        ],
+        "hang": [
+          660.0000264412229,
+          364.7999842026654
+        ],
+        "wall": true,
+        "fold": 0.8021685178624572,
+        "foldTo": 1,
+        "objects": 1,
+        "lamp": 0,
+        "mode": "hang"
+      },
+      "bounded": true
+    },
+    {
+      "second": 29,
+      "control": "#wall",
+      "state": {
+        "vanish": [
+          660.0000264412229,
+          430
+        ],
+        "hang": [
+          660.0000264412229,
+          296.4000028722426
+        ],
+        "wall": false,
+        "fold": 0.9992069480688852,
+        "foldTo": 1,
+        "objects": 1,
+        "lamp": 1,
+        "mode": "hang"
+      },
+      "bounded": true
+    },
+    {
+      "second": 37,
+      "control": "#perspective",
+      "state": {
+        "vanish": [
+          660.0000264412229,
+          430
+        ],
+        "hang": [
+          540.0000066103058,
+          296.4000028722426
+        ],
+        "wall": false,
+        "fold": 0.015332604683255601,
+        "foldTo": 0,
+        "objects": 2,
+        "lamp": 2,
+        "mode": "perspective"
+      },
+      "bounded": true
+    },
+    {
+      "second": 46,
+      "control": "#objects",
+      "state": {
+        "vanish": [
+          660.0000264412229,
+          430
+        ],
+        "hang": [
+          660.0000264412229,
+          364.7999842026654
+        ],
+        "wall": true,
+        "fold": 0.8385068777628312,
+        "foldTo": 1,
+        "objects": 0,
+        "lamp": 2,
+        "mode": "hang"
+      },
+      "bounded": true
+    },
+    {
+      "second": 53,
+      "control": "#wall",
+      "state": {
+        "vanish": [
+          660.0000264412229,
+          430
+        ],
+        "hang": [
+          660.0000264412229,
+          296.4000028722426
+        ],
+        "wall": false,
+        "fold": 0.999053564508865,
+        "foldTo": 1,
+        "objects": 0,
+        "lamp": 0,
+        "mode": "hang"
+      },
+      "bounded": true
+    },
+    {
+      "second": 61,
+      "control": "#perspective",
+      "state": {
+        "vanish": [
+          660.0000264412229,
+          430
+        ],
+        "hang": [
+          540.0000066103058,
+          296.4000028722426
+        ],
+        "wall": false,
+        "fold": 0.01385484805395816,
+        "foldTo": 0,
+        "objects": 1,
+        "lamp": 1,
+        "mode": "perspective"
+      },
+      "bounded": true
+    }
+  ],
+  "combined": {
+    "inputs": 504,
+    "resets": 0,
+    "frames": 1778,
+    "state": {
+      "vanish": [
+        660.0000264412229,
+        430
+      ],
+      "hang": [
+        660.0000264412229,
+        296.4000028722426
+      ],
+      "wall": true,
+      "fold": 0.0002879439573790147,
+      "foldTo": 0,
+      "objects": 1,
+      "lamp": 1,
+      "mode": "hang"
+    },
+    "bounded": true,
+    "counts": {
+      "floorTiles": 100,
+      "spaces": 2,
+      "objects": 3,
+      "cap": 105
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 9,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00043346239662350354,
+      "errors": 0,
+      "musicNotes": 197,
+      "fxNotes": 261
+    }
+  },
+  "musicRMS": 0.01271444102554646,
+  "musicState": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 2,
+    "peakVoices": 8,
+    "nodeCount": 6,
+    "nodeLimit": 26,
+    "rms": 0.00333722710070426,
+    "errors": 0,
+    "musicNotes": 17,
+    "fxNotes": 12
+  },
+  "fxRMS": 0.008319485770319884,
+  "fxState": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 8,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 17,
+    "fxNotes": 13
+  },
+  "muteRMS": 0,
+  "muted": {
+    "inputs": 504,
+    "resets": 0,
+    "frames": 1833,
+    "state": {
+      "vanish": [
+        660.0000264412229,
+        430
+      ],
+      "hang": [
+        660.0000264412229,
+        296.4000028722426
+      ],
+      "wall": true,
+      "fold": 0.00007154212446904641,
+      "foldTo": 0,
+      "objects": 1,
+      "lamp": 1,
+      "mode": "hang"
+    },
+    "bounded": true,
+    "counts": {
+      "floorTiles": 100,
+      "spaces": 2,
+      "objects": 3,
+      "cap": 105
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 199,
+      "fxNotes": 261
+    }
+  },
+  "reset1": {
+    "inputs": 505,
+    "resets": 1,
+    "frames": 1846,
+    "state": {
+      "vanish": [
+        500,
+        260
+      ],
+      "hang": [
+        520,
+        345
+      ],
+      "wall": false,
+      "fold": 0,
+      "foldTo": 0,
+      "objects": 0,
+      "lamp": 0,
+      "mode": "perspective"
+    },
+    "bounded": true,
+    "counts": {
+      "floorTiles": 100,
+      "spaces": 1,
+      "objects": 3,
+      "cap": 105
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 199,
+      "fxNotes": 261
+    }
+  },
+  "reset2": {
+    "inputs": 506,
+    "resets": 2,
+    "frames": 1847,
+    "state": {
+      "vanish": [
+        500,
+        260
+      ],
+      "hang": [
+        520,
+        345
+      ],
+      "wall": false,
+      "fold": 0,
+      "foldTo": 0,
+      "objects": 0,
+      "lamp": 0,
+      "mode": "perspective"
+    },
+    "bounded": true,
+    "counts": {
+      "floorTiles": 100,
+      "spaces": 1,
+      "objects": 3,
+      "cap": 105
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 199,
+      "fxNotes": 261
+    }
+  },
+  "resumedRMS": 0.011838708673141459,
+  "blur": {
+    "state": "suspended",
+    "unlocked": true,
+    "muted": false,
+    "paused": true,
+    "voices": 0,
+    "peakVoices": 9,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 206,
+    "fxNotes": 269
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 209,
+      "fxNotes": 277
+    }
+  },
+  "layout": {
+    "overflow": false,
+    "minButtonHeight": 44,
+    "canvas": {
+      "x": 37,
+      "y": 149,
+      "width": 1108,
+      "height": 646,
+      "top": 149,
+      "right": 1145,
+      "bottom": 795,
+      "left": 37
+    },
+    "mute": {
+      "x": 1203.1875,
+      "y": 86,
+      "width": 94.8125,
+      "height": 44,
+      "top": 86,
+      "right": 1298,
+      "bottom": 130,
+      "left": 1203.1875
+    }
+  },
+  "errors": [],
+  "externalRequests": [],
+  "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide."
+}

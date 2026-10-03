@@ -1,0 +1,129 @@
+{
+  "slug": "a10-aurora-front",
+  "method": "Chromium CDP touchscreen dispatch produces trusted touch pointer input. Web Audio AnalyserNode waveform RMS; isolated FX test holds next music note and releases existing music voices only in test. No manual listening or physical phone.",
+  "trustedTouchCount": 3,
+  "music": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 1,
+    "peakVoices": 5,
+    "nodeCount": 4,
+    "nodeLimit": 26,
+    "rms": 0.0029064555581647584,
+    "errors": 0,
+    "musicNotes": 5,
+    "fxNotes": 3
+  },
+  "fx": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 5,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 5,
+    "fxNotes": 6
+  },
+  "fxRms": [
+    0.00015362051250055904,
+    0.000038891770467613304,
+    0.00001831887448911603,
+    0.000012515800158094025,
+    0,
+    0,
+    0,
+    0
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 5,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 5,
+    "fxNotes": 6
+  },
+  "reset": {
+    "inputs": 36,
+    "resets": 1,
+    "state": {
+      "anchors": [
+        {
+          "x": -400,
+          "y": 210
+        },
+        {
+          "x": -200,
+          "y": 160
+        },
+        {
+          "x": 0,
+          "y": 215
+        },
+        {
+          "x": 200,
+          "y": 150
+        },
+        {
+          "x": 400,
+          "y": 190
+        }
+      ],
+      "folded": false,
+      "high": 1,
+      "view": 0,
+      "fronts": 0
+    },
+    "bounded": true,
+    "counts": {
+      "anchors": 5,
+      "rays": 800,
+      "fronts": 0
+    },
+    "frames": 87,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 5,
+      "fxNotes": 6
+    }
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 10
+    }
+  },
+  "errors": [],
+  "passed": true
+}

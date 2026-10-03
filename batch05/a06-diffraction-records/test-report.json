@@ -1,0 +1,644 @@
+{
+  "passed": true,
+  "method": "Playwright Chromium真实鼠标输入持续试玩；390x844设备尺寸仿真；补充CDP真实trusted触屏pointer事件。音频使用实际WebAudio AnalyserNode输出波形RMS；隔离FX时仅在测试中延后乐曲调度并回收已有声音。非真机、未人工听音。",
+  "tests": [
+    {
+      "slug": "a06-diffraction-records",
+      "device": "1440x900 desktop",
+      "durationMs": 64052,
+      "visibleControls": true,
+      "initial": {
+        "inputs": 0,
+        "resets": 0,
+        "state": {
+          "phases": [
+            0.312,
+            -0.686
+          ],
+          "etch": false,
+          "scanning": true,
+          "locked": false,
+          "dir": 1
+        },
+        "bounded": true,
+        "counts": {
+          "discs": 2,
+          "grooves": 154,
+          "marks": 0
+        },
+        "frames": 36,
+        "audio": {
+          "state": "not-created",
+          "unlocked": false,
+          "muted": false,
+          "paused": false,
+          "voices": 0,
+          "peakVoices": 0,
+          "nodeCount": 0,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 0,
+          "fxNotes": 0
+        }
+      },
+      "final": {
+        "inputs": 221,
+        "resets": 1,
+        "state": {
+          "phases": [
+            0.409,
+            -1.114
+          ],
+          "etch": false,
+          "scanning": true,
+          "locked": false,
+          "dir": 1
+        },
+        "bounded": true,
+        "counts": {
+          "discs": 2,
+          "grooves": 154,
+          "marks": 0
+        },
+        "frames": 1721,
+        "audio": {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 1,
+          "peakVoices": 7,
+          "nodeCount": 4,
+          "nodeLimit": 26,
+          "rms": 0.00013511475295513027,
+          "errors": 0,
+          "musicNotes": 190,
+          "fxNotes": 38
+        }
+      },
+      "resetMuted": true,
+      "mutedRms": 0,
+      "musicNonzero": true,
+      "fxCount": 38,
+      "audioSamples": [
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 6,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0008646570064154873,
+          "errors": 0,
+          "musicNotes": 5,
+          "fxNotes": 4
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 6,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.0009659318705206621,
+          "errors": 0,
+          "musicNotes": 25,
+          "fxNotes": 8
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.001251526552244483,
+          "errors": 0,
+          "musicNotes": 45,
+          "fxNotes": 12
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0011299124405753102,
+          "errors": 0,
+          "musicNotes": 65,
+          "fxNotes": 16
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0037461309114395678,
+          "errors": 0,
+          "musicNotes": 85,
+          "fxNotes": 20
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0009803910621580929,
+          "errors": 0,
+          "musicNotes": 105,
+          "fxNotes": 24
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0008712842979206495,
+          "errors": 0,
+          "musicNotes": 125,
+          "fxNotes": 28
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0013588049263811358,
+          "errors": 0,
+          "musicNotes": 145,
+          "fxNotes": 32
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.007829287093500977,
+          "errors": 0,
+          "musicNotes": 165,
+          "fxNotes": 35
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.008695240649744695,
+          "errors": 0,
+          "musicNotes": 172,
+          "fxNotes": 38
+        }
+      ],
+      "lifecycle": {
+        "blur": {
+          "trusted": true
+        },
+        "audio": {
+          "state": "suspended",
+          "unlocked": true,
+          "muted": false,
+          "paused": true,
+          "voices": 0,
+          "peakVoices": 7,
+          "nodeCount": 2,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 193,
+          "fxNotes": 38
+        }
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "slug": "a06-diffraction-records",
+      "device": "390x844 mobile-emulation",
+      "durationMs": 66005,
+      "visibleControls": true,
+      "initial": {
+        "inputs": 0,
+        "resets": 0,
+        "state": {
+          "phases": [
+            0.271,
+            -0.655
+          ],
+          "etch": false,
+          "scanning": true,
+          "locked": false,
+          "dir": 1
+        },
+        "bounded": true,
+        "counts": {
+          "discs": 2,
+          "grooves": 154,
+          "marks": 0
+        },
+        "frames": 23,
+        "audio": {
+          "state": "not-created",
+          "unlocked": false,
+          "muted": false,
+          "paused": false,
+          "voices": 0,
+          "peakVoices": 0,
+          "nodeCount": 0,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 0,
+          "fxNotes": 0
+        }
+      },
+      "final": {
+        "inputs": 221,
+        "resets": 1,
+        "state": {
+          "phases": [
+            0.053,
+            -0.838
+          ],
+          "etch": false,
+          "scanning": true,
+          "locked": false,
+          "dir": 1
+        },
+        "bounded": true,
+        "counts": {
+          "discs": 2,
+          "grooves": 154,
+          "marks": 0
+        },
+        "frames": 1673,
+        "audio": {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.004170989584103032,
+          "errors": 0,
+          "musicNotes": 189,
+          "fxNotes": 40
+        }
+      },
+      "resetMuted": true,
+      "mutedRms": 0,
+      "musicNonzero": true,
+      "fxCount": 40,
+      "audioSamples": [
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 6,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.0011941169234690313,
+          "errors": 0,
+          "musicNotes": 5,
+          "fxNotes": 4
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0007358654547452108,
+          "errors": 0,
+          "musicNotes": 24,
+          "fxNotes": 8
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 4,
+          "peakVoices": 7,
+          "nodeCount": 10,
+          "nodeLimit": 26,
+          "rms": 0.008421162595444839,
+          "errors": 0,
+          "musicNotes": 44,
+          "fxNotes": 11
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.001658559590865143,
+          "errors": 0,
+          "musicNotes": 63,
+          "fxNotes": 15
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.013399195050766727,
+          "errors": 0,
+          "musicNotes": 87,
+          "fxNotes": 20
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.00012236976821284023,
+          "errors": 0,
+          "musicNotes": 109,
+          "fxNotes": 24
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.008114157472124498,
+          "errors": 0,
+          "musicNotes": 132,
+          "fxNotes": 28
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0004998543276824685,
+          "errors": 0,
+          "musicNotes": 154,
+          "fxNotes": 34
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 4,
+          "peakVoices": 7,
+          "nodeCount": 10,
+          "nodeLimit": 26,
+          "rms": 0.0026437876139708974,
+          "errors": 0,
+          "musicNotes": 174,
+          "fxNotes": 37
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.00012480641309430647,
+          "errors": 0,
+          "musicNotes": 183,
+          "fxNotes": 40
+        }
+      ],
+      "lifecycle": {
+        "blur": {
+          "trusted": true
+        },
+        "audio": {
+          "state": "suspended",
+          "unlocked": true,
+          "muted": false,
+          "paused": true,
+          "voices": 0,
+          "peakVoices": 7,
+          "nodeCount": 2,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 196,
+          "fxNotes": 40
+        }
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "slug": "a06-diffraction-records",
+      "method": "Chromium CDP touchscreen dispatch produces trusted touch pointer input. Web Audio AnalyserNode waveform RMS; isolated FX test holds next music note and releases existing music voices only in test. No manual listening or physical phone.",
+      "trustedTouchCount": 3,
+      "music": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 1,
+        "peakVoices": 5,
+        "nodeCount": 4,
+        "nodeLimit": 26,
+        "rms": 0.00046113566409059756,
+        "errors": 0,
+        "musicNotes": 5,
+        "fxNotes": 3
+      },
+      "fx": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 0,
+        "peakVoices": 5,
+        "nodeCount": 2,
+        "nodeLimit": 26,
+        "rms": 0,
+        "errors": 0,
+        "musicNotes": 5,
+        "fxNotes": 6
+      },
+      "fxRms": [
+        0.0006833316564635682,
+        0.00020126141424733082,
+        9.632164619690798e-05,
+        3.936390256599349e-05,
+        1.628333677543187e-05,
+        1.3880852884235342e-05,
+        0,
+        0
+      ],
+      "muted": {
+        "state": "running",
+        "unlocked": true,
+        "muted": true,
+        "paused": false,
+        "voices": 0,
+        "peakVoices": 5,
+        "nodeCount": 2,
+        "nodeLimit": 26,
+        "rms": 0,
+        "errors": 0,
+        "musicNotes": 5,
+        "fxNotes": 6
+      },
+      "reset": {
+        "inputs": 36,
+        "resets": 1,
+        "state": {
+          "phases": [
+            0.2,
+            -0.6
+          ],
+          "etch": false,
+          "scanning": true,
+          "locked": false,
+          "dir": 1
+        },
+        "bounded": true,
+        "counts": {
+          "discs": 2,
+          "grooves": 154,
+          "marks": 0
+        },
+        "frames": 74,
+        "audio": {
+          "state": "running",
+          "unlocked": true,
+          "muted": true,
+          "paused": false,
+          "voices": 0,
+          "peakVoices": 5,
+          "nodeCount": 2,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 5,
+          "fxNotes": 6
+        }
+      },
+      "pagehide": {
+        "trusted": true,
+        "audio": {
+          "state": "suspended",
+          "unlocked": true,
+          "muted": false,
+          "paused": true,
+          "voices": 0,
+          "peakVoices": 6,
+          "nodeCount": 2,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 8,
+          "fxNotes": 10
+        }
+      },
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "offlineSource": {
+    "slug": "a06-diffraction-records",
+    "method": "Chromium offline context before file:// navigation; independent source directory with all local dependencies. ZIP extraction validation remains integrator responsibility.",
+    "snapshot": {
+      "inputs": 1,
+      "resets": 0,
+      "state": {
+        "phases": [
+          0.259,
+          -0.646
+        ],
+        "etch": false,
+        "scanning": true,
+        "locked": false,
+        "dir": 1
+      },
+      "bounded": true,
+      "counts": {
+        "discs": 2,
+        "grooves": 154,
+        "marks": 0
+      },
+      "frames": 19,
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 3,
+        "peakVoices": 3,
+        "nodeCount": 8,
+        "nodeLimit": 26,
+        "rms": 0.0025416525877919854,
+        "errors": 0,
+        "musicNotes": 3,
+        "fxNotes": 1
+      }
+    },
+    "errors": [],
+    "passed": true
+  }
+}

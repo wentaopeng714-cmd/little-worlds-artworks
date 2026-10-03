@@ -1,0 +1,6589 @@
+{
+  "slug": "a01-brass-orrery",
+  "device": "mobile",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "physicalPhone": false,
+  "humanListening": false,
+  "realInput": "trusted CDP touch + touchscreen taps",
+  "audioMeasurement": "post-master analyser RMS. Music-only sampled after operation tails; effects-only sampled with sequence temporarily suppressed and music tails drained, restored afterwards.",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8305/batch05/a01-brass-orrery/",
+    "http://127.0.0.1:8305/batch05/a01-brass-orrery/style.css",
+    "http://127.0.0.1:8305/batch05/a01-brass-orrery/p5.min.js",
+    "http://127.0.0.1:8305/batch05/a01-brass-orrery/audio.js",
+    "http://127.0.0.1:8305/batch05/a01-brass-orrery/app.js",
+    "http://127.0.0.1:8305/batch05/qa-after"
+  ],
+  "activeSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 3,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.012986224436014037,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 3,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.004652332949392533,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 3,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.008277345200244507,
+      "errors": 0,
+      "musicNotes": 3,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 4,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0008976876299793277,
+      "errors": 0,
+      "musicNotes": 4,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 4,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0016274130658644325,
+      "errors": 0,
+      "musicNotes": 4,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.006138997770119897,
+      "errors": 0,
+      "musicNotes": 5,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00029962461717013446,
+      "errors": 0,
+      "musicNotes": 5,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.010113010119853346,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.004050455669954412,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.003369042461235589,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0006897077587242791,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00011123805885271236,
+      "errors": 0,
+      "musicNotes": 9,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.005156767350973515,
+      "errors": 0,
+      "musicNotes": 12,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 4,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.003128700025859242,
+      "errors": 0,
+      "musicNotes": 25,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0030373582451946684,
+      "errors": 0,
+      "musicNotes": 27,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.008586555980367986,
+      "errors": 0,
+      "musicNotes": 28,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0037955169321711633,
+      "errors": 0,
+      "musicNotes": 28,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0015451708696757381,
+      "errors": 0,
+      "musicNotes": 28,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0006813294728591864,
+      "errors": 0,
+      "musicNotes": 28,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00039974121672139144,
+      "errors": 0,
+      "musicNotes": 28,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.007866472713815525,
+      "errors": 0,
+      "musicNotes": 29,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.00306000057291009,
+      "errors": 0,
+      "musicNotes": 29,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0011259248517116,
+      "errors": 0,
+      "musicNotes": 29,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0014423357713857525,
+      "errors": 0,
+      "musicNotes": 30,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.012603754574522851,
+      "errors": 0,
+      "musicNotes": 32,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0032072808120710288,
+      "errors": 0,
+      "musicNotes": 32,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 5,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.006475810455708745,
+      "errors": 0,
+      "musicNotes": 35,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0008233243668201385,
+      "errors": 0,
+      "musicNotes": 35,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00021928087125889644,
+      "errors": 0,
+      "musicNotes": 35,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00991581894019379,
+      "errors": 0,
+      "musicNotes": 37,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005722889622981004,
+      "errors": 0,
+      "musicNotes": 37,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0036426848150961934,
+      "errors": 0,
+      "musicNotes": 37,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0025481186947346347,
+      "errors": 0,
+      "musicNotes": 38,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.004086779341090639,
+      "errors": 0,
+      "musicNotes": 38,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00167157374127692,
+      "errors": 0,
+      "musicNotes": 38,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.004583927318419811,
+      "errors": 0,
+      "musicNotes": 39,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0025062614513987522,
+      "errors": 0,
+      "musicNotes": 39,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0008279249333667926,
+      "errors": 0,
+      "musicNotes": 39,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0002885533659856064,
+      "errors": 0,
+      "musicNotes": 39,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.003825227936807405,
+      "errors": 0,
+      "musicNotes": 42,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.004234888587782118,
+      "errors": 0,
+      "musicNotes": 43,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0033631536571647994,
+      "errors": 0,
+      "musicNotes": 43,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00103175421117168,
+      "errors": 0,
+      "musicNotes": 43,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0004408869212575003,
+      "errors": 0,
+      "musicNotes": 43,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.004696050700108324,
+      "errors": 0,
+      "musicNotes": 44,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.00174619062004332,
+      "errors": 0,
+      "musicNotes": 44,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00018966479047200906,
+      "errors": 0,
+      "musicNotes": 44,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0005198924442862576,
+      "errors": 0,
+      "musicNotes": 45,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00010384852697919583,
+      "errors": 0,
+      "musicNotes": 45,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.010944758053944854,
+      "errors": 0,
+      "musicNotes": 47,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005661785416108762,
+      "errors": 0,
+      "musicNotes": 47,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.002480746790225673,
+      "errors": 0,
+      "musicNotes": 47,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.005043829703441287,
+      "errors": 0,
+      "musicNotes": 53,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00048780065844272833,
+      "errors": 0,
+      "musicNotes": 53,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0025175746234416827,
+      "errors": 0,
+      "musicNotes": 54,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00041386819494584903,
+      "errors": 0,
+      "musicNotes": 54,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0007233809811881169,
+      "errors": 0,
+      "musicNotes": 55,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.014086854542233065,
+      "errors": 0,
+      "musicNotes": 57,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.004239268954221895,
+      "errors": 0,
+      "musicNotes": 57,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.004263487243863003,
+      "errors": 0,
+      "musicNotes": 58,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0030473495181357222,
+      "errors": 0,
+      "musicNotes": 59,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.002099411632121002,
+      "errors": 0,
+      "musicNotes": 60,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0001503661338638116,
+      "errors": 0,
+      "musicNotes": 60,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.002911139640372134,
+      "errors": 0,
+      "musicNotes": 62,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0010121874104862504,
+      "errors": 0,
+      "musicNotes": 63,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0015951269242918142,
+      "errors": 0,
+      "musicNotes": 70,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0004325434423491734,
+      "errors": 0,
+      "musicNotes": 70,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00014299991014557413,
+      "errors": 0,
+      "musicNotes": 70,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005477246318255898,
+      "errors": 0,
+      "musicNotes": 72,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0010639626830955386,
+      "errors": 0,
+      "musicNotes": 73,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0025817804552673387,
+      "errors": 0,
+      "musicNotes": 74,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0004330543638514082,
+      "errors": 0,
+      "musicNotes": 74,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0028908386393569773,
+      "errors": 0,
+      "musicNotes": 75,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00038070634183872955,
+      "errors": 0,
+      "musicNotes": 75,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.009047023078141645,
+      "errors": 0,
+      "musicNotes": 77,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.008447658158097974,
+      "errors": 0,
+      "musicNotes": 78,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.002887435801930253,
+      "errors": 0,
+      "musicNotes": 78,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0012102411478914664,
+      "errors": 0,
+      "musicNotes": 78,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.003644207656728658,
+      "errors": 0,
+      "musicNotes": 83,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.004985596454220633,
+      "errors": 0,
+      "musicNotes": 84,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0022465702343907146,
+      "errors": 0,
+      "musicNotes": 85,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0003187997157265531,
+      "errors": 0,
+      "musicNotes": 85,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.006765443222053361,
+      "errors": 0,
+      "musicNotes": 87,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.008514824414559311,
+      "errors": 0,
+      "musicNotes": 88,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0004946342727126146,
+      "errors": 0,
+      "musicNotes": 88,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.002549866471228975,
+      "errors": 0,
+      "musicNotes": 89,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.008900041559984195,
+      "errors": 0,
+      "musicNotes": 90,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.000490486273639536,
+      "errors": 0,
+      "musicNotes": 90,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00011576473486211946,
+      "errors": 0,
+      "musicNotes": 90,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0059808682421825165,
+      "errors": 0,
+      "musicNotes": 92,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.007280829429275623,
+      "errors": 0,
+      "musicNotes": 93,
+      "fxNotes": 30
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 5,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.008470493193940169,
+      "errors": 0,
+      "musicNotes": 95,
+      "fxNotes": 33
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 6,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.0020337500122698626,
+      "errors": 0,
+      "musicNotes": 95,
+      "fxNotes": 34
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 6,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.00401943770302014,
+      "errors": 0,
+      "musicNotes": 95,
+      "fxNotes": 35
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 6,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0033607971452668415,
+      "errors": 0,
+      "musicNotes": 95,
+      "fxNotes": 36
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 6,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.011733370064505871,
+      "errors": 0,
+      "musicNotes": 97,
+      "fxNotes": 37
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 6,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.007234014809660874,
+      "errors": 0,
+      "musicNotes": 97,
+      "fxNotes": 38
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 6,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.006378888328327163,
+      "errors": 0,
+      "musicNotes": 97,
+      "fxNotes": 39
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 6,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0052359536360300895,
+      "errors": 0,
+      "musicNotes": 97,
+      "fxNotes": 40
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 6,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.007800467437123298,
+      "errors": 0,
+      "musicNotes": 98,
+      "fxNotes": 41
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 6,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.0058177039794069935,
+      "errors": 0,
+      "musicNotes": 98,
+      "fxNotes": 42
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 6,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.0047869444878736326,
+      "errors": 0,
+      "musicNotes": 98,
+      "fxNotes": 43
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 7,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.0034445158791543604,
+      "errors": 0,
+      "musicNotes": 98,
+      "fxNotes": 44
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 7,
+      "peakVoices": 7,
+      "nodeCount": 16,
+      "nodeLimit": 26,
+      "rms": 0.01106826763762829,
+      "errors": 0,
+      "musicNotes": 99,
+      "fxNotes": 45
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.0072309573323995615,
+      "errors": 0,
+      "musicNotes": 102,
+      "fxNotes": 48
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.010522416018924324,
+      "errors": 0,
+      "musicNotes": 102,
+      "fxNotes": 49
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.007243290580572281,
+      "errors": 0,
+      "musicNotes": 102,
+      "fxNotes": 50
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.005040758213932316,
+      "errors": 0,
+      "musicNotes": 102,
+      "fxNotes": 51
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.005948965838348369,
+      "errors": 0,
+      "musicNotes": 102,
+      "fxNotes": 52
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.008319314159356566,
+      "errors": 0,
+      "musicNotes": 103,
+      "fxNotes": 53
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.0056047128510704255,
+      "errors": 0,
+      "musicNotes": 103,
+      "fxNotes": 54
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.00390792421492686,
+      "errors": 0,
+      "musicNotes": 103,
+      "fxNotes": 55
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.006844773116633603,
+      "errors": 0,
+      "musicNotes": 103,
+      "fxNotes": 56
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 7,
+      "peakVoices": 8,
+      "nodeCount": 16,
+      "nodeLimit": 26,
+      "rms": 0.008853614009015456,
+      "errors": 0,
+      "musicNotes": 104,
+      "fxNotes": 57
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00013922951674666924,
+      "errors": 0,
+      "musicNotes": 104,
+      "fxNotes": 58
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0020158808475888574,
+      "errors": 0,
+      "musicNotes": 105,
+      "fxNotes": 59
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.002399730513335089,
+      "errors": 0,
+      "musicNotes": 105,
+      "fxNotes": 60
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.007493367488893135,
+      "errors": 0,
+      "musicNotes": 109,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0008561351518195494,
+      "errors": 0,
+      "musicNotes": 110,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.003916418892951311,
+      "errors": 0,
+      "musicNotes": 110,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0013639441155404498,
+      "errors": 0,
+      "musicNotes": 110,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0004203939640396585,
+      "errors": 0,
+      "musicNotes": 110,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.013484399346288332,
+      "errors": 0,
+      "musicNotes": 112,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.009227608040681895,
+      "errors": 0,
+      "musicNotes": 112,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005863698699590076,
+      "errors": 0,
+      "musicNotes": 112,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0038432506646745228,
+      "errors": 0,
+      "musicNotes": 112,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0022991246146568524,
+      "errors": 0,
+      "musicNotes": 112,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.006289819430952751,
+      "errors": 0,
+      "musicNotes": 113,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0023330157014523254,
+      "errors": 0,
+      "musicNotes": 113,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0009658505794817512,
+      "errors": 0,
+      "musicNotes": 113,
+      "fxNotes": 64
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.012732079623581236,
+      "errors": 0,
+      "musicNotes": 117,
+      "fxNotes": 66
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.00651620478460963,
+      "errors": 0,
+      "musicNotes": 117,
+      "fxNotes": 67
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.007059425911022062,
+      "errors": 0,
+      "musicNotes": 117,
+      "fxNotes": 68
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.004738493050951085,
+      "errors": 0,
+      "musicNotes": 117,
+      "fxNotes": 69
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.01369982458182889,
+      "errors": 0,
+      "musicNotes": 118,
+      "fxNotes": 70
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.007218877167893272,
+      "errors": 0,
+      "musicNotes": 118,
+      "fxNotes": 71
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 6,
+      "peakVoices": 8,
+      "nodeCount": 14,
+      "nodeLimit": 26,
+      "rms": 0.004623214573777544,
+      "errors": 0,
+      "musicNotes": 118,
+      "fxNotes": 72
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.005654304739588342,
+      "errors": 0,
+      "musicNotes": 118,
+      "fxNotes": 73
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.002549388389151042,
+      "errors": 0,
+      "musicNotes": 119,
+      "fxNotes": 74
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.006684450491624843,
+      "errors": 0,
+      "musicNotes": 119,
+      "fxNotes": 75
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.0027808510850507316,
+      "errors": 0,
+      "musicNotes": 119,
+      "fxNotes": 76
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.007744617230560698,
+      "errors": 0,
+      "musicNotes": 120,
+      "fxNotes": 77
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.0033243816283088845,
+      "errors": 0,
+      "musicNotes": 120,
+      "fxNotes": 78
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 127,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.006032283167963954,
+      "errors": 0,
+      "musicNotes": 128,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0016344452666583577,
+      "errors": 0,
+      "musicNotes": 128,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0005205316800251218,
+      "errors": 0,
+      "musicNotes": 128,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00020405621253288564,
+      "errors": 0,
+      "musicNotes": 128,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.008186490721008752,
+      "errors": 0,
+      "musicNotes": 129,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0025738115415616433,
+      "errors": 0,
+      "musicNotes": 129,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.000980126715782189,
+      "errors": 0,
+      "musicNotes": 129,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.000359909989804831,
+      "errors": 0,
+      "musicNotes": 129,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00014299991014557413,
+      "errors": 0,
+      "musicNotes": 129,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0009203208484931787,
+      "errors": 0,
+      "musicNotes": 130,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00031642185099575005,
+      "errors": 0,
+      "musicNotes": 130,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0001227585593238503,
+      "errors": 0,
+      "musicNotes": 130,
+      "fxNotes": 80
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.010687723787996836,
+      "errors": 0,
+      "musicNotes": 132,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00637175376537644,
+      "errors": 0,
+      "musicNotes": 132,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0036964719384696486,
+      "errors": 0,
+      "musicNotes": 132,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.009772810176142586,
+      "errors": 0,
+      "musicNotes": 133,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.003865328819061483,
+      "errors": 0,
+      "musicNotes": 133,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.001687908341534755,
+      "errors": 0,
+      "musicNotes": 133,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0007402113963543697,
+      "errors": 0,
+      "musicNotes": 133,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00043619422801650893,
+      "errors": 0,
+      "musicNotes": 133,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.004540076344821583,
+      "errors": 0,
+      "musicNotes": 134,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.001208728020972051,
+      "errors": 0,
+      "musicNotes": 134,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0002309925884719386,
+      "errors": 0,
+      "musicNotes": 134,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00945204057435991,
+      "errors": 0,
+      "musicNotes": 135,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0013368920350245537,
+      "errors": 0,
+      "musicNotes": 135,
+      "fxNotes": 81
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.008070231945378295,
+      "errors": 0,
+      "musicNotes": 138,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0012950279751054294,
+      "errors": 0,
+      "musicNotes": 138,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.008363938351745457,
+      "errors": 0,
+      "musicNotes": 139,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0019876335505191202,
+      "errors": 0,
+      "musicNotes": 139,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.000324450572596639,
+      "errors": 0,
+      "musicNotes": 139,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.006932985635531866,
+      "errors": 0,
+      "musicNotes": 140,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0008115755681515714,
+      "errors": 0,
+      "musicNotes": 140,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.008695871639333982,
+      "errors": 0,
+      "musicNotes": 142,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.003995844778443167,
+      "errors": 0,
+      "musicNotes": 142,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.005221189635800027,
+      "errors": 0,
+      "musicNotes": 143,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0010298404621656915,
+      "errors": 0,
+      "musicNotes": 143,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.006123424451152034,
+      "errors": 0,
+      "musicNotes": 144,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.000639725244082029,
+      "errors": 0,
+      "musicNotes": 144,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.005985482296654335,
+      "errors": 0,
+      "musicNotes": 147,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0024405118382623435,
+      "errors": 0,
+      "musicNotes": 147,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.007068134878000118,
+      "errors": 0,
+      "musicNotes": 148,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0021757375710725045,
+      "errors": 0,
+      "musicNotes": 148,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0005562716442696633,
+      "errors": 0,
+      "musicNotes": 148,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0045778825360692724,
+      "errors": 0,
+      "musicNotes": 149,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.003243881801962319,
+      "errors": 0,
+      "musicNotes": 149,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0005975179288709896,
+      "errors": 0,
+      "musicNotes": 149,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00012280639450354175,
+      "errors": 0,
+      "musicNotes": 149,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.004222642407074994,
+      "errors": 0,
+      "musicNotes": 150,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0004054650468149164,
+      "errors": 0,
+      "musicNotes": 150,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00012376531712090938,
+      "errors": 0,
+      "musicNotes": 150,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.010748655278587546,
+      "errors": 0,
+      "musicNotes": 152,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.01330789629815609,
+      "errors": 0,
+      "musicNotes": 157,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.006084821210073519,
+      "errors": 0,
+      "musicNotes": 157,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0024476642607461313,
+      "errors": 0,
+      "musicNotes": 157,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0005024492184557003,
+      "errors": 0,
+      "musicNotes": 158,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.008932977719789483,
+      "errors": 0,
+      "musicNotes": 159,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0016248316828731417,
+      "errors": 0,
+      "musicNotes": 159,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00012825704345912722,
+      "errors": 0,
+      "musicNotes": 159,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.003554050816830384,
+      "errors": 0,
+      "musicNotes": 160,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.000950719664007285,
+      "errors": 0,
+      "musicNotes": 160,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0003044306150689618,
+      "errors": 0,
+      "musicNotes": 160,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.006992728938786039,
+      "errors": 0,
+      "musicNotes": 162,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.010190383508161323,
+      "errors": 0,
+      "musicNotes": 162,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.004636079550801492,
+      "errors": 0,
+      "musicNotes": 162,
+      "fxNotes": 87
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0053461063194526325,
+      "errors": 0,
+      "musicNotes": 163,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0009546430845717462,
+      "errors": 0,
+      "musicNotes": 163,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.009314792346196659,
+      "errors": 0,
+      "musicNotes": 164,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 5,
+      "peakVoices": 8,
+      "nodeCount": 12,
+      "nodeLimit": 26,
+      "rms": 0.0038948536120693516,
+      "errors": 0,
+      "musicNotes": 164,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0014459118541955802,
+      "errors": 0,
+      "musicNotes": 164,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0006051701746052041,
+      "errors": 0,
+      "musicNotes": 164,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00026618322754202886,
+      "errors": 0,
+      "musicNotes": 164,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00011700862214625634,
+      "errors": 0,
+      "musicNotes": 164,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.006259508885522501,
+      "errors": 0,
+      "musicNotes": 165,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0024037122309540585,
+      "errors": 0,
+      "musicNotes": 165,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0009351496848439829,
+      "errors": 0,
+      "musicNotes": 165,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0004416111405381623,
+      "errors": 0,
+      "musicNotes": 165,
+      "fxNotes": 88
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00015452427329388902,
+      "errors": 0,
+      "musicNotes": 165,
+      "fxNotes": 88
+    }
+  ],
+  "musicOnly": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 4,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.003758541965760837,
+      "errors": 0,
+      "musicNotes": 14,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0003803490567815461,
+      "errors": 0,
+      "musicNotes": 14,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.004151726604977959,
+      "errors": 0,
+      "musicNotes": 15,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0013919529738495593,
+      "errors": 0,
+      "musicNotes": 17,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.010053263798958429,
+      "errors": 0,
+      "musicNotes": 17,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0033036008259902895,
+      "errors": 0,
+      "musicNotes": 17,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0031579428669204182,
+      "errors": 0,
+      "musicNotes": 18,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0008690414229881755,
+      "errors": 0,
+      "musicNotes": 18,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.000756258553385038,
+      "errors": 0,
+      "musicNotes": 19,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.005400978794560721,
+      "errors": 0,
+      "musicNotes": 20,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0011191959070963847,
+      "errors": 0,
+      "musicNotes": 20,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.004496479492913356,
+      "errors": 0,
+      "musicNotes": 22,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.002952313669359733,
+      "errors": 0,
+      "musicNotes": 23,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0009659014231342016,
+      "errors": 0,
+      "musicNotes": 23,
+      "fxNotes": 1
+    }
+  ],
+  "effectsOnly": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00392693779609798,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.002468848229819308,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 3
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.002808889057129175,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 4
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005684434207278698,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 5
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005590830956539047,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 6
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.004636301905520152,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 7
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0042791860069213705,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 8
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.002772485555440805,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 9
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0047428310965060795,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 10
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0042047134429545755,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 11
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.003953598656739515,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 12
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0034321137703935394,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 13
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.006556223477158694,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 14
+    }
+  ],
+  "mutedSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    }
+  ],
+  "stages": [
+    {
+      "art": {
+        "inputs": 41,
+        "resets": 0,
+        "state": {
+          "driver": 0,
+          "direction": 1,
+          "engaged": true,
+          "orbit": true,
+          "gearAngles": [
+            3.618,
+            -5.559,
+            3.292,
+            -5.929,
+            -3.698,
+            3.61
+          ],
+          "positions": [
+            [
+              607.5473209159413,
+              313.1499528507941
+            ],
+            [
+              453,
+              346
+            ],
+            [
+              525,
+              454
+            ],
+            [
+              219,
+              466
+            ],
+            [
+              341,
+              509
+            ],
+            [
+              477,
+              225
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 6,
+          "maxGears": 10,
+          "frames": 418,
+          "fps": 23.1
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 4,
+        "peakVoices": 5,
+        "nodeCount": 10,
+        "nodeLimit": 26,
+        "rms": 0.0032428370738616687,
+        "errors": 0,
+        "musicNotes": 33,
+        "fxNotes": 18
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    },
+    {
+      "art": {
+        "inputs": 56,
+        "resets": 0,
+        "state": {
+          "driver": 1,
+          "direction": -1,
+          "engaged": true,
+          "orbit": true,
+          "gearAngles": [
+            3.336,
+            -5.122,
+            3.69,
+            -5.929,
+            -3.698,
+            4.047
+          ],
+          "positions": [
+            [
+              607.5473209159413,
+              313.1499528507941
+            ],
+            [
+              453,
+              346
+            ],
+            [
+              525,
+              454
+            ],
+            [
+              219,
+              466
+            ],
+            [
+              341,
+              509
+            ],
+            [
+              477,
+              225
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 6,
+          "maxGears": 10,
+          "frames": 480,
+          "fps": 31.8
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 3,
+        "peakVoices": 5,
+        "nodeCount": 8,
+        "nodeLimit": 26,
+        "rms": 0.004687972685741655,
+        "errors": 0,
+        "musicNotes": 39,
+        "fxNotes": 21
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    },
+    {
+      "art": {
+        "inputs": 71,
+        "resets": 0,
+        "state": {
+          "driver": 1,
+          "direction": -1,
+          "engaged": false,
+          "orbit": true,
+          "gearAngles": [
+            3.433,
+            -5.273,
+            3.827,
+            -5.929,
+            -3.698,
+            4.197
+          ],
+          "positions": [
+            [
+              607.5473209159413,
+              313.1499528507941
+            ],
+            [
+              453,
+              346
+            ],
+            [
+              525,
+              454
+            ],
+            [
+              219,
+              466
+            ],
+            [
+              341,
+              509
+            ],
+            [
+              477,
+              225
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 6,
+          "maxGears": 10,
+          "frames": 561,
+          "fps": 30.5
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 5,
+        "peakVoices": 5,
+        "nodeCount": 12,
+        "nodeLimit": 26,
+        "rms": 0.009170776180957173,
+        "errors": 0,
+        "musicNotes": 49,
+        "fxNotes": 23
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    },
+    {
+      "art": {
+        "inputs": 86,
+        "resets": 0,
+        "state": {
+          "driver": 1,
+          "direction": -1,
+          "engaged": false,
+          "orbit": false,
+          "gearAngles": [
+            3.433,
+            -5.273,
+            3.827,
+            -5.929,
+            -3.698,
+            4.197
+          ],
+          "positions": [
+            [
+              607.5473209159413,
+              313.1499528507941
+            ],
+            [
+              453,
+              346
+            ],
+            [
+              525,
+              454
+            ],
+            [
+              219,
+              466
+            ],
+            [
+              341,
+              509
+            ],
+            [
+              477,
+              225
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 6,
+          "maxGears": 10,
+          "frames": 695,
+          "fps": 23.1
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 4,
+        "peakVoices": 5,
+        "nodeCount": 10,
+        "nodeLimit": 26,
+        "rms": 0.01537175845786096,
+        "errors": 0,
+        "musicNotes": 64,
+        "fxNotes": 26
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    },
+    {
+      "art": {
+        "inputs": 101,
+        "resets": 0,
+        "state": {
+          "driver": 1,
+          "direction": -1,
+          "engaged": false,
+          "orbit": false,
+          "gearAngles": [
+            3.433,
+            -5.273,
+            3.827,
+            -5.929,
+            -3.698,
+            4.197,
+            0
+          ],
+          "positions": [
+            [
+              607.5473209159413,
+              313.1499528507941
+            ],
+            [
+              453,
+              346
+            ],
+            [
+              525,
+              454
+            ],
+            [
+              219,
+              466
+            ],
+            [
+              341,
+              509
+            ],
+            [
+              477,
+              225
+            ],
+            [
+              380.4074173710932,
+              250.88190451025207
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 7,
+          "maxGears": 10,
+          "frames": 821,
+          "fps": 21.6
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 5,
+        "peakVoices": 5,
+        "nodeCount": 12,
+        "nodeLimit": 26,
+        "rms": 0.002377305601186459,
+        "errors": 0,
+        "musicNotes": 79,
+        "fxNotes": 29
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    },
+    {
+      "art": {
+        "inputs": 116,
+        "resets": 0,
+        "state": {
+          "driver": 4,
+          "direction": -1,
+          "engaged": false,
+          "orbit": false,
+          "gearAngles": [
+            3.433,
+            -5.273,
+            3.827,
+            -5.929,
+            -3.698,
+            4.197,
+            0
+          ],
+          "positions": [
+            [
+              496.04114473182614,
+              457.23083851825174
+            ],
+            [
+              380,
+              350
+            ],
+            [
+              532.2083946624589,
+              297.2685616138042
+            ],
+            [
+              258.3739561268872,
+              221.95758577718885
+            ],
+            [
+              244.28967981055484,
+              341.12819104814145
+            ],
+            [
+              358.1998712423923,
+              534.4563739505885
+            ],
+            [
+              602.1125664980514,
+              376.951726460464
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 7,
+          "maxGears": 10,
+          "frames": 943,
+          "fps": 34.2
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 4,
+        "peakVoices": 5,
+        "nodeCount": 10,
+        "nodeLimit": 26,
+        "rms": 0.00462667766517254,
+        "errors": 0,
+        "musicNotes": 93,
+        "fxNotes": 31
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    },
+    {
+      "art": {
+        "inputs": 131,
+        "resets": 0,
+        "state": {
+          "driver": 4,
+          "direction": -1,
+          "engaged": false,
+          "orbit": false,
+          "gearAngles": [
+            3.433,
+            -5.273,
+            3.827,
+            -5.929,
+            -3.698,
+            4.197,
+            0
+          ],
+          "positions": [
+            [
+              496.04114473182614,
+              457.23083851825174
+            ],
+            [
+              380,
+              350
+            ],
+            [
+              532.2083946624589,
+              297.2685616138042
+            ],
+            [
+              258.3739561268872,
+              221.95758577718885
+            ],
+            [
+              632.2715420355254,
+              558.9229171206496
+            ],
+            [
+              358.1998712423923,
+              534.4563739505885
+            ],
+            [
+              602.1125664980514,
+              376.951726460464
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 7,
+          "maxGears": 10,
+          "frames": 998,
+          "fps": 30.9
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 8,
+        "peakVoices": 8,
+        "nodeCount": 18,
+        "nodeLimit": 26,
+        "rms": 0.006437220076085017,
+        "errors": 0,
+        "musicNotes": 99,
+        "fxNotes": 46
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    },
+    {
+      "art": {
+        "inputs": 146,
+        "resets": 0,
+        "state": {
+          "driver": 4,
+          "direction": 1,
+          "engaged": false,
+          "orbit": false,
+          "gearAngles": [
+            3.433,
+            -5.273,
+            3.827,
+            -5.929,
+            -3.698,
+            4.197,
+            0
+          ],
+          "positions": [
+            [
+              496.04114473182614,
+              457.23083851825174
+            ],
+            [
+              380,
+              350
+            ],
+            [
+              532.2083946624589,
+              297.2685616138042
+            ],
+            [
+              645.0489415139823,
+              304.75430475794514
+            ],
+            [
+              632.2715420355254,
+              558.9229171206496
+            ],
+            [
+              358.1998712423923,
+              534.4563739505885
+            ],
+            [
+              602.1125664980514,
+              376.951726460464
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 7,
+          "maxGears": 10,
+          "frames": 1067,
+          "fps": 22.8
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 5,
+        "peakVoices": 8,
+        "nodeCount": 12,
+        "nodeLimit": 26,
+        "rms": 0.008901854182478859,
+        "errors": 0,
+        "musicNotes": 107,
+        "fxNotes": 62
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    },
+    {
+      "art": {
+        "inputs": 161,
+        "resets": 0,
+        "state": {
+          "driver": 4,
+          "direction": 1,
+          "engaged": true,
+          "orbit": false,
+          "gearAngles": [
+            3.127,
+            -4.8,
+            4.258,
+            -6.567,
+            -3.302,
+            4.671,
+            0.772
+          ],
+          "positions": [
+            [
+              496.04114473182614,
+              457.23083851825174
+            ],
+            [
+              380,
+              350
+            ],
+            [
+              532.2083946624589,
+              297.2685616138042
+            ],
+            [
+              645.0489415139823,
+              304.75430475794514
+            ],
+            [
+              632.2715420355254,
+              558.9229171206496
+            ],
+            [
+              358.1998712423923,
+              534.4563739505885
+            ],
+            [
+              602.1125664980514,
+              376.951726460464
+            ]
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "gears": 7,
+          "maxGears": 10,
+          "frames": 1127,
+          "fps": 23.4
+        }
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 4,
+        "peakVoices": 8,
+        "nodeCount": 10,
+        "nodeLimit": 26,
+        "rms": 0.0014988839441266325,
+        "errors": 0,
+        "musicNotes": 113,
+        "fxNotes": 65
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "buttons": [
+        {
+          "id": "drive",
+          "rect": {
+            "x": 10,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 80,
+            "bottom": 784,
+            "left": 10
+          }
+        },
+        {
+          "id": "reverse",
+          "rect": {
+            "x": 85,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 155,
+            "bottom": 784,
+            "left": 85
+          }
+        },
+        {
+          "id": "clutch",
+          "rect": {
+            "x": 160,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 230,
+            "bottom": 784,
+            "left": 160
+          }
+        },
+        {
+          "id": "orbit",
+          "rect": {
+            "x": 235,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 305,
+            "bottom": 784,
+            "left": 235
+          }
+        },
+        {
+          "id": "add",
+          "rect": {
+            "x": 310,
+            "y": 740,
+            "width": 70,
+            "height": 44,
+            "top": 740,
+            "right": 380,
+            "bottom": 784,
+            "left": 310
+          }
+        },
+        {
+          "id": "layout",
+          "rect": {
+            "x": 85,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 155,
+            "bottom": 833,
+            "left": 85
+          }
+        },
+        {
+          "id": "mute",
+          "rect": {
+            "x": 160,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 230,
+            "bottom": 833,
+            "left": 160
+          }
+        },
+        {
+          "id": "reset",
+          "rect": {
+            "x": 235,
+            "y": 789,
+            "width": 70,
+            "height": 44,
+            "top": 789,
+            "right": 305,
+            "bottom": 833,
+            "left": 235
+          }
+        }
+      ]
+    }
+  ],
+  "pageSha256": "2da5f84c36f45e4b64712e05826155ff164a828edf9cde7538b582ee28bd0bc1",
+  "initial": {
+    "art": {
+      "inputs": 0,
+      "resets": 0,
+      "state": {
+        "driver": 0,
+        "direction": 1,
+        "engaged": true,
+        "orbit": true,
+        "gearAngles": [
+          0.209,
+          -0.193,
+          0.294,
+          -0.235,
+          -0.071,
+          0.323
+        ],
+        "positions": [
+          [
+            295,
+            346
+          ],
+          [
+            453,
+            346
+          ],
+          [
+            525,
+            454
+          ],
+          [
+            219,
+            466
+          ],
+          [
+            341,
+            509
+          ],
+          [
+            477,
+            225
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "gears": 6,
+        "maxGears": 10,
+        "frames": 23,
+        "fps": 31.4
+      }
+    },
+    "audio": {
+      "state": "not-created",
+      "unlocked": false,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 0,
+      "nodeCount": 0,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 0,
+      "fxNotes": 0
+    },
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "buttons": [
+      {
+        "id": "drive",
+        "rect": {
+          "x": 10,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 80,
+          "bottom": 784,
+          "left": 10
+        }
+      },
+      {
+        "id": "reverse",
+        "rect": {
+          "x": 85,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 155,
+          "bottom": 784,
+          "left": 85
+        }
+      },
+      {
+        "id": "clutch",
+        "rect": {
+          "x": 160,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 230,
+          "bottom": 784,
+          "left": 160
+        }
+      },
+      {
+        "id": "orbit",
+        "rect": {
+          "x": 235,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 305,
+          "bottom": 784,
+          "left": 235
+        }
+      },
+      {
+        "id": "add",
+        "rect": {
+          "x": 310,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 380,
+          "bottom": 784,
+          "left": 310
+        }
+      },
+      {
+        "id": "layout",
+        "rect": {
+          "x": 85,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 155,
+          "bottom": 833,
+          "left": 85
+        }
+      },
+      {
+        "id": "mute",
+        "rect": {
+          "x": 160,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 230,
+          "bottom": 833,
+          "left": 160
+        }
+      },
+      {
+        "id": "reset",
+        "rect": {
+          "x": 235,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 305,
+          "bottom": 833,
+          "left": 235
+        }
+      }
+    ]
+  },
+  "firstGesture": {
+    "art": {
+      "inputs": 13,
+      "resets": 0,
+      "state": {
+        "driver": 0,
+        "direction": 1,
+        "engaged": true,
+        "orbit": true,
+        "gearAngles": [
+          1.369,
+          -1.99,
+          1.933,
+          -2.657,
+          -1.576,
+          2.12
+        ],
+        "positions": [
+          [
+            295,
+            346
+          ],
+          [
+            453,
+            346
+          ],
+          [
+            525,
+            454
+          ],
+          [
+            219,
+            466
+          ],
+          [
+            341,
+            509
+          ],
+          [
+            477,
+            225
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "gears": 6,
+        "maxGears": 10,
+        "frames": 147,
+        "fps": 33.2
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.007308037330451649,
+      "errors": 0,
+      "musicNotes": 12,
+      "fxNotes": 1
+    },
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "buttons": [
+      {
+        "id": "drive",
+        "rect": {
+          "x": 10,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 80,
+          "bottom": 784,
+          "left": 10
+        }
+      },
+      {
+        "id": "reverse",
+        "rect": {
+          "x": 85,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 155,
+          "bottom": 784,
+          "left": 85
+        }
+      },
+      {
+        "id": "clutch",
+        "rect": {
+          "x": 160,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 230,
+          "bottom": 784,
+          "left": 160
+        }
+      },
+      {
+        "id": "orbit",
+        "rect": {
+          "x": 235,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 305,
+          "bottom": 784,
+          "left": 235
+        }
+      },
+      {
+        "id": "add",
+        "rect": {
+          "x": 310,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 380,
+          "bottom": 784,
+          "left": 310
+        }
+      },
+      {
+        "id": "layout",
+        "rect": {
+          "x": 85,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 155,
+          "bottom": 833,
+          "left": 85
+        }
+      },
+      {
+        "id": "mute",
+        "rect": {
+          "x": 160,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 230,
+          "bottom": 833,
+          "left": 160
+        }
+      },
+      {
+        "id": "reset",
+        "rect": {
+          "x": 235,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 305,
+          "bottom": 833,
+          "left": 235
+        }
+      }
+    ]
+  },
+  "composed": {
+    "art": {
+      "inputs": 161,
+      "resets": 0,
+      "state": {
+        "driver": 4,
+        "direction": 1,
+        "engaged": true,
+        "orbit": false,
+        "gearAngles": [
+          3.039,
+          -4.663,
+          4.383,
+          -6.751,
+          -3.187,
+          4.807,
+          0.995
+        ],
+        "positions": [
+          [
+            496.04114473182614,
+            457.23083851825174
+          ],
+          [
+            380,
+            350
+          ],
+          [
+            532.2083946624589,
+            297.2685616138042
+          ],
+          [
+            645.0489415139823,
+            304.75430475794514
+          ],
+          [
+            632.2715420355254,
+            558.9229171206496
+          ],
+          [
+            358.1998712423923,
+            534.4563739505885
+          ],
+          [
+            602.1125664980514,
+            376.951726460464
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "gears": 7,
+        "maxGears": 10,
+        "frames": 1140,
+        "fps": 29.2
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0002120314649183473,
+      "errors": 0,
+      "musicNotes": 114,
+      "fxNotes": 65
+    },
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "buttons": [
+      {
+        "id": "drive",
+        "rect": {
+          "x": 10,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 80,
+          "bottom": 784,
+          "left": 10
+        }
+      },
+      {
+        "id": "reverse",
+        "rect": {
+          "x": 85,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 155,
+          "bottom": 784,
+          "left": 85
+        }
+      },
+      {
+        "id": "clutch",
+        "rect": {
+          "x": 160,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 230,
+          "bottom": 784,
+          "left": 160
+        }
+      },
+      {
+        "id": "orbit",
+        "rect": {
+          "x": 235,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 305,
+          "bottom": 784,
+          "left": 235
+        }
+      },
+      {
+        "id": "add",
+        "rect": {
+          "x": 310,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 380,
+          "bottom": 784,
+          "left": 310
+        }
+      },
+      {
+        "id": "layout",
+        "rect": {
+          "x": 85,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 155,
+          "bottom": 833,
+          "left": 85
+        }
+      },
+      {
+        "id": "mute",
+        "rect": {
+          "x": 160,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 230,
+          "bottom": 833,
+          "left": 160
+        }
+      },
+      {
+        "id": "reset",
+        "rect": {
+          "x": 235,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 305,
+          "bottom": 833,
+          "left": 235
+        }
+      }
+    ]
+  },
+  "mutedReset": {
+    "art": {
+      "inputs": 176,
+      "resets": 2,
+      "state": {
+        "driver": 0,
+        "direction": 1,
+        "engaged": true,
+        "orbit": true,
+        "gearAngles": [
+          0,
+          0.13,
+          0,
+          0.2,
+          0.2,
+          0
+        ],
+        "positions": [
+          [
+            295,
+            346
+          ],
+          [
+            453,
+            346
+          ],
+          [
+            525,
+            454
+          ],
+          [
+            219,
+            466
+          ],
+          [
+            341,
+            509
+          ],
+          [
+            477,
+            225
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "gears": 6,
+        "maxGears": 10,
+        "frames": 1194,
+        "fps": 33.1
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 115,
+      "fxNotes": 65
+    },
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "buttons": [
+      {
+        "id": "drive",
+        "rect": {
+          "x": 10,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 80,
+          "bottom": 784,
+          "left": 10
+        }
+      },
+      {
+        "id": "reverse",
+        "rect": {
+          "x": 85,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 155,
+          "bottom": 784,
+          "left": 85
+        }
+      },
+      {
+        "id": "clutch",
+        "rect": {
+          "x": 160,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 230,
+          "bottom": 784,
+          "left": 160
+        }
+      },
+      {
+        "id": "orbit",
+        "rect": {
+          "x": 235,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 305,
+          "bottom": 784,
+          "left": 235
+        }
+      },
+      {
+        "id": "add",
+        "rect": {
+          "x": 310,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 380,
+          "bottom": 784,
+          "left": 310
+        }
+      },
+      {
+        "id": "layout",
+        "rect": {
+          "x": 85,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 155,
+          "bottom": 833,
+          "left": 85
+        }
+      },
+      {
+        "id": "mute",
+        "rect": {
+          "x": 160,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 230,
+          "bottom": 833,
+          "left": 160
+        }
+      },
+      {
+        "id": "reset",
+        "rect": {
+          "x": 235,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 305,
+          "bottom": 833,
+          "left": 235
+        }
+      }
+    ]
+  },
+  "recycled": {
+    "art": {
+      "inputs": 189,
+      "resets": 2,
+      "state": {
+        "driver": 0,
+        "direction": 1,
+        "engaged": true,
+        "orbit": true,
+        "gearAngles": [
+          0.482,
+          -0.676,
+          -0.572,
+          0.187,
+          0.099,
+          -0.628
+        ],
+        "positions": [
+          [
+            608.828160745389,
+            313.043129056987
+          ],
+          [
+            453,
+            346
+          ],
+          [
+            525,
+            454
+          ],
+          [
+            219,
+            466
+          ],
+          [
+            341,
+            509
+          ],
+          [
+            477,
+            225
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "gears": 6,
+        "maxGears": 10,
+        "frames": 1283,
+        "fps": 23.4
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 120,
+      "fxNotes": 79
+    },
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "buttons": [
+      {
+        "id": "drive",
+        "rect": {
+          "x": 10,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 80,
+          "bottom": 784,
+          "left": 10
+        }
+      },
+      {
+        "id": "reverse",
+        "rect": {
+          "x": 85,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 155,
+          "bottom": 784,
+          "left": 85
+        }
+      },
+      {
+        "id": "clutch",
+        "rect": {
+          "x": 160,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 230,
+          "bottom": 784,
+          "left": 160
+        }
+      },
+      {
+        "id": "orbit",
+        "rect": {
+          "x": 235,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 305,
+          "bottom": 784,
+          "left": 235
+        }
+      },
+      {
+        "id": "add",
+        "rect": {
+          "x": 310,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 380,
+          "bottom": 784,
+          "left": 310
+        }
+      },
+      {
+        "id": "layout",
+        "rect": {
+          "x": 85,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 155,
+          "bottom": 833,
+          "left": 85
+        }
+      },
+      {
+        "id": "mute",
+        "rect": {
+          "x": 160,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 230,
+          "bottom": 833,
+          "left": 160
+        }
+      },
+      {
+        "id": "reset",
+        "rect": {
+          "x": 235,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 305,
+          "bottom": 833,
+          "left": 235
+        }
+      }
+    ]
+  },
+  "blur": {
+    "art": {
+      "inputs": 202,
+      "resets": 2,
+      "state": {
+        "driver": 0,
+        "direction": 1,
+        "engaged": true,
+        "orbit": true,
+        "gearAngles": [
+          1.027,
+          -1.52,
+          -1.342,
+          0.187,
+          0.099,
+          -1.472
+        ],
+        "positions": [
+          [
+            608.828160745389,
+            313.043129056987
+          ],
+          [
+            453,
+            346
+          ],
+          [
+            525,
+            454
+          ],
+          [
+            219,
+            466
+          ],
+          [
+            341,
+            509
+          ],
+          [
+            477,
+            225
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "gears": 6,
+        "maxGears": 10,
+        "frames": 1341,
+        "fps": 23.2
+      }
+    },
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 127,
+      "fxNotes": 80
+    },
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "buttons": [
+      {
+        "id": "drive",
+        "rect": {
+          "x": 10,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 80,
+          "bottom": 784,
+          "left": 10
+        }
+      },
+      {
+        "id": "reverse",
+        "rect": {
+          "x": 85,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 155,
+          "bottom": 784,
+          "left": 85
+        }
+      },
+      {
+        "id": "clutch",
+        "rect": {
+          "x": 160,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 230,
+          "bottom": 784,
+          "left": 160
+        }
+      },
+      {
+        "id": "orbit",
+        "rect": {
+          "x": 235,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 305,
+          "bottom": 784,
+          "left": 235
+        }
+      },
+      {
+        "id": "add",
+        "rect": {
+          "x": 310,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 380,
+          "bottom": 784,
+          "left": 310
+        }
+      },
+      {
+        "id": "layout",
+        "rect": {
+          "x": 85,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 155,
+          "bottom": 833,
+          "left": 85
+        }
+      },
+      {
+        "id": "mute",
+        "rect": {
+          "x": 160,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 230,
+          "bottom": 833,
+          "left": 160
+        }
+      },
+      {
+        "id": "reset",
+        "rect": {
+          "x": 235,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 305,
+          "bottom": 833,
+          "left": 235
+        }
+      }
+    ]
+  },
+  "trustedBlur": true,
+  "final": {
+    "art": {
+      "inputs": 285,
+      "resets": 2,
+      "state": {
+        "driver": 2,
+        "direction": -1,
+        "engaged": true,
+        "orbit": false,
+        "gearAngles": [
+          3.257,
+          -4.973,
+          -4.49,
+          -1.147,
+          -0.73,
+          -2.946,
+          3.554
+        ],
+        "positions": [
+          [
+            380,
+            350
+          ],
+          [
+            536.6552745388876,
+            370.5700014376705
+          ],
+          [
+            267.06950388335844,
+            231.07690280332753
+          ],
+          [
+            413.1024036313519,
+            211.9122348872752
+          ],
+          [
+            375.6075639859264,
+            519.9432449550799
+          ],
+          [
+            247.39292947407128,
+            474.5890004239292
+          ],
+          [
+            487.56818345721535,
+            516.9734490689569
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "gears": 7,
+        "maxGears": 10,
+        "frames": 1699,
+        "fps": 31.3
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005863698699590076,
+      "errors": 0,
+      "musicNotes": 167,
+      "fxNotes": 88
+    },
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "buttons": [
+      {
+        "id": "drive",
+        "rect": {
+          "x": 10,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 80,
+          "bottom": 784,
+          "left": 10
+        }
+      },
+      {
+        "id": "reverse",
+        "rect": {
+          "x": 85,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 155,
+          "bottom": 784,
+          "left": 85
+        }
+      },
+      {
+        "id": "clutch",
+        "rect": {
+          "x": 160,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 230,
+          "bottom": 784,
+          "left": 160
+        }
+      },
+      {
+        "id": "orbit",
+        "rect": {
+          "x": 235,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 305,
+          "bottom": 784,
+          "left": 235
+        }
+      },
+      {
+        "id": "add",
+        "rect": {
+          "x": 310,
+          "y": 740,
+          "width": 70,
+          "height": 44,
+          "top": 740,
+          "right": 380,
+          "bottom": 784,
+          "left": 310
+        }
+      },
+      {
+        "id": "layout",
+        "rect": {
+          "x": 85,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 155,
+          "bottom": 833,
+          "left": 85
+        }
+      },
+      {
+        "id": "mute",
+        "rect": {
+          "x": 160,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 230,
+          "bottom": 833,
+          "left": 160
+        }
+      },
+      {
+        "id": "reset",
+        "rect": {
+          "x": 235,
+          "y": 789,
+          "width": 70,
+          "height": 44,
+          "top": 789,
+          "right": 305,
+          "bottom": 833,
+          "left": 235
+        }
+      }
+    ]
+  },
+  "durationSeconds": 67.186,
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 167,
+      "fxNotes": 88
+    }
+  },
+  "measurements": {
+    "activeMaxRms": 0.014086854542233065,
+    "musicMaxRms": 0.010053263798958429,
+    "fxMaxRms": 0.006556223477158694,
+    "mutedMaxRms": 0,
+    "peakVoices": 8,
+    "maxNodes": 16
+  },
+  "assertions": {
+    "initialNoContext": true,
+    "musicAudible": true,
+    "effectsAudible": true,
+    "mutedZero": true,
+    "resetPreservesMute": true,
+    "repeatedReset": true,
+    "voicesBounded": true,
+    "nodesBounded": true,
+    "nodesRecycled": true,
+    "blurStopped": true,
+    "pagehideStopped": true,
+    "noPageErrors": true,
+    "noConsoleErrors": true,
+    "noAudioErrors": true,
+    "inputsRecorded": true,
+    "bounded": true,
+    "buttons44px": true,
+    "buttonsVisible": true,
+    "noHorizontalOverflow": true,
+    "noExternalAssets": true,
+    "duration": true
+  },
+  "pass": true
+}

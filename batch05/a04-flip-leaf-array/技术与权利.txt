@@ -1,0 +1,4 @@
+本作品程序绘制美术与程序生成音乐，没有外部图片、字体、录音依赖。
+技术：p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成
+原创部分未附加公开开源许可，不保证AI生成内容独占权。
+附带未修改p5.js 1.11.11，LGPL2.1见p5-LICENSE.txt；公开原始源：https://github.com/processing/p5.js/tree/v1.11.11

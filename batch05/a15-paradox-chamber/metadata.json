@@ -1,0 +1,92 @@
+{
+  "slug": "a15-paradox-chamber",
+  "title": "悖论房间",
+  "group": "A",
+  "description": "把透视变成一座可折的画廊",
+  "instructions": "透视拖动改变消失点；悬挂拖动挪动几何吊体与影子。开墙露出第二个空间；折室将地板翻转成墙面；陈设切换球体、立方与三角体。投光切换三处光源，让真实投影改变方向。组合开墙、折室和移动消失点，探索不同空间幻觉。",
+  "testControls": [
+    "#perspective",
+    "#hang",
+    "#wall",
+    "#fold",
+    "#objects",
+    "#light"
+  ],
+  "referenceURLs": [
+    "https://mcescher.com/gallery/recognition-success/"
+  ],
+  "references": [
+    {
+      "title": "M.C. Escher · Recognition & Success gallery",
+      "url": "https://mcescher.com/gallery/recognition-success/",
+      "use": "已实际查看官方作品画廊，学习边框、空间方向与反射的构图关系；没有复制图像、鱼鸟图样、人物或具体作品布局",
+      "license": "官方声明 All Rights Reserved；仅参考思路，未复制或打包任何图像/代码"
+    }
+  ],
+  "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+  "audio": {
+    "tempo": 84,
+    "scale": [
+      48,
+      55,
+      59,
+      62,
+      64,
+      67,
+      71
+    ],
+    "original": true
+  },
+  "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+  "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+  "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+  "mainMechanism": "可移动消失点的画廊透视和100块棋格地面，连续翻折成墙、递归第二空间、吊体及灯影",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "durationsSeconds": [
+      73,
+      83
+    ],
+    "inputs": [
+      504,
+      594
+    ],
+    "consoleErrors": [
+      0,
+      0
+    ],
+    "bounded": true,
+    "audioMusicRMS": [
+      0.01271444102554646,
+      0.005352411767093488
+    ],
+    "audioFXRMS": [
+      0.008319485770319884,
+      0.005397898294321985
+    ],
+    "muteRMS": [
+      0,
+      0
+    ],
+    "resetPreservesMute": true,
+    "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+    "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+    "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+    "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+    "screenshots": [
+      "preview-desktop.png",
+      "preview-mobile.png",
+      "evidence/desktop-combined.png",
+      "evidence/mobile-combined.png"
+    ],
+    "reports": [
+      "evidence/desktop-test.json",
+      "evidence/mobile-test.json",
+      "evidence/offline-test.json"
+    ],
+    "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source": "https://www.exploratorium.edu/snacks/cd-spectroscope",
+  "reviewed": "2026-10-04, 已实际浏览网页文字与页面提供的图像描述；未宣称播放参考视频",
+  "inspiration": "镜面刻槽与衍射谱带",
+  "scope": "只吸收光学/材质/空间概念；未下载复制参考资产",
+  "original": "画面、交互和生成音序为本次创作；不保证独占AI版权",
+  "dependencies": {
+    "p5.js": "LGPL-2.1,见p5-LICENSE.txt"
+  },
+  "publicLicense": "未擅自附公开许可证"
+}

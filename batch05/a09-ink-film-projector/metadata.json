@@ -1,0 +1,29 @@
+{
+  "title": "三层胶片放映室",
+  "group": "A",
+  "slug": "a09-ink-film-projector",
+  "description": "选一张透明片，拖动错开投影。滴入新墨、翻片，然后移动灯，重组墙上的叠色影像。",
+  "instructions": [
+    "拖动当前透明片，观察墙上被放大的叠色投影。",
+    "切换三张胶片，在每张上开启滴墨，多次点按不同位置。",
+    "关闭滴墨，翻片并移动；让同一墨迹换成镜像关系。",
+    "展开片架，再切换移灯；灯与三张片的位置共同改变投影。",
+    "首次触碰开启原创合成音乐和操作音效；真正静音、重新构图保留静音，离开页面停止声音。"
+  ],
+  "testControls": [
+    "#art",
+    "#layer",
+    "#drop",
+    "#flip",
+    "#light",
+    "#spread",
+    "#mute",
+    "#reset"
+  ],
+  "referenceURLs": [
+    "https://www.sfmoma.org/watch/laszlo-moholy-nagys-shadow-play/"
+  ],
+  "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+  "mainMechanism": "三张实体胶片变换和光源导致多重投影；不是蓝晒曝光或流彩池",
+  "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。"
+}

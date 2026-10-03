@@ -1,0 +1,56 @@
+{
+  "slug": "a08-cloud-section",
+  "method": "Chromium offline context before file:// navigation; independent source directory with all local dependencies. ZIP extraction validation remains integrator responsibility.",
+  "snapshot": {
+    "inputs": 1,
+    "resets": 0,
+    "state": {
+      "section": false,
+      "tool": "carve",
+      "compression": 1,
+      "sunPos": {
+        "x": -300,
+        "y": -330
+      },
+      "holes": [
+        {
+          "x": -80,
+          "y": -40,
+          "r": 55
+        },
+        {
+          "x": 165,
+          "y": 55,
+          "r": 38
+        },
+        {
+          "x": -14,
+          "y": 45,
+          "r": 35
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "layers": 28,
+      "holes": 3
+    },
+    "frames": 16,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 3,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.001300919874722466,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 1
+    }
+  },
+  "errors": [],
+  "passed": true
+}

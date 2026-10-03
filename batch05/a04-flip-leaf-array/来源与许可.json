@@ -1,0 +1,16 @@
+{
+  "references": [
+    "https://www.johnedmark.com/rotating/"
+  ],
+  "referenceUse": "只作为机械运动、材质、构图和展示灵感；未下载或嵌入参考照片、视频、音轨、角色或源代码。",
+  "thirdPartyLibrary": {
+    "name": "p5.js",
+    "version": "1.11.11",
+    "license": "LGPL-2.1",
+    "source": "https://github.com/processing/p5.js/tree/v1.11.11",
+    "licenseFile": "p5-LICENSE.txt",
+    "modified": false
+  },
+  "originalWork": "程序绘制图形与生成音乐，不另附公开原创许可证，不保证独占版权。",
+  "simulationBoundary": "艺术化的机械/弹性/关节模型，不作为精确科学测量。"
+}

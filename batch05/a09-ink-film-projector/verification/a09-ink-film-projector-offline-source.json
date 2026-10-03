@@ -1,0 +1,63 @@
+{
+  "slug": "a09-ink-film-projector",
+  "method": "Chromium offline context before file:// navigation; independent source directory with all local dependencies. ZIP extraction validation remains integrator responsibility.",
+  "snapshot": {
+    "inputs": 1,
+    "resets": 0,
+    "state": {
+      "sel": 0,
+      "drop": false,
+      "lightMode": false,
+      "expanded": false,
+      "lamp": {
+        "x": -350,
+        "y": -280
+      },
+      "films": [
+        {
+          "x": -55,
+          "y": -35,
+          "a": -0.18,
+          "flip": 1,
+          "ink": 2
+        },
+        {
+          "x": 65,
+          "y": 20,
+          "a": 0.17,
+          "flip": 1,
+          "ink": 2
+        },
+        {
+          "x": 10,
+          "y": 55,
+          "a": -0.03,
+          "flip": 1,
+          "ink": 2
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "films": 3,
+      "drops": 6
+    },
+    "frames": 16,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 3,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.001900894943197087,
+      "errors": 0,
+      "musicNotes": 3,
+      "fxNotes": 1
+    }
+  },
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "a13-single-sided-ribbon",
+  "offline": true,
+  "fromZIP": true,
+  "errors": [],
+  "requests": [],
+  "snapshot": {
+    "inputs": 2,
+    "resets": 1,
+    "frames": 58,
+    "state": {
+      "yaw": -0.3,
+      "pitch": 0.8,
+      "bandWidth": 90,
+      "wave": 0.3,
+      "twists": 1,
+      "split": false,
+      "open": 0,
+      "glaze": 0,
+      "mode": "orbit"
+    },
+    "bounded": true,
+    "counts": {
+      "surfaceQuads": 2160,
+      "cap": 2160
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 2,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 0
+    }
+  }
+}

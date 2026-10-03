@@ -1,0 +1,41 @@
+{
+  "slug": "a14-enamel-corallium",
+  "offline": true,
+  "fromZIP": true,
+  "errors": [],
+  "requests": [],
+  "snapshot": {
+    "inputs": 2,
+    "resets": 1,
+    "frames": 70,
+    "state": {
+      "rotation": 0.25,
+      "calc": 0,
+      "calcTo": 0,
+      "enamel": 0,
+      "current": 1,
+      "mode": "rotate",
+      "picked": -1,
+      "branches": 189
+    },
+    "bounded": true,
+    "counts": {
+      "branches": 189,
+      "branchCap": 210
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 2,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 0
+    }
+  }
+}

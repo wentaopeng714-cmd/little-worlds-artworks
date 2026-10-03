@@ -1,0 +1,243 @@
+{
+  "slug": "a06-diffraction-records",
+  "device": "1440x900 desktop",
+  "durationMs": 64052,
+  "visibleControls": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "state": {
+      "phases": [
+        0.312,
+        -0.686
+      ],
+      "etch": false,
+      "scanning": true,
+      "locked": false,
+      "dir": 1
+    },
+    "bounded": true,
+    "counts": {
+      "discs": 2,
+      "grooves": 154,
+      "marks": 0
+    },
+    "frames": 36,
+    "audio": {
+      "state": "not-created",
+      "unlocked": false,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 0,
+      "nodeCount": 0,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 0,
+      "fxNotes": 0
+    }
+  },
+  "final": {
+    "inputs": 221,
+    "resets": 1,
+    "state": {
+      "phases": [
+        0.409,
+        -1.114
+      ],
+      "etch": false,
+      "scanning": true,
+      "locked": false,
+      "dir": 1
+    },
+    "bounded": true,
+    "counts": {
+      "discs": 2,
+      "grooves": 154,
+      "marks": 0
+    },
+    "frames": 1721,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 7,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00013511475295513027,
+      "errors": 0,
+      "musicNotes": 190,
+      "fxNotes": 38
+    }
+  },
+  "resetMuted": true,
+  "mutedRms": 0,
+  "musicNonzero": true,
+  "fxCount": 38,
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 6,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0008646570064154873,
+      "errors": 0,
+      "musicNotes": 5,
+      "fxNotes": 4
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 6,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0009659318705206621,
+      "errors": 0,
+      "musicNotes": 25,
+      "fxNotes": 8
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.001251526552244483,
+      "errors": 0,
+      "musicNotes": 45,
+      "fxNotes": 12
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0011299124405753102,
+      "errors": 0,
+      "musicNotes": 65,
+      "fxNotes": 16
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0037461309114395678,
+      "errors": 0,
+      "musicNotes": 85,
+      "fxNotes": 20
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0009803910621580929,
+      "errors": 0,
+      "musicNotes": 105,
+      "fxNotes": 24
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0008712842979206495,
+      "errors": 0,
+      "musicNotes": 125,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0013588049263811358,
+      "errors": 0,
+      "musicNotes": 145,
+      "fxNotes": 32
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.007829287093500977,
+      "errors": 0,
+      "musicNotes": 165,
+      "fxNotes": 35
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.008695240649744695,
+      "errors": 0,
+      "musicNotes": 172,
+      "fxNotes": 38
+    }
+  ],
+  "lifecycle": {
+    "blur": {
+      "trusted": true
+    },
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 7,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 193,
+      "fxNotes": 38
+    }
+  },
+  "errors": [],
+  "passed": true
+}

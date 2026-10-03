@@ -1,9 +1,1280 @@
 {
   "edition": "batch05",
   "groups": [
+    "A",
     "C"
   ],
   "works": [
+    {
+      "title": "黄铜星仪",
+      "group": "A",
+      "slug": "a01-brass-orrery",
+      "description": "拖动齿轮让齿缘啮合，点选驱动轮。搭配逆转、星盘和离合，编排一台会呼吸的天文机械。",
+      "instructions": [
+        "先拉开一枚蓝绿齿轮，再把它拖回相邻齿缘，观察联动轮数和转向。",
+        "启用“点选驱动”，点另一枚齿轮，再逆转、脱开离合和恢复；同一布局可换不同传动节奏。",
+        "加齿轮并重排构架，组合星盘的运行/停驻，尝试紧凑与舒展的机械构图。"
+      ],
+      "testControls": [
+        "#drive",
+        "#reverse",
+        "#clutch",
+        "#orbit",
+        "#add",
+        "#layout"
+      ],
+      "parameters": {
+        "logicalScene": [
+          760,
+          700
+        ],
+        "fpsCap": 30,
+        "pixelRatioCap": 2
+      },
+      "referenceURLs": [
+        "https://www.arthurganson.com/thumbnails",
+        "https://www.johnedmark.com/rotating/"
+      ],
+      "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+      "mainMechanism": "齿轮啮合树与齿数比传动",
+      "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+      "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+      "limits": {
+        "gears": 10,
+        "meshLinks": "邻接树传播，visited集合避免环路重复"
+      },
+      "audioConfiguration": {
+        "seed": 101,
+        "tempo": 78,
+        "scale": [
+          45,
+          52,
+          57,
+          60,
+          64,
+          69
+        ],
+        "voice": "triangle",
+        "maxVoices": 12,
+        "maxNodes": 26
+      },
+      "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
+      "zip": "a01-brass-orrery.zip",
+      "zipSha256": "07e6277698b565235a1197f95291529e1a586c820551f3b32fde71b474646a94",
+      "files": {
+        "app.js": "4ac1c61f7e2b2ec449a884e0b65fdad13352cc087d8dda7584dd380f3968bf93",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "files-sha256.json": "9c42181e687b0fb887de653dfc38c155573dce5fb0884233bd8acf10c9ed52f2",
+        "index.html": "2da5f84c36f45e4b64712e05826155ff164a828edf9cde7538b582ee28bd0bc1",
+        "metadata.json": "85a577a8b9919746bf9a5dd36972fd50eb5434a14feea20949de44a9c2e6020d",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "5bd542ac633d25c3a34110bb5c2dd0d975cf4d956bed9e441baa7968faf54695",
+        "preview-mobile.png": "90ab4ca246cb906213595d9fd2026f5de586a8899c94d3657b40c522fb883156",
+        "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+        "verification/desktop-qa.json": "b71a19fa781a8d2e0d27c4e6b44aaf6dabe398c704495326ab8f9196b192d645",
+        "verification/mobile-qa.json": "6352802906670b1f6cf5b3dead68bf5ddd2828eac96d01be192ebe98b10a8b1b",
+        "verification/offline-zip.json": "d404351b405dc7bb79b93a4f18f98cd1327b1bc65df84186d820f9622c835151",
+        "技术与权利.txt": "d25234a60877be2326f5172571e49a33f38fa1ebbbc1bb5712781a14c462b863",
+        "来源与许可.json": "0ec545d3d598550ef5db004288da058099e48a3b0a45ba435fc5beeb21bb47d7",
+        "测试报告.md": "8b5bf1fb6e042ce8339944bb2a00edc795310df162f41589865ad9284b636d0b",
+        "说明.txt": "ee82907fc1da9cd5cb487399570bab83315d009970be0372e71d65ecbf70bbb8",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a01-brass-orrery/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a01-brass-orrery.zip"
+    },
+    {
+      "title": "双摆绘谱",
+      "group": "A",
+      "slug": "a02-pendulum-score",
+      "description": "拉动两枚摆锤放手，看耦合摆在转动纸盘上绘出长曲线。锁第二摆、转纸、换调和留新页可组合。",
+      "instructions": [
+        "先拉住左右摆锤，向不同方向释放；等纸盘积累曲线，试“推摆”补充动能。",
+        "锁第二摆后只拉第一摆，换调及换墨，比较低频宽线与较快细线的构图。",
+        "“留新页”保留最多三层底稿；停转或恢复纸盘，把新轨迹叠在旧页上。"
+      ],
+      "testControls": [
+        "#lock",
+        "#paper",
+        "#ratio",
+        "#ink",
+        "#page",
+        "#kick"
+      ],
+      "parameters": {
+        "logicalScene": [
+          760,
+          700
+        ],
+        "fpsCap": 30,
+        "pixelRatioCap": 2
+      },
+      "referenceURLs": [
+        "https://www.exploratorium.edu/snacks/coupled-resonant-pendulums"
+      ],
+      "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+      "mainMechanism": "耦合双摆与旋转记录纸",
+      "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+      "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+      "limits": {
+        "livePoints": 6000,
+        "archivedPages": 3,
+        "angularVelocity": 3
+      },
+      "audioConfiguration": {
+        "seed": 202,
+        "tempo": 64,
+        "scale": [
+          48,
+          55,
+          58,
+          62,
+          67,
+          70
+        ],
+        "voice": "sine",
+        "maxVoices": 12,
+        "maxNodes": 26
+      },
+      "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
+      "zip": "a02-pendulum-score.zip",
+      "zipSha256": "95f23b6e722ff69fe01a1db6ceb473be6f61f91457fde9620f2fb35c415fde0f",
+      "files": {
+        "app.js": "46ffefc0276a5b284ad9759c36e0391cef9d86f7ec71c9cdfc061d21ddb547b9",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "files-sha256.json": "3ed49264bfee683237112f0e470076d430b0b8f3aeab5e05be73b4b9c1279d4b",
+        "index.html": "4fe07eab3d9adf49c56ec38a7cb8780caa62118e1fc4c4834114d704b0422161",
+        "metadata.json": "1eb4757dfd6e849d7d108a022f8b026adffb835e0fa290289731fc12b8e1ef7c",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "417f46bf9e073455648efa838047aa6c8e39fa74343991d75fd5dddfa0ecfaba",
+        "preview-mobile.png": "bc37acac4d9438421af2ab656fc0f605f35538e997b79224efac628caf99a399",
+        "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+        "verification/desktop-qa.json": "548db32f96a6b14a22c3aee7b0c32046a83ae7f067c47e570a30a26c217c34df",
+        "verification/mobile-qa.json": "6e4d25b1c6eaf8db1ac65bd0a98f84b13b238b930950808f52239e2bb2452f29",
+        "verification/offline-zip.json": "50ed4460f7878c47b856013e85473e6fdcba5e1e44285c03dc98158755843665",
+        "技术与权利.txt": "d25234a60877be2326f5172571e49a33f38fa1ebbbc1bb5712781a14c462b863",
+        "来源与许可.json": "89c61868b7a062e4c38950b87be0dd9568dc0de31100d08ca2e266fcec41c786",
+        "测试报告.md": "b5bd771be3681b5fc82ba19c74ad5e4fe47c24126f28eaae8e7d57a8595bbbd4",
+        "说明.txt": "834c60dcf271426faefb76876d46f7aabe3e4820661a466af2ce51e06d02f517",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a02-pendulum-score/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a02-pendulum-score.zip"
+    },
+    {
+      "title": "张力虹膜",
+      "group": "A",
+      "slug": "a03-tension-membrane",
+      "description": "敲击薄膜激起彩色浮雕；切换拉钉拖动金色固定钉，改变张力。叠入驻波、按压和缓冲，雕刻弹性光面。",
+      "instructions": [
+        "在薄膜不同位置敲击，让波峰和波谷交叉；切“按压”再沿膜拖动。",
+        "启用“拉钉”，上下拉动金钉升降、左右拖动改变固定点；观察张力山脊。",
+        "换驻波模态并叠入2–4层波，再切缓冲和转光，比较快速脉动与柔和起伏。"
+      ],
+      "testControls": [
+        "#pin",
+        "#mode",
+        "#layer",
+        "#press",
+        "#damp",
+        "#light"
+      ],
+      "parameters": {
+        "logicalScene": [
+          760,
+          700
+        ],
+        "fpsCap": 30,
+        "pixelRatioCap": 2
+      },
+      "referenceURLs": [
+        "https://amhistory.si.edu/science/chladni.htm"
+      ],
+      "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+      "mainMechanism": "弹性节点网格与可移动固定钉",
+      "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+      "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+      "limits": {
+        "nodes": 676,
+        "triangles": 1250,
+        "pins": 4,
+        "zRange": [
+          -110,
+          140
+        ]
+      },
+      "audioConfiguration": {
+        "seed": 303,
+        "tempo": 92,
+        "scale": [
+          43,
+          50,
+          53,
+          57,
+          62,
+          65
+        ],
+        "voice": "sine",
+        "maxVoices": 12,
+        "maxNodes": 26
+      },
+      "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
+      "zip": "a03-tension-membrane.zip",
+      "zipSha256": "4d171046306f89546ee443f6055775626bc380186ca7740a1e15a7ff9cc14340",
+      "files": {
+        "app.js": "b88b8199f48567d42f533676e21d9f759ed6f8e649d321df7f85b09b8875118e",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "files-sha256.json": "39200b6e2a802330ce9ad5883ae9440c16c33d3c3b88756cfbf85570389208f1",
+        "index.html": "b5a033f0feec10146bf4a039925e1050e0e5830066b56a2c0c6a1867b28be2ae",
+        "metadata.json": "6f732bba82c0026a878207fd314e631255e7c102b8eef2861264128bbcd925ce",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "85a45c6eadd98cd97a32c34bdf058d1f478976460feb9ba869a3a77e2c70e578",
+        "preview-mobile.png": "119551e7aac45b8bc4549f2f7e0fa56efcf1c25a11f07af7d644a0ac0e039033",
+        "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+        "verification/desktop-qa.json": "d372719403e4868e7ad024df376fd4240912c8decde9f642fdbcdbe70fc787ea",
+        "verification/mobile-qa.json": "de257c4301f86dba4f067f46f2c876ef6883ca345851483d1af770b16dfa70d8",
+        "verification/offline-zip.json": "120284b8ff871d46a2894de37ce5ff35ce2ab61805447b5a619f46c244349fb3",
+        "技术与权利.txt": "d25234a60877be2326f5172571e49a33f38fa1ebbbc1bb5712781a14c462b863",
+        "来源与许可.json": "8c1cdba4d658d1f5fb19c4002ed83fe927a22257814fece387ab21aa965ab4e3",
+        "测试报告.md": "6aa0a35115238dc5573cfd505a1fd50a4acb48ddd7c809c6f328748e62d10a4f",
+        "说明.txt": "b50a18013a17c63770b4f6d3f88871f407c3ac725c9225a3bf3a0d6b19313dc8",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a03-tension-membrane/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a03-tension-membrane.zip"
+    },
+    {
+      "title": "翻叶潮阵",
+      "group": "A",
+      "slug": "a04-flip-leaf-array",
+      "description": "刷过金属叶片让它们翻面；切换钉住保留局部。发起连锁、错相波和换面，编排双色浮雕的运动节奏。",
+      "instructions": [
+        "横刷、斜刷和慢刷叶片，观察正反面和翻叶高度变化。",
+        "启用“钉住”后点选局部叶片，让它们保留当前角度，再发起连锁。",
+        "错相波与连锁叠加，切换面色及转叶轴；松开全部后重新编排局部静止区域。"
+      ],
+      "testControls": [
+        "#pin",
+        "#cascade",
+        "#wave",
+        "#face",
+        "#axis",
+        "#clear"
+      ],
+      "parameters": {
+        "logicalScene": [
+          760,
+          700
+        ],
+        "fpsCap": 30,
+        "pixelRatioCap": 2
+      },
+      "referenceURLs": [
+        "https://www.johnedmark.com/rotating/"
+      ],
+      "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+      "mainMechanism": "实体叶片翻面与邻接传播",
+      "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+      "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+      "limits": {
+        "leaves": 255,
+        "pinnedLeaves": 255,
+        "pendingCascadePerLeaf": 1
+      },
+      "audioConfiguration": {
+        "seed": 404,
+        "tempo": 106,
+        "scale": [
+          50,
+          57,
+          60,
+          64,
+          69,
+          72
+        ],
+        "voice": "triangle",
+        "maxVoices": 12,
+        "maxNodes": 26
+      },
+      "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
+      "zip": "a04-flip-leaf-array.zip",
+      "zipSha256": "35e44e665b8d7b2da3dd2a096da4c068a190efcc0421982a9ed28b738d969a5c",
+      "files": {
+        "app.js": "ba5a27babb8878598b4ced1f6644439d9826c5d6bd97761ed7c275e16cbc8825",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "files-sha256.json": "f7be01a14b1a2d71c3da38c2e95a5412b05c469db07e35ecdff9bd4daf4fec6c",
+        "index.html": "758ef0dc969a28fac7451d2bdafb200405715143db04131dd8169eb4d7c47284",
+        "metadata.json": "8c2a0443c7be32c55fe4fad7326b89b557579029be7f0c582744d49345204dc8",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "5ac89623b537fe2a42596d5535b0e44112f8bc640e224c18e2c5589e8a3f3e96",
+        "preview-mobile.png": "b560aee7147bb5420e174fa2b18fceab798ab7bd6dfe582ae1b8c82e414aa4d5",
+        "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+        "verification/desktop-qa.json": "2e593f06a9c159437117a54c7f63d6f87b4807abc6f719ba37966d62bd1a1142",
+        "verification/mobile-qa.json": "62ab0f50bf299f2bf4cabf0a93fce1c695a80de5105f48bd3cdc001a5d78d159",
+        "verification/offline-zip.json": "cf791d4c499d965d4afbd82665b1aeb1e8888f1c47ec10895faaa387d913d4b3",
+        "技术与权利.txt": "d25234a60877be2326f5172571e49a33f38fa1ebbbc1bb5712781a14c462b863",
+        "来源与许可.json": "53b81304414187f0a72f16bbfc5cf1e6e57ff059a995c2ec6f6b0d98ce227e58",
+        "测试报告.md": "eddae1867abcfc47e89f6681520209dd8868941f7650ae05178263d38a8e64cb",
+        "说明.txt": "c300ca959a6ef9635ac379dfc3e10726b0c64b66282b5646d25751b36a94f5ed",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a04-flip-leaf-array/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a04-flip-leaf-array.zip"
+    },
+    {
+      "title": "棱镜关节",
+      "group": "A",
+      "slug": "a05-prism-joints",
+      "description": "拖动空白旋转雕塑，点选多面体后展开关节、加接或折回。构架、材质与关节方向组合成不断变化的立体陈列。",
+      "instructions": [
+        "拖动空白旋转视角，点选一枚晶体后展开、折回关节，观察实体轴套与折射面光。",
+        "在选定晶体上加接新模块，再改变关节方向，组成左右伸展或升塔构架。",
+        "切换构架和材质；镜头会跟随整体投影边界调整构图，反复选择各关节可形成多种陈列。"
+      ],
+      "testControls": [
+        "#unfold",
+        "#fold",
+        "#add",
+        "#joint",
+        "#form",
+        "#material"
+      ],
+      "parameters": {
+        "logicalScene": [
+          760,
+          700
+        ],
+        "fpsCap": 30,
+        "pixelRatioCap": 2
+      },
+      "referenceURLs": [
+        "https://www.johnedmark.com/space-packings/"
+      ],
+      "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+      "mainMechanism": "模块多面体装配与关节展开",
+      "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+      "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+      "limits": {
+        "modules": 18,
+        "facets": 360,
+        "camera": "按照旋转投影后的晶体边界，自动构图至555×500逻辑范围"
+      },
+      "audioConfiguration": {
+        "seed": 505,
+        "tempo": 84,
+        "scale": [
+          46,
+          53,
+          58,
+          60,
+          65,
+          70
+        ],
+        "voice": "triangle",
+        "maxVoices": 12,
+        "maxNodes": 26
+      },
+      "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
+      "visualStyle": "六边环晶体20面切割，逐面渐变反光、细纹、折射高光；实体黄铜轴套和螺钉关节",
+      "zip": "a05-prism-joints.zip",
+      "zipSha256": "279da020a34332da0978877f1c40feefeb7ef2037e3453ad2ca56b11c0fa758a",
+      "files": {
+        "app.js": "9f66a0b0670a60fde7ff152fc203518b9b69a8df69d1a9c2ea1319bd27b8903d",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "files-sha256.json": "80fe375c9d9647fb02da03ed2a4ac4689bfe281e8215c7988b1d1a53d34c60ee",
+        "index.html": "91052aa51a195009508b6463690e93c88ae7593307c45d30f09fe7459425f198",
+        "metadata.json": "4b2fb9642920aba03f05c3cf130f5a2aea4d6f652b79d4e06b6ccb726efd8733",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "d26399ccd0db162ecfede0a96828c3031d5579233f5eff3b375a203e8a48308a",
+        "preview-mobile.png": "f9f7e8c28fc344f829b4061b5eea500acaf203dfe620218002f2088e4a8879aa",
+        "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+        "verification/desktop-qa.json": "60106fb2e4979f5d47cb92de2069c007e8dc05192bcb31583ffc5f0fcef4a7a5",
+        "verification/mobile-qa.json": "9f820772e7e55ff0351dac3ac397493db6213999c8a47630c1c38df694b2de62",
+        "verification/offline-zip.json": "ff15a96722a0b81616ec4ba5c96205fd23b539842df70a295a8d18d80a96e0b0",
+        "技术与权利.txt": "d25234a60877be2326f5172571e49a33f38fa1ebbbc1bb5712781a14c462b863",
+        "来源与许可.json": "e91ab1b1264c8b5440cd3b82260d78b65854b429398961a43454418bf5f77eec",
+        "测试报告.md": "d756188531236effc4d9c024964a341757a3b3450585bed244c10db429e528d3",
+        "说明.txt": "29ead2d45d145a5a05bfd1b0d0d59072d481746b871dc49d3e8a6b7bd1f4fc38",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a05-prism-joints/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a05-prism-joints.zip"
+    },
+    {
+      "title": "色谱唱片",
+      "group": "A",
+      "slug": "a06-diffraction-records",
+      "description": "拖动唱片转动相位，点按刻下新的环形谱带。让扫描光穿过双盘，再锁住相位。",
+      "instructions": [
+        "转动左盘，再转动右盘，观察彩色刻槽交叠的方向。",
+        "开启刻槽，在不同半径反复短拖；谱带会保留在唱片表面。",
+        "开启锁相，把两盘的相对运动合成一对互逆节奏。",
+        "停下扫描光、反向转盘，再恢复扫描，比较同一构图中的反光。",
+        "首次触碰开启原创合成音乐和操作音效；真正静音、重新构图保留静音，离开页面停止声音。"
+      ],
+      "testControls": [
+        "#art",
+        "#etch",
+        "#scan",
+        "#lock",
+        "#reverse",
+        "#mute",
+        "#reset"
+      ],
+      "referenceURLs": [
+        "https://www.exploratorium.edu/snacks/cd-spectroscope"
+      ],
+      "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+      "mainMechanism": "双盘旋转相位、刻槽、扫描与锁相；不是流彩或万花筒",
+      "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
+      "zip": "a06-diffraction-records.zip",
+      "zipSha256": "054ad1088f7243a6685b41b9b05b85e77fb85540866c0d76ecb46446d8afc919",
+      "files": {
+        "art.js": "8dc88245eafa9518f3878bcb85233fab557cb7b41be2f4b6b1d69cfb3bdfd7fd",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "7a57735942f848466a82a75a0a0a9fe69ec0d29bb93cc711e2f0db8df92a6beb",
+        "metadata.json": "c84ad7f1e30ede6d1b540b378647aa960fbf586fb099fcc9aa265ff8e04efebb",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "097dfc34a665b799d192e178cb4f99c7e3c28ed6716da5f9397849a0bab9b172",
+        "preview-mobile.png": "3f65babbe92b7913a2836e526e854a50bb04b77c10e67d4709343192edfb2706",
+        "runtime.js": "84489a607cc1a72bc47e369505f7802bfb4b6857f9771f4c4348659223ef5775",
+        "style.css": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+        "test-report.json": "77b7965595386bae52204306bfb7906d1b1acd2432a89cc08f8132d5b22ebd4c",
+        "verification/a06-diffraction-records-desktop.json": "dfe37858717e8c1be5aff16e524cb2ae19bec865d278989c7b98996b8621888e",
+        "verification/a06-diffraction-records-mobile.json": "c3f846d7b4c6d8b4f980df1506d2fca2580e5b4d67c217f7647dfb2367a291a1",
+        "verification/a06-diffraction-records-offline-source.json": "71031224fbeb72c3817ae6bcb84adbd8210db1d0e2364fae3c4b792fc0f2a49a",
+        "verification/a06-diffraction-records-touch-audio.json": "2fe676d3d866b052c25311517ee3ac8817440479bfd577e64ea2b8e2f73bf17a",
+        "技术与权利.txt": "2a5dc232ade6eb25d21b29329f70d52ffc3256dd8515c322066e524c7e1dfacf",
+        "来源与许可.json": "df154df08ee3373cd0902bcd57fbff4c813190e168e5175a46209950fb9852da",
+        "说明.txt": "25f64c8f11d744fe5e0b1acf69e4a15fe45e3dd663df950870499fe6104867ea",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a06-diffraction-records/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a06-diffraction-records.zip"
+    },
+    {
+      "title": "气体的骨骼",
+      "group": "A",
+      "slug": "a07-gaslight-sculpture",
+      "description": "拖动白色关节弯曲玻璃管。充气后点火，切换分支工具，在管身接出新的辉光枝。",
+      "instructions": [
+        "拖动任意白色关节，把两条长管塑成不同曲线。",
+        "注入三种气体，再点火；观察亮度和管内奔流的亮点。",
+        "开启分支，在画面按下并拖出新的管枝；最多保留十二条。",
+        "闭合循环后继续弯管，构成自己的封闭辉光雕塑。",
+        "首次触碰开启原创合成音乐和操作音效；真正静音、重新构图保留静音，离开页面停止声音。"
+      ],
+      "testControls": [
+        "#art",
+        "#branch",
+        "#gas",
+        "#ignite",
+        "#loop",
+        "#mute",
+        "#reset"
+      ],
+      "referenceURLs": [
+        "https://olafureliasson.net/artwork/your-atmospheric-colour-atlas-2009/"
+      ],
+      "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+      "mainMechanism": "粗玻璃管控制点弯曲、充气、放电分支和循环；不是细丝网络切断修补",
+      "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
+      "zip": "a07-gaslight-sculpture.zip",
+      "zipSha256": "11bc110882fa7ed70225a036b9aae131481bd5535ad9dfe6be4c773305b56c7e",
+      "files": {
+        "art.js": "9917cf89db5ec157e37d4a40cacc0c6b83a3fd5523f669584370a768f4eec2f7",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "3e5649c64d783d6522c1cffd1fd83cde2b73382367cf7d0e7ac807f0f4b7f847",
+        "metadata.json": "f24ea091c072007e848d6a3cceb9fb8b433ed50bc10f166e2ac68b40aa68f70f",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "afe3df8969fda84b982da0f96125013b768ec74754eefc585a945d18bed97026",
+        "preview-mobile.png": "85bb3cf844111ad96236474bed638ab67e6efae73413752b72282fe704d64f3a",
+        "runtime.js": "2cdcfb9cde475b36ccbaa3f73f0e7c76d58a3a75afcb3ba2dad5d12657b7a82a",
+        "style.css": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+        "test-report.json": "951f9b00ed709d515a59b667d20e01983b3d2ac0e61cd88801b53b6f99a70ab6",
+        "verification/a07-gaslight-sculpture-desktop.json": "d317bb1385b94fcd1ae253af90612a919037ec5dbafb35eb2d07dccf3baea77d",
+        "verification/a07-gaslight-sculpture-mobile.json": "7080d91a532e50f8609dc22b94aa5beb3ab94c05473724fe9b5017eca393c321",
+        "verification/a07-gaslight-sculpture-offline-source.json": "478babab944c44ccbede1cb491823602266ee04b5e06aa17f66a9550bbc3cf14",
+        "verification/a07-gaslight-sculpture-touch-audio.json": "c0beb8c20b60477edaf26459d50a9f8fcd40bfecca9ac917625ac90ebb96d45d",
+        "技术与权利.txt": "2a5dc232ade6eb25d21b29329f70d52ffc3256dd8515c322066e524c7e1dfacf",
+        "来源与许可.json": "60e19c04ad9991751045b6fdd7b31ccc7945a69672971d41048308fa5a0dac94",
+        "说明.txt": "d8295870b055a8734d32f0bd2ebacb5db1cbc877397a430ae4f82d25a71a5a23",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a07-gaslight-sculpture/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a07-gaslight-sculpture.zip"
+    },
+    {
+      "title": "云的内侧",
+      "group": "A",
+      "slug": "a08-cloud-section",
+      "description": "拖过云体挖出透光孔洞，切换剖面查看内部。移太阳改变散射，压缩云层形成新的层次。",
+      "instructions": [
+        "用挖云工具短拖或在同一处反复触碰，扩大透光孔洞。",
+        "打开剖面，露出被去掉的中间层，比较孔洞的纵向结构。",
+        "选移太阳，向左、右、上、下拖动，比较云体的暖光与冷影。",
+        "压缩三档云层，再组合剖面和孔洞，制成新的云标本。",
+        "首次触碰开启原创合成音乐和操作音效；真正静音、重新构图保留静音，离开页面停止声音。"
+      ],
+      "testControls": [
+        "#art",
+        "#carve",
+        "#section",
+        "#sun",
+        "#compress",
+        "#mute",
+        "#reset"
+      ],
+      "referenceURLs": [
+        "https://olafureliasson.net/artwork/your-atmospheric-colour-atlas-2009/"
+      ],
+      "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+      "mainMechanism": "实体层云切片、开洞、剖面、压缩及太阳散射；不是星云粒子噪声",
+      "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
+      "zip": "a08-cloud-section.zip",
+      "zipSha256": "5a162536d90cd7f7b97a040e592d23c37e153753e09d21a48d5d7aaae48245cb",
+      "files": {
+        "art.js": "c89e89450bafc5b8517b7d3e72a23cd52a796379c460aec1a36c0f7b404614d5",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "2eae26f06bf3b6382697d34070acf7980fc63a62215a0264822f20d18b81dbad",
+        "metadata.json": "4f5e935a7b50873f547067e3b60b08ce4e07060994dd17bba3ffa44f2c67af50",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "3524f9e5ac901745b4e8898d8ff3f9062b2018faa080acc9de23615c7145349c",
+        "preview-mobile.png": "553a040c5be520db8b7bf774dc91b00745006cb0e420bad649dcc6558916a42c",
+        "runtime.js": "7f8977ce5467a78595af203b5f3fa577b289a659cc130a4d3537d21669a20744",
+        "style.css": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+        "test-report.json": "a148e437666bd64be5613460569023a58a20ca4ae7f55d0a311327d2b130449f",
+        "verification/a08-cloud-section-desktop.json": "7d833ac6cd429fbd16743fa65342dcecf8f07801c1a12c0b5ec4e44f635fcb58",
+        "verification/a08-cloud-section-mobile.json": "5d5b51c34f86247b90f20eaadd04c109df2981e22734e931f9298fcceae64931",
+        "verification/a08-cloud-section-offline-source.json": "9bc29e0aa2f9eeec32cd146ed34feb43e520ec5b826e1e1ce6fd3e4a03a6c156",
+        "verification/a08-cloud-section-touch-audio.json": "1ef4f025cf5a7cd46d9bbb514f6b4ef680f3747ffa02113261bafbe4a2f1306e",
+        "技术与权利.txt": "2a5dc232ade6eb25d21b29329f70d52ffc3256dd8515c322066e524c7e1dfacf",
+        "来源与许可.json": "34af4a16237c7655ac03d7d5314c992f3e38e231985117173dcb920aa6b7ac8e",
+        "说明.txt": "5799e970b47e3112f2725aafc72224813fdf4ce59d48c751be33fbd8fcec372b",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a08-cloud-section/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a08-cloud-section.zip"
+    },
+    {
+      "title": "三层胶片放映室",
+      "group": "A",
+      "slug": "a09-ink-film-projector",
+      "description": "选一张透明片，拖动错开投影。滴入新墨、翻片，然后移动灯，重组墙上的叠色影像。",
+      "instructions": [
+        "拖动当前透明片，观察墙上被放大的叠色投影。",
+        "切换三张胶片，在每张上开启滴墨，多次点按不同位置。",
+        "关闭滴墨，翻片并移动；让同一墨迹换成镜像关系。",
+        "展开片架，再切换移灯；灯与三张片的位置共同改变投影。",
+        "首次触碰开启原创合成音乐和操作音效；真正静音、重新构图保留静音，离开页面停止声音。"
+      ],
+      "testControls": [
+        "#art",
+        "#layer",
+        "#drop",
+        "#flip",
+        "#light",
+        "#spread",
+        "#mute",
+        "#reset"
+      ],
+      "referenceURLs": [
+        "https://www.sfmoma.org/watch/laszlo-moholy-nagys-shadow-play/"
+      ],
+      "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+      "mainMechanism": "三张实体胶片变换和光源导致多重投影；不是蓝晒曝光或流彩池",
+      "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
+      "zip": "a09-ink-film-projector.zip",
+      "zipSha256": "68b2e3e5c63462948db3073603caed2b3bec33194ba956948a417c9972d14b2d",
+      "files": {
+        "art.js": "fa5cd31c03b5d6b77530cbc9ecd9f45f0b7da64af7c95e9c7b72e800ba61243a",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "fc731349d9a838818d99a8747ee005bddc5813b751ed45ca37bf0a0c119dc905",
+        "metadata.json": "e2a82d4201478955d38f84171b05d0f852456b035b82a4721b913b80b0cb8edf",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "98333941d890b395f3cbeaaaa0acea80caafcde831417d8325a90505b32f5976",
+        "preview-mobile.png": "b1af33572b35e3f94a4c679ad2fa62f31a9afc4212de3a809bdee283800267c2",
+        "runtime.js": "de6da2674e6275fb0d717561a99ce362206cc10a6472db01c94ea5886f63aabb",
+        "style.css": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+        "test-report.json": "3f3e409beb8754529a1aba596ce340ad67138232988513cd71d2fa636e77dc91",
+        "verification/a09-ink-film-projector-desktop.json": "5f63d2fd62500a75649567b3e00d8bfce2775d53e0530841811450ba2bebe28c",
+        "verification/a09-ink-film-projector-mobile.json": "722463772f87dae4da55794ee4120cb9d455c19258fa93301ca19d9f8ccd1b1a",
+        "verification/a09-ink-film-projector-offline-source.json": "0c0cff1a7c508e344135509fb862d3d1ee76f7d9612b2b8709d5732ef6694977",
+        "verification/a09-ink-film-projector-touch-audio.json": "23576d8c4b9549808d9687a1dc92b2e5e0a9a42abf02515feb747dddf6dc2bd8",
+        "技术与权利.txt": "2a5dc232ade6eb25d21b29329f70d52ffc3256dd8515c322066e524c7e1dfacf",
+        "来源与许可.json": "bc13be713ab7321491f8b955e408e20d7156fd8db9aeccdd72eca79ee8bd0ade",
+        "说明.txt": "f54aa4076bb14d1fa2c3dbc186277bd3c15f2641f96247b0aba465c35e27ebb5",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a09-ink-film-projector/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a09-ink-film-projector.zip"
+    },
+    {
+      "title": "极光的褶皱",
+      "group": "A",
+      "slug": "a10-aurora-front",
+      "description": "拖动地平线上的光帘基点，折叠天幕。放入一条锋面，再展开，观看多层光柱沿褶皱奔流。",
+      "instructions": [
+        "拖动五个地平线基点，改变整条极光的基线形态。",
+        "折叠天幕，在折叠状态继续移动基点制造密集褶皱。",
+        "重复释放锋面，观看不同强度波穿过光帘。",
+        "抬升光柱、旋转视角，再展开；对比三种高度和三个观察方向。",
+        "首次触碰开启原创合成音乐和操作音效；真正静音、重新构图保留静音，离开页面停止声音。"
+      ],
+      "testControls": [
+        "#art",
+        "#fold",
+        "#front",
+        "#height",
+        "#view",
+        "#mute",
+        "#reset"
+      ],
+      "referenceURLs": [
+        "https://spaceplace.nasa.gov/aurora/en/"
+      ],
+      "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+      "mainMechanism": "宽阔光帘基点形变、折叠、锋面、高度与视角；不绘制织线或欧泊笔刷",
+      "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
+      "zip": "a10-aurora-front.zip",
+      "zipSha256": "b791ff0e0544c75e9f95c46500579fe4dc19bcd5e6a3c02e7007d1acc80131ac",
+      "files": {
+        "art.js": "091303438217b78ee817a68b9adfb1bbb4f4b15a54eecee81407a9b24634f657",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "ed1d6c1b8c3c19e6d0459d7d4271f857d50a6d69481c9c9a45e7f91435c63405",
+        "metadata.json": "bd89b423bf5acf36d2d888ed7c3dd7e0de6aa787e89a2f42344209db48b4f8af",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "69ae423ac4518270594b1633bf723ede587a7c566b22b2ec8977a18501dbab51",
+        "preview-mobile.png": "bac2480193318b9af7aa765918a78676058a4d1b2cd53e8cbfc320975379a528",
+        "runtime.js": "e06629e1a86eedb4b17de7fcce39a9fecfb3ece2d93022d78ed217af8afd798a",
+        "style.css": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+        "test-report.json": "3ebf4e4a1f87a19e20382864fc42ca06d4ea4e16833e40d837d9ce4cc2aad901",
+        "verification/a10-aurora-front-desktop.json": "d5820697651b5950b3a0a319b7bd84782638ab3b4ca15c2f612520f4ab6feb5c",
+        "verification/a10-aurora-front-mobile.json": "f66a35cd78d8d8f861e291e44b635649975f3891b33270d2868bae62f4adc807",
+        "verification/a10-aurora-front-offline-source.json": "d1e8261a3a66d79e367e9f09e30d496c8e555d65a5dbab504c93d92d5b7c3edf",
+        "verification/a10-aurora-front-touch-audio.json": "ccc7f248d852e89acd0ca14093ed90ee3eefc6a6e8fbe6b48b4f3859588db74a",
+        "技术与权利.txt": "2a5dc232ade6eb25d21b29329f70d52ffc3256dd8515c322066e524c7e1dfacf",
+        "来源与许可.json": "7e2ea6abbd0408b2216df5910f65328b796de6e561eb2044a4a802ca5d3478fc",
+        "说明.txt": "42edf6c153a13854fb094f9235ed55753b3b86fd31dbd0b72407b9939c0e4f90",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a10-aurora-front/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a10-aurora-front.zip"
+    },
+    {
+      "slug": "a11-chromatic-choir",
+      "title": "色点交响",
+      "group": "A",
+      "description": "触碰一座会呼吸的点彩雕塑",
+      "instructions": "按压：拖动把点群推向深处；聚团：拖动将色点收拢。展层把色点拆成三层舞台；归位让雕塑缓慢修复。换形切换贝壳、盘涡与冠叶三种原创曲面；旋观拖动改变角度。试试展层后聚团、再归位。",
+      "testControls": [
+        "#press",
+        "#gather",
+        "#orbit",
+        "#layers",
+        "#restore",
+        "#form"
+      ],
+      "referenceURLs": [
+        "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884"
+      ],
+      "references": [
+        {
+          "title": "Georges Seurat · A Sunday on La Grande Jatte",
+          "url": "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884",
+          "use": "已实际查看博物馆图像；学习离散色点的光色与稳定构图，没有复制人物、场景或图片",
+          "license": "参考页面与图片未打包，作品自行生成"
+        }
+      ],
+      "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+      "audio": {
+        "tempo": 66,
+        "scale": [
+          48,
+          50,
+          55,
+          57,
+          60,
+          62,
+          67
+        ],
+        "original": true
+      },
+      "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+      "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+      "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+      "mainMechanism": "保留单点形变的3200点三维投影雕塑；局部挤压/收拢、三层展开、三套曲面及视角组合",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "durationsSeconds": [
+          75,
+          83
+        ],
+        "inputs": [
+          468,
+          576
+        ],
+        "consoleErrors": [
+          0,
+          0
+        ],
+        "bounded": true,
+        "audioMusicRMS": [
+          0.012681219498981813,
+          0.0058342385997825754
+        ],
+        "audioFXRMS": [
+          0.015788733206421632,
+          0.005971598806917739
+        ],
+        "muteRMS": [
+          0,
+          0
+        ],
+        "resetPreservesMute": true,
+        "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+        "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+        "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+        "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+        "screenshots": [
+          "preview-desktop.png",
+          "preview-mobile.png",
+          "evidence/desktop-combined.png",
+          "evidence/mobile-combined.png"
+        ],
+        "reports": [
+          "evidence/desktop-test.json",
+          "evidence/mobile-test.json",
+          "evidence/offline-test.json"
+        ],
+        "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
+      },
+      "zip": "a11-chromatic-choir.zip",
+      "zipSha256": "c976918bad5ae07e7b6910e4917d04f731a2cc44ef02203d6f67fae2ee852e82",
+      "files": {
+        "art.js": "68deeedc8ffee1f4761d1e44989d51319f26e80a1f2cb4c2aa529053ad8095a0",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "2a9e6da4a7823189cd95bde60d8410a5c08b4e2bc55c907a1513fc63a362d57b",
+        "metadata.json": "3a795bfe2f1ab98283d7938f12dc473f11fb2496b93691e424bf026c7c1c8294",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "9b5e5359a455386b24a53cbd0865a1bdac48b35c488eaf3ef2e7bfc7c3ee3e61",
+        "preview-mobile.png": "45a9da0343719dbb8e326c7cd8a08f59fe7fd6c6a65e173e6db405a89c571a8f",
+        "verification/desktop-test.json": "012982c06d980d834938f266dbb8959c1bfabd826ef02975ec5799a985c5f421",
+        "verification/mobile-test.json": "c14a45ec003607812f0c8db11960424543b93a5995565c500304a4f82674cd23",
+        "verification/offline-test.json": "6f92f2b1a856c66e6b57e64208814f9aaf3bfa3a0c3b1609d70d1a4ba67dffc2",
+        "verification/zip-integrity.json": "46c11e864ff36ddce8dfdf23b25531e1a905d9dcdafc4ff2eebae00c07ee8806",
+        "实测报告.txt": "0ead8d2b422e1c0c658513c90814e8288c62f32d71cc7e66519416ab86c851a3",
+        "技术与权利.txt": "2478933b03754e92359976770d9f79a4323e0de5e031345df3e6b892819d935f",
+        "来源与许可.json": "3d7d9e14ee311b4844edff5ea12969b37cf849239d67233633ad251b4ba6cb55",
+        "说明.txt": "2b8d7bb8ded8e29ffbc49c865d82ea3c1382fb23b379b986b90dcb197089a43e",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a11-chromatic-choir/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a11-chromatic-choir.zip"
+    },
+    {
+      "slug": "a12-four-colour-press",
+      "title": "四色滚版",
+      "group": "A",
+      "description": "把套准、重影与留白变成画作",
+      "instructions": "选择青、红、黄、墨独立版层；套准拖动移动该层。滚版横向拖动让所选版逐步显影；擦版拖动留下纸白窗，再叠另一色。满版补回当前色；新画稿更换三套原创海报构图。套准与擦版留下的变化会保留。",
+      "testControls": [
+        "#cyan",
+        "#magenta",
+        "#yellow",
+        "#key",
+        "#register",
+        "#roll",
+        "#wipe",
+        "#full",
+        "#draft"
+      ],
+      "referenceURLs": [
+        "https://en.wikipedia.org/wiki/CMYK_color_model",
+        "https://www.metmuseum.org/art/collection/search/336482"
+      ],
+      "references": [
+        {
+          "title": "CMYK colour model",
+          "url": "https://en.wikipedia.org/wiki/CMYK_color_model",
+          "use": "已读四色减色与半色调技术说明；图片未成功加载，不声称看过该页图片",
+          "license": "仅链接技术概念，未复制代码/文本/图片"
+        },
+        {
+          "title": "After Claude Lorrain · Sunrise / Landscape with Figures",
+          "url": "https://www.metmuseum.org/art/collection/search/336482",
+          "use": "已实际查看纸本绘图；只参考纸面颗粒与细线密度，未仿制风景或复制图像",
+          "license": "页面标注 Public Domain，但本作不打包该图片"
+        }
+      ],
+      "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+      "audio": {
+        "tempo": 92,
+        "scale": [
+          45,
+          52,
+          57,
+          60,
+          64,
+          67,
+          69
+        ],
+        "original": true
+      },
+      "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+      "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+      "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+      "mainMechanism": "四个可独立拖动套准的减色版层，滚压覆盖与每层独立擦除蒙版；三套原创海报版面",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "durationsSeconds": [
+          74,
+          83
+        ],
+        "inputs": [
+          504,
+          594
+        ],
+        "consoleErrors": [
+          0,
+          0
+        ],
+        "bounded": true,
+        "audioMusicRMS": [
+          0.016372430021752107,
+          0.014471634504776325
+        ],
+        "audioFXRMS": [
+          0.012266326910567013,
+          0.00602159679291542
+        ],
+        "muteRMS": [
+          0,
+          0
+        ],
+        "resetPreservesMute": true,
+        "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+        "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+        "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+        "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+        "screenshots": [
+          "preview-desktop.png",
+          "preview-mobile.png",
+          "evidence/desktop-combined.png",
+          "evidence/mobile-combined.png"
+        ],
+        "reports": [
+          "evidence/desktop-test.json",
+          "evidence/mobile-test.json",
+          "evidence/offline-test.json"
+        ],
+        "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
+      },
+      "zip": "a12-four-colour-press.zip",
+      "zipSha256": "5ec5bd06f5947f69a03a91c04f3b1199252afe6f3bde32c56cb3d518c10bdddf",
+      "files": {
+        "art.js": "4befaafe438a8444b3b033a2504602150016fce6b7ed6456396da31aebf1deaf",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "6b2e9d102b45d94736b758e20a2fd42faa601bd4b042cd0c5f712322c8ec1761",
+        "metadata.json": "da99334ad5c4f87d7fbbcf2e9ea817fe9a79e38c7bc6a853417005bea9fd6879",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "3223d28415a2033433e3a58034660bf573bf4daf9407be7305cab52cc23ec528",
+        "preview-mobile.png": "9db7a3f8cf0dc49fb005c494d735bed76c79f29e57677d2baae33e51e5b1d33f",
+        "verification/desktop-test.json": "15bf4775e8bd0617a1556c6723d1c3619ea67ddff1a5bc7fa322b5fc97e2cde0",
+        "verification/mobile-test.json": "023664c173beb47f0e7fb86dd2b864fe880fa86352bc02579533717ec4656fc2",
+        "verification/offline-test.json": "83b9c4750bc82c05c7d776a38819b8c72d080def44bec0d9d60de4d07a02ada1",
+        "verification/zip-integrity.json": "f3c16b84a1ec4c3af4328d00f8d4a934847b40c8e9b8e3fd571e80f49cf1bfdb",
+        "实测报告.txt": "54f2a92a221202689a465d956db8f9b0b583e60c2367558ee21af401ccce2e2a",
+        "技术与权利.txt": "2478933b03754e92359976770d9f79a4323e0de5e031345df3e6b892819d935f",
+        "来源与许可.json": "995fc303ab786373265810841210f7d578b098d19b1eaf60cdbfcc2d903dfb46",
+        "说明.txt": "d0ee4f2e73f119ac860544817b4fcbc1855f7fd6b7a84f46995b7db100dc6ab6",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a12-four-colour-press/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a12-four-colour-press.zip"
+    },
+    {
+      "slug": "a13-single-sided-ribbon",
+      "title": "单面虹带",
+      "group": "A",
+      "description": "一面色带，也有无数种姿态",
+      "instructions": "旋观拖动旋转雕塑；塑带拖动改变宽度与起伏。半扭循环一、三、五个半扭；分缝把带面分出三条实体色带；铺展打开雕塑成连续长带。染面切换珊瑚釉、孔雀釉与暮光釉。把塑带、分缝与半扭组合，再铺开展示。",
+      "testControls": [
+        "#orbit",
+        "#shape",
+        "#twist",
+        "#split",
+        "#unfold",
+        "#glaze"
+      ],
+      "referenceURLs": [
+        "https://www.mathcurve.com/surfaces.gb/mobius/mobius.shtml"
+      ],
+      "references": [
+        {
+          "title": "MathCurve · Möbius strip",
+          "url": "https://www.mathcurve.com/surfaces.gb/mobius/mobius.shtml",
+          "use": "已实际查看曲面、三角带与半扭图示；独立参数曲面实现，艺术铺展是形态插值而非严格可展面证明",
+          "license": "页末著作权归 Robert Ferréol 等；未复制代码或图片，仅数学与形态背景"
+        }
+      ],
+      "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+      "audio": {
+        "tempo": 70,
+        "scale": [
+          43,
+          50,
+          55,
+          58,
+          62,
+          65,
+          67
+        ],
+        "original": true
+      },
+      "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+      "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+      "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+      "mainMechanism": "单一实体宽带参数曲面的奇数半扭、分缝与形态展开；宽度/起伏塑形及3D旋观",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "durationsSeconds": [
+          75,
+          84
+        ],
+        "inputs": [
+          432,
+          576
+        ],
+        "consoleErrors": [
+          0,
+          0
+        ],
+        "bounded": true,
+        "audioMusicRMS": [
+          0.009884921711232366,
+          0.009218820168448449
+        ],
+        "audioFXRMS": [
+          0.003116311122177465,
+          0.004801232016471607
+        ],
+        "muteRMS": [
+          0,
+          0
+        ],
+        "resetPreservesMute": true,
+        "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+        "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+        "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+        "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+        "screenshots": [
+          "preview-desktop.png",
+          "preview-mobile.png",
+          "evidence/desktop-combined.png",
+          "evidence/mobile-combined.png"
+        ],
+        "reports": [
+          "evidence/desktop-test.json",
+          "evidence/mobile-test.json",
+          "evidence/offline-test.json"
+        ],
+        "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
+      },
+      "zip": "a13-single-sided-ribbon.zip",
+      "zipSha256": "653727b998eed69ad8568ce180454d2ee57b38d8fb37205041bbe71a8a7c65e5",
+      "files": {
+        "art.js": "3d6ab85265b26adbc495a3fb46970e24f94792f43f04a33f19701780809d3484",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "7a4aee3968f914d0a5779e8eb2756d92a9dd7a7114bb3e6ad1ff8fc8a5029a6d",
+        "metadata.json": "93a78d225143d7b6cbd8b3717a73ba43de7736e2a7d7fa9360f2a27e5a881f8f",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "20886493b155574bfd4d5265202f11e33ceee076ebb2318bf9b22ae079479e3d",
+        "preview-mobile.png": "7eaf945e9a0064bf2a2113a71552ae580c15622aa1803c567b0a51d076ccd419",
+        "verification/desktop-test.json": "584a354fa411ddb61f0e595bf4233f0ffd4db45fd9d02a919f77a3601ed70dc4",
+        "verification/mobile-test.json": "03f544d7a4db500df40dc46302de26daadb2fd34f3691428d2e61577b1e60b42",
+        "verification/offline-test.json": "b281e3bca06593893890da5b0dff6eac9a3d25c1ed720b4032e981d3e6762982",
+        "verification/zip-integrity.json": "e83286cf06b99a44873733de778a9d461bc7ec63f16f4a6a0adac4be0d2d4413",
+        "实测报告.txt": "dbb290797ba967950c600ee5c409312783d13c23fafb4d75e792ff0ae29109a0",
+        "技术与权利.txt": "2478933b03754e92359976770d9f79a4323e0de5e031345df3e6b892819d935f",
+        "来源与许可.json": "f81a25e6fad9eda2c915dc762d092c5af9a7e7ed003f75c640019910a8f8f138",
+        "说明.txt": "ad67e4287d90770545b336bae698837c6bfe9014fcbf9d584d2fc742c09d2c8c",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a13-single-sided-ribbon/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a13-single-sided-ribbon.zip"
+    },
+    {
+      "slug": "a14-enamel-corallium",
+      "title": "珊瑚珐琅",
+      "group": "A",
+      "description": "修剪、嫁接与缓慢钙化的雕塑",
+      "instructions": "旋台拖动改变角度；修剪点按枝尖剪去该枝与后代；嫁接点按枝尖长出新分叉。钙化让枝骨逐渐变粗并长出釉珠；焕釉改变三种珐琅材料，潮流改变摆动方向。选中枝尖时有金色指示，反复修剪再嫁接会形成自己的枝骨结构。",
+      "testControls": [
+        "#rotate",
+        "#prune",
+        "#graft",
+        "#calcify",
+        "#enamel",
+        "#current"
+      ],
+      "referenceURLs": [
+        "https://oceanservice.noaa.gov/facts/coral.html",
+        "https://algorithmicbotany.org/papers/"
+      ],
+      "references": [
+        {
+          "title": "NOAA · Are corals animals or plants?",
+          "url": "https://oceanservice.noaa.gov/facts/coral.html",
+          "use": "已实际查看珊瑚结构图与说明；学习团簇、钙质层次；本作是想象雕塑，不声称科学模拟",
+          "license": "未复制或打包 NOAA 图片"
+        },
+        {
+          "title": "Algorithmic Botany · Publications",
+          "url": "https://algorithmicbotany.org/papers/",
+          "use": "已读 L-system 建模文献目录；独立有限递归枝骨实现，不复制研究代码/插图",
+          "license": "论文及图像未打包，无第三方程序代码"
+        }
+      ],
+      "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+      "audio": {
+        "tempo": 62,
+        "scale": [
+          46,
+          53,
+          58,
+          60,
+          65,
+          67,
+          70
+        ],
+        "original": true
+      },
+      "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+      "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+      "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+      "mainMechanism": "有限递归三维珊瑚枝骨树，可删除整支后代与嫁接新子树，转台、钙化釉珠与珐琅材料",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "durationsSeconds": [
+          74,
+          84
+        ],
+        "inputs": [
+          486,
+          594
+        ],
+        "consoleErrors": [
+          0,
+          0
+        ],
+        "bounded": true,
+        "audioMusicRMS": [
+          0.011115060524418994,
+          0.006339173295971053
+        ],
+        "audioFXRMS": [
+          0.012387346522353352,
+          0.006690451561352922
+        ],
+        "muteRMS": [
+          0,
+          0
+        ],
+        "resetPreservesMute": true,
+        "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+        "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+        "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+        "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+        "screenshots": [
+          "preview-desktop.png",
+          "preview-mobile.png",
+          "evidence/desktop-combined.png",
+          "evidence/mobile-combined.png"
+        ],
+        "reports": [
+          "evidence/desktop-test.json",
+          "evidence/mobile-test.json",
+          "evidence/offline-test.json"
+        ],
+        "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。",
+        "finalVisualPatch": "已将枝条绘制微调为轻弯锥形珐琅枝、柔和接头与枝端；枝骨数据/剪枝/嫁接/音序未改变。两视口各70次真实鼠标输入补测通过、无错误、bounded、静音重置RMS0；证据evidence/final-soft-branches.json，非真机。"
+      },
+      "zip": "a14-enamel-corallium.zip",
+      "zipSha256": "b17e64916be148393c96c6706e57b94caa8b26d25de88637edfdc8fddbe2a27c",
+      "files": {
+        "art.js": "5219272a6f95a6e76f831ab039b340e6a251961660b970fbf81ea8bde18d6185",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "b08af270de9ebbf654d9c2ecf9314833d9d34cdb8f295a1ae3baa0fcee1bd12b",
+        "metadata.json": "17d53a65b5f82f04d2dea98328d12db89cdb38f496b198c4d5009cdedc468490",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "5d04e29f688001b40f211603bac3da393258c1eb4af2ff1d318eccde74396072",
+        "preview-mobile.png": "13efc7ca93fc03b78d62b53f2bc5e4cfda78b1569c4835b8ab71f1263cf10534",
+        "verification/desktop-test.json": "c7fda3c1963aab64514b6ecff7039a2df4a6a5c3c8361bb9e8f4f334af41ab79",
+        "verification/final-soft-branches.json": "f823bd7054f6d2de2d893096f7943288d58729531211676f47b286b93e775419",
+        "verification/mobile-test.json": "bcf77c1a8a888fe130a9527c6087357396d33bb842476d9847320de1bcc6626a",
+        "verification/offline-test.json": "9990d6ec4094930272063f463b60fb9d0dfa907a586f216fcc39ed923c08a929",
+        "verification/zip-integrity.json": "b90e30b888a4484d164ca673c7519f798e9e366d31004613a82c8372a873c59a",
+        "实测报告.txt": "818058eb29c55f2a26e593ed4944c3467e44e11b83ea69e2f33628ee30508189",
+        "技术与权利.txt": "2478933b03754e92359976770d9f79a4323e0de5e031345df3e6b892819d935f",
+        "来源与许可.json": "749e66ed4934044f23f0afb671675ca337380cbad9ebbb2fa9450209e9c5a088",
+        "说明.txt": "6afe62e49f8a41e7396da32109c63bc89a877472a48a830f65d6a75405cf0673",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a14-enamel-corallium/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a14-enamel-corallium.zip"
+    },
+    {
+      "slug": "a15-paradox-chamber",
+      "title": "悖论房间",
+      "group": "A",
+      "description": "把透视变成一座可折的画廊",
+      "instructions": "透视拖动改变消失点；悬挂拖动挪动几何吊体与影子。开墙露出第二个空间；折室将地板翻转成墙面；陈设切换球体、立方与三角体。投光切换三处光源，让真实投影改变方向。组合开墙、折室和移动消失点，探索不同空间幻觉。",
+      "testControls": [
+        "#perspective",
+        "#hang",
+        "#wall",
+        "#fold",
+        "#objects",
+        "#light"
+      ],
+      "referenceURLs": [
+        "https://mcescher.com/gallery/recognition-success/"
+      ],
+      "references": [
+        {
+          "title": "M.C. Escher · Recognition & Success gallery",
+          "url": "https://mcescher.com/gallery/recognition-success/",
+          "use": "已实际查看官方作品画廊，学习边框、空间方向与反射的构图关系；没有复制图像、鱼鸟图样、人物或具体作品布局",
+          "license": "官方声明 All Rights Reserved；仅参考思路，未复制或打包任何图像/代码"
+        }
+      ],
+      "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+      "audio": {
+        "tempo": 84,
+        "scale": [
+          48,
+          55,
+          59,
+          62,
+          64,
+          67,
+          71
+        ],
+        "original": true
+      },
+      "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+      "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+      "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+      "mainMechanism": "可移动消失点的画廊透视和100块棋格地面，连续翻折成墙、递归第二空间、吊体及灯影",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "durationsSeconds": [
+          73,
+          83
+        ],
+        "inputs": [
+          504,
+          594
+        ],
+        "consoleErrors": [
+          0,
+          0
+        ],
+        "bounded": true,
+        "audioMusicRMS": [
+          0.01271444102554646,
+          0.005352411767093488
+        ],
+        "audioFXRMS": [
+          0.008319485770319884,
+          0.005397898294321985
+        ],
+        "muteRMS": [
+          0,
+          0
+        ],
+        "resetPreservesMute": true,
+        "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+        "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+        "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+        "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+        "screenshots": [
+          "preview-desktop.png",
+          "preview-mobile.png",
+          "evidence/desktop-combined.png",
+          "evidence/mobile-combined.png"
+        ],
+        "reports": [
+          "evidence/desktop-test.json",
+          "evidence/mobile-test.json",
+          "evidence/offline-test.json"
+        ],
+        "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
+      },
+      "zip": "a15-paradox-chamber.zip",
+      "zipSha256": "3a440747ea4fb05a05392895e066cbc8a0463f49b1ea6b5224ec30c9262752cc",
+      "files": {
+        "art.js": "4ea65c5d904c3885f44c76411cc724d4a15699c26d31c69d8e6ae529ed0cb3cd",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "index.html": "c8a2de3ffa2a759760b40c194ff582fd021b8bc40b2b46c19a0795b354c2c880",
+        "metadata.json": "dc9376e45a80580e71eb7aec06448a3aa8ef3f9a9de67b830738f8f2e8b90667",
+        "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+        "preview-desktop.png": "1130fe4d0d1b717d0c1b7b0cc2ac104c1114c789ede666b9a24410f9b154fdf4",
+        "preview-mobile.png": "89bb84be37db20aea67211e93aefb43cdeea9d140d1daf8fe8b220f9b416653c",
+        "verification/desktop-test.json": "b2bd1257339cdec1d9258aea50ca9b2ca85c49b43dae0b9787949ef92f17605f",
+        "verification/mobile-test.json": "399bc57f18c0fe4ac16672546df690eb4bf127d5e2c83451bb0c35c3d2c7e8ce",
+        "verification/offline-test.json": "1fb1cbff9159c046774426895468c0ec359f642b7641af1db8336583d61c584f",
+        "verification/zip-integrity.json": "3c01f993eb6e0be2c780ef83cf51276146dd001f70c1e3f482ec69afa3a798a3",
+        "实测报告.txt": "6081708060528da5531f2ea56eef35aa70e72ad9ba4c4870db742fdfa05d0b3b",
+        "技术与权利.txt": "2478933b03754e92359976770d9f79a4323e0de5e031345df3e6b892819d935f",
+        "来源与许可.json": "f15fd9ff3513db50a1d3cfb77a6c46d6a906a1793055c0d3fb95648c0a72a989",
+        "说明.txt": "fd5bde7d62df5358db4707398bbc093a05bb6c10a541ae2e9987e84b0c091a51",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a15-paradox-chamber/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a15-paradox-chamber.zip"
+    },
     {
       "slug": "c01-pocket-tram",
       "title": "慢城电车",

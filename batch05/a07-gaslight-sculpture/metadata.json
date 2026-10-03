@@ -1,0 +1,28 @@
+{
+  "title": "气体的骨骼",
+  "group": "A",
+  "slug": "a07-gaslight-sculpture",
+  "description": "拖动白色关节弯曲玻璃管。充气后点火，切换分支工具，在管身接出新的辉光枝。",
+  "instructions": [
+    "拖动任意白色关节，把两条长管塑成不同曲线。",
+    "注入三种气体，再点火；观察亮度和管内奔流的亮点。",
+    "开启分支，在画面按下并拖出新的管枝；最多保留十二条。",
+    "闭合循环后继续弯管，构成自己的封闭辉光雕塑。",
+    "首次触碰开启原创合成音乐和操作音效；真正静音、重新构图保留静音，离开页面停止声音。"
+  ],
+  "testControls": [
+    "#art",
+    "#branch",
+    "#gas",
+    "#ignite",
+    "#loop",
+    "#mute",
+    "#reset"
+  ],
+  "referenceURLs": [
+    "https://olafureliasson.net/artwork/your-atmospheric-colour-atlas-2009/"
+  ],
+  "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+  "mainMechanism": "粗玻璃管控制点弯曲、充气、放电分支和循环；不是细丝网络切断修补",
+  "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。"
+}

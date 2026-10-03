@@ -1,0 +1,759 @@
+{
+  "passed": true,
+  "method": "Playwright Chromium真实鼠标输入持续试玩；390x844设备尺寸仿真；补充CDP真实trusted触屏pointer事件。音频使用实际WebAudio AnalyserNode输出波形RMS；隔离FX时仅在测试中延后乐曲调度并回收已有声音。非真机、未人工听音。",
+  "tests": [
+    {
+      "slug": "a08-cloud-section",
+      "device": "1440x900 desktop",
+      "durationMs": 64052,
+      "visibleControls": true,
+      "initial": {
+        "inputs": 0,
+        "resets": 0,
+        "state": {
+          "section": false,
+          "tool": "carve",
+          "compression": 1,
+          "sunPos": {
+            "x": -300,
+            "y": -330
+          },
+          "holes": [
+            {
+              "x": -80,
+              "y": -40,
+              "r": 55
+            },
+            {
+              "x": 165,
+              "y": 55,
+              "r": 38
+            }
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "layers": 28,
+          "holes": 2
+        },
+        "frames": 36,
+        "audio": {
+          "state": "not-created",
+          "unlocked": false,
+          "muted": false,
+          "paused": false,
+          "voices": 0,
+          "peakVoices": 0,
+          "nodeCount": 0,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 0,
+          "fxNotes": 0
+        }
+      },
+      "final": {
+        "inputs": 221,
+        "resets": 1,
+        "state": {
+          "section": false,
+          "tool": "carve",
+          "compression": 1,
+          "sunPos": {
+            "x": -300,
+            "y": -330
+          },
+          "holes": [
+            {
+              "x": -80,
+              "y": -40,
+              "r": 55
+            },
+            {
+              "x": 165,
+              "y": 55,
+              "r": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "r": 38
+            },
+            {
+              "x": 49,
+              "y": -31,
+              "r": 35
+            },
+            {
+              "x": 77,
+              "y": -49,
+              "r": 35
+            },
+            {
+              "x": 105,
+              "y": -67,
+              "r": 35
+            },
+            {
+              "x": 133,
+              "y": -85,
+              "r": 35
+            }
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "layers": 28,
+          "holes": 7
+        },
+        "frames": 1720,
+        "audio": {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.004520333217540579,
+          "errors": 0,
+          "musicNotes": 139,
+          "fxNotes": 39
+        }
+      },
+      "resetMuted": true,
+      "mutedRms": 0,
+      "musicNonzero": true,
+      "fxCount": 39,
+      "audioSamples": [
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 5,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.0004160913205840533,
+          "errors": 0,
+          "musicNotes": 4,
+          "fxNotes": 4
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 4,
+          "peakVoices": 5,
+          "nodeCount": 10,
+          "nodeLimit": 26,
+          "rms": 0.010224154235759432,
+          "errors": 0,
+          "musicNotes": 19,
+          "fxNotes": 8
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 5,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0008501630358639855,
+          "errors": 0,
+          "musicNotes": 33,
+          "fxNotes": 11
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.001484093253482092,
+          "errors": 0,
+          "musicNotes": 47,
+          "fxNotes": 15
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.005222125389129796,
+          "errors": 0,
+          "musicNotes": 62,
+          "fxNotes": 19
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.0038934772698952856,
+          "errors": 0,
+          "musicNotes": 77,
+          "fxNotes": 24
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.011012534332164377,
+          "errors": 0,
+          "musicNotes": 92,
+          "fxNotes": 28
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 1,
+          "peakVoices": 7,
+          "nodeCount": 4,
+          "nodeLimit": 26,
+          "rms": 5.858970022301387e-05,
+          "errors": 0,
+          "musicNotes": 105,
+          "fxNotes": 32
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 1,
+          "peakVoices": 7,
+          "nodeCount": 4,
+          "nodeLimit": 26,
+          "rms": 0.0007810622059508991,
+          "errors": 0,
+          "musicNotes": 120,
+          "fxNotes": 36
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 1,
+          "peakVoices": 7,
+          "nodeCount": 4,
+          "nodeLimit": 26,
+          "rms": 0.0030998191895983767,
+          "errors": 0,
+          "musicNotes": 125,
+          "fxNotes": 39
+        }
+      ],
+      "lifecycle": {
+        "blur": {
+          "trusted": true
+        },
+        "audio": {
+          "state": "suspended",
+          "unlocked": true,
+          "muted": false,
+          "paused": true,
+          "voices": 0,
+          "peakVoices": 7,
+          "nodeCount": 2,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 140,
+          "fxNotes": 39
+        }
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "slug": "a08-cloud-section",
+      "device": "390x844 mobile-emulation",
+      "durationMs": 66777,
+      "visibleControls": true,
+      "initial": {
+        "inputs": 0,
+        "resets": 0,
+        "state": {
+          "section": false,
+          "tool": "carve",
+          "compression": 1,
+          "sunPos": {
+            "x": -300,
+            "y": -330
+          },
+          "holes": [
+            {
+              "x": -80,
+              "y": -40,
+              "r": 55
+            },
+            {
+              "x": 165,
+              "y": 55,
+              "r": 38
+            }
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "layers": 28,
+          "holes": 2
+        },
+        "frames": 25,
+        "audio": {
+          "state": "not-created",
+          "unlocked": false,
+          "muted": false,
+          "paused": false,
+          "voices": 0,
+          "peakVoices": 0,
+          "nodeCount": 0,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 0,
+          "fxNotes": 0
+        }
+      },
+      "final": {
+        "inputs": 221,
+        "resets": 1,
+        "state": {
+          "section": false,
+          "tool": "carve",
+          "compression": 1,
+          "sunPos": {
+            "x": -300,
+            "y": -330
+          },
+          "holes": [
+            {
+              "x": -80,
+              "y": -40,
+              "r": 55
+            },
+            {
+              "x": 165,
+              "y": 55,
+              "r": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "r": 38
+            },
+            {
+              "x": 49,
+              "y": -32,
+              "r": 35
+            },
+            {
+              "x": 77,
+              "y": -49,
+              "r": 35
+            },
+            {
+              "x": 105,
+              "y": -67,
+              "r": 35
+            },
+            {
+              "x": 133,
+              "y": -85,
+              "r": 35
+            }
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "layers": 28,
+          "holes": 7
+        },
+        "frames": 1682,
+        "audio": {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.007724840690914723,
+          "errors": 0,
+          "musicNotes": 141,
+          "fxNotes": 42
+        }
+      },
+      "resetMuted": true,
+      "mutedRms": 0,
+      "musicNonzero": true,
+      "fxCount": 42,
+      "audioSamples": [
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 5,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.0003885847269122594,
+          "errors": 0,
+          "musicNotes": 4,
+          "fxNotes": 4
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 5,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.00011265146702828946,
+          "errors": 0,
+          "musicNotes": 18,
+          "fxNotes": 8
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 5,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.0033486438630805763,
+          "errors": 0,
+          "musicNotes": 33,
+          "fxNotes": 11
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.001827769461993448,
+          "errors": 0,
+          "musicNotes": 47,
+          "fxNotes": 15
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.0027187678106649566,
+          "errors": 0,
+          "musicNotes": 64,
+          "fxNotes": 20
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 3,
+          "peakVoices": 7,
+          "nodeCount": 8,
+          "nodeLimit": 26,
+          "rms": 0.014446543770164754,
+          "errors": 0,
+          "musicNotes": 82,
+          "fxNotes": 24
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.0016170612844597333,
+          "errors": 0,
+          "musicNotes": 97,
+          "fxNotes": 28
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 1,
+          "peakVoices": 7,
+          "nodeCount": 4,
+          "nodeLimit": 26,
+          "rms": 0.005151569082506434,
+          "errors": 0,
+          "musicNotes": 115,
+          "fxNotes": 34
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 1,
+          "peakVoices": 7,
+          "nodeCount": 4,
+          "nodeLimit": 26,
+          "rms": 0.0001046175854735709,
+          "errors": 0,
+          "musicNotes": 129,
+          "fxNotes": 38
+        },
+        {
+          "state": "running",
+          "unlocked": true,
+          "muted": false,
+          "paused": false,
+          "voices": 2,
+          "peakVoices": 7,
+          "nodeCount": 6,
+          "nodeLimit": 26,
+          "rms": 0.011501481907557688,
+          "errors": 0,
+          "musicNotes": 141,
+          "fxNotes": 42
+        }
+      ],
+      "lifecycle": {
+        "blur": {
+          "trusted": true
+        },
+        "audio": {
+          "state": "suspended",
+          "unlocked": true,
+          "muted": false,
+          "paused": true,
+          "voices": 0,
+          "peakVoices": 7,
+          "nodeCount": 2,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 146,
+          "fxNotes": 42
+        }
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "slug": "a08-cloud-section",
+      "method": "Chromium CDP touchscreen dispatch produces trusted touch pointer input. Web Audio AnalyserNode waveform RMS; isolated FX test holds next music note and releases existing music voices only in test. No manual listening or physical phone.",
+      "trustedTouchCount": 3,
+      "music": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 2,
+        "peakVoices": 5,
+        "nodeCount": 6,
+        "nodeLimit": 26,
+        "rms": 0.0010036616409506499,
+        "errors": 0,
+        "musicNotes": 4,
+        "fxNotes": 3
+      },
+      "fx": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 0,
+        "peakVoices": 5,
+        "nodeCount": 2,
+        "nodeLimit": 26,
+        "rms": 0,
+        "errors": 0,
+        "musicNotes": 4,
+        "fxNotes": 6
+      },
+      "fxRms": [
+        0.0006803830200835079,
+        0.00027336314032123276,
+        8.287694760925544e-05,
+        2.8714631946608524e-05,
+        1.3990864076782332e-05,
+        7.572606394795359e-06,
+        0,
+        0
+      ],
+      "muted": {
+        "state": "running",
+        "unlocked": true,
+        "muted": true,
+        "paused": false,
+        "voices": 0,
+        "peakVoices": 5,
+        "nodeCount": 2,
+        "nodeLimit": 26,
+        "rms": 0,
+        "errors": 0,
+        "musicNotes": 4,
+        "fxNotes": 6
+      },
+      "reset": {
+        "inputs": 36,
+        "resets": 1,
+        "state": {
+          "section": false,
+          "tool": "carve",
+          "compression": 1,
+          "sunPos": {
+            "x": -300,
+            "y": -330
+          },
+          "holes": [
+            {
+              "x": -80,
+              "y": -40,
+              "r": 55
+            },
+            {
+              "x": 165,
+              "y": 55,
+              "r": 38
+            }
+          ]
+        },
+        "bounded": true,
+        "counts": {
+          "layers": 28,
+          "holes": 2
+        },
+        "frames": 73,
+        "audio": {
+          "state": "running",
+          "unlocked": true,
+          "muted": true,
+          "paused": false,
+          "voices": 0,
+          "peakVoices": 5,
+          "nodeCount": 2,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 4,
+          "fxNotes": 6
+        }
+      },
+      "pagehide": {
+        "trusted": true,
+        "audio": {
+          "state": "suspended",
+          "unlocked": true,
+          "muted": false,
+          "paused": true,
+          "voices": 0,
+          "peakVoices": 5,
+          "nodeCount": 2,
+          "nodeLimit": 26,
+          "rms": 0,
+          "errors": 0,
+          "musicNotes": 6,
+          "fxNotes": 10
+        }
+      },
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "offlineSource": {
+    "slug": "a08-cloud-section",
+    "method": "Chromium offline context before file:// navigation; independent source directory with all local dependencies. ZIP extraction validation remains integrator responsibility.",
+    "snapshot": {
+      "inputs": 1,
+      "resets": 0,
+      "state": {
+        "section": false,
+        "tool": "carve",
+        "compression": 1,
+        "sunPos": {
+          "x": -300,
+          "y": -330
+        },
+        "holes": [
+          {
+            "x": -80,
+            "y": -40,
+            "r": 55
+          },
+          {
+            "x": 165,
+            "y": 55,
+            "r": 38
+          },
+          {
+            "x": -14,
+            "y": 45,
+            "r": 35
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "layers": 28,
+        "holes": 3
+      },
+      "frames": 16,
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 2,
+        "peakVoices": 3,
+        "nodeCount": 6,
+        "nodeLimit": 26,
+        "rms": 0.001300919874722466,
+        "errors": 0,
+        "musicNotes": 2,
+        "fxNotes": 1
+      }
+    },
+    "errors": [],
+    "passed": true
+  }
+}

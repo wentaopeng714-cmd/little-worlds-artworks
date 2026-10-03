@@ -1,0 +1,64 @@
+{
+  "slug": "a12-four-colour-press",
+  "offline": true,
+  "fromZIP": true,
+  "errors": [],
+  "requests": [],
+  "snapshot": {
+    "inputs": 2,
+    "resets": 1,
+    "frames": 72,
+    "state": {
+      "selected": 0,
+      "draft": 0,
+      "mode": "register",
+      "plates": [
+        {
+          "x": -9,
+          "y": 4,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 8,
+          "y": -4,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "coverage": 1,
+          "holes": 0
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "plates": 4,
+      "masks": 0,
+      "maskCap": 400,
+      "cachedSurfaces": 4
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 2,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 0
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "翻叶潮阵",
+  "group": "A",
+  "slug": "a04-flip-leaf-array",
+  "description": "刷过金属叶片让它们翻面；切换钉住保留局部。发起连锁、错相波和换面，编排双色浮雕的运动节奏。",
+  "instructions": [
+    "横刷、斜刷和慢刷叶片，观察正反面和翻叶高度变化。",
+    "启用“钉住”后点选局部叶片，让它们保留当前角度，再发起连锁。",
+    "错相波与连锁叠加，切换面色及转叶轴；松开全部后重新编排局部静止区域。"
+  ],
+  "testControls": [
+    "#pin",
+    "#cascade",
+    "#wave",
+    "#face",
+    "#axis",
+    "#clear"
+  ],
+  "parameters": {
+    "logicalScene": [
+      760,
+      700
+    ],
+    "fpsCap": 30,
+    "pixelRatioCap": 2
+  },
+  "referenceURLs": [
+    "https://www.johnedmark.com/rotating/"
+  ],
+  "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+  "mainMechanism": "实体叶片翻面与邻接传播",
+  "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+  "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+  "limits": {
+    "leaves": 255,
+    "pinnedLeaves": 255,
+    "pendingCascadePerLeaf": 1
+  },
+  "audioConfiguration": {
+    "seed": 404,
+    "tempo": 106,
+    "scale": [
+      50,
+      57,
+      60,
+      64,
+      69,
+      72
+    ],
+    "voice": "triangle",
+    "maxVoices": 12,
+    "maxNodes": 26
+  },
+  "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。"
+}

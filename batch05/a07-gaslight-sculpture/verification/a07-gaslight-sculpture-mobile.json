@@ -1,0 +1,383 @@
+{
+  "slug": "a07-gaslight-sculpture",
+  "device": "390x844 mobile-emulation",
+  "durationMs": 66002,
+  "visibleControls": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "state": {
+      "gas": 0,
+      "energy": 0.683,
+      "closed": false,
+      "branchMode": false,
+      "points": [
+        [
+          -310,
+          290
+        ],
+        [
+          -350,
+          80
+        ],
+        [
+          -245,
+          -220
+        ],
+        [
+          -95,
+          -320
+        ],
+        [
+          5,
+          -110
+        ],
+        [
+          -120,
+          40
+        ],
+        [
+          -190,
+          230
+        ],
+        [
+          10,
+          310
+        ],
+        [
+          170,
+          220
+        ],
+        [
+          60,
+          40
+        ],
+        [
+          90,
+          -210
+        ],
+        [
+          240,
+          -300
+        ],
+        [
+          355,
+          -80
+        ],
+        [
+          260,
+          130
+        ],
+        [
+          -80,
+          210
+        ],
+        [
+          90,
+          150
+        ],
+        [
+          315,
+          270
+        ],
+        [
+          390,
+          90
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "tubes": 3,
+      "points": 18,
+      "branches": 0
+    },
+    "frames": 24,
+    "audio": {
+      "state": "not-created",
+      "unlocked": false,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 0,
+      "nodeCount": 0,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 0,
+      "fxNotes": 0
+    }
+  },
+  "final": {
+    "inputs": 221,
+    "resets": 1,
+    "state": {
+      "gas": 2,
+      "energy": 0.613,
+      "closed": false,
+      "branchMode": false,
+      "points": [
+        [
+          -310,
+          290
+        ],
+        [
+          -350,
+          80
+        ],
+        [
+          -245,
+          -220
+        ],
+        [
+          -95,
+          -320
+        ],
+        [
+          5,
+          -110
+        ],
+        [
+          -120,
+          40
+        ],
+        [
+          -190,
+          230
+        ],
+        [
+          10,
+          310
+        ],
+        [
+          170,
+          220
+        ],
+        [
+          140,
+          -90
+        ],
+        [
+          90,
+          -210
+        ],
+        [
+          240,
+          -300
+        ],
+        [
+          355,
+          -80
+        ],
+        [
+          260,
+          130
+        ],
+        [
+          -80,
+          210
+        ],
+        [
+          90,
+          150
+        ],
+        [
+          315,
+          270
+        ],
+        [
+          390,
+          90
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "tubes": 3,
+      "points": 18,
+      "branches": 0
+    },
+    "frames": 1667,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.008322482992720823,
+      "errors": 0,
+      "musicNotes": 160,
+      "fxNotes": 41
+    }
+  },
+  "resetMuted": true,
+  "mutedRms": 0,
+  "musicNonzero": true,
+  "fxCount": 41,
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 6,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00010603850971057475,
+      "errors": 0,
+      "musicNotes": 4,
+      "fxNotes": 4
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 6,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00013649576305890031,
+      "errors": 0,
+      "musicNotes": 20,
+      "fxNotes": 8
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 6,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0030760545983759204,
+      "errors": 0,
+      "musicNotes": 37,
+      "fxNotes": 11
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0004533030369921914,
+      "errors": 0,
+      "musicNotes": 53,
+      "fxNotes": 15
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0026807836948913857,
+      "errors": 0,
+      "musicNotes": 73,
+      "fxNotes": 21
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0017177650828383178,
+      "errors": 0,
+      "musicNotes": 92,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 7,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0017533429997883614,
+      "errors": 0,
+      "musicNotes": 110,
+      "fxNotes": 29
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.011506798235574685,
+      "errors": 0,
+      "musicNotes": 130,
+      "fxNotes": 35
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.011108436067706316,
+      "errors": 0,
+      "musicNotes": 147,
+      "fxNotes": 38
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.002789176964210025,
+      "errors": 0,
+      "musicNotes": 154,
+      "fxNotes": 41
+    }
+  ],
+  "lifecycle": {
+    "blur": {
+      "trusted": true
+    },
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 7,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 165,
+      "fxNotes": 41
+    }
+  },
+  "errors": [],
+  "passed": true
+}

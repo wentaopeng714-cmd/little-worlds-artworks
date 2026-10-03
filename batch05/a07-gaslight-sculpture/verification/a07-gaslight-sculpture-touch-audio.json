@@ -1,0 +1,181 @@
+{
+  "slug": "a07-gaslight-sculpture",
+  "method": "Chromium CDP touchscreen dispatch produces trusted touch pointer input. Web Audio AnalyserNode waveform RMS; isolated FX test holds next music note and releases existing music voices only in test. No manual listening or physical phone.",
+  "trustedTouchCount": 3,
+  "music": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 2,
+    "peakVoices": 5,
+    "nodeCount": 6,
+    "nodeLimit": 26,
+    "rms": 0.0003670082993268358,
+    "errors": 0,
+    "musicNotes": 4,
+    "fxNotes": 3
+  },
+  "fx": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 5,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 4,
+    "fxNotes": 6
+  },
+  "fxRms": [
+    0.002141654142568033,
+    0.000993100533573208,
+    0.00034646062732176017,
+    0.0001456465321881036,
+    0.00006190605546910266,
+    0.00001860883214939701,
+    0.000012379143838828235,
+    0
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 5,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 4,
+    "fxNotes": 6
+  },
+  "reset": {
+    "inputs": 36,
+    "resets": 1,
+    "state": {
+      "gas": 0,
+      "energy": 0.699,
+      "closed": false,
+      "branchMode": false,
+      "points": [
+        [
+          -310,
+          290
+        ],
+        [
+          -350,
+          80
+        ],
+        [
+          -245,
+          -220
+        ],
+        [
+          -95,
+          -320
+        ],
+        [
+          5,
+          -110
+        ],
+        [
+          -120,
+          40
+        ],
+        [
+          -190,
+          230
+        ],
+        [
+          10,
+          310
+        ],
+        [
+          170,
+          220
+        ],
+        [
+          60,
+          40
+        ],
+        [
+          90,
+          -210
+        ],
+        [
+          240,
+          -300
+        ],
+        [
+          355,
+          -80
+        ],
+        [
+          260,
+          130
+        ],
+        [
+          -80,
+          210
+        ],
+        [
+          90,
+          150
+        ],
+        [
+          315,
+          270
+        ],
+        [
+          390,
+          90
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "tubes": 3,
+      "points": 18,
+      "branches": 0
+    },
+    "frames": 63,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 4,
+      "fxNotes": 6
+    }
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 6,
+      "fxNotes": 9
+    }
+  },
+  "errors": [],
+  "passed": true
+}

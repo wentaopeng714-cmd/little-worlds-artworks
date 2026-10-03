@@ -1,0 +1,16 @@
+{
+  "temporaryZIP": "/tmp/a12-four-colour-press.zip",
+  "sha256": "d5ece1795a79a9a9f0b1d2f295f4b2a2aae89fc7a62c182f48cf857549b8af56",
+  "entries": [
+    "index.html",
+    "art.js",
+    "p5.min.js",
+    "p5-LICENSE.txt",
+    "audio.js",
+    "base.css",
+    "metadata.json",
+    "说明.txt",
+    "来源与许可.json"
+  ],
+  "note": "临时ZIP用于离线自检；根任务统一制作最终公开ZIP"
+}

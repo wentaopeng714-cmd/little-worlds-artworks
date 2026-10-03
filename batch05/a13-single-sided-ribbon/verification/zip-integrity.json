@@ -1,0 +1,16 @@
+{
+  "temporaryZIP": "/tmp/a13-single-sided-ribbon.zip",
+  "sha256": "0d5d48ae005324b52e5ba6ae8ff70bd191225af138bf576f675f6b2ea29a03ff",
+  "entries": [
+    "index.html",
+    "art.js",
+    "p5.min.js",
+    "p5-LICENSE.txt",
+    "audio.js",
+    "base.css",
+    "metadata.json",
+    "说明.txt",
+    "来源与许可.json"
+  ],
+  "note": "临时ZIP用于离线自检；根任务统一制作最终公开ZIP"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "a05-prism-joints",
+  "offlineZip": true,
+  "networkRequests": [],
+  "errors": [],
+  "snapshot": {
+    "art": {
+      "inputs": 17,
+      "resets": 1,
+      "state": {
+        "selected": 0,
+        "yaw": 0.58,
+        "pitch": 0.18,
+        "material": 1,
+        "form": 0,
+        "joint": 0,
+        "openings": [
+          0,
+          0.2,
+          0.4,
+          0,
+          0.2,
+          0.4,
+          0
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "modules": 7,
+        "maxModules": 18,
+        "facets": 140,
+        "frames": 15,
+        "fps": 23.4
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 4
+    }
+  },
+  "manifest": {
+    "zipSha256": "b5aa8b8a6e62ea1ff3cf3f0dc8e5354e53c6303ca54038161800f8d93c0e0679",
+    "files": {
+      "index.html": "91052aa51a195009508b6463690e93c88ae7593307c45d30f09fe7459425f198",
+      "app.js": "9f66a0b0670a60fde7ff152fc203518b9b69a8df69d1a9c2ea1319bd27b8903d",
+      "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+      "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+      "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+      "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+      "metadata.json": "4b2fb9642920aba03f05c3cf130f5a2aea4d6f652b79d4e06b6ccb726efd8733",
+      "说明.txt": "29ead2d45d145a5a05bfd1b0d0d59072d481746b871dc49d3e8a6b7bd1f4fc38",
+      "来源与许可.json": "e91ab1b1264c8b5440cd3b82260d78b65854b429398961a43454418bf5f77eec"
+    }
+  },
+  "pass": true
+}

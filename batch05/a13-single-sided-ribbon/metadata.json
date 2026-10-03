@@ -1,0 +1,92 @@
+{
+  "slug": "a13-single-sided-ribbon",
+  "title": "单面虹带",
+  "group": "A",
+  "description": "一面色带，也有无数种姿态",
+  "instructions": "旋观拖动旋转雕塑；塑带拖动改变宽度与起伏。半扭循环一、三、五个半扭；分缝把带面分出三条实体色带；铺展打开雕塑成连续长带。染面切换珊瑚釉、孔雀釉与暮光釉。把塑带、分缝与半扭组合，再铺开展示。",
+  "testControls": [
+    "#orbit",
+    "#shape",
+    "#twist",
+    "#split",
+    "#unfold",
+    "#glaze"
+  ],
+  "referenceURLs": [
+    "https://www.mathcurve.com/surfaces.gb/mobius/mobius.shtml"
+  ],
+  "references": [
+    {
+      "title": "MathCurve · Möbius strip",
+      "url": "https://www.mathcurve.com/surfaces.gb/mobius/mobius.shtml",
+      "use": "已实际查看曲面、三角带与半扭图示；独立参数曲面实现，艺术铺展是形态插值而非严格可展面证明",
+      "license": "页末著作权归 Robert Ferréol 等；未复制代码或图片，仅数学与形态背景"
+    }
+  ],
+  "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+  "audio": {
+    "tempo": 70,
+    "scale": [
+      43,
+      50,
+      55,
+      58,
+      62,
+      65,
+      67
+    ],
+    "original": true
+  },
+  "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+  "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+  "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+  "mainMechanism": "单一实体宽带参数曲面的奇数半扭、分缝与形态展开；宽度/起伏塑形及3D旋观",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "durationsSeconds": [
+      75,
+      84
+    ],
+    "inputs": [
+      432,
+      576
+    ],
+    "consoleErrors": [
+      0,
+      0
+    ],
+    "bounded": true,
+    "audioMusicRMS": [
+      0.009884921711232366,
+      0.009218820168448449
+    ],
+    "audioFXRMS": [
+      0.003116311122177465,
+      0.004801232016471607
+    ],
+    "muteRMS": [
+      0,
+      0
+    ],
+    "resetPreservesMute": true,
+    "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+    "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+    "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+    "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+    "screenshots": [
+      "preview-desktop.png",
+      "preview-mobile.png",
+      "evidence/desktop-combined.png",
+      "evidence/mobile-combined.png"
+    ],
+    "reports": [
+      "evidence/desktop-test.json",
+      "evidence/mobile-test.json",
+      "evidence/offline-test.json"
+    ],
+    "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
+  }
+}

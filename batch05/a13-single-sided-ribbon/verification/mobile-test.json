@@ -1,0 +1,369 @@
+{
+  "slug": "a13-single-sided-ribbon",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "durationSeconds": 84,
+  "iteration": 31,
+  "phases": [
+    {
+      "second": 5,
+      "control": "#orbit",
+      "state": {
+        "yaw": 3.3800000536572794,
+        "pitch": 1.5,
+        "bandWidth": 90,
+        "wave": 0.3,
+        "twists": 1,
+        "split": false,
+        "open": 0,
+        "glaze": 0,
+        "mode": "orbit"
+      },
+      "bounded": true
+    },
+    {
+      "second": 13,
+      "control": "#unfold",
+      "state": {
+        "yaw": 3.3800000536572794,
+        "pitch": 1.5,
+        "bandWidth": 150,
+        "wave": 1.1,
+        "twists": 3,
+        "split": true,
+        "open": 0.4413932733919247,
+        "glaze": 0,
+        "mode": "shape"
+      },
+      "bounded": true
+    },
+    {
+      "second": 21,
+      "control": "#twist",
+      "state": {
+        "yaw": 6.260000241457763,
+        "pitch": 1.5,
+        "bandWidth": 150,
+        "wave": 1.1,
+        "twists": 5,
+        "split": true,
+        "open": 0.9969657106346735,
+        "glaze": 1,
+        "mode": "shape"
+      },
+      "bounded": true
+    },
+    {
+      "second": 29,
+      "control": "#orbit",
+      "state": {
+        "yaw": 9.140000429258246,
+        "pitch": 1.5,
+        "bandWidth": 141.0000015091111,
+        "wave": 0.7351997568074944,
+        "twists": 5,
+        "split": false,
+        "open": 0.04671032056385836,
+        "glaze": 2,
+        "mode": "orbit"
+      },
+      "bounded": true
+    },
+    {
+      "second": 37,
+      "control": "#unfold",
+      "state": {
+        "yaw": 9.140000429258246,
+        "pitch": 1.5,
+        "bandWidth": 150,
+        "wave": 1.1,
+        "twists": 1,
+        "split": true,
+        "open": 0.35000021790031693,
+        "glaze": 2,
+        "mode": "shape"
+      },
+      "bounded": true
+    },
+    {
+      "second": 45,
+      "control": "#twist",
+      "state": {
+        "yaw": 12.020000617058729,
+        "pitch": 1.5,
+        "bandWidth": 150,
+        "wave": 1.1,
+        "twists": 3,
+        "split": true,
+        "open": 0.9966436033701184,
+        "glaze": 0,
+        "mode": "shape"
+      },
+      "bounded": true
+    },
+    {
+      "second": 52,
+      "control": "#orbit",
+      "state": {
+        "yaw": 14.900000804859213,
+        "pitch": 1.5,
+        "bandWidth": 141.0000015091111,
+        "wave": 0.7351997568074944,
+        "twists": 3,
+        "split": false,
+        "open": 0.04790675957627,
+        "glaze": 1,
+        "mode": "orbit"
+      },
+      "bounded": true
+    },
+    {
+      "second": 61,
+      "control": "#unfold",
+      "state": {
+        "yaw": 14.900000804859213,
+        "pitch": 1.5,
+        "bandWidth": 150,
+        "wave": 1.1,
+        "twists": 5,
+        "split": true,
+        "open": 0.5203107134375536,
+        "glaze": 1,
+        "mode": "shape"
+      },
+      "bounded": true
+    }
+  ],
+  "combined": {
+    "inputs": 576,
+    "resets": 0,
+    "frames": 1879,
+    "state": {
+      "yaw": 17.7800009926597,
+      "pitch": 1.5,
+      "bandWidth": 141.0000015091111,
+      "wave": 0.7351997568074944,
+      "twists": 5,
+      "split": true,
+      "open": 0.9992072654424793,
+      "glaze": 2,
+      "mode": "orbit"
+    },
+    "bounded": true,
+    "counts": {
+      "surfaceQuads": 1872,
+      "cap": 2160
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 9,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.010827558181881422,
+      "errors": 0,
+      "musicNotes": 181,
+      "fxNotes": 287
+    }
+  },
+  "musicRMS": 0.009218820168448449,
+  "musicState": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 2,
+    "peakVoices": 7,
+    "nodeCount": 6,
+    "nodeLimit": 26,
+    "rms": 0.00015268309485962615,
+    "errors": 0,
+    "musicNotes": 9,
+    "fxNotes": 8
+  },
+  "fxRMS": 0.004801232016471607,
+  "fxState": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 7,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 9,
+    "fxNotes": 9
+  },
+  "muteRMS": 0,
+  "muted": {
+    "inputs": 576,
+    "resets": 0,
+    "frames": 1985,
+    "state": {
+      "yaw": 17.7800009926597,
+      "pitch": 1.5,
+      "bandWidth": 141.0000015091111,
+      "wave": 0.7351997568074944,
+      "twists": 5,
+      "split": true,
+      "open": 0.9999458476815823,
+      "glaze": 2,
+      "mode": "orbit"
+    },
+    "bounded": true,
+    "counts": {
+      "surfaceQuads": 1872,
+      "cap": 2160
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 182,
+      "fxNotes": 287
+    }
+  },
+  "reset1": {
+    "inputs": 577,
+    "resets": 1,
+    "frames": 2021,
+    "state": {
+      "yaw": -0.3,
+      "pitch": 0.8,
+      "bandWidth": 90,
+      "wave": 0.3,
+      "twists": 1,
+      "split": false,
+      "open": 0,
+      "glaze": 0,
+      "mode": "orbit"
+    },
+    "bounded": true,
+    "counts": {
+      "surfaceQuads": 2160,
+      "cap": 2160
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 182,
+      "fxNotes": 287
+    }
+  },
+  "reset2": {
+    "inputs": 578,
+    "resets": 2,
+    "frames": 2029,
+    "state": {
+      "yaw": -0.3,
+      "pitch": 0.8,
+      "bandWidth": 90,
+      "wave": 0.3,
+      "twists": 1,
+      "split": false,
+      "open": 0,
+      "glaze": 0,
+      "mode": "orbit"
+    },
+    "bounded": true,
+    "counts": {
+      "surfaceQuads": 2160,
+      "cap": 2160
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 182,
+      "fxNotes": 287
+    }
+  },
+  "resumedRMS": 0.012034773049506658,
+  "blur": {
+    "state": "suspended",
+    "unlocked": true,
+    "muted": false,
+    "paused": true,
+    "voices": 0,
+    "peakVoices": 9,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 199,
+    "fxNotes": 301
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 202,
+      "fxNotes": 310
+    }
+  },
+  "layout": {
+    "overflow": false,
+    "minButtonHeight": 44,
+    "canvas": {
+      "x": 13,
+      "y": 114,
+      "width": 364,
+      "height": 412,
+      "top": 114,
+      "right": 377,
+      "bottom": 526,
+      "left": 13
+    },
+    "mute": {
+      "x": 249.59375,
+      "y": 35,
+      "width": 61.09375,
+      "height": 48,
+      "top": 35,
+      "right": 310.6875,
+      "bottom": 83,
+      "left": 249.59375
+    }
+  },
+  "errors": [],
+  "externalRequests": [],
+  "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide."
+}

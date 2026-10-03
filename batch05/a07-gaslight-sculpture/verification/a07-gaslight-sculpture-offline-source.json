@@ -1,0 +1,111 @@
+{
+  "slug": "a07-gaslight-sculpture",
+  "method": "Chromium offline context before file:// navigation; independent source directory with all local dependencies. ZIP extraction validation remains integrator responsibility.",
+  "snapshot": {
+    "inputs": 1,
+    "resets": 0,
+    "state": {
+      "gas": 0,
+      "energy": 0.689,
+      "closed": false,
+      "branchMode": false,
+      "points": [
+        [
+          -310,
+          290
+        ],
+        [
+          -350,
+          80
+        ],
+        [
+          -245,
+          -220
+        ],
+        [
+          -95,
+          -320
+        ],
+        [
+          5,
+          -110
+        ],
+        [
+          -120,
+          40
+        ],
+        [
+          -190,
+          230
+        ],
+        [
+          10,
+          310
+        ],
+        [
+          170,
+          220
+        ],
+        [
+          60,
+          40
+        ],
+        [
+          90,
+          -210
+        ],
+        [
+          240,
+          -300
+        ],
+        [
+          355,
+          -80
+        ],
+        [
+          260,
+          130
+        ],
+        [
+          -80,
+          210
+        ],
+        [
+          90,
+          150
+        ],
+        [
+          315,
+          270
+        ],
+        [
+          390,
+          90
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "tubes": 3,
+      "points": 18,
+      "branches": 0
+    },
+    "frames": 16,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 3,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.010448085658111898,
+      "errors": 0,
+      "musicNotes": 3,
+      "fxNotes": 1
+    }
+  },
+  "errors": [],
+  "passed": true
+}

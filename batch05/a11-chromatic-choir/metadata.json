@@ -1,0 +1,92 @@
+{
+  "slug": "a11-chromatic-choir",
+  "title": "色点交响",
+  "group": "A",
+  "description": "触碰一座会呼吸的点彩雕塑",
+  "instructions": "按压：拖动把点群推向深处；聚团：拖动将色点收拢。展层把色点拆成三层舞台；归位让雕塑缓慢修复。换形切换贝壳、盘涡与冠叶三种原创曲面；旋观拖动改变角度。试试展层后聚团、再归位。",
+  "testControls": [
+    "#press",
+    "#gather",
+    "#orbit",
+    "#layers",
+    "#restore",
+    "#form"
+  ],
+  "referenceURLs": [
+    "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884"
+  ],
+  "references": [
+    {
+      "title": "Georges Seurat · A Sunday on La Grande Jatte",
+      "url": "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884",
+      "use": "已实际查看博物馆图像；学习离散色点的光色与稳定构图，没有复制人物、场景或图片",
+      "license": "参考页面与图片未打包，作品自行生成"
+    }
+  ],
+  "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+  "audio": {
+    "tempo": 66,
+    "scale": [
+      48,
+      50,
+      55,
+      57,
+      60,
+      62,
+      67
+    ],
+    "original": true
+  },
+  "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+  "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+  "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+  "mainMechanism": "保留单点形变的3200点三维投影雕塑；局部挤压/收拢、三层展开、三套曲面及视角组合",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "durationsSeconds": [
+      75,
+      83
+    ],
+    "inputs": [
+      468,
+      576
+    ],
+    "consoleErrors": [
+      0,
+      0
+    ],
+    "bounded": true,
+    "audioMusicRMS": [
+      0.012681219498981813,
+      0.0058342385997825754
+    ],
+    "audioFXRMS": [
+      0.015788733206421632,
+      0.005971598806917739
+    ],
+    "muteRMS": [
+      0,
+      0
+    ],
+    "resetPreservesMute": true,
+    "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+    "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+    "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+    "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+    "screenshots": [
+      "preview-desktop.png",
+      "preview-mobile.png",
+      "evidence/desktop-combined.png",
+      "evidence/mobile-combined.png"
+    ],
+    "reports": [
+      "evidence/desktop-test.json",
+      "evidence/mobile-test.json",
+      "evidence/offline-test.json"
+    ],
+    "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
+  }
+}

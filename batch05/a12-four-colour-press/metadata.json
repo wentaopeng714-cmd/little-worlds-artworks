@@ -1,0 +1,102 @@
+{
+  "slug": "a12-four-colour-press",
+  "title": "四色滚版",
+  "group": "A",
+  "description": "把套准、重影与留白变成画作",
+  "instructions": "选择青、红、黄、墨独立版层；套准拖动移动该层。滚版横向拖动让所选版逐步显影；擦版拖动留下纸白窗，再叠另一色。满版补回当前色；新画稿更换三套原创海报构图。套准与擦版留下的变化会保留。",
+  "testControls": [
+    "#cyan",
+    "#magenta",
+    "#yellow",
+    "#key",
+    "#register",
+    "#roll",
+    "#wipe",
+    "#full",
+    "#draft"
+  ],
+  "referenceURLs": [
+    "https://en.wikipedia.org/wiki/CMYK_color_model",
+    "https://www.metmuseum.org/art/collection/search/336482"
+  ],
+  "references": [
+    {
+      "title": "CMYK colour model",
+      "url": "https://en.wikipedia.org/wiki/CMYK_color_model",
+      "use": "已读四色减色与半色调技术说明；图片未成功加载，不声称看过该页图片",
+      "license": "仅链接技术概念，未复制代码/文本/图片"
+    },
+    {
+      "title": "After Claude Lorrain · Sunrise / Landscape with Figures",
+      "url": "https://www.metmuseum.org/art/collection/search/336482",
+      "use": "已实际查看纸本绘图；只参考纸面颗粒与细线密度，未仿制风景或复制图像",
+      "license": "页面标注 Public Domain，但本作不打包该图片"
+    }
+  ],
+  "implementation": "本地 p5.js 1.11.11 / 原创 Canvas 2D 投影与数学模型 / 原创 WebAudio",
+  "audio": {
+    "tempo": 92,
+    "scale": [
+      45,
+      52,
+      57,
+      60,
+      64,
+      67,
+      69
+    ],
+    "original": true
+  },
+  "license": "原创内容未附公开许可证；第三方 p5.js 许可单独保留",
+  "offline": "所有脚本和样式本地打包；index.html 可断网打开",
+  "historyReview": "对照 repo/batch03、repo/batch04 的标题/机制和用户历史排除清单；未沿用旧作品源代码",
+  "mainMechanism": "四个可独立拖动套准的减色版层，滚压覆盖与每层独立擦除蒙版；三套原创海报版面",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "durationsSeconds": [
+      74,
+      83
+    ],
+    "inputs": [
+      504,
+      594
+    ],
+    "consoleErrors": [
+      0,
+      0
+    ],
+    "bounded": true,
+    "audioMusicRMS": [
+      0.016372430021752107,
+      0.014471634504776325
+    ],
+    "audioFXRMS": [
+      0.012266326910567013,
+      0.00602159679291542
+    ],
+    "muteRMS": [
+      0,
+      0
+    ],
+    "resetPreservesMute": true,
+    "blur": "真实iframe按钮输入引起失焦，两设备声音suspended/voices0",
+    "pagehide": "实际导航，isTrusted=true，suspended/voices0/rms0",
+    "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide.",
+    "limits": "未真机、未人工听音；音频为post-master分析节点波形证据。操作音效单测暂时关闭音序scheduler，真实点击后采样，已恢复。",
+    "screenshots": [
+      "preview-desktop.png",
+      "preview-mobile.png",
+      "evidence/desktop-combined.png",
+      "evidence/mobile-combined.png"
+    ],
+    "reports": [
+      "evidence/desktop-test.json",
+      "evidence/mobile-test.json",
+      "evidence/offline-test.json"
+    ],
+    "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
+  }
+}

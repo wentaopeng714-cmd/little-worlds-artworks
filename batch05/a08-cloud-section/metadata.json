@@ -1,0 +1,28 @@
+{
+  "title": "云的内侧",
+  "group": "A",
+  "slug": "a08-cloud-section",
+  "description": "拖过云体挖出透光孔洞，切换剖面查看内部。移太阳改变散射，压缩云层形成新的层次。",
+  "instructions": [
+    "用挖云工具短拖或在同一处反复触碰，扩大透光孔洞。",
+    "打开剖面，露出被去掉的中间层，比较孔洞的纵向结构。",
+    "选移太阳，向左、右、上、下拖动，比较云体的暖光与冷影。",
+    "压缩三档云层，再组合剖面和孔洞，制成新的云标本。",
+    "首次触碰开启原创合成音乐和操作音效；真正静音、重新构图保留静音，离开页面停止声音。"
+  ],
+  "testControls": [
+    "#art",
+    "#carve",
+    "#section",
+    "#sun",
+    "#compress",
+    "#mute",
+    "#reset"
+  ],
+  "referenceURLs": [
+    "https://olafureliasson.net/artwork/your-atmospheric-colour-atlas-2009/"
+  ],
+  "technology": "本地p5.js + Canvas 2D绘制 + Web Audio原创生成音乐",
+  "mainMechanism": "实体层云切片、开洞、剖面、压缩及太阳散射；不是星云粒子噪声",
+  "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "a11-chromatic-choir",
+  "offline": true,
+  "fromZIP": true,
+  "errors": [],
+  "requests": [],
+  "snapshot": {
+    "inputs": 2,
+    "resets": 1,
+    "frames": 63,
+    "state": {
+      "form": 0,
+      "spread": 0,
+      "angle": 0.25,
+      "tilt": 0.1,
+      "mode": "press",
+      "deformed": 0
+    },
+    "bounded": true,
+    "counts": {
+      "dots": 3200,
+      "cap": 3200
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 3,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 1
+    }
+  }
+}

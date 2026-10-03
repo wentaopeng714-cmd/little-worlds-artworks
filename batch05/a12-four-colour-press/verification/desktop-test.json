@@ -1,0 +1,581 @@
+{
+  "slug": "a12-four-colour-press",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "durationSeconds": 74,
+  "iteration": 27,
+  "phases": [
+    {
+      "second": 11,
+      "control": "#cyan",
+      "state": {
+        "selected": 0,
+        "draft": 0,
+        "mode": "register",
+        "plates": [
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 1,
+            "holes": 0
+          },
+          {
+            "x": 8,
+            "y": -4,
+            "coverage": 1,
+            "holes": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "coverage": 1,
+            "holes": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "coverage": 1,
+            "holes": 0
+          }
+        ]
+      },
+      "bounded": true
+    },
+    {
+      "second": 22,
+      "control": "#register",
+      "state": {
+        "selected": 3,
+        "draft": 0,
+        "mode": "register",
+        "plates": [
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 1,
+            "holes": 0
+          },
+          {
+            "x": 110,
+            "y": 3.599989947150732,
+            "coverage": 1,
+            "holes": 0
+          },
+          {
+            "x": 100.00004406870482,
+            "y": 68.40001723345588,
+            "coverage": 1,
+            "holes": 0
+          },
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 1,
+            "holes": 0
+          }
+        ]
+      },
+      "bounded": true
+    },
+    {
+      "second": 30,
+      "control": "#draft",
+      "state": {
+        "selected": 3,
+        "draft": 1,
+        "mode": "wipe",
+        "plates": [
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.08,
+            "holes": 0
+          },
+          {
+            "x": 110,
+            "y": 3.599989947150732,
+            "coverage": 0.08,
+            "holes": 0
+          },
+          {
+            "x": 100.00004406870482,
+            "y": 68.40001723345588,
+            "coverage": 0.08,
+            "holes": 0
+          },
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.08,
+            "holes": 17
+          }
+        ]
+      },
+      "bounded": true
+    },
+    {
+      "second": 38,
+      "control": "#key",
+      "state": {
+        "selected": 3,
+        "draft": 1,
+        "mode": "wipe",
+        "plates": [
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 110,
+            "y": 3.599989947150732,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 100.00004406870482,
+            "y": 68.40001723345588,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.08,
+            "holes": 34
+          }
+        ]
+      },
+      "bounded": true
+    },
+    {
+      "second": 46,
+      "control": "#full",
+      "state": {
+        "selected": 3,
+        "draft": 1,
+        "mode": "wipe",
+        "plates": [
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 110,
+            "y": 3.599989947150732,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 100.00004406870482,
+            "y": 68.40001723345588,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 1,
+            "holes": 68
+          }
+        ]
+      },
+      "bounded": true
+    },
+    {
+      "second": 54,
+      "control": "#yellow",
+      "state": {
+        "selected": 2,
+        "draft": 2,
+        "mode": "wipe",
+        "plates": [
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 110,
+            "y": 3.599989947150732,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 100.00004406870482,
+            "y": 68.40001723345588,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.08,
+            "holes": 17
+          }
+        ]
+      },
+      "bounded": true
+    },
+    {
+      "second": 62,
+      "control": "#wipe",
+      "state": {
+        "selected": 3,
+        "draft": 2,
+        "mode": "wipe",
+        "plates": [
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 110,
+            "y": 3.599989947150732,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 100.00004406870482,
+            "y": 68.40001723345588,
+            "coverage": 0.08,
+            "holes": 17
+          },
+          {
+            "x": 110,
+            "y": 85,
+            "coverage": 0.5615384717081628,
+            "holes": 51
+          }
+        ]
+      },
+      "bounded": true
+    }
+  ],
+  "combined": {
+    "inputs": 504,
+    "resets": 0,
+    "frames": 1799,
+    "state": {
+      "selected": 3,
+      "draft": 0,
+      "mode": "wipe",
+      "plates": [
+        {
+          "x": 110,
+          "y": 85,
+          "coverage": 0.08,
+          "holes": 0
+        },
+        {
+          "x": 110,
+          "y": 3.599989947150732,
+          "coverage": 0.08,
+          "holes": 0
+        },
+        {
+          "x": 100.00004406870482,
+          "y": 68.40001723345588,
+          "coverage": 0.08,
+          "holes": 0
+        },
+        {
+          "x": 110,
+          "y": 85,
+          "coverage": 0.08,
+          "holes": 17
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "plates": 4,
+      "masks": 17,
+      "maskCap": 400,
+      "cachedSurfaces": 4
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 10,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0035285439871499567,
+      "errors": 0,
+      "musicNotes": 229,
+      "fxNotes": 257
+    }
+  },
+  "musicRMS": 0.016372430021752107,
+  "musicState": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 3,
+    "peakVoices": 7,
+    "nodeCount": 8,
+    "nodeLimit": 26,
+    "rms": 0.0006783830563559796,
+    "errors": 0,
+    "musicNotes": 20,
+    "fxNotes": 12
+  },
+  "fxRMS": 0.012266326910567013,
+  "fxState": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 7,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 22,
+    "fxNotes": 13
+  },
+  "muteRMS": 0,
+  "muted": {
+    "inputs": 504,
+    "resets": 0,
+    "frames": 1846,
+    "state": {
+      "selected": 3,
+      "draft": 0,
+      "mode": "wipe",
+      "plates": [
+        {
+          "x": 110,
+          "y": 85,
+          "coverage": 0.08,
+          "holes": 0
+        },
+        {
+          "x": 110,
+          "y": 3.599989947150732,
+          "coverage": 0.08,
+          "holes": 0
+        },
+        {
+          "x": 100.00004406870482,
+          "y": 68.40001723345588,
+          "coverage": 0.08,
+          "holes": 0
+        },
+        {
+          "x": 110,
+          "y": 85,
+          "coverage": 0.08,
+          "holes": 17
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "plates": 4,
+      "masks": 17,
+      "maskCap": 400,
+      "cachedSurfaces": 4
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 10,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 230,
+      "fxNotes": 257
+    }
+  },
+  "reset1": {
+    "inputs": 505,
+    "resets": 1,
+    "frames": 1857,
+    "state": {
+      "selected": 0,
+      "draft": 0,
+      "mode": "register",
+      "plates": [
+        {
+          "x": -9,
+          "y": 4,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 8,
+          "y": -4,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "coverage": 1,
+          "holes": 0
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "plates": 4,
+      "masks": 0,
+      "maskCap": 400,
+      "cachedSurfaces": 4
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 10,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 230,
+      "fxNotes": 257
+    }
+  },
+  "reset2": {
+    "inputs": 506,
+    "resets": 2,
+    "frames": 1858,
+    "state": {
+      "selected": 0,
+      "draft": 0,
+      "mode": "register",
+      "plates": [
+        {
+          "x": -9,
+          "y": 4,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 8,
+          "y": -4,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "coverage": 1,
+          "holes": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "coverage": 1,
+          "holes": 0
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "plates": 4,
+      "masks": 0,
+      "maskCap": 400,
+      "cachedSurfaces": 4
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 10,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 230,
+      "fxNotes": 257
+    }
+  },
+  "resumedRMS": 0.015310567294163597,
+  "blur": {
+    "state": "suspended",
+    "unlocked": true,
+    "muted": false,
+    "paused": true,
+    "voices": 0,
+    "peakVoices": 10,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 239,
+    "fxNotes": 266
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 10,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 244,
+      "fxNotes": 275
+    }
+  },
+  "layout": {
+    "overflow": false,
+    "minButtonHeight": 44,
+    "canvas": {
+      "x": 37,
+      "y": 149,
+      "width": 1108,
+      "height": 646,
+      "top": 149,
+      "right": 1145,
+      "bottom": 795,
+      "left": 37
+    },
+    "mute": {
+      "x": 1203.1875,
+      "y": 86,
+      "width": 94.8125,
+      "height": 44,
+      "top": 86,
+      "right": 1298,
+      "bottom": 130,
+      "left": 1203.1875
+    }
+  },
+  "errors": [],
+  "externalRequests": [],
+  "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide."
+}

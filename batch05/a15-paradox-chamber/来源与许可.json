@@ -1,0 +1,14 @@
+{
+  "references": [
+    {
+      "title": "M.C. Escher · Recognition & Success gallery",
+      "url": "https://mcescher.com/gallery/recognition-success/",
+      "use": "已实际查看官方作品画廊，学习边框、空间方向与反射的构图关系；没有复制图像、鱼鸟图样、人物或具体作品布局",
+      "license": "官方声明 All Rights Reserved；仅参考思路，未复制或打包任何图像/代码"
+    }
+  ],
+  "bundled": {
+    "p5.js": "1.11.11，见 p5-LICENSE.txt"
+  },
+  "originalContent": "本次原创视觉程序与生成音序，未擅自附公开许可；不保证独占AI版权"
+}

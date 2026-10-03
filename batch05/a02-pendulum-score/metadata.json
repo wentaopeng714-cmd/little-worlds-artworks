@@ -1,0 +1,55 @@
+{
+  "title": "双摆绘谱",
+  "group": "A",
+  "slug": "a02-pendulum-score",
+  "description": "拉动两枚摆锤放手，看耦合摆在转动纸盘上绘出长曲线。锁第二摆、转纸、换调和留新页可组合。",
+  "instructions": [
+    "先拉住左右摆锤，向不同方向释放；等纸盘积累曲线，试“推摆”补充动能。",
+    "锁第二摆后只拉第一摆，换调及换墨，比较低频宽线与较快细线的构图。",
+    "“留新页”保留最多三层底稿；停转或恢复纸盘，把新轨迹叠在旧页上。"
+  ],
+  "testControls": [
+    "#lock",
+    "#paper",
+    "#ratio",
+    "#ink",
+    "#page",
+    "#kick"
+  ],
+  "parameters": {
+    "logicalScene": [
+      760,
+      700
+    ],
+    "fpsCap": 30,
+    "pixelRatioCap": 2
+  },
+  "referenceURLs": [
+    "https://www.exploratorium.edu/snacks/coupled-resonant-pendulums"
+  ],
+  "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+  "mainMechanism": "耦合双摆与旋转记录纸",
+  "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+  "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+  "limits": {
+    "livePoints": 6000,
+    "archivedPages": 3,
+    "angularVelocity": 3
+  },
+  "audioConfiguration": {
+    "seed": 202,
+    "tempo": 64,
+    "scale": [
+      48,
+      55,
+      58,
+      62,
+      67,
+      70
+    ],
+    "voice": "sine",
+    "maxVoices": 12,
+    "maxNodes": 26
+  },
+  "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。"
+}

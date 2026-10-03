@@ -1,0 +1,49 @@
+{
+  "slug": "a15-paradox-chamber",
+  "offline": true,
+  "fromZIP": true,
+  "errors": [],
+  "requests": [],
+  "snapshot": {
+    "inputs": 2,
+    "resets": 1,
+    "frames": 56,
+    "state": {
+      "vanish": [
+        500,
+        260
+      ],
+      "hang": [
+        520,
+        345
+      ],
+      "wall": false,
+      "fold": 0,
+      "foldTo": 0,
+      "objects": 0,
+      "lamp": 0,
+      "mode": "perspective"
+    },
+    "bounded": true,
+    "counts": {
+      "floorTiles": 100,
+      "spaces": 1,
+      "objects": 3,
+      "cap": 105
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 2,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 0
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "references": [
+    {
+      "title": "CMYK colour model",
+      "url": "https://en.wikipedia.org/wiki/CMYK_color_model",
+      "use": "已读四色减色与半色调技术说明；图片未成功加载，不声称看过该页图片",
+      "license": "仅链接技术概念，未复制代码/文本/图片"
+    },
+    {
+      "title": "After Claude Lorrain · Sunrise / Landscape with Figures",
+      "url": "https://www.metmuseum.org/art/collection/search/336482",
+      "use": "已实际查看纸本绘图；只参考纸面颗粒与细线密度，未仿制风景或复制图像",
+      "license": "页面标注 Public Domain，但本作不打包该图片"
+    }
+  ],
+  "bundled": {
+    "p5.js": "1.11.11，见 p5-LICENSE.txt"
+  },
+  "originalContent": "本次原创视觉程序与生成音序，未擅自附公开许可；不保证独占AI版权"
+}

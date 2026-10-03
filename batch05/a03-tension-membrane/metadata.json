@@ -1,0 +1,59 @@
+{
+  "title": "张力虹膜",
+  "group": "A",
+  "slug": "a03-tension-membrane",
+  "description": "敲击薄膜激起彩色浮雕；切换拉钉拖动金色固定钉，改变张力。叠入驻波、按压和缓冲，雕刻弹性光面。",
+  "instructions": [
+    "在薄膜不同位置敲击，让波峰和波谷交叉；切“按压”再沿膜拖动。",
+    "启用“拉钉”，上下拉动金钉升降、左右拖动改变固定点；观察张力山脊。",
+    "换驻波模态并叠入2–4层波，再切缓冲和转光，比较快速脉动与柔和起伏。"
+  ],
+  "testControls": [
+    "#pin",
+    "#mode",
+    "#layer",
+    "#press",
+    "#damp",
+    "#light"
+  ],
+  "parameters": {
+    "logicalScene": [
+      760,
+      700
+    ],
+    "fpsCap": 30,
+    "pixelRatioCap": 2
+  },
+  "referenceURLs": [
+    "https://amhistory.si.edu/science/chladni.htm"
+  ],
+  "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+  "mainMechanism": "弹性节点网格与可移动固定钉",
+  "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+  "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+  "limits": {
+    "nodes": 676,
+    "triangles": 1250,
+    "pins": 4,
+    "zRange": [
+      -110,
+      140
+    ]
+  },
+  "audioConfiguration": {
+    "seed": 303,
+    "tempo": 92,
+    "scale": [
+      43,
+      50,
+      53,
+      57,
+      62,
+      65
+    ],
+    "voice": "sine",
+    "maxVoices": 12,
+    "maxNodes": 26
+  },
+  "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。"
+}

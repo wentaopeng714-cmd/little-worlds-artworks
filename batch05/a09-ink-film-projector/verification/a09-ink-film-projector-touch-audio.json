@@ -1,0 +1,133 @@
+{
+  "slug": "a09-ink-film-projector",
+  "method": "Chromium CDP touchscreen dispatch produces trusted touch pointer input. Web Audio AnalyserNode waveform RMS; isolated FX test holds next music note and releases existing music voices only in test. No manual listening or physical phone.",
+  "trustedTouchCount": 3,
+  "music": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 3,
+    "peakVoices": 5,
+    "nodeCount": 8,
+    "nodeLimit": 26,
+    "rms": 0.0007335681747268131,
+    "errors": 0,
+    "musicNotes": 5,
+    "fxNotes": 3
+  },
+  "fx": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 5,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 5,
+    "fxNotes": 6
+  },
+  "fxRms": [
+    0.001889196661423069,
+    0.0007726603395125354,
+    0.00030751402169585545,
+    0.00012087503454186775,
+    0.00005340117515255975,
+    0.0000212397197877315,
+    0.000013827509625985851,
+    0
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 5,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 5,
+    "fxNotes": 6
+  },
+  "reset": {
+    "inputs": 36,
+    "resets": 1,
+    "state": {
+      "sel": 0,
+      "drop": false,
+      "lightMode": false,
+      "expanded": false,
+      "lamp": {
+        "x": -350,
+        "y": -280
+      },
+      "films": [
+        {
+          "x": -55,
+          "y": -35,
+          "a": -0.18,
+          "flip": 1,
+          "ink": 2
+        },
+        {
+          "x": 65,
+          "y": 20,
+          "a": 0.17,
+          "flip": 1,
+          "ink": 2
+        },
+        {
+          "x": 10,
+          "y": 55,
+          "a": -0.03,
+          "flip": 1,
+          "ink": 2
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "films": 3,
+      "drops": 6
+    },
+    "frames": 70,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 5,
+      "fxNotes": 6
+    }
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 10
+    }
+  },
+  "errors": [],
+  "passed": true
+}

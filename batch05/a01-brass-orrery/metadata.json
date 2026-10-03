@@ -1,0 +1,55 @@
+{
+  "title": "黄铜星仪",
+  "group": "A",
+  "slug": "a01-brass-orrery",
+  "description": "拖动齿轮让齿缘啮合，点选驱动轮。搭配逆转、星盘和离合，编排一台会呼吸的天文机械。",
+  "instructions": [
+    "先拉开一枚蓝绿齿轮，再把它拖回相邻齿缘，观察联动轮数和转向。",
+    "启用“点选驱动”，点另一枚齿轮，再逆转、脱开离合和恢复；同一布局可换不同传动节奏。",
+    "加齿轮并重排构架，组合星盘的运行/停驻，尝试紧凑与舒展的机械构图。"
+  ],
+  "testControls": [
+    "#drive",
+    "#reverse",
+    "#clutch",
+    "#orbit",
+    "#add",
+    "#layout"
+  ],
+  "parameters": {
+    "logicalScene": [
+      760,
+      700
+    ],
+    "fpsCap": 30,
+    "pixelRatioCap": 2
+  },
+  "referenceURLs": [
+    "https://www.arthurganson.com/thumbnails",
+    "https://www.johnedmark.com/rotating/"
+  ],
+  "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+  "mainMechanism": "齿轮啮合树与齿数比传动",
+  "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+  "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+  "limits": {
+    "gears": 10,
+    "meshLinks": "邻接树传播，visited集合避免环路重复"
+  },
+  "audioConfiguration": {
+    "seed": 101,
+    "tempo": 78,
+    "scale": [
+      45,
+      52,
+      57,
+      60,
+      64,
+      69
+    ],
+    "voice": "triangle",
+    "maxVoices": 12,
+    "maxNodes": 26
+  },
+  "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。"
+}

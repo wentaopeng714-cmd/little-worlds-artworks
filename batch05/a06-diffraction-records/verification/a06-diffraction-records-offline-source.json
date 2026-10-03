@@ -1,0 +1,41 @@
+{
+  "slug": "a06-diffraction-records",
+  "method": "Chromium offline context before file:// navigation; independent source directory with all local dependencies. ZIP extraction validation remains integrator responsibility.",
+  "snapshot": {
+    "inputs": 1,
+    "resets": 0,
+    "state": {
+      "phases": [
+        0.259,
+        -0.646
+      ],
+      "etch": false,
+      "scanning": true,
+      "locked": false,
+      "dir": 1
+    },
+    "bounded": true,
+    "counts": {
+      "discs": 2,
+      "grooves": 154,
+      "marks": 0
+    },
+    "frames": 19,
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 3,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0025416525877919854,
+      "errors": 0,
+      "musicNotes": 3,
+      "fxNotes": 1
+    }
+  },
+  "errors": [],
+  "passed": true
+}

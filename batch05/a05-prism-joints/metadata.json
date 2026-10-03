@@ -1,0 +1,56 @@
+{
+  "title": "棱镜关节",
+  "group": "A",
+  "slug": "a05-prism-joints",
+  "description": "拖动空白旋转雕塑，点选多面体后展开关节、加接或折回。构架、材质与关节方向组合成不断变化的立体陈列。",
+  "instructions": [
+    "拖动空白旋转视角，点选一枚晶体后展开、折回关节，观察实体轴套与折射面光。",
+    "在选定晶体上加接新模块，再改变关节方向，组成左右伸展或升塔构架。",
+    "切换构架和材质；镜头会跟随整体投影边界调整构图，反复选择各关节可形成多种陈列。"
+  ],
+  "testControls": [
+    "#unfold",
+    "#fold",
+    "#add",
+    "#joint",
+    "#form",
+    "#material"
+  ],
+  "parameters": {
+    "logicalScene": [
+      760,
+      700
+    ],
+    "fpsCap": 30,
+    "pixelRatioCap": 2
+  },
+  "referenceURLs": [
+    "https://www.johnedmark.com/space-packings/"
+  ],
+  "technology": "p5.js 1.11.11 / Canvas 2D，原创程序绘制与Web Audio合成",
+  "mainMechanism": "模块多面体装配与关节展开",
+  "licenseScope": "参考网页仅作为机制和构图灵感，未复制照片、角色、音轨、源代码或商标。p5.js 库依 LGPL-2.1 许可，附原许可与官方来源；作品未另授公开原创许可。",
+  "audio": "原创生成音乐与操作音效；首手势解锁、静音控制总线、reset保持静音、blur/pagehide停止",
+  "limits": {
+    "modules": 18,
+    "facets": 360,
+    "camera": "按照旋转投影后的晶体边界，自动构图至555×500逻辑范围"
+  },
+  "audioConfiguration": {
+    "seed": 505,
+    "tempo": 84,
+    "scale": [
+      46,
+      53,
+      58,
+      60,
+      65,
+      70
+    ],
+    "voice": "triangle",
+    "maxVoices": 12,
+    "maxNodes": 26
+  },
+  "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
+  "visualStyle": "六边环晶体20面切割，逐面渐变反光、细纹、折射高光；实体黄铜轴套和螺钉关节"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "a02-pendulum-score",
+  "offlineZip": true,
+  "networkRequests": [],
+  "errors": [],
+  "snapshot": {
+    "art": {
+      "inputs": 17,
+      "resets": 1,
+      "state": {
+        "a1": 0.9,
+        "a2": -1.2,
+        "locked": false,
+        "paper": true,
+        "ratio": 0,
+        "ink": 0,
+        "angle": 0,
+        "points": 4800,
+        "pages": 0
+      },
+      "bounded": true,
+      "counts": {
+        "points": 4800,
+        "pages": 0,
+        "maxPoints": 6000,
+        "maxPages": 3,
+        "frames": 17,
+        "fps": 22.1
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 4
+    }
+  },
+  "manifest": {
+    "zipSha256": "1e71c4075e3a616462e73e2e6c08787656cc6697154ed6b1ef8b1f6bca20358a",
+    "files": {
+      "index.html": "4fe07eab3d9adf49c56ec38a7cb8780caa62118e1fc4c4834114d704b0422161",
+      "app.js": "46ffefc0276a5b284ad9759c36e0391cef9d86f7ec71c9cdfc061d21ddb547b9",
+      "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+      "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+      "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+      "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+      "metadata.json": "1eb4757dfd6e849d7d108a022f8b026adffb835e0fa290289731fc12b8e1ef7c",
+      "说明.txt": "834c60dcf271426faefb76876d46f7aabe3e4820661a466af2ce51e06d02f517",
+      "来源与许可.json": "89c61868b7a062e4c38950b87be0dd9568dc0de31100d08ca2e266fcec41c786"
+    }
+  },
+  "pass": true
+}

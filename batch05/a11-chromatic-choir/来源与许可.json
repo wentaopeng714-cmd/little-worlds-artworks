@@ -1,0 +1,14 @@
+{
+  "references": [
+    {
+      "title": "Georges Seurat · A Sunday on La Grande Jatte",
+      "url": "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884",
+      "use": "已实际查看博物馆图像；学习离散色点的光色与稳定构图，没有复制人物、场景或图片",
+      "license": "参考页面与图片未打包，作品自行生成"
+    }
+  ],
+  "bundled": {
+    "p5.js": "1.11.11，见 p5-LICENSE.txt"
+  },
+  "originalContent": "本次原创视觉程序与生成音序，未擅自附公开许可；不保证独占AI版权"
+}

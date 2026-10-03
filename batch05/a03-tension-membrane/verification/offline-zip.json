@@ -1,0 +1,80 @@
+{
+  "slug": "a03-tension-membrane",
+  "offlineZip": true,
+  "networkRequests": [],
+  "errors": [],
+  "snapshot": {
+    "art": {
+      "inputs": 17,
+      "resets": 1,
+      "state": {
+        "mode": 0,
+        "layers": 2,
+        "pinMode": false,
+        "press": false,
+        "damping": 0.98,
+        "pins": [
+          {
+            "x": 4,
+            "y": 4,
+            "z": 42
+          },
+          {
+            "x": 21,
+            "y": 5,
+            "z": 23
+          },
+          {
+            "x": 6,
+            "y": 21,
+            "z": -24
+          },
+          {
+            "x": 21,
+            "y": 20,
+            "z": 46
+          }
+        ],
+        "displacement": 3359.664906845568
+      },
+      "bounded": true,
+      "counts": {
+        "nodes": 676,
+        "pins": 4,
+        "triangles": 1250,
+        "maxPins": 4,
+        "frames": 17,
+        "fps": 23.4
+      }
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 2,
+      "fxNotes": 4
+    }
+  },
+  "manifest": {
+    "zipSha256": "316b40aa78a3201227fda7bfaf3ea4604f3e86603974527d97981958dc9f7f32",
+    "files": {
+      "index.html": "b5a033f0feec10146bf4a039925e1050e0e5830066b56a2c0c6a1867b28be2ae",
+      "app.js": "b88b8199f48567d42f533676e21d9f759ed6f8e649d321df7f85b09b8875118e",
+      "style.css": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+      "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+      "p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+      "p5-LICENSE.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+      "metadata.json": "310c88c4aa2506ffa74ca76503407466b38a4eaa938029179c15ea074f2bc24e",
+      "说明.txt": "9fcf0aa3f0522c224cad7d4a386e6ebf2aaccd3aae320dd4d0a31a24838efae7",
+      "来源与许可.json": "8c1cdba4d658d1f5fb19c4002ed83fe927a22257814fece387ab21aa965ab4e3"
+    }
+  },
+  "pass": true
+}

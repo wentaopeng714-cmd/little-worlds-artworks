@@ -1,0 +1,222 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "initial": {
+      "inputs": 0,
+      "resets": 0,
+      "frames": 12,
+      "state": {
+        "rotation": 0.25,
+        "calc": 0,
+        "calcTo": 0,
+        "enamel": 0,
+        "current": 1,
+        "mode": "rotate",
+        "picked": -1,
+        "branches": 189
+      },
+      "bounded": true,
+      "counts": {
+        "branches": 189,
+        "branchCap": 210
+      },
+      "audio": {
+        "state": "not-created",
+        "unlocked": false,
+        "muted": false,
+        "paused": false,
+        "voices": 0,
+        "peakVoices": 0,
+        "nodeCount": 0,
+        "nodeLimit": 26,
+        "rms": 0,
+        "errors": 0,
+        "musicNotes": 0,
+        "fxNotes": 0
+      }
+    },
+    "combined": {
+      "inputs": 70,
+      "resets": 0,
+      "frames": 76,
+      "state": {
+        "rotation": 1.5499998016908292,
+        "calc": 0.25538319151447825,
+        "calcTo": 1,
+        "enamel": 1,
+        "current": 1,
+        "mode": "rotate",
+        "picked": 134,
+        "branches": 178
+      },
+      "bounded": true,
+      "counts": {
+        "branches": 178,
+        "branchCap": 210
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 3,
+        "peakVoices": 10,
+        "nodeCount": 8,
+        "nodeLimit": 26,
+        "rms": 0.0055321570845143575,
+        "errors": 0,
+        "musicNotes": 8,
+        "fxNotes": 17
+      }
+    },
+    "reset": {
+      "inputs": 71,
+      "resets": 1,
+      "frames": 80,
+      "state": {
+        "rotation": 0.25,
+        "calc": 0,
+        "calcTo": 0,
+        "enamel": 0,
+        "current": 1,
+        "mode": "rotate",
+        "picked": -1,
+        "branches": 189
+      },
+      "bounded": true,
+      "counts": {
+        "branches": 189,
+        "branchCap": 210
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": true,
+        "paused": false,
+        "voices": 0,
+        "peakVoices": 10,
+        "nodeCount": 2,
+        "nodeLimit": 26,
+        "rms": 0,
+        "errors": 0,
+        "musicNotes": 8,
+        "fxNotes": 17
+      }
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "initial": {
+      "inputs": 0,
+      "resets": 0,
+      "frames": 10,
+      "state": {
+        "rotation": 0.25,
+        "calc": 0,
+        "calcTo": 0,
+        "enamel": 0,
+        "current": 1,
+        "mode": "rotate",
+        "picked": -1,
+        "branches": 189
+      },
+      "bounded": true,
+      "counts": {
+        "branches": 189,
+        "branchCap": 210
+      },
+      "audio": {
+        "state": "not-created",
+        "unlocked": false,
+        "muted": false,
+        "paused": false,
+        "voices": 0,
+        "peakVoices": 0,
+        "nodeCount": 0,
+        "nodeLimit": 26,
+        "rms": 0,
+        "errors": 0,
+        "musicNotes": 0,
+        "fxNotes": 0
+      }
+    },
+    "combined": {
+      "inputs": 70,
+      "resets": 0,
+      "frames": 72,
+      "state": {
+        "rotation": 1.5499997820172995,
+        "calc": 0.25088852265038053,
+        "calcTo": 1,
+        "enamel": 1,
+        "current": 1,
+        "mode": "rotate",
+        "picked": 134,
+        "branches": 178
+      },
+      "bounded": true,
+      "counts": {
+        "branches": 178,
+        "branchCap": 210
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": false,
+        "paused": false,
+        "voices": 3,
+        "peakVoices": 9,
+        "nodeCount": 8,
+        "nodeLimit": 26,
+        "rms": 0.008233223584201125,
+        "errors": 0,
+        "musicNotes": 8,
+        "fxNotes": 16
+      }
+    },
+    "reset": {
+      "inputs": 71,
+      "resets": 1,
+      "frames": 76,
+      "state": {
+        "rotation": 0.25,
+        "calc": 0,
+        "calcTo": 0,
+        "enamel": 0,
+        "current": 1,
+        "mode": "rotate",
+        "picked": -1,
+        "branches": 189
+      },
+      "bounded": true,
+      "counts": {
+        "branches": 189,
+        "branchCap": 210
+      },
+      "audio": {
+        "state": "running",
+        "unlocked": true,
+        "muted": true,
+        "paused": false,
+        "voices": 0,
+        "peakVoices": 9,
+        "nodeCount": 2,
+        "nodeLimit": 26,
+        "rms": 0,
+        "errors": 0,
+        "musicNotes": 8,
+        "fxNotes": 16
+      }
+    },
+    "errors": [],
+    "pass": true
+  }
+]

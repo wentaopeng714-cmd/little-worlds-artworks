@@ -1,0 +1,333 @@
+{
+  "slug": "a11-chromatic-choir",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "durationSeconds": 83,
+  "iteration": 31,
+  "phases": [
+    {
+      "second": 5,
+      "control": "#press",
+      "state": {
+        "form": 0,
+        "spread": 0,
+        "angle": 0.25,
+        "tilt": 0.1,
+        "mode": "press",
+        "deformed": 2457
+      },
+      "bounded": true
+    },
+    {
+      "second": 13,
+      "control": "#restore",
+      "state": {
+        "form": 0,
+        "spread": 0.45062902121952353,
+        "angle": 5.380000271639983,
+        "tilt": 0.8,
+        "mode": "orbit",
+        "deformed": 2429
+      },
+      "bounded": true
+    },
+    {
+      "second": 21,
+      "control": "#orbit",
+      "state": {
+        "form": 1,
+        "spread": 0.002574902328852735,
+        "angle": 6.100000528188858,
+        "tilt": 0.8,
+        "mode": "orbit",
+        "deformed": 2566
+      },
+      "bounded": true
+    },
+    {
+      "second": 28,
+      "control": "#press",
+      "state": {
+        "form": 2,
+        "spread": 0.03750583104543893,
+        "angle": 10.150000603644406,
+        "tilt": 0.5567998378716628,
+        "mode": "press",
+        "deformed": 2324
+      },
+      "bounded": true
+    },
+    {
+      "second": 36,
+      "control": "#restore",
+      "state": {
+        "form": 2,
+        "spread": 0.46709950931776845,
+        "angle": 15.28000087528439,
+        "tilt": 0.8,
+        "mode": "orbit",
+        "deformed": 2372
+      },
+      "bounded": true
+    },
+    {
+      "second": 44,
+      "control": "#orbit",
+      "state": {
+        "form": 0,
+        "spread": 0.0025372323786329418,
+        "angle": 16.000001131833265,
+        "tilt": 0.8,
+        "mode": "orbit",
+        "deformed": 2451
+      },
+      "bounded": true
+    },
+    {
+      "second": 51,
+      "control": "#press",
+      "state": {
+        "form": 1,
+        "spread": 0.03758061172064174,
+        "angle": 20.05000120728882,
+        "tilt": 0.5567998378716628,
+        "mode": "press",
+        "deformed": 2598
+      },
+      "bounded": true
+    },
+    {
+      "second": 59,
+      "control": "#restore",
+      "state": {
+        "form": 1,
+        "spread": 0.43293097955573245,
+        "angle": 25.18000147892881,
+        "tilt": 0.8,
+        "mode": "orbit",
+        "deformed": 2612
+      },
+      "bounded": true
+    }
+  ],
+  "combined": {
+    "inputs": 576,
+    "resets": 0,
+    "frames": 1802,
+    "state": {
+      "form": 2,
+      "spread": 0.00196970781418863,
+      "angle": 25.000001509111023,
+      "tilt": 0.5567998378716628,
+      "mode": "press",
+      "deformed": 2176
+    },
+    "bounded": true,
+    "counts": {
+      "dots": 3200,
+      "cap": 3200
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 9,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0009451686405090485,
+      "errors": 0,
+      "musicNotes": 187,
+      "fxNotes": 280
+    }
+  },
+  "musicRMS": 0.0058342385997825754,
+  "musicState": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 2,
+    "peakVoices": 8,
+    "nodeCount": 6,
+    "nodeLimit": 26,
+    "rms": 0.0005669574301045106,
+    "errors": 0,
+    "musicNotes": 9,
+    "fxNotes": 9
+  },
+  "fxRMS": 0.005971598806917739,
+  "fxState": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 8,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 9,
+    "fxNotes": 10
+  },
+  "muteRMS": 0,
+  "muted": {
+    "inputs": 576,
+    "resets": 0,
+    "frames": 1888,
+    "state": {
+      "form": 2,
+      "spread": 0.000223253747652317,
+      "angle": 25.000001509111023,
+      "tilt": 0.5567998378716628,
+      "mode": "press",
+      "deformed": 2176
+    },
+    "bounded": true,
+    "counts": {
+      "dots": 3200,
+      "cap": 3200
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 189,
+      "fxNotes": 280
+    }
+  },
+  "reset1": {
+    "inputs": 577,
+    "resets": 1,
+    "frames": 1910,
+    "state": {
+      "form": 0,
+      "spread": 0,
+      "angle": 0.25,
+      "tilt": 0.1,
+      "mode": "press",
+      "deformed": 0
+    },
+    "bounded": true,
+    "counts": {
+      "dots": 3200,
+      "cap": 3200
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 189,
+      "fxNotes": 280
+    }
+  },
+  "reset2": {
+    "inputs": 578,
+    "resets": 2,
+    "frames": 1919,
+    "state": {
+      "form": 0,
+      "spread": 0,
+      "angle": 0.25,
+      "tilt": 0.1,
+      "mode": "press",
+      "deformed": 0
+    },
+    "bounded": true,
+    "counts": {
+      "dots": 3200,
+      "cap": 3200
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 189,
+      "fxNotes": 280
+    }
+  },
+  "resumedRMS": 0.008514527345088676,
+  "blur": {
+    "state": "suspended",
+    "unlocked": true,
+    "muted": false,
+    "paused": true,
+    "voices": 0,
+    "peakVoices": 9,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 216,
+    "fxNotes": 297
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 9,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 221,
+      "fxNotes": 309
+    }
+  },
+  "layout": {
+    "overflow": false,
+    "minButtonHeight": 44,
+    "canvas": {
+      "x": 13,
+      "y": 114,
+      "width": 364,
+      "height": 412,
+      "top": 114,
+      "right": 377,
+      "bottom": 526,
+      "left": 13
+    },
+    "mute": {
+      "x": 249.21875,
+      "y": 35,
+      "width": 61.265625,
+      "height": 48,
+      "top": 35,
+      "right": 310.484375,
+      "bottom": 83,
+      "left": 249.21875
+    }
+  },
+  "errors": [],
+  "externalRequests": [],
+  "method": "Chromium headless real mouse / CDP touch events; not physical phone or human listening. Music waveform measured post-master after operation voice decay. FX-only waveform temporarily disables sequence scheduler then uses real control input; production sequence restored. Trusted iframe click blur and real navigation pagehide."
+}

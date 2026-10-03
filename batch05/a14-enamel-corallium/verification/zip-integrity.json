@@ -1,0 +1,16 @@
+{
+  "temporaryZIP": "/tmp/a14-enamel-corallium.zip",
+  "sha256": "b85bdf46bec570f515a7600adc909fc093342f8a26545156591ee343c8b0c49c",
+  "entries": [
+    "index.html",
+    "art.js",
+    "p5.min.js",
+    "p5-LICENSE.txt",
+    "audio.js",
+    "base.css",
+    "metadata.json",
+    "说明.txt",
+    "来源与许可.json"
+  ],
+  "note": "临时ZIP用于离线自检；根任务统一制作最终公开ZIP"
+}

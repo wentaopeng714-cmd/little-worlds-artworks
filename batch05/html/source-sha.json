@@ -1,0 +1,1770 @@
+{
+  "format": "true single-file HTML",
+  "works": [
+    {
+      "slug": "a01-brass-orrery",
+      "group": "A",
+      "html": "repo/batch05/html/a01-brass-orrery.html",
+      "htmlSha256": "74b818a13f8896b2ab872d2b30c42cb029a9ba4be91c59230268e2dabab4fc83",
+      "bytes": 1097334,
+      "originalIndexSha256": "2da5f84c36f45e4b64712e05826155ff164a828edf9cde7538b582ee28bd0bc1",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "expandedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "4ac1c61f7e2b2ec449a884e0b65fdad13352cc087d8dda7584dd380f3968bf93",
+          "embeddedSha256": "4ac1c61f7e2b2ec449a884e0b65fdad13352cc087d8dda7584dd380f3968bf93",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a02-pendulum-score",
+      "group": "A",
+      "html": "repo/batch05/html/a02-pendulum-score.html",
+      "htmlSha256": "9e9c4b9437546d2c84529c80039a25a7bf66345e247ce7d0f05816a679aec536",
+      "bytes": 1096299,
+      "originalIndexSha256": "4fe07eab3d9adf49c56ec38a7cb8780caa62118e1fc4c4834114d704b0422161",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "expandedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "46ffefc0276a5b284ad9759c36e0391cef9d86f7ec71c9cdfc061d21ddb547b9",
+          "embeddedSha256": "46ffefc0276a5b284ad9759c36e0391cef9d86f7ec71c9cdfc061d21ddb547b9",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a03-tension-membrane",
+      "group": "A",
+      "html": "repo/batch05/html/a03-tension-membrane.html",
+      "htmlSha256": "88e849a982fe1de7b157407ef89ccca101a5eee4cd4eeccb5ac740ba0c045f07",
+      "bytes": 1096315,
+      "originalIndexSha256": "b5a033f0feec10146bf4a039925e1050e0e5830066b56a2c0c6a1867b28be2ae",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "expandedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "b88b8199f48567d42f533676e21d9f759ed6f8e649d321df7f85b09b8875118e",
+          "embeddedSha256": "b88b8199f48567d42f533676e21d9f759ed6f8e649d321df7f85b09b8875118e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a04-flip-leaf-array",
+      "group": "A",
+      "html": "repo/batch05/html/a04-flip-leaf-array.html",
+      "htmlSha256": "7eac8fb6b3217bf943e3fac27481a002bf38ff6f54bdfcd3301d9346213f47e2",
+      "bytes": 1095640,
+      "originalIndexSha256": "758ef0dc969a28fac7451d2bdafb200405715143db04131dd8169eb4d7c47284",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "expandedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "ba5a27babb8878598b4ced1f6644439d9826c5d6bd97761ed7c275e16cbc8825",
+          "embeddedSha256": "ba5a27babb8878598b4ced1f6644439d9826c5d6bd97761ed7c275e16cbc8825",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a05-prism-joints",
+      "group": "A",
+      "html": "repo/batch05/html/a05-prism-joints.html",
+      "htmlSha256": "57a51ee26cc42d1dc42dbf78d420fdf6b95044a21a458d636669040f75214373",
+      "bytes": 1099653,
+      "originalIndexSha256": "91052aa51a195009508b6463690e93c88ae7593307c45d30f09fe7459425f198",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "expandedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "596bcb0cf3cb10fdb2cfb2b13efe593de4c817c8f54c8b1c04b88e4362292148",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "9f66a0b0670a60fde7ff152fc203518b9b69a8df69d1a9c2ea1319bd27b8903d",
+          "embeddedSha256": "9f66a0b0670a60fde7ff152fc203518b9b69a8df69d1a9c2ea1319bd27b8903d",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a06-diffraction-records",
+      "group": "A",
+      "html": "repo/batch05/html/a06-diffraction-records.html",
+      "htmlSha256": "c3c6fd4940ad261ae852d0537b687c7bbe423f210f1041074c62a18e5bac6a5c",
+      "bytes": 1096155,
+      "originalIndexSha256": "7a57735942f848466a82a75a0a0a9fe69ec0d29bb93cc711e2f0db8df92a6beb",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "expandedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "84489a607cc1a72bc47e369505f7802bfb4b6857f9771f4c4348659223ef5775",
+          "embeddedSha256": "84489a607cc1a72bc47e369505f7802bfb4b6857f9771f4c4348659223ef5775",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "8dc88245eafa9518f3878bcb85233fab557cb7b41be2f4b6b1d69cfb3bdfd7fd",
+          "embeddedSha256": "8dc88245eafa9518f3878bcb85233fab557cb7b41be2f4b6b1d69cfb3bdfd7fd",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a07-gaslight-sculpture",
+      "group": "A",
+      "html": "repo/batch05/html/a07-gaslight-sculpture.html",
+      "htmlSha256": "0507347b997533c0f47cfe8d220194a590ef722cceabb5d8fda5b1e97e14a50a",
+      "bytes": 1096118,
+      "originalIndexSha256": "3e5649c64d783d6522c1cffd1fd83cde2b73382367cf7d0e7ac807f0f4b7f847",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "expandedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "2cdcfb9cde475b36ccbaa3f73f0e7c76d58a3a75afcb3ba2dad5d12657b7a82a",
+          "embeddedSha256": "2cdcfb9cde475b36ccbaa3f73f0e7c76d58a3a75afcb3ba2dad5d12657b7a82a",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "9917cf89db5ec157e37d4a40cacc0c6b83a3fd5523f669584370a768f4eec2f7",
+          "embeddedSha256": "9917cf89db5ec157e37d4a40cacc0c6b83a3fd5523f669584370a768f4eec2f7",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a08-cloud-section",
+      "group": "A",
+      "html": "repo/batch05/html/a08-cloud-section.html",
+      "htmlSha256": "711f30a49a517783f54c11169a6992a71ad9221b421a52c691880a650cb20f38",
+      "bytes": 1095956,
+      "originalIndexSha256": "2eae26f06bf3b6382697d34070acf7980fc63a62215a0264822f20d18b81dbad",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "expandedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "7f8977ce5467a78595af203b5f3fa577b289a659cc130a4d3537d21669a20744",
+          "embeddedSha256": "7f8977ce5467a78595af203b5f3fa577b289a659cc130a4d3537d21669a20744",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "c89e89450bafc5b8517b7d3e72a23cd52a796379c460aec1a36c0f7b404614d5",
+          "embeddedSha256": "c89e89450bafc5b8517b7d3e72a23cd52a796379c460aec1a36c0f7b404614d5",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a09-ink-film-projector",
+      "group": "A",
+      "html": "repo/batch05/html/a09-ink-film-projector.html",
+      "htmlSha256": "7e008d8c7d1adf0af9361142fe064bd1c2d45af1237f99d53c8f9f10ad090a23",
+      "bytes": 1096434,
+      "originalIndexSha256": "fc731349d9a838818d99a8747ee005bddc5813b751ed45ca37bf0a0c119dc905",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "expandedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "de6da2674e6275fb0d717561a99ce362206cc10a6472db01c94ea5886f63aabb",
+          "embeddedSha256": "de6da2674e6275fb0d717561a99ce362206cc10a6472db01c94ea5886f63aabb",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "fa5cd31c03b5d6b77530cbc9ecd9f45f0b7da64af7c95e9c7b72e800ba61243a",
+          "embeddedSha256": "fa5cd31c03b5d6b77530cbc9ecd9f45f0b7da64af7c95e9c7b72e800ba61243a",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a10-aurora-front",
+      "group": "A",
+      "html": "repo/batch05/html/a10-aurora-front.html",
+      "htmlSha256": "47059093a4975624efc2c0ac0ed1f1fcc40eaebb3c393d93ec5b3826d632a693",
+      "bytes": 1095862,
+      "originalIndexSha256": "ed1d6c1b8c3c19e6d0459d7d4271f857d50a6d69481c9c9a45e7f91435c63405",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "expandedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "e32c0bc9abc96a2f003041ed391f66257a6fe7dce47be540175b8a4679df0e0d",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "e06629e1a86eedb4b17de7fcce39a9fecfb3ece2d93022d78ed217af8afd798a",
+          "embeddedSha256": "e06629e1a86eedb4b17de7fcce39a9fecfb3ece2d93022d78ed217af8afd798a",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "091303438217b78ee817a68b9adfb1bbb4f4b15a54eecee81407a9b24634f657",
+          "embeddedSha256": "091303438217b78ee817a68b9adfb1bbb4f4b15a54eecee81407a9b24634f657",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a11-chromatic-choir",
+      "group": "A",
+      "html": "repo/batch05/html/a11-chromatic-choir.html",
+      "htmlSha256": "23a751245c99dc2ac5d8b08e2f41ffc0e17b933a7364aed3d0bbf673fafecbb7",
+      "bytes": 1098574,
+      "originalIndexSha256": "2a9e6da4a7823189cd95bde60d8410a5c08b4e2bc55c907a1513fc63a362d57b",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "base.css",
+          "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "68deeedc8ffee1f4761d1e44989d51319f26e80a1f2cb4c2aa529053ad8095a0",
+          "embeddedSha256": "68deeedc8ffee1f4761d1e44989d51319f26e80a1f2cb4c2aa529053ad8095a0",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a12-four-colour-press",
+      "group": "A",
+      "html": "repo/batch05/html/a12-four-colour-press.html",
+      "htmlSha256": "c47f761dd0fb771e8526773e8d97dc08786c81e286dacc62bafaffe7e944639c",
+      "bytes": 1100514,
+      "originalIndexSha256": "6b2e9d102b45d94736b758e20a2fd42faa601bd4b042cd0c5f712322c8ec1761",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "base.css",
+          "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "4befaafe438a8444b3b033a2504602150016fce6b7ed6456396da31aebf1deaf",
+          "embeddedSha256": "4befaafe438a8444b3b033a2504602150016fce6b7ed6456396da31aebf1deaf",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a13-single-sided-ribbon",
+      "group": "A",
+      "html": "repo/batch05/html/a13-single-sided-ribbon.html",
+      "htmlSha256": "9c6d1d787471e3c95144ce31e904f2bd4ed464066510e65f4f0e24ecfe850a6f",
+      "bytes": 1098693,
+      "originalIndexSha256": "7a4aee3968f914d0a5779e8eb2756d92a9dd7a7114bb3e6ad1ff8fc8a5029a6d",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "base.css",
+          "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "3d6ab85265b26adbc495a3fb46970e24f94792f43f04a33f19701780809d3484",
+          "embeddedSha256": "3d6ab85265b26adbc495a3fb46970e24f94792f43f04a33f19701780809d3484",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a14-enamel-corallium",
+      "group": "A",
+      "html": "repo/batch05/html/a14-enamel-corallium.html",
+      "htmlSha256": "b8cb3416151420fc6dc4558f2db2cc2b2d3d3e00e3be85662085649fec3fece1",
+      "bytes": 1100649,
+      "originalIndexSha256": "b08af270de9ebbf654d9c2ecf9314833d9d34cdb8f295a1ae3baa0fcee1bd12b",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "base.css",
+          "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "5219272a6f95a6e76f831ab039b340e6a251961660b970fbf81ea8bde18d6185",
+          "embeddedSha256": "5219272a6f95a6e76f831ab039b340e6a251961660b970fbf81ea8bde18d6185",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "a15-paradox-chamber",
+      "group": "A",
+      "html": "repo/batch05/html/a15-paradox-chamber.html",
+      "htmlSha256": "a45bab194c91927487fe4e6bc74c0d875b3e8e0fce5f1ca51dd334b9d8fbd352",
+      "bytes": 1100227,
+      "originalIndexSha256": "c8a2de3ffa2a759760b40c194ff582fd021b8bc40b2b46c19a0795b354c2c880",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "base.css",
+          "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "p5.min.js",
+          "sourceSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "embeddedSha256": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "4ea65c5d904c3885f44c76411cc724d4a15699c26d31c69d8e6ae529ed0cb3cd",
+          "embeddedSha256": "4ea65c5d904c3885f44c76411cc724d4a15699c26d31c69d8e6ae529ed0cb3cd",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": {
+        "sourceSha256": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+        "hiddenTemplateID": "p5-license",
+        "textRoundTripMatch": true
+      },
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b01-sugar-archive",
+      "group": "B",
+      "html": "repo/batch05/html/b01-sugar-archive.html",
+      "htmlSha256": "0feef3072a892a9a8f16e96dab2baebe6b9b131892e28ad5943fe7208d3b09b7",
+      "bytes": 15248,
+      "originalIndexSha256": "019c517279ee2722829a8b51cf2e7befe181fbab123f8ede3b36e5c5ac06d69b",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "expandedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "8f63ce6a75830ca2af2fe3cf0302bd5be0a2a4e31d397d7521e16049955fa426",
+          "embeddedSha256": "8f63ce6a75830ca2af2fe3cf0302bd5be0a2a4e31d397d7521e16049955fa426",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b02-jelly-slice",
+      "group": "B",
+      "html": "repo/batch05/html/b02-jelly-slice.html",
+      "htmlSha256": "47335be6253b8a280e1d7e94f9afaa023e266171e98ddb330ee14be37fc4f2d8",
+      "bytes": 14827,
+      "originalIndexSha256": "1598409e3626d79175cb61d557c4a3c7574fa0b3becda313485129bc037b211e",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "expandedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "838aaeb7a47600a7c826acec30db38da4d44b54627ed5a16441758e9f3c62781",
+          "embeddedSha256": "838aaeb7a47600a7c826acec30db38da4d44b54627ed5a16441758e9f3c62781",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b03-rouge-impressions",
+      "group": "B",
+      "html": "repo/batch05/html/b03-rouge-impressions.html",
+      "htmlSha256": "273379a7ff4bfdc472e381bafc2c1ddf730caa5ef7dfa071db624fb1008c50a5",
+      "bytes": 14399,
+      "originalIndexSha256": "9b7f2ca5712583ba29cb0c7df92ccc45f6a11e014fe975d837cf868d2ddeffe0",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "expandedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "8c0b354744442e0bfa444d53ab32c311af92d2989f778d69072eebe8f8634cab",
+          "embeddedSha256": "8c0b354744442e0bfa444d53ab32c311af92d2989f778d69072eebe8f8634cab",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b04-foam-studio",
+      "group": "B",
+      "html": "repo/batch05/html/b04-foam-studio.html",
+      "htmlSha256": "9efcae6e72a8b78c20db22dea07f7a7427d68a210568e7020c7537b85038beb3",
+      "bytes": 14712,
+      "originalIndexSha256": "5d440f076f2140edb4a2eee64ed4c7649e79be686e802780193bd6197dc9af5a",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "expandedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "c6839ca26417488a19ce8f0ed6be841248b059a56967adb0d8dbafca1c366c16",
+          "embeddedSha256": "c6839ca26417488a19ce8f0ed6be841248b059a56967adb0d8dbafca1c366c16",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b05-velvet-jewels",
+      "group": "B",
+      "html": "repo/batch05/html/b05-velvet-jewels.html",
+      "htmlSha256": "a64214ce08a43a472e8ee2dfc37936e692c92d1f73bac3f06c16108d4b7cf5fb",
+      "bytes": 15266,
+      "originalIndexSha256": "1a4c221127b48ea841f635c1bf00ade7c2ddb32e50b76a6f888cd4fb084f9792",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "expandedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "c55ab8194fd6ede7f4bc3b2d9895d3ae98501ee1c82f7e26ea5d7d8d2bf4ab6d",
+          "embeddedSha256": "c55ab8194fd6ede7f4bc3b2d9895d3ae98501ee1c82f7e26ea5d7d8d2bf4ab6d",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b06-soap-strata",
+      "group": "B",
+      "html": "repo/batch05/html/b06-soap-strata.html",
+      "htmlSha256": "5bb6a20cbcf043c54edcfe6cfd51dfd84f3379ee74dcff70591f3ec4ae4cff3b",
+      "bytes": 14433,
+      "originalIndexSha256": "370ebed16b1812bf29053e87bd27ae02bd3be12b4af2fc0e0bdd42a2afd776c8",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "expandedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "2c334301ea8c0c6bd741dee6bad7f54fea15be9cd6334876132efd67d2b3ddae",
+          "embeddedSha256": "2c334301ea8c0c6bd741dee6bad7f54fea15be9cd6334876132efd67d2b3ddae",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "embeddedSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b07-scent-cinema",
+      "group": "B",
+      "html": "repo/batch05/html/b07-scent-cinema.html",
+      "htmlSha256": "f658f0a1ce3630c91e7fadf9f79c12c29fb9d7e69cd6bc144d6297710a9468d5",
+      "bytes": 14607,
+      "originalIndexSha256": "356fc299c9d37cd973c54428cc88eeda60a9ca6ef8ad098f31ab0d083d6d5c28",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "expandedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "a4d5c463d28d72e8d6087f85caf22d8324ae28996b34c26aa8fcbf59b2d22112",
+          "embeddedSha256": "a4d5c463d28d72e8d6087f85caf22d8324ae28996b34c26aa8fcbf59b2d22112",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "embeddedSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b08-record-atelier",
+      "group": "B",
+      "html": "repo/batch05/html/b08-record-atelier.html",
+      "htmlSha256": "3a0e22414833df4be25d1a49a25e38fefcb2bbd8d7749cd689afad1b754ae174",
+      "bytes": 15063,
+      "originalIndexSha256": "c0f933b39d80b8c1e0c4bc5039a0021afd5d395dad195f4caca0c8e6bbccb72f",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "expandedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "771008ec2980a2b02e64dd8fef367895788b4939ee1b5dbe2d4ae7aaf38ae028",
+          "embeddedSha256": "771008ec2980a2b02e64dd8fef367895788b4939ee1b5dbe2d4ae7aaf38ae028",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "embeddedSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b09-sugar-ribbon",
+      "group": "B",
+      "html": "repo/batch05/html/b09-sugar-ribbon.html",
+      "htmlSha256": "63498fd57583d1f926599ef1867f5eda70dcce0f0989b9776ea3937f3edd6aee",
+      "bytes": 15006,
+      "originalIndexSha256": "dbaea5200defc7d848b10ee6917ad7dcd45cda779826341ff759a5ffe11975e5",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "expandedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "bf6b5050aad0bf28a873b28011b84dfbb0f087f0552750eb30d7fb43a39e9b0a",
+          "embeddedSha256": "bf6b5050aad0bf28a873b28011b84dfbb0f087f0552750eb30d7fb43a39e9b0a",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "embeddedSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b10-knot-dye",
+      "group": "B",
+      "html": "repo/batch05/html/b10-knot-dye.html",
+      "htmlSha256": "98e3da711f73168b89cf1b0f298bfeaec0b2c2fbba0de0d49d373a6bfbdb0e42",
+      "bytes": 14745,
+      "originalIndexSha256": "1074170f33b7d2e2b9a698ddfe79d9d336bc3472c78685fd4b67f596524d9bbc",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "expandedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "7565fcc52fbb793bb49fb5a2de34b3eb13d5da627eb613b3dc39da43e933e093",
+          "embeddedSha256": "7565fcc52fbb793bb49fb5a2de34b3eb13d5da627eb613b3dc39da43e933e093",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "runtime.js",
+          "sourceSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "embeddedSha256": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b11-wind-desk",
+      "group": "B",
+      "html": "repo/batch05/html/b11-wind-desk.html",
+      "htmlSha256": "f624a3c8ec43e320121ab50b7e171aaf0d33a141eeac70f1a12efadbf4960ea0",
+      "bytes": 16425,
+      "originalIndexSha256": "68f57dc7e9b1de995092cffb3bc89b8e03766f9123556d87a7d6703e5e489b23",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "expandedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "fc6358c31744f6b63a479ac119aa403638b4c0b873f115dbb71cff49fcf0061a",
+          "embeddedSha256": "fc6358c31744f6b63a479ac119aa403638b4c0b873f115dbb71cff49fcf0061a",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b12-crystal-cabinet",
+      "group": "B",
+      "html": "repo/batch05/html/b12-crystal-cabinet.html",
+      "htmlSha256": "44f0c5c25b7e56a7135769f0702d9686635ecd0e22df7eef6399fc2c8e4beb5b",
+      "bytes": 15570,
+      "originalIndexSha256": "873f2a696f34e34cbe38826411a26ec02e9ace470b2cab17fc98f30cd551fcb0",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "expandedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "54648c68efe500ca3eb73959aae8ed6dfea8605af70c6c83e359b99efaf17110",
+          "embeddedSha256": "54648c68efe500ca3eb73959aae8ed6dfea8605af70c6c83e359b99efaf17110",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b13-breakfast-collage",
+      "group": "B",
+      "html": "repo/batch05/html/b13-breakfast-collage.html",
+      "htmlSha256": "c4374c8192a2c01dd0ef815fb547f90b29cdf273216f6c2e8f21f7b7b1d52196",
+      "bytes": 16318,
+      "originalIndexSha256": "25d6f9005ccdb50ec176dc242315f2dec656ee45fe1bd64291bd2f6823ec61c2",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "expandedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "1db651b284c366704abbafb898c6ecfeac56126f022fb9f2f773fb89a64f17a8",
+          "embeddedSha256": "1db651b284c366704abbafb898c6ecfeac56126f022fb9f2f773fb89a64f17a8",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b14-butterfly-post",
+      "group": "B",
+      "html": "repo/batch05/html/b14-butterfly-post.html",
+      "htmlSha256": "b47a3c4f218f9893b6ec24c90b5e00d5fe5b8ad4ab3ef8ff446a343714cf7d9b",
+      "bytes": 15665,
+      "originalIndexSha256": "1a1a562fb1bde03e12abc2a36fff917eae7770b3940b2fa35b8261394b45a36e",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "expandedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "50c79d090f2ef81c472295878459809a5f83f8067d6a031ed344a74ef094878a",
+          "embeddedSha256": "50c79d090f2ef81c472295878459809a5f83f8067d6a031ed344a74ef094878a",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "b15-neon-window",
+      "group": "B",
+      "html": "repo/batch05/html/b15-neon-window.html",
+      "htmlSha256": "3ad921679732489688f5431ebc3f16f8a0879025565aca746a382909997b3e34",
+      "bytes": 16499,
+      "originalIndexSha256": "fc48430bebaf9114ccef16a2e38aa0f2bdd0aa56b26c06176a9e9d07bd394264",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "expandedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceRoundTripMatch": true,
+          "imports": [],
+          "embeddedSha256": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "art.js",
+          "sourceSha256": "51b8becb505cf56f2e91124280c2e8e3408696a39e6a310297c583431cf395d4",
+          "embeddedSha256": "51b8becb505cf56f2e91124280c2e8e3408696a39e6a310297c583431cf395d4",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "c01-pocket-tram",
+      "group": "C",
+      "html": "repo/batch05/html/c01-pocket-tram.html",
+      "htmlSha256": "998f242c34e3994614d3a39ecbc69e32f73c6f2e3ed04441d53e12432ba27ff7",
+      "bytes": 17762,
+      "originalIndexSha256": "1c82de990a8f328913872e9d4c41b378c40449b8c6ddeb350b75a4418f4b65d4",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+          "expandedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceRoundTripMatch": true,
+          "imports": [
+            {
+              "directive": "@import url('./base.css');",
+              "importSource": {
+                "path": "base.css",
+                "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "sourceRoundTripMatch": true,
+                "imports": []
+              }
+            }
+          ],
+          "embeddedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "config.js",
+          "sourceSha256": "6b98fc19549aed6de622638de0f4aa6fa572d7bb5433513db13cdfc89de33722",
+          "embeddedSha256": "6b98fc19549aed6de622638de0f4aa6fa572d7bb5433513db13cdfc89de33722",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "common.js",
+          "sourceSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "embeddedSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "149306e6ade334c90fb39545bd5875bdd2084b221b66c95efe41f25e5eb7ac0a",
+          "embeddedSha256": "149306e6ade334c90fb39545bd5875bdd2084b221b66c95efe41f25e5eb7ac0a",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "c02-orbital-workshop",
+      "group": "C",
+      "html": "repo/batch05/html/c02-orbital-workshop.html",
+      "htmlSha256": "7b235d0cfd44865eb5c602b224189b2065c330feb07acda07b654e33d0f40190",
+      "bytes": 18228,
+      "originalIndexSha256": "30755067f307ec529f108b52f60b58af5fcad5efef081b6badd538183421e5ca",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+          "expandedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceRoundTripMatch": true,
+          "imports": [
+            {
+              "directive": "@import url('./base.css');",
+              "importSource": {
+                "path": "base.css",
+                "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "sourceRoundTripMatch": true,
+                "imports": []
+              }
+            }
+          ],
+          "embeddedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "config.js",
+          "sourceSha256": "a5e1bb2cf176bf7ff98cf93a62aa14d96d974fb36bf5950db6e2b27875e2b788",
+          "embeddedSha256": "a5e1bb2cf176bf7ff98cf93a62aa14d96d974fb36bf5950db6e2b27875e2b788",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "common.js",
+          "sourceSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "embeddedSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "1f2d159e425cf6e5bae40b69315aeb0fd029cd9232fb7a7f585e405ebe653a6d",
+          "embeddedSha256": "1f2d159e425cf6e5bae40b69315aeb0fd029cd9232fb7a7f585e405ebe653a6d",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "c03-good-wind-laundry",
+      "group": "C",
+      "html": "repo/batch05/html/c03-good-wind-laundry.html",
+      "htmlSha256": "3f84eb9d8e0a7888a39a8e92e7580422bff6eff1477ff523ae1123c88cadc16b",
+      "bytes": 17495,
+      "originalIndexSha256": "b1554b638ba22e2e8c5138a883d94b2a70d53aaa18a16a67764b6f0477a347c0",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+          "expandedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceRoundTripMatch": true,
+          "imports": [
+            {
+              "directive": "@import url('./base.css');",
+              "importSource": {
+                "path": "base.css",
+                "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "sourceRoundTripMatch": true,
+                "imports": []
+              }
+            }
+          ],
+          "embeddedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "config.js",
+          "sourceSha256": "0c6f9441f2e1ab37c28666f40f2439b974cf40af7c0da7d26e355c18896ae529",
+          "embeddedSha256": "0c6f9441f2e1ab37c28666f40f2439b974cf40af7c0da7d26e355c18896ae529",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "common.js",
+          "sourceSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "embeddedSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "93ee5be45658ff01026e3ed863f3c3c8c95e4aeedaca177207ee3fa2ee67eeba",
+          "embeddedSha256": "93ee5be45658ff01026e3ed863f3c3c8c95e4aeedaca177207ee3fa2ee67eeba",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "c04-airmail-house",
+      "group": "C",
+      "html": "repo/batch05/html/c04-airmail-house.html",
+      "htmlSha256": "8f99b228c13fd02c5633a9f391fcab5c4be987b5d7ff90cc5ef6a348ab3120a8",
+      "bytes": 17418,
+      "originalIndexSha256": "7992fb9f82e929c41087549de44851734c62f54406605448623b8a3ba66da4d8",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+          "expandedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceRoundTripMatch": true,
+          "imports": [
+            {
+              "directive": "@import url('./base.css');",
+              "importSource": {
+                "path": "base.css",
+                "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "sourceRoundTripMatch": true,
+                "imports": []
+              }
+            }
+          ],
+          "embeddedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "config.js",
+          "sourceSha256": "9e1a8b97a713e984ebfd01ad4e582d334bd867152c7edb384fdbbd8d9a7327b4",
+          "embeddedSha256": "9e1a8b97a713e984ebfd01ad4e582d334bd867152c7edb384fdbbd8d9a7327b4",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "common.js",
+          "sourceSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "embeddedSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "d395d03c7b0b80b202f765347ae52a4f292585fda9f552b4f4333547a1ead5d0",
+          "embeddedSha256": "d395d03c7b0b80b202f765347ae52a4f292585fda9f552b4f4333547a1ead5d0",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    },
+    {
+      "slug": "c05-kinetic-friend",
+      "group": "C",
+      "html": "repo/batch05/html/c05-kinetic-friend.html",
+      "htmlSha256": "014b9686e5de0ba03080961059cf2e8909cf0735b2216255febbe6a37166a5d3",
+      "bytes": 18247,
+      "originalIndexSha256": "e5df82b91523bdf42d071086ec84f5cba7d5e74c393b6ca6a4965210c21a7af7",
+      "embeddedBlocks": [
+        {
+          "type": "css",
+          "path": "style.css",
+          "sourceSha256": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+          "expandedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceRoundTripMatch": true,
+          "imports": [
+            {
+              "directive": "@import url('./base.css');",
+              "importSource": {
+                "path": "base.css",
+                "sourceSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "expandedSha256": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+                "sourceRoundTripMatch": true,
+                "imports": []
+              }
+            }
+          ],
+          "embeddedSha256": "f558b36189eea2d2fcca755531c9fd014afc4d0b6b26c71b76b4118b38dc1fd8",
+          "sourceByteMatchAfterImportRestoration": true
+        },
+        {
+          "type": "javascript",
+          "path": "audio.js",
+          "sourceSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "embeddedSha256": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "config.js",
+          "sourceSha256": "98e2e599b4a0bf321f5265d19fe7ffcc65714853d2fcfdd9fc5eab138e4f40ba",
+          "embeddedSha256": "98e2e599b4a0bf321f5265d19fe7ffcc65714853d2fcfdd9fc5eab138e4f40ba",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "common.js",
+          "sourceSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "embeddedSha256": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        },
+        {
+          "type": "javascript",
+          "path": "app.js",
+          "sourceSha256": "a425187ab9e6815a01c458b956007d1601a44e2a3ec38f12e120b42663797a0b",
+          "embeddedSha256": "a425187ab9e6815a01c458b956007d1601a44e2a3ec38f12e120b42663797a0b",
+          "escapedScriptCloseTokens": 0,
+          "sourceRoundTripMatch": true
+        }
+      ],
+      "p5License": null,
+      "standaloneCopyShaMatch": true,
+      "sourceBlocksVerified": true
+    }
+  ],
+  "transformNotes": [
+    "本地CSS @import按原位置递归展开，保留层叠顺序；核对恢复import原文后的源SHA。",
+    "JavaScript内</script（大小写不敏感）转为<\\/script防止HTML解析截断；本批源码没有此文本，因此JS实际字节无此变更。",
+    "p5.min.js原始版权版本header保持，完整p5-LICENSE文本HTML转义放入隐藏template；未给原创内容添加公开许可。"
+  ]
+}

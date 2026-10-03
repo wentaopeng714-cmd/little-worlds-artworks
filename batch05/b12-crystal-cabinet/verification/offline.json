@@ -1,0 +1,72 @@
+{
+  "zip": "evidence/offline-artwork.zip",
+  "sourceFiles": [
+    "LICENSE.txt",
+    "art.js",
+    "audio.js",
+    "index.html",
+    "metadata.json",
+    "style.css",
+    "实测报告.json",
+    "来源与许可.json",
+    "说明.txt"
+  ],
+  "mode": "file:// with browser offline:true; every resource local; real touch/click; no server required",
+  "audio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 2,
+    "peakVoices": 4,
+    "nodeCount": 6,
+    "nodeLimit": 26,
+    "rms": 0.0076309264774137055,
+    "errors": 0,
+    "musicNotes": 7,
+    "fxNotes": 1
+  },
+  "state": {
+    "inputs": 1,
+    "resets": 0,
+    "frames": 194,
+    "fps": 85.59830568307781,
+    "state": {
+      "tool": "crack",
+      "lamp": 0,
+      "chosen": 0,
+      "stones": [
+        {
+          "x": 280,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 505,
+          "y": 420,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 730,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stones": 3,
+      "facets": 54,
+      "dust": 90
+    }
+  },
+  "errors": [],
+  "passed": true,
+  "verification": "unzip -t CRC pass; independent extraction then file:// browser offline:true"
+}

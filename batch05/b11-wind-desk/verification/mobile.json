@@ -1,0 +1,1487 @@
+{
+  "slug": "b11-wind-desk",
+  "device": "mobile",
+  "durationMs": 65450,
+  "controlsVisible": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "frames": 84,
+    "fps": 95.8138473819031,
+    "state": {
+      "speed": 2,
+      "angle": 0,
+      "fanY": 330,
+      "endpoints": [
+        [
+          480,
+          469
+        ],
+        [
+          601,
+          475
+        ],
+        [
+          698,
+          549
+        ],
+        [
+          713,
+          556
+        ],
+        [
+          670,
+          524
+        ],
+        [
+          791,
+          552
+        ],
+        [
+          819,
+          517
+        ]
+      ],
+      "windCoefficients": [
+        0.142,
+        0.585,
+        0.625,
+        0.402,
+        0.485,
+        0.443,
+        0.342
+      ],
+      "affected": 5,
+      "mode": "move",
+      "clipped": 1,
+      "free": 0,
+      "positions": [
+        [
+          465,
+          230
+        ],
+        [
+          514,
+          265
+        ],
+        [
+          563,
+          300
+        ],
+        [
+          612,
+          230
+        ],
+        [
+          661,
+          265
+        ],
+        [
+          710,
+          300
+        ],
+        [
+          759,
+          230
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "ribbons": 7,
+      "cap": 20
+    }
+  },
+  "axisUp": {
+    "inputs": 17,
+    "resets": 0,
+    "frames": 165,
+    "fps": 95.09538355129867,
+    "state": {
+      "speed": 2,
+      "angle": -0.5830765610458869,
+      "fanY": 330,
+      "endpoints": [
+        [
+          540,
+          379
+        ],
+        [
+          580,
+          491
+        ],
+        [
+          574,
+          633
+        ],
+        [
+          659,
+          515
+        ],
+        [
+          664,
+          515
+        ],
+        [
+          708,
+          598
+        ],
+        [
+          767,
+          551
+        ]
+      ],
+      "windCoefficients": [
+        0.718,
+        0.44,
+        0.038,
+        0.356,
+        0.067,
+        0.002,
+        0.077
+      ],
+      "affected": 3,
+      "mode": "move",
+      "clipped": 1,
+      "free": 0,
+      "positions": [
+        [
+          465,
+          230
+        ],
+        [
+          514,
+          265
+        ],
+        [
+          563,
+          300
+        ],
+        [
+          612,
+          230
+        ],
+        [
+          661,
+          265
+        ],
+        [
+          710,
+          300
+        ],
+        [
+          759,
+          230
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "ribbons": 7,
+      "cap": 20
+    }
+  },
+  "axisDown": {
+    "inputs": 34,
+    "resets": 0,
+    "frames": 247,
+    "fps": 93.24625316147994,
+    "state": {
+      "speed": 2,
+      "angle": 0.65,
+      "fanY": 330,
+      "endpoints": [
+        [
+          467,
+          490
+        ],
+        [
+          514,
+          563
+        ],
+        [
+          560,
+          638
+        ],
+        [
+          609,
+          610
+        ],
+        [
+          665,
+          526
+        ],
+        [
+          712,
+          602
+        ],
+        [
+          762,
+          571
+        ]
+      ],
+      "windCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affected": 0,
+      "mode": "move",
+      "clipped": 1,
+      "free": 0,
+      "positions": [
+        [
+          465,
+          230
+        ],
+        [
+          514,
+          265
+        ],
+        [
+          563,
+          300
+        ],
+        [
+          612,
+          230
+        ],
+        [
+          661,
+          265
+        ],
+        [
+          710,
+          300
+        ],
+        [
+          759,
+          230
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "ribbons": 7,
+      "cap": 20
+    }
+  },
+  "windDomainProof": {
+    "affectedUp": 3,
+    "affectedDown": 0,
+    "coefficientsChanged": true,
+    "endpointsChanged": true
+  },
+  "stages": [
+    {
+      "inputs": 69,
+      "resets": 0,
+      "frames": 909,
+      "fps": 85.97126724859936,
+      "state": {
+        "speed": 2,
+        "angle": -0.1555946983856509,
+        "fanY": 330,
+        "endpoints": [
+          [
+            569,
+            410
+          ],
+          [
+            761,
+            462
+          ],
+          [
+            668,
+            555
+          ],
+          [
+            702,
+            524
+          ],
+          [
+            667,
+            520
+          ],
+          [
+            782,
+            524
+          ],
+          [
+            846,
+            495
+          ],
+          [
+            852,
+            431
+          ]
+        ],
+        "windCoefficients": [
+          0.545,
+          0.491,
+          0.626,
+          0.545,
+          0.498,
+          0.443,
+          0.37,
+          0.324
+        ],
+        "affected": 7,
+        "mode": "move",
+        "clipped": 1,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            659.9999933294911,
+            229.99999561144813
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ],
+          [
+            789,
+            194
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "ribbons": 8,
+        "cap": 20
+      }
+    },
+    {
+      "inputs": 87,
+      "resets": 0,
+      "frames": 1474,
+      "fps": 83.16266368768461,
+      "state": {
+        "speed": 3,
+        "angle": -0.6350267210181657,
+        "fanY": 330,
+        "endpoints": [
+          [
+            571,
+            265
+          ],
+          [
+            691,
+            489
+          ],
+          [
+            565,
+            638
+          ],
+          [
+            657,
+            530
+          ],
+          [
+            666,
+            520
+          ],
+          [
+            713,
+            600
+          ],
+          [
+            760,
+            559
+          ],
+          [
+            802,
+            452
+          ]
+        ],
+        "windCoefficients": [
+          0.705,
+          0.12,
+          0.007,
+          0.231,
+          0.017,
+          0,
+          0.023,
+          0.066
+        ],
+        "affected": 1,
+        "mode": "move",
+        "clipped": 1,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            659.9999933294911,
+            229.99999561144813
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ],
+          [
+            789,
+            194
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "ribbons": 8,
+        "cap": 20
+      }
+    },
+    {
+      "inputs": 89,
+      "resets": 0,
+      "frames": 2001,
+      "fps": 82.32501306255949,
+      "state": {
+        "speed": 3,
+        "angle": -0.6350267210181657,
+        "fanY": 330,
+        "endpoints": [
+          [
+            465,
+            483
+          ],
+          [
+            695,
+            488
+          ],
+          [
+            561,
+            635
+          ],
+          [
+            689,
+            510
+          ],
+          [
+            670,
+            518
+          ],
+          [
+            710,
+            602
+          ],
+          [
+            764,
+            565
+          ],
+          [
+            804,
+            452
+          ]
+        ],
+        "windCoefficients": [
+          0.705,
+          0.12,
+          0.007,
+          0.231,
+          0.017,
+          0,
+          0.023,
+          0.066
+        ],
+        "affected": 0,
+        "mode": "clip",
+        "clipped": 2,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            659.9999933294911,
+            229.99999561144813
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ],
+          [
+            789,
+            194
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "ribbons": 8,
+        "cap": 20
+      }
+    },
+    {
+      "inputs": 107,
+      "resets": 0,
+      "frames": 2581,
+      "fps": 82.54603836582217,
+      "state": {
+        "speed": 3,
+        "angle": -0.6350267210181657,
+        "fanY": 330,
+        "endpoints": [
+          [
+            465,
+            484
+          ],
+          [
+            593,
+            404
+          ],
+          [
+            561,
+            635
+          ],
+          [
+            689,
+            508
+          ],
+          [
+            669,
+            518
+          ],
+          [
+            710,
+            601
+          ],
+          [
+            762,
+            565
+          ],
+          [
+            795,
+            454
+          ]
+        ],
+        "windCoefficients": [
+          0.705,
+          0.431,
+          0.007,
+          0.231,
+          0.017,
+          0,
+          0.023,
+          0.066
+        ],
+        "affected": 1,
+        "mode": "clip",
+        "clipped": 2,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            522,
+            247
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ],
+          [
+            789,
+            194
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "ribbons": 8,
+        "cap": 20
+      }
+    },
+    {
+      "inputs": 125,
+      "resets": 0,
+      "frames": 3149,
+      "fps": 82.29387983367782,
+      "state": {
+        "speed": 3,
+        "angle": -0.6350267210181657,
+        "fanY": 330,
+        "endpoints": [
+          [
+            465,
+            486
+          ],
+          [
+            526,
+            540
+          ],
+          [
+            562,
+            636
+          ],
+          [
+            686,
+            506
+          ],
+          [
+            669,
+            516
+          ],
+          [
+            708,
+            600
+          ],
+          [
+            763,
+            564
+          ],
+          [
+            796,
+            457
+          ],
+          [
+            623,
+            302
+          ]
+        ],
+        "windCoefficients": [
+          0.705,
+          0.431,
+          0.007,
+          0.231,
+          0.017,
+          0,
+          0.023,
+          0.066,
+          0.627
+        ],
+        "affected": 1,
+        "mode": "clip",
+        "clipped": 3,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            522,
+            247
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ],
+          [
+            789,
+            194
+          ],
+          [
+            506,
+            221
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "ribbons": 9,
+        "cap": 20
+      }
+    },
+    {
+      "inputs": 143,
+      "resets": 0,
+      "frames": 3690,
+      "fps": 81.23959736862429,
+      "state": {
+        "speed": 1,
+        "angle": -0.6350267210181657,
+        "fanY": 330,
+        "endpoints": [
+          [
+            466,
+            484
+          ],
+          [
+            523,
+            542
+          ],
+          [
+            567,
+            641
+          ],
+          [
+            631,
+            580
+          ],
+          [
+            670,
+            515
+          ],
+          [
+            708,
+            598
+          ],
+          [
+            760,
+            566
+          ],
+          [
+            790,
+            470
+          ],
+          [
+            553,
+            449
+          ]
+        ],
+        "windCoefficients": [
+          0.705,
+          0.431,
+          0.007,
+          0.231,
+          0.017,
+          0,
+          0.023,
+          0.066,
+          0.627
+        ],
+        "affected": 1,
+        "mode": "clip",
+        "clipped": 3,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            522,
+            247
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ],
+          [
+            789,
+            194
+          ],
+          [
+            506,
+            221
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "ribbons": 9,
+        "cap": 20
+      }
+    },
+    {
+      "inputs": 145,
+      "resets": 0,
+      "frames": 4184,
+      "fps": 80.43617013094948,
+      "state": {
+        "speed": 1,
+        "angle": -0.6350267210181657,
+        "fanY": 330,
+        "endpoints": [
+          [
+            474,
+            481
+          ],
+          [
+            530,
+            535
+          ],
+          [
+            561,
+            638
+          ],
+          [
+            639,
+            580
+          ],
+          [
+            662,
+            520
+          ],
+          [
+            712,
+            602
+          ],
+          [
+            760,
+            568
+          ],
+          [
+            798,
+            465
+          ],
+          [
+            557,
+            431
+          ]
+        ],
+        "windCoefficients": [
+          0.705,
+          0.431,
+          0.007,
+          0.231,
+          0.017,
+          0,
+          0.023,
+          0.066,
+          0.627
+        ],
+        "affected": 1,
+        "mode": "move",
+        "clipped": 3,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            522,
+            247
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ],
+          [
+            789,
+            194
+          ],
+          [
+            506,
+            221
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "ribbons": 9,
+        "cap": 20
+      }
+    },
+    {
+      "inputs": 163,
+      "resets": 0,
+      "frames": 4779,
+      "fps": 80.83381116449806,
+      "state": {
+        "speed": 1,
+        "angle": -0.6350267210181657,
+        "fanY": 330,
+        "endpoints": [
+          [
+            472,
+            481
+          ],
+          [
+            525,
+            535
+          ],
+          [
+            825,
+            639
+          ],
+          [
+            624,
+            581
+          ],
+          [
+            666,
+            521
+          ],
+          [
+            713,
+            602
+          ],
+          [
+            759,
+            568
+          ],
+          [
+            796,
+            465
+          ],
+          [
+            558,
+            432
+          ]
+        ],
+        "windCoefficients": [
+          0.705,
+          0.431,
+          0,
+          0.231,
+          0.017,
+          0,
+          0.023,
+          0.066,
+          0.627
+        ],
+        "affected": 1,
+        "mode": "move",
+        "clipped": 3,
+        "free": 1,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            522,
+            247
+          ],
+          [
+            828.0500000000268,
+            300.02282061194506
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ],
+          [
+            789,
+            194
+          ],
+          [
+            506,
+            221
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "ribbons": 9,
+        "cap": 20
+      }
+    }
+  ],
+  "composed": {
+    "inputs": 163,
+    "resets": 0,
+    "frames": 4779,
+    "fps": 80.83312754347193,
+    "state": {
+      "speed": 1,
+      "angle": -0.6350267210181657,
+      "fanY": 330,
+      "endpoints": [
+        [
+          472,
+          481
+        ],
+        [
+          525,
+          535
+        ],
+        [
+          825,
+          639
+        ],
+        [
+          624,
+          581
+        ],
+        [
+          666,
+          521
+        ],
+        [
+          713,
+          602
+        ],
+        [
+          759,
+          568
+        ],
+        [
+          796,
+          465
+        ],
+        [
+          558,
+          432
+        ]
+      ],
+      "windCoefficients": [
+        0.705,
+        0.431,
+        0,
+        0.231,
+        0.017,
+        0,
+        0.023,
+        0.066,
+        0.627
+      ],
+      "affected": 1,
+      "mode": "move",
+      "clipped": 3,
+      "free": 1,
+      "positions": [
+        [
+          465,
+          230
+        ],
+        [
+          522,
+          247
+        ],
+        [
+          828.0500000000268,
+          300.02282061194506
+        ],
+        [
+          612,
+          230
+        ],
+        [
+          661,
+          265
+        ],
+        [
+          710,
+          300
+        ],
+        [
+          759,
+          230
+        ],
+        [
+          789,
+          194
+        ],
+        [
+          506,
+          221
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "ribbons": 9,
+      "cap": 20
+    }
+  },
+  "final": {
+    "inputs": 180,
+    "resets": 1,
+    "frames": 5345,
+    "fps": 81.13260817427555,
+    "state": {
+      "speed": 2,
+      "angle": 0.20599143967812747,
+      "fanY": 330,
+      "endpoints": [
+        [
+          468,
+          490
+        ],
+        [
+          538,
+          551
+        ],
+        [
+          663,
+          578
+        ],
+        [
+          619,
+          607
+        ],
+        [
+          667,
+          523
+        ],
+        [
+          746,
+          580
+        ],
+        [
+          767,
+          567
+        ]
+      ],
+      "windCoefficients": [
+        0,
+        0.1,
+        0.426,
+        0.016,
+        0.162,
+        0.321,
+        0.049
+      ],
+      "affected": 2,
+      "mode": "move",
+      "clipped": 1,
+      "free": 0,
+      "positions": [
+        [
+          465,
+          230
+        ],
+        [
+          514,
+          265
+        ],
+        [
+          563,
+          300
+        ],
+        [
+          612,
+          230
+        ],
+        [
+          661,
+          265
+        ],
+        [
+          710,
+          300
+        ],
+        [
+          759,
+          230
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "ribbons": 7,
+      "cap": 20
+    }
+  },
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.008873108476639776,
+      "errors": 0,
+      "musicNotes": 9,
+      "fxNotes": 11
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0003668505339678112,
+      "errors": 0,
+      "musicNotes": 29,
+      "fxNotes": 13
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00031581588505662526,
+      "errors": 0,
+      "musicNotes": 50,
+      "fxNotes": 21
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0014981144838944634,
+      "errors": 0,
+      "musicNotes": 70,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0007560883371161629,
+      "errors": 0,
+      "musicNotes": 92,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0038990869465876537,
+      "errors": 0,
+      "musicNotes": 112,
+      "fxNotes": 29
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.000619084897474382,
+      "errors": 0,
+      "musicNotes": 133,
+      "fxNotes": 37
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.002058034016091978,
+      "errors": 0,
+      "musicNotes": 153,
+      "fxNotes": 38
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0025639825191028586,
+      "errors": 0,
+      "musicNotes": 174,
+      "fxNotes": 45
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 8,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0002158418918195109,
+      "errors": 0,
+      "musicNotes": 179,
+      "fxNotes": 51
+    }
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 8,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 174,
+    "fxNotes": 45
+  },
+  "resetAudio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 8,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 174,
+    "fxNotes": 45
+  },
+  "blur": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 194,
+      "fxNotes": 51
+    }
+  },
+  "errors": [],
+  "measurement": "WebAudio analyser post-master RMS; fx/music counters recorded separately. Browser mobile emulation with trusted CDP touch; no physical handset or human listening.",
+  "passed": true
+}

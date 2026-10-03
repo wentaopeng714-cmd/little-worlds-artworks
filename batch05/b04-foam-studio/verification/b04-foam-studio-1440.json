@@ -1,0 +1,694 @@
+{
+  "slug": "b04-foam-studio",
+  "width": 1440,
+  "realInput": "trusted mouse",
+  "humanListening": false,
+  "physicalPhone": false,
+  "elapsedMs": 65368,
+  "activeMaxRms": 0.014279622840036936,
+  "musicNotes": 204,
+  "fxNotes": 124,
+  "peakNodes": 12,
+  "maxVoices": 6,
+  "art": {
+    "inputs": 500,
+    "resets": 0,
+    "state": {
+      "foam": 17,
+      "powder": 24,
+      "angle": 0,
+      "served": 3
+    },
+    "bounded": true,
+    "counts": {
+      "pour": 100,
+      "needle": 80,
+      "rotate": 80,
+      "cocoa": 232,
+      "rosetta": 4,
+      "serve": 4
+    },
+    "frames": 2925
+  },
+  "muted": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 208,
+      "fxNotes": 124
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 208,
+      "fxNotes": 124
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 208,
+      "fxNotes": 124
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 208,
+      "fxNotes": 124
+    }
+  ],
+  "reset": {
+    "art": {
+      "inputs": 578,
+      "resets": 2,
+      "state": {
+        "foam": 340,
+        "powder": 0,
+        "angle": 0,
+        "served": 0
+      },
+      "bounded": true,
+      "counts": {
+        "pour": 176,
+        "needle": 80,
+        "rotate": 80,
+        "cocoa": 232,
+        "rosetta": 4,
+        "serve": 4,
+        "reset": 2
+      },
+      "frames": 3294
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 208,
+      "fxNotes": 124
+    }
+  },
+  "overflow": false,
+  "errors": [],
+  "consoleErrors": [],
+  "stateChanges": [
+    {
+      "control": "#pour",
+      "art": {
+        "inputs": 20,
+        "resets": 0,
+        "state": {
+          "foam": 357,
+          "powder": 0,
+          "angle": 0,
+          "served": 0
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 20
+        },
+        "frames": 101
+      }
+    },
+    {
+      "control": "#needle",
+      "art": {
+        "inputs": 40,
+        "resets": 0,
+        "state": {
+          "foam": 357,
+          "powder": 0,
+          "angle": 0,
+          "served": 0
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 20,
+          "needle": 20
+        },
+        "frames": 311
+      }
+    },
+    {
+      "control": "#rotate",
+      "art": {
+        "inputs": 60,
+        "resets": 0,
+        "state": {
+          "foam": 357,
+          "powder": 0,
+          "angle": 0.5809771206139744,
+          "served": 0
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 20,
+          "needle": 20,
+          "rotate": 20
+        },
+        "frames": 437
+      }
+    },
+    {
+      "control": "#cocoa",
+      "art": {
+        "inputs": 80,
+        "resets": 0,
+        "state": {
+          "foam": 357,
+          "powder": 24,
+          "angle": 0.5809771206139744,
+          "served": 0
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 20,
+          "needle": 20,
+          "rotate": 20,
+          "cocoa": 20
+        },
+        "frames": 557
+      }
+    },
+    {
+      "control": "#rosetta",
+      "art": {
+        "inputs": 100,
+        "resets": 0,
+        "state": {
+          "foam": 340,
+          "powder": 24,
+          "angle": 0.5809771206139744,
+          "served": 0
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 20,
+          "needle": 20,
+          "rotate": 20,
+          "cocoa": 39,
+          "rosetta": 1
+        },
+        "frames": 679
+      }
+    },
+    {
+      "control": "#serve",
+      "art": {
+        "inputs": 120,
+        "resets": 0,
+        "state": {
+          "foam": 0,
+          "powder": 24,
+          "angle": 0,
+          "served": 1
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 20,
+          "needle": 20,
+          "rotate": 20,
+          "cocoa": 58,
+          "rosetta": 1,
+          "serve": 1
+        },
+        "frames": 804
+      }
+    },
+    {
+      "control": "#pour",
+      "art": {
+        "inputs": 140,
+        "resets": 0,
+        "state": {
+          "foam": 19,
+          "powder": 24,
+          "angle": 0,
+          "served": 1
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 40,
+          "needle": 20,
+          "rotate": 20,
+          "cocoa": 58,
+          "rosetta": 1,
+          "serve": 1
+        },
+        "frames": 912
+      }
+    },
+    {
+      "control": "#needle",
+      "art": {
+        "inputs": 160,
+        "resets": 0,
+        "state": {
+          "foam": 19,
+          "powder": 24,
+          "angle": 0,
+          "served": 1
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 40,
+          "needle": 40,
+          "rotate": 20,
+          "cocoa": 58,
+          "rosetta": 1,
+          "serve": 1
+        },
+        "frames": 1021
+      }
+    },
+    {
+      "control": "#rotate",
+      "art": {
+        "inputs": 180,
+        "resets": 0,
+        "state": {
+          "foam": 19,
+          "powder": 24,
+          "angle": 0.3632492135014474,
+          "served": 1
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 40,
+          "needle": 40,
+          "rotate": 40,
+          "cocoa": 58,
+          "rosetta": 1,
+          "serve": 1
+        },
+        "frames": 1136
+      }
+    },
+    {
+      "control": "#cocoa",
+      "art": {
+        "inputs": 200,
+        "resets": 0,
+        "state": {
+          "foam": 19,
+          "powder": 48,
+          "angle": 0.3632492135014474,
+          "served": 1
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 40,
+          "needle": 40,
+          "rotate": 40,
+          "cocoa": 78,
+          "rosetta": 1,
+          "serve": 1
+        },
+        "frames": 1253
+      }
+    },
+    {
+      "control": "#rosetta",
+      "art": {
+        "inputs": 220,
+        "resets": 0,
+        "state": {
+          "foam": 340,
+          "powder": 24,
+          "angle": 0.3632492135014474,
+          "served": 1
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 40,
+          "needle": 40,
+          "rotate": 40,
+          "cocoa": 97,
+          "rosetta": 2,
+          "serve": 1
+        },
+        "frames": 1370
+      }
+    },
+    {
+      "control": "#serve",
+      "art": {
+        "inputs": 240,
+        "resets": 0,
+        "state": {
+          "foam": 0,
+          "powder": 24,
+          "angle": 0,
+          "served": 2
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 40,
+          "needle": 40,
+          "rotate": 40,
+          "cocoa": 116,
+          "rosetta": 2,
+          "serve": 2
+        },
+        "frames": 1481
+      }
+    },
+    {
+      "control": "#pour",
+      "art": {
+        "inputs": 260,
+        "resets": 0,
+        "state": {
+          "foam": 17,
+          "powder": 24,
+          "angle": 0,
+          "served": 2
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 60,
+          "needle": 40,
+          "rotate": 40,
+          "cocoa": 116,
+          "rosetta": 2,
+          "serve": 2
+        },
+        "frames": 1592
+      }
+    },
+    {
+      "control": "#needle",
+      "art": {
+        "inputs": 280,
+        "resets": 0,
+        "state": {
+          "foam": 17,
+          "powder": 24,
+          "angle": 0,
+          "served": 2
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 60,
+          "needle": 60,
+          "rotate": 40,
+          "cocoa": 116,
+          "rosetta": 2,
+          "serve": 2
+        },
+        "frames": 1707
+      }
+    },
+    {
+      "control": "#rotate",
+      "art": {
+        "inputs": 300,
+        "resets": 0,
+        "state": {
+          "foam": 17,
+          "powder": 24,
+          "angle": 0.5809771206139744,
+          "served": 2
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 60,
+          "needle": 60,
+          "rotate": 60,
+          "cocoa": 116,
+          "rosetta": 2,
+          "serve": 2
+        },
+        "frames": 1827
+      }
+    },
+    {
+      "control": "#cocoa",
+      "art": {
+        "inputs": 320,
+        "resets": 0,
+        "state": {
+          "foam": 17,
+          "powder": 48,
+          "angle": 0.5809771206139744,
+          "served": 2
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 60,
+          "needle": 60,
+          "rotate": 60,
+          "cocoa": 136,
+          "rosetta": 2,
+          "serve": 2
+        },
+        "frames": 1932
+      }
+    },
+    {
+      "control": "#rosetta",
+      "art": {
+        "inputs": 340,
+        "resets": 0,
+        "state": {
+          "foam": 340,
+          "powder": 24,
+          "angle": 0.5809771206139744,
+          "served": 2
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 60,
+          "needle": 60,
+          "rotate": 60,
+          "cocoa": 155,
+          "rosetta": 3,
+          "serve": 2
+        },
+        "frames": 2043
+      }
+    },
+    {
+      "control": "#serve",
+      "art": {
+        "inputs": 360,
+        "resets": 0,
+        "state": {
+          "foam": 0,
+          "powder": 24,
+          "angle": 0,
+          "served": 3
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 60,
+          "needle": 60,
+          "rotate": 60,
+          "cocoa": 174,
+          "rosetta": 3,
+          "serve": 3
+        },
+        "frames": 2160
+      }
+    },
+    {
+      "control": "#pour",
+      "art": {
+        "inputs": 380,
+        "resets": 0,
+        "state": {
+          "foam": 19,
+          "powder": 24,
+          "angle": 0,
+          "served": 3
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 80,
+          "needle": 60,
+          "rotate": 60,
+          "cocoa": 174,
+          "rosetta": 3,
+          "serve": 3
+        },
+        "frames": 2262
+      }
+    },
+    {
+      "control": "#needle",
+      "art": {
+        "inputs": 400,
+        "resets": 0,
+        "state": {
+          "foam": 19,
+          "powder": 24,
+          "angle": 0,
+          "served": 3
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 80,
+          "needle": 80,
+          "rotate": 60,
+          "cocoa": 174,
+          "rosetta": 3,
+          "serve": 3
+        },
+        "frames": 2364
+      }
+    },
+    {
+      "control": "#rotate",
+      "art": {
+        "inputs": 420,
+        "resets": 0,
+        "state": {
+          "foam": 19,
+          "powder": 24,
+          "angle": 0.3632492135014474,
+          "served": 3
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 80,
+          "needle": 80,
+          "rotate": 80,
+          "cocoa": 174,
+          "rosetta": 3,
+          "serve": 3
+        },
+        "frames": 2466
+      }
+    },
+    {
+      "control": "#cocoa",
+      "art": {
+        "inputs": 440,
+        "resets": 0,
+        "state": {
+          "foam": 19,
+          "powder": 48,
+          "angle": 0.3632492135014474,
+          "served": 3
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 80,
+          "needle": 80,
+          "rotate": 80,
+          "cocoa": 194,
+          "rosetta": 3,
+          "serve": 3
+        },
+        "frames": 2576
+      }
+    },
+    {
+      "control": "#rosetta",
+      "art": {
+        "inputs": 460,
+        "resets": 0,
+        "state": {
+          "foam": 340,
+          "powder": 24,
+          "angle": 0.3632492135014474,
+          "served": 3
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 80,
+          "needle": 80,
+          "rotate": 80,
+          "cocoa": 213,
+          "rosetta": 4,
+          "serve": 3
+        },
+        "frames": 2683
+      }
+    },
+    {
+      "control": "#serve",
+      "art": {
+        "inputs": 480,
+        "resets": 0,
+        "state": {
+          "foam": 0,
+          "powder": 24,
+          "angle": 0,
+          "served": 3
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 80,
+          "needle": 80,
+          "rotate": 80,
+          "cocoa": 232,
+          "rosetta": 4,
+          "serve": 4
+        },
+        "frames": 2786
+      }
+    },
+    {
+      "control": "#pour",
+      "art": {
+        "inputs": 500,
+        "resets": 0,
+        "state": {
+          "foam": 17,
+          "powder": 24,
+          "angle": 0,
+          "served": 3
+        },
+        "bounded": true,
+        "counts": {
+          "pour": 100,
+          "needle": 80,
+          "rotate": 80,
+          "cocoa": 232,
+          "rosetta": 4,
+          "serve": 4
+        },
+        "frames": 2900
+      }
+    }
+  ],
+  "pass": true
+}

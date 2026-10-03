@@ -1,0 +1,418 @@
+{
+  "slug": "b15-neon-window",
+  "device": "mobile",
+  "durationMs": 66228,
+  "controlsVisible": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "frames": 74,
+    "fps": 66.08322914779835,
+    "state": {
+      "mode": "wipe",
+      "frame": 500,
+      "opened": false,
+      "neon": 0,
+      "hour": 0,
+      "wipes": 0
+    },
+    "bounded": true,
+    "counts": {
+      "wipes": 0,
+      "cap": 700,
+      "rainDrops": 170
+    }
+  },
+  "stages": [
+    {
+      "inputs": 35,
+      "resets": 0,
+      "frames": 673,
+      "fps": 64.00745644069994,
+      "state": {
+        "mode": "wipe",
+        "frame": 500,
+        "opened": false,
+        "neon": 0,
+        "hour": 0,
+        "wipes": 34
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 34,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 53,
+      "resets": 0,
+      "frames": 1141,
+      "fps": 63.79505071175904,
+      "state": {
+        "mode": "frame",
+        "frame": 670.0000033352544,
+        "opened": false,
+        "neon": 0,
+        "hour": 0,
+        "wipes": 34
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 34,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 71,
+      "resets": 0,
+      "frames": 1499,
+      "fps": 59.30104676830004,
+      "state": {
+        "mode": "frame",
+        "frame": 640.000015008645,
+        "opened": true,
+        "neon": 0,
+        "hour": 0,
+        "wipes": 34
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 34,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 89,
+      "resets": 0,
+      "frames": 1888,
+      "fps": 57.4432869243449,
+      "state": {
+        "mode": "frame",
+        "frame": 609.999984991355,
+        "opened": true,
+        "neon": 1,
+        "hour": 0,
+        "wipes": 34
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 34,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 107,
+      "resets": 0,
+      "frames": 2261,
+      "fps": 56.062067477795836,
+      "state": {
+        "mode": "frame",
+        "frame": 579.9999966647456,
+        "opened": true,
+        "neon": 1,
+        "hour": 1,
+        "wipes": 34
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 34,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 125,
+      "resets": 0,
+      "frames": 2682,
+      "fps": 55.94434768097955,
+      "state": {
+        "mode": "wipe",
+        "frame": 579.9999966647456,
+        "opened": true,
+        "neon": 1,
+        "hour": 1,
+        "wipes": 51
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 51,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 143,
+      "resets": 0,
+      "frames": 2957,
+      "fps": 53.207090200138595,
+      "state": {
+        "mode": "wipe",
+        "frame": 579.9999966647456,
+        "opened": true,
+        "neon": 2,
+        "hour": 1,
+        "wipes": 68
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 68,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 161,
+      "resets": 0,
+      "frames": 3343,
+      "fps": 51.86419431308673,
+      "state": {
+        "mode": "wipe",
+        "frame": 579.9999966647456,
+        "opened": false,
+        "neon": 2,
+        "hour": 1,
+        "wipes": 85
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 85,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    }
+  ],
+  "composed": {
+    "inputs": 161,
+    "resets": 0,
+    "frames": 3344,
+    "fps": 51.86490309452076,
+    "state": {
+      "mode": "wipe",
+      "frame": 579.9999966647456,
+      "opened": false,
+      "neon": 2,
+      "hour": 1,
+      "wipes": 85
+    },
+    "bounded": true,
+    "counts": {
+      "wipes": 85,
+      "cap": 700,
+      "rainDrops": 170
+    }
+  },
+  "final": {
+    "inputs": 178,
+    "resets": 1,
+    "frames": 3459,
+    "fps": 51.73048105309095,
+    "state": {
+      "mode": "wipe",
+      "frame": 500,
+      "opened": false,
+      "neon": 0,
+      "hour": 0,
+      "wipes": 17
+    },
+    "bounded": true,
+    "counts": {
+      "wipes": 17,
+      "cap": 700,
+      "rainDrops": 170
+    }
+  },
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 7,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00010501623402809853,
+      "errors": 0,
+      "musicNotes": 5,
+      "fxNotes": 7
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0013675418437931253,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 15
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.004550943863832436,
+      "errors": 0,
+      "musicNotes": 43,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.011854127472030646,
+      "errors": 0,
+      "musicNotes": 62,
+      "fxNotes": 19
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 7,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.001779830394165772,
+      "errors": 0,
+      "musicNotes": 80,
+      "fxNotes": 21
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0006415006097083217,
+      "errors": 0,
+      "musicNotes": 99,
+      "fxNotes": 23
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00016723914446389234,
+      "errors": 0,
+      "musicNotes": 118,
+      "fxNotes": 33
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0023838351611519186,
+      "errors": 0,
+      "musicNotes": 137,
+      "fxNotes": 43
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0003480137517119152,
+      "errors": 0,
+      "musicNotes": 159,
+      "fxNotes": 55
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 7,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00018335414460858183,
+      "errors": 0,
+      "musicNotes": 164,
+      "fxNotes": 64
+    }
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 7,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 159,
+    "fxNotes": 55
+  },
+  "resetAudio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 7,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 159,
+    "fxNotes": 55
+  },
+  "blur": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 7,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 166,
+      "fxNotes": 64
+    }
+  },
+  "errors": [],
+  "measurement": "WebAudio analyser post-master RMS; fx/music counters recorded separately. Browser mobile emulation with trusted CDP touch; no physical handset or human listening.",
+  "passed": true
+}

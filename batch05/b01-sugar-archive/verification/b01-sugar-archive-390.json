@@ -1,0 +1,573 @@
+{
+  "slug": "b01-sugar-archive",
+  "width": 390,
+  "realInput": "trusted CDP touch",
+  "humanListening": false,
+  "physicalPhone": false,
+  "elapsedMs": 65123,
+  "activeMaxRms": 0.010113992794769143,
+  "musicNotes": 174,
+  "fxNotes": 90,
+  "peakNodes": 12,
+  "maxVoices": 5,
+  "art": {
+    "inputs": 324,
+    "resets": 0,
+    "state": {
+      "foil": 1,
+      "opened": false,
+      "twist": 0,
+      "creases": 0,
+      "stamps": 1,
+      "collected": 3
+    },
+    "bounded": true,
+    "counts": {
+      "unwrap": 20,
+      "crumple": 54,
+      "twist": 54,
+      "stamp": 190,
+      "foil": 3,
+      "collect": 3
+    },
+    "frames": 1687
+  },
+  "muted": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 178,
+      "fxNotes": 90
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 178,
+      "fxNotes": 90
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 178,
+      "fxNotes": 90
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 178,
+      "fxNotes": 90
+    }
+  ],
+  "reset": {
+    "art": {
+      "inputs": 394,
+      "resets": 2,
+      "state": {
+        "foil": 0,
+        "opened": false,
+        "twist": 0,
+        "creases": 0,
+        "stamps": 0,
+        "collected": 0
+      },
+      "bounded": true,
+      "counts": {
+        "unwrap": 20,
+        "crumple": 54,
+        "twist": 54,
+        "stamp": 258,
+        "foil": 3,
+        "collect": 3,
+        "reset": 2
+      },
+      "frames": 1953
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 178,
+      "fxNotes": 90
+    }
+  },
+  "overflow": false,
+  "errors": [],
+  "consoleErrors": [],
+  "stateChanges": [
+    {
+      "control": "#unwrap",
+      "art": {
+        "inputs": 18,
+        "resets": 0,
+        "state": {
+          "foil": 0,
+          "opened": true,
+          "twist": 0,
+          "creases": 0,
+          "stamps": 0,
+          "collected": 0
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 18
+        },
+        "frames": 93
+      }
+    },
+    {
+      "control": "#crumple",
+      "art": {
+        "inputs": 36,
+        "resets": 0,
+        "state": {
+          "foil": 0,
+          "opened": true,
+          "twist": 0,
+          "creases": 17,
+          "stamps": 0,
+          "collected": 0
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 18,
+          "crumple": 18
+        },
+        "frames": 206
+      }
+    },
+    {
+      "control": "#twist",
+      "art": {
+        "inputs": 54,
+        "resets": 0,
+        "state": {
+          "foil": 0,
+          "opened": true,
+          "twist": 0.5500000681957052,
+          "creases": 17,
+          "stamps": 0,
+          "collected": 0
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 18,
+          "crumple": 18,
+          "twist": 18
+        },
+        "frames": 319
+      }
+    },
+    {
+      "control": "#stamp",
+      "art": {
+        "inputs": 72,
+        "resets": 0,
+        "state": {
+          "foil": 0,
+          "opened": true,
+          "twist": 0.5500000681957052,
+          "creases": 17,
+          "stamps": 1,
+          "collected": 0
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 18,
+          "crumple": 18,
+          "twist": 18,
+          "stamp": 18
+        },
+        "frames": 420
+      }
+    },
+    {
+      "control": "#foil",
+      "art": {
+        "inputs": 90,
+        "resets": 0,
+        "state": {
+          "foil": 1,
+          "opened": true,
+          "twist": 0.5500000681957052,
+          "creases": 17,
+          "stamps": 2,
+          "collected": 0
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 18,
+          "crumple": 18,
+          "twist": 18,
+          "stamp": 35,
+          "foil": 1
+        },
+        "frames": 527
+      }
+    },
+    {
+      "control": "#collect",
+      "art": {
+        "inputs": 108,
+        "resets": 0,
+        "state": {
+          "foil": 2,
+          "opened": false,
+          "twist": 0,
+          "creases": 0,
+          "stamps": 1,
+          "collected": 1
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 18,
+          "crumple": 18,
+          "twist": 18,
+          "stamp": 52,
+          "foil": 1,
+          "collect": 1
+        },
+        "frames": 635
+      }
+    },
+    {
+      "control": "#unwrap",
+      "art": {
+        "inputs": 126,
+        "resets": 0,
+        "state": {
+          "foil": 2,
+          "opened": true,
+          "twist": 0,
+          "creases": 0,
+          "stamps": 2,
+          "collected": 1
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 19,
+          "crumple": 18,
+          "twist": 18,
+          "stamp": 69,
+          "foil": 1,
+          "collect": 1
+        },
+        "frames": 732
+      }
+    },
+    {
+      "control": "#crumple",
+      "art": {
+        "inputs": 144,
+        "resets": 0,
+        "state": {
+          "foil": 2,
+          "opened": true,
+          "twist": 0,
+          "creases": 17,
+          "stamps": 2,
+          "collected": 1
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 19,
+          "crumple": 36,
+          "twist": 18,
+          "stamp": 69,
+          "foil": 1,
+          "collect": 1
+        },
+        "frames": 820
+      }
+    },
+    {
+      "control": "#twist",
+      "art": {
+        "inputs": 162,
+        "resets": 0,
+        "state": {
+          "foil": 2,
+          "opened": true,
+          "twist": 0.949999846559663,
+          "creases": 17,
+          "stamps": 2,
+          "collected": 1
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 19,
+          "crumple": 36,
+          "twist": 36,
+          "stamp": 69,
+          "foil": 1,
+          "collect": 1
+        },
+        "frames": 909
+      }
+    },
+    {
+      "control": "#stamp",
+      "art": {
+        "inputs": 180,
+        "resets": 0,
+        "state": {
+          "foil": 2,
+          "opened": true,
+          "twist": 0.949999846559663,
+          "creases": 17,
+          "stamps": 3,
+          "collected": 1
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 19,
+          "crumple": 36,
+          "twist": 36,
+          "stamp": 87,
+          "foil": 1,
+          "collect": 1
+        },
+        "frames": 996
+      }
+    },
+    {
+      "control": "#foil",
+      "art": {
+        "inputs": 198,
+        "resets": 0,
+        "state": {
+          "foil": 3,
+          "opened": true,
+          "twist": 0.949999846559663,
+          "creases": 17,
+          "stamps": 4,
+          "collected": 1
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 19,
+          "crumple": 36,
+          "twist": 36,
+          "stamp": 104,
+          "foil": 2,
+          "collect": 1
+        },
+        "frames": 1078
+      }
+    },
+    {
+      "control": "#collect",
+      "art": {
+        "inputs": 216,
+        "resets": 0,
+        "state": {
+          "foil": 4,
+          "opened": false,
+          "twist": 0,
+          "creases": 0,
+          "stamps": 1,
+          "collected": 2
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 19,
+          "crumple": 36,
+          "twist": 36,
+          "stamp": 121,
+          "foil": 2,
+          "collect": 2
+        },
+        "frames": 1171
+      }
+    },
+    {
+      "control": "#unwrap",
+      "art": {
+        "inputs": 234,
+        "resets": 0,
+        "state": {
+          "foil": 4,
+          "opened": true,
+          "twist": 0,
+          "creases": 0,
+          "stamps": 2,
+          "collected": 2
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 20,
+          "crumple": 36,
+          "twist": 36,
+          "stamp": 138,
+          "foil": 2,
+          "collect": 2
+        },
+        "frames": 1260
+      }
+    },
+    {
+      "control": "#crumple",
+      "art": {
+        "inputs": 252,
+        "resets": 0,
+        "state": {
+          "foil": 4,
+          "opened": true,
+          "twist": 0,
+          "creases": 17,
+          "stamps": 2,
+          "collected": 2
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 20,
+          "crumple": 54,
+          "twist": 36,
+          "stamp": 138,
+          "foil": 2,
+          "collect": 2
+        },
+        "frames": 1346
+      }
+    },
+    {
+      "control": "#twist",
+      "art": {
+        "inputs": 270,
+        "resets": 0,
+        "state": {
+          "foil": 4,
+          "opened": true,
+          "twist": 0.5500000681957052,
+          "creases": 17,
+          "stamps": 2,
+          "collected": 2
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 20,
+          "crumple": 54,
+          "twist": 54,
+          "stamp": 138,
+          "foil": 2,
+          "collect": 2
+        },
+        "frames": 1432
+      }
+    },
+    {
+      "control": "#stamp",
+      "art": {
+        "inputs": 288,
+        "resets": 0,
+        "state": {
+          "foil": 4,
+          "opened": true,
+          "twist": 0.5500000681957052,
+          "creases": 17,
+          "stamps": 3,
+          "collected": 2
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 20,
+          "crumple": 54,
+          "twist": 54,
+          "stamp": 156,
+          "foil": 2,
+          "collect": 2
+        },
+        "frames": 1516
+      }
+    },
+    {
+      "control": "#foil",
+      "art": {
+        "inputs": 306,
+        "resets": 0,
+        "state": {
+          "foil": 0,
+          "opened": true,
+          "twist": 0.5500000681957052,
+          "creases": 17,
+          "stamps": 4,
+          "collected": 2
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 20,
+          "crumple": 54,
+          "twist": 54,
+          "stamp": 173,
+          "foil": 3,
+          "collect": 2
+        },
+        "frames": 1600
+      }
+    },
+    {
+      "control": "#collect",
+      "art": {
+        "inputs": 324,
+        "resets": 0,
+        "state": {
+          "foil": 1,
+          "opened": false,
+          "twist": 0,
+          "creases": 0,
+          "stamps": 1,
+          "collected": 3
+        },
+        "bounded": true,
+        "counts": {
+          "unwrap": 20,
+          "crumple": 54,
+          "twist": 54,
+          "stamp": 190,
+          "foil": 3,
+          "collect": 3
+        },
+        "frames": 1675
+      }
+    }
+  ],
+  "pass": true
+}

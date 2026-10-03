@@ -1,0 +1,56 @@
+{
+  "title": "果冻切面",
+  "group": "B",
+  "slug": "b02-jelly-slice",
+  "description": "叠一座透明甜品，再让它弹、倾斜、露出切面。",
+  "instructions": [
+    "轮换五种口味",
+    "最多八层，反复组合",
+    "点按或拖动戳弹",
+    "拖动控制倾斜",
+    "拖动改变剖面的宽度",
+    "点按落下果粒与薄荷"
+  ],
+  "testControls": [
+    "#flavour",
+    "#stack",
+    "#poke",
+    "#tilt",
+    "#cut",
+    "#garnish"
+  ],
+  "referenceURLs": [
+    "https://shop.bompasandparr.com/products/copy-of-jelly-with-bompas-parr"
+  ],
+  "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+  "mechanism": "轮换五种口味; 最多八层，反复组合; 点按或拖动戳弹; 拖动控制倾斜; 拖动改变剖面的宽度; 点按落下果粒与薄荷",
+  "limits": {
+    "canvas": [
+      900,
+      1000
+    ],
+    "collection": 4,
+    "marks": {
+      "layers": 8,
+      "garnishes": 32
+    }
+  },
+  "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+  "audio": {
+    "original": "WebAudio procedural score and operation tones",
+    "seed": 303,
+    "tempo": 93,
+    "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+    "maxNodes": 26,
+    "maxVoices": 12,
+    "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+  },
+  "selfCheck": {
+    "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+    "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+    "evidence": "../evidence-b01-b05/",
+    "screenshots": "../previews/b02-jelly-slice-{1440,390}-{initial,interacted}.png",
+    "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+    "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+  }
+}

@@ -1,0 +1,10 @@
+糖光折炼
+
+拉糖
+结糖
+敲碎
+热熔
+换味
+
+解压后直接打开index.html，保持所有文件在同一目录。首次手势启用原创合成音乐和音效；静音关闭输出，重置保留静音，失焦/离开停止音频。
+技术：Canvas 2D + original procedural Web Audio; local-only assets

@@ -1,0 +1,518 @@
+{
+  "musicRmsMax": 0.006140262113607564,
+  "fxRmsMax": 0.012855067753495254,
+  "fxIsolation": "Test temporarily replaced sequence with a no-op and called reset to clear music voices, then triggered an actual trusted button click. Original sequence restored after sampling. No shipped-code change.",
+  "music": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.006140262113607564,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0030819441840007557,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0008442301006966664,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00035592674726942175,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0006742249854877337,
+      "errors": 0,
+      "musicNotes": 9,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0028198095832829713,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 1
+    }
+  ],
+  "fx": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.012855067753495254,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.004632538195270025,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.000131073860297007,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00002356659578873134,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.000009913978344368289,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 4,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 4,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 4,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 10,
+      "fxNotes": 2
+    }
+  ],
+  "initial": {
+    "inputs": 2,
+    "resets": 0,
+    "frames": 255,
+    "fps": 37.58456527184518,
+    "state": {
+      "page": 0,
+      "mode": "move",
+      "items": [
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 272,
+            "y": 278,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 409,
+            "y": 361,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stamps": [
+        8,
+        6,
+        6
+      ],
+      "itemCap": 54
+    }
+  },
+  "composed": {
+    "inputs": 38,
+    "resets": 0,
+    "frames": 382,
+    "fps": 37.403309507490455,
+    "state": {
+      "page": 0,
+      "mode": "move",
+      "items": [
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 622.0000000000006,
+            "y": 468.0000374095869,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 409,
+            "y": 361,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stamps": [
+        8,
+        6,
+        6
+      ],
+      "itemCap": 54
+    }
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 4,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 3
+    }
+  },
+  "errors": [],
+  "passed": true
+}

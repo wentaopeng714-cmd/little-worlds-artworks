@@ -1,0 +1,396 @@
+{
+  "slug": "b15-neon-window",
+  "device": "desktop",
+  "durationMs": 116202,
+  "controlsVisible": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "state": {
+      "mode": "wipe",
+      "frame": 500,
+      "opened": false,
+      "neon": 0,
+      "hour": 0,
+      "wipes": 0
+    },
+    "bounded": true,
+    "counts": {
+      "wipes": 0,
+      "cap": 700,
+      "rainDrops": 170
+    }
+  },
+  "stages": [
+    {
+      "inputs": 51,
+      "resets": 0,
+      "state": {
+        "mode": "wipe",
+        "frame": 500,
+        "opened": false,
+        "neon": 0,
+        "hour": 0,
+        "wipes": 50
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 50,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 77,
+      "resets": 0,
+      "state": {
+        "mode": "frame",
+        "frame": 669.9999850363914,
+        "opened": false,
+        "neon": 0,
+        "hour": 0,
+        "wipes": 50
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 50,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 103,
+      "resets": 0,
+      "state": {
+        "mode": "frame",
+        "frame": 639.999970072783,
+        "opened": true,
+        "neon": 0,
+        "hour": 0,
+        "wipes": 50
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 50,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 129,
+      "resets": 0,
+      "state": {
+        "mode": "frame",
+        "frame": 610.000029927217,
+        "opened": true,
+        "neon": 1,
+        "hour": 0,
+        "wipes": 50
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 50,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 155,
+      "resets": 0,
+      "state": {
+        "mode": "frame",
+        "frame": 580.0000149636086,
+        "opened": true,
+        "neon": 1,
+        "hour": 1,
+        "wipes": 50
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 50,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 181,
+      "resets": 0,
+      "state": {
+        "mode": "wipe",
+        "frame": 580.0000149636086,
+        "opened": true,
+        "neon": 1,
+        "hour": 1,
+        "wipes": 75
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 75,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 207,
+      "resets": 0,
+      "state": {
+        "mode": "wipe",
+        "frame": 580.0000149636086,
+        "opened": true,
+        "neon": 2,
+        "hour": 1,
+        "wipes": 100
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 100,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    },
+    {
+      "inputs": 233,
+      "resets": 0,
+      "state": {
+        "mode": "wipe",
+        "frame": 580.0000149636086,
+        "opened": false,
+        "neon": 2,
+        "hour": 1,
+        "wipes": 125
+      },
+      "bounded": true,
+      "counts": {
+        "wipes": 125,
+        "cap": 700,
+        "rainDrops": 170
+      }
+    }
+  ],
+  "composed": {
+    "inputs": 233,
+    "resets": 0,
+    "state": {
+      "mode": "wipe",
+      "frame": 580.0000149636086,
+      "opened": false,
+      "neon": 2,
+      "hour": 1,
+      "wipes": 125
+    },
+    "bounded": true,
+    "counts": {
+      "wipes": 125,
+      "cap": 700,
+      "rainDrops": 170
+    }
+  },
+  "final": {
+    "inputs": 258,
+    "resets": 1,
+    "state": {
+      "mode": "wipe",
+      "frame": 500,
+      "opened": false,
+      "neon": 0,
+      "hour": 0,
+      "wipes": 25
+    },
+    "bounded": true,
+    "counts": {
+      "wipes": 25,
+      "cap": 700,
+      "rainDrops": 170
+    }
+  },
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.005778781155084342,
+      "errors": 0,
+      "musicNotes": 19,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.011030591943769963,
+      "errors": 0,
+      "musicNotes": 50,
+      "fxNotes": 50
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00863857178297163,
+      "errors": 0,
+      "musicNotes": 72,
+      "fxNotes": 52
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0042265331673961,
+      "errors": 0,
+      "musicNotes": 99,
+      "fxNotes": 54
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0000806395004198385,
+      "errors": 0,
+      "musicNotes": 139,
+      "fxNotes": 56
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.001888262578213739,
+      "errors": 0,
+      "musicNotes": 174,
+      "fxNotes": 58
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0001639125403078453,
+      "errors": 0,
+      "musicNotes": 213,
+      "fxNotes": 83
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.004184802291355843,
+      "errors": 0,
+      "musicNotes": 243,
+      "fxNotes": 109
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00235677567374498,
+      "errors": 0,
+      "musicNotes": 267,
+      "fxNotes": 128
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00023440544018427296,
+      "errors": 0,
+      "musicNotes": 281,
+      "fxNotes": 148
+    }
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 7,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 268,
+    "fxNotes": 128
+  },
+  "resetAudio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 7,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 268,
+    "fxNotes": 128
+  },
+  "blur": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 7,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 282,
+      "fxNotes": 148
+    }
+  },
+  "errors": [],
+  "measurement": "WebAudio analyser post-master RMS; fx/music counters recorded separately. Browser mobile emulation with trusted CDP touch; no physical handset or human listening.",
+  "passed": true
+}

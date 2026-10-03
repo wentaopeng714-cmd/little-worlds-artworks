@@ -1,0 +1,130 @@
+{
+  "zip": "evidence/offline-artwork.zip",
+  "sourceFiles": [
+    "LICENSE.txt",
+    "art.js",
+    "audio.js",
+    "index.html",
+    "metadata.json",
+    "preview.png",
+    "style.css",
+    "实测报告.json",
+    "来源与许可.json",
+    "说明.txt"
+  ],
+  "mode": "file:// with browser offline:true; every resource local; real touch/click; no server required",
+  "audio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 3,
+    "peakVoices": 4,
+    "nodeCount": 8,
+    "nodeLimit": 26,
+    "rms": 0.004267458928484966,
+    "errors": 0,
+    "musicNotes": 8,
+    "fxNotes": 1
+  },
+  "state": {
+    "inputs": 1,
+    "resets": 0,
+    "frames": 191,
+    "fps": 78.6882544391853,
+    "state": {
+      "speed": 2,
+      "angle": 0,
+      "fanY": 330,
+      "endpoints": [
+        [
+          494,
+          481
+        ],
+        [
+          586,
+          504
+        ],
+        [
+          678,
+          547
+        ],
+        [
+          687,
+          533
+        ],
+        [
+          662,
+          518
+        ],
+        [
+          806,
+          541
+        ],
+        [
+          841,
+          529
+        ],
+        [
+          833,
+          452
+        ]
+      ],
+      "windCoefficients": [
+        0.142,
+        0.585,
+        0.625,
+        0.402,
+        0.485,
+        0.443,
+        0.342,
+        0.253
+      ],
+      "affected": 6,
+      "mode": "move",
+      "clipped": 1,
+      "free": 0,
+      "positions": [
+        [
+          465,
+          230
+        ],
+        [
+          514,
+          265
+        ],
+        [
+          563,
+          300
+        ],
+        [
+          612,
+          230
+        ],
+        [
+          661,
+          265
+        ],
+        [
+          710,
+          300
+        ],
+        [
+          759,
+          230
+        ],
+        [
+          789,
+          194
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "ribbons": 8,
+      "cap": 20
+    }
+  },
+  "errors": [],
+  "passed": true
+}

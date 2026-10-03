@@ -1,0 +1,29 @@
+{
+  "title": "风的桌面",
+  "group": "B",
+  "slug": "b11-wind-desk",
+  "description": "薄荷色金属风扇，拂动一桌丝绸长带。挂带、夹住、放飞，再拖动扇轴把风导向不同方向。",
+  "instructions": "拖动风扇圆心调风向；拖支杆升降；风锥内丝带响应、锥外自然垂落；挂点可以重排。",
+  "testControls": [
+    "#mute",
+    "#reset",
+    "#add",
+    "#speed",
+    "#clip",
+    "#release"
+  ],
+  "referenceURLs": [
+    "https://www.creativeboom.com/news/rainbow-ribbons/"
+  ],
+  "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+  "mechanism": "扇轴方向决定锥形气流；前向投影距离、离轴横距和距离衰减为每条带计算独立受力系数。拖动扇轴让受风带逐条交接，风锥外自然垂落；拖支杆升降改变风域中心，夹住/放飞与挂点位置独立保存。",
+  "music": {
+    "type": "original procedural score and interaction FX",
+    "firstGestureUnlock": true,
+    "mute": "post-master zero gain",
+    "resetRetainsMute": true,
+    "lifecycle": "blur/pagehide/hidden suspend and release voices",
+    "nodeLimit": 26
+  },
+  "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束"
+}

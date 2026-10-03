@@ -1,0 +1,57 @@
+{
+  "title": "奶沫练习室",
+  "group": "B",
+  "slug": "b04-foam-studio",
+  "description": "让奶白与焦糖，成为杯中一幅缓慢完成的画。",
+  "instructions": [
+    "慢拖浇出宽奶沫",
+    "细拖牵动奶沫形成细羽",
+    "拖动改变整杯角度",
+    "点按撒上星点",
+    "自动浇一片可再拉动的叶",
+    "收藏这一杯再开新杯"
+  ],
+  "testControls": [
+    "#pour",
+    "#needle",
+    "#rotate",
+    "#cocoa",
+    "#rosetta",
+    "#serve"
+  ],
+  "referenceURLs": [
+    "https://espressovivace.com/latte-art-gallery/"
+  ],
+  "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+  "mechanism": "慢拖浇出宽奶沫; 细拖牵动奶沫形成细羽; 拖动改变整杯角度; 点按撒上星点; 自动浇一片可再拉动的叶; 收藏这一杯再开新杯",
+  "limits": {
+    "canvas": [
+      900,
+      1000
+    ],
+    "collection": 4,
+    "marks": {
+      "foam": 360,
+      "powder": 240,
+      "cups": 3
+    }
+  },
+  "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+  "audio": {
+    "original": "WebAudio procedural score and operation tones",
+    "seed": 305,
+    "tempo": 84,
+    "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+    "maxNodes": 26,
+    "maxVoices": 12,
+    "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+  },
+  "selfCheck": {
+    "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+    "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+    "evidence": "../evidence-b01-b05/",
+    "screenshots": "../previews/b04-foam-studio-{1440,390}-{initial,interacted}.png",
+    "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+    "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+  }
+}

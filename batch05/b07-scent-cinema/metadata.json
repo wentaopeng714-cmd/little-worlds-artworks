@@ -1,0 +1,54 @@
+{
+  "title": "香气试映室",
+  "group": "B",
+  "slug": "b07-scent-cinema",
+  "description": "把花、柑橘与木调喷进光里。转动瓶身，留下属于此刻的试香签。",
+  "instructions": [
+    "花调",
+    "柑调",
+    "木调",
+    "转瓶",
+    "采样",
+    "清风"
+  ],
+  "testControls": [
+    "#tool-0",
+    "#tool-1",
+    "#tool-2",
+    "#tool-3",
+    "#tool-4",
+    "#tool-5"
+  ],
+  "referenceURLs": [
+    "https://www.rawpixel.com/image/13881895/perfume-light-leaks-bottle-cosmetics-glowing"
+  ],
+  "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+  "mechanism": "观察暖橙与冷蓝交错的透光瓶及薄雾层次；未下载使用该照片，未依赖照片许可。",
+  "caps": {
+    "mist": 180,
+    "samples": 5,
+    "dpr": 2,
+    "targetRenderFPS": 60
+  },
+  "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "consoleErrors": 0,
+    "horizontalOverflow": false,
+    "minButtonHeight": 44,
+    "testedDurationSeconds": [
+      101.052,
+      74.068
+    ],
+    "trustedPointerInput": true,
+    "musicAndFxMeasuredSeparately": true,
+    "muteRms": 0,
+    "resetPreservesMute": true,
+    "blurAndPagehideStop": true,
+    "offlineHttpRequests": 0,
+    "limitations": "Headless Chromium simulation, not physical handset or human listening."
+  }
+}

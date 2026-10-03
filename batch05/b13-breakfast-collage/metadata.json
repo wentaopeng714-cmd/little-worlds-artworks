@@ -1,0 +1,33 @@
+{
+  "title": "晨光吐司拼贴",
+  "group": "B",
+  "slug": "b13-breakfast-collage",
+  "description": "把早餐当作一幅静物画：叠涂果酱、摆水果、压出焦香烤纹，再切开重组你的吐司拼贴。",
+  "instructions": "选果酱后在吐司上拖涂；选水果后点击摆放；切开后拖动四片吐司重新拼图。",
+  "testControls": [
+    "#mute",
+    "#reset",
+    "#jam0",
+    "#jam1",
+    "#jam2",
+    "#fruit0",
+    "#fruit1",
+    "#fruit2",
+    "#grill",
+    "#cut"
+  ],
+  "referenceURLs": [
+    "https://www.donnahay.com.au/recipes/breakfast"
+  ],
+  "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+  "mechanism": "选果酱后在吐司上拖涂；选水果后点击摆放；切开后拖动四片吐司重新拼图。",
+  "music": {
+    "type": "original procedural score and interaction FX",
+    "firstGestureUnlock": true,
+    "mute": "post-master zero gain",
+    "resetRetainsMute": true,
+    "lifecycle": "blur/pagehide/hidden suspend and release voices",
+    "nodeLimit": 26
+  },
+  "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束"
+}

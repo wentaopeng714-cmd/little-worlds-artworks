@@ -1,0 +1,638 @@
+{
+  "slug": "b12-crystal-cabinet",
+  "device": "mobile",
+  "durationMs": 65617,
+  "controlsVisible": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "frames": 81,
+    "fps": 73.85120350129476,
+    "state": {
+      "tool": "crack",
+      "lamp": 0,
+      "chosen": 0,
+      "stones": [
+        {
+          "x": 280,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 505,
+          "y": 420,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 730,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stones": 3,
+      "facets": 54,
+      "dust": 90
+    }
+  },
+  "stages": [
+    {
+      "inputs": 26,
+      "resets": 0,
+      "frames": 809,
+      "fps": 74.62686567168282,
+      "state": {
+        "tool": "crack",
+        "lamp": 0,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 600.0000166762723,
+            "y": 419.9999956114481,
+            "shell": 11,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 44,
+      "resets": 0,
+      "frames": 1347,
+      "fps": 74.60082742122854,
+      "state": {
+        "tool": "brush",
+        "lamp": 0,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 600.0000166762723,
+            "y": 419.9999956114481,
+            "shell": 11,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 62,
+      "resets": 0,
+      "frames": 1884,
+      "fps": 74.65288784632848,
+      "state": {
+        "tool": "light",
+        "lamp": 1.4999999374639792,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 600.0000166762723,
+            "y": 419.9999956114481,
+            "shell": 11,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 80,
+      "resets": 0,
+      "frames": 2358,
+      "fps": 72.81688314095946,
+      "state": {
+        "tool": "light",
+        "lamp": 2.9999998749279584,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 250,
+            "y": 594,
+            "shell": 11,
+            "dust": 30,
+            "inCab": true
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 89,
+      "resets": 0,
+      "frames": 2785,
+      "fps": 70.16792431438253,
+      "state": {
+        "tool": "crack",
+        "lamp": 2.9999998749279584,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 250,
+            "y": 594,
+            "shell": 11,
+            "dust": 30,
+            "inCab": true
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 107,
+      "resets": 0,
+      "frames": 3340,
+      "fps": 71.23251444378535,
+      "state": {
+        "tool": "brush",
+        "lamp": 2.9999998749279584,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 250,
+            "y": 594,
+            "shell": 11,
+            "dust": 30,
+            "inCab": true
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 125,
+      "resets": 0,
+      "frames": 3813,
+      "fps": 70.2442798717807,
+      "state": {
+        "tool": "light",
+        "lamp": 4.499999812391939,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 250,
+            "y": 594,
+            "shell": 11,
+            "dust": 30,
+            "inCab": true
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 143,
+      "resets": 0,
+      "frames": 4257,
+      "fps": 68.3602845534983,
+      "state": {
+        "tool": "light",
+        "lamp": 5.99999974985592,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 280,
+            "y": 350,
+            "shell": 11,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    }
+  ],
+  "composed": {
+    "inputs": 143,
+    "resets": 0,
+    "frames": 4257,
+    "fps": 68.35962590889892,
+    "state": {
+      "tool": "light",
+      "lamp": 5.99999974985592,
+      "chosen": 0,
+      "stones": [
+        {
+          "x": 280,
+          "y": 350,
+          "shell": 11,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 505,
+          "y": 420,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 730,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stones": 3,
+      "facets": 54,
+      "dust": 90
+    }
+  },
+  "final": {
+    "inputs": 160,
+    "resets": 1,
+    "frames": 4461,
+    "fps": 67.48446768052817,
+    "state": {
+      "tool": "crack",
+      "lamp": 0,
+      "chosen": 0,
+      "stones": [
+        {
+          "x": 600.0000166762723,
+          "y": 400.0000394969667,
+          "shell": 10,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 505,
+          "y": 420,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 730,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stones": 3,
+      "facets": 54,
+      "dust": 90
+    }
+  },
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0002205389197111453,
+      "errors": 0,
+      "musicNotes": 5,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.009026136275868825,
+      "errors": 0,
+      "musicNotes": 25,
+      "fxNotes": 10
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0002549996730217112,
+      "errors": 0,
+      "musicNotes": 43,
+      "fxNotes": 11
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005662701186201819,
+      "errors": 0,
+      "musicNotes": 62,
+      "fxNotes": 13
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.003928184529559986,
+      "errors": 0,
+      "musicNotes": 80,
+      "fxNotes": 14
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 7,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.006965576165079317,
+      "errors": 0,
+      "musicNotes": 99,
+      "fxNotes": 23
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.002425754662719631,
+      "errors": 0,
+      "musicNotes": 117,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 7,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00014148474934493454,
+      "errors": 0,
+      "musicNotes": 135,
+      "fxNotes": 26
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 7,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005660091126604682,
+      "errors": 0,
+      "musicNotes": 157,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 7,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0000715001364321759,
+      "errors": 0,
+      "musicNotes": 162,
+      "fxNotes": 29
+    }
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 7,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 157,
+    "fxNotes": 28
+  },
+  "resetAudio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 7,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 157,
+    "fxNotes": 28
+  },
+  "blur": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 7,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 167,
+      "fxNotes": 29
+    }
+  },
+  "errors": [],
+  "measurement": "WebAudio analyser post-master RMS; fx/music counters recorded separately. Browser mobile emulation with trusted CDP touch; no physical handset or human listening.",
+  "passed": true
+}

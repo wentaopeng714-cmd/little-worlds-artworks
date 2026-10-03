@@ -1,0 +1,491 @@
+{
+  "slug": "b03-rouge-impressions",
+  "width": 1440,
+  "realInput": "trusted mouse",
+  "humanListening": false,
+  "physicalPhone": false,
+  "elapsedMs": 65450,
+  "activeMaxRms": 0.010043393850798886,
+  "musicNotes": 165,
+  "fxNotes": 85,
+  "peakNodes": 12,
+  "maxVoices": 5,
+  "art": {
+    "inputs": 340,
+    "resets": 0,
+    "state": {
+      "shade": 3,
+      "marks": 1,
+      "pages": 2
+    },
+    "bounded": true,
+    "counts": {
+      "draw": 60,
+      "kiss": 60,
+      "emboss": 60,
+      "wipe": 155,
+      "shade": 3,
+      "page": 2
+    },
+    "frames": 2532
+  },
+  "muted": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 169,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 169,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 169,
+      "fxNotes": 85
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 169,
+      "fxNotes": 85
+    }
+  ],
+  "reset": {
+    "art": {
+      "inputs": 418,
+      "resets": 2,
+      "state": {
+        "shade": 0,
+        "marks": 110,
+        "pages": 0
+      },
+      "bounded": true,
+      "counts": {
+        "draw": 60,
+        "kiss": 60,
+        "emboss": 60,
+        "wipe": 231,
+        "shade": 3,
+        "page": 2,
+        "reset": 2
+      },
+      "frames": 2792
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 169,
+      "fxNotes": 85
+    }
+  },
+  "overflow": false,
+  "errors": [],
+  "consoleErrors": [],
+  "stateChanges": [
+    {
+      "control": "#draw",
+      "art": {
+        "inputs": 20,
+        "resets": 0,
+        "state": {
+          "shade": 0,
+          "marks": 129,
+          "pages": 0
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 20
+        },
+        "frames": 133
+      }
+    },
+    {
+      "control": "#kiss",
+      "art": {
+        "inputs": 40,
+        "resets": 0,
+        "state": {
+          "shade": 0,
+          "marks": 130,
+          "pages": 0
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 20,
+          "kiss": 20
+        },
+        "frames": 277
+      }
+    },
+    {
+      "control": "#emboss",
+      "art": {
+        "inputs": 60,
+        "resets": 0,
+        "state": {
+          "shade": 0,
+          "marks": 149,
+          "pages": 0
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 20,
+          "kiss": 20,
+          "emboss": 20
+        },
+        "frames": 411
+      }
+    },
+    {
+      "control": "#wipe",
+      "art": {
+        "inputs": 80,
+        "resets": 0,
+        "state": {
+          "shade": 0,
+          "marks": 97,
+          "pages": 0
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 20,
+          "kiss": 20,
+          "emboss": 20,
+          "wipe": 20
+        },
+        "frames": 544
+      }
+    },
+    {
+      "control": "#shade",
+      "art": {
+        "inputs": 100,
+        "resets": 0,
+        "state": {
+          "shade": 1,
+          "marks": 45,
+          "pages": 0
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 20,
+          "kiss": 20,
+          "emboss": 20,
+          "wipe": 39,
+          "shade": 1
+        },
+        "frames": 673
+      }
+    },
+    {
+      "control": "#page",
+      "art": {
+        "inputs": 120,
+        "resets": 0,
+        "state": {
+          "shade": 1,
+          "marks": 0,
+          "pages": 1
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 20,
+          "kiss": 20,
+          "emboss": 20,
+          "wipe": 58,
+          "shade": 1,
+          "page": 1
+        },
+        "frames": 822
+      }
+    },
+    {
+      "control": "#draw",
+      "art": {
+        "inputs": 140,
+        "resets": 0,
+        "state": {
+          "shade": 1,
+          "marks": 19,
+          "pages": 1
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 40,
+          "kiss": 20,
+          "emboss": 20,
+          "wipe": 58,
+          "shade": 1,
+          "page": 1
+        },
+        "frames": 984
+      }
+    },
+    {
+      "control": "#kiss",
+      "art": {
+        "inputs": 160,
+        "resets": 0,
+        "state": {
+          "shade": 1,
+          "marks": 20,
+          "pages": 1
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 40,
+          "kiss": 40,
+          "emboss": 20,
+          "wipe": 58,
+          "shade": 1,
+          "page": 1
+        },
+        "frames": 1127
+      }
+    },
+    {
+      "control": "#emboss",
+      "art": {
+        "inputs": 180,
+        "resets": 0,
+        "state": {
+          "shade": 1,
+          "marks": 39,
+          "pages": 1
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 40,
+          "kiss": 40,
+          "emboss": 40,
+          "wipe": 58,
+          "shade": 1,
+          "page": 1
+        },
+        "frames": 1292
+      }
+    },
+    {
+      "control": "#wipe",
+      "art": {
+        "inputs": 200,
+        "resets": 0,
+        "state": {
+          "shade": 1,
+          "marks": 9,
+          "pages": 1
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 40,
+          "kiss": 40,
+          "emboss": 40,
+          "wipe": 78,
+          "shade": 1,
+          "page": 1
+        },
+        "frames": 1425
+      }
+    },
+    {
+      "control": "#shade",
+      "art": {
+        "inputs": 220,
+        "resets": 0,
+        "state": {
+          "shade": 2,
+          "marks": 9,
+          "pages": 1
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 40,
+          "kiss": 40,
+          "emboss": 40,
+          "wipe": 97,
+          "shade": 2,
+          "page": 1
+        },
+        "frames": 1586
+      }
+    },
+    {
+      "control": "#page",
+      "art": {
+        "inputs": 240,
+        "resets": 0,
+        "state": {
+          "shade": 2,
+          "marks": 0,
+          "pages": 2
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 40,
+          "kiss": 40,
+          "emboss": 40,
+          "wipe": 116,
+          "shade": 2,
+          "page": 2
+        },
+        "frames": 1758
+      }
+    },
+    {
+      "control": "#draw",
+      "art": {
+        "inputs": 260,
+        "resets": 0,
+        "state": {
+          "shade": 2,
+          "marks": 19,
+          "pages": 2
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 60,
+          "kiss": 40,
+          "emboss": 40,
+          "wipe": 116,
+          "shade": 2,
+          "page": 2
+        },
+        "frames": 1895
+      }
+    },
+    {
+      "control": "#kiss",
+      "art": {
+        "inputs": 280,
+        "resets": 0,
+        "state": {
+          "shade": 2,
+          "marks": 20,
+          "pages": 2
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 60,
+          "kiss": 60,
+          "emboss": 40,
+          "wipe": 116,
+          "shade": 2,
+          "page": 2
+        },
+        "frames": 2021
+      }
+    },
+    {
+      "control": "#emboss",
+      "art": {
+        "inputs": 300,
+        "resets": 0,
+        "state": {
+          "shade": 2,
+          "marks": 39,
+          "pages": 2
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 60,
+          "kiss": 60,
+          "emboss": 60,
+          "wipe": 116,
+          "shade": 2,
+          "page": 2
+        },
+        "frames": 2190
+      }
+    },
+    {
+      "control": "#wipe",
+      "art": {
+        "inputs": 320,
+        "resets": 0,
+        "state": {
+          "shade": 2,
+          "marks": 15,
+          "pages": 2
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 60,
+          "kiss": 60,
+          "emboss": 60,
+          "wipe": 136,
+          "shade": 2,
+          "page": 2
+        },
+        "frames": 2343
+      }
+    },
+    {
+      "control": "#shade",
+      "art": {
+        "inputs": 340,
+        "resets": 0,
+        "state": {
+          "shade": 3,
+          "marks": 1,
+          "pages": 2
+        },
+        "bounded": true,
+        "counts": {
+          "draw": 60,
+          "kiss": 60,
+          "emboss": 60,
+          "wipe": 155,
+          "shade": 3,
+          "page": 2
+        },
+        "frames": 2499
+      }
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,616 @@
+{
+  "slug": "b12-crystal-cabinet",
+  "device": "desktop",
+  "durationMs": 134314,
+  "controlsVisible": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "state": {
+      "tool": "crack",
+      "lamp": 0,
+      "chosen": 0,
+      "stones": [
+        {
+          "x": 280,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 505,
+          "y": 420,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 730,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stones": 3,
+      "facets": 54,
+      "dust": 90
+    }
+  },
+  "stages": [
+    {
+      "inputs": 226,
+      "resets": 0,
+      "state": {
+        "tool": "crack",
+        "lamp": 0,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 600,
+            "y": 419.99997637289243,
+            "shell": 11,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 252,
+      "resets": 0,
+      "state": {
+        "tool": "brush",
+        "lamp": 0,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 600,
+            "y": 419.99997637289243,
+            "shell": 11,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 278,
+      "resets": 0,
+      "state": {
+        "tool": "light",
+        "lamp": 1.5,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 600,
+            "y": 419.99997637289243,
+            "shell": 11,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 304,
+      "resets": 0,
+      "state": {
+        "tool": "light",
+        "lamp": 2.999999999999998,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 250,
+            "y": 594,
+            "shell": 11,
+            "dust": 30,
+            "inCab": true
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 505,
+      "resets": 0,
+      "state": {
+        "tool": "crack",
+        "lamp": 2.999999999999998,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 250,
+            "y": 594,
+            "shell": 11,
+            "dust": 30,
+            "inCab": true
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 531,
+      "resets": 0,
+      "state": {
+        "tool": "brush",
+        "lamp": 2.999999999999998,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 250,
+            "y": 594,
+            "shell": 11,
+            "dust": 30,
+            "inCab": true
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 557,
+      "resets": 0,
+      "state": {
+        "tool": "light",
+        "lamp": 4.499999999999997,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 250,
+            "y": 594,
+            "shell": 11,
+            "dust": 30,
+            "inCab": true
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    },
+    {
+      "inputs": 583,
+      "resets": 0,
+      "state": {
+        "tool": "light",
+        "lamp": 6.0000000000000036,
+        "chosen": 0,
+        "stones": [
+          {
+            "x": 280,
+            "y": 350,
+            "shell": 11,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 505,
+            "y": 420,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          },
+          {
+            "x": 730,
+            "y": 350,
+            "shell": 12,
+            "dust": 30,
+            "inCab": false
+          }
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stones": 3,
+        "facets": 54,
+        "dust": 90
+      }
+    }
+  ],
+  "composed": {
+    "inputs": 583,
+    "resets": 0,
+    "state": {
+      "tool": "light",
+      "lamp": 6.0000000000000036,
+      "chosen": 0,
+      "stones": [
+        {
+          "x": 280,
+          "y": 350,
+          "shell": 11,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 505,
+          "y": 420,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 730,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stones": 3,
+      "facets": 54,
+      "dust": 90
+    }
+  },
+  "final": {
+    "inputs": 608,
+    "resets": 1,
+    "state": {
+      "tool": "crack",
+      "lamp": 0,
+      "chosen": 0,
+      "stones": [
+        {
+          "x": 600,
+          "y": 399.9999881864463,
+          "shell": 10,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 505,
+          "y": 420,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        },
+        {
+          "x": 730,
+          "y": 350,
+          "shell": 12,
+          "dust": 30,
+          "inCab": false
+        }
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stones": 3,
+      "facets": 54,
+      "dust": 90
+    }
+  },
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 4,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.011506021264726432,
+      "errors": 0,
+      "musicNotes": 19,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0016352376679693676,
+      "errors": 0,
+      "musicNotes": 85,
+      "fxNotes": 10
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00009143231202418367,
+      "errors": 0,
+      "musicNotes": 110,
+      "fxNotes": 12
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0027144535011932825,
+      "errors": 0,
+      "musicNotes": 150,
+      "fxNotes": 14
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00007143168450133422,
+      "errors": 0,
+      "musicNotes": 184,
+      "fxNotes": 16
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005805103465329789,
+      "errors": 0,
+      "musicNotes": 280,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0003875833001866902,
+      "errors": 0,
+      "musicNotes": 303,
+      "fxNotes": 27
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 5,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00009813693724673264,
+      "errors": 0,
+      "musicNotes": 320,
+      "fxNotes": 28
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0013689009778568093,
+      "errors": 0,
+      "musicNotes": 339,
+      "fxNotes": 29
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.009544265205369497,
+      "errors": 0,
+      "musicNotes": 344,
+      "fxNotes": 30
+    }
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 5,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 339,
+    "fxNotes": 29
+  },
+  "resetAudio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 5,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 339,
+    "fxNotes": 29
+  },
+  "blur": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 5,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 344,
+      "fxNotes": 30
+    }
+  },
+  "errors": [],
+  "measurement": "WebAudio analyser post-master RMS; fx/music counters recorded separately. Browser mobile emulation with trusted CDP touch; no physical handset or human listening.",
+  "passed": true
+}

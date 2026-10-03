@@ -1,0 +1,55 @@
+{
+  "title": "绳结染布",
+  "group": "B",
+  "slug": "b10-knot-dye",
+  "description": "先打结留下空白，再分区染入颜色。展开布面，读一张由你折叠过的彩色地图。",
+  "instructions": [
+    "打结",
+    "胭脂",
+    "靛蓝",
+    "金黄",
+    "展开",
+    "再折"
+  ],
+  "testControls": [
+    "#tool-0",
+    "#tool-1",
+    "#tool-2",
+    "#tool-3",
+    "#tool-4",
+    "#tool-5"
+  ],
+  "referenceURLs": [
+    "https://www.vam.ac.uk/articles/kimono"
+  ],
+  "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+  "mechanism": "V&A Kimono页面服饰与织物的构图，以及 https://kurier.at/ngen/so-funktioniert-die-japanische-batik-kunst-shibori/401417043 的扎结染布照片；只借鉴留白与折叠工艺，无图像、纹样或文字复制。",
+  "caps": {
+    "knots": 18,
+    "dyes": 18,
+    "weaveLines": 280,
+    "dpr": 2,
+    "targetRenderFPS": 20
+  },
+  "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "consoleErrors": 0,
+    "horizontalOverflow": false,
+    "minButtonHeight": 44,
+    "testedDurationSeconds": [
+      82.049,
+      69.627
+    ],
+    "trustedPointerInput": true,
+    "musicAndFxMeasuredSeparately": true,
+    "muteRms": 0,
+    "resetPreservesMute": true,
+    "blurAndPagehideStop": true,
+    "offlineHttpRequests": 0,
+    "limitations": "Headless Chromium simulation, not physical handset or human listening."
+  }
+}

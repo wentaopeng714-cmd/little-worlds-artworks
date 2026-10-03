@@ -1,0 +1,3 @@
+本作品程序绘制美术与程序生成音乐，没有外部图片、字体、录音依赖。
+技术：Canvas 2D + original Web Audio synthesis, fully local
+原创部分未附加公开开源许可，不保证AI生成内容独占权。

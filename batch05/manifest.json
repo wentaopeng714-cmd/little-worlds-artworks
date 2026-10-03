@@ -2,6 +2,7 @@
   "edition": "batch05",
   "groups": [
     "A",
+    "B",
     "C"
   ],
   "works": [
@@ -60,7 +61,7 @@
       },
       "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
       "zip": "a01-brass-orrery.zip",
-      "zipSha256": "07e6277698b565235a1197f95291529e1a586c820551f3b32fde71b474646a94",
+      "zipSha256": "0a22ccbf1e1c595cc4984d6ad974118016427000d727e1cbe7ff93a4204edc1f",
       "files": {
         "app.js": "4ac1c61f7e2b2ec449a884e0b65fdad13352cc087d8dda7584dd380f3968bf93",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -139,7 +140,7 @@
       },
       "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
       "zip": "a02-pendulum-score.zip",
-      "zipSha256": "95f23b6e722ff69fe01a1db6ceb473be6f61f91457fde9620f2fb35c415fde0f",
+      "zipSha256": "88eb183e318b04833bcd34c04ded202f895869485cd8c74d19d9babf965bbb82",
       "files": {
         "app.js": "46ffefc0276a5b284ad9759c36e0391cef9d86f7ec71c9cdfc061d21ddb547b9",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -222,7 +223,7 @@
       },
       "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
       "zip": "a03-tension-membrane.zip",
-      "zipSha256": "4d171046306f89546ee443f6055775626bc380186ca7740a1e15a7ff9cc14340",
+      "zipSha256": "56d306ff20bd6af344fcd1eb02735faf87924e6ca52a1526bfed01e4c66e985c",
       "files": {
         "app.js": "b88b8199f48567d42f533676e21d9f759ed6f8e649d321df7f85b09b8875118e",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -301,7 +302,7 @@
       },
       "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
       "zip": "a04-flip-leaf-array.zip",
-      "zipSha256": "35e44e665b8d7b2da3dd2a096da4c068a190efcc0421982a9ed28b738d969a5c",
+      "zipSha256": "e58fd9b2ff5d984a4b84f1c4fbefe24f70fca7fdf44d4ec658e6cb624e89de2a",
       "files": {
         "app.js": "ba5a27babb8878598b4ced1f6644439d9826c5d6bd97761ed7c275e16cbc8825",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -381,7 +382,7 @@
       "testNotes": "Chromium桌面1440×900、手机390×844模拟；真实鼠标及CDP触摸输入；每件每视口60–90秒；后master AnalyserNode测量输出，effects-only短时抑制音乐调度并等残音衰减后操作，随后恢复。非物理真机，未声称人工听音。",
       "visualStyle": "六边环晶体20面切割，逐面渐变反光、细纹、折射高光；实体黄铜轴套和螺钉关节",
       "zip": "a05-prism-joints.zip",
-      "zipSha256": "279da020a34332da0978877f1c40feefeb7ef2037e3453ad2ca56b11c0fa758a",
+      "zipSha256": "6fb0290d9cae7ee12539b9f0f261f36706043788b5ae1b6c0d169f2cdf5a9898",
       "files": {
         "app.js": "9f66a0b0670a60fde7ff152fc203518b9b69a8df69d1a9c2ea1319bd27b8903d",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -433,7 +434,7 @@
       "mainMechanism": "双盘旋转相位、刻槽、扫描与锁相；不是流彩或万花筒",
       "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
       "zip": "a06-diffraction-records.zip",
-      "zipSha256": "054ad1088f7243a6685b41b9b05b85e77fb85540866c0d76ecb46446d8afc919",
+      "zipSha256": "87f034843b056728ac9dcc141f7e631ee823a3a116cd82e9e7e352add27e741d",
       "files": {
         "art.js": "8dc88245eafa9518f3878bcb85233fab557cb7b41be2f4b6b1d69cfb3bdfd7fd",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -487,7 +488,7 @@
       "mainMechanism": "粗玻璃管控制点弯曲、充气、放电分支和循环；不是细丝网络切断修补",
       "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
       "zip": "a07-gaslight-sculpture.zip",
-      "zipSha256": "11bc110882fa7ed70225a036b9aae131481bd5535ad9dfe6be4c773305b56c7e",
+      "zipSha256": "eb397776d160c734ed37a98ab89f030d3bc6b76b42ebd9ce1b9a45f909749453",
       "files": {
         "art.js": "9917cf89db5ec157e37d4a40cacc0c6b83a3fd5523f669584370a768f4eec2f7",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -541,7 +542,7 @@
       "mainMechanism": "实体层云切片、开洞、剖面、压缩及太阳散射；不是星云粒子噪声",
       "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
       "zip": "a08-cloud-section.zip",
-      "zipSha256": "5a162536d90cd7f7b97a040e592d23c37e153753e09d21a48d5d7aaae48245cb",
+      "zipSha256": "5de1684c500ecf010be3766955343fa022f067362f2bf83b7bcd221f513a09d7",
       "files": {
         "art.js": "c89e89450bafc5b8517b7d3e72a23cd52a796379c460aec1a36c0f7b404614d5",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -596,7 +597,7 @@
       "mainMechanism": "三张实体胶片变换和光源导致多重投影；不是蓝晒曝光或流彩池",
       "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
       "zip": "a09-ink-film-projector.zip",
-      "zipSha256": "68b2e3e5c63462948db3073603caed2b3bec33194ba956948a417c9972d14b2d",
+      "zipSha256": "07149440d861e601bf58a34820b6b10b7ebd459106dcdec139caa80118be62d8",
       "files": {
         "art.js": "fa5cd31c03b5d6b77530cbc9ecd9f45f0b7da64af7c95e9c7b72e800ba61243a",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -650,7 +651,7 @@
       "mainMechanism": "宽阔光帘基点形变、折叠、锋面、高度与视角；不绘制织线或欧泊笔刷",
       "license": "参考仅为概念灵感，无引用图片、音频、角色或代码。p5.js原始许可保存在p5-LICENSE.txt。原创作品未附加公开许可。",
       "zip": "a10-aurora-front.zip",
-      "zipSha256": "b791ff0e0544c75e9f95c46500579fe4dc19bcd5e6a3c02e7007d1acc80131ac",
+      "zipSha256": "49381296b25fb2077f84300b0b74caac151e629073b38b462455a7d8d1db6117",
       "files": {
         "art.js": "091303438217b78ee817a68b9adfb1bbb4f4b15a54eecee81407a9b24634f657",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -768,7 +769,7 @@
         "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
       },
       "zip": "a11-chromatic-choir.zip",
-      "zipSha256": "c976918bad5ae07e7b6910e4917d04f731a2cc44ef02203d6f67fae2ee852e82",
+      "zipSha256": "2fa4c4324ca9aa8c7b7f5f95712e1d63e213944563263e764bc7df09ae4c3c75",
       "files": {
         "art.js": "68deeedc8ffee1f4761d1e44989d51319f26e80a1f2cb4c2aa529053ad8095a0",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -894,7 +895,7 @@
         "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
       },
       "zip": "a12-four-colour-press.zip",
-      "zipSha256": "5ec5bd06f5947f69a03a91c04f3b1199252afe6f3bde32c56cb3d518c10bdddf",
+      "zipSha256": "88cbc9e78d17cbdfcfd2d21316deac6e2d4f2eced522cab3a5f5053d851646ef",
       "files": {
         "art.js": "4befaafe438a8444b3b033a2504602150016fce6b7ed6456396da31aebf1deaf",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -1010,7 +1011,7 @@
         "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
       },
       "zip": "a13-single-sided-ribbon.zip",
-      "zipSha256": "653727b998eed69ad8568ce180454d2ee57b38d8fb37205041bbe71a8a7c65e5",
+      "zipSha256": "8ed15321ebeca69b1d9ab2701a56b968daedec10d369d6a381c21e001cc1d779",
       "files": {
         "art.js": "3d6ab85265b26adbc495a3fb46970e24f94792f43f04a33f19701780809d3484",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -1134,7 +1135,7 @@
         "finalVisualPatch": "已将枝条绘制微调为轻弯锥形珐琅枝、柔和接头与枝端；枝骨数据/剪枝/嫁接/音序未改变。两视口各70次真实鼠标输入补测通过、无错误、bounded、静音重置RMS0；证据evidence/final-soft-branches.json，非真机。"
       },
       "zip": "a14-enamel-corallium.zip",
-      "zipSha256": "b17e64916be148393c96c6706e57b94caa8b26d25de88637edfdc8fddbe2a27c",
+      "zipSha256": "736c51ed3b5a677df8441c3a0180a15394808e99bba119ad23d3d993db4eae1e",
       "files": {
         "art.js": "5219272a6f95a6e76f831ab039b340e6a251961660b970fbf81ea8bde18d6185",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -1251,7 +1252,7 @@
         "finalPatch": "持续测试结束后A11归位重置恢复初始配色、A12重置清理四色选择高亮，离线ZIP自检再次验证。"
       },
       "zip": "a15-paradox-chamber.zip",
-      "zipSha256": "3a440747ea4fb05a05392895e066cbc8a0463f49b1ea6b5224ec30c9262752cc",
+      "zipSha256": "be097346ae539e7bc1e630f9dbf9cb9c55ce52d7919bcbe3c7db697e55d675e9",
       "files": {
         "art.js": "4ea65c5d904c3885f44c76411cc724d4a15699c26d31c69d8e6ae529ed0cb3cd",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -1274,6 +1275,1022 @@
       },
       "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a15-paradox-chamber/",
       "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/a15-paradox-chamber.zip"
+    },
+    {
+      "title": "糖纸档案",
+      "group": "B",
+      "slug": "b01-sugar-archive",
+      "description": "把一颗糖的包装，做成自己的光泽收藏。",
+      "instructions": [
+        "拆开与重新包裹",
+        "拖出金属压褶",
+        "拖动改变两端扭结",
+        "点按压入花纹",
+        "轮换五种材料",
+        "收藏当前包装并新开一颗"
+      ],
+      "testControls": [
+        "#unwrap",
+        "#crumple",
+        "#twist",
+        "#stamp",
+        "#foil",
+        "#collect"
+      ],
+      "referenceURLs": [
+        "https://jamescandy.com/"
+      ],
+      "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+      "mechanism": "拆开与重新包裹; 拖出金属压褶; 拖动改变两端扭结; 点按压入花纹; 轮换五种材料; 收藏当前包装并新开一颗",
+      "limits": {
+        "canvas": [
+          900,
+          1000
+        ],
+        "collection": 6,
+        "marks": {
+          "creases": 100,
+          "stamps": 24
+        }
+      },
+      "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+      "audio": {
+        "original": "WebAudio procedural score and operation tones",
+        "seed": 302,
+        "tempo": 74,
+        "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+        "maxNodes": 26,
+        "maxVoices": 12,
+        "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+      },
+      "selfCheck": {
+        "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+        "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+        "evidence": "../evidence-b01-b05/",
+        "screenshots": "../previews/b01-sugar-archive-{1440,390}-{initial,interacted}.png",
+        "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+        "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+      },
+      "zip": "b01-sugar-archive.zip",
+      "zipSha256": "c9654f2bc674235e5056852b675509f56503e56704cb892ca786b97bdfc1e234",
+      "files": {
+        "README.txt": "9fc3f1ee48fcdcaf8ede93623643bbbe6c04eca5fcb043b6461b07d2d2507f43",
+        "art.js": "8f63ce6a75830ca2af2fe3cf0302bd5be0a2a4e31d397d7521e16049955fa426",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "019c517279ee2722829a8b51cf2e7befe181fbab123f8ede3b36e5c5ac06d69b",
+        "metadata.json": "980bebed1c5bf7cba2e0d7915e7b54d6992179196df3c45ebde0e054c45b104f",
+        "preview-desktop.png": "32babfc7c7b116113936aabe8d5091da21e9a3b99c9d9315481985fcdf3e39e2",
+        "preview-mobile.png": "113c8a3eeb85580516692fce24ca073a61f7ef7a437a31f75813bb718138f22d",
+        "style.css": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+        "verification/b01-sugar-archive-1440.json": "8bea8cb9093feddfecd5ad962a09c936a67f3761e3432da2cbfe405f7edf0740",
+        "verification/b01-sugar-archive-390.json": "037c13bc33286c2ec9dd2653a06515ddd95b253c9d6d88e7324d17a9562eb3c0",
+        "技术与权利.txt": "4ba51baf24b1576f7db23cf1ae59c80e0224dc20a2143100c566d54f02c905f9",
+        "来源与许可.json": "6f8e97822de8f7b97558f9b4902a44d0b602597b25be9d63643f4420ad631db1",
+        "说明.txt": "e8fb37a5bb1e9736b1d6589f419f89f40510a22794575e971d776d89f10cf3fd",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b01-sugar-archive/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b01-sugar-archive.zip"
+    },
+    {
+      "title": "果冻切面",
+      "group": "B",
+      "slug": "b02-jelly-slice",
+      "description": "叠一座透明甜品，再让它弹、倾斜、露出切面。",
+      "instructions": [
+        "轮换五种口味",
+        "最多八层，反复组合",
+        "点按或拖动戳弹",
+        "拖动控制倾斜",
+        "拖动改变剖面的宽度",
+        "点按落下果粒与薄荷"
+      ],
+      "testControls": [
+        "#flavour",
+        "#stack",
+        "#poke",
+        "#tilt",
+        "#cut",
+        "#garnish"
+      ],
+      "referenceURLs": [
+        "https://shop.bompasandparr.com/products/copy-of-jelly-with-bompas-parr"
+      ],
+      "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+      "mechanism": "轮换五种口味; 最多八层，反复组合; 点按或拖动戳弹; 拖动控制倾斜; 拖动改变剖面的宽度; 点按落下果粒与薄荷",
+      "limits": {
+        "canvas": [
+          900,
+          1000
+        ],
+        "collection": 4,
+        "marks": {
+          "layers": 8,
+          "garnishes": 32
+        }
+      },
+      "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+      "audio": {
+        "original": "WebAudio procedural score and operation tones",
+        "seed": 303,
+        "tempo": 93,
+        "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+        "maxNodes": 26,
+        "maxVoices": 12,
+        "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+      },
+      "selfCheck": {
+        "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+        "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+        "evidence": "../evidence-b01-b05/",
+        "screenshots": "../previews/b02-jelly-slice-{1440,390}-{initial,interacted}.png",
+        "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+        "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+      },
+      "zip": "b02-jelly-slice.zip",
+      "zipSha256": "20cf034340fae788c13d37748d7d02b7f6782c487e6a780f625776af69557137",
+      "files": {
+        "README.txt": "fefac0d444cb37a87c40b32eb2fc31e3f6103c982aaa9659fcd0889677eeae06",
+        "art.js": "838aaeb7a47600a7c826acec30db38da4d44b54627ed5a16441758e9f3c62781",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "1598409e3626d79175cb61d557c4a3c7574fa0b3becda313485129bc037b211e",
+        "metadata.json": "342439681a3958a350fcd995ee2909274efed0b37b82fe9a99b4d01e6527e68d",
+        "preview-desktop.png": "f8b7d698f2619f4b46ff515f44fd37ae1aff8b048f0046ac9b515e4c84eed910",
+        "preview-mobile.png": "e832a33fed0d3104c012ad64ad0e9ee50303892efefd5675698238da951b4d22",
+        "style.css": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+        "verification/b02-jelly-slice-1440.json": "e806dbb0d0684d0a3b72ee73a5349da1653dce78cbbabd35bc948223819289da",
+        "verification/b02-jelly-slice-390.json": "900dee8b1464fa0c316332a73c38f855c2e26d93a950a4e3939cc001b92a1049",
+        "技术与权利.txt": "4ba51baf24b1576f7db23cf1ae59c80e0224dc20a2143100c566d54f02c905f9",
+        "来源与许可.json": "097bfc4d7563d2240aede34ed509e8158e76929a0210de9070c2499036a8391c",
+        "说明.txt": "3831e95377d0b56adc96599a4e95f8244f3545eaeffa4cc6c01647c66247daeb",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b02-jelly-slice/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b02-jelly-slice.zip"
+    },
+    {
+      "title": "色棒印记",
+      "group": "B",
+      "slug": "b03-rouge-impressions",
+      "description": "在黄铜妆台上，留下色彩的触感与抽象印记。",
+      "instructions": [
+        "拖画厚实的色棒笔划",
+        "点按或拖动盖上抽象唇印",
+        "拖动叠加金箔纹",
+        "擦掉部分画面",
+        "轮换六种复古色",
+        "保存到缩略图并换一页"
+      ],
+      "testControls": [
+        "#draw",
+        "#kiss",
+        "#emboss",
+        "#wipe",
+        "#shade",
+        "#page"
+      ],
+      "referenceURLs": [
+        "https://www.dior.com/en_sa/beauty/products/rouge-dior-Y0356009.html",
+        "https://www.lisaeldridge.com/collections/true-velvet-lip-colour"
+      ],
+      "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+      "mechanism": "拖画厚实的色棒笔划; 点按或拖动盖上抽象唇印; 拖动叠加金箔纹; 擦掉部分画面; 轮换六种复古色; 保存到缩略图并换一页",
+      "limits": {
+        "canvas": [
+          900,
+          1000
+        ],
+        "collection": 4,
+        "marks": {
+          "marks": 360,
+          "pages": 4
+        }
+      },
+      "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+      "audio": {
+        "original": "WebAudio procedural score and operation tones",
+        "seed": 304,
+        "tempo": 69,
+        "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+        "maxNodes": 26,
+        "maxVoices": 12,
+        "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+      },
+      "selfCheck": {
+        "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+        "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+        "evidence": "../evidence-b01-b05/",
+        "screenshots": "../previews/b03-rouge-impressions-{1440,390}-{initial,interacted}.png",
+        "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+        "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+      },
+      "zip": "b03-rouge-impressions.zip",
+      "zipSha256": "2b6d5fd23f8d1c11d49d024fb79b451bc349ce4b09507ed491e836a5e81a131f",
+      "files": {
+        "README.txt": "85b91fd3b06eb366ec8c2fbdd0d4a9a7c027f728d1b0ecf46a94746b8dc38b2c",
+        "art.js": "8c0b354744442e0bfa444d53ab32c311af92d2989f778d69072eebe8f8634cab",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "9b7f2ca5712583ba29cb0c7df92ccc45f6a11e014fe975d837cf868d2ddeffe0",
+        "metadata.json": "c9033517acaa9b16bcb2d3c5c2d85017611ba057393e77ff46c7d601d496b4e2",
+        "preview-desktop.png": "ded17d59ea15b8dda7f8c0d3b5ad1748bc6592ebd6b31e216bd5a6f581e13476",
+        "preview-mobile.png": "b18333feeb40889ef25d725419330de4d8bcff8a378b5b59cc03cce270e97a9b",
+        "style.css": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+        "verification/b03-rouge-impressions-1440.json": "4b84604f960cee15d8ea5d93e2906f989bdb08e5d620061f58cd0929223a7c19",
+        "verification/b03-rouge-impressions-390.json": "cd77173ce893ed9192d1a4c200952596ab525062f03188bc832927eb8001c989",
+        "技术与权利.txt": "4ba51baf24b1576f7db23cf1ae59c80e0224dc20a2143100c566d54f02c905f9",
+        "来源与许可.json": "f70dcf3bc372cd6b6f1c4d15f754344272e2a92fbd51acf0d6bb60ad199b22a1",
+        "说明.txt": "774ac45d6e5562612e319bb7c0b6f84823179ac0fbe2a1e3611bace0c18dea93",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b03-rouge-impressions/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b03-rouge-impressions.zip"
+    },
+    {
+      "title": "奶沫练习室",
+      "group": "B",
+      "slug": "b04-foam-studio",
+      "description": "让奶白与焦糖，成为杯中一幅缓慢完成的画。",
+      "instructions": [
+        "慢拖浇出宽奶沫",
+        "细拖牵动奶沫形成细羽",
+        "拖动改变整杯角度",
+        "点按撒上星点",
+        "自动浇一片可再拉动的叶",
+        "收藏这一杯再开新杯"
+      ],
+      "testControls": [
+        "#pour",
+        "#needle",
+        "#rotate",
+        "#cocoa",
+        "#rosetta",
+        "#serve"
+      ],
+      "referenceURLs": [
+        "https://espressovivace.com/latte-art-gallery/"
+      ],
+      "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+      "mechanism": "慢拖浇出宽奶沫; 细拖牵动奶沫形成细羽; 拖动改变整杯角度; 点按撒上星点; 自动浇一片可再拉动的叶; 收藏这一杯再开新杯",
+      "limits": {
+        "canvas": [
+          900,
+          1000
+        ],
+        "collection": 4,
+        "marks": {
+          "foam": 360,
+          "powder": 240,
+          "cups": 3
+        }
+      },
+      "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+      "audio": {
+        "original": "WebAudio procedural score and operation tones",
+        "seed": 305,
+        "tempo": 84,
+        "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+        "maxNodes": 26,
+        "maxVoices": 12,
+        "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+      },
+      "selfCheck": {
+        "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+        "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+        "evidence": "../evidence-b01-b05/",
+        "screenshots": "../previews/b04-foam-studio-{1440,390}-{initial,interacted}.png",
+        "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+        "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+      },
+      "zip": "b04-foam-studio.zip",
+      "zipSha256": "bf2d6783f438872bb4792be310f9a8eeb87b0d1d43beb57b654e3a2bb1574d95",
+      "files": {
+        "README.txt": "c286869180cd726eb219a81874c6966d7a16ee5c5f80cc9d0082e51b343f3228",
+        "art.js": "c6839ca26417488a19ce8f0ed6be841248b059a56967adb0d8dbafca1c366c16",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "5d440f076f2140edb4a2eee64ed4c7649e79be686e802780193bd6197dc9af5a",
+        "metadata.json": "0e472f1f11a460e7b9712fd4189b211582c5f4a8d052b9b3d3b47afe8cda5fab",
+        "preview-desktop.png": "f93cd32c9a11f39186a4a35c2dabb93f7781fb34785d21738c560c316109ea8e",
+        "preview-mobile.png": "8aebc6a43c308e0eb9a90dac84755ae18c247aff703c248f96caa102fec21853",
+        "style.css": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+        "verification/b04-foam-studio-1440.json": "623d6d8ed5284b371b7a13e0f7c3a383e5dcc266ac0f645c52a65c56e2b24027",
+        "verification/b04-foam-studio-390.json": "3d93e60ceff5edfb384234473e1a0770dcf530448de53cf6bb63d34a9f7555da",
+        "技术与权利.txt": "4ba51baf24b1576f7db23cf1ae59c80e0224dc20a2143100c566d54f02c905f9",
+        "来源与许可.json": "6d580639a37c94c743fc30ae8a6caec536d10600cd338fb576f03560c61203e1",
+        "说明.txt": "10fc301db384104945d9932a88a3dd1e48a1d0003473d841753c098bbd87eea3",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b04-foam-studio/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b04-foam-studio.zip"
+    },
+    {
+      "title": "丝绒珠匣",
+      "group": "B",
+      "slug": "b05-velvet-jewels",
+      "description": "用彩色珠石，在丝绒匣中串起一圈自己的秩序。",
+      "instructions": [
+        "点按放珠，拖动已有珠子",
+        "珍珠、红玉、琥珀、翡翠、蓝石",
+        "按当前珠序穿成圆环",
+        "开合珠环并显示金扣",
+        "撒开珠子重新排列",
+        "三种灯光，保留排列"
+      ],
+      "testControls": [
+        "#drop",
+        "#material",
+        "#thread",
+        "#clasp",
+        "#scatter",
+        "#light"
+      ],
+      "referenceURLs": [
+        "https://the-collection.vancleefarpels.com/en/collection/creations/"
+      ],
+      "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+      "mechanism": "点按放珠，拖动已有珠子; 珍珠、红玉、琥珀、翡翠、蓝石; 按当前珠序穿成圆环; 开合珠环并显示金扣; 撒开珠子重新排列; 三种灯光，保留排列",
+      "limits": {
+        "canvas": [
+          900,
+          1000
+        ],
+        "collection": 4,
+        "marks": {
+          "beads": 48
+        }
+      },
+      "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+      "audio": {
+        "original": "WebAudio procedural score and operation tones",
+        "seed": 306,
+        "tempo": 58,
+        "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+        "maxNodes": 26,
+        "maxVoices": 12,
+        "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+      },
+      "selfCheck": {
+        "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+        "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+        "evidence": "../evidence-b01-b05/",
+        "screenshots": "../previews/b05-velvet-jewels-{1440,390}-{initial,interacted}.png",
+        "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+        "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+      },
+      "zip": "b05-velvet-jewels.zip",
+      "zipSha256": "621cb6ad5f3076423e0f8c65b85d44a1e5c89d6d778886a3229353d2a62f89be",
+      "files": {
+        "README.txt": "11e855775daa416280b026c8c4fef5985a8b5124c6621a713f27191048076141",
+        "art.js": "c55ab8194fd6ede7f4bc3b2d9895d3ae98501ee1c82f7e26ea5d7d8d2bf4ab6d",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "1a4c221127b48ea841f635c1bf00ade7c2ddb32e50b76a6f888cd4fb084f9792",
+        "metadata.json": "0581085a40fd15fd7b04ed134395af435d24f843b67c604ae989cd2205442ad8",
+        "preview-desktop.png": "21d7c05200dc76d9035a8d4e345da92d0e7543df27f32dd7fb692ad5aa44d4cc",
+        "preview-mobile.png": "be69f8393b5656eea405d45d7cf02db3ebabed84440981da16045605fc45de17",
+        "style.css": "76c58237f5bcab3bfe9d11498a89603f00884d1be28b70cbc52f8a61a75e0fa9",
+        "verification/b05-velvet-jewels-1440.json": "04918eb7b3c1331cd36270329f0f5982bb73ac4b926a12ffd1e7fb6d0eeaebf0",
+        "verification/b05-velvet-jewels-390.json": "1bf79c164b733e3de309cb3b93c4836bdae5d15ccf1f4de6e32dad051a5a03d9",
+        "技术与权利.txt": "4ba51baf24b1576f7db23cf1ae59c80e0224dc20a2143100c566d54f02c905f9",
+        "来源与许可.json": "48661aa47f10ac936240c45224a4b91015e9428d575e67e5f5f7c3040defc75a",
+        "说明.txt": "5525561431cc84bc8931898d733d97e8926ac758f33dcf497ee6f19e8d792de2",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b05-velvet-jewels/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b05-velvet-jewels.zip"
+    },
+    {
+      "title": "皂石切片",
+      "group": "B",
+      "slug": "b06-soap-strata",
+      "description": "切开一块温柔的矿层，镶入彩色碎皂，再让泡沫把它慢慢显露。",
+      "instructions": [
+        "切层",
+        "镶料",
+        "压花",
+        "起泡",
+        "擦洗"
+      ],
+      "testControls": [
+        "#tool-0",
+        "#tool-1",
+        "#tool-2",
+        "#tool-3",
+        "#tool-4"
+      ],
+      "referenceURLs": [
+        "https://haruharustudio.com/products/ondo-body-soap-apple-sage"
+      ],
+      "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+      "mechanism": "乳白块体与彩色碎屑的材质、错位陈列与柔和影子；仅灵感观察，未使用产品照片、商标或包装。",
+      "caps": {
+        "chips": 130,
+        "cuts": 12,
+        "flowers": 30,
+        "bubbles": 200,
+        "dpr": 2,
+        "targetRenderFPS": 60
+      },
+      "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "consoleErrors": 0,
+        "horizontalOverflow": false,
+        "minButtonHeight": 44,
+        "testedDurationSeconds": [
+          82.53,
+          69.693
+        ],
+        "trustedPointerInput": true,
+        "musicAndFxMeasuredSeparately": true,
+        "muteRms": 0,
+        "resetPreservesMute": true,
+        "blurAndPagehideStop": true,
+        "offlineHttpRequests": 0,
+        "limitations": "Headless Chromium simulation, not physical handset or human listening."
+      },
+      "zip": "b06-soap-strata.zip",
+      "zipSha256": "945792333592ed1269f0403e6838847934ef8a82b9ba2f0e51f4cf4890a07c4a",
+      "files": {
+        "README.md": "bf6675b54435fb006b8ce1b7dcb2c8874b7b1a9a252f84d7f40fc8fd03d2cb14",
+        "app.js": "2c334301ea8c0c6bd741dee6bad7f54fea15be9cd6334876132efd67d2b3ddae",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "370ebed16b1812bf29053e87bd27ae02bd3be12b4af2fc0e0bdd42a2afd776c8",
+        "metadata.json": "af3ceb9efc9d87f8b27e3a9221e17dc05479af0ae4969ac097856b79aa2fa030",
+        "preview-desktop.png": "2e7b4be0b52ce12450b49def195e1cbf7bd2bdd562a6d5d6ffd14dbb866248f9",
+        "preview-mobile.png": "705ead0810512d39f0faf9bb968b00816eb8d0af3d5eb012661445f734754b8d",
+        "runtime.js": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+        "style.css": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+        "verification/b06-b10-60s-report.json": "5e2be062c76d29a23e2a959997fe7b1a145f5ae4acb9a26c915b1fe640fea3b8",
+        "技术与权利.txt": "09d53599ef1fb8dda6a7505806dcb3685f6884b7eef71235b6d4dc15f90b452b",
+        "来源与许可.json": "bbc90ba92ce98e91850091a4a3c9c379912b1a7f9f59cfc3a4943cfcc12f85fa",
+        "说明.txt": "ef40d4a7bd95dff3226c8bf1f5fe4d8794542a0300c04d8a74da5a24ae20bd04",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b06-soap-strata/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b06-soap-strata.zip"
+    },
+    {
+      "title": "香气试映室",
+      "group": "B",
+      "slug": "b07-scent-cinema",
+      "description": "把花、柑橘与木调喷进光里。转动瓶身，留下属于此刻的试香签。",
+      "instructions": [
+        "花调",
+        "柑调",
+        "木调",
+        "转瓶",
+        "采样",
+        "清风"
+      ],
+      "testControls": [
+        "#tool-0",
+        "#tool-1",
+        "#tool-2",
+        "#tool-3",
+        "#tool-4",
+        "#tool-5"
+      ],
+      "referenceURLs": [
+        "https://www.rawpixel.com/image/13881895/perfume-light-leaks-bottle-cosmetics-glowing"
+      ],
+      "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+      "mechanism": "观察暖橙与冷蓝交错的透光瓶及薄雾层次；未下载使用该照片，未依赖照片许可。",
+      "caps": {
+        "mist": 180,
+        "samples": 5,
+        "dpr": 2,
+        "targetRenderFPS": 60
+      },
+      "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "consoleErrors": 0,
+        "horizontalOverflow": false,
+        "minButtonHeight": 44,
+        "testedDurationSeconds": [
+          101.052,
+          74.068
+        ],
+        "trustedPointerInput": true,
+        "musicAndFxMeasuredSeparately": true,
+        "muteRms": 0,
+        "resetPreservesMute": true,
+        "blurAndPagehideStop": true,
+        "offlineHttpRequests": 0,
+        "limitations": "Headless Chromium simulation, not physical handset or human listening."
+      },
+      "zip": "b07-scent-cinema.zip",
+      "zipSha256": "da22059aef0ff6ff59e4db8bba5e09c1fd5df0fa496a43cdfa43b8eec3cc5cf6",
+      "files": {
+        "README.md": "c85f164595eeb6901ee065927431194206ad21268db7bcba3f90815665d50c66",
+        "app.js": "a4d5c463d28d72e8d6087f85caf22d8324ae28996b34c26aa8fcbf59b2d22112",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "356fc299c9d37cd973c54428cc88eeda60a9ca6ef8ad098f31ab0d083d6d5c28",
+        "metadata.json": "df07739ce94ed87fd22b8a2af6f2b9c7c6fad28cc7be996584fee53700d852dc",
+        "preview-desktop.png": "36387d1129ad8b3a2633ac8ebd7e9f8a120990293ce1731aa46afc8d71247f3f",
+        "preview-mobile.png": "4d05a7345d2eef880f0477db84e0952ef7c3a6286ee0e13978df957cfaf83458",
+        "runtime.js": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+        "style.css": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+        "verification/b06-b10-60s-report.json": "5e2be062c76d29a23e2a959997fe7b1a145f5ae4acb9a26c915b1fe640fea3b8",
+        "技术与权利.txt": "09d53599ef1fb8dda6a7505806dcb3685f6884b7eef71235b6d4dc15f90b452b",
+        "来源与许可.json": "333de407259e77f2cbad7c31ce1c34acf7f6746e069b5603792d63e86c91c1ef",
+        "说明.txt": "19e5f7fde051a7c4853377364ff36b03a869c60112182b196ece6fa1da974dc1",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b07-scent-cinema/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b07-scent-cinema.zip"
+    },
+    {
+      "title": "唱片封面工房",
+      "group": "B",
+      "slug": "b08-record-atelier",
+      "description": "在套封上贴印、拖动构图、旋转版式与展开折页。角落的小黑胶提供原创声轨。",
+      "instructions": [
+        "贴印",
+        "版式",
+        "折页",
+        "换声",
+        "唱针"
+      ],
+      "testControls": [
+        "#tool-0",
+        "#tool-1",
+        "#tool-2",
+        "#tool-3",
+        "#tool-4"
+      ],
+      "referenceURLs": [
+        "https://www.architecturaldigest.com/story/josef-albers-album-covers-bezar"
+      ],
+      "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+      "mechanism": "封套为主要可编辑主体：点贴三类印墨形状、直接拖动当前形状、旋转和错位整体版式、展开侧折页、切换声轨。小型唱片仅为附属声源，没有转盘手划交互。",
+      "caps": {
+        "overprints": 18,
+        "foldPanels": 2,
+        "soundRecordGrooves": 28,
+        "dpr": 2,
+        "targetRenderFPS": 60
+      },
+      "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "consoleErrors": 0,
+        "horizontalOverflow": false,
+        "minButtonHeight": 44,
+        "testedDurationSeconds": [
+          68.078,
+          68.342
+        ],
+        "trustedPointerInput": true,
+        "musicAndFxMeasuredSeparately": true,
+        "muteRms": 0,
+        "resetPreservesMute": true,
+        "blurAndPagehideStop": true,
+        "offlineHttpRequests": 0,
+        "limitations": "Headless Chromium simulation, not physical handset or human listening."
+      },
+      "zip": "b08-record-atelier.zip",
+      "zipSha256": "72d906d348770fac2a5a59922136718b05a53b3ec1677ad2096455549c9d7e65",
+      "files": {
+        "README.md": "f5b594021c9f69f17b24dce1e64e5191eabc7b5983d8eab09423136dcf472ba9",
+        "app.js": "771008ec2980a2b02e64dd8fef367895788b4939ee1b5dbe2d4ae7aaf38ae028",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "c0f933b39d80b8c1e0c4bc5039a0021afd5d395dad195f4caca0c8e6bbccb72f",
+        "metadata.json": "addb56feb8fbea9112bbaacc78b9e994ed545367e66a0572325cfa21de316a10",
+        "preview-desktop.png": "c33ecba96144f820b8273bb78ea4c6b58b0b962bed23505506c8d1fe89ac6461",
+        "preview-mobile.png": "ca58e005fa4492c504eff0db4e1e3ad85e3d402ce039457cea63f3b0ca763043",
+        "runtime.js": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+        "style.css": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+        "verification/b06-b10-60s-report.json": "5e2be062c76d29a23e2a959997fe7b1a145f5ae4acb9a26c915b1fe640fea3b8",
+        "技术与权利.txt": "09d53599ef1fb8dda6a7505806dcb3685f6884b7eef71235b6d4dc15f90b452b",
+        "来源与许可.json": "d5223f912535219bb8e9b3ffcca8458b6a489178baab85257235c6d4a7043551",
+        "说明.txt": "8029a64021b4332d71ce74d3e296aa1aa697b32357403cb212518a0ded40c93b",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b08-record-atelier/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b08-record-atelier.zip"
+    },
+    {
+      "title": "糖光折炼",
+      "group": "B",
+      "slug": "b09-sugar-ribbon",
+      "description": "拉出闪亮的糖带，绕一只结，敲成碎片，再用热光把它炼回新的形状。",
+      "instructions": [
+        "拉糖",
+        "结糖",
+        "敲碎",
+        "热熔",
+        "换味"
+      ],
+      "testControls": [
+        "#tool-0",
+        "#tool-1",
+        "#tool-2",
+        "#tool-3",
+        "#tool-4"
+      ],
+      "referenceURLs": [
+        "https://pourlesgourmets.fr/sucre/47422-sucre-isomalt-le-magnifique--pot-de-1-kg"
+      ],
+      "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+      "mechanism": "在多色多宽糖雕上按住局部拉伸；绕结改变盘卷结构；敲碎后形成最多120糖片；热熔重建5–7条多宽渐变糖带，保持展示构图，反复组合。",
+      "caps": {
+        "ribbons": 8,
+        "points": 680,
+        "shards": 120,
+        "dpr": 2,
+        "targetRenderFPS": 60
+      },
+      "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "consoleErrors": 0,
+        "horizontalOverflow": false,
+        "minButtonHeight": 44,
+        "testedDurationSeconds": [
+          69.904,
+          67.579
+        ],
+        "trustedPointerInput": true,
+        "musicAndFxMeasuredSeparately": true,
+        "muteRms": 0,
+        "resetPreservesMute": true,
+        "blurAndPagehideStop": true,
+        "offlineHttpRequests": 0,
+        "limitations": "Headless Chromium simulation, not physical handset or human listening."
+      },
+      "zip": "b09-sugar-ribbon.zip",
+      "zipSha256": "7c799950b54020b7cdb76b1fe66c63f3f51d91456a06b863466f5c49332ebbce",
+      "files": {
+        "README.md": "b4c7479939f1a5abc1e84fdbf15128bdf79ff8b23680692188e1a06e053ec2c7",
+        "app.js": "bf6b5050aad0bf28a873b28011b84dfbb0f087f0552750eb30d7fb43a39e9b0a",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "dbaea5200defc7d848b10ee6917ad7dcd45cda779826341ff759a5ffe11975e5",
+        "metadata.json": "11ea5f1e724d71b7d49b5260472f221645e15f5f419acbb301fe458c887c2ba3",
+        "preview-desktop.png": "06cb52f7d5476b56dba15dc396acf2b53148db39c3f2bbaeaf12ffaafed378f3",
+        "preview-mobile.png": "1a15ac252d4de88a25507572cc3e2797efc4a5d608653eab8f188a34108c6a3f",
+        "runtime.js": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+        "style.css": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+        "verification/b06-b10-60s-report.json": "5e2be062c76d29a23e2a959997fe7b1a145f5ae4acb9a26c915b1fe640fea3b8",
+        "技术与权利.txt": "09d53599ef1fb8dda6a7505806dcb3685f6884b7eef71235b6d4dc15f90b452b",
+        "来源与许可.json": "08080324031e8b4cfb0fc516b8bc167907a12031c1dd9b717a7160f20a74dcaf",
+        "说明.txt": "69fd32cbc3a053d3b843e8e4a9dbdc416147f7f1c9aee653c8ecb5c93e582eda",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b09-sugar-ribbon/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b09-sugar-ribbon.zip"
+    },
+    {
+      "title": "绳结染布",
+      "group": "B",
+      "slug": "b10-knot-dye",
+      "description": "先打结留下空白，再分区染入颜色。展开布面，读一张由你折叠过的彩色地图。",
+      "instructions": [
+        "打结",
+        "胭脂",
+        "靛蓝",
+        "金黄",
+        "展开",
+        "再折"
+      ],
+      "testControls": [
+        "#tool-0",
+        "#tool-1",
+        "#tool-2",
+        "#tool-3",
+        "#tool-4",
+        "#tool-5"
+      ],
+      "referenceURLs": [
+        "https://www.vam.ac.uk/articles/kimono"
+      ],
+      "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+      "mechanism": "V&A Kimono页面服饰与织物的构图，以及 https://kurier.at/ngen/so-funktioniert-die-japanische-batik-kunst-shibori/401417043 的扎结染布照片；只借鉴留白与折叠工艺，无图像、纹样或文字复制。",
+      "caps": {
+        "knots": 18,
+        "dyes": 18,
+        "weaveLines": 280,
+        "dpr": 2,
+        "targetRenderFPS": 20
+      },
+      "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+      "selfCheck": {
+        "viewports": [
+          "1440x900",
+          "390x844"
+        ],
+        "consoleErrors": 0,
+        "horizontalOverflow": false,
+        "minButtonHeight": 44,
+        "testedDurationSeconds": [
+          82.049,
+          69.627
+        ],
+        "trustedPointerInput": true,
+        "musicAndFxMeasuredSeparately": true,
+        "muteRms": 0,
+        "resetPreservesMute": true,
+        "blurAndPagehideStop": true,
+        "offlineHttpRequests": 0,
+        "limitations": "Headless Chromium simulation, not physical handset or human listening."
+      },
+      "zip": "b10-knot-dye.zip",
+      "zipSha256": "57fd863560c63cb99ac70ff8c0efc0c9247ed5051ac9da2db2850f379f550022",
+      "files": {
+        "README.md": "4289b1f52650344c2dc5917a40b0b20bcf414284fa0eb4e065db5fe2bb948443",
+        "app.js": "7565fcc52fbb793bb49fb5a2de34b3eb13d5da627eb613b3dc39da43e933e093",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "1074170f33b7d2e2b9a698ddfe79d9d336bc3472c78685fd4b67f596524d9bbc",
+        "metadata.json": "8dc8c2daa2a92305a1512ef0954e3c8a7262bba967e1cc25e1b0e789eb63299f",
+        "preview-desktop.png": "def375facd98457da62527ea9f6d40a62b01c09a4a33af7660526f86cedc14ae",
+        "preview-mobile.png": "44a1814f9b24ba7cc4a1d09c4b1368cb30682d72efee67fc21b7b33e25ecf069",
+        "runtime.js": "ca5d8195f9b3accee9b3d1f2436cbd045db2fa827e5d404669cc546a670254a7",
+        "style.css": "794de73ac5b95c54a874b8dd300483f7019d53b96655e31ccbdf5ec6b6b9a39f",
+        "verification/b06-b10-60s-report.json": "5e2be062c76d29a23e2a959997fe7b1a145f5ae4acb9a26c915b1fe640fea3b8",
+        "技术与权利.txt": "09d53599ef1fb8dda6a7505806dcb3685f6884b7eef71235b6d4dc15f90b452b",
+        "来源与许可.json": "faf0652b4181765b9ff1b708f33981ce57e931f14f2188b19933f6dc917ca8c9",
+        "说明.txt": "15080920babea9bfc73d3dc6e22c404891021fbc4b1fe61cfbef1e04c5b91783",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b10-knot-dye/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b10-knot-dye.zip"
+    },
+    {
+      "title": "风的桌面",
+      "group": "B",
+      "slug": "b11-wind-desk",
+      "description": "薄荷色金属风扇，拂动一桌丝绸长带。挂带、夹住、放飞，再拖动扇轴把风导向不同方向。",
+      "instructions": "拖动风扇圆心调风向；拖支杆升降；风锥内丝带响应、锥外自然垂落；挂点可以重排。",
+      "testControls": [
+        "#mute",
+        "#reset",
+        "#add",
+        "#speed",
+        "#clip",
+        "#release"
+      ],
+      "referenceURLs": [
+        "https://www.creativeboom.com/news/rainbow-ribbons/"
+      ],
+      "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+      "mechanism": "扇轴方向决定锥形气流；前向投影距离、离轴横距和距离衰减为每条带计算独立受力系数。拖动扇轴让受风带逐条交接，风锥外自然垂落；拖支杆升降改变风域中心，夹住/放飞与挂点位置独立保存。",
+      "music": {
+        "type": "original procedural score and interaction FX",
+        "firstGestureUnlock": true,
+        "mute": "post-master zero gain",
+        "resetRetainsMute": true,
+        "lifecycle": "blur/pagehide/hidden suspend and release voices",
+        "nodeLimit": 26
+      },
+      "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束",
+      "zip": "b11-wind-desk.zip",
+      "zipSha256": "95c019af3326c87016b2d84479178961409cca3677e25cd248e8d2b927368a0e",
+      "files": {
+        "LICENSE.txt": "3ef69e4b1e76257353baee2ef4392da277fcb6920fc56b37ae148a42d4fe0984",
+        "art.js": "fc6358c31744f6b63a479ac119aa403638b4c0b873f115dbb71cff49fcf0061a",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "68f57dc7e9b1de995092cffb3bc89b8e03766f9123556d87a7d6703e5e489b23",
+        "metadata.json": "fd2ca4dae0cee57288db93084c8df71a65f19fd2de5b9c2d2e68fa7c22e657c1",
+        "preview-desktop.png": "b09feb037def0db68cc63dca9351c019f88e8a03152e58f9e888f52a8b9d47bb",
+        "preview-mobile.png": "71bef884ba91f1eef79f02cea82108e54e20f5cfc90b1eccf784a03ad70ad848",
+        "style.css": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+        "verification/desktop.json": "0f4593867170e5b97db3c1e20aa7680f1e0be7a1f6bdff844ebcd61724552d25",
+        "verification/final-isolation-pagehide.json": "b7254bcfad0e890dee698ac1753ec229a4c4137f3cc31171f9abdda8ece52b09",
+        "verification/mobile.json": "db6d9c0d2ab438a5c378014ae99df9231201282389ed8cde3d75e68a6759cf69",
+        "verification/offline.json": "cc3b65836684a476189d0444d56f5596036f6c7f67a75934027d490a84b4325b",
+        "实测报告.json": "3c00f9ec2763bd2a8a1ab803ac4f2af76889ad8d24891b948224547bccf33ee6",
+        "技术与权利.txt": "6b2d5ccede9bdceec819620c6466b6a3ecb4ba1b669634ca16df734e9e264702",
+        "来源与许可.json": "51730e6f3d3df355a2263d97f1debfe92a52f25c3281fb75d0364d8d0b952c7f",
+        "说明.txt": "e321b95cc237d1f0bbd3035265f57eff1ce35e4b14e0941067640ddf61067c08",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b11-wind-desk/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b11-wind-desk.zip"
+    },
+    {
+      "title": "晶壳标本室",
+      "group": "B",
+      "slug": "b12-crystal-cabinet",
+      "description": "从粗糙晶壳里敲出矿石，以软刷显露切面。转动光线，把发现的晶体摆成私人展览。",
+      "instructions": "点按矿石敲开局部晶壳；软刷模式拖动除尘；拖光模式改变晶体明暗。",
+      "testControls": [
+        "#mute",
+        "#reset",
+        "#crack",
+        "#brush",
+        "#light",
+        "#cabinet"
+      ],
+      "referenceURLs": [
+        "https://australian.museum/exhibition/minerals/"
+      ],
+      "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+      "mechanism": "点按矿石敲开局部晶壳；软刷模式拖动除尘；拖光模式改变晶体明暗。",
+      "music": {
+        "type": "original procedural score and interaction FX",
+        "firstGestureUnlock": true,
+        "mute": "post-master zero gain",
+        "resetRetainsMute": true,
+        "lifecycle": "blur/pagehide/hidden suspend and release voices",
+        "nodeLimit": 26
+      },
+      "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束",
+      "zip": "b12-crystal-cabinet.zip",
+      "zipSha256": "fc49f559c908fd96d77df3f0a259572dc071d37b97c8b67b38cd2bd84aa6a686",
+      "files": {
+        "LICENSE.txt": "3ef69e4b1e76257353baee2ef4392da277fcb6920fc56b37ae148a42d4fe0984",
+        "art.js": "54648c68efe500ca3eb73959aae8ed6dfea8605af70c6c83e359b99efaf17110",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "873f2a696f34e34cbe38826411a26ec02e9ace470b2cab17fc98f30cd551fcb0",
+        "metadata.json": "42ea99f8c1fe588fa8d643e9bbe31c522940ce4b0e0611a0fa5700c8ebcc300b",
+        "preview-desktop.png": "84e0e28f336dd983ea63b281ce27bac6158cc0ebc0423abf958f0f8b560a45c6",
+        "preview-mobile.png": "9a9ccb3b5b2d2d009cd821ea2fa2663143edd73d9878609e4ef2b011e3aa59d5",
+        "style.css": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+        "verification/desktop.json": "96a2a04a56194009bae53073e5502b1fdd2fe9d51fae87b7b7eab81a4bd053f6",
+        "verification/final-isolation-pagehide.json": "eff6e9afe281136e0964a05249835fdfd8128d951d70b3caaa1b717a2c5aabf2",
+        "verification/mobile.json": "0a04359944fed4ce58e85c922785ba2a0ef01663059b3aabd7dc7386ef5de89d",
+        "verification/offline.json": "c5efa9cca3725508cc13735e3018b0a7263493bea32288e0737268ca43d58319",
+        "实测报告.json": "f805926f5461d2bad6403c9665c38cc9390d603d96fd7f62ce4850b04919bb44",
+        "技术与权利.txt": "6b2d5ccede9bdceec819620c6466b6a3ecb4ba1b669634ca16df734e9e264702",
+        "来源与许可.json": "69818439240cd3a9a3e4901d3ea24748678040f52ea9742c8a83698630c303bc",
+        "说明.txt": "5b1ca256111c2165124bbfae579aab0f0fa4b4c4a5abc3b7cf974edd2d0b620f",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b12-crystal-cabinet/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b12-crystal-cabinet.zip"
+    },
+    {
+      "title": "晨光吐司拼贴",
+      "group": "B",
+      "slug": "b13-breakfast-collage",
+      "description": "把早餐当作一幅静物画：叠涂果酱、摆水果、压出焦香烤纹，再切开重组你的吐司拼贴。",
+      "instructions": "选果酱后在吐司上拖涂；选水果后点击摆放；切开后拖动四片吐司重新拼图。",
+      "testControls": [
+        "#mute",
+        "#reset",
+        "#jam0",
+        "#jam1",
+        "#jam2",
+        "#fruit0",
+        "#fruit1",
+        "#fruit2",
+        "#grill",
+        "#cut"
+      ],
+      "referenceURLs": [
+        "https://www.donnahay.com.au/recipes/breakfast"
+      ],
+      "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+      "mechanism": "选果酱后在吐司上拖涂；选水果后点击摆放；切开后拖动四片吐司重新拼图。",
+      "music": {
+        "type": "original procedural score and interaction FX",
+        "firstGestureUnlock": true,
+        "mute": "post-master zero gain",
+        "resetRetainsMute": true,
+        "lifecycle": "blur/pagehide/hidden suspend and release voices",
+        "nodeLimit": 26
+      },
+      "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束",
+      "zip": "b13-breakfast-collage.zip",
+      "zipSha256": "a91b3edf9a5f9a7b66f45a572f5b4438a03c31fcbc6fb4b6303be1244f611f32",
+      "files": {
+        "LICENSE.txt": "3ef69e4b1e76257353baee2ef4392da277fcb6920fc56b37ae148a42d4fe0984",
+        "art.js": "1db651b284c366704abbafb898c6ecfeac56126f022fb9f2f773fb89a64f17a8",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "25d6f9005ccdb50ec176dc242315f2dec656ee45fe1bd64291bd2f6823ec61c2",
+        "metadata.json": "897fd324226a69b5bfd63a9257e78eb01bd38f4bc71afced5a3392b623af608f",
+        "preview-desktop.png": "798e0f5e7d59914eeb716878cf2a902c26d869f6022af88daff09113393a1aa2",
+        "preview-mobile.png": "716da57a587aaeb5df0d1f3bfd44d5220d8b5455ede4ddfdafaab0c2a23d7d93",
+        "style.css": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+        "verification/desktop.json": "b9e7d949a9ecbe750cc2dd7055d9420ec84b029bc0dd0c806f8b8f6157150b9d",
+        "verification/final-isolation-pagehide.json": "4bb49902662e38f71e281a50c34a21791a3ccd0bf75ec7558299e4b029354034",
+        "verification/mobile.json": "b885d97fcb72debe993a4e50fc9d93df9c44b8f1edd397b3a3d0040add901259",
+        "verification/offline.json": "90fa4f11d3b98651918cadfe22b10c096b736ae80bc0712da4ab534db304b8ba",
+        "实测报告.json": "a2f9162b959ef437a70f366485fe2ed9274a1d5a91de5e5bba36210739417f25",
+        "技术与权利.txt": "6b2d5ccede9bdceec819620c6466b6a3ecb4ba1b669634ca16df734e9e264702",
+        "来源与许可.json": "c8fd5799a2393809fffbcce8deb1cae99b3e88f6ebc292d9ae461da9a9637bb6",
+        "说明.txt": "a75c723ca0544ee3f81800c94fc36159a84e56bfa1b8448456ad155f72c2864e",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b13-breakfast-collage/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b13-breakfast-collage.zip"
+    },
+    {
+      "title": "蝶翅邮局",
+      "group": "B",
+      "slug": "b14-butterfly-post",
+      "description": "一册虚构的蝶翅邮票。收集原创蝶纹、穿孔、盖邮戳，在三页颜色不同的册页之间摆出自己的收藏。",
+      "instructions": "拖动邮票可摆放；穿孔模式在邮票上点击镂孔；盖章后可继续重排；各册页独立保存。",
+      "testControls": [
+        "#mute",
+        "#reset",
+        "#add",
+        "#perforate",
+        "#stamp",
+        "#page",
+        "#arrange"
+      ],
+      "referenceURLs": [
+        "https://store.usps.com/store/stamps"
+      ],
+      "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+      "mechanism": "拖动邮票可摆放；穿孔模式在邮票上点击镂孔；盖章后可继续重排；各册页独立保存。",
+      "music": {
+        "type": "original procedural score and interaction FX",
+        "firstGestureUnlock": true,
+        "mute": "post-master zero gain",
+        "resetRetainsMute": true,
+        "lifecycle": "blur/pagehide/hidden suspend and release voices",
+        "nodeLimit": 26
+      },
+      "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束",
+      "zip": "b14-butterfly-post.zip",
+      "zipSha256": "0d13dd4a3d464614ae8c157126c43c892e602422baa29086c859c417e0a79e9d",
+      "files": {
+        "LICENSE.txt": "3ef69e4b1e76257353baee2ef4392da277fcb6920fc56b37ae148a42d4fe0984",
+        "art.js": "50c79d090f2ef81c472295878459809a5f83f8067d6a031ed344a74ef094878a",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "1a1a562fb1bde03e12abc2a36fff917eae7770b3940b2fa35b8261394b45a36e",
+        "metadata.json": "ef2af2e0ca48ba1a5ea23d7fd25a91444d300b7d93d3508d9573a2950f763c31",
+        "preview-desktop.png": "d160f1fb001600c3b2b8993fe2d6912b8c1c9184089b4ba14f5835ca1942e3f4",
+        "preview-mobile.png": "3df487ec961bcc3f22ccd8c4f44fd2dcd1632289efbcc7b1eff692d903dd9e04",
+        "style.css": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+        "verification/desktop.json": "81847572949ef7fbd466cf2bc4ae78612e5d3480061f63dd68cb9bec53097845",
+        "verification/final-isolation-pagehide.json": "2e252e2e047e9d69d51d15733cd26711c719eec2326578e3e3f71333b60aa4ce",
+        "verification/mobile.json": "b176198b56d12f32c13e411cec9a33a18b96bf227a3e31db2c639bdc0fcf2d40",
+        "verification/offline.json": "6b93440870bb6239061f7dbf0c15e8eb9ec907f617a3d92fd458f7f8e75243aa",
+        "实测报告.json": "c528719448f55508b0eb0b028e9184fee9fe190e03dcbef212a823f64c940766",
+        "技术与权利.txt": "6b2d5ccede9bdceec819620c6466b6a3ecb4ba1b669634ca16df734e9e264702",
+        "来源与许可.json": "fa4129f89cbb75ffd08bdd4d3c1a307d229ea22abe48f025ea168967234e45f2",
+        "说明.txt": "acb6773681a460d26bfa2855f35ca4d78a4b4bff6367d58f5f2a5c2ef06e2252",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b14-butterfly-post/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b14-butterfly-post.zip"
+    },
+    {
+      "title": "雨窗夜刊",
+      "group": "B",
+      "slug": "b15-neon-window",
+      "description": "窗外是原创霓虹小城。擦开水雾，移动窗格与推开窗扇，让城市的光穿过雨滴，留下自己的夜景构图。",
+      "instructions": "擦雾模式拖动玻璃留下透明轨迹；窗格模式横向拖动分格；开窗、霓虹与时段可以任意组合。",
+      "testControls": [
+        "#mute",
+        "#reset",
+        "#wipe",
+        "#frame",
+        "#open",
+        "#neon",
+        "#hour"
+      ],
+      "referenceURLs": [
+        "https://www.saulleiterfoundation.org/color"
+      ],
+      "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+      "mechanism": "擦雾模式拖动玻璃留下透明轨迹；窗格模式横向拖动分格；开窗、霓虹与时段可以任意组合。",
+      "music": {
+        "type": "original procedural score and interaction FX",
+        "firstGestureUnlock": true,
+        "mute": "post-master zero gain",
+        "resetRetainsMute": true,
+        "lifecycle": "blur/pagehide/hidden suspend and release voices",
+        "nodeLimit": 26
+      },
+      "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束",
+      "zip": "b15-neon-window.zip",
+      "zipSha256": "f5f3bc86f0763d404b2233011561ccb8f98de51b327c13e91ff5e08a12dc8130",
+      "files": {
+        "LICENSE.txt": "3ef69e4b1e76257353baee2ef4392da277fcb6920fc56b37ae148a42d4fe0984",
+        "art.js": "51b8becb505cf56f2e91124280c2e8e3408696a39e6a310297c583431cf395d4",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "index.html": "fc48430bebaf9114ccef16a2e38aa0f2bdd0aa56b26c06176a9e9d07bd394264",
+        "metadata.json": "d3fd62f980328af8d50b3a38b6fd6785dcb9f6ba89554811271c929f06aca4ae",
+        "preview-desktop.png": "e3a1cdee0dcb2e55e860cf5a86aa86e482cf10acd3591e6f62dc743d40b289d6",
+        "preview-mobile.png": "59698b2180188af582154390c924b177918bc12e9fd16510699a33524ab40845",
+        "style.css": "0be1144001e955aed071b05a70f7dbce412de01bbef757b66aa4adab10d5686c",
+        "verification/desktop.json": "18f762bf4db4c66e61bacf02eb3ce107dfe441f24710be0db7029de896c91ce3",
+        "verification/final-isolation-pagehide.json": "6dc45d67d5f8d53233ad4d4ba18be3522cc03f3e72dbe70e8e76a1113213620e",
+        "verification/mobile.json": "e1faa731492751bd8b1b34ebf8826da7898d949094dc6ac574b18a3e40d26587",
+        "verification/offline.json": "2e5cdc9acf840775d40f1e5b87677152a6ec0af4ae55bdc15824a97eae842387",
+        "实测报告.json": "0d798fb86c584f64c0257167d055b80dec4885b101acf2af74650287813cceba",
+        "技术与权利.txt": "6b2d5ccede9bdceec819620c6466b6a3ecb4ba1b669634ca16df734e9e264702",
+        "来源与许可.json": "7e7ce223b44b46159dfd71f2f9cecd504214d253c5cbfc76005d21fa1a41ad43",
+        "说明.txt": "a153533769f68bfab1f69802eb1e0c0fd41a6c0bcf789b2800a018526818b962",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b15-neon-window/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/b15-neon-window.zip"
     },
     {
       "slug": "c01-pocket-tram",
@@ -1342,7 +2359,7 @@
         }
       ],
       "zip": "c01-pocket-tram.zip",
-      "zipSha256": "73ce6f5f912d040c758ef1b5156cb7a16b1e942e20632d119692246d1cda63ee",
+      "zipSha256": "6aa36d8d2bbe1792fe3de3c7a220f7e8a68a25ff222b80d05894c18e16b4988a",
       "files": {
         "app.js": "149306e6ade334c90fb39545bd5875bdd2084b221b66c95efe41f25e5eb7ac0a",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -1431,7 +2448,7 @@
         }
       ],
       "zip": "c02-orbital-workshop.zip",
-      "zipSha256": "50c2e135bcee989e2a63fa060dc721329c5b6b496e8fb8b86ac4039d483d3838",
+      "zipSha256": "0ba1ecc18e34ddfaeb1bed067e424b35a2ec75cf8089c82535fe542f8f96723d",
       "files": {
         "app.js": "1f2d159e425cf6e5bae40b69315aeb0fd029cd9232fb7a7f585e405ebe653a6d",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -1520,7 +2537,7 @@
         }
       ],
       "zip": "c03-good-wind-laundry.zip",
-      "zipSha256": "df8960000f3f21718795630f18367d57caceb82e58af68ab87ca7da957747e7c",
+      "zipSha256": "c6845f2122f96754a842e3e4efb9a948982709a5c5a7574d04f69e1d74935e66",
       "files": {
         "app.js": "93ee5be45658ff01026e3ed863f3c3c8c95e4aeedaca177207ee3fa2ee67eeba",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -1609,7 +2626,7 @@
         }
       ],
       "zip": "c04-airmail-house.zip",
-      "zipSha256": "0e07cd29920606c8fdbfe1cf573d6afa717debf736fa1e2b3bf4b103a90c451b",
+      "zipSha256": "26d851db86941398d9d9d2de558f9c2eaa2ebbfcae73c1607c67fcc51f0383ea",
       "files": {
         "app.js": "d395d03c7b0b80b202f765347ae52a4f292585fda9f552b4f4333547a1ead5d0",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
@@ -1698,7 +2715,7 @@
         }
       ],
       "zip": "c05-kinetic-friend.zip",
-      "zipSha256": "7f0b9f1c5a3cef38b640365d2512baa2f557fda8865d8ebfc8894b48c4161d6b",
+      "zipSha256": "e48d4210f90eac54d16834a64fccd15b8145c9c8ef6a15d45a034b7d33f47bd5",
       "files": {
         "app.js": "a425187ab9e6815a01c458b956007d1601a44e2a3ec38f12e120b42663797a0b",
         "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",

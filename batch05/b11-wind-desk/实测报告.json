@@ -1,0 +1,380 @@
+{
+  "name": "风的桌面",
+  "tests": [
+    {
+      "device": "desktop",
+      "durationMs": 65536,
+      "passed": true,
+      "windDomainProof": {
+        "affectedUp": 3,
+        "affectedDown": 0,
+        "coefficientsChanged": true,
+        "endpointsChanged": true
+      },
+      "axisUp": {
+        "speed": 2,
+        "angle": -0.5830765642114167,
+        "fanY": 330,
+        "endpoints": [
+          [
+            551,
+            375
+          ],
+          [
+            586,
+            491
+          ],
+          [
+            574,
+            633
+          ],
+          [
+            661,
+            517
+          ],
+          [
+            665,
+            515
+          ],
+          [
+            708,
+            598
+          ],
+          [
+            766,
+            551
+          ]
+        ],
+        "windCoefficients": [
+          0.718,
+          0.44,
+          0.038,
+          0.356,
+          0.067,
+          0.002,
+          0.077
+        ],
+        "affected": 3,
+        "mode": "move",
+        "clipped": 1,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            514,
+            265
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ]
+        ]
+      },
+      "axisDown": {
+        "speed": 2,
+        "angle": 0.65,
+        "fanY": 330,
+        "endpoints": [
+          [
+            467,
+            490
+          ],
+          [
+            514,
+            563
+          ],
+          [
+            561,
+            638
+          ],
+          [
+            609,
+            609
+          ],
+          [
+            665,
+            525
+          ],
+          [
+            711,
+            602
+          ],
+          [
+            762,
+            571
+          ]
+        ],
+        "windCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "affected": 0,
+        "mode": "move",
+        "clipped": 1,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            514,
+            265
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ]
+        ]
+      },
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.015072849393329342,
+      "fxNotes": 48,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    },
+    {
+      "device": "mobile",
+      "durationMs": 65450,
+      "passed": true,
+      "windDomainProof": {
+        "affectedUp": 3,
+        "affectedDown": 0,
+        "coefficientsChanged": true,
+        "endpointsChanged": true
+      },
+      "axisUp": {
+        "speed": 2,
+        "angle": -0.5830765610458869,
+        "fanY": 330,
+        "endpoints": [
+          [
+            540,
+            379
+          ],
+          [
+            580,
+            491
+          ],
+          [
+            574,
+            633
+          ],
+          [
+            659,
+            515
+          ],
+          [
+            664,
+            515
+          ],
+          [
+            708,
+            598
+          ],
+          [
+            767,
+            551
+          ]
+        ],
+        "windCoefficients": [
+          0.718,
+          0.44,
+          0.038,
+          0.356,
+          0.067,
+          0.002,
+          0.077
+        ],
+        "affected": 3,
+        "mode": "move",
+        "clipped": 1,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            514,
+            265
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ]
+        ]
+      },
+      "axisDown": {
+        "speed": 2,
+        "angle": 0.65,
+        "fanY": 330,
+        "endpoints": [
+          [
+            467,
+            490
+          ],
+          [
+            514,
+            563
+          ],
+          [
+            560,
+            638
+          ],
+          [
+            609,
+            610
+          ],
+          [
+            665,
+            526
+          ],
+          [
+            712,
+            602
+          ],
+          [
+            762,
+            571
+          ]
+        ],
+        "windCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "affected": 0,
+        "mode": "move",
+        "clipped": 1,
+        "free": 0,
+        "positions": [
+          [
+            465,
+            230
+          ],
+          [
+            514,
+            265
+          ],
+          [
+            563,
+            300
+          ],
+          [
+            612,
+            230
+          ],
+          [
+            661,
+            265
+          ],
+          [
+            710,
+            300
+          ],
+          [
+            759,
+            230
+          ]
+        ]
+      },
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.008873108476639776,
+      "fxNotes": 51,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    }
+  ],
+  "isolatedAudio": {
+    "musicRmsMax": 0.009328617154666253,
+    "fxRmsMax": 0.012855067753495254,
+    "method": "Test temporarily replaced sequence with a no-op and called reset to clear music voices, then triggered an actual trusted button click. Original sequence restored after sampling. No shipped-code change."
+  },
+  "trustedPagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 15,
+      "fxNotes": 11
+    }
+  },
+  "limits": "No physical handset or human listening; headless Chromium desktop and mobile emulation, trusted touch/CDP input. FPS recorded under concurrent QA tabs, about 37–49 in isolation run.",
+  "references": "Original assets. Temporary reference downloads remain outside deliverables.",
+  "windDomainRepair": "局部风锥有前向投影、离轴范围与距离衰减；真实指针拖动证明受风带数3与0，系数和端点不同。"
+}

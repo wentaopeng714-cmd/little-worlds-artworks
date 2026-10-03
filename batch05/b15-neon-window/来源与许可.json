@@ -1,0 +1,11 @@
+{
+  "references": [
+    {
+      "url": "https://www.saulleiterfoundation.org/color",
+      "scope": "构图、材质、物性灵感；没有复制素材",
+      "license": "源内容归原权利人，未取得复制授权，因此没有打包源美术"
+    }
+  ],
+  "original": "程序视觉及生成音乐原创；未附公开许可；不承诺独占版权",
+  "dependencies": "浏览器原生 Canvas 2D 与 Web Audio，无外部依赖"
+}

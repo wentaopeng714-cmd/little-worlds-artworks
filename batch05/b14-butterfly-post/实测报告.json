@@ -1,0 +1,57 @@
+{
+  "name": "蝶翅邮局",
+  "tests": [
+    {
+      "device": "desktop",
+      "durationMs": 113812,
+      "passed": true,
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.00528251523622895,
+      "musicNotes": 316,
+      "fxNotes": 18,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    },
+    {
+      "device": "mobile",
+      "durationMs": 65588,
+      "passed": true,
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.014124500620468713,
+      "musicNotes": 191,
+      "fxNotes": 15,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    }
+  ],
+  "isolatedAudio": {
+    "musicRmsMax": 0.006140262113607564,
+    "fxRmsMax": 0.012855067753495254,
+    "method": "Test temporarily replaced sequence with a no-op and called reset to clear music voices, then triggered an actual trusted button click. Original sequence restored after sampling. No shipped-code change."
+  },
+  "trustedPagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 4,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 24,
+      "fxNotes": 3
+    }
+  },
+  "limits": "No physical handset or human listening; headless Chromium desktop and mobile emulation, trusted touch/CDP input. FPS recorded under concurrent QA tabs, about 37–49 in isolation run.",
+  "references": "Original assets. Temporary reference downloads remain outside deliverables."
+}

@@ -1,0 +1,54 @@
+{
+  "title": "皂石切片",
+  "group": "B",
+  "slug": "b06-soap-strata",
+  "description": "切开一块温柔的矿层，镶入彩色碎皂，再让泡沫把它慢慢显露。",
+  "instructions": [
+    "切层",
+    "镶料",
+    "压花",
+    "起泡",
+    "擦洗"
+  ],
+  "testControls": [
+    "#tool-0",
+    "#tool-1",
+    "#tool-2",
+    "#tool-3",
+    "#tool-4"
+  ],
+  "referenceURLs": [
+    "https://haruharustudio.com/products/ondo-body-soap-apple-sage"
+  ],
+  "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+  "mechanism": "乳白块体与彩色碎屑的材质、错位陈列与柔和影子；仅灵感观察，未使用产品照片、商标或包装。",
+  "caps": {
+    "chips": 130,
+    "cuts": 12,
+    "flowers": 30,
+    "bubbles": 200,
+    "dpr": 2,
+    "targetRenderFPS": 60
+  },
+  "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "consoleErrors": 0,
+    "horizontalOverflow": false,
+    "minButtonHeight": 44,
+    "testedDurationSeconds": [
+      82.53,
+      69.693
+    ],
+    "trustedPointerInput": true,
+    "musicAndFxMeasuredSeparately": true,
+    "muteRms": 0,
+    "resetPreservesMute": true,
+    "blurAndPagehideStop": true,
+    "offlineHttpRequests": 0,
+    "limitations": "Headless Chromium simulation, not physical handset or human listening."
+  }
+}

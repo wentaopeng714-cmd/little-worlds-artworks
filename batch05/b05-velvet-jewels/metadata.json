@@ -1,0 +1,55 @@
+{
+  "title": "丝绒珠匣",
+  "group": "B",
+  "slug": "b05-velvet-jewels",
+  "description": "用彩色珠石，在丝绒匣中串起一圈自己的秩序。",
+  "instructions": [
+    "点按放珠，拖动已有珠子",
+    "珍珠、红玉、琥珀、翡翠、蓝石",
+    "按当前珠序穿成圆环",
+    "开合珠环并显示金扣",
+    "撒开珠子重新排列",
+    "三种灯光，保留排列"
+  ],
+  "testControls": [
+    "#drop",
+    "#material",
+    "#thread",
+    "#clasp",
+    "#scatter",
+    "#light"
+  ],
+  "referenceURLs": [
+    "https://the-collection.vancleefarpels.com/en/collection/creations/"
+  ],
+  "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+  "mechanism": "点按放珠，拖动已有珠子; 珍珠、红玉、琥珀、翡翠、蓝石; 按当前珠序穿成圆环; 开合珠环并显示金扣; 撒开珠子重新排列; 三种灯光，保留排列",
+  "limits": {
+    "canvas": [
+      900,
+      1000
+    ],
+    "collection": 4,
+    "marks": {
+      "beads": 48
+    }
+  },
+  "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+  "audio": {
+    "original": "WebAudio procedural score and operation tones",
+    "seed": 306,
+    "tempo": 58,
+    "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+    "maxNodes": 26,
+    "maxVoices": 12,
+    "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+  },
+  "selfCheck": {
+    "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+    "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+    "evidence": "../evidence-b01-b05/",
+    "screenshots": "../previews/b05-velvet-jewels-{1440,390}-{initial,interacted}.png",
+    "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+    "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+  }
+}

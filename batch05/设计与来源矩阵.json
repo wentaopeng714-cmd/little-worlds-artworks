@@ -1211,7 +1211,27 @@
       "dpr": 2,
       "targetRenderFPS": 60
     },
-    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum."
+    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+    "selfCheck": {
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "consoleErrors": 0,
+      "horizontalOverflow": false,
+      "minButtonHeight": 44,
+      "testedDurationSeconds": [
+        82.53,
+        69.693
+      ],
+      "trustedPointerInput": true,
+      "musicAndFxMeasuredSeparately": true,
+      "muteRms": 0,
+      "resetPreservesMute": true,
+      "blurAndPagehideStop": true,
+      "offlineHttpRequests": 0,
+      "limitations": "Headless Chromium simulation, not physical handset or human listening."
+    }
   },
   {
     "title": "香气试映室",
@@ -1245,7 +1265,27 @@
       "dpr": 2,
       "targetRenderFPS": 60
     },
-    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum."
+    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+    "selfCheck": {
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "consoleErrors": 0,
+      "horizontalOverflow": false,
+      "minButtonHeight": 44,
+      "testedDurationSeconds": [
+        101.052,
+        74.068
+      ],
+      "trustedPointerInput": true,
+      "musicAndFxMeasuredSeparately": true,
+      "muteRms": 0,
+      "resetPreservesMute": true,
+      "blurAndPagehideStop": true,
+      "offlineHttpRequests": 0,
+      "limitations": "Headless Chromium simulation, not physical handset or human listening."
+    }
   },
   {
     "title": "唱片封面工房",
@@ -1278,7 +1318,27 @@
       "dpr": 2,
       "targetRenderFPS": 60
     },
-    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum."
+    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+    "selfCheck": {
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "consoleErrors": 0,
+      "horizontalOverflow": false,
+      "minButtonHeight": 44,
+      "testedDurationSeconds": [
+        68.078,
+        68.342
+      ],
+      "trustedPointerInput": true,
+      "musicAndFxMeasuredSeparately": true,
+      "muteRms": 0,
+      "resetPreservesMute": true,
+      "blurAndPagehideStop": true,
+      "offlineHttpRequests": 0,
+      "limitations": "Headless Chromium simulation, not physical handset or human listening."
+    }
   },
   {
     "title": "糖光折炼",
@@ -1311,7 +1371,27 @@
       "dpr": 2,
       "targetRenderFPS": 60
     },
-    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum."
+    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+    "selfCheck": {
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "consoleErrors": 0,
+      "horizontalOverflow": false,
+      "minButtonHeight": 44,
+      "testedDurationSeconds": [
+        69.904,
+        67.579
+      ],
+      "trustedPointerInput": true,
+      "musicAndFxMeasuredSeparately": true,
+      "muteRms": 0,
+      "resetPreservesMute": true,
+      "blurAndPagehideStop": true,
+      "offlineHttpRequests": 0,
+      "limitations": "Headless Chromium simulation, not physical handset or human listening."
+    }
   },
   {
     "title": "绳结染布",
@@ -1346,7 +1426,27 @@
       "dpr": 2,
       "targetRenderFPS": 20
     },
-    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum."
+    "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+    "selfCheck": {
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "consoleErrors": 0,
+      "horizontalOverflow": false,
+      "minButtonHeight": 44,
+      "testedDurationSeconds": [
+        82.049,
+        69.627
+      ],
+      "trustedPointerInput": true,
+      "musicAndFxMeasuredSeparately": true,
+      "muteRms": 0,
+      "resetPreservesMute": true,
+      "blurAndPagehideStop": true,
+      "offlineHttpRequests": 0,
+      "limitations": "Headless Chromium simulation, not physical handset or human listening."
+    }
   },
   {
     "title": "风的桌面",

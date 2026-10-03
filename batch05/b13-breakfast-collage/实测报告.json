@@ -1,0 +1,57 @@
+{
+  "name": "晨光吐司拼贴",
+  "tests": [
+    {
+      "device": "desktop",
+      "durationMs": 114998,
+      "passed": true,
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.014358387463269884,
+      "musicNotes": 394,
+      "fxNotes": 117,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    },
+    {
+      "device": "mobile",
+      "durationMs": 65843,
+      "passed": true,
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.00908780330763609,
+      "musicNotes": 232,
+      "fxNotes": 47,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    }
+  ],
+  "isolatedAudio": {
+    "musicRmsMax": 0.007797991727535605,
+    "fxRmsMax": 0.00534181920562526,
+    "method": "Test temporarily replaced sequence with a no-op and called reset to clear music voices, then triggered an actual trusted button click. Original sequence restored after sampling. No shipped-code change."
+  },
+  "trustedPagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 7,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 30,
+      "fxNotes": 30
+    }
+  },
+  "limits": "No physical handset or human listening; headless Chromium desktop and mobile emulation, trusted touch/CDP input. FPS recorded under concurrent QA tabs, about 37–49 in isolation run.",
+  "references": "Original assets. Temporary reference downloads remain outside deliverables."
+}

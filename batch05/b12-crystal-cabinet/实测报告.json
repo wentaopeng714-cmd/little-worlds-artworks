@@ -1,0 +1,57 @@
+{
+  "name": "晶壳标本室",
+  "tests": [
+    {
+      "device": "desktop",
+      "durationMs": 134314,
+      "passed": true,
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.011506021264726432,
+      "musicNotes": 344,
+      "fxNotes": 30,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    },
+    {
+      "device": "mobile",
+      "durationMs": 65617,
+      "passed": true,
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.009026136275868825,
+      "musicNotes": 162,
+      "fxNotes": 29,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    }
+  ],
+  "isolatedAudio": {
+    "musicRmsMax": 0.011603097381452982,
+    "fxRmsMax": 0.00469754160139536,
+    "method": "Test temporarily replaced sequence with a no-op and called reset to clear music voices, then triggered an actual trusted button click. Original sequence restored after sampling. No shipped-code change."
+  },
+  "trustedPagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 4,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 21,
+      "fxNotes": 3
+    }
+  },
+  "limits": "No physical handset or human listening; headless Chromium desktop and mobile emulation, trusted touch/CDP input. FPS recorded under concurrent QA tabs, about 37–49 in isolation run.",
+  "references": "Original assets. Temporary reference downloads remain outside deliverables."
+}

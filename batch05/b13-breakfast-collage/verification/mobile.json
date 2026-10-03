@@ -1,0 +1,616 @@
+{
+  "slug": "b13-breakfast-collage",
+  "device": "mobile",
+  "durationMs": 65843,
+  "controlsVisible": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "frames": 73,
+    "fps": 64.3455266637285,
+    "state": {
+      "mode": "jam0",
+      "cut": false,
+      "grilled": 0,
+      "offsets": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "marks": 2,
+      "fruits": 8
+    },
+    "bounded": true,
+    "counts": {
+      "marks": 2,
+      "fruits": 8,
+      "markCap": 500,
+      "fruitCap": 60
+    }
+  },
+  "stages": [
+    {
+      "inputs": 35,
+      "resets": 0,
+      "frames": 678,
+      "fps": 64.25322213798333,
+      "state": {
+        "mode": "jam0",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 36,
+        "fruits": 8
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 36,
+        "fruits": 8,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 53,
+      "resets": 0,
+      "frames": 1138,
+      "fps": 63.89023007218329,
+      "state": {
+        "mode": "jam1",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 53,
+        "fruits": 8
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 53,
+        "fruits": 8,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 71,
+      "resets": 0,
+      "frames": 1602,
+      "fps": 63.68211415077835,
+      "state": {
+        "mode": "jam2",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 70,
+        "fruits": 8
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 70,
+        "fruits": 8,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 89,
+      "resets": 0,
+      "frames": 2035,
+      "fps": 62.64699725399607,
+      "state": {
+        "mode": "fruit0",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 70,
+        "fruits": 9
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 70,
+        "fruits": 9,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 107,
+      "resets": 0,
+      "frames": 2458,
+      "fps": 61.674340413253205,
+      "state": {
+        "mode": "fruit1",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 70,
+        "fruits": 10
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 70,
+        "fruits": 10,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 125,
+      "resets": 0,
+      "frames": 2953,
+      "fps": 62.47672726041575,
+      "state": {
+        "mode": "fruit2",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 70,
+        "fruits": 11
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 70,
+        "fruits": 11,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 143,
+      "resets": 0,
+      "frames": 3309,
+      "fps": 60.28519323508511,
+      "state": {
+        "mode": "fruit2",
+        "cut": false,
+        "grilled": 1,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 70,
+        "fruits": 12
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 70,
+        "fruits": 12,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 161,
+      "resets": 0,
+      "frames": 3688,
+      "fps": 57.67086636090131,
+      "state": {
+        "mode": "fruit2",
+        "cut": true,
+        "grilled": 1,
+        "offsets": [
+          {
+            "x": -45,
+            "y": -35
+          },
+          {
+            "x": 45,
+            "y": -35
+          },
+          {
+            "x": -45,
+            "y": 35
+          },
+          {
+            "x": 45,
+            "y": 35
+          }
+        ],
+        "marks": 70,
+        "fruits": 12
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 70,
+        "fruits": 12,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    }
+  ],
+  "composed": {
+    "inputs": 161,
+    "resets": 0,
+    "frames": 3688,
+    "fps": 57.67005473025801,
+    "state": {
+      "mode": "fruit2",
+      "cut": true,
+      "grilled": 1,
+      "offsets": [
+        {
+          "x": -45,
+          "y": -35
+        },
+        {
+          "x": 45,
+          "y": -35
+        },
+        {
+          "x": -45,
+          "y": 35
+        },
+        {
+          "x": 45,
+          "y": 35
+        }
+      ],
+      "marks": 70,
+      "fruits": 12
+    },
+    "bounded": true,
+    "counts": {
+      "marks": 70,
+      "fruits": 12,
+      "markCap": 500,
+      "fruitCap": 60
+    }
+  },
+  "final": {
+    "inputs": 178,
+    "resets": 1,
+    "frames": 3812,
+    "fps": 57.34305497682533,
+    "state": {
+      "mode": "jam0",
+      "cut": false,
+      "grilled": 0,
+      "offsets": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "marks": 19,
+      "fruits": 8
+    },
+    "bounded": true,
+    "counts": {
+      "marks": 19,
+      "fruits": 8,
+      "markCap": 500,
+      "fruitCap": 60
+    }
+  },
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0035292945126432526,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 7
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.00908780330763609,
+      "errors": 0,
+      "musicNotes": 34,
+      "fxNotes": 15
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0005176381652805547,
+      "errors": 0,
+      "musicNotes": 59,
+      "fxNotes": 22
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 8,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0005213489629785037,
+      "errors": 0,
+      "musicNotes": 85,
+      "fxNotes": 31
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0042942305013289606,
+      "errors": 0,
+      "musicNotes": 112,
+      "fxNotes": 32
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0009519463470539094,
+      "errors": 0,
+      "musicNotes": 138,
+      "fxNotes": 33
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.008555179300986314,
+      "errors": 0,
+      "musicNotes": 165,
+      "fxNotes": 35
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.005546555972728375,
+      "errors": 0,
+      "musicNotes": 192,
+      "fxNotes": 37
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0008501011875191143,
+      "errors": 0,
+      "musicNotes": 224,
+      "fxNotes": 39
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.001214598275178599,
+      "errors": 0,
+      "musicNotes": 232,
+      "fxNotes": 47
+    }
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 8,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 224,
+    "fxNotes": 39
+  },
+  "resetAudio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 8,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 224,
+    "fxNotes": 39
+  },
+  "blur": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 233,
+      "fxNotes": 47
+    }
+  },
+  "errors": [],
+  "measurement": "WebAudio analyser post-master RMS; fx/music counters recorded separately. Browser mobile emulation with trusted CDP touch; no physical handset or human listening.",
+  "passed": true
+}

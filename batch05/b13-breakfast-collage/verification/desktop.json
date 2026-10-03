@@ -1,0 +1,594 @@
+{
+  "slug": "b13-breakfast-collage",
+  "device": "desktop",
+  "durationMs": 114998,
+  "controlsVisible": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "state": {
+      "mode": "jam0",
+      "cut": false,
+      "grilled": 0,
+      "offsets": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "marks": 2,
+      "fruits": 8
+    },
+    "bounded": true,
+    "counts": {
+      "marks": 2,
+      "fruits": 8,
+      "markCap": 500,
+      "fruitCap": 60
+    }
+  },
+  "stages": [
+    {
+      "inputs": 51,
+      "resets": 0,
+      "state": {
+        "mode": "jam0",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 52,
+        "fruits": 8
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 52,
+        "fruits": 8,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 77,
+      "resets": 0,
+      "state": {
+        "mode": "jam1",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 77,
+        "fruits": 8
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 77,
+        "fruits": 8,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 103,
+      "resets": 0,
+      "state": {
+        "mode": "jam2",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 102,
+        "fruits": 8
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 102,
+        "fruits": 8,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 129,
+      "resets": 0,
+      "state": {
+        "mode": "fruit0",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 102,
+        "fruits": 9
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 102,
+        "fruits": 9,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 155,
+      "resets": 0,
+      "state": {
+        "mode": "fruit1",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 102,
+        "fruits": 10
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 102,
+        "fruits": 10,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 181,
+      "resets": 0,
+      "state": {
+        "mode": "fruit2",
+        "cut": false,
+        "grilled": 0,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 102,
+        "fruits": 11
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 102,
+        "fruits": 11,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 207,
+      "resets": 0,
+      "state": {
+        "mode": "fruit2",
+        "cut": false,
+        "grilled": 1,
+        "offsets": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "marks": 102,
+        "fruits": 12
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 102,
+        "fruits": 12,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    },
+    {
+      "inputs": 233,
+      "resets": 0,
+      "state": {
+        "mode": "fruit2",
+        "cut": true,
+        "grilled": 1,
+        "offsets": [
+          {
+            "x": 35.000014963608464,
+            "y": 120
+          },
+          {
+            "x": 45,
+            "y": -35
+          },
+          {
+            "x": -45,
+            "y": 35
+          },
+          {
+            "x": 45,
+            "y": 35
+          }
+        ],
+        "marks": 102,
+        "fruits": 12
+      },
+      "bounded": true,
+      "counts": {
+        "marks": 102,
+        "fruits": 12,
+        "markCap": 500,
+        "fruitCap": 60
+      }
+    }
+  ],
+  "composed": {
+    "inputs": 233,
+    "resets": 0,
+    "state": {
+      "mode": "fruit2",
+      "cut": true,
+      "grilled": 1,
+      "offsets": [
+        {
+          "x": 35.000014963608464,
+          "y": 120
+        },
+        {
+          "x": 45,
+          "y": -35
+        },
+        {
+          "x": -45,
+          "y": 35
+        },
+        {
+          "x": 45,
+          "y": 35
+        }
+      ],
+      "marks": 102,
+      "fruits": 12
+    },
+    "bounded": true,
+    "counts": {
+      "marks": 102,
+      "fruits": 12,
+      "markCap": 500,
+      "fruitCap": 60
+    }
+  },
+  "final": {
+    "inputs": 258,
+    "resets": 1,
+    "state": {
+      "mode": "jam0",
+      "cut": false,
+      "grilled": 0,
+      "offsets": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "marks": 27,
+      "fruits": 8
+    },
+    "bounded": true,
+    "counts": {
+      "marks": 27,
+      "fruits": 8,
+      "markCap": 500,
+      "fruitCap": 60
+    }
+  },
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0012159830506885633,
+      "errors": 0,
+      "musicNotes": 28,
+      "fxNotes": 25
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 7,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.004462220670192214,
+      "errors": 0,
+      "musicNotes": 72,
+      "fxNotes": 50
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.007511887239287099,
+      "errors": 0,
+      "musicNotes": 103,
+      "fxNotes": 67
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00044279167239412643,
+      "errors": 0,
+      "musicNotes": 140,
+      "fxNotes": 91
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0002626904275787606,
+      "errors": 0,
+      "musicNotes": 197,
+      "fxNotes": 93
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0006771108290609161,
+      "errors": 0,
+      "musicNotes": 250,
+      "fxNotes": 95
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0007462701770085881,
+      "errors": 0,
+      "musicNotes": 304,
+      "fxNotes": 97
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.009145240117272115,
+      "errors": 0,
+      "musicNotes": 344,
+      "fxNotes": 99
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 8,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.008985720765881187,
+      "errors": 0,
+      "musicNotes": 380,
+      "fxNotes": 101
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 8,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.014358387463269884,
+      "errors": 0,
+      "musicNotes": 394,
+      "fxNotes": 117
+    }
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 8,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 382,
+    "fxNotes": 101
+  },
+  "resetAudio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 8,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 382,
+    "fxNotes": 101
+  },
+  "blur": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 399,
+      "fxNotes": 117
+    }
+  },
+  "errors": [],
+  "measurement": "WebAudio analyser post-master RMS; fx/music counters recorded separately. Browser mobile emulation with trusted CDP touch; no physical handset or human listening.",
+  "passed": true
+}

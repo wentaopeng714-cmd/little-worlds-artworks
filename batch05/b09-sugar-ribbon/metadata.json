@@ -1,0 +1,53 @@
+{
+  "title": "糖光折炼",
+  "group": "B",
+  "slug": "b09-sugar-ribbon",
+  "description": "拉出闪亮的糖带，绕一只结，敲成碎片，再用热光把它炼回新的形状。",
+  "instructions": [
+    "拉糖",
+    "结糖",
+    "敲碎",
+    "热熔",
+    "换味"
+  ],
+  "testControls": [
+    "#tool-0",
+    "#tool-1",
+    "#tool-2",
+    "#tool-3",
+    "#tool-4"
+  ],
+  "referenceURLs": [
+    "https://pourlesgourmets.fr/sucre/47422-sucre-isomalt-le-magnifique--pot-de-1-kg"
+  ],
+  "tech": "Canvas 2D + original procedural Web Audio; local-only assets",
+  "mechanism": "在多色多宽糖雕上按住局部拉伸；绕结改变盘卷结构；敲碎后形成最多120糖片；热熔重建5–7条多宽渐变糖带，保持展示构图，反复组合。",
+  "caps": {
+    "ribbons": 8,
+    "points": 680,
+    "shards": 120,
+    "dpr": 2,
+    "targetRenderFPS": 60
+  },
+  "audio": "Original procedural score and operation tones; ArtSound first gesture unlock, true mute, mute-preserving reset, blur/pagehide pause, 12 voices / 26 nodes maximum.",
+  "selfCheck": {
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "consoleErrors": 0,
+    "horizontalOverflow": false,
+    "minButtonHeight": 44,
+    "testedDurationSeconds": [
+      69.904,
+      67.579
+    ],
+    "trustedPointerInput": true,
+    "musicAndFxMeasuredSeparately": true,
+    "muteRms": 0,
+    "resetPreservesMute": true,
+    "blurAndPagehideStop": true,
+    "offlineHttpRequests": 0,
+    "limitations": "Headless Chromium simulation, not physical handset or human listening."
+  }
+}

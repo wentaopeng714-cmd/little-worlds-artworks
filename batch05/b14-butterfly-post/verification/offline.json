@@ -1,0 +1,173 @@
+{
+  "zip": "evidence/offline-artwork.zip",
+  "sourceFiles": [
+    "LICENSE.txt",
+    "art.js",
+    "audio.js",
+    "index.html",
+    "metadata.json",
+    "style.css",
+    "实测报告.json",
+    "来源与许可.json",
+    "说明.txt"
+  ],
+  "mode": "file:// with browser offline:true; every resource local; real touch/click; no server required",
+  "audio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": false,
+    "paused": false,
+    "voices": 3,
+    "peakVoices": 4,
+    "nodeCount": 8,
+    "nodeLimit": 26,
+    "rms": 0.0020439087442149077,
+    "errors": 0,
+    "musicNotes": 8,
+    "fxNotes": 2
+  },
+  "state": {
+    "inputs": 3,
+    "resets": 0,
+    "frames": 201,
+    "fps": 82.3871787516368,
+    "state": {
+      "page": 0,
+      "mode": "perforate",
+      "items": [
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 272,
+            "y": 278,
+            "holes": 1,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stamps": [
+        7,
+        6,
+        6
+      ],
+      "itemCap": 54
+    }
+  },
+  "errors": [],
+  "passed": true,
+  "verification": "unzip -t CRC pass; independent extraction then file:// browser offline:true"
+}

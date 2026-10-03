@@ -1,0 +1,30 @@
+{
+  "title": "蝶翅邮局",
+  "group": "B",
+  "slug": "b14-butterfly-post",
+  "description": "一册虚构的蝶翅邮票。收集原创蝶纹、穿孔、盖邮戳，在三页颜色不同的册页之间摆出自己的收藏。",
+  "instructions": "拖动邮票可摆放；穿孔模式在邮票上点击镂孔；盖章后可继续重排；各册页独立保存。",
+  "testControls": [
+    "#mute",
+    "#reset",
+    "#add",
+    "#perforate",
+    "#stamp",
+    "#page",
+    "#arrange"
+  ],
+  "referenceURLs": [
+    "https://store.usps.com/store/stamps"
+  ],
+  "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+  "mechanism": "拖动邮票可摆放；穿孔模式在邮票上点击镂孔；盖章后可继续重排；各册页独立保存。",
+  "music": {
+    "type": "original procedural score and interaction FX",
+    "firstGestureUnlock": true,
+    "mute": "post-master zero gain",
+    "resetRetainsMute": true,
+    "lifecycle": "blur/pagehide/hidden suspend and release voices",
+    "nodeLimit": 26
+  },
+  "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束"
+}

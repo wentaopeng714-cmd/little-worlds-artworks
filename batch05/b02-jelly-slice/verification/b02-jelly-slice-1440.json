@@ -1,0 +1,577 @@
+{
+  "slug": "b02-jelly-slice",
+  "width": 1440,
+  "realInput": "trusted mouse",
+  "humanListening": false,
+  "physicalPhone": false,
+  "elapsedMs": 66317,
+  "activeMaxRms": 0.013967198232044472,
+  "musicNotes": 220,
+  "fxNotes": 70,
+  "peakNodes": 12,
+  "maxVoices": 6,
+  "art": {
+    "inputs": 280,
+    "resets": 0,
+    "state": {
+      "flavours": 3,
+      "layers": [
+        0,
+        3,
+        2,
+        1,
+        1,
+        2,
+        3
+      ],
+      "tilt": 0.14999998598101494,
+      "cut": 69.29997880329456,
+      "garnishes": 6,
+      "wobble": 2.242922866280475
+    },
+    "bounded": true,
+    "counts": {
+      "flavour": 41,
+      "stack": 3,
+      "poke": 40,
+      "tilt": 40,
+      "cut": 40,
+      "garnish": 116
+    },
+    "frames": 1990
+  },
+  "muted": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 225,
+      "fxNotes": 70
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 225,
+      "fxNotes": 70
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 225,
+      "fxNotes": 70
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 225,
+      "fxNotes": 70
+    }
+  ],
+  "reset": {
+    "art": {
+      "inputs": 358,
+      "resets": 2,
+      "state": {
+        "flavours": 0,
+        "layers": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "tilt": 0,
+        "cut": 0,
+        "garnishes": 0,
+        "wobble": 0
+      },
+      "bounded": true,
+      "counts": {
+        "flavour": 41,
+        "stack": 3,
+        "poke": 40,
+        "tilt": 40,
+        "cut": 40,
+        "garnish": 192,
+        "reset": 2
+      },
+      "frames": 2356
+    },
+    "audio": {
+      "state": "running",
+      "unlocked": true,
+      "muted": true,
+      "paused": false,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 225,
+      "fxNotes": 70
+    }
+  },
+  "overflow": false,
+  "errors": [],
+  "consoleErrors": [],
+  "stateChanges": [
+    {
+      "control": "#flavour",
+      "art": {
+        "inputs": 20,
+        "resets": 0,
+        "state": {
+          "flavours": 1,
+          "layers": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "tilt": 0,
+          "cut": 0,
+          "garnishes": 0,
+          "wobble": 0
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 20
+        },
+        "frames": 136
+      }
+    },
+    {
+      "control": "#stack",
+      "art": {
+        "inputs": 40,
+        "resets": 0,
+        "state": {
+          "flavours": 1,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1
+          ],
+          "tilt": 0,
+          "cut": 0,
+          "garnishes": 0,
+          "wobble": 2.1980644089548655
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 39,
+          "stack": 1
+        },
+        "frames": 297
+      }
+    },
+    {
+      "control": "#poke",
+      "art": {
+        "inputs": 60,
+        "resets": 0,
+        "state": {
+          "flavours": 1,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1
+          ],
+          "tilt": 0,
+          "cut": 0,
+          "garnishes": 0,
+          "wobble": 64.56577119999999
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 39,
+          "stack": 1,
+          "poke": 20
+        },
+        "frames": 433
+      }
+    },
+    {
+      "control": "#tilt",
+      "art": {
+        "inputs": 80,
+        "resets": 0,
+        "state": {
+          "flavours": 1,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1
+          ],
+          "tilt": 0.07000003434651338,
+          "cut": 0,
+          "garnishes": 0,
+          "wobble": 3.4497158031062622
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 39,
+          "stack": 1,
+          "poke": 20,
+          "tilt": 20
+        },
+        "frames": 578
+      }
+    },
+    {
+      "control": "#cut",
+      "art": {
+        "inputs": 100,
+        "resets": 0,
+        "state": {
+          "flavours": 1,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1
+          ],
+          "tilt": 0.07000003434651338,
+          "cut": 119.70000353278424,
+          "garnishes": 0,
+          "wobble": 0.27056328017118964
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 39,
+          "stack": 1,
+          "poke": 20,
+          "tilt": 20,
+          "cut": 20
+        },
+        "frames": 704
+      }
+    },
+    {
+      "control": "#garnish",
+      "art": {
+        "inputs": 120,
+        "resets": 0,
+        "state": {
+          "flavours": 1,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1
+          ],
+          "tilt": 0.07000003434651338,
+          "cut": 119.70000353278424,
+          "garnishes": 1,
+          "wobble": 0.02300647541245541
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 39,
+          "stack": 1,
+          "poke": 20,
+          "tilt": 20,
+          "cut": 20,
+          "garnish": 20
+        },
+        "frames": 826
+      }
+    },
+    {
+      "control": "#flavour",
+      "art": {
+        "inputs": 140,
+        "resets": 0,
+        "state": {
+          "flavours": 2,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1
+          ],
+          "tilt": 0.07000003434651338,
+          "cut": 119.70000353278424,
+          "garnishes": 2,
+          "wobble": 0.0008042270101434817
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 40,
+          "stack": 1,
+          "poke": 20,
+          "tilt": 20,
+          "cut": 20,
+          "garnish": 39
+        },
+        "frames": 992
+      }
+    },
+    {
+      "control": "#stack",
+      "art": {
+        "inputs": 160,
+        "resets": 0,
+        "state": {
+          "flavours": 2,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1,
+            2
+          ],
+          "tilt": 0.07000003434651338,
+          "cut": 119.70000353278424,
+          "garnishes": 3,
+          "wobble": 4.281341951273113
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 40,
+          "stack": 2,
+          "poke": 20,
+          "tilt": 20,
+          "cut": 20,
+          "garnish": 58
+        },
+        "frames": 1126
+      }
+    },
+    {
+      "control": "#poke",
+      "art": {
+        "inputs": 180,
+        "resets": 0,
+        "state": {
+          "flavours": 2,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1,
+            2
+          ],
+          "tilt": 0.07000003434651338,
+          "cut": 119.70000353278424,
+          "garnishes": 3,
+          "wobble": 64.56577119999999
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 40,
+          "stack": 2,
+          "poke": 40,
+          "tilt": 20,
+          "cut": 20,
+          "garnish": 58
+        },
+        "frames": 1247
+      }
+    },
+    {
+      "control": "#tilt",
+      "art": {
+        "inputs": 200,
+        "resets": 0,
+        "state": {
+          "flavours": 2,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1,
+            2
+          ],
+          "tilt": 0.14999998598101494,
+          "cut": 119.70000353278424,
+          "garnishes": 3,
+          "wobble": 2.70704968282971
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 40,
+          "stack": 2,
+          "poke": 40,
+          "tilt": 40,
+          "cut": 20,
+          "garnish": 58
+        },
+        "frames": 1404
+      }
+    },
+    {
+      "control": "#cut",
+      "art": {
+        "inputs": 220,
+        "resets": 0,
+        "state": {
+          "flavours": 2,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1,
+            2
+          ],
+          "tilt": 0.14999998598101494,
+          "cut": 69.29997880329456,
+          "garnishes": 3,
+          "wobble": 0.17000770174572974
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 40,
+          "stack": 2,
+          "poke": 40,
+          "tilt": 40,
+          "cut": 40,
+          "garnish": 58
+        },
+        "frames": 1541
+      }
+    },
+    {
+      "control": "#garnish",
+      "art": {
+        "inputs": 240,
+        "resets": 0,
+        "state": {
+          "flavours": 2,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1,
+            2
+          ],
+          "tilt": 0.14999998598101494,
+          "cut": 69.29997880329456,
+          "garnishes": 4,
+          "wobble": 0.019181597389637012
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 40,
+          "stack": 2,
+          "poke": 40,
+          "tilt": 40,
+          "cut": 40,
+          "garnish": 78
+        },
+        "frames": 1649
+      }
+    },
+    {
+      "control": "#flavour",
+      "art": {
+        "inputs": 260,
+        "resets": 0,
+        "state": {
+          "flavours": 3,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1,
+            2
+          ],
+          "tilt": 0.14999998598101494,
+          "cut": 69.29997880329456,
+          "garnishes": 5,
+          "wobble": 0.0007417933875683445
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 41,
+          "stack": 2,
+          "poke": 40,
+          "tilt": 40,
+          "cut": 40,
+          "garnish": 97
+        },
+        "frames": 1810
+      }
+    },
+    {
+      "control": "#stack",
+      "art": {
+        "inputs": 280,
+        "resets": 0,
+        "state": {
+          "flavours": 3,
+          "layers": [
+            0,
+            3,
+            2,
+            1,
+            1,
+            2,
+            3
+          ],
+          "tilt": 0.14999998598101494,
+          "cut": 69.29997880329456,
+          "garnishes": 6,
+          "wobble": 3.569559270787887
+        },
+        "bounded": true,
+        "counts": {
+          "flavour": 41,
+          "stack": 3,
+          "poke": 40,
+          "tilt": 40,
+          "cut": 40,
+          "garnish": 116
+        },
+        "frames": 1967
+      }
+    }
+  ],
+  "pass": true
+}

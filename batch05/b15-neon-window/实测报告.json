@@ -1,0 +1,57 @@
+{
+  "name": "雨窗夜刊",
+  "tests": [
+    {
+      "device": "desktop",
+      "durationMs": 116202,
+      "passed": true,
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.011030591943769963,
+      "musicNotes": 281,
+      "fxNotes": 148,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    },
+    {
+      "device": "mobile",
+      "durationMs": 66228,
+      "passed": true,
+      "controlsVisible": true,
+      "consoleErrors": [],
+      "musicRmsMax": 0.011854127472030646,
+      "musicNotes": 164,
+      "fxNotes": 64,
+      "mutedRms": 0,
+      "resetMuted": true,
+      "trustedBlur": true,
+      "pausedOnBlur": true
+    }
+  ],
+  "isolatedAudio": {
+    "musicRmsMax": 0.015520275389090437,
+    "fxRmsMax": 0.004023491758984475,
+    "method": "Test temporarily replaced sequence with a no-op and called reset to clear music voices, then triggered an actual trusted button click. Original sequence restored after sampling. No shipped-code change."
+  },
+  "trustedPagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 7,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 22,
+      "fxNotes": 29
+    }
+  },
+  "limits": "No physical handset or human listening; headless Chromium desktop and mobile emulation, trusted touch/CDP input. FPS recorded under concurrent QA tabs, about 37–49 in isolation run.",
+  "references": "Original assets. Temporary reference downloads remain outside deliverables."
+}

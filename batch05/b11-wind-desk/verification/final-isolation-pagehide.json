@@ -1,0 +1,438 @@
+{
+  "musicRmsMax": 0.009328617154666253,
+  "fxRmsMax": 0.012855067753495254,
+  "fxIsolation": "Test temporarily replaced sequence with a no-op and called reset to clear music voices, then triggered an actual trusted button click. Original sequence restored after sampling. No shipped-code change.",
+  "music": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0003469898787832027,
+      "errors": 0,
+      "musicNotes": 5,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0035329380934035815,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.009328617154666253,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.005558097188477706,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 4,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0032419185298942594,
+      "errors": 0,
+      "musicNotes": 7,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.007530758264412693,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 1
+    }
+  ],
+  "fx": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.012855067753495254,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.005387607439378199,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0019801730602033055,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0007261348739613454,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.00023199304274986352,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0000850520709902261,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 2
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 4,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.000031172602286891475,
+      "errors": 0,
+      "musicNotes": 8,
+      "fxNotes": 2
+    }
+  ],
+  "initial": {
+    "inputs": 2,
+    "resets": 0,
+    "frames": 215,
+    "fps": 55.011130158829694,
+    "state": {
+      "speed": 2,
+      "angle": 0,
+      "fanY": 330,
+      "endpoints": [
+        [
+          492,
+          479
+        ],
+        [
+          611,
+          490
+        ],
+        [
+          708,
+          534
+        ],
+        [
+          707,
+          532
+        ],
+        [
+          663,
+          519
+        ],
+        [
+          796,
+          552
+        ],
+        [
+          830,
+          533
+        ],
+        [
+          821,
+          445
+        ],
+        [
+          524,
+          476
+        ]
+      ],
+      "windCoefficients": [
+        0.142,
+        0.585,
+        0.625,
+        0.402,
+        0.485,
+        0.443,
+        0.342,
+        0.253,
+        0.169
+      ],
+      "affected": 6,
+      "mode": "move",
+      "clipped": 1,
+      "free": 0,
+      "positions": [
+        [
+          465,
+          230
+        ],
+        [
+          514,
+          265
+        ],
+        [
+          563,
+          300
+        ],
+        [
+          612,
+          230
+        ],
+        [
+          661,
+          265
+        ],
+        [
+          710,
+          300
+        ],
+        [
+          759,
+          230
+        ],
+        [
+          789,
+          194
+        ],
+        [
+          506,
+          221
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "ribbons": 9,
+      "cap": 20
+    }
+  },
+  "composed": {
+    "inputs": 38,
+    "resets": 0,
+    "frames": 251,
+    "fps": 54.130992689098456,
+    "state": {
+      "speed": 2,
+      "angle": 0.4026954326441915,
+      "fanY": 330,
+      "endpoints": [
+        [
+          467,
+          489
+        ],
+        [
+          513,
+          563
+        ],
+        [
+          563,
+          636
+        ],
+        [
+          609,
+          610
+        ],
+        [
+          667,
+          525
+        ],
+        [
+          714,
+          601
+        ],
+        [
+          762,
+          571
+        ],
+        [
+          789,
+          472
+        ],
+        [
+          503,
+          499
+        ]
+      ],
+      "windCoefficients": [
+        0,
+        0,
+        0.022,
+        0,
+        0,
+        0.012,
+        0,
+        0,
+        0
+      ],
+      "affected": 0,
+      "mode": "move",
+      "clipped": 1,
+      "free": 0,
+      "positions": [
+        [
+          465,
+          230
+        ],
+        [
+          514,
+          265
+        ],
+        [
+          563,
+          300
+        ],
+        [
+          612,
+          230
+        ],
+        [
+          661,
+          265
+        ],
+        [
+          710,
+          300
+        ],
+        [
+          759,
+          230
+        ],
+        [
+          789,
+          194
+        ],
+        [
+          506,
+          221
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "ribbons": 9,
+      "cap": 20
+    }
+  },
+  "pagehide": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 8,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 15,
+      "fxNotes": 11
+    }
+  },
+  "errors": [],
+  "passed": true
+}

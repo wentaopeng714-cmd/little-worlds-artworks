@@ -1,0 +1,29 @@
+{
+  "title": "晶壳标本室",
+  "group": "B",
+  "slug": "b12-crystal-cabinet",
+  "description": "从粗糙晶壳里敲出矿石，以软刷显露切面。转动光线，把发现的晶体摆成私人展览。",
+  "instructions": "点按矿石敲开局部晶壳；软刷模式拖动除尘；拖光模式改变晶体明暗。",
+  "testControls": [
+    "#mute",
+    "#reset",
+    "#crack",
+    "#brush",
+    "#light",
+    "#cabinet"
+  ],
+  "referenceURLs": [
+    "https://australian.museum/exhibition/minerals/"
+  ],
+  "tech": "Canvas 2D + original Web Audio synthesis, fully local",
+  "mechanism": "点按矿石敲开局部晶壳；软刷模式拖动除尘；拖光模式改变晶体明暗。",
+  "music": {
+    "type": "original procedural score and interaction FX",
+    "firstGestureUnlock": true,
+    "mute": "post-master zero gain",
+    "resetRetainsMute": true,
+    "lifecycle": "blur/pagehide/hidden suspend and release voices",
+    "nodeLimit": 26
+  },
+  "playDuration": "1–3分钟组合操作；没有计分、闯关或强制结束"
+}

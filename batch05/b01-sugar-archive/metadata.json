@@ -1,0 +1,56 @@
+{
+  "title": "糖纸档案",
+  "group": "B",
+  "slug": "b01-sugar-archive",
+  "description": "把一颗糖的包装，做成自己的光泽收藏。",
+  "instructions": [
+    "拆开与重新包裹",
+    "拖出金属压褶",
+    "拖动改变两端扭结",
+    "点按压入花纹",
+    "轮换五种材料",
+    "收藏当前包装并新开一颗"
+  ],
+  "testControls": [
+    "#unwrap",
+    "#crumple",
+    "#twist",
+    "#stamp",
+    "#foil",
+    "#collect"
+  ],
+  "referenceURLs": [
+    "https://jamescandy.com/"
+  ],
+  "tech": "原创 Canvas 2D 程序绘制；本地 WebAudio 音乐与音效，无外部运行依赖",
+  "mechanism": "拆开与重新包裹; 拖出金属压褶; 拖动改变两端扭结; 点按压入花纹; 轮换五种材料; 收藏当前包装并新开一颗",
+  "limits": {
+    "canvas": [
+      900,
+      1000
+    ],
+    "collection": 6,
+    "marks": {
+      "creases": 100,
+      "stamps": 24
+    }
+  },
+  "licenseNotes": "参考网站未提供可复用美术许可，未复制其图片、品牌标志、角色、代码或音乐。原创程序实现未擅自附加公开许可证。",
+  "audio": {
+    "original": "WebAudio procedural score and operation tones",
+    "seed": 302,
+    "tempo": 74,
+    "music": "independent MIDI scale, timbre and BPM; mood follows interaction count",
+    "maxNodes": 26,
+    "maxVoices": 12,
+    "measure": "post-master analyser waveform RMS; browser audio output enabled; no human listening"
+  },
+  "selfCheck": {
+    "desktop": "1440x900 trusted mouse, 65+ seconds multi-stage input",
+    "mobile": "390x844 trusted CDP touchscreen, 65+ seconds multi-stage input; not physical phone",
+    "evidence": "../evidence-b01-b05/",
+    "screenshots": "../previews/b01-sugar-archive-{1440,390}-{initial,interacted}.png",
+    "offline": "file:// browser, offline networking disabled, every request file:; audio/mute/reset passed",
+    "lifecycle": "real iframe click produces trusted blur; real navigation produces trusted pagehide; paused/no voices/zero RMS after blur"
+  }
+}

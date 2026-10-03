@@ -1,0 +1,1739 @@
+{
+  "slug": "b14-butterfly-post",
+  "device": "desktop",
+  "durationMs": 113812,
+  "controlsVisible": true,
+  "initial": {
+    "inputs": 0,
+    "resets": 0,
+    "state": {
+      "page": 0,
+      "mode": "move",
+      "items": [
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stamps": [
+        6,
+        6,
+        6
+      ],
+      "itemCap": 54
+    }
+  },
+  "stages": [
+    {
+      "inputs": 51,
+      "resets": 0,
+      "state": {
+        "page": 0,
+        "mode": "move",
+        "items": [
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 680,
+              "y": 334.9999901553724,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 332.00002992721664,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stamps": [
+          7,
+          6,
+          6
+        ],
+        "itemCap": 54
+      }
+    },
+    {
+      "inputs": 77,
+      "resets": 0,
+      "state": {
+        "page": 0,
+        "mode": "perforate",
+        "items": [
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 1,
+              "stamps": 0
+            },
+            {
+              "x": 680,
+              "y": 334.9999901553724,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 332.00002992721664,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stamps": [
+          7,
+          6,
+          6
+        ],
+        "itemCap": 54
+      }
+    },
+    {
+      "inputs": 103,
+      "resets": 0,
+      "state": {
+        "page": 0,
+        "mode": "stamp",
+        "items": [
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 1,
+              "stamps": 1
+            },
+            {
+              "x": 680,
+              "y": 334.9999901553724,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 332.00002992721664,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stamps": [
+          7,
+          6,
+          6
+        ],
+        "itemCap": 54
+      }
+    },
+    {
+      "inputs": 129,
+      "resets": 0,
+      "state": {
+        "page": 1,
+        "mode": "stamp",
+        "items": [
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 1,
+              "stamps": 1
+            },
+            {
+              "x": 680,
+              "y": 334.9999901553724,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 332.00002992721664,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 1
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stamps": [
+          7,
+          6,
+          6
+        ],
+        "itemCap": 54
+      }
+    },
+    {
+      "inputs": 155,
+      "resets": 0,
+      "state": {
+        "page": 1,
+        "mode": "stamp",
+        "items": [
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 1,
+              "stamps": 1
+            },
+            {
+              "x": 680,
+              "y": 334.9999901553724,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 332.00002992721664,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 770,
+              "y": 390,
+              "holes": 0,
+              "stamps": 1
+            },
+            {
+              "x": 635.1241160322156,
+              "y": 571.8095662933923,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 365.24834617398267,
+              "y": 571.9767180118158,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 230.00034243356436,
+              "y": 390.33445711246225,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 364.50376450997646,
+              "y": 208.35804659316312,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 634.3788498161961,
+              "y": 207.85659186188053,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stamps": [
+          7,
+          6,
+          6
+        ],
+        "itemCap": 54
+      }
+    },
+    {
+      "inputs": 181,
+      "resets": 0,
+      "state": {
+        "page": 1,
+        "mode": "stamp",
+        "items": [
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 1,
+              "stamps": 1
+            },
+            {
+              "x": 680,
+              "y": 334.9999901553724,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 332.00002992721664,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 770,
+              "y": 390,
+              "holes": 0,
+              "stamps": 1
+            },
+            {
+              "x": 635.1241160322156,
+              "y": 571.8095662933923,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 365.24834617398267,
+              "y": 571.9767180118158,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 230.00034243356436,
+              "y": 390.33445711246225,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 364.50376450997646,
+              "y": 208.35804659316312,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 634.3788498161961,
+              "y": 207.85659186188053,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 272,
+              "y": 278,
+              "holes": 0,
+              "stamps": 1
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stamps": [
+          7,
+          7,
+          6
+        ],
+        "itemCap": 54
+      }
+    },
+    {
+      "inputs": 207,
+      "resets": 0,
+      "state": {
+        "page": 1,
+        "mode": "move",
+        "items": [
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 1,
+              "stamps": 1
+            },
+            {
+              "x": 680,
+              "y": 334.9999901553724,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 332.00002992721664,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 770,
+              "y": 390,
+              "holes": 0,
+              "stamps": 1
+            },
+            {
+              "x": 635.1241160322156,
+              "y": 571.8095662933923,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 365.24834617398267,
+              "y": 571.9767180118158,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 230.00034243356436,
+              "y": 390.33445711246225,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 364.50376450997646,
+              "y": 208.35804659316312,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 634.3788498161961,
+              "y": 207.85659186188053,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 422.00000000000006,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 1
+            }
+          ],
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stamps": [
+          7,
+          7,
+          6
+        ],
+        "itemCap": 54
+      }
+    },
+    {
+      "inputs": 233,
+      "resets": 0,
+      "state": {
+        "page": 2,
+        "mode": "move",
+        "items": [
+          [
+            {
+              "x": 220,
+              "y": 255,
+              "holes": 1,
+              "stamps": 1
+            },
+            {
+              "x": 680,
+              "y": 334.9999901553724,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 332.00002992721664,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            }
+          ],
+          [
+            {
+              "x": 770,
+              "y": 390,
+              "holes": 0,
+              "stamps": 1
+            },
+            {
+              "x": 635.1241160322156,
+              "y": 571.8095662933923,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 365.24834617398267,
+              "y": 571.9767180118158,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 230.00034243356436,
+              "y": 390.33445711246225,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 364.50376450997646,
+              "y": 208.35804659316312,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 634.3788498161961,
+              "y": 207.85659186188053,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 422.00000000000006,
+              "y": 352.99997440396703,
+              "holes": 0,
+              "stamps": 1
+            }
+          ],
+          [
+            {
+              "x": 385.00004489082573,
+              "y": 329.99997440396703,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 255,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 220,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 480,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            },
+            {
+              "x": 740,
+              "y": 510,
+              "holes": 0,
+              "stamps": 0
+            }
+          ]
+        ]
+      },
+      "bounded": true,
+      "counts": {
+        "stamps": [
+          7,
+          7,
+          6
+        ],
+        "itemCap": 54
+      }
+    }
+  ],
+  "composed": {
+    "inputs": 233,
+    "resets": 0,
+    "state": {
+      "page": 2,
+      "mode": "move",
+      "items": [
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 1,
+            "stamps": 1
+          },
+          {
+            "x": 680,
+            "y": 334.9999901553724,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 332.00002992721664,
+            "y": 352.99997440396703,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 770,
+            "y": 390,
+            "holes": 0,
+            "stamps": 1
+          },
+          {
+            "x": 635.1241160322156,
+            "y": 571.8095662933923,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 365.24834617398267,
+            "y": 571.9767180118158,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 230.00034243356436,
+            "y": 390.33445711246225,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 364.50376450997646,
+            "y": 208.35804659316312,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 634.3788498161961,
+            "y": 207.85659186188053,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 422.00000000000006,
+            "y": 352.99997440396703,
+            "holes": 0,
+            "stamps": 1
+          }
+        ],
+        [
+          {
+            "x": 385.00004489082573,
+            "y": 329.99997440396703,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stamps": [
+        7,
+        7,
+        6
+      ],
+      "itemCap": 54
+    }
+  },
+  "final": {
+    "inputs": 258,
+    "resets": 1,
+    "state": {
+      "page": 0,
+      "mode": "move",
+      "items": [
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 680,
+            "y": 354.9999783418184,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ],
+        [
+          {
+            "x": 220,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 255,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 220,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 480,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          },
+          {
+            "x": 740,
+            "y": 510,
+            "holes": 0,
+            "stamps": 0
+          }
+        ]
+      ]
+    },
+    "bounded": true,
+    "counts": {
+      "stamps": [
+        6,
+        6,
+        6
+      ],
+      "itemCap": 54
+    }
+  },
+  "audioSamples": [
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 4,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00528251523622895,
+      "errors": 0,
+      "musicNotes": 23,
+      "fxNotes": 1
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00011354949838533065,
+      "errors": 0,
+      "musicNotes": 59,
+      "fxNotes": 3
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00008272143725153829,
+      "errors": 0,
+      "musicNotes": 85,
+      "fxNotes": 5
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 4,
+      "peakVoices": 5,
+      "nodeCount": 10,
+      "nodeLimit": 26,
+      "rms": 0.0015361700739149225,
+      "errors": 0,
+      "musicNotes": 114,
+      "fxNotes": 7
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 5,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.0008153090332055809,
+      "errors": 0,
+      "musicNotes": 158,
+      "fxNotes": 9
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 5,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0026918781434178427,
+      "errors": 0,
+      "musicNotes": 202,
+      "fxNotes": 11
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 1,
+      "peakVoices": 6,
+      "nodeCount": 4,
+      "nodeLimit": 26,
+      "rms": 0.0003357794913268414,
+      "errors": 0,
+      "musicNotes": 240,
+      "fxNotes": 13
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 6,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.0010430946084443826,
+      "errors": 0,
+      "musicNotes": 275,
+      "fxNotes": 15
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 3,
+      "peakVoices": 6,
+      "nodeCount": 8,
+      "nodeLimit": 26,
+      "rms": 0.00107461119060046,
+      "errors": 0,
+      "musicNotes": 303,
+      "fxNotes": 17
+    },
+    {
+      "state": "running",
+      "unlocked": true,
+      "muted": false,
+      "paused": false,
+      "voices": 2,
+      "peakVoices": 6,
+      "nodeCount": 6,
+      "nodeLimit": 26,
+      "rms": 0.00311918119084647,
+      "errors": 0,
+      "musicNotes": 316,
+      "fxNotes": 18
+    }
+  ],
+  "muted": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 6,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 304,
+    "fxNotes": 17
+  },
+  "resetAudio": {
+    "state": "running",
+    "unlocked": true,
+    "muted": true,
+    "paused": false,
+    "voices": 0,
+    "peakVoices": 6,
+    "nodeCount": 2,
+    "nodeLimit": 26,
+    "rms": 0,
+    "errors": 0,
+    "musicNotes": 304,
+    "fxNotes": 17
+  },
+  "blur": {
+    "trusted": true,
+    "audio": {
+      "state": "suspended",
+      "unlocked": true,
+      "muted": false,
+      "paused": true,
+      "voices": 0,
+      "peakVoices": 6,
+      "nodeCount": 2,
+      "nodeLimit": 26,
+      "rms": 0,
+      "errors": 0,
+      "musicNotes": 321,
+      "fxNotes": 18
+    }
+  },
+  "errors": [],
+  "measurement": "WebAudio analyser post-master RMS; fx/music counters recorded separately. Browser mobile emulation with trusted CDP touch; no physical handset or human listening.",
+  "passed": true
+}

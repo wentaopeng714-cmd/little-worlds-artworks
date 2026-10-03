@@ -1,0 +1,67 @@
+{
+  "slug": "c04-airmail-house",
+  "title": "风递小邮局",
+  "group": "C",
+  "description": "信沿着透明彩管跑。转动阀门、移动管线、倒转风，把一座邮局变成持续变化的信件装置。",
+  "instructions": [
+    "点三个彩色圆形阀门，改变它对应的收件箱；拖阀门可以弯曲整条管线。",
+    "送三封信会分别进入三条管道，风力三档改变运动速度。",
+    "倒转风让信返回入口再分流，收回信件会把箱里信送回管道。",
+    "更換信纸、不同阀门、拖动位置与正反风可以叠加；每箱只保留最近七封，不无限累积。"
+  ],
+  "testControls": [
+    "#send",
+    "#valve",
+    "#air",
+    "#reverse",
+    "#return",
+    "#palette"
+  ],
+  "referenceURLs": [
+    "https://www.moma.org/artists/4163-bruno-munari"
+  ],
+  "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+  "mechanism": "三路气流管道、阀门路由、正反运动和堆叠彩信；不是旧字雨的文字降落。",
+  "audio": {
+    "seed": 14,
+    "tempo": 102,
+    "scale": [
+      53,
+      57,
+      60,
+      65,
+      69,
+      72
+    ],
+    "timbre": "triangle",
+    "fxTimbre": "sine"
+  },
+  "difference": "三路气流管道、阀门路由、正反运动和堆叠彩信；不是旧字雨的文字降落。",
+  "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+  "qaActions": [
+    {
+      "action": "send",
+      "label": "送三封信"
+    },
+    {
+      "action": "valve",
+      "label": "轮换三阀"
+    },
+    {
+      "action": "air",
+      "label": "风力三档"
+    },
+    {
+      "action": "reverse",
+      "label": "前进 / 回风"
+    },
+    {
+      "action": "return",
+      "label": "收回信件"
+    },
+    {
+      "action": "palette",
+      "label": "更换信纸"
+    }
+  ]
+}

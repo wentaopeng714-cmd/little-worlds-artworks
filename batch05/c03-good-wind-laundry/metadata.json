@@ -1,0 +1,67 @@
+{
+  "slug": "c03-good-wind-laundry",
+  "title": "好风晾衣场",
+  "group": "C",
+  "description": "拉滑轮升降，取下衣物再挂到新位置，让纹样、轻风与大风在小院里相遇。",
+  "instructions": [
+    "拖衣物可以取下；拖回绳索附近松手就重新夹住，可沿绳变换位置。",
+    "拖右侧金色拉手，改变绳索的斜率和所有衣物高度。",
+    "改变风向轮换微风、大风、反向风，衣物会分别摆动。",
+    "放落篮子，再重新晾好；换纹样与午后/黄昏组合成为不同的小院。"
+  ],
+  "testControls": [
+    "#wind",
+    "#haul",
+    "#drop",
+    "#hang",
+    "#pattern",
+    "#day"
+  ],
+  "referenceURLs": [
+    "https://www.vitra.com/en-us/product/wooden-dolls"
+  ],
+  "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+  "mechanism": "滑轮悬挂、夹取与重新附着、风中实体衣服与图案；区别旧风中花圃的植物导风。",
+  "audio": {
+    "seed": 13,
+    "tempo": 71,
+    "scale": [
+      48,
+      55,
+      60,
+      62,
+      65,
+      69
+    ],
+    "timbre": "triangle",
+    "fxTimbre": "triangle"
+  },
+  "difference": "滑轮悬挂、夹取与重新附着、风中实体衣服与图案；区别旧风中花圃的植物导风。",
+  "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+  "qaActions": [
+    {
+      "action": "wind",
+      "label": "改变风向"
+    },
+    {
+      "action": "haul",
+      "label": "滑轮升降"
+    },
+    {
+      "action": "drop",
+      "label": "松一枚衣夹"
+    },
+    {
+      "action": "hang",
+      "label": "重新晾好"
+    },
+    {
+      "action": "pattern",
+      "label": "换衣物纹样"
+    },
+    {
+      "action": "day",
+      "label": "午后 / 黄昏"
+    }
+  ]
+}

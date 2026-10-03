@@ -1,0 +1,1 @@
+const CONFIG={"background": "#20334c", "audio": {"seed": 12, "tempo": 66, "scale": [45, 52, 57, 60, 64, 67], "timbre": "sine", "fxTimbre": "sine"}};

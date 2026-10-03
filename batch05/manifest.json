@@ -1,0 +1,453 @@
+{
+  "edition": "batch05",
+  "groups": [
+    "C"
+  ],
+  "works": [
+    {
+      "slug": "c01-pocket-tram",
+      "title": "慢城电车",
+      "group": "C",
+      "description": "改变岔道、拖动车站，装载小包裹，电车就在你重新编排的城市里走。",
+      "instructions": [
+        "拖动彩色车站，轨道曲线会跟随重建。",
+        "点中央金色圆道岔，或按切换岔道，在外环和穿城内环之间变换。",
+        "快慢三档与停靠可以组合；装小包裹后电车在站点自动交换货物。",
+        "重排四站和日光/暮色可组合，不需要得分，不需要闯关。"
+      ],
+      "testControls": [
+        "#switch",
+        "#run",
+        "#speed",
+        "#cargo",
+        "#scene",
+        "#layout"
+      ],
+      "referenceURLs": [
+        "https://blog.railwaymuseum.org.uk/network-rail-team-provides-tlc-museum-icon/"
+      ],
+      "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+      "mechanism": "路线拓扑+可拖车站+持续运行和货物交换，区别旧镜港的镜像光学。",
+      "audio": {
+        "seed": 11,
+        "tempo": 88,
+        "scale": [
+          50,
+          54,
+          57,
+          62,
+          64,
+          69
+        ],
+        "timbre": "triangle",
+        "fxTimbre": "triangle"
+      },
+      "difference": "路线拓扑+可拖车站+持续运行和货物交换，区别旧镜港的镜像光学。",
+      "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+      "qaActions": [
+        {
+          "action": "switch",
+          "label": "切换岔道"
+        },
+        {
+          "action": "run",
+          "label": "行驶 / 停靠"
+        },
+        {
+          "action": "speed",
+          "label": "快慢三档"
+        },
+        {
+          "action": "cargo",
+          "label": "装小包裹"
+        },
+        {
+          "action": "scene",
+          "label": "日光 / 暮色"
+        },
+        {
+          "action": "layout",
+          "label": "重排四站"
+        }
+      ],
+      "zip": "c01-pocket-tram.zip",
+      "zipSha256": "73ce6f5f912d040c758ef1b5156cb7a16b1e942e20632d119692246d1cda63ee",
+      "files": {
+        "app.js": "149306e6ade334c90fb39545bd5875bdd2084b221b66c95efe41f25e5eb7ac0a",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "common.js": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+        "config.js": "6b98fc19549aed6de622638de0f4aa6fa572d7bb5433513db13cdfc89de33722",
+        "index.html": "1c82de990a8f328913872e9d4c41b378c40449b8c6ddeb350b75a4418f4b65d4",
+        "metadata.json": "7687a36e89eb34131e506c9b73d46fadc7e98b6a6902c866c786accc641e30ab",
+        "preview-desktop.png": "c318da9351343646e23a532804fd348dda0fc13955b1cd4a5a7f7605ff483844",
+        "preview-mobile.png": "0efa63850db44a5282dab6990ffa768a7ba55e472d35c449d1428f21e6ad5cc6",
+        "style.css": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+        "verification/c01-pocket-tram-desktop.json": "d281a3f9f78afa43eb91acdbcb98881b92da8ec02efd619f36b58a39ed70a5e3",
+        "verification/c01-pocket-tram-mobile.json": "a5509b418cae28acdfc6f1697596ba804e0f1425dd12e9fc4e0ab839597ec94a",
+        "技术与权利.txt": "ddd989bdf501771c736279d3872490e4efddfbb1afe78ff9b6880dfc3493fca9",
+        "来源与许可.json": "d3bb2ab155c80984d87da883d1ec3d101bc47d606114c116c284c5851b3b290d",
+        "说明.txt": "df4bc20a7f825b900e31bf42d82615191ffec7b649b9d19e1c08b6228ca66423",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c01-pocket-tram/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c01-pocket-tram.zip"
+    },
+    {
+      "slug": "c02-orbital-workshop",
+      "title": "星际维修坞",
+      "group": "C",
+      "description": "把太阳翼、引擎和观察窗装进插口，转动船体，操纵机械臂，再让你的组合起飞。",
+      "instructions": [
+        "拖动两侧六个零件，把它们松手放在船体四个虚线插口里，靠近即可卡合。",
+        "拖黄色机械臂爪端，或按抓取，机械臂可以搬动零件。",
+        "拖船体旋转，装好的零件跟着转；试飞会离坞然后返回。",
+        "拆回工具架、更换模块、旋转和再飞可以不断组合；没有计分。"
+      ],
+      "testControls": [
+        "#rotate",
+        "#launch",
+        "#detach",
+        "#grip",
+        "#lights",
+        "#kit"
+      ],
+      "referenceURLs": [
+        "https://www.moma.org/artists/4163-bruno-munari"
+      ],
+      "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+      "mechanism": "零件装配/机械臂/插口约束/整体旋转与试飞，无轨道线路机制，与C01完全不同。",
+      "audio": {
+        "seed": 12,
+        "tempo": 66,
+        "scale": [
+          45,
+          52,
+          57,
+          60,
+          64,
+          67
+        ],
+        "timbre": "sine",
+        "fxTimbre": "sine"
+      },
+      "difference": "零件装配/机械臂/插口约束/整体旋转与试飞，无轨道线路机制，与C01完全不同。",
+      "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+      "qaActions": [
+        {
+          "action": "rotate",
+          "label": "旋转船体"
+        },
+        {
+          "action": "launch",
+          "label": "试飞往返"
+        },
+        {
+          "action": "detach",
+          "label": "拆回工具架"
+        },
+        {
+          "action": "grip",
+          "label": "机械臂抓取"
+        },
+        {
+          "action": "lights",
+          "label": "插口提示灯"
+        },
+        {
+          "action": "kit",
+          "label": "换装配模块"
+        }
+      ],
+      "zip": "c02-orbital-workshop.zip",
+      "zipSha256": "50c2e135bcee989e2a63fa060dc721329c5b6b496e8fb8b86ac4039d483d3838",
+      "files": {
+        "app.js": "1f2d159e425cf6e5bae40b69315aeb0fd029cd9232fb7a7f585e405ebe653a6d",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "common.js": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+        "config.js": "a5e1bb2cf176bf7ff98cf93a62aa14d96d974fb36bf5950db6e2b27875e2b788",
+        "index.html": "30755067f307ec529f108b52f60b58af5fcad5efef081b6badd538183421e5ca",
+        "metadata.json": "5a702394b4cafe6a6a8e8988bd4467df16c9fe0e19be0b88a72f9fe692d3a667",
+        "preview-desktop.png": "b4cc5a6993d37ea55006276e812f51eef317805fcd7562862ca3cbee5678ef8c",
+        "preview-mobile.png": "e14c66c173bcdf9ea59a27f23b65940bcfb7e75e6d460b05138d970b7f6c9ad0",
+        "style.css": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+        "verification/c02-orbital-workshop-desktop.json": "04bb4f98cf55a82b3ae77f8ca29ca944ccee4e41e547d08337ad1b0d52bde9c5",
+        "verification/c02-orbital-workshop-mobile.json": "54019172b2123ae169c125b785d8dd34ee9a7e0a67fc37cfbdf7612edd90999a",
+        "技术与权利.txt": "ddd989bdf501771c736279d3872490e4efddfbb1afe78ff9b6880dfc3493fca9",
+        "来源与许可.json": "fcca01cb3532221c7c2309d0745274597399eda3086f842df92d938924167746",
+        "说明.txt": "cd8fc7e405342dda97109bfb52691e898f5b7b79d4ba0148493161487ee86937",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c02-orbital-workshop/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c02-orbital-workshop.zip"
+    },
+    {
+      "slug": "c03-good-wind-laundry",
+      "title": "好风晾衣场",
+      "group": "C",
+      "description": "拉滑轮升降，取下衣物再挂到新位置，让纹样、轻风与大风在小院里相遇。",
+      "instructions": [
+        "拖衣物可以取下；拖回绳索附近松手就重新夹住，可沿绳变换位置。",
+        "拖右侧金色拉手，改变绳索的斜率和所有衣物高度。",
+        "改变风向轮换微风、大风、反向风，衣物会分别摆动。",
+        "放落篮子，再重新晾好；换纹样与午后/黄昏组合成为不同的小院。"
+      ],
+      "testControls": [
+        "#wind",
+        "#haul",
+        "#drop",
+        "#hang",
+        "#pattern",
+        "#day"
+      ],
+      "referenceURLs": [
+        "https://www.vitra.com/en-us/product/wooden-dolls"
+      ],
+      "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+      "mechanism": "滑轮悬挂、夹取与重新附着、风中实体衣服与图案；区别旧风中花圃的植物导风。",
+      "audio": {
+        "seed": 13,
+        "tempo": 71,
+        "scale": [
+          48,
+          55,
+          60,
+          62,
+          65,
+          69
+        ],
+        "timbre": "triangle",
+        "fxTimbre": "triangle"
+      },
+      "difference": "滑轮悬挂、夹取与重新附着、风中实体衣服与图案；区别旧风中花圃的植物导风。",
+      "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+      "qaActions": [
+        {
+          "action": "wind",
+          "label": "改变风向"
+        },
+        {
+          "action": "haul",
+          "label": "滑轮升降"
+        },
+        {
+          "action": "drop",
+          "label": "松一枚衣夹"
+        },
+        {
+          "action": "hang",
+          "label": "重新晾好"
+        },
+        {
+          "action": "pattern",
+          "label": "换衣物纹样"
+        },
+        {
+          "action": "day",
+          "label": "午后 / 黄昏"
+        }
+      ],
+      "zip": "c03-good-wind-laundry.zip",
+      "zipSha256": "df8960000f3f21718795630f18367d57caceb82e58af68ab87ca7da957747e7c",
+      "files": {
+        "app.js": "93ee5be45658ff01026e3ed863f3c3c8c95e4aeedaca177207ee3fa2ee67eeba",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "common.js": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+        "config.js": "0c6f9441f2e1ab37c28666f40f2439b974cf40af7c0da7d26e355c18896ae529",
+        "index.html": "b1554b638ba22e2e8c5138a883d94b2a70d53aaa18a16a67764b6f0477a347c0",
+        "metadata.json": "6b7b6f022602ea9b29fecbef15f021e761bd3c6d42c87a9da51055903948f5aa",
+        "preview-desktop.png": "244fa8c020dbbf577640fcbd49202d9a29602d818070ddc445d70ec05e0f3aad",
+        "preview-mobile.png": "4299f01c2d3c2dbfa88fe536fc249386697f902719d53a25b7dfba288a5d5924",
+        "style.css": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+        "verification/c03-good-wind-laundry-desktop.json": "12fc0105cec85fae728e29321f1001e43d78724a71eaa0630b4a1dbc6b795d59",
+        "verification/c03-good-wind-laundry-mobile.json": "b50f122a4489c98d92339d7894f0a298f2f4a4f746b7bca0e2ca38487f2c4706",
+        "技术与权利.txt": "ddd989bdf501771c736279d3872490e4efddfbb1afe78ff9b6880dfc3493fca9",
+        "来源与许可.json": "53a116dc5af040d969f0cdbd3814654724e9092a33925f0311833b90f9601da3",
+        "说明.txt": "702098f8a36cfaa6733ca5accb563e6bff2a145548d9cb1fd09457c221db136d",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c03-good-wind-laundry/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c03-good-wind-laundry.zip"
+    },
+    {
+      "slug": "c04-airmail-house",
+      "title": "风递小邮局",
+      "group": "C",
+      "description": "信沿着透明彩管跑。转动阀门、移动管线、倒转风，把一座邮局变成持续变化的信件装置。",
+      "instructions": [
+        "点三个彩色圆形阀门，改变它对应的收件箱；拖阀门可以弯曲整条管线。",
+        "送三封信会分别进入三条管道，风力三档改变运动速度。",
+        "倒转风让信返回入口再分流，收回信件会把箱里信送回管道。",
+        "更換信纸、不同阀门、拖动位置与正反风可以叠加；每箱只保留最近七封，不无限累积。"
+      ],
+      "testControls": [
+        "#send",
+        "#valve",
+        "#air",
+        "#reverse",
+        "#return",
+        "#palette"
+      ],
+      "referenceURLs": [
+        "https://www.moma.org/artists/4163-bruno-munari"
+      ],
+      "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+      "mechanism": "三路气流管道、阀门路由、正反运动和堆叠彩信；不是旧字雨的文字降落。",
+      "audio": {
+        "seed": 14,
+        "tempo": 102,
+        "scale": [
+          53,
+          57,
+          60,
+          65,
+          69,
+          72
+        ],
+        "timbre": "triangle",
+        "fxTimbre": "sine"
+      },
+      "difference": "三路气流管道、阀门路由、正反运动和堆叠彩信；不是旧字雨的文字降落。",
+      "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+      "qaActions": [
+        {
+          "action": "send",
+          "label": "送三封信"
+        },
+        {
+          "action": "valve",
+          "label": "轮换三阀"
+        },
+        {
+          "action": "air",
+          "label": "风力三档"
+        },
+        {
+          "action": "reverse",
+          "label": "前进 / 回风"
+        },
+        {
+          "action": "return",
+          "label": "收回信件"
+        },
+        {
+          "action": "palette",
+          "label": "更换信纸"
+        }
+      ],
+      "zip": "c04-airmail-house.zip",
+      "zipSha256": "0e07cd29920606c8fdbfe1cf573d6afa717debf736fa1e2b3bf4b103a90c451b",
+      "files": {
+        "app.js": "d395d03c7b0b80b202f765347ae52a4f292585fda9f552b4f4333547a1ead5d0",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "common.js": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+        "config.js": "9e1a8b97a713e984ebfd01ad4e582d334bd867152c7edb384fdbbd8d9a7327b4",
+        "index.html": "7992fb9f82e929c41087549de44851734c62f54406605448623b8a3ba66da4d8",
+        "metadata.json": "c7c07f00eb8dd677171386e8169aed2c4cd9311fdf48ce222a3fa260c3c31373",
+        "preview-desktop.png": "e23e6b47d3c3b291609e8a00256332993f2bd9008c20dac0dba2b95a4d5ddcb1",
+        "preview-mobile.png": "25782d3a13ceea107c060001e384f78d9e051762c42751e04f8501077974b4ba",
+        "style.css": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+        "verification/c04-airmail-house-desktop.json": "c5271a2bdf487f66bd34493e7149c45452080444e70cfb59bf0d7dfac0219b43",
+        "verification/c04-airmail-house-mobile.json": "4dc974aefab94f5e0d136fd42708c8b2006456baf2eb1e927cc876d40c996eec",
+        "技术与权利.txt": "ddd989bdf501771c736279d3872490e4efddfbb1afe78ff9b6880dfc3493fca9",
+        "来源与许可.json": "5e2a6d2f76e2d54a2d15d8ce4099c9840c8c9573896e99cc41c47dd7a6d3ad15",
+        "说明.txt": "006d4a9ffab0041c4ece9e69e3afb99025d317ee9307c95159c175c5fe2b08c6",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c04-airmail-house/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c04-airmail-house.zip"
+    },
+    {
+      "slug": "c05-kinetic-friend",
+      "title": "关节朋友",
+      "group": "C",
+      "description": "拉手脚编一个动作，留下四个姿态，再让小木人把它们连成一段舞。",
+      "instructions": [
+        "拖四个圆形手脚端点调整关节，拖躯干整体挪动，肢体长度有边界。",
+        "记住此姿态最多保留四格，再连续演出，把相邻姿态平滑连成舞。",
+        "可先用一段新动作取得不同姿态，再亲手修改并记录。",
+        "走索、吊架、圆环舞台配合镜像和服装形成新的节目；演出时拖手脚可打断并重编。"
+      ],
+      "testControls": [
+        "#save",
+        "#play",
+        "#stage",
+        "#mirror",
+        "#costume",
+        "#pose"
+      ],
+      "referenceURLs": [
+        "https://www.vitra.com/en-us/product/wooden-dolls"
+      ],
+      "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+      "mechanism": "受约束关节姿态编辑、四格动作记录和连续插值演出；区别纸幕剧场的折纸光影。",
+      "audio": {
+        "seed": 15,
+        "tempo": 84,
+        "scale": [
+          48,
+          51,
+          55,
+          58,
+          60,
+          63
+        ],
+        "timbre": "triangle",
+        "fxTimbre": "triangle"
+      },
+      "difference": "受约束关节姿态编辑、四格动作记录和连续插值演出；区别纸幕剧场的折纸光影。",
+      "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+      "qaActions": [
+        {
+          "action": "save",
+          "label": "记住此姿态"
+        },
+        {
+          "action": "play",
+          "label": "连续演出"
+        },
+        {
+          "action": "stage",
+          "label": "切换舞台"
+        },
+        {
+          "action": "mirror",
+          "label": "镜像姿态"
+        },
+        {
+          "action": "costume",
+          "label": "变换服装"
+        },
+        {
+          "action": "pose",
+          "label": "一段新动作"
+        }
+      ],
+      "zip": "c05-kinetic-friend.zip",
+      "zipSha256": "7f0b9f1c5a3cef38b640365d2512baa2f557fda8865d8ebfc8894b48c4161d6b",
+      "files": {
+        "app.js": "a425187ab9e6815a01c458b956007d1601a44e2a3ec38f12e120b42663797a0b",
+        "audio.js": "2a19bf94d9102a642d2a0174cad3a86b66791153fa6e155144009232cfad142e",
+        "base.css": "03b6dc867cf129f63cd38cccaaaca90ec028fdab3e647031a8f3a995a1207fa1",
+        "common.js": "5d13805ef5b0ff8adc8b8eb124377054dbd2fe6f695c07256e71fd70583add85",
+        "config.js": "98e2e599b4a0bf321f5265d19fe7ffcc65714853d2fcfdd9fc5eab138e4f40ba",
+        "index.html": "e5df82b91523bdf42d071086ec84f5cba7d5e74c393b6ca6a4965210c21a7af7",
+        "metadata.json": "8f084dda6f4a1be7e241c469a4df0144bbd77fa3dba779815ca695ec6b48d407",
+        "preview-desktop.png": "d7b74546dc0790e20d1249e676d345e305c6d35bdb3155ffa4590a2fef86165c",
+        "preview-mobile.png": "adc66ae6c09fadb0960d1ccbac3e4501a4dc9467f5a2419b0fbdc5684c95a46b",
+        "style.css": "ffaa5e0324ed079ff0afce99cab42d66f3b0d45952068da82111d7581ec7900c",
+        "verification/c05-kinetic-friend-desktop.json": "3ee27b479288f69c93b5a07d37ff3898723c90719973f6a646a997b3bb7ef268",
+        "verification/c05-kinetic-friend-mobile.json": "e121b944abd790af8ca7d5e4c2284907656989ce201e41342aaa64dba205bb53",
+        "技术与权利.txt": "ddd989bdf501771c736279d3872490e4efddfbb1afe78ff9b6880dfc3493fca9",
+        "来源与许可.json": "64618a255d315d3db2eb990780e41cc46e4edf799ec45235ad69275a85e531a3",
+        "说明.txt": "ad480c59849fefc38cfb69c9ed84c697af4b55db5fc00ce2a5ed685855fc41c9",
+        "验证边界.txt": "cd36838df0064df249234137372478b7fec371ca5a80dca429836133bc66a0a7"
+      },
+      "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c05-kinetic-friend/",
+      "zipUrl": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch05/c05-kinetic-friend.zip"
+    }
+  ]
+}

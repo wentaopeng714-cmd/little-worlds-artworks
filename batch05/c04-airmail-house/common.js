@@ -1,0 +1,16 @@
+'use strict';
+const canvas=document.querySelector('#art'),g=canvas.getContext('2d');let W=1000,H=850,scl=1,ox=0,oy=0,clock=0,lastTime=0,inputs=0,resets=0,pointer={x:0,y:0,down:false},activeDrag=null;
+const colors=['#f27059','#efc75e','#5b9a8b','#746cac','#eeaab4','#43789a'];
+const sound=window.artAudio=new ArtSound(CONFIG.audio).bind();
+function rr(x,y,w,h,r,c,stroke){g.beginPath();g.roundRect(x,y,w,h,r);if(c){g.fillStyle=c;g.fill()}if(stroke){g.strokeStyle=stroke;g.lineWidth=3;g.stroke()}}
+function oval(x,y,rx,ry,c){g.beginPath();g.ellipse(x,y,rx,ry,0,0,Math.PI*2);g.fillStyle=c;g.fill()}
+function line(points,c,w=4){g.beginPath();points.forEach((p,i)=>i?g.lineTo(p[0],p[1]):g.moveTo(p[0],p[1]));g.strokeStyle=c;g.lineWidth=w;g.lineCap='round';g.lineJoin='round';g.stroke()}
+function txt(t,x,y,size=18,c='#263c46',align='left'){g.font=`${size}px ui-sans-serif,system-ui,sans-serif`;g.fillStyle=c;g.textAlign=align;g.fillText(t,x,y)}
+function icon(type,x,y,r=22,c='#ed9e6b'){g.save();g.translate(x,y);if(type==='star'){g.beginPath();for(let i=0;i<10;i++){const a=i*Math.PI/5-Math.PI/2,rad=i%2?r*.43:r;i?g.lineTo(Math.cos(a)*rad,Math.sin(a)*rad):g.moveTo(Math.cos(a)*rad,Math.sin(a)*rad)}g.closePath();g.fillStyle=c;g.fill()}else if(type==='leaf'){oval(0,0,r*.6,r,c);line([[0,-r*.7],[0,r*.7]],'#ffffff66',2)}else if(type==='parcel'){rr(-r,-r*.7,r*2,r*1.4,5,c);line([[-r,0],[r,0]],'#fff3d5',5);line([[0,-r*.7],[0,r*.7]],'#fff3d5',5)}else{oval(0,0,r,r,c);oval(-r*.18,-r*.18,r*.25,r*.25,'#fff4')}g.restore()}
+function register(){document.querySelectorAll('[data-action]').forEach(b=>b.addEventListener('click',()=>{inputs++;sound.fx(inputs%7,.55);APP.action(b.dataset.action);updateLabel()}));document.querySelector('#reset').addEventListener('click',()=>{resets++;APP.reset();sound.reset();updateLabel()});}
+function updateLabel(){document.querySelector('#status').textContent=APP.status()}
+function pos(e){const r=canvas.getBoundingClientRect();return{x:(e.clientX-r.left-ox)/scl,y:(e.clientY-r.top-oy)/scl}}
+canvas.addEventListener('pointerdown',e=>{pointer={...pos(e),down:true};canvas.setPointerCapture(e.pointerId);inputs++;APP.down(pointer);sound.fx(inputs%9,.7);updateLabel()});canvas.addEventListener('pointermove',e=>{pointer={...pos(e),down:pointer.down};if(pointer.down){inputs++;APP.move(pointer);sound.fx(Math.floor(pointer.x/100),.3);updateLabel()}});canvas.addEventListener('pointerup',e=>{APP.up(pointer);pointer.down=false;activeDrag=null;updateLabel()});canvas.addEventListener('pointercancel',()=>{pointer.down=false;activeDrag=null});
+function resize(){const b=canvas.getBoundingClientRect(),d=Math.min(2,devicePixelRatio||1);canvas.width=Math.round(b.width*d);canvas.height=Math.round(b.height*d);scl=Math.min(b.width/W,b.height/H);ox=(b.width-W*scl)/2;oy=(b.height-H*scl)/2;canvas._d=d}new ResizeObserver(resize).observe(canvas);
+window.artworkSnapshot=()=>({inputs,resets,state:APP.inspect(),bounded:APP.bounded(),counts:APP.counts()});
+function frame(t){const dt=Math.min(.045,(t-lastTime)/1000||0);lastTime=t;if(!document.hidden){clock+=dt;APP.step(dt);g.setTransform(canvas._d,0,0,canvas._d,0,0);g.fillStyle=CONFIG.background;g.fillRect(0,0,canvas.width/canvas._d,canvas.height/canvas._d);g.translate(ox,oy);g.scale(scl,scl);APP.draw()}requestAnimationFrame(frame)}

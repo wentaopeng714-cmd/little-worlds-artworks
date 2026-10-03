@@ -1,0 +1,67 @@
+{
+  "slug": "c05-kinetic-friend",
+  "title": "关节朋友",
+  "group": "C",
+  "description": "拉手脚编一个动作，留下四个姿态，再让小木人把它们连成一段舞。",
+  "instructions": [
+    "拖四个圆形手脚端点调整关节，拖躯干整体挪动，肢体长度有边界。",
+    "记住此姿态最多保留四格，再连续演出，把相邻姿态平滑连成舞。",
+    "可先用一段新动作取得不同姿态，再亲手修改并记录。",
+    "走索、吊架、圆环舞台配合镜像和服装形成新的节目；演出时拖手脚可打断并重编。"
+  ],
+  "testControls": [
+    "#save",
+    "#play",
+    "#stage",
+    "#mirror",
+    "#costume",
+    "#pose"
+  ],
+  "referenceURLs": [
+    "https://www.vitra.com/en-us/product/wooden-dolls"
+  ],
+  "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+  "mechanism": "受约束关节姿态编辑、四格动作记录和连续插值演出；区别纸幕剧场的折纸光影。",
+  "audio": {
+    "seed": 15,
+    "tempo": 84,
+    "scale": [
+      48,
+      51,
+      55,
+      58,
+      60,
+      63
+    ],
+    "timbre": "triangle",
+    "fxTimbre": "triangle"
+  },
+  "difference": "受约束关节姿态编辑、四格动作记录和连续插值演出；区别纸幕剧场的折纸光影。",
+  "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+  "qaActions": [
+    {
+      "action": "save",
+      "label": "记住此姿态"
+    },
+    {
+      "action": "play",
+      "label": "连续演出"
+    },
+    {
+      "action": "stage",
+      "label": "切换舞台"
+    },
+    {
+      "action": "mirror",
+      "label": "镜像姿态"
+    },
+    {
+      "action": "costume",
+      "label": "变换服装"
+    },
+    {
+      "action": "pose",
+      "label": "一段新动作"
+    }
+  ]
+}

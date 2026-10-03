@@ -1,0 +1,67 @@
+{
+  "slug": "c02-orbital-workshop",
+  "title": "星际维修坞",
+  "group": "C",
+  "description": "把太阳翼、引擎和观察窗装进插口，转动船体，操纵机械臂，再让你的组合起飞。",
+  "instructions": [
+    "拖动两侧六个零件，把它们松手放在船体四个虚线插口里，靠近即可卡合。",
+    "拖黄色机械臂爪端，或按抓取，机械臂可以搬动零件。",
+    "拖船体旋转，装好的零件跟着转；试飞会离坞然后返回。",
+    "拆回工具架、更换模块、旋转和再飞可以不断组合；没有计分。"
+  ],
+  "testControls": [
+    "#rotate",
+    "#launch",
+    "#detach",
+    "#grip",
+    "#lights",
+    "#kit"
+  ],
+  "referenceURLs": [
+    "https://www.moma.org/artists/4163-bruno-munari"
+  ],
+  "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+  "mechanism": "零件装配/机械臂/插口约束/整体旋转与试飞，无轨道线路机制，与C01完全不同。",
+  "audio": {
+    "seed": 12,
+    "tempo": 66,
+    "scale": [
+      45,
+      52,
+      57,
+      60,
+      64,
+      67
+    ],
+    "timbre": "sine",
+    "fxTimbre": "sine"
+  },
+  "difference": "零件装配/机械臂/插口约束/整体旋转与试飞，无轨道线路机制，与C01完全不同。",
+  "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+  "qaActions": [
+    {
+      "action": "rotate",
+      "label": "旋转船体"
+    },
+    {
+      "action": "launch",
+      "label": "试飞往返"
+    },
+    {
+      "action": "detach",
+      "label": "拆回工具架"
+    },
+    {
+      "action": "grip",
+      "label": "机械臂抓取"
+    },
+    {
+      "action": "lights",
+      "label": "插口提示灯"
+    },
+    {
+      "action": "kit",
+      "label": "换装配模块"
+    }
+  ]
+}

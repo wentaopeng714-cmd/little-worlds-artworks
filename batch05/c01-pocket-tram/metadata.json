@@ -1,0 +1,67 @@
+{
+  "slug": "c01-pocket-tram",
+  "title": "慢城电车",
+  "group": "C",
+  "description": "改变岔道、拖动车站，装载小包裹，电车就在你重新编排的城市里走。",
+  "instructions": [
+    "拖动彩色车站，轨道曲线会跟随重建。",
+    "点中央金色圆道岔，或按切换岔道，在外环和穿城内环之间变换。",
+    "快慢三档与停靠可以组合；装小包裹后电车在站点自动交换货物。",
+    "重排四站和日光/暮色可组合，不需要得分，不需要闯关。"
+  ],
+  "testControls": [
+    "#switch",
+    "#run",
+    "#speed",
+    "#cargo",
+    "#scene",
+    "#layout"
+  ],
+  "referenceURLs": [
+    "https://blog.railwaymuseum.org.uk/network-rail-team-provides-tlc-museum-icon/"
+  ],
+  "tech": "原创 Canvas 2D / 原生 Pointer Events / Web Audio，无p5依赖",
+  "mechanism": "路线拓扑+可拖车站+持续运行和货物交换，区别旧镜港的镜像光学。",
+  "audio": {
+    "seed": 11,
+    "tempo": 88,
+    "scale": [
+      50,
+      54,
+      57,
+      62,
+      64,
+      69
+    ],
+    "timbre": "triangle",
+    "fxTimbre": "triangle"
+  },
+  "difference": "路线拓扑+可拖车站+持续运行和货物交换，区别旧镜港的镜像光学。",
+  "expectedPlay": "1–3分钟，多种结构操作可叠加重玩",
+  "qaActions": [
+    {
+      "action": "switch",
+      "label": "切换岔道"
+    },
+    {
+      "action": "run",
+      "label": "行驶 / 停靠"
+    },
+    {
+      "action": "speed",
+      "label": "快慢三档"
+    },
+    {
+      "action": "cargo",
+      "label": "装小包裹"
+    },
+    {
+      "action": "scene",
+      "label": "日光 / 暮色"
+    },
+    {
+      "action": "layout",
+      "label": "重排四站"
+    }
+  ]
+}

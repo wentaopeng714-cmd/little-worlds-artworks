@@ -1,0 +1,139 @@
+{
+  "number": 3,
+  "slug": "03-honey-constellation",
+  "title": "蜜糖星巢",
+  "description": "拉起透明蜜丝架桥，在桥边点滴结晶，切开后再旋转整块蜂巢。",
+  "ui": {
+    "bg": "#231f20",
+    "ink": "#e8c99a",
+    "accent": "#dba447"
+  },
+  "controls": [
+    {
+      "id": "bridge",
+      "label": "拉蜜丝架桥"
+    },
+    {
+      "id": "drop",
+      "label": "点滴结晶"
+    },
+    {
+      "id": "cut",
+      "label": "切开蜜桥"
+    },
+    {
+      "id": "turn",
+      "label": "转巢编排"
+    },
+    {
+      "id": "amber",
+      "label": "凝成蜜珀"
+    }
+  ],
+  "newMechanics": [
+    "蜂巢局部坐标附着蜜桥",
+    "真正删除蜜桥并留下断蜜滴",
+    "同点累滴生成更大糖晶",
+    "旋转或搬移蜡巢重塑桥形",
+    "凝珀改变厚度与弧垂"
+  ],
+  "artDirection": [
+    "216个有折射壁与液面的琥珀蜡腔",
+    "四块偏心蜂巢与22股透明黏丝束",
+    "重力蜜滴及内部糖晶"
+  ],
+  "testPlan": [
+    {
+      "control": "bridge",
+      "from": [
+        0.28,
+        0.31
+      ],
+      "to": [
+        0.81,
+        0.715
+      ]
+    },
+    {
+      "control": "drop",
+      "from": [
+        0.5,
+        0.4
+      ],
+      "to": [
+        0.5,
+        0.4
+      ]
+    },
+    {
+      "control": "cut",
+      "from": [
+        0.42,
+        0.36
+      ],
+      "to": [
+        0.62,
+        0.44
+      ]
+    },
+    {
+      "control": "turn",
+      "from": [
+        0.28,
+        0.31
+      ],
+      "to": [
+        0.22,
+        0.36
+      ]
+    },
+    {
+      "control": "amber",
+      "buttonOnly": true
+    }
+  ],
+  "stateFields": {
+    "createdBridges": "跨巢松手后增加",
+    "severedBridges": "切中桥后增加",
+    "drips": "点滴后增加",
+    "turns": "转巢后增加",
+    "hardenedBridges": "凝珀后等于现存桥数",
+    "nestPoses": "拖巢后改变"
+  },
+  "file": "03-honey-constellation.js",
+  "references": [
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/20-fiber-snowcrystals/母本与新作对照.jpg",
+      "inspectedPixels": true
+    },
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/21-embroidered-fireflowers/母本与新作对照.jpg",
+      "inspectedPixels": true
+    },
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/22-metal-ripple-curtain/母本与新作对照.jpg",
+      "inspectedPixels": true
+    }
+  ],
+  "license": "本次独立自绘Canvas，无复制外部资产；所观察的既有本地对照图只供授权参考，不主张其许可状态。",
+  "qa": {
+    "syntax": "passed",
+    "nodeRender": "passed",
+    "nodeStateAssertions": "passed",
+    "resizeStatePreserved": "passed",
+    "cleanReset": "passed",
+    "browser": "passed_20_total_cases",
+    "touchHardware": "not_run",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "humanListening": "not_run"
+  },
+  "canonicalArtboard": [
+    1000,
+    740
+  ],
+  "testPlanCoordinates": "归一化坐标基于1000×740画板；其他比例需用等比居中映射。"
+}

@@ -1,0 +1,1455 @@
+{
+  "slug": "06-patchwork-village",
+  "device": "desktop",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/06-patchwork-village/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "control": "sew",
+        "from": [
+          0.51,
+          0.5
+        ],
+        "to": [
+          0.64,
+          0.5
+        ]
+      },
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 2.7,
+        "wallSeconds": 2.7,
+        "trusted": 10,
+        "downs": 1,
+        "moves": 8,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 86,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0010671056913373965,
+          "fx": 0,
+          "out": 0.0007256318782961651,
+          "musicPeak": 0.027593917144253202,
+          "fxPeak": 0.03469587262311113,
+          "outPeak": 0.0260769454278135,
+          "musicCount": 3,
+          "fxCount": 6,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 7,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "puff",
+        "from": [
+          0.51,
+          0.62
+        ],
+        "to": [
+          0.51,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 4.3,
+        "wallSeconds": 4.3,
+        "trusted": 20,
+        "downs": 2,
+        "moves": 16,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 86,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0017929295844819108,
+          "fx": 0,
+          "out": 0.001219192127332167,
+          "musicPeak": 0.027593917144253202,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 6,
+          "fxCount": 14,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 7,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 1.25,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "puff",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "line",
+        "from": [
+          0.25,
+          0.66
+        ],
+        "to": [
+          0.78,
+          0.65
+        ]
+      },
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 6,
+        "wallSeconds": 6,
+        "trusted": 30,
+        "downs": 3,
+        "moves": 24,
+        "actions": 3,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 86,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003972947854801943,
+          "fx": 0.00007086628526015935,
+          "out": 0.0027033052280530405,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 10,
+          "fxCount": 17,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 7,
+          "finishedRoofs": 1,
+          "selectedRoof": 0.52,
+          "selectedPuff": 0.43,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 0,
+          "mode": "line",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "move",
+        "from": [
+          0.51,
+          0.62
+        ],
+        "to": [
+          0.56,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 7.8,
+        "wallSeconds": 7.8,
+        "trusted": 40,
+        "downs": 4,
+        "moves": 32,
+        "actions": 4,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 86,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.026231919506057307,
+          "fx": 0,
+          "out": 0.017837705364291793,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 13,
+          "fxCount": 19,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 7,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 1.25,
+          "moveEdits": 8,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.56,
+              0.56
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "new",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 8.2,
+        "wallSeconds": 8.2,
+        "trusted": 41,
+        "downs": 4,
+        "moves": 32,
+        "actions": 5,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 86,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0039063793585782545,
+          "fx": 0.0005217927127541161,
+          "out": 0.002648800571385775,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 13,
+          "fxCount": 20,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 4,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 7,
+          "finishedRoofs": 1,
+          "selectedRoof": 0.1,
+          "selectedPuff": 0.35,
+          "moveEdits": 8,
+          "added": 1,
+          "wind": false,
+          "selected": 3,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.56,
+              0.56
+            ],
+            [
+              0.78,
+              0.65
+            ],
+            [
+              0.3,
+              0.73
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "wind",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 8.8,
+        "wallSeconds": 8.8,
+        "trusted": 42,
+        "downs": 4,
+        "moves": 32,
+        "actions": 6,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 86,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0009305603979472522,
+          "fx": 0.00019253575942163636,
+          "out": 0.0006275436587792618,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 15,
+          "fxCount": 21,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 4,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 7,
+          "finishedRoofs": 1,
+          "selectedRoof": 0.1,
+          "selectedPuff": 0.35,
+          "moveEdits": 8,
+          "added": 1,
+          "wind": true,
+          "selected": 3,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.56,
+              0.56
+            ],
+            [
+              0.78,
+              0.65
+            ],
+            [
+              0.3,
+              0.73
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 50,
+        "wallSeconds": 50,
+        "trusted": 152,
+        "downs": 5,
+        "moves": 40,
+        "actions": 106,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 24,
+        "maxFrameMs": 86,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 86,
+          "fxCount": 107,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 7,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 7,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 1.25,
+          "moveEdits": 16,
+          "added": 4,
+          "wind": true,
+          "selected": 1,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.62,
+              0.66
+            ],
+            [
+              0.78,
+              0.65
+            ],
+            [
+              0.3,
+              0.73
+            ],
+            [
+              0.49,
+              0.58
+            ],
+            [
+              0.68,
+              0.73
+            ],
+            [
+              0.3,
+              0.58
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 50.6,
+        "wallSeconds": 50.6,
+        "trusted": 153,
+        "downs": 5,
+        "moves": 40,
+        "actions": 106,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 24,
+        "maxFrameMs": 86,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 86,
+          "fxCount": 107,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 0,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.73,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 54.1,
+        "wallSeconds": 54.1,
+        "trusted": 173,
+        "downs": 7,
+        "moves": 56,
+        "actions": 106,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 24,
+        "maxFrameMs": 86,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 89,
+          "fxCount": 113,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 9,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 54.5,
+        "wallSeconds": 54.5,
+        "trusted": 174,
+        "downs": 7,
+        "moves": 56,
+        "actions": 106,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 24,
+        "maxFrameMs": 86,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 89,
+          "fxCount": 113,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 0,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.73,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 58.3,
+        "wallSeconds": 58.3,
+        "trusted": 194,
+        "downs": 9,
+        "moves": 72,
+        "actions": 106,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 25,
+        "maxFrameMs": 86,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 93,
+          "fxCount": 120,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 9,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 58.9,
+        "wallSeconds": 58.9,
+        "trusted": 195,
+        "downs": 9,
+        "moves": 72,
+        "actions": 106,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 25,
+        "maxFrameMs": 86,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 93,
+          "fxCount": 120,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 0,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.73,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "sew",
+        "from": [
+          0.51,
+          0.5
+        ],
+        "to": [
+          0.64,
+          0.5
+        ]
+      },
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 65.4,
+        "wallSeconds": 65.4,
+        "trusted": 224,
+        "downs": 12,
+        "moves": 96,
+        "actions": 107,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 26,
+        "maxFrameMs": 86,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010114571144160617,
+          "fx": 0,
+          "out": 0.0068779084553189825,
+          "musicPeak": 0.0450034597743528,
+          "fxPeak": 0.042348902196292885,
+          "outPeak": 0.031268193642213386,
+          "musicCount": 103,
+          "fxCount": 131,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 10,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "f2a39ca861d233b00836f2b197ba7bdfef45bbc5558f4f8ca96a9ba39866e8fc",
+  "initial": {
+    "title": "织袋小镇",
+    "elapsed": 0.4,
+    "wallSeconds": 0.4,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 34,
+    "maxFrameMs": 45,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "houses": 3,
+      "clotheslines": 2,
+      "hangingCloths": 7,
+      "roofStitches": 0,
+      "finishedRoofs": 0,
+      "selectedRoof": 0.73,
+      "selectedPuff": 0.68,
+      "moveEdits": 0,
+      "added": 0,
+      "wind": false,
+      "selected": 1,
+      "mode": "sew",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.51,
+          0.62
+        ],
+        [
+          0.78,
+          0.65
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "织袋小镇",
+    "elapsed": 9,
+    "wallSeconds": 9,
+    "trusted": 42,
+    "downs": 4,
+    "moves": 32,
+    "actions": 6,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 32,
+    "maxFrameMs": 86,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.009656563282832039,
+      "fx": 0,
+      "out": 0.006566463124167057,
+      "musicPeak": 0.0450034597743528,
+      "fxPeak": 0.042348902196292885,
+      "outPeak": 0.031268193642213386,
+      "musicCount": 15,
+      "fxCount": 21,
+      "activeVoices": 4,
+      "connectedNodes": 14,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "houses": 4,
+      "clotheslines": 3,
+      "hangingCloths": 12,
+      "roofStitches": 7,
+      "finishedRoofs": 1,
+      "selectedRoof": 0.1,
+      "selectedPuff": 0.35,
+      "moveEdits": 8,
+      "added": 1,
+      "wind": true,
+      "selected": 3,
+      "mode": "move",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.56,
+          0.56
+        ],
+        [
+          0.78,
+          0.65
+        ],
+        [
+          0.3,
+          0.73
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "织袋小镇",
+    "elapsed": 47.8,
+    "wallSeconds": 47.8,
+    "trusted": 142,
+    "downs": 4,
+    "moves": 32,
+    "actions": 106,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 24,
+    "maxFrameMs": 86,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.004795325339702298,
+      "fx": 0.0033746589785902253,
+      "out": 0.003801195174026301,
+      "musicPeak": 0.0450034597743528,
+      "fxPeak": 0.042348902196292885,
+      "outPeak": 0.031268193642213386,
+      "musicCount": 85,
+      "fxCount": 107,
+      "activeVoices": 3,
+      "connectedNodes": 12,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "houses": 7,
+      "clotheslines": 3,
+      "hangingCloths": 12,
+      "roofStitches": 7,
+      "finishedRoofs": 1,
+      "selectedRoof": 0.1,
+      "selectedPuff": 0.35,
+      "moveEdits": 8,
+      "added": 4,
+      "wind": true,
+      "selected": 6,
+      "mode": "move",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.56,
+          0.56
+        ],
+        [
+          0.78,
+          0.65
+        ],
+        [
+          0.3,
+          0.73
+        ],
+        [
+          0.49,
+          0.58
+        ],
+        [
+          0.68,
+          0.73
+        ],
+        [
+          0.3,
+          0.58
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "织袋小镇",
+    "elapsed": 61.7,
+    "wallSeconds": 61.8,
+    "trusted": 205,
+    "downs": 10,
+    "moves": 80,
+    "actions": 106,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 25,
+    "maxFrameMs": 86,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.001836113396275959,
+      "fx": 0,
+      "out": 0.0012485571234682861,
+      "musicPeak": 0.0450034597743528,
+      "fxPeak": 0.042348902196292885,
+      "outPeak": 0.031268193642213386,
+      "musicCount": 97,
+      "fxCount": 127,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "houses": 3,
+      "clotheslines": 2,
+      "hangingCloths": 7,
+      "roofStitches": 8,
+      "finishedRoofs": 1,
+      "selectedRoof": 1,
+      "selectedPuff": 0.68,
+      "moveEdits": 0,
+      "added": 0,
+      "wind": false,
+      "selected": 1,
+      "mode": "sew",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.51,
+          0.62
+        ],
+        [
+          0.78,
+          0.65
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 66.143,
+  "final": {
+    "title": "织袋小镇",
+    "elapsed": 66.7,
+    "wallSeconds": 66.8,
+    "trusted": 233,
+    "downs": 13,
+    "moves": 104,
+    "actions": 107,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 26,
+    "maxFrameMs": 86,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.00291342154867082,
+      "fx": 0,
+      "out": 0.001981126675458173,
+      "musicPeak": 0.0450034597743528,
+      "fxPeak": 0.042348902196292885,
+      "outPeak": 0.031268193642213386,
+      "musicCount": 105,
+      "fxCount": 135,
+      "activeVoices": 2,
+      "connectedNodes": 10,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "houses": 3,
+      "clotheslines": 2,
+      "hangingCloths": 7,
+      "roofStitches": 15,
+      "finishedRoofs": 2,
+      "selectedRoof": 1,
+      "selectedPuff": 0.43,
+      "moveEdits": 0,
+      "added": 0,
+      "wind": false,
+      "selected": 0,
+      "mode": "sew",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.51,
+          0.62
+        ],
+        [
+          0.78,
+          0.65
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 1236,
+      "bottom": 77.6875
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 1333,
+      "bottom": 77.6875
+    },
+    {
+      "text": "存画面",
+      "height": 44,
+      "right": 1416,
+      "bottom": 77.6875
+    },
+    {
+      "text": "缝上软屋顶",
+      "height": 44,
+      "right": 128,
+      "bottom": 888
+    },
+    {
+      "text": "提起鼓布袋",
+      "height": 44,
+      "right": 239,
+      "bottom": 888
+    },
+    {
+      "text": "牵晾布绳",
+      "height": 44,
+      "right": 336,
+      "bottom": 888
+    },
+    {
+      "text": "搬动布屋",
+      "height": 44,
+      "right": 433,
+      "bottom": 888
+    },
+    {
+      "text": "添一间小屋",
+      "height": 44,
+      "right": 544,
+      "bottom": 888
+    },
+    {
+      "text": "吹一阵暖风",
+      "height": 44,
+      "right": 655,
+      "bottom": 888
+    }
+  ],
+  "heap": {
+    "usedSize": 4799608,
+    "totalSize": 9109504,
+    "embedderHeapUsedSize": 4479560,
+    "backingStorageSize": 73378
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 3,
+    "state": "suspended",
+    "qa": {
+      "title": "织袋小镇",
+      "elapsed": 67.2,
+      "wallSeconds": 67.2,
+      "trusted": 233,
+      "downs": 13,
+      "moves": 104,
+      "actions": 107,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 26,
+      "maxFrameMs": 86,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.00973010248566794,
+        "fx": 0,
+        "out": 0.006616469741046566,
+        "musicPeak": 0.0450034597743528,
+        "fxPeak": 0.042348902196292885,
+        "outPeak": 0.031268193642213386,
+        "musicCount": 106,
+        "fxCount": 135,
+        "activeVoices": 3,
+        "connectedNodes": 12,
+        "suspended": false,
+        "maxVoices": 6,
+        "limit": 18
+      },
+      "art": {
+        "houses": 3,
+        "clotheslines": 2,
+        "hangingCloths": 7,
+        "roofStitches": 15,
+        "finishedRoofs": 2,
+        "selectedRoof": 1,
+        "selectedPuff": 0.43,
+        "moveEdits": 0,
+        "added": 0,
+        "wind": false,
+        "selected": 0,
+        "mode": "sew",
+        "positions": [
+          [
+            0.25,
+            0.66
+          ],
+          [
+            0.51,
+            0.62
+          ],
+          [
+            0.78,
+            0.65
+          ]
+        ]
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

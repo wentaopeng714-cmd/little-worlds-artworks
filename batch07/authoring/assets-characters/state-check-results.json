@@ -1,0 +1,220 @@
+[
+  {
+    "file": "07-bread-parade.js",
+    "passed": [
+      "outline manipulation",
+      "stamp persistence",
+      "proofing changes size",
+      "crust 2",
+      "queued recipe deep copy",
+      "direction reverse",
+      "bounded 7 breads",
+      "init clean"
+    ],
+    "edited": {
+      "mode": "stamp",
+      "kneadMoves": 22,
+      "width": 1.22,
+      "height": 1.05,
+      "outline": [
+        0.971,
+        1.03,
+        0.97,
+        1.03,
+        0.971,
+        1.027,
+        0.975,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009,
+        0.995,
+        1.001,
+        1.004,
+        0.992,
+        1.012,
+        0.984,
+        1.019,
+        0.978,
+        1.025,
+        0.973,
+        1.029,
+        0.97,
+        1.03,
+        0.97,
+        1.029,
+        0.972
+      ],
+      "stamps": 0,
+      "totalStamps": 2,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 4,
+      "queueRecipes": [
+        {
+          "id": 1,
+          "width": 1.316,
+          "height": 1.108,
+          "crust": 2,
+          "stamps": 2,
+          "ferment": 0.56
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        }
+      ],
+      "joined": 1,
+      "direction": -1,
+      "turns": 1
+    }
+  },
+  {
+    "file": "08-jelly-post.js",
+    "passed": [
+      "tap feed",
+      "drag feed mouth hit",
+      "leg deformation",
+      "stamp changes letters",
+      "mailbox drag",
+      "custom route 2→1→0",
+      "4 matched deliveries across cycles",
+      "init clean"
+    ],
+    "edited": {
+      "mode": "route",
+      "belly": 4,
+      "bellyStamps": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "trayStamps": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selectedStamp": 1,
+      "stampEdits": 1,
+      "legs": [
+        1.4,
+        1
+      ],
+      "legPulls": 22,
+      "boxes": [
+        {
+          "x": 0.73,
+          "y": 0.31,
+          "stamp": 0,
+          "delivered": 0
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 0
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 0
+        }
+      ],
+      "movedBoxes": 22,
+      "route": [
+        2,
+        1,
+        0
+      ],
+      "routeEdits": 3,
+      "routeIndex": 0,
+      "running": false,
+      "totalFed": 4,
+      "totalDelivered": 0,
+      "position": {
+        "x": 0.47,
+        "y": 0.42
+      },
+      "receiptCount": 0
+    },
+    "delivered": {
+      "mode": "route",
+      "belly": 0,
+      "bellyStamps": [],
+      "trayStamps": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selectedStamp": 1,
+      "stampEdits": 1,
+      "legs": [
+        1.4,
+        1
+      ],
+      "legPulls": 22,
+      "boxes": [
+        {
+          "x": 0.73,
+          "y": 0.31,
+          "stamp": 0,
+          "delivered": 1
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 2
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 1
+        }
+      ],
+      "movedBoxes": 22,
+      "route": [
+        2,
+        1,
+        0
+      ],
+      "routeEdits": 3,
+      "routeIndex": 2,
+      "running": false,
+      "totalFed": 4,
+      "totalDelivered": 4,
+      "position": {
+        "x": 0.49,
+        "y": 0.438
+      },
+      "receiptCount": 4
+    }
+  }
+]

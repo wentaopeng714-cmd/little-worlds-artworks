@@ -1,0 +1,1201 @@
+[
+  {
+    "name": "04-pearl-opera",
+    "initial": {
+      "shells": 3,
+      "chains": 2,
+      "opening": 0.88,
+      "pearlTurns": 0,
+      "hingeEdits": 0,
+      "added": 0,
+      "choir": false,
+      "mode": "hinge",
+      "selected": 0,
+      "positions": [
+        [
+          0.51,
+          0.53
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ]
+      ]
+    },
+    "changes": [
+      {
+        "tool": "hinge",
+        "state": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 1,
+          "pearlTurns": 0,
+          "hingeEdits": 20,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "pearl",
+        "state": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 1,
+          "pearlTurns": 20,
+          "hingeEdits": 20,
+          "added": 0,
+          "choir": false,
+          "mode": "pearl",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "chain",
+        "state": {
+          "shells": 3,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 20,
+          "hingeEdits": 20,
+          "added": 0,
+          "choir": false,
+          "mode": "chain",
+          "selected": 1,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "stage",
+        "state": {
+          "shells": 3,
+          "chains": 3,
+          "opening": 1,
+          "pearlTurns": 20,
+          "hingeEdits": 20,
+          "added": 0,
+          "choir": false,
+          "mode": "stage",
+          "selected": 0,
+          "positions": [
+            [
+              0.57,
+              0.5
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "new",
+        "state": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 20,
+          "hingeEdits": 20,
+          "added": 1,
+          "choir": false,
+          "mode": "stage",
+          "selected": 3,
+          "positions": [
+            [
+              0.57,
+              0.5
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.3,
+              0.47
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "choir",
+        "state": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 20,
+          "hingeEdits": 20,
+          "added": 1,
+          "choir": true,
+          "mode": "stage",
+          "selected": 3,
+          "positions": [
+            [
+              0.57,
+              0.5
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.3,
+              0.47
+            ]
+          ]
+        }
+      }
+    ],
+    "afterOperations": {
+      "shells": 4,
+      "chains": 3,
+      "opening": 0.8,
+      "pearlTurns": 20,
+      "hingeEdits": 20,
+      "added": 1,
+      "choir": true,
+      "mode": "stage",
+      "selected": 3,
+      "positions": [
+        [
+          0.57,
+          0.5
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ],
+        [
+          0.3,
+          0.47
+        ]
+      ]
+    },
+    "afterCapacityCheck": {
+      "shells": 6,
+      "chains": 3,
+      "opening": 0.8,
+      "pearlTurns": 20,
+      "hingeEdits": 20,
+      "added": 3,
+      "choir": true,
+      "mode": "stage",
+      "selected": 5,
+      "positions": [
+        [
+          0.57,
+          0.5
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ],
+        [
+          0.3,
+          0.47
+        ],
+        [
+          0.49,
+          0.66
+        ],
+        [
+          0.68,
+          0.47
+        ]
+      ]
+    },
+    "resizePreserved": true,
+    "resetVerified": true,
+    "audioCalls": 17,
+    "verification": "Node Canvas rendering and direct API simulation; not browser, pointer routing, WebAudio or performance QA"
+  },
+  {
+    "name": "05-paper-dragon",
+    "initial": {
+      "segments": 12,
+      "cuts": 0,
+      "joined": 0,
+      "flipped": 0,
+      "wingTurns": 0,
+      "poseEdits": 0,
+      "dancing": false,
+      "selected": 0,
+      "mode": "joint",
+      "positions": [
+        [
+          0.76,
+          0.28
+        ],
+        [
+          0.61,
+          0.26
+        ],
+        [
+          0.47,
+          0.29
+        ],
+        [
+          0.36,
+          0.39
+        ],
+        [
+          0.4,
+          0.51
+        ],
+        [
+          0.54,
+          0.56
+        ],
+        [
+          0.69,
+          0.57
+        ],
+        [
+          0.78,
+          0.67
+        ],
+        [
+          0.67,
+          0.77
+        ],
+        [
+          0.51,
+          0.78
+        ],
+        [
+          0.36,
+          0.73
+        ],
+        [
+          0.23,
+          0.65
+        ]
+      ]
+    },
+    "changes": [
+      {
+        "tool": "joint",
+        "state": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 20,
+          "dancing": false,
+          "selected": 6,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "cut",
+        "state": {
+          "segments": 12,
+          "cuts": 1,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 20,
+          "dancing": false,
+          "selected": 5,
+          "mode": "cut",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "flip",
+        "state": {
+          "segments": 12,
+          "cuts": 1,
+          "joined": 0,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 20,
+          "dancing": false,
+          "selected": 4,
+          "mode": "flip",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "add",
+        "state": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 20,
+          "dancing": false,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ],
+            [
+              0.176,
+              0.566
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "coil",
+        "state": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 21,
+          "dancing": false,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.235,
+              0.551
+            ],
+            [
+              0.233,
+              0.442
+            ],
+            [
+              0.284,
+              0.345
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "dance",
+        "state": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 21,
+          "dancing": true,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.235,
+              0.551
+            ],
+            [
+              0.233,
+              0.442
+            ],
+            [
+              0.284,
+              0.345
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        }
+      }
+    ],
+    "afterOperations": {
+      "segments": 13,
+      "cuts": 1,
+      "joined": 1,
+      "flipped": 1,
+      "wingTurns": 1,
+      "poseEdits": 21,
+      "dancing": true,
+      "selected": 12,
+      "mode": "joint",
+      "positions": [
+        [
+          0.722,
+          0.323
+        ],
+        [
+          0.779,
+          0.426
+        ],
+        [
+          0.78,
+          0.54
+        ],
+        [
+          0.727,
+          0.643
+        ],
+        [
+          0.629,
+          0.714
+        ],
+        [
+          0.508,
+          0.74
+        ],
+        [
+          0.386,
+          0.716
+        ],
+        [
+          0.289,
+          0.648
+        ],
+        [
+          0.235,
+          0.551
+        ],
+        [
+          0.233,
+          0.442
+        ],
+        [
+          0.284,
+          0.345
+        ],
+        [
+          0.377,
+          0.278
+        ],
+        [
+          0.493,
+          0.254
+        ]
+      ]
+    },
+    "afterCapacityCheck": {
+      "segments": 18,
+      "cuts": 1,
+      "joined": 6,
+      "flipped": 4,
+      "wingTurns": 1,
+      "poseEdits": 21,
+      "dancing": true,
+      "selected": 17,
+      "mode": "joint",
+      "positions": [
+        [
+          0.722,
+          0.323
+        ],
+        [
+          0.779,
+          0.426
+        ],
+        [
+          0.78,
+          0.54
+        ],
+        [
+          0.727,
+          0.643
+        ],
+        [
+          0.629,
+          0.714
+        ],
+        [
+          0.508,
+          0.74
+        ],
+        [
+          0.386,
+          0.716
+        ],
+        [
+          0.289,
+          0.648
+        ],
+        [
+          0.235,
+          0.551
+        ],
+        [
+          0.233,
+          0.442
+        ],
+        [
+          0.284,
+          0.345
+        ],
+        [
+          0.377,
+          0.278
+        ],
+        [
+          0.493,
+          0.254
+        ],
+        [
+          0.59,
+          0.278
+        ],
+        [
+          0.667,
+          0.342
+        ],
+        [
+          0.708,
+          0.433
+        ],
+        [
+          0.706,
+          0.533
+        ],
+        [
+          0.661,
+          0.622
+        ]
+      ]
+    },
+    "resizePreserved": true,
+    "resetVerified": true,
+    "audioCalls": 13,
+    "verification": "Node Canvas rendering and direct API simulation; not browser, pointer routing, WebAudio or performance QA"
+  },
+  {
+    "name": "06-patchwork-village",
+    "initial": {
+      "houses": 3,
+      "clotheslines": 2,
+      "hangingCloths": 7,
+      "roofStitches": 0,
+      "finishedRoofs": 0,
+      "selectedRoof": 0.73,
+      "selectedPuff": 0.68,
+      "moveEdits": 0,
+      "added": 0,
+      "wind": false,
+      "selected": 1,
+      "mode": "sew",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.51,
+          0.62
+        ],
+        [
+          0.78,
+          0.65
+        ]
+      ]
+    },
+    "changes": [
+      {
+        "tool": "sew",
+        "state": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 16,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "puff",
+        "state": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 16,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 1.25,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "puff",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "line",
+        "state": {
+          "houses": 3,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 16,
+          "finishedRoofs": 1,
+          "selectedRoof": 0.52,
+          "selectedPuff": 0.43,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 0,
+          "mode": "line",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "move",
+        "state": {
+          "houses": 3,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 16,
+          "finishedRoofs": 1,
+          "selectedRoof": 1,
+          "selectedPuff": 1.25,
+          "moveEdits": 20,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.56,
+              0.56
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "new",
+        "state": {
+          "houses": 4,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 16,
+          "finishedRoofs": 1,
+          "selectedRoof": 0.1,
+          "selectedPuff": 0.35,
+          "moveEdits": 20,
+          "added": 1,
+          "wind": false,
+          "selected": 3,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.56,
+              0.56
+            ],
+            [
+              0.78,
+              0.65
+            ],
+            [
+              0.3,
+              0.73
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "wind",
+        "state": {
+          "houses": 4,
+          "clotheslines": 3,
+          "hangingCloths": 12,
+          "roofStitches": 16,
+          "finishedRoofs": 1,
+          "selectedRoof": 0.1,
+          "selectedPuff": 0.35,
+          "moveEdits": 20,
+          "added": 1,
+          "wind": true,
+          "selected": 3,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.56,
+              0.56
+            ],
+            [
+              0.78,
+              0.65
+            ],
+            [
+              0.3,
+              0.73
+            ]
+          ]
+        }
+      }
+    ],
+    "afterOperations": {
+      "houses": 4,
+      "clotheslines": 3,
+      "hangingCloths": 12,
+      "roofStitches": 16,
+      "finishedRoofs": 1,
+      "selectedRoof": 0.1,
+      "selectedPuff": 0.35,
+      "moveEdits": 20,
+      "added": 1,
+      "wind": true,
+      "selected": 3,
+      "mode": "move",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.56,
+          0.56
+        ],
+        [
+          0.78,
+          0.65
+        ],
+        [
+          0.3,
+          0.73
+        ]
+      ]
+    },
+    "afterCapacityCheck": {
+      "houses": 7,
+      "clotheslines": 3,
+      "hangingCloths": 12,
+      "roofStitches": 16,
+      "finishedRoofs": 1,
+      "selectedRoof": 0.1,
+      "selectedPuff": 0.35,
+      "moveEdits": 20,
+      "added": 4,
+      "wind": true,
+      "selected": 6,
+      "mode": "move",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.56,
+          0.56
+        ],
+        [
+          0.78,
+          0.65
+        ],
+        [
+          0.3,
+          0.73
+        ],
+        [
+          0.49,
+          0.58
+        ],
+        [
+          0.68,
+          0.73
+        ],
+        [
+          0.3,
+          0.58
+        ]
+      ]
+    },
+    "resizePreserved": true,
+    "resetVerified": true,
+    "audioCalls": 18,
+    "verification": "Node Canvas rendering and direct API simulation; not browser, pointer routing, WebAudio or performance QA"
+  }
+]

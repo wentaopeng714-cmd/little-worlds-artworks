@@ -1,0 +1,128 @@
+{
+  "slug": "09-sardine-salon",
+  "file": "09-sardine-salon.js",
+  "number": 9,
+  "title": "沙丁鱼理发铺",
+  "steps": [
+    "梳头鳍：在鱼背顶部拖出高低与倾斜，每一根鳍独立保存",
+    "剪胡须：在嘴角点按/拖动，局部胡须真正变短",
+    "夹发卷：点头鳍夹卷，再点同处拆卷",
+    "换下一位：完整发型进入最多四位的合照队列",
+    "给不同顾客做不同造型，打开队列合照对比"
+  ],
+  "referenceUrls": [
+    "https://www.clevelandart.org/art/1973.142"
+  ],
+  "observations": [
+    "已实际查看Homer《Leaping Trout》1889官方像素：鱼腹发白、背部近黑、细红斑、下方横向白色水痕。转换为原创条纹鱼上的自绘刮线、纸纹与珊瑚色小斑，未复制作品。"
+  ],
+  "license": "Cleveland官方页明确允许复制、修改、分发此作品；成品仍未使用原图，所有图形由Canvas原创绘制。",
+  "historyDifference": "不是海葵/章鱼节拍角色或换色面板；剪、梳、卷持续编辑真实几何，完成造型深拷贝进入客户合照。",
+  "testPlan": [
+    {
+      "action": "comb",
+      "from": [
+        0.44,
+        0.23
+      ],
+      "to": [
+        0.49,
+        0.14
+      ],
+      "expect": "combMoves>0，fin改变"
+    },
+    {
+      "action": "scissors",
+      "clicks": [
+        [
+          0.744,
+          0.56
+        ],
+        [
+          0.73,
+          0.55
+        ]
+      ],
+      "intervalMs": 110,
+      "expect": "snips>0，beardLengths缩短"
+    },
+    {
+      "action": "rollers",
+      "clicks": [
+        [
+          0.45,
+          0.23
+        ]
+      ],
+      "expect": "rollerChanges>0，fin某项curl=true"
+    },
+    {
+      "action": "next",
+      "expect": "customersServed=1，portraits[0].fin/beardLengths等于换客前"
+    },
+    {
+      "action": "photo",
+      "expect": "photoMode=true"
+    }
+  ],
+  "testCoordinates": "09/10 testPlan归一化坐标基于1000×700等比内容框；宽高比不同须按view居中留白换算。",
+  "limits": {
+    "portraits": 4,
+    "particles": 65,
+    "finRibs": 15,
+    "beardStrands": 8
+  },
+  "stateFields": [
+    "customersServed",
+    "snips",
+    "combMoves",
+    "rollerChanges",
+    "currentEdits",
+    "fin",
+    "beardLengths",
+    "portraits",
+    "photoMode",
+    "particleCount"
+  ],
+  "instructionsFile": "09-sardine-salon.zh.md",
+  "subtitle": "每一撮怪发型，都值得一张合照。",
+  "palette": {
+    "bg": "#eee5cd",
+    "ink": "#183f64",
+    "accent": "#d77458"
+  },
+  "tools": [
+    {
+      "id": "scissors",
+      "label": "剪胡须"
+    },
+    {
+      "id": "comb",
+      "label": "梳头鳍"
+    },
+    {
+      "id": "rollers",
+      "label": "夹发卷"
+    },
+    {
+      "id": "next",
+      "label": "换下一位"
+    },
+    {
+      "id": "photo",
+      "label": "队列合照"
+    }
+  ],
+  "canonicalArtboard": [
+    1000,
+    700
+  ],
+  "testPlanCoordinates": "归一化坐标基于1000×700画板，按等比居中映射到真实画布。",
+  "qa": {
+    "browser": "passed_20_total_cases",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "touchHardware": "not_run",
+    "humanListening": "not_run"
+  }
+}

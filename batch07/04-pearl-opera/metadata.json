@@ -1,0 +1,137 @@
+{
+  "number": 4,
+  "slug": "04-pearl-opera",
+  "description": "把虹彩贝口牵开、转珍珠，再用细链连接可移动的贝壳歌剧台。",
+  "newMechanics": [
+    "贝口铰链开量持久编辑，内碗不跟着缩扁",
+    "珍珠旋转改变环形虹彩与贝内位置",
+    "细链记录两贝拓扑，贝壳搬动后链端跟随",
+    "最多6只不同色泽贝壳；轮唱叠加呼吸，不覆盖原造型"
+  ],
+  "artDirection": [
+    "午夜蓝椭圆歌剧台，三只大小错落的双瓣贝",
+    "密径向壳肋、弯曲生长纹、虹彩珍珠与金细链",
+    "上盖、内碗、珍珠独立的遮挡与接触阴影"
+  ],
+  "testPlan": [
+    {
+      "control": "hinge",
+      "from": [
+        0.51,
+        0.53
+      ],
+      "to": [
+        0.51,
+        0.41
+      ]
+    },
+    {
+      "control": "pearl",
+      "from": [
+        0.51,
+        0.53
+      ],
+      "to": [
+        0.59,
+        0.52
+      ]
+    },
+    {
+      "control": "chain",
+      "from": [
+        0.23,
+        0.71
+      ],
+      "to": [
+        0.79,
+        0.72
+      ]
+    },
+    {
+      "control": "stage",
+      "from": [
+        0.51,
+        0.53
+      ],
+      "to": [
+        0.57,
+        0.5
+      ]
+    },
+    {
+      "control": "new",
+      "clickOnly": true
+    },
+    {
+      "control": "choir",
+      "clickOnly": true
+    }
+  ],
+  "stateFields": {
+    "shells": "初始3，添贝最多6",
+    "chains": "初始2；连接两侧贝后3",
+    "opening": "牵贝后0.10–1.00变化",
+    "pearlTurns": "旋珠拖动后增加",
+    "hingeEdits": "牵贝拖动后增加",
+    "choir": "轮唱开关"
+  },
+  "references": [
+    {
+      "title": "Cherub and shell, The Met, 58.115",
+      "url": "https://www.metmuseum.org/art/collection/search/202237",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/202237/1618605/main-image",
+      "license": "馆藏页标示 Public Domain；只观察，没有嵌入或临摹其人物造型",
+      "observed": "实际看1200×910像素：扇贝宽幅浅槽从顶中收拢，槽边高光与深谷交替；翼纹为弯曲层叠。借用壳肋层次，不用天使主题。"
+    }
+  ],
+  "difference": "不同于13金箔万花扇的平面折纸排阵：主体是有上下瓣、内碗、珍珠、铰链的体积贝壳，只有三只舞台主角，细链是持久连接。",
+  "title": "珠贝歌剧",
+  "subtitle": "虹彩作幕，珍珠开嗓。把三只贝排成一座小歌剧院。",
+  "ui": {
+    "bg": "#142034",
+    "ink": "#efe4d0",
+    "accent": "#e5bcae"
+  },
+  "controls": [
+    {
+      "id": "hinge",
+      "label": "牵开贝口"
+    },
+    {
+      "id": "pearl",
+      "label": "转动珍珠"
+    },
+    {
+      "id": "chain",
+      "label": "系细珠链"
+    },
+    {
+      "id": "stage",
+      "label": "挪动舞台"
+    },
+    {
+      "id": "new",
+      "label": "请一只新贝"
+    },
+    {
+      "id": "choir",
+      "label": "珠贝轮唱"
+    }
+  ],
+  "verification": {
+    "syntax": "node --check passed",
+    "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+    "interaction": "direct ART API simulation, not browser QA",
+    "browser": "not run",
+    "webAudio": "not run"
+  },
+  "playtime": "1–3分钟",
+  "assets": "全部Canvas程序自绘；无外部图片、字体、CDN",
+  "qa": {
+    "browser": "passed_20_total_cases",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "touchHardware": "not_run",
+    "humanListening": "not_run"
+  }
+}

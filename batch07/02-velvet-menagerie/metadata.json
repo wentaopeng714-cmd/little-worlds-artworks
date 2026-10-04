@@ -1,0 +1,138 @@
+{
+  "number": 2,
+  "slug": "02-velvet-menagerie",
+  "title": "绒毯兽园",
+  "description": "剪绒、梳卷、接回异色绒，再压下一枚真正凹下的脚印。",
+  "ui": {
+    "bg": "#eadfcb",
+    "ink": "#5b5147",
+    "accent": "#a17076"
+  },
+  "controls": [
+    {
+      "id": "shear",
+      "label": "剪短绒面"
+    },
+    {
+      "id": "comb",
+      "label": "梳出旋卷"
+    },
+    {
+      "id": "graft",
+      "label": "接绒生长"
+    },
+    {
+      "id": "print",
+      "label": "压下脚印"
+    },
+    {
+      "id": "colour",
+      "label": "换接绒色"
+    }
+  ],
+  "newMechanics": [
+    "13800根毛的持久绒长修改",
+    "局部方向场梳旋",
+    "异色补绒可扩展轮廓",
+    "压印实际改变绒長和方向"
+  ],
+  "artDirection": [
+    "亚麻底与赭、兰紫、青绿毛兽",
+    "暗根本色高光三层纤维",
+    "小比例手绣五官与低反差落影"
+  ],
+  "testPlan": [
+    {
+      "control": "shear",
+      "from": [
+        0.18,
+        0.54
+      ],
+      "to": [
+        0.35,
+        0.6
+      ]
+    },
+    {
+      "control": "comb",
+      "from": [
+        0.5,
+        0.45
+      ],
+      "to": [
+        0.58,
+        0.64
+      ]
+    },
+    {
+      "control": "colour",
+      "buttonOnly": true
+    },
+    {
+      "control": "graft",
+      "from": [
+        0.23,
+        0.5
+      ],
+      "to": [
+        0.3,
+        0.54
+      ]
+    },
+    {
+      "control": "print",
+      "from": [
+        0.78,
+        0.6
+      ],
+      "to": [
+        0.78,
+        0.6
+      ]
+    }
+  ],
+  "stateFields": {
+    "averagePile": "剪绒后减少",
+    "cutTufts": "剪绒后增加",
+    "grafts": "接绒后增加",
+    "combs": "梳卷后增加",
+    "footprints": "压印后增加",
+    "tufts": "接绒后增加，最大18600"
+  },
+  "file": "02-velvet-menagerie.js",
+  "references": [
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/20-fiber-snowcrystals/母本与新作对照.jpg",
+      "inspectedPixels": true
+    },
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/21-embroidered-fireflowers/母本与新作对照.jpg",
+      "inspectedPixels": true
+    },
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/22-metal-ripple-curtain/母本与新作对照.jpg",
+      "inspectedPixels": true
+    }
+  ],
+  "license": "本次独立自绘Canvas，无复制外部资产；所观察的既有本地对照图只供授权参考，不主张其许可状态。",
+  "qa": {
+    "syntax": "passed",
+    "nodeRender": "passed",
+    "nodeStateAssertions": "passed",
+    "resizeStatePreserved": "passed",
+    "cleanReset": "passed",
+    "browser": "passed_20_total_cases",
+    "touchHardware": "not_run",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "humanListening": "not_run"
+  },
+  "canonicalArtboard": [
+    1000,
+    740
+  ],
+  "testPlanCoordinates": "归一化坐标基于1000×740画板；其他比例需用等比居中映射。"
+}

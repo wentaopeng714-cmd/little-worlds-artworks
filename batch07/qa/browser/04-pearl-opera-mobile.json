@@ -1,0 +1,3369 @@
+{
+  "slug": "04-pearl-opera",
+  "device": "mobile",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/04-pearl-opera/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "control": "hinge",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.51,
+          0.41
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 1.4,
+        "wallSeconds": 1.4,
+        "trusted": 10,
+        "downs": 1,
+        "moves": 8,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.020707883006075394,
+          "fx": 0,
+          "out": 0.014081360589166026,
+          "musicPeak": 0.027293182169482483,
+          "fxPeak": 0.007249144116830283,
+          "outPeak": 0.0215215140847205,
+          "musicCount": 2,
+          "fxCount": 2,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 4,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 1,
+          "pearlTurns": 0,
+          "hingeEdits": 8,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "pearl",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.59,
+          0.52
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 2.2,
+        "wallSeconds": 2.2,
+        "trusted": 20,
+        "downs": 2,
+        "moves": 16,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010666959158975026,
+          "fx": 0.00007106748554481837,
+          "out": 0.007253381582115796,
+          "musicPeak": 0.027293182169482483,
+          "fxPeak": 0.0450335751397048,
+          "outPeak": 0.030534525255084797,
+          "musicCount": 3,
+          "fxCount": 8,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 1,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 0,
+          "choir": false,
+          "mode": "pearl",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "chain",
+        "from": [
+          0.23,
+          0.71
+        ],
+        "to": [
+          0.79,
+          0.72
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 3.1,
+        "wallSeconds": 3.1,
+        "trusted": 30,
+        "downs": 3,
+        "moves": 24,
+        "actions": 3,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.002164430517009412,
+          "fx": 0.00005909604207170948,
+          "out": 0.001473235848771671,
+          "musicPeak": 0.027293182169482483,
+          "fxPeak": 0.0450335751397048,
+          "outPeak": 0.030534525255084797,
+          "musicCount": 4,
+          "fxCount": 11,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 0,
+          "choir": false,
+          "mode": "chain",
+          "selected": 1,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "stage",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.57,
+          0.5
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 3.9,
+        "wallSeconds": 3.9,
+        "trusted": 40,
+        "downs": 4,
+        "moves": 32,
+        "actions": 4,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0030402214941929427,
+          "fx": 0,
+          "out": 0.0020673506398027537,
+          "musicPeak": 0.03324800740627307,
+          "fxPeak": 0.0450335751397048,
+          "outPeak": 0.030534525255084797,
+          "musicCount": 5,
+          "fxCount": 13,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 3,
+          "opening": 1,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 0,
+          "choir": false,
+          "mode": "stage",
+          "selected": 0,
+          "positions": [
+            [
+              0.57,
+              0.5
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "new",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 4.2,
+        "wallSeconds": 4.2,
+        "trusted": 41,
+        "downs": 4,
+        "moves": 32,
+        "actions": 5,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.017368099482280745,
+          "fx": 0.0019108915168487043,
+          "out": 0.012460035965651707,
+          "musicPeak": 0.03715824858049128,
+          "fxPeak": 0.0450335751397048,
+          "outPeak": 0.030534525255084797,
+          "musicCount": 6,
+          "fxCount": 14,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 1,
+          "choir": false,
+          "mode": "stage",
+          "selected": 3,
+          "positions": [
+            [
+              0.57,
+              0.5
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.3,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "choir",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 4.4,
+        "wallSeconds": 4.4,
+        "trusted": 42,
+        "downs": 4,
+        "moves": 32,
+        "actions": 6,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003822653943708128,
+          "fx": 0.0024043653077810315,
+          "out": 0.0029615459760236273,
+          "musicPeak": 0.03715824858049128,
+          "fxPeak": 0.05269137985501719,
+          "outPeak": 0.03558386241417087,
+          "musicCount": 6,
+          "fxCount": 15,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 1,
+          "choir": true,
+          "mode": "stage",
+          "selected": 3,
+          "positions": [
+            [
+              0.57,
+              0.5
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.3,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 21.8,
+        "wallSeconds": 21.8,
+        "trusted": 152,
+        "downs": 5,
+        "moves": 40,
+        "actions": 106,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 67,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03962065287061147,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 30,
+          "fxCount": 112,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 1,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 3,
+          "choir": true,
+          "mode": "stage",
+          "selected": 0,
+          "positions": [
+            [
+              0.63,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.3,
+              0.47
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 22.1,
+        "wallSeconds": 22.1,
+        "trusted": 153,
+        "downs": 5,
+        "moves": 40,
+        "actions": 106,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 67,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03962065287061147,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 30,
+          "fxCount": 112,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 23.7,
+        "wallSeconds": 23.7,
+        "trusted": 173,
+        "downs": 7,
+        "moves": 56,
+        "actions": 106,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 67,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03962065287061147,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 31,
+          "fxCount": 114,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.43,
+          "pearlTurns": 0,
+          "hingeEdits": 16,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 24.1,
+        "wallSeconds": 24.1,
+        "trusted": 174,
+        "downs": 7,
+        "moves": 56,
+        "actions": 106,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 67,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03962065287061147,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 31,
+          "fxCount": 114,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 25.8,
+        "wallSeconds": 25.8,
+        "trusted": 194,
+        "downs": 9,
+        "moves": 72,
+        "actions": 106,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 67,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03962065287061147,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 33,
+          "fxCount": 116,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.43,
+          "pearlTurns": 0,
+          "hingeEdits": 16,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 26,
+        "wallSeconds": 26,
+        "trusted": 195,
+        "downs": 9,
+        "moves": 72,
+        "actions": 106,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 67,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03962065287061147,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 33,
+          "fxCount": 116,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "hinge",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.51,
+          0.41
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 28.8,
+        "wallSeconds": 28.8,
+        "trusted": 224,
+        "downs": 12,
+        "moves": 96,
+        "actions": 107,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0005572219891096575,
+          "fx": 0,
+          "out": 0.0003789109567684878,
+          "musicPeak": 0.03962065287061147,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 37,
+          "fxCount": 121,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.79,
+          "pearlTurns": 0,
+          "hingeEdits": 24,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "pearl",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.59,
+          0.52
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 30.3,
+        "wallSeconds": 30.3,
+        "trusted": 243,
+        "downs": 14,
+        "moves": 112,
+        "actions": 108,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02401975385492948,
+          "fx": 0,
+          "out": 0.016333432799101825,
+          "musicPeak": 0.03962065287061147,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 40,
+          "fxCount": 128,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.49,
+          "pearlTurns": 8,
+          "hingeEdits": 32,
+          "added": 0,
+          "choir": false,
+          "mode": "pearl",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "chain",
+        "from": [
+          0.23,
+          0.71
+        ],
+        "to": [
+          0.79,
+          0.72
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 31.7,
+        "wallSeconds": 31.8,
+        "trusted": 262,
+        "downs": 16,
+        "moves": 128,
+        "actions": 109,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.021220149619294283,
+          "fx": 0.00005850089722727464,
+          "out": 0.014428453774776261,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 42,
+          "fxCount": 135,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 16,
+          "hingeEdits": 32,
+          "added": 0,
+          "choir": false,
+          "mode": "chain",
+          "selected": 1,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "stage",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.57,
+          0.5
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 33.2,
+        "wallSeconds": 33.2,
+        "trusted": 281,
+        "downs": 18,
+        "moves": 144,
+        "actions": 110,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007155293520249216,
+          "fx": 0,
+          "out": 0.004865599636483857,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 44,
+          "fxCount": 139,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 3,
+          "opening": 0.49,
+          "pearlTurns": 16,
+          "hingeEdits": 32,
+          "added": 0,
+          "choir": false,
+          "mode": "stage",
+          "selected": 0,
+          "positions": [
+            [
+              0.57,
+              0.5
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "new",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 34.1,
+        "wallSeconds": 34.1,
+        "trusted": 291,
+        "downs": 19,
+        "moves": 152,
+        "actions": 111,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0014815687471173187,
+          "fx": 0.0009097174035936274,
+          "out": 0.0010677044530643177,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 45,
+          "fxCount": 142,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 16,
+          "hingeEdits": 32,
+          "added": 1,
+          "choir": false,
+          "mode": "stage",
+          "selected": 3,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.3,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "choir",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 35,
+        "wallSeconds": 35,
+        "trusted": 301,
+        "downs": 20,
+        "moves": 160,
+        "actions": 112,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0021918331644082837,
+          "fx": 0.008460060838077033,
+          "out": 0.005863231661551635,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 46,
+          "fxCount": 145,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 16,
+          "hingeEdits": 32,
+          "added": 1,
+          "choir": true,
+          "mode": "stage",
+          "selected": 3,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.65,
+              0.57
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "hinge",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.51,
+          0.41
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 36.6,
+        "wallSeconds": 36.6,
+        "trusted": 320,
+        "downs": 22,
+        "moves": 176,
+        "actions": 113,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.006704734014904934,
+          "fx": 0,
+          "out": 0.004559219184963469,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 49,
+          "fxCount": 148,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 1,
+          "pearlTurns": 16,
+          "hingeEdits": 40,
+          "added": 1,
+          "choir": true,
+          "mode": "hinge",
+          "selected": 3,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.65,
+              0.57
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "pearl",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.59,
+          0.52
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 38.2,
+        "wallSeconds": 38.2,
+        "trusted": 339,
+        "downs": 24,
+        "moves": 192,
+        "actions": 114,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00152462018579597,
+          "fx": 0,
+          "out": 0.0010367417425113294,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 51,
+          "fxCount": 154,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 1,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 1,
+          "choir": true,
+          "mode": "pearl",
+          "selected": 3,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.65,
+              0.57
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "chain",
+        "from": [
+          0.23,
+          0.71
+        ],
+        "to": [
+          0.79,
+          0.72
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 39.7,
+        "wallSeconds": 39.7,
+        "trusted": 358,
+        "downs": 26,
+        "moves": 208,
+        "actions": 115,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00042829361655897065,
+          "fx": 0,
+          "out": 0.0002912396621716591,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 53,
+          "fxCount": 157,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 1,
+          "choir": true,
+          "mode": "chain",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.65,
+              0.57
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "stage",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.57,
+          0.5
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 41.4,
+        "wallSeconds": 41.5,
+        "trusted": 377,
+        "downs": 28,
+        "moves": 224,
+        "actions": 116,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004589944682290469,
+          "fx": 0,
+          "out": 0.0031211624091680235,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 56,
+          "fxCount": 160,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 4,
+          "chains": 3,
+          "opening": 1,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 1,
+          "choir": true,
+          "mode": "stage",
+          "selected": 3,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "new",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 42.5,
+        "wallSeconds": 42.5,
+        "trusted": 387,
+        "downs": 29,
+        "moves": 232,
+        "actions": 117,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03857978563886187,
+          "fx": 0.0010947616505480324,
+          "out": 0.026246553788330677,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 58,
+          "fxCount": 162,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 5,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 2,
+          "choir": true,
+          "mode": "stage",
+          "selected": 4,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "choir",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 43.6,
+        "wallSeconds": 43.6,
+        "trusted": 397,
+        "downs": 30,
+        "moves": 240,
+        "actions": 118,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0029326788426320095,
+          "fx": 0.0012506140656362848,
+          "out": 0.0021907334113527143,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 59,
+          "fxCount": 164,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 5,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 2,
+          "choir": false,
+          "mode": "stage",
+          "selected": 4,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "hinge",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.51,
+          0.41
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 45.2,
+        "wallSeconds": 45.2,
+        "trusted": 416,
+        "downs": 32,
+        "moves": 256,
+        "actions": 119,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00034192377698156687,
+          "fx": 0,
+          "out": 0.0002325081713639827,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 61,
+          "fxCount": 167,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 5,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 2,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 4,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "pearl",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.59,
+          0.52
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 47,
+        "wallSeconds": 47,
+        "trusted": 435,
+        "downs": 34,
+        "moves": 272,
+        "actions": 120,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0023369745687120505,
+          "fx": 0,
+          "out": 0.0015891427221391549,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 64,
+          "fxCount": 170,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 5,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 2,
+          "choir": false,
+          "mode": "pearl",
+          "selected": 4,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "chain",
+        "from": [
+          0.23,
+          0.71
+        ],
+        "to": [
+          0.79,
+          0.72
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 48.8,
+        "wallSeconds": 48.8,
+        "trusted": 454,
+        "downs": 36,
+        "moves": 288,
+        "actions": 121,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012944112848138888,
+          "fx": 0,
+          "out": 0.008801996813886248,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 67,
+          "fxCount": 173,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 5,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 2,
+          "choir": false,
+          "mode": "chain",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "stage",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.57,
+          0.5
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 50.6,
+        "wallSeconds": 50.6,
+        "trusted": 473,
+        "downs": 38,
+        "moves": 304,
+        "actions": 122,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0005221174157709315,
+          "fx": 0,
+          "out": 0.0003550398457001299,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 69,
+          "fxCount": 176,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 5,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 2,
+          "choir": false,
+          "mode": "stage",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "new",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 51.5,
+        "wallSeconds": 51.5,
+        "trusted": 483,
+        "downs": 39,
+        "moves": 312,
+        "actions": 123,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014951290273497828,
+          "fx": 0.00484894171236708,
+          "out": 0.00973767516177612,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 71,
+          "fxCount": 178,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": false,
+          "mode": "stage",
+          "selected": 5,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "choir",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 52.8,
+        "wallSeconds": 52.8,
+        "trusted": 493,
+        "downs": 40,
+        "moves": 320,
+        "actions": 124,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.025782616201269686,
+          "fx": 0.00036887557035892237,
+          "out": 0.01756170205029615,
+          "musicPeak": 0.04057305879141067,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 73,
+          "fxCount": 180,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": true,
+          "mode": "stage",
+          "selected": 5,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "hinge",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.51,
+          0.41
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 54.6,
+        "wallSeconds": 54.6,
+        "trusted": 512,
+        "downs": 42,
+        "moves": 336,
+        "actions": 125,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0017137506867444825,
+          "fx": 0,
+          "out": 0.0011653504755546793,
+          "musicPeak": 0.044062353445935384,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 75,
+          "fxCount": 183,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": true,
+          "mode": "hinge",
+          "selected": 5,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "pearl",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.59,
+          0.52
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 56.5,
+        "wallSeconds": 56.5,
+        "trusted": 531,
+        "downs": 44,
+        "moves": 352,
+        "actions": 126,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004755670038328448,
+          "fx": 0,
+          "out": 0.0032338556706930656,
+          "musicPeak": 0.044062353445935384,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 78,
+          "fxCount": 186,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.8,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": true,
+          "mode": "pearl",
+          "selected": 5,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "chain",
+        "from": [
+          0.23,
+          0.71
+        ],
+        "to": [
+          0.79,
+          0.72
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 58.4,
+        "wallSeconds": 58.4,
+        "trusted": 550,
+        "downs": 46,
+        "moves": 368,
+        "actions": 127,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007602461115611268,
+          "fx": 0,
+          "out": 0.005169673634101829,
+          "musicPeak": 0.044062353445935384,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 81,
+          "fxCount": 190,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": true,
+          "mode": "chain",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "stage",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.57,
+          0.5
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 60.1,
+        "wallSeconds": 60.1,
+        "trusted": 569,
+        "downs": 48,
+        "moves": 384,
+        "actions": 128,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0005716300162756962,
+          "fx": 0,
+          "out": 0.00038870841540668033,
+          "musicPeak": 0.044062353445935384,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 83,
+          "fxCount": 193,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": true,
+          "mode": "stage",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "new",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 61.2,
+        "wallSeconds": 61.2,
+        "trusted": 579,
+        "downs": 49,
+        "moves": 392,
+        "actions": 129,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0027971892479158648,
+          "fx": 0.0003615286832939783,
+          "out": 0.001840571749819173,
+          "musicPeak": 0.044062353445935384,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 85,
+          "fxCount": 195,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": true,
+          "mode": "stage",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "choir",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 62.3,
+        "wallSeconds": 62.3,
+        "trusted": 589,
+        "downs": 50,
+        "moves": 400,
+        "actions": 130,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0309527261683566,
+          "fx": 0.004929556859303337,
+          "out": 0.021609894939547108,
+          "musicPeak": 0.044062353445935384,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 87,
+          "fxCount": 197,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": false,
+          "mode": "stage",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "hinge",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.51,
+          0.41
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 64.1,
+        "wallSeconds": 64.1,
+        "trusted": 608,
+        "downs": 52,
+        "moves": 416,
+        "actions": 131,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.001209199939770003,
+          "fx": 0,
+          "out": 0.0008222559669107813,
+          "musicPeak": 0.044062353445935384,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 89,
+          "fxCount": 200,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "pearl",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.59,
+          0.52
+        ]
+      },
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 65.8,
+        "wallSeconds": 65.8,
+        "trusted": 627,
+        "downs": 54,
+        "moves": 432,
+        "actions": 132,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 67,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01337014608768862,
+          "fx": 0,
+          "out": 0.00909169944371771,
+          "musicPeak": 0.04522778457222692,
+          "fxPeak": 0.052697206617357335,
+          "outPeak": 0.03589659833530455,
+          "musicCount": 92,
+          "fxCount": 203,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "shells": 6,
+          "chains": 3,
+          "opening": 0.65,
+          "pearlTurns": 24,
+          "hingeEdits": 40,
+          "added": 3,
+          "choir": false,
+          "mode": "pearl",
+          "selected": 1,
+          "positions": [
+            [
+              0.88,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.71,
+              0.54
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.68,
+              0.47
+            ]
+          ]
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "e49cfcea55dada36c035b7f5c0be1f17977003ed8df8f67993650e5b08ddec51",
+  "initial": {
+    "title": "珠贝歌剧",
+    "elapsed": 0.3,
+    "wallSeconds": 0.3,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 70,
+    "maxFrameMs": 43,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "shells": 3,
+      "chains": 2,
+      "opening": 0.88,
+      "pearlTurns": 0,
+      "hingeEdits": 0,
+      "added": 0,
+      "choir": false,
+      "mode": "hinge",
+      "selected": 0,
+      "positions": [
+        [
+          0.51,
+          0.53
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "珠贝歌剧",
+    "elapsed": 4.4,
+    "wallSeconds": 4.4,
+    "trusted": 42,
+    "downs": 4,
+    "moves": 32,
+    "actions": 6,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 67,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.003822653943708128,
+      "fx": 0.0024043653077810315,
+      "out": 0.0029615459760236273,
+      "musicPeak": 0.03715824858049128,
+      "fxPeak": 0.05269137985501719,
+      "outPeak": 0.03558386241417087,
+      "musicCount": 6,
+      "fxCount": 15,
+      "activeVoices": 3,
+      "connectedNodes": 12,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "shells": 4,
+      "chains": 3,
+      "opening": 0.8,
+      "pearlTurns": 8,
+      "hingeEdits": 8,
+      "added": 1,
+      "choir": true,
+      "mode": "stage",
+      "selected": 3,
+      "positions": [
+        [
+          0.57,
+          0.5
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ],
+        [
+          0.3,
+          0.47
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "珠贝歌剧",
+    "elapsed": 20.4,
+    "wallSeconds": 20.4,
+    "trusted": 141,
+    "downs": 4,
+    "moves": 32,
+    "actions": 105,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 69,
+    "maxFrameMs": 67,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.02704984446967319,
+      "fx": 0.002867007533583938,
+      "out": 0.017906175669740385,
+      "musicPeak": 0.03962065287061147,
+      "fxPeak": 0.052697206617357335,
+      "outPeak": 0.03589659833530455,
+      "musicCount": 30,
+      "fxCount": 111,
+      "activeVoices": 5,
+      "connectedNodes": 16,
+      "suspended": false,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "shells": 6,
+      "chains": 3,
+      "opening": 0.8,
+      "pearlTurns": 8,
+      "hingeEdits": 8,
+      "added": 3,
+      "choir": true,
+      "mode": "chain",
+      "selected": 5,
+      "positions": [
+        [
+          0.57,
+          0.5
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ],
+        [
+          0.3,
+          0.47
+        ],
+        [
+          0.49,
+          0.66
+        ],
+        [
+          0.68,
+          0.47
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "珠贝歌剧",
+    "elapsed": 27.4,
+    "wallSeconds": 27.4,
+    "trusted": 205,
+    "downs": 10,
+    "moves": 80,
+    "actions": 106,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 71,
+    "maxFrameMs": 67,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.00769884297077376,
+      "fx": 0,
+      "out": 0.005235213276081882,
+      "musicPeak": 0.03962065287061147,
+      "fxPeak": 0.052697206617357335,
+      "outPeak": 0.03589659833530455,
+      "musicCount": 35,
+      "fxCount": 118,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "shells": 3,
+      "chains": 2,
+      "opening": 0.73,
+      "pearlTurns": 0,
+      "hingeEdits": 8,
+      "added": 0,
+      "choir": false,
+      "mode": "hinge",
+      "selected": 0,
+      "positions": [
+        [
+          0.51,
+          0.53
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 66.249,
+  "final": {
+    "title": "珠贝歌剧",
+    "elapsed": 66.7,
+    "wallSeconds": 66.7,
+    "trusted": 636,
+    "downs": 55,
+    "moves": 440,
+    "actions": 132,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 73,
+    "maxFrameMs": 67,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.003945465428268143,
+      "fx": 0,
+      "out": 0.0026829165198995024,
+      "musicPeak": 0.04522778457222692,
+      "fxPeak": 0.052697206617357335,
+      "outPeak": 0.03589659833530455,
+      "musicCount": 93,
+      "fxCount": 204,
+      "activeVoices": 1,
+      "connectedNodes": 8,
+      "suspended": false,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "shells": 6,
+      "chains": 3,
+      "opening": 0.65,
+      "pearlTurns": 24,
+      "hingeEdits": 40,
+      "added": 3,
+      "choir": false,
+      "mode": "pearl",
+      "selected": 1,
+      "positions": [
+        [
+          0.88,
+          0.6
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ],
+        [
+          0.71,
+          0.54
+        ],
+        [
+          0.49,
+          0.66
+        ],
+        [
+          0.68,
+          0.47
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 301,
+      "bottom": 54
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 378,
+      "bottom": 54
+    },
+    {
+      "text": "牵开贝口",
+      "height": 44,
+      "right": 94,
+      "bottom": 784
+    },
+    {
+      "text": "转动珍珠",
+      "height": 44,
+      "right": 182,
+      "bottom": 784
+    },
+    {
+      "text": "系细珠链",
+      "height": 44,
+      "right": 270,
+      "bottom": 784
+    },
+    {
+      "text": "挪动舞台",
+      "height": 44,
+      "right": 358,
+      "bottom": 784
+    },
+    {
+      "text": "请一只新贝",
+      "height": 44,
+      "right": 108,
+      "bottom": 834
+    },
+    {
+      "text": "珠贝轮唱",
+      "height": 44,
+      "right": 196,
+      "bottom": 834
+    }
+  ],
+  "heap": {
+    "usedSize": 3133636,
+    "totalSize": 8323072,
+    "embedderHeapUsedSize": 6413392,
+    "backingStorageSize": 48701
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 1,
+    "state": "suspended",
+    "qa": {
+      "title": "珠贝歌剧",
+      "elapsed": 66.9,
+      "wallSeconds": 66.9,
+      "trusted": 636,
+      "downs": 55,
+      "moves": 440,
+      "actions": 132,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 73,
+      "maxFrameMs": 67,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.0006962169826409428,
+        "fx": 0,
+        "out": 0.0004734275527301529,
+        "musicPeak": 0.04522778457222692,
+        "fxPeak": 0.052697206617357335,
+        "outPeak": 0.03589659833530455,
+        "musicCount": 93,
+        "fxCount": 204,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "shells": 6,
+        "chains": 3,
+        "opening": 0.65,
+        "pearlTurns": 24,
+        "hingeEdits": 40,
+        "added": 3,
+        "choir": false,
+        "mode": "pearl",
+        "selected": 1,
+        "positions": [
+          [
+            0.88,
+            0.6
+          ],
+          [
+            0.23,
+            0.71
+          ],
+          [
+            0.79,
+            0.72
+          ],
+          [
+            0.71,
+            0.54
+          ],
+          [
+            0.49,
+            0.66
+          ],
+          [
+            0.68,
+            0.47
+          ]
+        ]
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

@@ -1,0 +1,1946 @@
+[
+  {
+    "slug": "03-honey-constellation",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/03-honey-constellation/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "7467381847e23c819ee607d42154a7febbb368ae0a8a117081dc76b93ad00f38",
+    "sourceMatches": true,
+    "qa": {
+      "title": "蜜糖星巢",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 10,
+      "downs": 5,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 79,
+      "maxFrameMs": 46,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.008379967935839637,
+        "fx": 0.006674957202228654,
+        "out": 0.00681854275070944,
+        "musicPeak": 0.032607992175005485,
+        "fxPeak": 0.030413772308451464,
+        "outPeak": 0.028096097871139782,
+        "musicCount": 2,
+        "fxCount": 8,
+        "activeVoices": 5,
+        "connectedNodes": 16,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "turn",
+        "nests": 4,
+        "cells": 216,
+        "bridges": 5,
+        "createdBridges": 0,
+        "severedBridges": 0,
+        "drops": 5,
+        "drips": 1,
+        "crystallisedDrops": 5,
+        "turns": 2,
+        "amberPasses": 1,
+        "hardenedBridges": 5,
+        "nestPoses": [
+          [
+            280,
+            229,
+            -0.18
+          ],
+          [
+            690,
+            208,
+            0.23
+          ],
+          [
+            515,
+            470,
+            0.3
+          ],
+          [
+            810,
+            529,
+            -0.24
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "蜜糖星巢",
+      "elapsed": 1.7,
+      "wallSeconds": 1.7,
+      "trusted": 12,
+      "downs": 6,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 79,
+      "maxFrameMs": 46,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.032607992175005485,
+        "fxPeak": 0.030413772308451464,
+        "outPeak": 0.028096097871139782,
+        "musicCount": 2,
+        "fxCount": 8,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "turn",
+        "nests": 4,
+        "cells": 216,
+        "bridges": 5,
+        "createdBridges": 0,
+        "severedBridges": 0,
+        "drops": 5,
+        "drips": 1,
+        "crystallisedDrops": 5,
+        "turns": 3,
+        "amberPasses": 1,
+        "hardenedBridges": 5,
+        "nestPoses": [
+          [
+            280,
+            229,
+            -0.18
+          ],
+          [
+            690,
+            208,
+            0.23
+          ],
+          [
+            515,
+            470,
+            0.42
+          ],
+          [
+            810,
+            529,
+            -0.24
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "02-velvet-menagerie",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/02-velvet-menagerie/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "46bcb20e2c9ed1bd8b7aa2986e08a14142a0e46f238ea996d88db2d4be44ebb1",
+    "sourceMatches": true,
+    "qa": {
+      "title": "绒毯兽园",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 10,
+      "downs": 5,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 76,
+      "maxFrameMs": 65,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.006239496883564396,
+        "fx": 0.006677379374147926,
+        "out": 0.007198704625742108,
+        "musicPeak": 0.027912367830171304,
+        "fxPeak": 0.03628723574584546,
+        "outPeak": 0.029222201449034958,
+        "musicCount": 2,
+        "fxCount": 10,
+        "activeVoices": 6,
+        "connectedNodes": 18,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "graft",
+        "tufts": 13876,
+        "shears": 1,
+        "combs": 1,
+        "grafts": 2,
+        "footprints": 1,
+        "cutTufts": 590,
+        "averagePile": 13.31,
+        "colour": 1,
+        "revision": 5
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "绒毯兽园",
+      "elapsed": 1.7,
+      "wallSeconds": 1.7,
+      "trusted": 12,
+      "downs": 6,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 77,
+      "maxFrameMs": 65,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.027912367830171304,
+        "fxPeak": 0.03628723574584546,
+        "outPeak": 0.029222201449034958,
+        "musicCount": 2,
+        "fxCount": 10,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "graft",
+        "tufts": 13914,
+        "shears": 1,
+        "combs": 1,
+        "grafts": 3,
+        "footprints": 1,
+        "cutTufts": 590,
+        "averagePile": 13.34,
+        "colour": 1,
+        "revision": 6
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "01-moon-moth",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/01-moon-moth/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "114a966b78f2cec3226bf7f916f308d9988b68f56ddc64de1880d7258534ec3b",
+    "sourceMatches": true,
+    "qa": {
+      "title": "绒羽月蛾",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 10,
+      "downs": 5,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 77,
+      "maxFrameMs": 46,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.012771218986750927,
+        "fx": 0.043490476936824625,
+        "out": 0.035871431897976404,
+        "musicPeak": 0.02988461585780157,
+        "fxPeak": 0.046394812137322904,
+        "outPeak": 0.035871431897976404,
+        "musicCount": 2,
+        "fxCount": 9,
+        "activeVoices": 6,
+        "connectedNodes": 18,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "needle",
+        "moths": 2,
+        "active": 0,
+        "pulls": 0,
+        "powderMarks": 1,
+        "powderApplied": 1,
+        "folds": 1,
+        "foldedWings": 1,
+        "mounts": 1,
+        "dyes": 1,
+        "wingPins": [
+          [
+            -340,
+            -183
+          ],
+          [
+            -243,
+            207
+          ],
+          [
+            340,
+            -183
+          ],
+          [
+            243,
+            207
+          ]
+        ],
+        "foldAmount": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "绒羽月蛾",
+      "elapsed": 1.7,
+      "wallSeconds": 1.7,
+      "trusted": 12,
+      "downs": 6,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 77,
+      "maxFrameMs": 46,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.02988461585780157,
+        "fxPeak": 0.046394812137322904,
+        "outPeak": 0.035871431897976404,
+        "musicCount": 2,
+        "fxCount": 9,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "needle",
+        "moths": 2,
+        "active": 0,
+        "pulls": 0,
+        "powderMarks": 1,
+        "powderApplied": 1,
+        "folds": 1,
+        "foldedWings": 1,
+        "mounts": 1,
+        "dyes": 1,
+        "wingPins": [
+          [
+            -340,
+            -183
+          ],
+          [
+            -243,
+            207
+          ],
+          [
+            340,
+            -183
+          ],
+          [
+            243,
+            207
+          ]
+        ],
+        "foldAmount": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "04-pearl-opera",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/04-pearl-opera/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "e49cfcea55dada36c035b7f5c0be1f17977003ed8df8f67993650e5b08ddec51",
+    "sourceMatches": true,
+    "qa": {
+      "title": "珠贝歌剧",
+      "elapsed": 1.6,
+      "wallSeconds": 1.6,
+      "trusted": 12,
+      "downs": 6,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 79,
+      "maxFrameMs": 34,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.0028612276175550293,
+        "fx": 0.031514409682098496,
+        "out": 0.019934902781746817,
+        "musicPeak": 0.029843701237257617,
+        "fxPeak": 0.043211311228252745,
+        "outPeak": 0.03134190660461386,
+        "musicCount": 2,
+        "fxCount": 12,
+        "activeVoices": 6,
+        "connectedNodes": 18,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "shells": 4,
+        "chains": 2,
+        "opening": 0.88,
+        "pearlTurns": 0,
+        "hingeEdits": 0,
+        "added": 1,
+        "choir": true,
+        "mode": "stage",
+        "selected": 0,
+        "positions": [
+          [
+            0.51,
+            0.53
+          ],
+          [
+            0.23,
+            0.71
+          ],
+          [
+            0.79,
+            0.72
+          ],
+          [
+            0.3,
+            0.47
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "珠贝歌剧",
+      "elapsed": 2.1,
+      "wallSeconds": 2.1,
+      "trusted": 14,
+      "downs": 7,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 79,
+      "maxFrameMs": 34,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.029843701237257617,
+        "fxPeak": 0.043211311228252745,
+        "outPeak": 0.03134190660461386,
+        "musicCount": 2,
+        "fxCount": 12,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "shells": 4,
+        "chains": 2,
+        "opening": 0.88,
+        "pearlTurns": 0,
+        "hingeEdits": 0,
+        "added": 1,
+        "choir": true,
+        "mode": "stage",
+        "selected": 0,
+        "positions": [
+          [
+            0.51,
+            0.53
+          ],
+          [
+            0.23,
+            0.71
+          ],
+          [
+            0.79,
+            0.72
+          ],
+          [
+            0.3,
+            0.47
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "05-paper-dragon",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/05-paper-dragon/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "bbb2ece6438b682a6140506279363425ca68171f73b2f7cec89549466069fb8b",
+    "sourceMatches": true,
+    "qa": {
+      "title": "纸骨游龙",
+      "elapsed": 1.2,
+      "wallSeconds": 1.2,
+      "trusted": 12,
+      "downs": 6,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 87,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.003642310840074668,
+        "fx": 0.028701439107428534,
+        "out": 0.020467501030071392,
+        "musicPeak": 0.02830245003206376,
+        "fxPeak": 0.04722559093144473,
+        "outPeak": 0.03376164513363153,
+        "musicCount": 2,
+        "fxCount": 11,
+        "activeVoices": 7,
+        "connectedNodes": 20,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "segments": 13,
+        "cuts": 0,
+        "joined": 1,
+        "flipped": 0,
+        "wingTurns": 0,
+        "poseEdits": 1,
+        "dancing": true,
+        "selected": 12,
+        "mode": "flip",
+        "positions": [
+          [
+            0.722,
+            0.323
+          ],
+          [
+            0.779,
+            0.426
+          ],
+          [
+            0.78,
+            0.54
+          ],
+          [
+            0.727,
+            0.643
+          ],
+          [
+            0.629,
+            0.714
+          ],
+          [
+            0.508,
+            0.74
+          ],
+          [
+            0.386,
+            0.716
+          ],
+          [
+            0.289,
+            0.648
+          ],
+          [
+            0.235,
+            0.551
+          ],
+          [
+            0.233,
+            0.442
+          ],
+          [
+            0.284,
+            0.345
+          ],
+          [
+            0.377,
+            0.278
+          ],
+          [
+            0.493,
+            0.254
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "纸骨游龙",
+      "elapsed": 1.6,
+      "wallSeconds": 1.6,
+      "trusted": 14,
+      "downs": 7,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 84,
+      "maxFrameMs": 26,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.02830245003206376,
+        "fxPeak": 0.04722559093144473,
+        "outPeak": 0.03376164513363153,
+        "musicCount": 3,
+        "fxCount": 11,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 8,
+        "limit": 18
+      },
+      "art": {
+        "segments": 13,
+        "cuts": 0,
+        "joined": 1,
+        "flipped": 0,
+        "wingTurns": 0,
+        "poseEdits": 1,
+        "dancing": true,
+        "selected": 12,
+        "mode": "flip",
+        "positions": [
+          [
+            0.722,
+            0.323
+          ],
+          [
+            0.779,
+            0.426
+          ],
+          [
+            0.78,
+            0.54
+          ],
+          [
+            0.727,
+            0.643
+          ],
+          [
+            0.629,
+            0.714
+          ],
+          [
+            0.508,
+            0.74
+          ],
+          [
+            0.386,
+            0.716
+          ],
+          [
+            0.289,
+            0.648
+          ],
+          [
+            0.235,
+            0.551
+          ],
+          [
+            0.233,
+            0.442
+          ],
+          [
+            0.284,
+            0.345
+          ],
+          [
+            0.377,
+            0.278
+          ],
+          [
+            0.493,
+            0.254
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "07-bread-parade",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/07-bread-parade/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "4b094b27a58fcee278b8734695ce93d7cb9139e4f6925657a3c29385ff5a0ff3",
+    "sourceMatches": true,
+    "qa": {
+      "title": "面包蓬蓬巡游",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 11,
+      "downs": 5,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 86,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.014681814489833444,
+        "fx": 0.033978865829544104,
+        "out": 0.02327072918321718,
+        "musicPeak": 0.031193315596309765,
+        "fxPeak": 0.04929608333058355,
+        "outPeak": 0.03503985855684504,
+        "musicCount": 3,
+        "fxCount": 10,
+        "activeVoices": 7,
+        "connectedNodes": 20,
+        "suspended": false,
+        "maxVoices": 8,
+        "limit": 18
+      },
+      "art": {
+        "mode": "stamp",
+        "kneadMoves": 0,
+        "width": 1.22,
+        "height": 1.05,
+        "outline": [
+          0.971,
+          1.03,
+          0.97,
+          1.03,
+          0.971,
+          1.027,
+          0.975,
+          1.023,
+          0.98,
+          1.017,
+          0.987,
+          1.009,
+          0.995,
+          1.001,
+          1.004,
+          0.992,
+          1.012,
+          0.984,
+          1.019,
+          0.978,
+          1.025,
+          0.973,
+          1.029,
+          0.97,
+          1.03,
+          0.97,
+          1.029,
+          0.972
+        ],
+        "stamps": 1,
+        "totalStamps": 4,
+        "fermentation": 0,
+        "targetFermentation": 0,
+        "crust": 0,
+        "queue": 4,
+        "queueRecipes": [
+          {
+            "id": 1,
+            "width": 1.1,
+            "height": 1.05,
+            "crust": 1,
+            "stamps": 3,
+            "ferment": 0.28
+          },
+          {
+            "id": 4,
+            "width": 1.1,
+            "height": 0.95,
+            "crust": 2,
+            "stamps": 1,
+            "ferment": 0.39
+          },
+          {
+            "id": 3,
+            "width": 0.98,
+            "height": 1.05,
+            "crust": 1,
+            "stamps": 1,
+            "ferment": 0.27
+          },
+          {
+            "id": 2,
+            "width": 1.22,
+            "height": 0.95,
+            "crust": 0,
+            "stamps": 1,
+            "ferment": 0.15
+          }
+        ],
+        "joined": 1,
+        "direction": -1,
+        "turns": 1
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "面包蓬蓬巡游",
+      "elapsed": 1.7,
+      "wallSeconds": 1.7,
+      "trusted": 14,
+      "downs": 7,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 84,
+      "maxFrameMs": 26,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.031193315596309765,
+        "fxPeak": 0.04929608333058355,
+        "outPeak": 0.03503985855684504,
+        "musicCount": 3,
+        "fxCount": 11,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 8,
+        "limit": 18
+      },
+      "art": {
+        "mode": "stamp",
+        "kneadMoves": 0,
+        "width": 1.22,
+        "height": 1.05,
+        "outline": [
+          0.971,
+          1.03,
+          0.97,
+          1.03,
+          0.971,
+          1.027,
+          0.975,
+          1.023,
+          0.98,
+          1.017,
+          0.987,
+          1.009,
+          0.995,
+          1.001,
+          1.004,
+          0.992,
+          1.012,
+          0.984,
+          1.019,
+          0.978,
+          1.025,
+          0.973,
+          1.029,
+          0.97,
+          1.03,
+          0.97,
+          1.029,
+          0.972
+        ],
+        "stamps": 3,
+        "totalStamps": 6,
+        "fermentation": 0,
+        "targetFermentation": 0,
+        "crust": 0,
+        "queue": 4,
+        "queueRecipes": [
+          {
+            "id": 1,
+            "width": 1.1,
+            "height": 1.05,
+            "crust": 1,
+            "stamps": 3,
+            "ferment": 0.28
+          },
+          {
+            "id": 4,
+            "width": 1.1,
+            "height": 0.95,
+            "crust": 2,
+            "stamps": 1,
+            "ferment": 0.39
+          },
+          {
+            "id": 3,
+            "width": 0.98,
+            "height": 1.05,
+            "crust": 1,
+            "stamps": 1,
+            "ferment": 0.27
+          },
+          {
+            "id": 2,
+            "width": 1.22,
+            "height": 0.95,
+            "crust": 0,
+            "stamps": 1,
+            "ferment": 0.15
+          }
+        ],
+        "joined": 1,
+        "direction": -1,
+        "turns": 1
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "08-jelly-post",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/08-jelly-post/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "f96e690d18c4e362c5511a68667868d61e709f7e54de7ed39f62bf25dd6132f9",
+    "sourceMatches": true,
+    "qa": {
+      "title": "果冻邮差",
+      "elapsed": 1.2,
+      "wallSeconds": 1.2,
+      "trusted": 12,
+      "downs": 6,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 83,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.023786049343233796,
+        "fx": 0.025343792851511407,
+        "out": 0.022926441245318094,
+        "musicPeak": 0.042003885787180235,
+        "fxPeak": 0.032303609208666484,
+        "outPeak": 0.030231613611946175,
+        "musicCount": 3,
+        "fxCount": 10,
+        "activeVoices": 7,
+        "connectedNodes": 20,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "route",
+        "belly": 1,
+        "bellyStamps": [
+          1
+        ],
+        "trayStamps": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "selectedStamp": 1,
+        "stampEdits": 1,
+        "legs": [
+          1,
+          1
+        ],
+        "legPulls": 0,
+        "boxes": [
+          {
+            "x": 0.79,
+            "y": 0.27,
+            "stamp": 0,
+            "delivered": 0
+          },
+          {
+            "x": 0.82,
+            "y": 0.62,
+            "stamp": 1,
+            "delivered": 0
+          },
+          {
+            "x": 0.29,
+            "y": 0.75,
+            "stamp": 2,
+            "delivered": 0
+          }
+        ],
+        "movedBoxes": 0,
+        "route": [],
+        "routeEdits": 0,
+        "routeIndex": 0,
+        "running": false,
+        "totalFed": 1,
+        "totalDelivered": 0,
+        "position": {
+          "x": 0.47,
+          "y": 0.42
+        },
+        "receiptCount": 0
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "果冻邮差",
+      "elapsed": 1.6,
+      "wallSeconds": 1.6,
+      "trusted": 14,
+      "downs": 7,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 83,
+      "maxFrameMs": 27,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.042003885787180235,
+        "fxPeak": 0.032303609208666484,
+        "outPeak": 0.030231613611946175,
+        "musicCount": 3,
+        "fxCount": 10,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "route",
+        "belly": 1,
+        "bellyStamps": [
+          1
+        ],
+        "trayStamps": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "selectedStamp": 1,
+        "stampEdits": 1,
+        "legs": [
+          1,
+          1
+        ],
+        "legPulls": 0,
+        "boxes": [
+          {
+            "x": 0.79,
+            "y": 0.27,
+            "stamp": 0,
+            "delivered": 0
+          },
+          {
+            "x": 0.82,
+            "y": 0.62,
+            "stamp": 1,
+            "delivered": 0
+          },
+          {
+            "x": 0.29,
+            "y": 0.75,
+            "stamp": 2,
+            "delivered": 0
+          }
+        ],
+        "movedBoxes": 0,
+        "route": [],
+        "routeEdits": 0,
+        "routeIndex": 0,
+        "running": false,
+        "totalFed": 1,
+        "totalDelivered": 0,
+        "position": {
+          "x": 0.47,
+          "y": 0.42
+        },
+        "receiptCount": 0
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "06-patchwork-village",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/06-patchwork-village/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "f2a39ca861d233b00836f2b197ba7bdfef45bbc5558f4f8ca96a9ba39866e8fc",
+    "sourceMatches": true,
+    "qa": {
+      "title": "织袋小镇",
+      "elapsed": 1.9,
+      "wallSeconds": 1.9,
+      "trusted": 11,
+      "downs": 5,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 83,
+      "maxFrameMs": 27,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.00489928893865511,
+        "fx": 0.002782826729402325,
+        "out": 0.003780127179000223,
+        "musicPeak": 0.0363154269901087,
+        "fxPeak": 0.039076758001255006,
+        "outPeak": 0.02872231806455171,
+        "musicCount": 3,
+        "fxCount": 11,
+        "activeVoices": 4,
+        "connectedNodes": 14,
+        "suspended": false,
+        "maxVoices": 6,
+        "limit": 18
+      },
+      "art": {
+        "houses": 4,
+        "clotheslines": 2,
+        "hangingCloths": 7,
+        "roofStitches": 1,
+        "finishedRoofs": 0,
+        "selectedRoof": 0.76,
+        "selectedPuff": 0.74,
+        "moveEdits": 0,
+        "added": 1,
+        "wind": true,
+        "selected": 1,
+        "mode": "move",
+        "positions": [
+          [
+            0.25,
+            0.66
+          ],
+          [
+            0.51,
+            0.62
+          ],
+          [
+            0.78,
+            0.65
+          ],
+          [
+            0.3,
+            0.73
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "织袋小镇",
+      "elapsed": 2.6,
+      "wallSeconds": 2.6,
+      "trusted": 14,
+      "downs": 7,
+      "moves": 0,
+      "actions": 6,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 82,
+      "maxFrameMs": 34,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.0363154269901087,
+        "fxPeak": 0.039076758001255006,
+        "outPeak": 0.02872231806455171,
+        "musicCount": 3,
+        "fxCount": 12,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 6,
+        "limit": 18
+      },
+      "art": {
+        "houses": 4,
+        "clotheslines": 2,
+        "hangingCloths": 7,
+        "roofStitches": 1,
+        "finishedRoofs": 0,
+        "selectedRoof": 0.76,
+        "selectedPuff": 0.74,
+        "moveEdits": 0,
+        "added": 1,
+        "wind": true,
+        "selected": 1,
+        "mode": "move",
+        "positions": [
+          [
+            0.25,
+            0.66
+          ],
+          [
+            0.51,
+            0.62
+          ],
+          [
+            0.78,
+            0.65
+          ],
+          [
+            0.3,
+            0.73
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "09-sardine-salon",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/09-sardine-salon/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "8b1d82e4d29d5f129ad1649494f90ca527175d9ee7607ab3406d7cc380bf8699",
+    "sourceMatches": true,
+    "qa": {
+      "title": "沙丁鱼理发铺",
+      "elapsed": 1.1,
+      "wallSeconds": 1.1,
+      "trusted": 10,
+      "downs": 5,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 81,
+      "maxFrameMs": 27,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.030735587734982403,
+        "fx": 0.017161672965483692,
+        "out": 0.022583364968125942,
+        "musicPeak": 0.03433147001735115,
+        "fxPeak": 0.030379889430676234,
+        "outPeak": 0.030620020760911443,
+        "musicCount": 3,
+        "fxCount": 7,
+        "activeVoices": 8,
+        "connectedNodes": 22,
+        "suspended": false,
+        "maxVoices": 8,
+        "limit": 18
+      },
+      "art": {
+        "tool": "rollers",
+        "customersServed": 1,
+        "snips": 0,
+        "combMoves": 0,
+        "rollerChanges": 0,
+        "photoMode": false,
+        "currentId": 1,
+        "currentEdits": 0,
+        "fin": [
+          {
+            "height": 67.41,
+            "lean": 13.23,
+            "curl": false
+          },
+          {
+            "height": 89.03,
+            "lean": 7.4,
+            "curl": false
+          },
+          {
+            "height": 57.06,
+            "lean": 4.27,
+            "curl": false
+          },
+          {
+            "height": 66.89,
+            "lean": 9.69,
+            "curl": false
+          },
+          {
+            "height": 76.15,
+            "lean": 14.77,
+            "curl": false
+          },
+          {
+            "height": 95.34,
+            "lean": 8.35,
+            "curl": false
+          },
+          {
+            "height": 81.26,
+            "lean": -4.52,
+            "curl": false
+          },
+          {
+            "height": 89.83,
+            "lean": 2.82,
+            "curl": false
+          },
+          {
+            "height": 65.74,
+            "lean": 14.4,
+            "curl": false
+          },
+          {
+            "height": 62.19,
+            "lean": -0.99,
+            "curl": false
+          },
+          {
+            "height": 53.62,
+            "lean": 12.35,
+            "curl": false
+          },
+          {
+            "height": 42.43,
+            "lean": -11.19,
+            "curl": false
+          },
+          {
+            "height": 64.32,
+            "lean": -3.22,
+            "curl": false
+          },
+          {
+            "height": 74.86,
+            "lean": 4.33,
+            "curl": false
+          },
+          {
+            "height": 69.46,
+            "lean": -13.97,
+            "curl": false
+          }
+        ],
+        "beardLengths": [
+          75.77,
+          75.31,
+          56.88,
+          76.28,
+          59.51,
+          62.1,
+          71.9,
+          67.42
+        ],
+        "portraits": [
+          {
+            "id": 0,
+            "edits": 0,
+            "fin": [
+              {
+                "height": 63.68,
+                "lean": 4.74,
+                "curl": false
+              },
+              {
+                "height": 77.97,
+                "lean": 3.42,
+                "curl": false
+              },
+              {
+                "height": 70.76,
+                "lean": 0.6,
+                "curl": false
+              },
+              {
+                "height": 46.24,
+                "lean": 9.23,
+                "curl": false
+              },
+              {
+                "height": 48.33,
+                "lean": -13.27,
+                "curl": false
+              },
+              {
+                "height": 92.45,
+                "lean": 7.52,
+                "curl": false
+              },
+              {
+                "height": 93.99,
+                "lean": 12.17,
+                "curl": false
+              },
+              {
+                "height": 83.4,
+                "lean": 2.57,
+                "curl": false
+              },
+              {
+                "height": 75.02,
+                "lean": 3.26,
+                "curl": false
+              },
+              {
+                "height": 89.82,
+                "lean": -13.49,
+                "curl": false
+              },
+              {
+                "height": 68.86,
+                "lean": 11.11,
+                "curl": false
+              },
+              {
+                "height": 65.51,
+                "lean": -7.2,
+                "curl": false
+              },
+              {
+                "height": 82,
+                "lean": 5.72,
+                "curl": false
+              },
+              {
+                "height": 71.06,
+                "lean": -9.72,
+                "curl": false
+              },
+              {
+                "height": 57.25,
+                "lean": 1.17,
+                "curl": false
+              }
+            ],
+            "beardLengths": [
+              70.15,
+              65.39,
+              69.57,
+              75.76,
+              64.2,
+              56.1,
+              66.87,
+              57.12
+            ]
+          }
+        ],
+        "particleCount": 0
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "沙丁鱼理发铺",
+      "elapsed": 1.5,
+      "wallSeconds": 1.5,
+      "trusted": 12,
+      "downs": 6,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 80,
+      "maxFrameMs": 27,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.03433147001735115,
+        "fxPeak": 0.030379889430676234,
+        "outPeak": 0.030620020760911443,
+        "musicCount": 3,
+        "fxCount": 7,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 8,
+        "limit": 18
+      },
+      "art": {
+        "tool": "rollers",
+        "customersServed": 1,
+        "snips": 0,
+        "combMoves": 0,
+        "rollerChanges": 0,
+        "photoMode": false,
+        "currentId": 1,
+        "currentEdits": 0,
+        "fin": [
+          {
+            "height": 67.41,
+            "lean": 13.23,
+            "curl": false
+          },
+          {
+            "height": 89.03,
+            "lean": 7.4,
+            "curl": false
+          },
+          {
+            "height": 57.06,
+            "lean": 4.27,
+            "curl": false
+          },
+          {
+            "height": 66.89,
+            "lean": 9.69,
+            "curl": false
+          },
+          {
+            "height": 76.15,
+            "lean": 14.77,
+            "curl": false
+          },
+          {
+            "height": 95.34,
+            "lean": 8.35,
+            "curl": false
+          },
+          {
+            "height": 81.26,
+            "lean": -4.52,
+            "curl": false
+          },
+          {
+            "height": 89.83,
+            "lean": 2.82,
+            "curl": false
+          },
+          {
+            "height": 65.74,
+            "lean": 14.4,
+            "curl": false
+          },
+          {
+            "height": 62.19,
+            "lean": -0.99,
+            "curl": false
+          },
+          {
+            "height": 53.62,
+            "lean": 12.35,
+            "curl": false
+          },
+          {
+            "height": 42.43,
+            "lean": -11.19,
+            "curl": false
+          },
+          {
+            "height": 64.32,
+            "lean": -3.22,
+            "curl": false
+          },
+          {
+            "height": 74.86,
+            "lean": 4.33,
+            "curl": false
+          },
+          {
+            "height": 69.46,
+            "lean": -13.97,
+            "curl": false
+          }
+        ],
+        "beardLengths": [
+          75.77,
+          75.31,
+          56.88,
+          76.28,
+          59.51,
+          62.1,
+          71.9,
+          67.42
+        ],
+        "portraits": [
+          {
+            "id": 0,
+            "edits": 0,
+            "fin": [
+              {
+                "height": 63.68,
+                "lean": 4.74,
+                "curl": false
+              },
+              {
+                "height": 77.97,
+                "lean": 3.42,
+                "curl": false
+              },
+              {
+                "height": 70.76,
+                "lean": 0.6,
+                "curl": false
+              },
+              {
+                "height": 46.24,
+                "lean": 9.23,
+                "curl": false
+              },
+              {
+                "height": 48.33,
+                "lean": -13.27,
+                "curl": false
+              },
+              {
+                "height": 92.45,
+                "lean": 7.52,
+                "curl": false
+              },
+              {
+                "height": 93.99,
+                "lean": 12.17,
+                "curl": false
+              },
+              {
+                "height": 83.4,
+                "lean": 2.57,
+                "curl": false
+              },
+              {
+                "height": 75.02,
+                "lean": 3.26,
+                "curl": false
+              },
+              {
+                "height": 89.82,
+                "lean": -13.49,
+                "curl": false
+              },
+              {
+                "height": 68.86,
+                "lean": 11.11,
+                "curl": false
+              },
+              {
+                "height": 65.51,
+                "lean": -7.2,
+                "curl": false
+              },
+              {
+                "height": 82,
+                "lean": 5.72,
+                "curl": false
+              },
+              {
+                "height": 71.06,
+                "lean": -9.72,
+                "curl": false
+              },
+              {
+                "height": 57.25,
+                "lean": 1.17,
+                "curl": false
+              }
+            ],
+            "beardLengths": [
+              70.15,
+              65.39,
+              69.57,
+              75.76,
+              64.2,
+              56.1,
+              66.87,
+              57.12
+            ]
+          }
+        ],
+        "particleCount": 0
+      },
+      "errors": []
+    },
+    "pass": true
+  },
+  {
+    "slug": "10-cloud-tailor",
+    "requests": [
+      "file:///Users/tao/Documents/Codex/2026-10-04/task-3/batch07-offline/10-cloud-tailor/index.html?qa"
+    ],
+    "errors": [],
+    "htmlSHA": "bcb3f7ad4ec64493be1133bb280cd6653a6e76bef2ecd6e3b3960aef441a8210",
+    "sourceMatches": true,
+    "qa": {
+      "title": "云被裁缝",
+      "elapsed": 1.1,
+      "wallSeconds": 1.1,
+      "trusted": 10,
+      "downs": 5,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 82,
+      "maxFrameMs": 27,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.0017828934020917894,
+        "fx": 0.04575372965320746,
+        "out": 0.031543618886428836,
+        "musicPeak": 0.030110308834609724,
+        "fxPeak": 0.04575372965320746,
+        "outPeak": 0.031543618886428836,
+        "musicCount": 1,
+        "fxCount": 8,
+        "activeVoices": 6,
+        "connectedNodes": 18,
+        "suspended": false,
+        "maxVoices": 6,
+        "limit": 18
+      },
+      "art": {
+        "tool": "sew",
+        "moonPatches": 1,
+        "totalMoonsPlaced": 1,
+        "openHoles": 1,
+        "holesMade": 1,
+        "repairs": 0,
+        "looseStitches": 0,
+        "folds": 1,
+        "foldMode": 1,
+        "pullMoves": 0,
+        "starsEmitted": 6,
+        "liveStars": 6,
+        "patches": [
+          {
+            "u": 0.5111,
+            "v": 0,
+            "x": 494.92,
+            "y": 352.77,
+            "rotation": -0.3
+          }
+        ],
+        "holes": [
+          {
+            "u": 0.5111,
+            "v": 0,
+            "x": 494.92,
+            "y": 352.77,
+            "progress": 0.52,
+            "closed": false
+          }
+        ],
+        "deformation": 2908.52,
+        "nodeCount": 66
+      },
+      "errors": []
+    },
+    "changed": true,
+    "muted": {
+      "title": "云被裁缝",
+      "elapsed": 1.5,
+      "wallSeconds": 1.5,
+      "trusted": 12,
+      "downs": 6,
+      "moves": 0,
+      "actions": 5,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 80,
+      "maxFrameMs": 27,
+      "muted": true,
+      "audioState": "running",
+      "audio": {
+        "music": 0,
+        "fx": 0,
+        "out": 0,
+        "musicPeak": 0.03131024235482731,
+        "fxPeak": 0.04575372965320746,
+        "outPeak": 0.031543618886428836,
+        "musicCount": 2,
+        "fxCount": 8,
+        "activeVoices": 0,
+        "connectedNodes": 6,
+        "suspended": false,
+        "maxVoices": 6,
+        "limit": 18
+      },
+      "art": {
+        "tool": "sew",
+        "moonPatches": 1,
+        "totalMoonsPlaced": 1,
+        "openHoles": 1,
+        "holesMade": 1,
+        "repairs": 0,
+        "looseStitches": 0,
+        "folds": 1,
+        "foldMode": 1,
+        "pullMoves": 0,
+        "starsEmitted": 7,
+        "liveStars": 7,
+        "patches": [
+          {
+            "u": 0.5111,
+            "v": 0,
+            "x": 494.92,
+            "y": 352.77,
+            "rotation": -0.3
+          }
+        ],
+        "holes": [
+          {
+            "u": 0.5111,
+            "v": 0,
+            "x": 494.92,
+            "y": 352.77,
+            "progress": 0.78,
+            "closed": false
+          }
+        ],
+        "deformation": 2908.52,
+        "nodeCount": 66
+      },
+      "errors": []
+    },
+    "pass": true
+  }
+]

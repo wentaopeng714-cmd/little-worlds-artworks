@@ -1,0 +1,1773 @@
+[
+  {
+    "number": 1,
+    "slug": "01-moon-moth",
+    "source": "assets-fiber/01-moon-moth.js",
+    "title": "绒羽月蛾",
+    "description": "牵针塑出四片独立绒翅，压粉眼斑、折翅，再留下多只月蛾。",
+    "palette": {
+      "bg": "#14282d",
+      "ink": "#dfddba",
+      "accent": "#a7c1a3"
+    },
+    "tools": [
+      {
+        "id": "needle",
+        "label": "牵针塑翅"
+      },
+      {
+        "id": "powder",
+        "label": "压粉眼斑"
+      },
+      {
+        "id": "fold",
+        "label": "折叠翅瓣"
+      },
+      {
+        "id": "mount",
+        "label": "留蛾入册"
+      },
+      {
+        "id": "tint",
+        "label": "换绒染色"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "number": 1,
+      "slug": "01-moon-moth",
+      "title": "绒羽月蛾",
+      "description": "牵针塑出四片独立绒翅，压粉眼斑、折翅，再留下多只月蛾。",
+      "ui": {
+        "bg": "#14282d",
+        "ink": "#dfddba",
+        "accent": "#a7c1a3"
+      },
+      "controls": [
+        {
+          "id": "needle",
+          "label": "牵针塑翅"
+        },
+        {
+          "id": "powder",
+          "label": "压粉眼斑"
+        },
+        {
+          "id": "fold",
+          "label": "折叠翅瓣"
+        },
+        {
+          "id": "mount",
+          "label": "留蛾入册"
+        },
+        {
+          "id": "tint",
+          "label": "换绒染色"
+        }
+      ],
+      "newMechanics": [
+        "四翼独立持久形变",
+        "附着粉眼斑随折翅缩放",
+        "独立折量与再次展开",
+        "最多六只保存造形的标本组合"
+      ],
+      "artDirection": [
+        "墨青夜色标本板与四瓣宽翅",
+        "5600根短绒及内外层纹",
+        "栉状触角、粉眼与克制染色"
+      ],
+      "testPlan": [
+        {
+          "control": "needle",
+          "from": [
+            0.18,
+            0.22
+          ],
+          "to": [
+            0.11,
+            0.16
+          ]
+        },
+        {
+          "control": "powder",
+          "from": [
+            0.33,
+            0.34
+          ],
+          "to": [
+            0.33,
+            0.34
+          ]
+        },
+        {
+          "control": "fold",
+          "from": [
+            0.68,
+            0.34
+          ],
+          "to": [
+            0.68,
+            0.34
+          ]
+        },
+        {
+          "control": "mount",
+          "buttonOnly": true
+        }
+      ],
+      "stateFields": {
+        "pulls": "拖针后>0",
+        "powderMarks": "压粉后增加",
+        "foldedWings": "点折后增加",
+        "moths": "留存后2，最大6",
+        "mounts": "留存后1以上"
+      },
+      "file": "01-moon-moth.js",
+      "references": [
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/20-fiber-snowcrystals/母本与新作对照.jpg",
+          "inspectedPixels": true
+        },
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/21-embroidered-fireflowers/母本与新作对照.jpg",
+          "inspectedPixels": true
+        },
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/22-metal-ripple-curtain/母本与新作对照.jpg",
+          "inspectedPixels": true
+        }
+      ],
+      "license": "本次独立自绘Canvas，无复制外部资产；所观察的既有本地对照图只供授权参考，不主张其许可状态。",
+      "qa": {
+        "syntax": "passed",
+        "nodeRender": "passed",
+        "nodeStateAssertions": "passed",
+        "resizeStatePreserved": "passed",
+        "cleanReset": "passed",
+        "browser": "passed_20_total_cases",
+        "touchHardware": "not_run",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "humanListening": "not_run"
+      },
+      "canonicalArtboard": [
+        1000,
+        740
+      ],
+      "testPlanCoordinates": "归一化坐标基于1000×740画板；其他比例需用等比居中映射。"
+    },
+    "html_sha256": "114a966b78f2cec3226bf7f916f308d9988b68f56ddc64de1880d7258534ec3b",
+    "html_bytes": 22145,
+    "zip_sha256": "944e066f66412801db162b7eb9963e0ae78e322111f0302554e2deca4574bb9e",
+    "zip_bytes": 15276
+  },
+  {
+    "number": 2,
+    "slug": "02-velvet-menagerie",
+    "source": "assets-fiber/02-velvet-menagerie.js",
+    "title": "绒毯兽园",
+    "description": "剪绒、梳卷、接回异色绒，再压下一枚真正凹下的脚印。",
+    "palette": {
+      "bg": "#eadfcb",
+      "ink": "#5b5147",
+      "accent": "#a17076"
+    },
+    "tools": [
+      {
+        "id": "shear",
+        "label": "剪短绒面"
+      },
+      {
+        "id": "comb",
+        "label": "梳出旋卷"
+      },
+      {
+        "id": "graft",
+        "label": "接绒生长"
+      },
+      {
+        "id": "print",
+        "label": "压下脚印"
+      },
+      {
+        "id": "colour",
+        "label": "换接绒色"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "number": 2,
+      "slug": "02-velvet-menagerie",
+      "title": "绒毯兽园",
+      "description": "剪绒、梳卷、接回异色绒，再压下一枚真正凹下的脚印。",
+      "ui": {
+        "bg": "#eadfcb",
+        "ink": "#5b5147",
+        "accent": "#a17076"
+      },
+      "controls": [
+        {
+          "id": "shear",
+          "label": "剪短绒面"
+        },
+        {
+          "id": "comb",
+          "label": "梳出旋卷"
+        },
+        {
+          "id": "graft",
+          "label": "接绒生长"
+        },
+        {
+          "id": "print",
+          "label": "压下脚印"
+        },
+        {
+          "id": "colour",
+          "label": "换接绒色"
+        }
+      ],
+      "newMechanics": [
+        "13800根毛的持久绒长修改",
+        "局部方向场梳旋",
+        "异色补绒可扩展轮廓",
+        "压印实际改变绒長和方向"
+      ],
+      "artDirection": [
+        "亚麻底与赭、兰紫、青绿毛兽",
+        "暗根本色高光三层纤维",
+        "小比例手绣五官与低反差落影"
+      ],
+      "testPlan": [
+        {
+          "control": "shear",
+          "from": [
+            0.18,
+            0.54
+          ],
+          "to": [
+            0.35,
+            0.6
+          ]
+        },
+        {
+          "control": "comb",
+          "from": [
+            0.5,
+            0.45
+          ],
+          "to": [
+            0.58,
+            0.64
+          ]
+        },
+        {
+          "control": "colour",
+          "buttonOnly": true
+        },
+        {
+          "control": "graft",
+          "from": [
+            0.23,
+            0.5
+          ],
+          "to": [
+            0.3,
+            0.54
+          ]
+        },
+        {
+          "control": "print",
+          "from": [
+            0.78,
+            0.6
+          ],
+          "to": [
+            0.78,
+            0.6
+          ]
+        }
+      ],
+      "stateFields": {
+        "averagePile": "剪绒后减少",
+        "cutTufts": "剪绒后增加",
+        "grafts": "接绒后增加",
+        "combs": "梳卷后增加",
+        "footprints": "压印后增加",
+        "tufts": "接绒后增加，最大18600"
+      },
+      "file": "02-velvet-menagerie.js",
+      "references": [
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/20-fiber-snowcrystals/母本与新作对照.jpg",
+          "inspectedPixels": true
+        },
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/21-embroidered-fireflowers/母本与新作对照.jpg",
+          "inspectedPixels": true
+        },
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/22-metal-ripple-curtain/母本与新作对照.jpg",
+          "inspectedPixels": true
+        }
+      ],
+      "license": "本次独立自绘Canvas，无复制外部资产；所观察的既有本地对照图只供授权参考，不主张其许可状态。",
+      "qa": {
+        "syntax": "passed",
+        "nodeRender": "passed",
+        "nodeStateAssertions": "passed",
+        "resizeStatePreserved": "passed",
+        "cleanReset": "passed",
+        "browser": "passed_20_total_cases",
+        "touchHardware": "not_run",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "humanListening": "not_run"
+      },
+      "canonicalArtboard": [
+        1000,
+        740
+      ],
+      "testPlanCoordinates": "归一化坐标基于1000×740画板；其他比例需用等比居中映射。"
+    },
+    "html_sha256": "46bcb20e2c9ed1bd8b7aa2986e08a14142a0e46f238ea996d88db2d4be44ebb1",
+    "html_bytes": 21271,
+    "zip_sha256": "95a18c5a5c646e3cbad259b47c7ff431bd79eab26551ac446174a1e80f0e9c15",
+    "zip_bytes": 15089
+  },
+  {
+    "number": 3,
+    "slug": "03-honey-constellation",
+    "source": "assets-fiber/03-honey-constellation.js",
+    "title": "蜜糖星巢",
+    "description": "拉起透明蜜丝架桥，在桥边点滴结晶，切开后再旋转整块蜂巢。",
+    "palette": {
+      "bg": "#231f20",
+      "ink": "#e8c99a",
+      "accent": "#dba447"
+    },
+    "tools": [
+      {
+        "id": "bridge",
+        "label": "拉蜜丝架桥"
+      },
+      {
+        "id": "drop",
+        "label": "点滴结晶"
+      },
+      {
+        "id": "cut",
+        "label": "切开蜜桥"
+      },
+      {
+        "id": "turn",
+        "label": "转巢编排"
+      },
+      {
+        "id": "amber",
+        "label": "凝成蜜珀"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "number": 3,
+      "slug": "03-honey-constellation",
+      "title": "蜜糖星巢",
+      "description": "拉起透明蜜丝架桥，在桥边点滴结晶，切开后再旋转整块蜂巢。",
+      "ui": {
+        "bg": "#231f20",
+        "ink": "#e8c99a",
+        "accent": "#dba447"
+      },
+      "controls": [
+        {
+          "id": "bridge",
+          "label": "拉蜜丝架桥"
+        },
+        {
+          "id": "drop",
+          "label": "点滴结晶"
+        },
+        {
+          "id": "cut",
+          "label": "切开蜜桥"
+        },
+        {
+          "id": "turn",
+          "label": "转巢编排"
+        },
+        {
+          "id": "amber",
+          "label": "凝成蜜珀"
+        }
+      ],
+      "newMechanics": [
+        "蜂巢局部坐标附着蜜桥",
+        "真正删除蜜桥并留下断蜜滴",
+        "同点累滴生成更大糖晶",
+        "旋转或搬移蜡巢重塑桥形",
+        "凝珀改变厚度与弧垂"
+      ],
+      "artDirection": [
+        "216个有折射壁与液面的琥珀蜡腔",
+        "四块偏心蜂巢与22股透明黏丝束",
+        "重力蜜滴及内部糖晶"
+      ],
+      "testPlan": [
+        {
+          "control": "bridge",
+          "from": [
+            0.28,
+            0.31
+          ],
+          "to": [
+            0.81,
+            0.715
+          ]
+        },
+        {
+          "control": "drop",
+          "from": [
+            0.5,
+            0.4
+          ],
+          "to": [
+            0.5,
+            0.4
+          ]
+        },
+        {
+          "control": "cut",
+          "from": [
+            0.42,
+            0.36
+          ],
+          "to": [
+            0.62,
+            0.44
+          ]
+        },
+        {
+          "control": "turn",
+          "from": [
+            0.28,
+            0.31
+          ],
+          "to": [
+            0.22,
+            0.36
+          ]
+        },
+        {
+          "control": "amber",
+          "buttonOnly": true
+        }
+      ],
+      "stateFields": {
+        "createdBridges": "跨巢松手后增加",
+        "severedBridges": "切中桥后增加",
+        "drips": "点滴后增加",
+        "turns": "转巢后增加",
+        "hardenedBridges": "凝珀后等于现存桥数",
+        "nestPoses": "拖巢后改变"
+      },
+      "file": "03-honey-constellation.js",
+      "references": [
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/20-fiber-snowcrystals/母本与新作对照.jpg",
+          "inspectedPixels": true
+        },
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/21-embroidered-fireflowers/母本与新作对照.jpg",
+          "inspectedPixels": true
+        },
+        {
+          "kind": "authorized_local_comparison",
+          "path": "../dist/batch06/22-metal-ripple-curtain/母本与新作对照.jpg",
+          "inspectedPixels": true
+        }
+      ],
+      "license": "本次独立自绘Canvas，无复制外部资产；所观察的既有本地对照图只供授权参考，不主张其许可状态。",
+      "qa": {
+        "syntax": "passed",
+        "nodeRender": "passed",
+        "nodeStateAssertions": "passed",
+        "resizeStatePreserved": "passed",
+        "cleanReset": "passed",
+        "browser": "passed_20_total_cases",
+        "touchHardware": "not_run",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "humanListening": "not_run"
+      },
+      "canonicalArtboard": [
+        1000,
+        740
+      ],
+      "testPlanCoordinates": "归一化坐标基于1000×740画板；其他比例需用等比居中映射。"
+    },
+    "html_sha256": "7467381847e23c819ee607d42154a7febbb368ae0a8a117081dc76b93ad00f38",
+    "html_bytes": 23601,
+    "zip_sha256": "19c7dfc765861281a0dd5155ceacc36f7e390468ffd691b292019ef48084d92c",
+    "zip_bytes": 15946
+  },
+  {
+    "number": 4,
+    "slug": "04-pearl-opera",
+    "source": "assets-paper/04-pearl-opera.js",
+    "title": "珠贝歌剧",
+    "description": "把虹彩贝口牵开、转珍珠，再用细链连接可移动的贝壳歌剧台。",
+    "palette": {
+      "bg": "#142034",
+      "ink": "#efe4d0",
+      "accent": "#e5bcae"
+    },
+    "tools": [
+      {
+        "id": "hinge",
+        "label": "牵开贝口"
+      },
+      {
+        "id": "pearl",
+        "label": "转动珍珠"
+      },
+      {
+        "id": "chain",
+        "label": "系细珠链"
+      },
+      {
+        "id": "stage",
+        "label": "挪动舞台"
+      },
+      {
+        "id": "new",
+        "label": "请一只新贝"
+      },
+      {
+        "id": "choir",
+        "label": "珠贝轮唱"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "number": 4,
+      "slug": "04-pearl-opera",
+      "description": "把虹彩贝口牵开、转珍珠，再用细链连接可移动的贝壳歌剧台。",
+      "newMechanics": [
+        "贝口铰链开量持久编辑，内碗不跟着缩扁",
+        "珍珠旋转改变环形虹彩与贝内位置",
+        "细链记录两贝拓扑，贝壳搬动后链端跟随",
+        "最多6只不同色泽贝壳；轮唱叠加呼吸，不覆盖原造型"
+      ],
+      "artDirection": [
+        "午夜蓝椭圆歌剧台，三只大小错落的双瓣贝",
+        "密径向壳肋、弯曲生长纹、虹彩珍珠与金细链",
+        "上盖、内碗、珍珠独立的遮挡与接触阴影"
+      ],
+      "testPlan": [
+        {
+          "control": "hinge",
+          "from": [
+            0.51,
+            0.53
+          ],
+          "to": [
+            0.51,
+            0.41
+          ]
+        },
+        {
+          "control": "pearl",
+          "from": [
+            0.51,
+            0.53
+          ],
+          "to": [
+            0.59,
+            0.52
+          ]
+        },
+        {
+          "control": "chain",
+          "from": [
+            0.23,
+            0.71
+          ],
+          "to": [
+            0.79,
+            0.72
+          ]
+        },
+        {
+          "control": "stage",
+          "from": [
+            0.51,
+            0.53
+          ],
+          "to": [
+            0.57,
+            0.5
+          ]
+        },
+        {
+          "control": "new",
+          "clickOnly": true
+        },
+        {
+          "control": "choir",
+          "clickOnly": true
+        }
+      ],
+      "stateFields": {
+        "shells": "初始3，添贝最多6",
+        "chains": "初始2；连接两侧贝后3",
+        "opening": "牵贝后0.10–1.00变化",
+        "pearlTurns": "旋珠拖动后增加",
+        "hingeEdits": "牵贝拖动后增加",
+        "choir": "轮唱开关"
+      },
+      "references": [
+        {
+          "title": "Cherub and shell, The Met, 58.115",
+          "url": "https://www.metmuseum.org/art/collection/search/202237",
+          "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/202237/1618605/main-image",
+          "license": "馆藏页标示 Public Domain；只观察，没有嵌入或临摹其人物造型",
+          "observed": "实际看1200×910像素：扇贝宽幅浅槽从顶中收拢，槽边高光与深谷交替；翼纹为弯曲层叠。借用壳肋层次，不用天使主题。"
+        }
+      ],
+      "difference": "不同于13金箔万花扇的平面折纸排阵：主体是有上下瓣、内碗、珍珠、铰链的体积贝壳，只有三只舞台主角，细链是持久连接。",
+      "title": "珠贝歌剧",
+      "subtitle": "虹彩作幕，珍珠开嗓。把三只贝排成一座小歌剧院。",
+      "ui": {
+        "bg": "#142034",
+        "ink": "#efe4d0",
+        "accent": "#e5bcae"
+      },
+      "controls": [
+        {
+          "id": "hinge",
+          "label": "牵开贝口"
+        },
+        {
+          "id": "pearl",
+          "label": "转动珍珠"
+        },
+        {
+          "id": "chain",
+          "label": "系细珠链"
+        },
+        {
+          "id": "stage",
+          "label": "挪动舞台"
+        },
+        {
+          "id": "new",
+          "label": "请一只新贝"
+        },
+        {
+          "id": "choir",
+          "label": "珠贝轮唱"
+        }
+      ],
+      "verification": {
+        "syntax": "node --check passed",
+        "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+        "interaction": "direct ART API simulation, not browser QA",
+        "browser": "not run",
+        "webAudio": "not run"
+      },
+      "playtime": "1–3分钟",
+      "assets": "全部Canvas程序自绘；无外部图片、字体、CDN",
+      "qa": {
+        "browser": "passed_20_total_cases",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "touchHardware": "not_run",
+        "humanListening": "not_run"
+      }
+    },
+    "html_sha256": "e49cfcea55dada36c035b7f5c0be1f17977003ed8df8f67993650e5b08ddec51",
+    "html_bytes": 21069,
+    "zip_sha256": "d6d983a5ec1b926057eb1830de0527cb515c98a66f346679a54405288915680a",
+    "zip_bytes": 15390
+  },
+  {
+    "number": 5,
+    "slug": "05-paper-dragon",
+    "source": "assets-paper/05-paper-dragon.js",
+    "title": "纸骨游龙",
+    "description": "牵铜钉重排厚纸龙骨，剪月牙孔、接新骨、翻背翼，最后盘成可起舞的龙环。",
+    "palette": {
+      "bg": "#ede4cf",
+      "ink": "#7e3836",
+      "accent": "#b84440"
+    },
+    "tools": [
+      {
+        "id": "joint",
+        "label": "牵纸骨"
+      },
+      {
+        "id": "cut",
+        "label": "剪月牙孔"
+      },
+      {
+        "id": "add",
+        "label": "接一节新骨"
+      },
+      {
+        "id": "flip",
+        "label": "翻背翼"
+      },
+      {
+        "id": "coil",
+        "label": "盘成龙环"
+      },
+      {
+        "id": "dance",
+        "label": "起舞 / 停驻"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "number": 5,
+      "slug": "05-paper-dragon",
+      "description": "牵铜钉重排厚纸龙骨，剪月牙孔、接新骨、翻背翼，最后盘成可起舞的龙环。",
+      "newMechanics": [
+        "12节独立关节位置，邻节随牵动部分位移",
+        "每节最多8个持久镂空孔，由evenodd纸片真实留空",
+        "接体节最多18节，剪孔与背面色随节保留",
+        "盘龙环可重排全部关节；起舞仅叠加动态，不抹除造形"
+      ],
+      "artDirection": [
+        "朱砂剪纸龙与淡青云线，米色裱纸双框",
+        "双层厚纸切边、背鳍锯齿、角须眼和纸爪",
+        "月牙孔、菱孔、铜钉与薄金线的密度反差"
+      ],
+      "testPlan": [
+        {
+          "control": "joint",
+          "from": [
+            0.69,
+            0.57
+          ],
+          "to": [
+            0.65,
+            0.48
+          ]
+        },
+        {
+          "control": "cut",
+          "from": [
+            0.54,
+            0.56
+          ],
+          "to": [
+            0.54,
+            0.56
+          ]
+        },
+        {
+          "control": "flip",
+          "from": [
+            0.4,
+            0.51
+          ],
+          "to": [
+            0.4,
+            0.51
+          ]
+        },
+        {
+          "control": "add",
+          "clickOnly": true
+        },
+        {
+          "control": "coil",
+          "clickOnly": true
+        },
+        {
+          "control": "dance",
+          "clickOnly": true
+        }
+      ],
+      "stateFields": {
+        "segments": "初始12，接骨最多18",
+        "cuts": "点身体后增加",
+        "flipped": "翻节后增加或减少",
+        "poseEdits": "牵节/盘环后增加",
+        "dancing": "起舞开关"
+      },
+      "references": [
+        {
+          "title": "Chinese Papercuts: Myths and Folklore, c.1930，Peter Harrington Catalogue 192，第25页",
+          "url": "https://aba.org.uk/assets/catalogues/Cat_192_final_SPS.pdf",
+          "license": "目录摄影版权未核实；仅研究观察，不附入成品，不复制轮廓",
+          "observed": "下载原PDF并渲染第27个PDF页，实际看到黑纸龙在狭长构图中三次盘折，背部连续尖鳍、内部短叶镂孔、头部角须与爪。新作用朱砂厚纸铰接节及独立绘制轮廓，未复制原图。"
+        }
+      ],
+      "difference": "不同于34纸蛇拉面机的黄色矩形票链和机器/汤碗场景：这里是完整有角、须、背鳍与爪的剪纸龙，操作是关节编排、实孔裁切、背翼翻色与龙环姿态。",
+      "title": "纸骨游龙",
+      "subtitle": "一条朱砂纸龙，骨节能牵，背翼能翻，空洞也会呼吸。",
+      "ui": {
+        "bg": "#ede4cf",
+        "ink": "#7e3836",
+        "accent": "#b84440"
+      },
+      "controls": [
+        {
+          "id": "joint",
+          "label": "牵纸骨"
+        },
+        {
+          "id": "cut",
+          "label": "剪月牙孔"
+        },
+        {
+          "id": "add",
+          "label": "接一节新骨"
+        },
+        {
+          "id": "flip",
+          "label": "翻背翼"
+        },
+        {
+          "id": "coil",
+          "label": "盘成龙环"
+        },
+        {
+          "id": "dance",
+          "label": "起舞 / 停驻"
+        }
+      ],
+      "verification": {
+        "syntax": "node --check passed",
+        "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+        "interaction": "direct ART API simulation, not browser QA",
+        "browser": "not run",
+        "webAudio": "not run"
+      },
+      "playtime": "1–3分钟",
+      "assets": "全部Canvas程序自绘；无外部图片、字体、CDN",
+      "qa": {
+        "browser": "passed_20_total_cases",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "touchHardware": "not_run",
+        "humanListening": "not_run"
+      }
+    },
+    "html_sha256": "bbb2ece6438b682a6140506279363425ca68171f73b2f7cec89549466069fb8b",
+    "html_bytes": 22542,
+    "zip_sha256": "bf4f91f5f6a5ebb4313a4b7864040446e83ee2734e8359dae7c82e87d9366adf",
+    "zip_bytes": 15714
+  },
+  {
+    "number": 6,
+    "slug": "06-patchwork-village",
+    "source": "assets-paper/06-patchwork-village.js",
+    "title": "织袋小镇",
+    "description": "给拼布袋房屋缝屋顶、提起鼓肚，移动布屋，再用晾衣绳把花布街道连起来。",
+    "palette": {
+      "bg": "#e9ddc5",
+      "ink": "#556553",
+      "accent": "#b8694f"
+    },
+    "tools": [
+      {
+        "id": "sew",
+        "label": "缝上软屋顶"
+      },
+      {
+        "id": "puff",
+        "label": "提起鼓布袋"
+      },
+      {
+        "id": "line",
+        "label": "牵晾布绳"
+      },
+      {
+        "id": "move",
+        "label": "搬动布屋"
+      },
+      {
+        "id": "new",
+        "label": "添一间小屋"
+      },
+      {
+        "id": "wind",
+        "label": "吹一阵暖风"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "number": 6,
+      "slug": "06-patchwork-village",
+      "description": "给拼布袋房屋缝屋顶、提起鼓肚，移动布屋，再用晾衣绳把花布街道连起来。",
+      "newMechanics": [
+        "缝合进度决定软屋顶的线迹与松垂量",
+        "布袋鼓度改变建筑主体侧面曲率，状态保持",
+        "晾布绳以房屋为端点，搬屋后拓扑与布片数量保留",
+        "最多7间各有颜色和补片的屋；暖风只推动已晾布片"
+      ],
+      "artDirection": [
+        "奶油亚麻底、浅绿绗缝丘陵与纽扣太阳",
+        "三间圆鼓布屋，不等形余布、针脚和门窗口袋",
+        "织纹经纬、格纹斜纹与十字小绣，曲边缝线层层可见"
+      ],
+      "testPlan": [
+        {
+          "control": "sew",
+          "from": [
+            0.51,
+            0.5
+          ],
+          "to": [
+            0.64,
+            0.5
+          ]
+        },
+        {
+          "control": "puff",
+          "from": [
+            0.51,
+            0.62
+          ],
+          "to": [
+            0.51,
+            0.48
+          ]
+        },
+        {
+          "control": "line",
+          "from": [
+            0.25,
+            0.66
+          ],
+          "to": [
+            0.78,
+            0.65
+          ]
+        },
+        {
+          "control": "move",
+          "from": [
+            0.51,
+            0.62
+          ],
+          "to": [
+            0.56,
+            0.56
+          ]
+        },
+        {
+          "control": "new",
+          "clickOnly": true
+        },
+        {
+          "control": "wind",
+          "clickOnly": true
+        }
+      ],
+      "stateFields": {
+        "houses": "初始3，添屋最多7",
+        "clotheslines": "初始2，连两侧屋后3",
+        "roofStitches": "走针后增长",
+        "selectedRoof": "所选屋缝合进度0–1",
+        "selectedPuff": "所选屋鼓度0.08–1.25",
+        "hangingCloths": "由实际晾绳布片求和",
+        "wind": "暖风开关"
+      },
+      "references": [
+        {
+          "title": "V&A An introduction to quilting and patchwork；Bed cover, England, 1860–1870, T.427-1980",
+          "url": "https://www.vam.ac.uk/articles/an-introduction-to-quilting-and-patchwork",
+          "image": "https://vanda-production-assets.s3.amazonaws.com/2017/08/16/13/56/16/6d97ff17-13e2-4469-8489-519005f37031/patchwork-cover.jpg",
+          "license": "© Victoria and Albert Museum, London；只观察，不嵌入或重制馆藏图",
+          "observed": "实际查看320×390馆藏像素：深底上短面料片用明暗组成密集小立方体，各片本身有碎花与条纹；观察到色块与织纹的两层尺度。本作以软袋建筑及不规则大补片代替原作规则立方重复。"
+        }
+      ],
+      "difference": "不同于14折锦、18拼色折幕的几何纸片和21绣球礼焰的放射珠线：这里是带窗门、屋顶、布袋鼓肚的具体软建筑，缝合、鼓布和晾衣拓扑共同构成街景。",
+      "title": "织袋小镇",
+      "subtitle": "把余布缝成房子，鼓起口袋，再拉一条晒着花布的街。",
+      "ui": {
+        "bg": "#e9ddc5",
+        "ink": "#556553",
+        "accent": "#b8694f"
+      },
+      "controls": [
+        {
+          "id": "sew",
+          "label": "缝上软屋顶"
+        },
+        {
+          "id": "puff",
+          "label": "提起鼓布袋"
+        },
+        {
+          "id": "line",
+          "label": "牵晾布绳"
+        },
+        {
+          "id": "move",
+          "label": "搬动布屋"
+        },
+        {
+          "id": "new",
+          "label": "添一间小屋"
+        },
+        {
+          "id": "wind",
+          "label": "吹一阵暖风"
+        }
+      ],
+      "verification": {
+        "syntax": "node --check passed",
+        "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+        "interaction": "direct ART API simulation, not browser QA",
+        "browser": "not run",
+        "webAudio": "not run"
+      },
+      "playtime": "1–3分钟",
+      "assets": "全部Canvas程序自绘；无外部图片、字体、CDN",
+      "qa": {
+        "browser": "passed_20_total_cases",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "touchHardware": "not_run",
+        "humanListening": "not_run"
+      }
+    },
+    "html_sha256": "f2a39ca861d233b00836f2b197ba7bdfef45bbc5558f4f8ca96a9ba39866e8fc",
+    "html_bytes": 24312,
+    "zip_sha256": "f296b129c5897a4390935bc0b97df4f0addef141e085ff9c0874166ce01d2739",
+    "zip_bytes": 16795
+  },
+  {
+    "number": 7,
+    "slug": "07-bread-parade",
+    "source": "assets-characters/07-bread-parade.js",
+    "title": "面包蓬蓬巡游",
+    "description": "把手感捏进面包，让每一种体型走出不同的步子",
+    "palette": {
+      "bg": "#f4ead5",
+      "ink": "#203259",
+      "accent": "#e84933"
+    },
+    "tools": [
+      {
+        "id": "knead",
+        "label": "捏面团"
+      },
+      {
+        "id": "stamp",
+        "label": "盖花纹"
+      },
+      {
+        "id": "rise",
+        "label": "发酵"
+      },
+      {
+        "id": "bake",
+        "label": "烤皮"
+      },
+      {
+        "id": "join",
+        "label": "加入巡游"
+      },
+      {
+        "id": "turn",
+        "label": "全队调头"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "slug": "07-bread-parade",
+      "file": "07-bread-parade.js",
+      "number": 7,
+      "title": "面包蓬蓬巡游",
+      "steps": [
+        "捏面团：从中部向右下拖，再捏边缘，让轮廓与宽高一起变化",
+        "盖花纹：点面团盖花瓣、麦穗或波纹，印记留在本地坐标",
+        "发酵两次，观察体积逐渐膨胀；烤皮两次比较软弹和硬脆步态",
+        "加入巡游保存完整配方，再做下一只；全队调头重新编排"
+      ],
+      "referenceUrls": [
+        "https://www.nga.gov/artworks/61452-shirt-front-and-fork",
+        "https://www.tomiungerer.com/posters"
+      ],
+      "observations": [
+        "实际查看Arp《Shirt Front and Fork》像素：灰色厚轮廓、偏置圆点、乳白内区与不对称根形产生低浮雕重量。转化为原创面团的厚片轮廓和套印影。",
+        "实际查看Ungerer《Too Far to Walk》像素：黑色巨腿与横向牌面组成角色；借鉴物体与步态合成叙事的一般思路。"
+      ],
+      "license": "参考图不随程序分发。NGA表示该对象媒体不可下载分发；Ungerer官方Estate保留版权。所有成品图形和材质由Canvas原创自绘。",
+      "historyDifference": "不是胖柑/果汁的单角色发声或面具换饰件，而是轮廓塑形→发酵/烤皮→保存多个队员的制作系统。",
+      "testPlan": [
+        {
+          "action": "knead",
+          "from": [
+            0.5,
+            0.405
+          ],
+          "to": [
+            0.63,
+            0.46
+          ],
+          "expect": "kneadMoves>0，width/height/outline改变"
+        },
+        {
+          "action": "stamp",
+          "clicks": [
+            [
+              0.45,
+              0.35
+            ],
+            [
+              0.55,
+              0.45
+            ]
+          ],
+          "expect": "stamps=2"
+        },
+        {
+          "actions": [
+            "rise",
+            "rise",
+            "bake",
+            "bake"
+          ],
+          "advanceSeconds": 3,
+          "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+        },
+        {
+          "actions": [
+            "join",
+            "turn"
+          ],
+          "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+        }
+      ],
+      "limits": {
+        "queue": 7,
+        "stampsPerBread": 24,
+        "confetti": 64
+      },
+      "stateFields": [
+        "kneadMoves",
+        "width",
+        "height",
+        "outline",
+        "stamps",
+        "fermentation",
+        "targetFermentation",
+        "crust",
+        "queueRecipes",
+        "joined",
+        "direction"
+      ],
+      "instructionsFile": "07-面包蓬蓬巡游-说明.md",
+      "subtitle": "把手感捏进面包，让每一种体型走出不同的步子",
+      "palette": {
+        "bg": "#f4ead5",
+        "ink": "#203259",
+        "accent": "#e84933"
+      },
+      "tools": [
+        {
+          "id": "knead",
+          "label": "捏面团"
+        },
+        {
+          "id": "stamp",
+          "label": "盖花纹"
+        },
+        {
+          "id": "rise",
+          "label": "发酵"
+        },
+        {
+          "id": "bake",
+          "label": "烤皮"
+        },
+        {
+          "id": "join",
+          "label": "加入巡游"
+        },
+        {
+          "id": "turn",
+          "label": "全队调头"
+        }
+      ],
+      "qa": {
+        "browser": "passed_20_total_cases",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "touchHardware": "not_run",
+        "humanListening": "not_run"
+      }
+    },
+    "html_sha256": "4b094b27a58fcee278b8734695ce93d7cb9139e4f6925657a3c29385ff5a0ff3",
+    "html_bytes": 23884,
+    "zip_sha256": "30f847f0af350787dd9860e602ad322312fd5296f05727252a6d7f020238f958",
+    "zip_bytes": 15135
+  },
+  {
+    "number": 8,
+    "slug": "08-jelly-post",
+    "source": "assets-characters/08-jelly-post.js",
+    "title": "果冻邮差",
+    "description": "邮票住进透明肚子，长短腿走出自己编的邮路",
+    "palette": {
+      "bg": "#c3e4d3",
+      "ink": "#193b35",
+      "accent": "#ee593a"
+    },
+    "tools": [
+      {
+        "id": "feed",
+        "label": "吞信"
+      },
+      {
+        "id": "legs",
+        "label": "拉长腿"
+      },
+      {
+        "id": "stamp",
+        "label": "换邮票"
+      },
+      {
+        "id": "box",
+        "label": "搬邮箱"
+      },
+      {
+        "id": "route",
+        "label": "编邮路"
+      },
+      {
+        "id": "deliver",
+        "label": "出发送信"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "slug": "08-jelly-post",
+      "file": "08-jelly-post.js",
+      "number": 8,
+      "title": "果冻邮差",
+      "steps": [
+        "点击左侧信件，或把它们拖进巨嘴；肚子保存每封邮票图案",
+        "换邮票后点信，尝试太阳/波浪/水滴对步频、摇摆与腹围的影响",
+        "拉一长一短的腿；搬动邮箱，连接线随位置改变",
+        "编邮路时按顺序点邮箱；出发送信，查看匹配投递与回执",
+        "路线遗漏某图案时会停下；补入对应邮箱继续送完"
+      ],
+      "referenceUrls": [
+        "https://www.tomiungerer.com/posters",
+        "https://www.metmuseum.org/art/collection/search/483153"
+      ],
+      "observations": [
+        "实际查看Ungerer《Too Far to Walk》像素：巨型折腿、平面牌块和大量留白，转化为原创邮差的长腿剪影。",
+        "实际查看Klee《Ventriloquist and Crier in the Moor》像素：粉色透明身体里住着细线小兽，浅蓝横带穿过腹部。只转译内部小物件构成叙事，未复刻图案。"
+      ],
+      "license": "Ungerer由Estate保留版权；Met标注ARS版权及图片限制。参考图片未嵌入成品，不随包分发。全部角色、邮箱、邮票与颗粒为原创Canvas。",
+      "historyDifference": "与果汁雷客吸饮料/压力值不同，这里有实体库存、带类型的腹中清单、可移动目的地、可编辑路线和匹配交付。",
+      "testPlan": [
+        {
+          "action": "feed",
+          "clicks": [
+            [
+              0.115,
+              0.38
+            ],
+            [
+              0.115,
+              0.495
+            ]
+          ],
+          "from": [
+            0.115,
+            0.61
+          ],
+          "to": [
+            0.47,
+            0.33
+          ],
+          "expect": "belly=3，bellyStamps=[0,1,2]"
+        },
+        {
+          "action": "legs",
+          "from": [
+            0.43,
+            0.71
+          ],
+          "to": [
+            0.4,
+            0.81
+          ],
+          "expect": "legs[0]=1.4"
+        },
+        {
+          "action": "stamp",
+          "clicks": [
+            [
+              0.115,
+              0.38
+            ]
+          ],
+          "expect": "trayStamps[0]=1；feed后belly=4"
+        },
+        {
+          "action": "box",
+          "from": [
+            0.79,
+            0.27
+          ],
+          "to": [
+            0.73,
+            0.31
+          ],
+          "expect": "boxes[0]坐标改变"
+        },
+        {
+          "action": "route",
+          "clicks": [
+            [
+              0.29,
+              0.75
+            ],
+            [
+              0.82,
+              0.62
+            ],
+            [
+              0.73,
+              0.31
+            ]
+          ],
+          "expect": "route=[2,1,0]"
+        },
+        {
+          "action": "deliver",
+          "advanceSeconds": 90,
+          "expect": "实际提前完成，totalDelivered=4、belly=0、running=false，邮箱计数1/2/1"
+        }
+      ],
+      "limits": {
+        "belly": 9,
+        "route": 8,
+        "receipts": 14,
+        "flyLetters": 30
+      },
+      "stateFields": [
+        "belly",
+        "bellyStamps",
+        "trayStamps",
+        "legs",
+        "boxes",
+        "route",
+        "running",
+        "totalFed",
+        "totalDelivered",
+        "receiptCount"
+      ],
+      "instructionsFile": "08-果冻邮差-说明.md",
+      "subtitle": "邮票住进透明肚子，长短腿走出自己编的邮路",
+      "palette": {
+        "bg": "#c3e4d3",
+        "ink": "#193b35",
+        "accent": "#ee593a"
+      },
+      "tools": [
+        {
+          "id": "feed",
+          "label": "吞信"
+        },
+        {
+          "id": "legs",
+          "label": "拉长腿"
+        },
+        {
+          "id": "stamp",
+          "label": "换邮票"
+        },
+        {
+          "id": "box",
+          "label": "搬邮箱"
+        },
+        {
+          "id": "route",
+          "label": "编邮路"
+        },
+        {
+          "id": "deliver",
+          "label": "出发送信"
+        }
+      ],
+      "qa": {
+        "browser": "passed_20_total_cases",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "touchHardware": "not_run",
+        "humanListening": "not_run"
+      }
+    },
+    "html_sha256": "f96e690d18c4e362c5511a68667868d61e709f7e54de7ed39f62bf25dd6132f9",
+    "html_bytes": 26842,
+    "zip_sha256": "c5166b602a415fc3fc62bde5094245e1d9419933dcc9a19101b8335a4730cc34",
+    "zip_bytes": 16539
+  },
+  {
+    "number": 9,
+    "slug": "09-sardine-salon",
+    "source": "assets-characters/09-sardine-salon.js",
+    "title": "沙丁鱼理发铺",
+    "description": "每一撮怪发型，都值得一张合照。",
+    "palette": {
+      "bg": "#eee5cd",
+      "ink": "#183f64",
+      "accent": "#d77458"
+    },
+    "tools": [
+      {
+        "id": "scissors",
+        "label": "剪胡须"
+      },
+      {
+        "id": "comb",
+        "label": "梳头鳍"
+      },
+      {
+        "id": "rollers",
+        "label": "夹发卷"
+      },
+      {
+        "id": "next",
+        "label": "换下一位"
+      },
+      {
+        "id": "photo",
+        "label": "队列合照"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "slug": "09-sardine-salon",
+      "file": "09-sardine-salon.js",
+      "number": 9,
+      "title": "沙丁鱼理发铺",
+      "steps": [
+        "梳头鳍：在鱼背顶部拖出高低与倾斜，每一根鳍独立保存",
+        "剪胡须：在嘴角点按/拖动，局部胡须真正变短",
+        "夹发卷：点头鳍夹卷，再点同处拆卷",
+        "换下一位：完整发型进入最多四位的合照队列",
+        "给不同顾客做不同造型，打开队列合照对比"
+      ],
+      "referenceUrls": [
+        "https://www.clevelandart.org/art/1973.142"
+      ],
+      "observations": [
+        "已实际查看Homer《Leaping Trout》1889官方像素：鱼腹发白、背部近黑、细红斑、下方横向白色水痕。转换为原创条纹鱼上的自绘刮线、纸纹与珊瑚色小斑，未复制作品。"
+      ],
+      "license": "Cleveland官方页明确允许复制、修改、分发此作品；成品仍未使用原图，所有图形由Canvas原创绘制。",
+      "historyDifference": "不是海葵/章鱼节拍角色或换色面板；剪、梳、卷持续编辑真实几何，完成造型深拷贝进入客户合照。",
+      "testPlan": [
+        {
+          "action": "comb",
+          "from": [
+            0.44,
+            0.23
+          ],
+          "to": [
+            0.49,
+            0.14
+          ],
+          "expect": "combMoves>0，fin改变"
+        },
+        {
+          "action": "scissors",
+          "clicks": [
+            [
+              0.744,
+              0.56
+            ],
+            [
+              0.73,
+              0.55
+            ]
+          ],
+          "intervalMs": 110,
+          "expect": "snips>0，beardLengths缩短"
+        },
+        {
+          "action": "rollers",
+          "clicks": [
+            [
+              0.45,
+              0.23
+            ]
+          ],
+          "expect": "rollerChanges>0，fin某项curl=true"
+        },
+        {
+          "action": "next",
+          "expect": "customersServed=1，portraits[0].fin/beardLengths等于换客前"
+        },
+        {
+          "action": "photo",
+          "expect": "photoMode=true"
+        }
+      ],
+      "testCoordinates": "09/10 testPlan归一化坐标基于1000×700等比内容框；宽高比不同须按view居中留白换算。",
+      "limits": {
+        "portraits": 4,
+        "particles": 65,
+        "finRibs": 15,
+        "beardStrands": 8
+      },
+      "stateFields": [
+        "customersServed",
+        "snips",
+        "combMoves",
+        "rollerChanges",
+        "currentEdits",
+        "fin",
+        "beardLengths",
+        "portraits",
+        "photoMode",
+        "particleCount"
+      ],
+      "instructionsFile": "09-sardine-salon.zh.md",
+      "subtitle": "每一撮怪发型，都值得一张合照。",
+      "palette": {
+        "bg": "#eee5cd",
+        "ink": "#183f64",
+        "accent": "#d77458"
+      },
+      "tools": [
+        {
+          "id": "scissors",
+          "label": "剪胡须"
+        },
+        {
+          "id": "comb",
+          "label": "梳头鳍"
+        },
+        {
+          "id": "rollers",
+          "label": "夹发卷"
+        },
+        {
+          "id": "next",
+          "label": "换下一位"
+        },
+        {
+          "id": "photo",
+          "label": "队列合照"
+        }
+      ],
+      "canonicalArtboard": [
+        1000,
+        700
+      ],
+      "testPlanCoordinates": "归一化坐标基于1000×700画板，按等比居中映射到真实画布。",
+      "qa": {
+        "browser": "passed_20_total_cases",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "touchHardware": "not_run",
+        "humanListening": "not_run"
+      }
+    },
+    "html_sha256": "8b1d82e4d29d5f129ad1649494f90ca527175d9ee7607ab3406d7cc380bf8699",
+    "html_bytes": 27090,
+    "zip_sha256": "7e65af1f9a6cea4ac4d5c81a5bb329321e2fa5e11fc5bf26fc7d1f293841372e",
+    "zip_bytes": 16058
+  },
+  {
+    "number": 10,
+    "slug": "10-cloud-tailor",
+    "source": "assets-characters/10-cloud-tailor.js",
+    "title": "云被裁缝",
+    "description": "把漏掉的星星，慢慢缝回梦里。",
+    "palette": {
+      "bg": "#202342",
+      "ink": "#ddd9eb",
+      "accent": "#e7ba77"
+    },
+    "tools": [
+      {
+        "id": "pull",
+        "label": "拉云被"
+      },
+      {
+        "id": "moon",
+        "label": "缝月补丁"
+      },
+      {
+        "id": "hole",
+        "label": "开洞漏星"
+      },
+      {
+        "id": "sew",
+        "label": "缝好小洞"
+      },
+      {
+        "id": "fold",
+        "label": "折一折"
+      }
+    ],
+    "qaStatus": "passed_real_browser",
+    "previewMethod": "Chromium actual browser screenshot with real inputs; muted speaker output",
+    "metadata": {
+      "slug": "10-cloud-tailor",
+      "file": "10-cloud-tailor.js",
+      "number": 10,
+      "title": "云被裁缝",
+      "steps": [
+        "拉云被：拖动被面，网格节点持续变形",
+        "缝月补丁：点被面安放弯月，再点同一补丁可旋转",
+        "开洞漏星：点被面开洞，继续点可扩大；星星持续漏出",
+        "缝好小洞：对洞分次落针，四针后闭合；空白处可自由留针脚",
+        "拖动与折被后，月亮、洞与针脚随被面材料坐标一起移动"
+      ],
+      "referenceUrls": [
+        "https://www.musee-orsay.fr/en/artworks/les-yeux-clos-476"
+      ],
+      "observations": [
+        "已实际查看Redon《Les Yeux clos》1890官方像素：褐发围住斜垂头部、双眼低垂、灰蓝底色、胸口消融于水平亮带。转化为安静大头与横向纤维被面的原创构图。"
+      ],
+      "license": "奥赛官方图像标注RMN-Grand Palais/摄影师版权；仅研究查看，不嵌入或分发。成品夜空、角色、纤维、针脚与网格全为Canvas自绘。",
+      "historyDifference": "不是既有纸蛇、表情纸带或抽象云波；是带材料坐标的可变形被子，洞会漏星、缝合会止漏，角色随保暖状态变化。",
+      "testPlan": [
+        {
+          "action": "moon",
+          "clicks": [
+            [
+              0.52,
+              0.69
+            ]
+          ],
+          "expect": "moonPatches=1"
+        },
+        {
+          "action": "hole",
+          "clicks": [
+            [
+              0.7,
+              0.73
+            ]
+          ],
+          "advanceSeconds": 1,
+          "expect": "openHoles=1，starsEmitted>5"
+        },
+        {
+          "action": "sew",
+          "target": "holes[0].x/1000, holes[0].y/700",
+          "clickCount": 4,
+          "intervalMs": 110,
+          "expect": "openHoles=0，repairs=1"
+        },
+        {
+          "action": "pull",
+          "target": "patches[0]",
+          "deltaPixels": [
+            40,
+            -30
+          ],
+          "expect": "pullMoves>0，补丁位置随被面改变"
+        },
+        {
+          "action": "fold",
+          "expect": "folds=1，补丁及修复记录保留"
+        }
+      ],
+      "testCoordinates": "09/10 testPlan归一化坐标基于1000×700等比内容框；宽高比不同须按view居中留白换算。",
+      "limits": {
+        "moonPatches": 18,
+        "holes": 14,
+        "stars": 80,
+        "looseStitches": 45,
+        "nodes": 66
+      },
+      "stateFields": [
+        "moonPatches",
+        "totalMoonsPlaced",
+        "openHoles",
+        "holesMade",
+        "repairs",
+        "looseStitches",
+        "folds",
+        "foldMode",
+        "pullMoves",
+        "starsEmitted",
+        "liveStars",
+        "patches",
+        "holes",
+        "deformation",
+        "nodeCount"
+      ],
+      "instructionsFile": "10-cloud-tailor.zh.md",
+      "subtitle": "把漏掉的星星，慢慢缝回梦里。",
+      "palette": {
+        "bg": "#202342",
+        "ink": "#ddd9eb",
+        "accent": "#e7ba77"
+      },
+      "tools": [
+        {
+          "id": "pull",
+          "label": "拉云被"
+        },
+        {
+          "id": "moon",
+          "label": "缝月补丁"
+        },
+        {
+          "id": "hole",
+          "label": "开洞漏星"
+        },
+        {
+          "id": "sew",
+          "label": "缝好小洞"
+        },
+        {
+          "id": "fold",
+          "label": "折一折"
+        }
+      ],
+      "canonicalArtboard": [
+        1000,
+        700
+      ],
+      "testPlanCoordinates": "归一化坐标基于1000×700画板，按等比居中映射到真实画布。",
+      "qa": {
+        "browser": "passed_20_total_cases",
+        "audio": "passed_internal_music_fx_output_analysis",
+        "offline": "passed_real_browser_network_disabled",
+        "touchHardware": "not_run",
+        "humanListening": "not_run"
+      }
+    },
+    "html_sha256": "bcb3f7ad4ec64493be1133bb280cd6653a6e76bef2ecd6e3b3960aef441a8210",
+    "html_bytes": 31913,
+    "zip_sha256": "42a2eced9bfa17fd664bde7cc34bd91b31874c4f041690dd9eb5e6417cd5c893",
+    "zip_bytes": 17761
+  }
+]

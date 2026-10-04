@@ -1,0 +1,128 @@
+{
+  "number": 5,
+  "slug": "05-paper-dragon",
+  "description": "牵铜钉重排厚纸龙骨，剪月牙孔、接新骨、翻背翼，最后盘成可起舞的龙环。",
+  "newMechanics": [
+    "12节独立关节位置，邻节随牵动部分位移",
+    "每节最多8个持久镂空孔，由evenodd纸片真实留空",
+    "接体节最多18节，剪孔与背面色随节保留",
+    "盘龙环可重排全部关节；起舞仅叠加动态，不抹除造形"
+  ],
+  "artDirection": [
+    "朱砂剪纸龙与淡青云线，米色裱纸双框",
+    "双层厚纸切边、背鳍锯齿、角须眼和纸爪",
+    "月牙孔、菱孔、铜钉与薄金线的密度反差"
+  ],
+  "testPlan": [
+    {
+      "control": "joint",
+      "from": [
+        0.69,
+        0.57
+      ],
+      "to": [
+        0.65,
+        0.48
+      ]
+    },
+    {
+      "control": "cut",
+      "from": [
+        0.54,
+        0.56
+      ],
+      "to": [
+        0.54,
+        0.56
+      ]
+    },
+    {
+      "control": "flip",
+      "from": [
+        0.4,
+        0.51
+      ],
+      "to": [
+        0.4,
+        0.51
+      ]
+    },
+    {
+      "control": "add",
+      "clickOnly": true
+    },
+    {
+      "control": "coil",
+      "clickOnly": true
+    },
+    {
+      "control": "dance",
+      "clickOnly": true
+    }
+  ],
+  "stateFields": {
+    "segments": "初始12，接骨最多18",
+    "cuts": "点身体后增加",
+    "flipped": "翻节后增加或减少",
+    "poseEdits": "牵节/盘环后增加",
+    "dancing": "起舞开关"
+  },
+  "references": [
+    {
+      "title": "Chinese Papercuts: Myths and Folklore, c.1930，Peter Harrington Catalogue 192，第25页",
+      "url": "https://aba.org.uk/assets/catalogues/Cat_192_final_SPS.pdf",
+      "license": "目录摄影版权未核实；仅研究观察，不附入成品，不复制轮廓",
+      "observed": "下载原PDF并渲染第27个PDF页，实际看到黑纸龙在狭长构图中三次盘折，背部连续尖鳍、内部短叶镂孔、头部角须与爪。新作用朱砂厚纸铰接节及独立绘制轮廓，未复制原图。"
+    }
+  ],
+  "difference": "不同于34纸蛇拉面机的黄色矩形票链和机器/汤碗场景：这里是完整有角、须、背鳍与爪的剪纸龙，操作是关节编排、实孔裁切、背翼翻色与龙环姿态。",
+  "title": "纸骨游龙",
+  "subtitle": "一条朱砂纸龙，骨节能牵，背翼能翻，空洞也会呼吸。",
+  "ui": {
+    "bg": "#ede4cf",
+    "ink": "#7e3836",
+    "accent": "#b84440"
+  },
+  "controls": [
+    {
+      "id": "joint",
+      "label": "牵纸骨"
+    },
+    {
+      "id": "cut",
+      "label": "剪月牙孔"
+    },
+    {
+      "id": "add",
+      "label": "接一节新骨"
+    },
+    {
+      "id": "flip",
+      "label": "翻背翼"
+    },
+    {
+      "id": "coil",
+      "label": "盘成龙环"
+    },
+    {
+      "id": "dance",
+      "label": "起舞 / 停驻"
+    }
+  ],
+  "verification": {
+    "syntax": "node --check passed",
+    "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+    "interaction": "direct ART API simulation, not browser QA",
+    "browser": "not run",
+    "webAudio": "not run"
+  },
+  "playtime": "1–3分钟",
+  "assets": "全部Canvas程序自绘；无外部图片、字体、CDN",
+  "qa": {
+    "browser": "passed_20_total_cases",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "touchHardware": "not_run",
+    "humanListening": "not_run"
+  }
+}

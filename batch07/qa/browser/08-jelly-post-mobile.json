@@ -1,0 +1,4623 @@
+{
+  "slug": "08-jelly-post",
+  "device": "mobile",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/08-jelly-post/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "action": "feed",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ],
+          [
+            0.115,
+            0.495
+          ]
+        ],
+        "from": [
+          0.115,
+          0.61
+        ],
+        "to": [
+          0.47,
+          0.33
+        ],
+        "expect": "belly=3，bellyStamps=[0,1,2]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 2.2,
+        "wallSeconds": 2.2,
+        "trusted": 12,
+        "downs": 3,
+        "moves": 8,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.020123162814693413,
+          "fx": 0.00006744610228026004,
+          "out": 0.01368986781472401,
+          "musicPeak": 0.038606049274499774,
+          "fxPeak": 0.022019199641418418,
+          "outPeak": 0.02631509093452765,
+          "musicCount": 5,
+          "fxCount": 6,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 3,
+          "bellyStamps": [
+            0,
+            1,
+            2
+          ],
+          "trayStamps": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 3,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "legs",
+        "from": [
+          0.43,
+          0.71
+        ],
+        "to": [
+          0.4,
+          0.81
+        ],
+        "expect": "legs[0]=1.4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 2.9,
+        "wallSeconds": 3,
+        "trusted": 22,
+        "downs": 4,
+        "moves": 16,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009688375576157163,
+          "fx": 0,
+          "out": 0.006588095458499469,
+          "musicPeak": 0.038606049274499774,
+          "fxPeak": 0.03428143445365611,
+          "outPeak": 0.02631509093452765,
+          "musicCount": 7,
+          "fxCount": 11,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "legs",
+          "belly": 3,
+          "bellyStamps": [
+            0,
+            1,
+            2
+          ],
+          "trayStamps": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1.4,
+            1
+          ],
+          "legPulls": 8,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 3,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ]
+        ],
+        "expect": "trayStamps[0]=1；feed后belly=4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 3.6,
+        "wallSeconds": 3.6,
+        "trusted": 24,
+        "downs": 5,
+        "moves": 16,
+        "actions": 3,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02975978984666348,
+          "fx": 0,
+          "out": 0.020236657287612526,
+          "musicPeak": 0.038606049274499774,
+          "fxPeak": 0.03428143445365611,
+          "outPeak": 0.02631509093452765,
+          "musicCount": 9,
+          "fxCount": 13,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "belly": 3,
+          "bellyStamps": [
+            0,
+            1,
+            2
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 1,
+          "legs": [
+            1.4,
+            1
+          ],
+          "legPulls": 8,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 3,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "box",
+        "from": [
+          0.79,
+          0.27
+        ],
+        "to": [
+          0.73,
+          0.31
+        ],
+        "expect": "boxes[0]坐标改变"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 4.5,
+        "wallSeconds": 4.5,
+        "trusted": 34,
+        "downs": 6,
+        "moves": 24,
+        "actions": 4,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007478733506282382,
+          "fx": 0,
+          "out": 0.0045364464755318695,
+          "musicPeak": 0.038606049274499774,
+          "fxPeak": 0.03428143445365611,
+          "outPeak": 0.02631509093452765,
+          "musicCount": 11,
+          "fxCount": 15,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "box",
+          "belly": 3,
+          "bellyStamps": [
+            0,
+            1,
+            2
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 1,
+          "legs": [
+            1.4,
+            1
+          ],
+          "legPulls": 8,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 3,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "route",
+        "clicks": [
+          [
+            0.29,
+            0.75
+          ],
+          [
+            0.82,
+            0.62
+          ],
+          [
+            0.73,
+            0.31
+          ]
+        ],
+        "expect": "route=[2,1,0]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 6,
+        "wallSeconds": 6,
+        "trusted": 38,
+        "downs": 9,
+        "moves": 24,
+        "actions": 5,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004072789491857334,
+          "fx": 0,
+          "out": 0.0027694968851974073,
+          "musicPeak": 0.04410296498417452,
+          "fxPeak": 0.03428143445365611,
+          "outPeak": 0.02999060161778712,
+          "musicCount": 15,
+          "fxCount": 21,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 3,
+          "bellyStamps": [
+            0,
+            1,
+            2
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 1,
+          "legs": [
+            1.4,
+            1
+          ],
+          "legPulls": 8,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 3,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "deliver",
+        "advanceSeconds": 90,
+        "expect": "实际提前完成，totalDelivered=4、belly=0、running=false，邮箱计数1/2/1"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 18.1,
+        "wallSeconds": 18.1,
+        "trusted": 39,
+        "downs": 9,
+        "moves": 24,
+        "actions": 6,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.013965671798437917,
+          "fx": 0,
+          "out": 0.009496656953428792,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.03428143445365611,
+          "outPeak": 0.030107722984379387,
+          "musicCount": 49,
+          "fxCount": 25,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 0,
+          "bellyStamps": [],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 1,
+          "legs": [
+            1.4,
+            1
+          ],
+          "legPulls": 8,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 1
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 3,
+          "totalDelivered": 3,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 24.1,
+        "wallSeconds": 24.2,
+        "trusted": 149,
+        "downs": 10,
+        "moves": 32,
+        "actions": 106,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.050850570520932045,
+          "outPeak": 0.03629856305617716,
+          "musicCount": 64,
+          "fxCount": 65,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "box",
+          "belly": 0,
+          "bellyStamps": [],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 1,
+          "legs": [
+            1.4,
+            1
+          ],
+          "legPulls": 8,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 1
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 3,
+          "totalDelivered": 3,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 24.5,
+        "wallSeconds": 24.5,
+        "trusted": 150,
+        "downs": 10,
+        "moves": 32,
+        "actions": 106,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.050850570520932045,
+          "outPeak": 0.03629856305617716,
+          "musicCount": 64,
+          "fxCount": 65,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 0,
+          "bellyStamps": [],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 0,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 26.1,
+        "wallSeconds": 26.1,
+        "trusted": 170,
+        "downs": 12,
+        "moves": 48,
+        "actions": 106,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.050850570520932045,
+          "outPeak": 0.03862743599140676,
+          "musicCount": 66,
+          "fxCount": 67,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 2,
+          "bellyStamps": [
+            0,
+            1
+          ],
+          "trayStamps": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 2,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 26.4,
+        "wallSeconds": 26.4,
+        "trusted": 171,
+        "downs": 12,
+        "moves": 48,
+        "actions": 106,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.050850570520932045,
+          "outPeak": 0.03862743599140676,
+          "musicCount": 66,
+          "fxCount": 67,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 0,
+          "bellyStamps": [],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 0,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 28,
+        "wallSeconds": 28,
+        "trusted": 191,
+        "downs": 14,
+        "moves": 64,
+        "actions": 106,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.050850570520932045,
+          "outPeak": 0.03862743599140676,
+          "musicCount": 68,
+          "fxCount": 69,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 2,
+          "bellyStamps": [
+            0,
+            1
+          ],
+          "trayStamps": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 2,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 28.3,
+        "wallSeconds": 28.3,
+        "trusted": 192,
+        "downs": 14,
+        "moves": 64,
+        "actions": 106,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.050850570520932045,
+          "outPeak": 0.03862743599140676,
+          "musicCount": 68,
+          "fxCount": 69,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 0,
+          "bellyStamps": [],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 0,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "feed",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ],
+          [
+            0.115,
+            0.495
+          ]
+        ],
+        "from": [
+          0.115,
+          0.61
+        ],
+        "to": [
+          0.47,
+          0.33
+        ],
+        "expect": "belly=3，bellyStamps=[0,1,2]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 31.6,
+        "wallSeconds": 31.6,
+        "trusted": 223,
+        "downs": 19,
+        "moves": 88,
+        "actions": 107,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0348638334346915,
+          "fx": 0.00019021541161462526,
+          "out": 0.02372415080896092,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.050850570520932045,
+          "outPeak": 0.03862743599140676,
+          "musicCount": 77,
+          "fxCount": 79,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            2
+          ],
+          "trayStamps": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 5,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "legs",
+        "from": [
+          0.43,
+          0.71
+        ],
+        "to": [
+          0.4,
+          0.81
+        ],
+        "expect": "legs[0]=1.4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 32.9,
+        "wallSeconds": 32.9,
+        "trusted": 242,
+        "downs": 21,
+        "moves": 104,
+        "actions": 108,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.006256930390825991,
+          "fx": 0,
+          "out": 0.004254712705211219,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 80,
+          "fxCount": 85,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "legs",
+          "belly": 6,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            0
+          ],
+          "trayStamps": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1.4,
+            1
+          ],
+          "legPulls": 8,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 6,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ]
+        ],
+        "expect": "trayStamps[0]=1；feed后belly=4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 34.1,
+        "wallSeconds": 34.1,
+        "trusted": 253,
+        "downs": 23,
+        "moves": 112,
+        "actions": 109,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.030417673085762733,
+          "fx": 0,
+          "out": 0.02068401783689219,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 84,
+          "fxCount": 91,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "belly": 6,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            0
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 1,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 16,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 6,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "box",
+        "from": [
+          0.79,
+          0.27
+        ],
+        "to": [
+          0.73,
+          0.31
+        ],
+        "expect": "boxes[0]坐标改变"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 35.5,
+        "wallSeconds": 35.5,
+        "trusted": 272,
+        "downs": 25,
+        "moves": 128,
+        "actions": 110,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0029088745254523406,
+          "fx": 0,
+          "out": 0.001978034696352171,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 87,
+          "fxCount": 95,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "box",
+          "belly": 6,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            1
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 2,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 16,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 6,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "route",
+        "clicks": [
+          [
+            0.29,
+            0.75
+          ],
+          [
+            0.82,
+            0.62
+          ],
+          [
+            0.73,
+            0.31
+          ]
+        ],
+        "expect": "route=[2,1,0]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 37.6,
+        "wallSeconds": 37.6,
+        "trusted": 285,
+        "downs": 29,
+        "moves": 136,
+        "actions": 111,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011853675842531343,
+          "fx": 0,
+          "out": 0.00806049965779248,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 93,
+          "fxCount": 102,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 6,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            1
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 2,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 16,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 6,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "deliver",
+        "expect": "实际提前完成，totalDelivered=4、belly=0、running=false，邮箱计数1/2/1"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 38.3,
+        "wallSeconds": 38.4,
+        "trusted": 295,
+        "downs": 30,
+        "moves": 144,
+        "actions": 112,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0047087085170572415,
+          "fx": 0.0027906717962528694,
+          "out": 0.0026517511706336066,
+          "musicPeak": 0.04427606274419601,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 95,
+          "fxCount": 104,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 6,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            1
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 2,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 16,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 6,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.448,
+            "y": 0.44
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "feed",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ],
+          [
+            0.115,
+            0.495
+          ]
+        ],
+        "from": [
+          0.115,
+          0.61
+        ],
+        "to": [
+          0.47,
+          0.33
+        ],
+        "expect": "belly=3，bellyStamps=[0,1,2]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 40.4,
+        "wallSeconds": 40.4,
+        "trusted": 316,
+        "downs": 34,
+        "moves": 160,
+        "actions": 113,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014876440496829972,
+          "fx": 0,
+          "out": 0.010115979654147777,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 101,
+          "fxCount": 111,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 7,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "trayStamps": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 2,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 16,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 1
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 1,
+          "running": true,
+          "totalFed": 8,
+          "totalDelivered": 1,
+          "position": {
+            "x": 0.432,
+            "y": 0.65
+          },
+          "receiptCount": 1
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "legs",
+        "from": [
+          0.43,
+          0.71
+        ],
+        "to": [
+          0.4,
+          0.81
+        ],
+        "expect": "legs[0]=1.4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 41.6,
+        "wallSeconds": 41.6,
+        "trusted": 335,
+        "downs": 36,
+        "moves": 176,
+        "actions": 114,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004019674264958943,
+          "fx": 0.0005154940299798332,
+          "out": 0.0027817500860037353,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 104,
+          "fxCount": 117,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "legs",
+          "belly": 6,
+          "bellyStamps": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "trayStamps": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 2,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 24,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 1
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 2,
+          "running": true,
+          "totalFed": 8,
+          "totalDelivered": 2,
+          "position": {
+            "x": 0.709,
+            "y": 0.607
+          },
+          "receiptCount": 2
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ]
+        ],
+        "expect": "trayStamps[0]=1；feed后belly=4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 42.8,
+        "wallSeconds": 42.8,
+        "trusted": 346,
+        "downs": 38,
+        "moves": 184,
+        "actions": 115,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.018002395141013813,
+          "fx": 0.00016974536896545463,
+          "out": 0.012206328856980659,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 108,
+          "fxCount": 124,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "trayStamps": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "selectedStamp": 2,
+          "stampEdits": 3,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 32,
+          "boxes": [
+            {
+              "x": 0.73,
+              "y": 0.31,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 1
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 8,
+          "totalDelivered": 3,
+          "position": {
+            "x": 0.607,
+            "y": 0.371
+          },
+          "receiptCount": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "box",
+        "from": [
+          0.79,
+          0.27
+        ],
+        "to": [
+          0.73,
+          0.31
+        ],
+        "expect": "boxes[0]坐标改变"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 44.1,
+        "wallSeconds": 44.1,
+        "trusted": 365,
+        "downs": 40,
+        "moves": 200,
+        "actions": 116,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0040135366285599565,
+          "fx": 0,
+          "out": 0.002729204932065064,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 111,
+          "fxCount": 128,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "box",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            0,
+            1,
+            1,
+            2
+          ],
+          "trayStamps": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "selectedStamp": 2,
+          "stampEdits": 4,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 32,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 1
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 3,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 8,
+          "totalDelivered": 3,
+          "position": {
+            "x": 0.368,
+            "y": 0.545
+          },
+          "receiptCount": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "route",
+        "clicks": [
+          [
+            0.29,
+            0.75
+          ],
+          [
+            0.82,
+            0.62
+          ],
+          [
+            0.73,
+            0.31
+          ]
+        ],
+        "expect": "route=[2,1,0]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 46.2,
+        "wallSeconds": 46.2,
+        "trusted": 378,
+        "downs": 44,
+        "moves": 208,
+        "actions": 117,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.016978258063829584,
+          "fx": 0,
+          "out": 0.011545215668846347,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 117,
+          "fxCount": 135,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            0,
+            1,
+            1,
+            2
+          ],
+          "trayStamps": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "selectedStamp": 2,
+          "stampEdits": 4,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 32,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 1
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 6,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 8,
+          "totalDelivered": 3,
+          "position": {
+            "x": 0.465,
+            "y": 0.425
+          },
+          "receiptCount": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "deliver",
+        "expect": "实际提前完成，totalDelivered=4、belly=0、running=false，邮箱计数1/2/1"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 47,
+        "wallSeconds": 47,
+        "trusted": 388,
+        "downs": 45,
+        "moves": 216,
+        "actions": 118,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003944384789674922,
+          "fx": 0.0133422973866529,
+          "out": 0.009323749039123698,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 119,
+          "fxCount": 137,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            0,
+            1,
+            1,
+            2
+          ],
+          "trayStamps": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "selectedStamp": 2,
+          "stampEdits": 4,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 32,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 1
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 6,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 8,
+          "totalDelivered": 3,
+          "position": {
+            "x": 0.459,
+            "y": 0.43
+          },
+          "receiptCount": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "feed",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ],
+          [
+            0.115,
+            0.495
+          ]
+        ],
+        "from": [
+          0.115,
+          0.61
+        ],
+        "to": [
+          0.47,
+          0.33
+        ],
+        "expect": "belly=3，bellyStamps=[0,1,2]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 49.2,
+        "wallSeconds": 49.2,
+        "trusted": 409,
+        "downs": 49,
+        "moves": 232,
+        "actions": 119,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010085273414081847,
+          "fx": 0,
+          "out": 0.006857985965962762,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 126,
+          "fxCount": 144,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 6,
+          "bellyStamps": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "trayStamps": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "selectedStamp": 2,
+          "stampEdits": 4,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 32,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 2
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 6,
+          "routeIndex": 1,
+          "running": true,
+          "totalFed": 10,
+          "totalDelivered": 4,
+          "position": {
+            "x": 0.38,
+            "y": 0.65
+          },
+          "receiptCount": 4
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "legs",
+        "from": [
+          0.43,
+          0.71
+        ],
+        "to": [
+          0.4,
+          0.81
+        ],
+        "expect": "legs[0]=1.4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 50.5,
+        "wallSeconds": 50.5,
+        "trusted": 428,
+        "downs": 51,
+        "moves": 248,
+        "actions": 120,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014417712008598715,
+          "fx": 0,
+          "out": 0.009804044298121541,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 129,
+          "fxCount": 149,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "legs",
+          "belly": 6,
+          "bellyStamps": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "trayStamps": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "selectedStamp": 2,
+          "stampEdits": 4,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 40,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 1
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 2
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 6,
+          "routeIndex": 1,
+          "running": true,
+          "totalFed": 10,
+          "totalDelivered": 4,
+          "position": {
+            "x": 0.668,
+            "y": 0.646
+          },
+          "receiptCount": 4
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ]
+        ],
+        "expect": "trayStamps[0]=1；feed后belly=4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 51.7,
+        "wallSeconds": 51.7,
+        "trusted": 439,
+        "downs": 53,
+        "moves": 256,
+        "actions": 121,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003747086506631682,
+          "fx": 0,
+          "out": 0.002548018847557284,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 132,
+          "fxCount": 155,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "trayStamps": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 5,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 48,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 1
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 2
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 2
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 6,
+          "routeIndex": 2,
+          "running": true,
+          "totalFed": 10,
+          "totalDelivered": 5,
+          "position": {
+            "x": 0.622,
+            "y": 0.456
+          },
+          "receiptCount": 5
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "box",
+        "from": [
+          0.79,
+          0.27
+        ],
+        "to": [
+          0.73,
+          0.31
+        ],
+        "expect": "boxes[0]坐标改变"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 52.9,
+        "wallSeconds": 53,
+        "trusted": 458,
+        "downs": 55,
+        "moves": 272,
+        "actions": 122,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.013898807358192962,
+          "fx": 0,
+          "out": 0.009451189096224924,
+          "musicPeak": 0.0464638421007947,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 136,
+          "fxCount": 160,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "box",
+          "belly": 4,
+          "bellyStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "trayStamps": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 6,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 48,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 2
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 2
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 2
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 6,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 10,
+          "totalDelivered": 6,
+          "position": {
+            "x": 0.415,
+            "y": 0.51
+          },
+          "receiptCount": 6
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "route",
+        "clicks": [
+          [
+            0.29,
+            0.75
+          ],
+          [
+            0.82,
+            0.62
+          ],
+          [
+            0.73,
+            0.31
+          ]
+        ],
+        "expect": "route=[2,1,0]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 55,
+        "wallSeconds": 55,
+        "trusted": 471,
+        "downs": 59,
+        "moves": 280,
+        "actions": 123,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0326620026629718,
+          "fx": 0,
+          "out": 0.022210161978812395,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 142,
+          "fxCount": 167,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 4,
+          "bellyStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "trayStamps": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 6,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 48,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 2
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 2
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 2
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 9,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 10,
+          "totalDelivered": 6,
+          "position": {
+            "x": 0.466,
+            "y": 0.424
+          },
+          "receiptCount": 6
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "deliver",
+        "expect": "实际提前完成，totalDelivered=4、belly=0、running=false，邮箱计数1/2/1"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 55.8,
+        "wallSeconds": 55.8,
+        "trusted": 481,
+        "downs": 60,
+        "moves": 288,
+        "actions": 124,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.018943484675867,
+          "fx": 0.0133422973866529,
+          "out": 0.01986407166230502,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 144,
+          "fxCount": 169,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 4,
+          "bellyStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "trayStamps": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 6,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 48,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 2
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 2
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 2
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 9,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 10,
+          "totalDelivered": 6,
+          "position": {
+            "x": 0.459,
+            "y": 0.43
+          },
+          "receiptCount": 6
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "feed",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ],
+          [
+            0.115,
+            0.495
+          ]
+        ],
+        "from": [
+          0.115,
+          0.61
+        ],
+        "to": [
+          0.47,
+          0.33
+        ],
+        "expect": "belly=3，bellyStamps=[0,1,2]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 58,
+        "wallSeconds": 58,
+        "trusted": 502,
+        "downs": 64,
+        "moves": 304,
+        "actions": 125,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014589731860810315,
+          "fx": 0,
+          "out": 0.009921017729490066,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 150,
+          "fxCount": 176,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            2
+          ],
+          "trayStamps": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 6,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 48,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 2
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 2
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 3
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 9,
+          "routeIndex": 1,
+          "running": true,
+          "totalFed": 12,
+          "totalDelivered": 7,
+          "position": {
+            "x": 0.407,
+            "y": 0.65
+          },
+          "receiptCount": 7
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "legs",
+        "from": [
+          0.43,
+          0.71
+        ],
+        "to": [
+          0.4,
+          0.81
+        ],
+        "expect": "legs[0]=1.4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 59.2,
+        "wallSeconds": 59.3,
+        "trusted": 521,
+        "downs": 66,
+        "moves": 320,
+        "actions": 126,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007837335609302127,
+          "fx": 0,
+          "out": 0.005329388272718876,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 153,
+          "fxCount": 181,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "legs",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            1,
+            0,
+            0,
+            2
+          ],
+          "trayStamps": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 6,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 56,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 2
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 2
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 3
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 9,
+          "routeIndex": 1,
+          "running": true,
+          "totalFed": 12,
+          "totalDelivered": 7,
+          "position": {
+            "x": 0.72,
+            "y": 0.645
+          },
+          "receiptCount": 7
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ]
+        ],
+        "expect": "trayStamps[0]=1；feed后belly=4"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 60.4,
+        "wallSeconds": 60.4,
+        "trusted": 532,
+        "downs": 68,
+        "moves": 328,
+        "actions": 127,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03511249399551502,
+          "fx": 0,
+          "out": 0.023876496082102808,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 157,
+          "fxCount": 188,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "belly": 4,
+          "bellyStamps": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 7,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 64,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 2
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 3
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 3
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 9,
+          "routeIndex": 2,
+          "running": true,
+          "totalFed": 12,
+          "totalDelivered": 8,
+          "position": {
+            "x": 0.585,
+            "y": 0.384
+          },
+          "receiptCount": 8
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "box",
+        "from": [
+          0.79,
+          0.27
+        ],
+        "to": [
+          0.73,
+          0.31
+        ],
+        "expect": "boxes[0]坐标改变"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 61.8,
+        "wallSeconds": 61.8,
+        "trusted": 551,
+        "downs": 70,
+        "moves": 344,
+        "actions": 128,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.033548194616497655,
+          "fx": 0,
+          "out": 0.02281277260320967,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 161,
+          "fxCount": 192,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "box",
+          "belly": 3,
+          "bellyStamps": [
+            0,
+            0,
+            1
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 8,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 64,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 3
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 3
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 3
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 9,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 12,
+          "totalDelivered": 9,
+          "position": {
+            "x": 0.339,
+            "y": 0.565
+          },
+          "receiptCount": 9
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "route",
+        "clicks": [
+          [
+            0.29,
+            0.75
+          ],
+          [
+            0.82,
+            0.62
+          ],
+          [
+            0.73,
+            0.31
+          ]
+        ],
+        "expect": "route=[2,1,0]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 63.7,
+        "wallSeconds": 63.7,
+        "trusted": 564,
+        "downs": 74,
+        "moves": 352,
+        "actions": 129,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.017742622951121514,
+          "fx": 0,
+          "out": 0.012064983766280131,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 166,
+          "fxCount": 199,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 3,
+          "bellyStamps": [
+            0,
+            0,
+            1
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 8,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 64,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 3
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 3
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 3
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 12,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 12,
+          "totalDelivered": 9,
+          "position": {
+            "x": 0.463,
+            "y": 0.426
+          },
+          "receiptCount": 9
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "deliver",
+        "expect": "实际提前完成，totalDelivered=4、belly=0、running=false，邮箱计数1/2/1"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 64.6,
+        "wallSeconds": 64.6,
+        "trusted": 574,
+        "downs": 75,
+        "moves": 360,
+        "actions": 130,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.005971862858791383,
+          "fx": 0.003838055152842893,
+          "out": 0.0061795555960975235,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 168,
+          "fxCount": 201,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "route",
+          "belly": 3,
+          "bellyStamps": [
+            0,
+            0,
+            1
+          ],
+          "trayStamps": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 8,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 64,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 3
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 3
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 3
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 12,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 12,
+          "totalDelivered": 9,
+          "position": {
+            "x": 0.451,
+            "y": 0.437
+          },
+          "receiptCount": 9
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "feed",
+        "clicks": [
+          [
+            0.115,
+            0.38
+          ],
+          [
+            0.115,
+            0.495
+          ]
+        ],
+        "from": [
+          0.115,
+          0.61
+        ],
+        "to": [
+          0.47,
+          0.33
+        ],
+        "expect": "belly=3，bellyStamps=[0,1,2]"
+      },
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 66.7,
+        "wallSeconds": 66.8,
+        "trusted": 595,
+        "downs": 79,
+        "moves": 376,
+        "actions": 131,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 101,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0061158844094897444,
+          "fx": 0,
+          "out": 0.004158801443965793,
+          "musicPeak": 0.047364536272491015,
+          "fxPeak": 0.0738687582192283,
+          "outPeak": 0.058302862252025744,
+          "musicCount": 174,
+          "fxCount": 208,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 5,
+          "bellyStamps": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "trayStamps": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 8,
+          "legs": [
+            1.7,
+            1
+          ],
+          "legPulls": 64,
+          "boxes": [
+            {
+              "x": 0.67,
+              "y": 0.35,
+              "stamp": 0,
+              "delivered": 3
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 3
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 3
+            }
+          ],
+          "movedBoxes": 16,
+          "route": [
+            2,
+            1,
+            0
+          ],
+          "routeEdits": 12,
+          "routeIndex": 1,
+          "running": true,
+          "totalFed": 14,
+          "totalDelivered": 9,
+          "position": {
+            "x": 0.404,
+            "y": 0.65
+          },
+          "receiptCount": 9
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "f96e690d18c4e362c5511a68667868d61e709f7e54de7ed39f62bf25dd6132f9",
+  "initial": {
+    "title": "果冻邮差",
+    "elapsed": 0.3,
+    "wallSeconds": 0.3,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 73,
+    "maxFrameMs": 26,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "mode": "feed",
+      "belly": 0,
+      "bellyStamps": [],
+      "trayStamps": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "selectedStamp": 0,
+      "stampEdits": 0,
+      "legs": [
+        1,
+        1
+      ],
+      "legPulls": 0,
+      "boxes": [
+        {
+          "x": 0.79,
+          "y": 0.27,
+          "stamp": 0,
+          "delivered": 0
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 0
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 0
+        }
+      ],
+      "movedBoxes": 0,
+      "route": [
+        0,
+        1,
+        2
+      ],
+      "routeEdits": 0,
+      "routeIndex": 0,
+      "running": false,
+      "totalFed": 0,
+      "totalDelivered": 0,
+      "position": {
+        "x": 0.47,
+        "y": 0.42
+      },
+      "receiptCount": 0
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "果冻邮差",
+    "elapsed": 18.2,
+    "wallSeconds": 18.2,
+    "trusted": 39,
+    "downs": 9,
+    "moves": 24,
+    "actions": 6,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 101,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.006090111456540263,
+      "fx": 0,
+      "out": 0.00414127583301985,
+      "musicPeak": 0.04427606274419601,
+      "fxPeak": 0.03428143445365611,
+      "outPeak": 0.030107722984379387,
+      "musicCount": 49,
+      "fxCount": 25,
+      "activeVoices": 3,
+      "connectedNodes": 12,
+      "suspended": false,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "mode": "route",
+      "belly": 0,
+      "bellyStamps": [],
+      "trayStamps": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selectedStamp": 1,
+      "stampEdits": 1,
+      "legs": [
+        1.4,
+        1
+      ],
+      "legPulls": 8,
+      "boxes": [
+        {
+          "x": 0.73,
+          "y": 0.31,
+          "stamp": 0,
+          "delivered": 1
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 1
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 1
+        }
+      ],
+      "movedBoxes": 8,
+      "route": [
+        2,
+        1,
+        0
+      ],
+      "routeEdits": 3,
+      "routeIndex": 0,
+      "running": false,
+      "totalFed": 3,
+      "totalDelivered": 3,
+      "position": {
+        "x": 0.47,
+        "y": 0.42
+      },
+      "receiptCount": 3
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "果冻邮差",
+    "elapsed": 23.2,
+    "wallSeconds": 23.2,
+    "trusted": 137,
+    "downs": 9,
+    "moves": 24,
+    "actions": 104,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 101,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.006498683290816569,
+      "fx": 0.0045820728405600985,
+      "out": 0.006338684591805068,
+      "musicPeak": 0.04427606274419601,
+      "fxPeak": 0.050850570520932045,
+      "outPeak": 0.03629856305617716,
+      "musicCount": 63,
+      "fxCount": 64,
+      "activeVoices": 6,
+      "connectedNodes": 18,
+      "suspended": false,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "mode": "legs",
+      "belly": 0,
+      "bellyStamps": [],
+      "trayStamps": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selectedStamp": 2,
+      "stampEdits": 1,
+      "legs": [
+        1.4,
+        1
+      ],
+      "legPulls": 8,
+      "boxes": [
+        {
+          "x": 0.73,
+          "y": 0.31,
+          "stamp": 0,
+          "delivered": 1
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 1
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 1
+        }
+      ],
+      "movedBoxes": 8,
+      "route": [
+        2,
+        1,
+        0
+      ],
+      "routeEdits": 3,
+      "routeIndex": 0,
+      "running": false,
+      "totalFed": 3,
+      "totalDelivered": 3,
+      "position": {
+        "x": 0.47,
+        "y": 0.42
+      },
+      "receiptCount": 3
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "果冻邮差",
+    "elapsed": 29.7,
+    "wallSeconds": 29.7,
+    "trusted": 202,
+    "downs": 15,
+    "moves": 72,
+    "actions": 106,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 101,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.007179174226986341,
+      "fx": 0,
+      "out": 0.004881838531161077,
+      "musicPeak": 0.04427606274419601,
+      "fxPeak": 0.050850570520932045,
+      "outPeak": 0.03862743599140676,
+      "musicCount": 71,
+      "fxCount": 71,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "mode": "feed",
+      "belly": 1,
+      "bellyStamps": [
+        0
+      ],
+      "trayStamps": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "selectedStamp": 0,
+      "stampEdits": 0,
+      "legs": [
+        1,
+        1
+      ],
+      "legPulls": 0,
+      "boxes": [
+        {
+          "x": 0.79,
+          "y": 0.27,
+          "stamp": 0,
+          "delivered": 0
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 0
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 0
+        }
+      ],
+      "movedBoxes": 0,
+      "route": [
+        0,
+        1,
+        2
+      ],
+      "routeEdits": 0,
+      "routeIndex": 0,
+      "running": false,
+      "totalFed": 1,
+      "totalDelivered": 0,
+      "position": {
+        "x": 0.47,
+        "y": 0.42
+      },
+      "receiptCount": 0
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 67.151,
+  "final": {
+    "title": "果冻邮差",
+    "elapsed": 67.5,
+    "wallSeconds": 67.5,
+    "trusted": 604,
+    "downs": 80,
+    "moves": 384,
+    "actions": 131,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 78,
+    "maxFrameMs": 101,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.00567326101445483,
+      "fx": 0,
+      "out": 0.003857817520528332,
+      "musicPeak": 0.047364536272491015,
+      "fxPeak": 0.0738687582192283,
+      "outPeak": 0.058302862252025744,
+      "musicCount": 176,
+      "fxCount": 209,
+      "activeVoices": 3,
+      "connectedNodes": 12,
+      "suspended": false,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "mode": "feed",
+      "belly": 5,
+      "bellyStamps": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "trayStamps": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "selectedStamp": 1,
+      "stampEdits": 8,
+      "legs": [
+        1.7,
+        1
+      ],
+      "legPulls": 64,
+      "boxes": [
+        {
+          "x": 0.67,
+          "y": 0.35,
+          "stamp": 0,
+          "delivered": 3
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 3
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 3
+        }
+      ],
+      "movedBoxes": 16,
+      "route": [
+        2,
+        1,
+        0
+      ],
+      "routeEdits": 12,
+      "routeIndex": 1,
+      "running": true,
+      "totalFed": 14,
+      "totalDelivered": 9,
+      "position": {
+        "x": 0.586,
+        "y": 0.647
+      },
+      "receiptCount": 9
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 301,
+      "bottom": 54
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 378,
+      "bottom": 54
+    },
+    {
+      "text": "吞信",
+      "height": 44,
+      "right": 66,
+      "bottom": 784
+    },
+    {
+      "text": "拉长腿",
+      "height": 44,
+      "right": 140,
+      "bottom": 784
+    },
+    {
+      "text": "换邮票",
+      "height": 44,
+      "right": 214,
+      "bottom": 784
+    },
+    {
+      "text": "搬邮箱",
+      "height": 44,
+      "right": 288,
+      "bottom": 784
+    },
+    {
+      "text": "编邮路",
+      "height": 44,
+      "right": 362,
+      "bottom": 784
+    },
+    {
+      "text": "出发送信",
+      "height": 44,
+      "right": 94,
+      "bottom": 834
+    }
+  ],
+  "heap": {
+    "usedSize": 4407088,
+    "totalSize": 7798784,
+    "embedderHeapUsedSize": 3925752,
+    "backingStorageSize": 50873
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 5,
+    "state": "suspended",
+    "qa": {
+      "title": "果冻邮差",
+      "elapsed": 67.6,
+      "wallSeconds": 67.6,
+      "trusted": 604,
+      "downs": 80,
+      "moves": 384,
+      "actions": 131,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 78,
+      "maxFrameMs": 101,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.03640650175820505,
+        "fx": 0,
+        "out": 0.024756421505820206,
+        "musicPeak": 0.047364536272491015,
+        "fxPeak": 0.0738687582192283,
+        "outPeak": 0.058302862252025744,
+        "musicCount": 177,
+        "fxCount": 209,
+        "activeVoices": 5,
+        "connectedNodes": 16,
+        "suspended": false,
+        "maxVoices": 8,
+        "limit": 18
+      },
+      "art": {
+        "mode": "feed",
+        "belly": 5,
+        "bellyStamps": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "trayStamps": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "selectedStamp": 1,
+        "stampEdits": 8,
+        "legs": [
+          1.7,
+          1
+        ],
+        "legPulls": 64,
+        "boxes": [
+          {
+            "x": 0.67,
+            "y": 0.35,
+            "stamp": 0,
+            "delivered": 3
+          },
+          {
+            "x": 0.82,
+            "y": 0.62,
+            "stamp": 1,
+            "delivered": 3
+          },
+          {
+            "x": 0.29,
+            "y": 0.75,
+            "stamp": 2,
+            "delivered": 3
+          }
+        ],
+        "movedBoxes": 16,
+        "route": [
+          2,
+          1,
+          0
+        ],
+        "routeEdits": 12,
+        "routeIndex": 1,
+        "running": true,
+        "totalFed": 14,
+        "totalDelivered": 9,
+        "position": {
+          "x": 0.614,
+          "y": 0.647
+        },
+        "receiptCount": 9
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

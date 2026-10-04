@@ -1,0 +1,384 @@
+[
+  {
+    "number": 4,
+    "slug": "04-pearl-opera",
+    "description": "把虹彩贝口牵开、转珍珠，再用细链连接可移动的贝壳歌剧台。",
+    "newMechanics": [
+      "贝口铰链开量持久编辑，内碗不跟着缩扁",
+      "珍珠旋转改变环形虹彩与贝内位置",
+      "细链记录两贝拓扑，贝壳搬动后链端跟随",
+      "最多6只不同色泽贝壳；轮唱叠加呼吸，不覆盖原造型"
+    ],
+    "artDirection": [
+      "午夜蓝椭圆歌剧台，三只大小错落的双瓣贝",
+      "密径向壳肋、弯曲生长纹、虹彩珍珠与金细链",
+      "上盖、内碗、珍珠独立的遮挡与接触阴影"
+    ],
+    "testPlan": [
+      {
+        "control": "hinge",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.51,
+          0.41
+        ]
+      },
+      {
+        "control": "pearl",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.59,
+          0.52
+        ]
+      },
+      {
+        "control": "chain",
+        "from": [
+          0.23,
+          0.71
+        ],
+        "to": [
+          0.79,
+          0.72
+        ]
+      },
+      {
+        "control": "stage",
+        "from": [
+          0.51,
+          0.53
+        ],
+        "to": [
+          0.57,
+          0.5
+        ]
+      },
+      {
+        "control": "new",
+        "clickOnly": true
+      },
+      {
+        "control": "choir",
+        "clickOnly": true
+      }
+    ],
+    "stateFields": {
+      "shells": "初始3，添贝最多6",
+      "chains": "初始2；连接两侧贝后3",
+      "opening": "牵贝后0.10–1.00变化",
+      "pearlTurns": "旋珠拖动后增加",
+      "hingeEdits": "牵贝拖动后增加",
+      "choir": "轮唱开关"
+    },
+    "references": [
+      {
+        "title": "Cherub and shell, The Met, 58.115",
+        "url": "https://www.metmuseum.org/art/collection/search/202237",
+        "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/202237/1618605/main-image",
+        "license": "馆藏页标示 Public Domain；只观察，没有嵌入或临摹其人物造型",
+        "observed": "实际看1200×910像素：扇贝宽幅浅槽从顶中收拢，槽边高光与深谷交替；翼纹为弯曲层叠。借用壳肋层次，不用天使主题。"
+      }
+    ],
+    "difference": "不同于13金箔万花扇的平面折纸排阵：主体是有上下瓣、内碗、珍珠、铰链的体积贝壳，只有三只舞台主角，细链是持久连接。",
+    "title": "珠贝歌剧",
+    "subtitle": "虹彩作幕，珍珠开嗓。把三只贝排成一座小歌剧院。",
+    "ui": {
+      "bg": "#142034",
+      "ink": "#efe4d0",
+      "accent": "#e5bcae"
+    },
+    "controls": [
+      {
+        "id": "hinge",
+        "label": "牵开贝口"
+      },
+      {
+        "id": "pearl",
+        "label": "转动珍珠"
+      },
+      {
+        "id": "chain",
+        "label": "系细珠链"
+      },
+      {
+        "id": "stage",
+        "label": "挪动舞台"
+      },
+      {
+        "id": "new",
+        "label": "请一只新贝"
+      },
+      {
+        "id": "choir",
+        "label": "珠贝轮唱"
+      }
+    ],
+    "verification": {
+      "syntax": "node --check passed",
+      "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+      "interaction": "direct ART API simulation, not browser QA",
+      "browser": "not run",
+      "webAudio": "not run"
+    },
+    "playtime": "1–3分钟",
+    "assets": "全部Canvas程序自绘；无外部图片、字体、CDN"
+  },
+  {
+    "number": 5,
+    "slug": "05-paper-dragon",
+    "description": "牵铜钉重排厚纸龙骨，剪月牙孔、接新骨、翻背翼，最后盘成可起舞的龙环。",
+    "newMechanics": [
+      "12节独立关节位置，邻节随牵动部分位移",
+      "每节最多8个持久镂空孔，由evenodd纸片真实留空",
+      "接体节最多18节，剪孔与背面色随节保留",
+      "盘龙环可重排全部关节；起舞仅叠加动态，不抹除造形"
+    ],
+    "artDirection": [
+      "朱砂剪纸龙与淡青云线，米色裱纸双框",
+      "双层厚纸切边、背鳍锯齿、角须眼和纸爪",
+      "月牙孔、菱孔、铜钉与薄金线的密度反差"
+    ],
+    "testPlan": [
+      {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      {
+        "control": "add",
+        "clickOnly": true
+      },
+      {
+        "control": "coil",
+        "clickOnly": true
+      },
+      {
+        "control": "dance",
+        "clickOnly": true
+      }
+    ],
+    "stateFields": {
+      "segments": "初始12，接骨最多18",
+      "cuts": "点身体后增加",
+      "flipped": "翻节后增加或减少",
+      "poseEdits": "牵节/盘环后增加",
+      "dancing": "起舞开关"
+    },
+    "references": [
+      {
+        "title": "Chinese Papercuts: Myths and Folklore, c.1930，Peter Harrington Catalogue 192，第25页",
+        "url": "https://aba.org.uk/assets/catalogues/Cat_192_final_SPS.pdf",
+        "license": "目录摄影版权未核实；仅研究观察，不附入成品，不复制轮廓",
+        "observed": "下载原PDF并渲染第27个PDF页，实际看到黑纸龙在狭长构图中三次盘折，背部连续尖鳍、内部短叶镂孔、头部角须与爪。新作用朱砂厚纸铰接节及独立绘制轮廓，未复制原图。"
+      }
+    ],
+    "difference": "不同于34纸蛇拉面机的黄色矩形票链和机器/汤碗场景：这里是完整有角、须、背鳍与爪的剪纸龙，操作是关节编排、实孔裁切、背翼翻色与龙环姿态。",
+    "title": "纸骨游龙",
+    "subtitle": "一条朱砂纸龙，骨节能牵，背翼能翻，空洞也会呼吸。",
+    "ui": {
+      "bg": "#ede4cf",
+      "ink": "#7e3836",
+      "accent": "#b84440"
+    },
+    "controls": [
+      {
+        "id": "joint",
+        "label": "牵纸骨"
+      },
+      {
+        "id": "cut",
+        "label": "剪月牙孔"
+      },
+      {
+        "id": "add",
+        "label": "接一节新骨"
+      },
+      {
+        "id": "flip",
+        "label": "翻背翼"
+      },
+      {
+        "id": "coil",
+        "label": "盘成龙环"
+      },
+      {
+        "id": "dance",
+        "label": "起舞 / 停驻"
+      }
+    ],
+    "verification": {
+      "syntax": "node --check passed",
+      "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+      "interaction": "direct ART API simulation, not browser QA",
+      "browser": "not run",
+      "webAudio": "not run"
+    },
+    "playtime": "1–3分钟",
+    "assets": "全部Canvas程序自绘；无外部图片、字体、CDN"
+  },
+  {
+    "number": 6,
+    "slug": "06-patchwork-village",
+    "description": "给拼布袋房屋缝屋顶、提起鼓肚，移动布屋，再用晾衣绳把花布街道连起来。",
+    "newMechanics": [
+      "缝合进度决定软屋顶的线迹与松垂量",
+      "布袋鼓度改变建筑主体侧面曲率，状态保持",
+      "晾布绳以房屋为端点，搬屋后拓扑与布片数量保留",
+      "最多7间各有颜色和补片的屋；暖风只推动已晾布片"
+    ],
+    "artDirection": [
+      "奶油亚麻底、浅绿绗缝丘陵与纽扣太阳",
+      "三间圆鼓布屋，不等形余布、针脚和门窗口袋",
+      "织纹经纬、格纹斜纹与十字小绣，曲边缝线层层可见"
+    ],
+    "testPlan": [
+      {
+        "control": "sew",
+        "from": [
+          0.51,
+          0.5
+        ],
+        "to": [
+          0.64,
+          0.5
+        ]
+      },
+      {
+        "control": "puff",
+        "from": [
+          0.51,
+          0.62
+        ],
+        "to": [
+          0.51,
+          0.48
+        ]
+      },
+      {
+        "control": "line",
+        "from": [
+          0.25,
+          0.66
+        ],
+        "to": [
+          0.78,
+          0.65
+        ]
+      },
+      {
+        "control": "move",
+        "from": [
+          0.51,
+          0.62
+        ],
+        "to": [
+          0.56,
+          0.56
+        ]
+      },
+      {
+        "control": "new",
+        "clickOnly": true
+      },
+      {
+        "control": "wind",
+        "clickOnly": true
+      }
+    ],
+    "stateFields": {
+      "houses": "初始3，添屋最多7",
+      "clotheslines": "初始2，连两侧屋后3",
+      "roofStitches": "走针后增长",
+      "selectedRoof": "所选屋缝合进度0–1",
+      "selectedPuff": "所选屋鼓度0.08–1.25",
+      "hangingCloths": "由实际晾绳布片求和",
+      "wind": "暖风开关"
+    },
+    "references": [
+      {
+        "title": "V&A An introduction to quilting and patchwork；Bed cover, England, 1860–1870, T.427-1980",
+        "url": "https://www.vam.ac.uk/articles/an-introduction-to-quilting-and-patchwork",
+        "image": "https://vanda-production-assets.s3.amazonaws.com/2017/08/16/13/56/16/6d97ff17-13e2-4469-8489-519005f37031/patchwork-cover.jpg",
+        "license": "© Victoria and Albert Museum, London；只观察，不嵌入或重制馆藏图",
+        "observed": "实际查看320×390馆藏像素：深底上短面料片用明暗组成密集小立方体，各片本身有碎花与条纹；观察到色块与织纹的两层尺度。本作以软袋建筑及不规则大补片代替原作规则立方重复。"
+      }
+    ],
+    "difference": "不同于14折锦、18拼色折幕的几何纸片和21绣球礼焰的放射珠线：这里是带窗门、屋顶、布袋鼓肚的具体软建筑，缝合、鼓布和晾衣拓扑共同构成街景。",
+    "title": "织袋小镇",
+    "subtitle": "把余布缝成房子，鼓起口袋，再拉一条晒着花布的街。",
+    "ui": {
+      "bg": "#e9ddc5",
+      "ink": "#556553",
+      "accent": "#b8694f"
+    },
+    "controls": [
+      {
+        "id": "sew",
+        "label": "缝上软屋顶"
+      },
+      {
+        "id": "puff",
+        "label": "提起鼓布袋"
+      },
+      {
+        "id": "line",
+        "label": "牵晾布绳"
+      },
+      {
+        "id": "move",
+        "label": "搬动布屋"
+      },
+      {
+        "id": "new",
+        "label": "添一间小屋"
+      },
+      {
+        "id": "wind",
+        "label": "吹一阵暖风"
+      }
+    ],
+    "verification": {
+      "syntax": "node --check passed",
+      "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+      "interaction": "direct ART API simulation, not browser QA",
+      "browser": "not run",
+      "webAudio": "not run"
+    },
+    "playtime": "1–3分钟",
+    "assets": "全部Canvas程序自绘；无外部图片、字体、CDN"
+  }
+]

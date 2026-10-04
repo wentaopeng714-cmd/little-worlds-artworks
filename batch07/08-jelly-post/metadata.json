@@ -1,0 +1,162 @@
+{
+  "slug": "08-jelly-post",
+  "file": "08-jelly-post.js",
+  "number": 8,
+  "title": "果冻邮差",
+  "steps": [
+    "点击左侧信件，或把它们拖进巨嘴；肚子保存每封邮票图案",
+    "换邮票后点信，尝试太阳/波浪/水滴对步频、摇摆与腹围的影响",
+    "拉一长一短的腿；搬动邮箱，连接线随位置改变",
+    "编邮路时按顺序点邮箱；出发送信，查看匹配投递与回执",
+    "路线遗漏某图案时会停下；补入对应邮箱继续送完"
+  ],
+  "referenceUrls": [
+    "https://www.tomiungerer.com/posters",
+    "https://www.metmuseum.org/art/collection/search/483153"
+  ],
+  "observations": [
+    "实际查看Ungerer《Too Far to Walk》像素：巨型折腿、平面牌块和大量留白，转化为原创邮差的长腿剪影。",
+    "实际查看Klee《Ventriloquist and Crier in the Moor》像素：粉色透明身体里住着细线小兽，浅蓝横带穿过腹部。只转译内部小物件构成叙事，未复刻图案。"
+  ],
+  "license": "Ungerer由Estate保留版权；Met标注ARS版权及图片限制。参考图片未嵌入成品，不随包分发。全部角色、邮箱、邮票与颗粒为原创Canvas。",
+  "historyDifference": "与果汁雷客吸饮料/压力值不同，这里有实体库存、带类型的腹中清单、可移动目的地、可编辑路线和匹配交付。",
+  "testPlan": [
+    {
+      "action": "feed",
+      "clicks": [
+        [
+          0.115,
+          0.38
+        ],
+        [
+          0.115,
+          0.495
+        ]
+      ],
+      "from": [
+        0.115,
+        0.61
+      ],
+      "to": [
+        0.47,
+        0.33
+      ],
+      "expect": "belly=3，bellyStamps=[0,1,2]"
+    },
+    {
+      "action": "legs",
+      "from": [
+        0.43,
+        0.71
+      ],
+      "to": [
+        0.4,
+        0.81
+      ],
+      "expect": "legs[0]=1.4"
+    },
+    {
+      "action": "stamp",
+      "clicks": [
+        [
+          0.115,
+          0.38
+        ]
+      ],
+      "expect": "trayStamps[0]=1；feed后belly=4"
+    },
+    {
+      "action": "box",
+      "from": [
+        0.79,
+        0.27
+      ],
+      "to": [
+        0.73,
+        0.31
+      ],
+      "expect": "boxes[0]坐标改变"
+    },
+    {
+      "action": "route",
+      "clicks": [
+        [
+          0.29,
+          0.75
+        ],
+        [
+          0.82,
+          0.62
+        ],
+        [
+          0.73,
+          0.31
+        ]
+      ],
+      "expect": "route=[2,1,0]"
+    },
+    {
+      "action": "deliver",
+      "advanceSeconds": 90,
+      "expect": "实际提前完成，totalDelivered=4、belly=0、running=false，邮箱计数1/2/1"
+    }
+  ],
+  "limits": {
+    "belly": 9,
+    "route": 8,
+    "receipts": 14,
+    "flyLetters": 30
+  },
+  "stateFields": [
+    "belly",
+    "bellyStamps",
+    "trayStamps",
+    "legs",
+    "boxes",
+    "route",
+    "running",
+    "totalFed",
+    "totalDelivered",
+    "receiptCount"
+  ],
+  "instructionsFile": "08-果冻邮差-说明.md",
+  "subtitle": "邮票住进透明肚子，长短腿走出自己编的邮路",
+  "palette": {
+    "bg": "#c3e4d3",
+    "ink": "#193b35",
+    "accent": "#ee593a"
+  },
+  "tools": [
+    {
+      "id": "feed",
+      "label": "吞信"
+    },
+    {
+      "id": "legs",
+      "label": "拉长腿"
+    },
+    {
+      "id": "stamp",
+      "label": "换邮票"
+    },
+    {
+      "id": "box",
+      "label": "搬邮箱"
+    },
+    {
+      "id": "route",
+      "label": "编邮路"
+    },
+    {
+      "id": "deliver",
+      "label": "出发送信"
+    }
+  ],
+  "qa": {
+    "browser": "passed_20_total_cases",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "touchHardware": "not_run",
+    "humanListening": "not_run"
+  }
+}

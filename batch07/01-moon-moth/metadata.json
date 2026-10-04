@@ -1,0 +1,126 @@
+{
+  "number": 1,
+  "slug": "01-moon-moth",
+  "title": "绒羽月蛾",
+  "description": "牵针塑出四片独立绒翅，压粉眼斑、折翅，再留下多只月蛾。",
+  "ui": {
+    "bg": "#14282d",
+    "ink": "#dfddba",
+    "accent": "#a7c1a3"
+  },
+  "controls": [
+    {
+      "id": "needle",
+      "label": "牵针塑翅"
+    },
+    {
+      "id": "powder",
+      "label": "压粉眼斑"
+    },
+    {
+      "id": "fold",
+      "label": "折叠翅瓣"
+    },
+    {
+      "id": "mount",
+      "label": "留蛾入册"
+    },
+    {
+      "id": "tint",
+      "label": "换绒染色"
+    }
+  ],
+  "newMechanics": [
+    "四翼独立持久形变",
+    "附着粉眼斑随折翅缩放",
+    "独立折量与再次展开",
+    "最多六只保存造形的标本组合"
+  ],
+  "artDirection": [
+    "墨青夜色标本板与四瓣宽翅",
+    "5600根短绒及内外层纹",
+    "栉状触角、粉眼与克制染色"
+  ],
+  "testPlan": [
+    {
+      "control": "needle",
+      "from": [
+        0.18,
+        0.22
+      ],
+      "to": [
+        0.11,
+        0.16
+      ]
+    },
+    {
+      "control": "powder",
+      "from": [
+        0.33,
+        0.34
+      ],
+      "to": [
+        0.33,
+        0.34
+      ]
+    },
+    {
+      "control": "fold",
+      "from": [
+        0.68,
+        0.34
+      ],
+      "to": [
+        0.68,
+        0.34
+      ]
+    },
+    {
+      "control": "mount",
+      "buttonOnly": true
+    }
+  ],
+  "stateFields": {
+    "pulls": "拖针后>0",
+    "powderMarks": "压粉后增加",
+    "foldedWings": "点折后增加",
+    "moths": "留存后2，最大6",
+    "mounts": "留存后1以上"
+  },
+  "file": "01-moon-moth.js",
+  "references": [
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/20-fiber-snowcrystals/母本与新作对照.jpg",
+      "inspectedPixels": true
+    },
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/21-embroidered-fireflowers/母本与新作对照.jpg",
+      "inspectedPixels": true
+    },
+    {
+      "kind": "authorized_local_comparison",
+      "path": "../dist/batch06/22-metal-ripple-curtain/母本与新作对照.jpg",
+      "inspectedPixels": true
+    }
+  ],
+  "license": "本次独立自绘Canvas，无复制外部资产；所观察的既有本地对照图只供授权参考，不主张其许可状态。",
+  "qa": {
+    "syntax": "passed",
+    "nodeRender": "passed",
+    "nodeStateAssertions": "passed",
+    "resizeStatePreserved": "passed",
+    "cleanReset": "passed",
+    "browser": "passed_20_total_cases",
+    "touchHardware": "not_run",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "humanListening": "not_run"
+  },
+  "canonicalArtboard": [
+    1000,
+    740
+  ],
+  "testPlanCoordinates": "归一化坐标基于1000×740画板；其他比例需用等比居中映射。"
+}

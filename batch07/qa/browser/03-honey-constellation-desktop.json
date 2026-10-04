@@ -1,0 +1,4784 @@
+{
+  "slug": "03-honey-constellation",
+  "device": "desktop",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/03-honey-constellation/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 1.2,
+        "wallSeconds": 1.2,
+        "trusted": 10,
+        "downs": 1,
+        "moves": 8,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 68,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.035506673771129246,
+          "fx": 0.00006777121659331454,
+          "out": 0.02418990130410261,
+          "musicPeak": 0.035506673771129246,
+          "fxPeak": 0.004950429423845637,
+          "outPeak": 0.02418990130410261,
+          "musicCount": 2,
+          "fxCount": 2,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 4,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 6,
+          "createdBridges": 1,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 2,
+        "wallSeconds": 2,
+        "trusted": 20,
+        "downs": 2,
+        "moves": 16,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007322373228454826,
+          "fx": 0,
+          "out": 0.004979213847557471,
+          "musicPeak": 0.035506673771129246,
+          "fxPeak": 0.004950429423845637,
+          "outPeak": 0.02418990130410261,
+          "musicCount": 3,
+          "fxCount": 4,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 6,
+          "createdBridges": 1,
+          "severedBridges": 0,
+          "drops": 5,
+          "drips": 1,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 2.6,
+        "wallSeconds": 2.6,
+        "trusted": 30,
+        "downs": 3,
+        "moves": 24,
+        "actions": 3,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0026194637942851674,
+          "fx": 0.0000680936773624512,
+          "out": 0.001785797248334992,
+          "musicPeak": 0.035506673771129246,
+          "fxPeak": 0.041858189720785144,
+          "outPeak": 0.027973050667065003,
+          "musicCount": 4,
+          "fxCount": 7,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 1,
+          "severedBridges": 2,
+          "drops": 9,
+          "drips": 1,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 3.4,
+        "wallSeconds": 3.4,
+        "trusted": 40,
+        "downs": 4,
+        "moves": 32,
+        "actions": 4,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01421745499659992,
+          "fx": 0,
+          "out": 0.009667869470774642,
+          "musicPeak": 0.03906630011900689,
+          "fxPeak": 0.041858189720785144,
+          "outPeak": 0.027973050667065003,
+          "musicCount": 6,
+          "fxCount": 12,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 1,
+          "severedBridges": 2,
+          "drops": 9,
+          "drips": 1,
+          "crystallisedDrops": 3,
+          "turns": 1,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              220,
+              266,
+              -0.06
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 3.5,
+        "wallSeconds": 3.5,
+        "trusted": 41,
+        "downs": 4,
+        "moves": 32,
+        "actions": 5,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0069038112933876026,
+          "fx": 0.005834553958911868,
+          "out": 0.006149377947027808,
+          "musicPeak": 0.03906630011900689,
+          "fxPeak": 0.041858189720785144,
+          "outPeak": 0.027973050667065003,
+          "musicCount": 6,
+          "fxCount": 13,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 1,
+          "severedBridges": 2,
+          "drops": 9,
+          "drips": 1,
+          "crystallisedDrops": 5,
+          "turns": 1,
+          "amberPasses": 1,
+          "hardenedBridges": 4,
+          "nestPoses": [
+            [
+              220,
+              266,
+              -0.06
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 7.6,
+        "wallSeconds": 7.6,
+        "trusted": 151,
+        "downs": 5,
+        "moves": 40,
+        "actions": 105,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03906630011900689,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03315529157331086,
+          "musicCount": 12,
+          "fxCount": 33,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 1,
+          "severedBridges": 2,
+          "drops": 9,
+          "drips": 1,
+          "crystallisedDrops": 9,
+          "turns": 2,
+          "amberPasses": 21,
+          "hardenedBridges": 4,
+          "nestPoses": [
+            [
+              220,
+              266,
+              -0.06
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.569
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 7.8,
+        "wallSeconds": 7.8,
+        "trusted": 152,
+        "downs": 5,
+        "moves": 40,
+        "actions": 105,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03906630011900689,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03315529157331086,
+          "musicCount": 12,
+          "fxCount": 33,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 9.2,
+        "wallSeconds": 9.2,
+        "trusted": 172,
+        "downs": 7,
+        "moves": 56,
+        "actions": 105,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03906630011900689,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03315529157331086,
+          "musicCount": 13,
+          "fxCount": 34,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 9.4,
+        "wallSeconds": 9.4,
+        "trusted": 173,
+        "downs": 7,
+        "moves": 56,
+        "actions": 105,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03906630011900689,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03315529157331086,
+          "musicCount": 13,
+          "fxCount": 34,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 10.7,
+        "wallSeconds": 10.7,
+        "trusted": 193,
+        "downs": 9,
+        "moves": 72,
+        "actions": 105,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03906630011900689,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03315529157331086,
+          "musicCount": 14,
+          "fxCount": 35,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 10.9,
+        "wallSeconds": 10.9,
+        "trusted": 194,
+        "downs": 9,
+        "moves": 72,
+        "actions": 105,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03906630011900689,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03315529157331086,
+          "musicCount": 14,
+          "fxCount": 35,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 13.3,
+        "wallSeconds": 13.3,
+        "trusted": 223,
+        "downs": 12,
+        "moves": 96,
+        "actions": 106,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02789288753766991,
+          "fx": 0.00005956760842123556,
+          "out": 0.018961037375561873,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03559015904214537,
+          "musicCount": 19,
+          "fxCount": 40,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 7,
+          "createdBridges": 2,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 14.6,
+        "wallSeconds": 14.6,
+        "trusted": 242,
+        "downs": 14,
+        "moves": 112,
+        "actions": 107,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.002513642515502415,
+          "fx": 0,
+          "out": 0.0017092769303754347,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03559015904214537,
+          "musicCount": 21,
+          "fxCount": 44,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 8,
+          "createdBridges": 3,
+          "severedBridges": 0,
+          "drops": 5,
+          "drips": 1,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 16.1,
+        "wallSeconds": 16.1,
+        "trusted": 261,
+        "downs": 16,
+        "moves": 128,
+        "actions": 108,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0038226971217699204,
+          "fx": 0,
+          "out": 0.0025994340738987273,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.042792382155358,
+          "outPeak": 0.03559015904214537,
+          "musicCount": 24,
+          "fxCount": 52,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 6,
+          "createdBridges": 3,
+          "severedBridges": 2,
+          "drops": 18,
+          "drips": 10,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 17.5,
+        "wallSeconds": 17.5,
+        "trusted": 280,
+        "downs": 18,
+        "moves": 144,
+        "actions": 109,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.017718973471602235,
+          "fx": 0,
+          "out": 0.01204890212746597,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.0688539678631485,
+          "outPeak": 0.04593441336994048,
+          "musicCount": 27,
+          "fxCount": 60,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 3,
+          "severedBridges": 6,
+          "drops": 26,
+          "drips": 10,
+          "crystallisedDrops": 3,
+          "turns": 1,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              220,
+              266,
+              -0.06
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 18.5,
+        "wallSeconds": 18.5,
+        "trusted": 290,
+        "downs": 19,
+        "moves": 152,
+        "actions": 110,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.024693135607719876,
+          "fx": 0.0010947616505480324,
+          "out": 0.016810315723124383,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.0688539678631485,
+          "outPeak": 0.04593441336994048,
+          "musicCount": 29,
+          "fxCount": 66,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 3,
+          "severedBridges": 6,
+          "drops": 26,
+          "drips": 10,
+          "crystallisedDrops": 14,
+          "turns": 2,
+          "amberPasses": 1,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              -0.44
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 19.9,
+        "wallSeconds": 19.9,
+        "trusted": 309,
+        "downs": 21,
+        "moves": 168,
+        "actions": 111,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004741903941804412,
+          "fx": 0.00016964140749614276,
+          "out": 0.0031862797021248905,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.0688539678631485,
+          "outPeak": 0.04593441336994048,
+          "musicCount": 31,
+          "fxCount": 73,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 3,
+          "createdBridges": 4,
+          "severedBridges": 6,
+          "drops": 26,
+          "drips": 10,
+          "crystallisedDrops": 14,
+          "turns": 3,
+          "amberPasses": 1,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              -0.821
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 21.2,
+        "wallSeconds": 21.1,
+        "trusted": 328,
+        "downs": 23,
+        "moves": 184,
+        "actions": 112,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01466300774483271,
+          "fx": 0,
+          "out": 0.009970845403077558,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04593441336994048,
+          "musicCount": 34,
+          "fxCount": 77,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 5,
+          "severedBridges": 6,
+          "drops": 26,
+          "drips": 11,
+          "crystallisedDrops": 14,
+          "turns": 3,
+          "amberPasses": 1,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              -0.821
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 22.5,
+        "wallSeconds": 22.5,
+        "trusted": 347,
+        "downs": 25,
+        "moves": 200,
+        "actions": 113,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0010335282703435665,
+          "fx": 0,
+          "out": 0.0007027992347455657,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04593441336994048,
+          "musicCount": 36,
+          "fxCount": 83,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 5,
+          "severedBridges": 6,
+          "drops": 26,
+          "drips": 20,
+          "crystallisedDrops": 14,
+          "turns": 3,
+          "amberPasses": 1,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              -0.821
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 23.9,
+        "wallSeconds": 23.9,
+        "trusted": 366,
+        "downs": 27,
+        "moves": 216,
+        "actions": 114,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00836333296133451,
+          "fx": 0,
+          "out": 0.005687066479534673,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 39,
+          "fxCount": 90,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 5,
+          "severedBridges": 8,
+          "drops": 30,
+          "drips": 20,
+          "crystallisedDrops": 14,
+          "turns": 4,
+          "amberPasses": 1,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              1.298
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 24.8,
+        "wallSeconds": 24.8,
+        "trusted": 376,
+        "downs": 28,
+        "moves": 224,
+        "actions": 115,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012612576187110685,
+          "fx": 0.003344685453550069,
+          "out": 0.009327650761141592,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 41,
+          "fxCount": 96,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 5,
+          "severedBridges": 8,
+          "drops": 30,
+          "drips": 20,
+          "crystallisedDrops": 26,
+          "turns": 5,
+          "amberPasses": 2,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              0.918
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 26.2,
+        "wallSeconds": 26.2,
+        "trusted": 395,
+        "downs": 30,
+        "moves": 240,
+        "actions": 116,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0039213238676649815,
+          "fx": 0.000057479531933385275,
+          "out": 0.0026572576947289737,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 43,
+          "fxCount": 103,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 3,
+          "createdBridges": 6,
+          "severedBridges": 8,
+          "drops": 30,
+          "drips": 20,
+          "crystallisedDrops": 26,
+          "turns": 6,
+          "amberPasses": 2,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              0.537
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 27.5,
+        "wallSeconds": 27.5,
+        "trusted": 414,
+        "downs": 32,
+        "moves": 256,
+        "actions": 117,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007345148345581676,
+          "fx": 0,
+          "out": 0.004994700917417908,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 46,
+          "fxCount": 107,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 7,
+          "severedBridges": 8,
+          "drops": 30,
+          "drips": 21,
+          "crystallisedDrops": 26,
+          "turns": 6,
+          "amberPasses": 2,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              0.537
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 28.9,
+        "wallSeconds": 28.9,
+        "trusted": 433,
+        "downs": 34,
+        "moves": 272,
+        "actions": 118,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.025828922433936533,
+          "fx": 0,
+          "out": 0.01756366743735272,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 49,
+          "fxCount": 113,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 7,
+          "severedBridges": 8,
+          "drops": 30,
+          "drips": 30,
+          "crystallisedDrops": 26,
+          "turns": 6,
+          "amberPasses": 2,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              0.537
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 30.3,
+        "wallSeconds": 30.3,
+        "trusted": 452,
+        "downs": 36,
+        "moves": 288,
+        "actions": 119,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004702446940379655,
+          "fx": 0,
+          "out": 0.003197663953568644,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 51,
+          "fxCount": 120,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 7,
+          "severedBridges": 10,
+          "drops": 34,
+          "drips": 30,
+          "crystallisedDrops": 26,
+          "turns": 7,
+          "amberPasses": 2,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              2.656
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 31.3,
+        "wallSeconds": 31.3,
+        "trusted": 462,
+        "downs": 37,
+        "moves": 296,
+        "actions": 120,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0030669612127913206,
+          "fx": 0.0006285888849904764,
+          "out": 0.0020221174120236486,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 53,
+          "fxCount": 126,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 7,
+          "severedBridges": 10,
+          "drops": 34,
+          "drips": 30,
+          "crystallisedDrops": 30,
+          "turns": 8,
+          "amberPasses": 3,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              2.275
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 32.6,
+        "wallSeconds": 32.6,
+        "trusted": 481,
+        "downs": 39,
+        "moves": 312,
+        "actions": 121,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0181315471514702,
+          "fx": 0.00035979250276333444,
+          "out": 0.012372707103856769,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 56,
+          "fxCount": 133,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 3,
+          "createdBridges": 8,
+          "severedBridges": 10,
+          "drops": 34,
+          "drips": 30,
+          "crystallisedDrops": 30,
+          "turns": 9,
+          "amberPasses": 3,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              1.895
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 33.9,
+        "wallSeconds": 33.9,
+        "trusted": 500,
+        "downs": 41,
+        "moves": 328,
+        "actions": 122,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0015636806205642174,
+          "fx": 0,
+          "out": 0.0010633028290542772,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 58,
+          "fxCount": 137,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 9,
+          "severedBridges": 10,
+          "drops": 34,
+          "drips": 31,
+          "crystallisedDrops": 30,
+          "turns": 9,
+          "amberPasses": 3,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              1.895
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 35.3,
+        "wallSeconds": 35.3,
+        "trusted": 519,
+        "downs": 43,
+        "moves": 344,
+        "actions": 123,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.006410318843672614,
+          "fx": 0,
+          "out": 0.004359016858973794,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 61,
+          "fxCount": 143,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 9,
+          "severedBridges": 10,
+          "drops": 34,
+          "drips": 40,
+          "crystallisedDrops": 30,
+          "turns": 9,
+          "amberPasses": 3,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              1.895
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 36.7,
+        "wallSeconds": 36.7,
+        "trusted": 538,
+        "downs": 45,
+        "moves": 360,
+        "actions": 124,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02114019213501268,
+          "fx": 0,
+          "out": 0.014375330819916685,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 64,
+          "fxCount": 150,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 9,
+          "severedBridges": 12,
+          "drops": 38,
+          "drips": 40,
+          "crystallisedDrops": 30,
+          "turns": 10,
+          "amberPasses": 3,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              4.014
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 37.7,
+        "wallSeconds": 37.7,
+        "trusted": 548,
+        "downs": 46,
+        "moves": 368,
+        "actions": 125,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02744835983545585,
+          "fx": 0.0010953878361598434,
+          "out": 0.018794134728657742,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 66,
+          "fxCount": 155,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 9,
+          "severedBridges": 12,
+          "drops": 38,
+          "drips": 40,
+          "crystallisedDrops": 34,
+          "turns": 11,
+          "amberPasses": 4,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              3.633
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 39.1,
+        "wallSeconds": 39.1,
+        "trusted": 567,
+        "downs": 48,
+        "moves": 384,
+        "actions": 126,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0027110454506934895,
+          "fx": 0.000005592506285671858,
+          "out": 0.001843319862806549,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 68,
+          "fxCount": 162,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 3,
+          "createdBridges": 10,
+          "severedBridges": 12,
+          "drops": 38,
+          "drips": 40,
+          "crystallisedDrops": 34,
+          "turns": 12,
+          "amberPasses": 4,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              3.253
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 40.4,
+        "wallSeconds": 40.4,
+        "trusted": 586,
+        "downs": 50,
+        "moves": 400,
+        "actions": 127,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02333150497718925,
+          "fx": 0,
+          "out": 0.015865423543645767,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 71,
+          "fxCount": 166,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 11,
+          "severedBridges": 12,
+          "drops": 38,
+          "drips": 41,
+          "crystallisedDrops": 34,
+          "turns": 12,
+          "amberPasses": 4,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              3.253
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 41.7,
+        "wallSeconds": 41.7,
+        "trusted": 605,
+        "downs": 52,
+        "moves": 416,
+        "actions": 128,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.001968212371355802,
+          "fx": 0,
+          "out": 0.0013383844276043683,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 73,
+          "fxCount": 172,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 11,
+          "severedBridges": 12,
+          "drops": 38,
+          "drips": 50,
+          "crystallisedDrops": 34,
+          "turns": 12,
+          "amberPasses": 4,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              3.253
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 43.2,
+        "wallSeconds": 43.2,
+        "trusted": 624,
+        "downs": 54,
+        "moves": 432,
+        "actions": 129,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0029102703825684344,
+          "fx": 0,
+          "out": 0.0019789838834834185,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 76,
+          "fxCount": 179,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 11,
+          "severedBridges": 14,
+          "drops": 42,
+          "drips": 50,
+          "crystallisedDrops": 34,
+          "turns": 13,
+          "amberPasses": 4,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              5.371
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 44.2,
+        "wallSeconds": 44.1,
+        "trusted": 634,
+        "downs": 55,
+        "moves": 440,
+        "actions": 130,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004954274851047368,
+          "fx": 0.0013177734823374848,
+          "out": 0.003482302791667486,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 78,
+          "fxCount": 185,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 11,
+          "severedBridges": 14,
+          "drops": 42,
+          "drips": 50,
+          "crystallisedDrops": 38,
+          "turns": 14,
+          "amberPasses": 5,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              4.991
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 45.5,
+        "wallSeconds": 45.5,
+        "trusted": 653,
+        "downs": 57,
+        "moves": 456,
+        "actions": 131,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01814859447915105,
+          "fx": 0,
+          "out": 0.012341044326928122,
+          "musicPeak": 0.04353877720053276,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 81,
+          "fxCount": 192,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 3,
+          "createdBridges": 12,
+          "severedBridges": 14,
+          "drops": 42,
+          "drips": 50,
+          "crystallisedDrops": 38,
+          "turns": 15,
+          "amberPasses": 5,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              4.611
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 46.8,
+        "wallSeconds": 46.8,
+        "trusted": 672,
+        "downs": 59,
+        "moves": 472,
+        "actions": 132,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.008123556087952415,
+          "fx": 0,
+          "out": 0.005524018223764609,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 83,
+          "fxCount": 196,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 13,
+          "severedBridges": 14,
+          "drops": 42,
+          "drips": 51,
+          "crystallisedDrops": 38,
+          "turns": 15,
+          "amberPasses": 5,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              4.611
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 48.2,
+        "wallSeconds": 48.2,
+        "trusted": 691,
+        "downs": 61,
+        "moves": 488,
+        "actions": 133,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011699057570512069,
+          "fx": 0,
+          "out": 0.007955359226555355,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 86,
+          "fxCount": 202,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 13,
+          "severedBridges": 14,
+          "drops": 42,
+          "drips": 60,
+          "crystallisedDrops": 38,
+          "turns": 15,
+          "amberPasses": 5,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              4.611
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 49.6,
+        "wallSeconds": 49.6,
+        "trusted": 710,
+        "downs": 63,
+        "moves": 504,
+        "actions": 134,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.035283750862609264,
+          "fx": 0,
+          "out": 0.023992950916136443,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 89,
+          "fxCount": 209,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 13,
+          "severedBridges": 16,
+          "drops": 46,
+          "drips": 60,
+          "crystallisedDrops": 38,
+          "turns": 16,
+          "amberPasses": 5,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              6.729
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 50.8,
+        "wallSeconds": 50.8,
+        "trusted": 720,
+        "downs": 64,
+        "moves": 512,
+        "actions": 135,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.020623293516649956,
+          "fx": 0.0009097174035936274,
+          "out": 0.013997165043899494,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 91,
+          "fxCount": 216,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 13,
+          "severedBridges": 16,
+          "drops": 46,
+          "drips": 60,
+          "crystallisedDrops": 42,
+          "turns": 17,
+          "amberPasses": 6,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              6.349
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 52.2,
+        "wallSeconds": 52.2,
+        "trusted": 739,
+        "downs": 66,
+        "moves": 528,
+        "actions": 136,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0009653602945771487,
+          "fx": 0.000056751477161399185,
+          "out": 0.0006706293505768164,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 93,
+          "fxCount": 223,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 3,
+          "createdBridges": 14,
+          "severedBridges": 16,
+          "drops": 46,
+          "drips": 60,
+          "crystallisedDrops": 42,
+          "turns": 18,
+          "amberPasses": 6,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              5.969
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 53.5,
+        "wallSeconds": 53.5,
+        "trusted": 758,
+        "downs": 68,
+        "moves": 544,
+        "actions": 137,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.006611187261920321,
+          "fx": 0,
+          "out": 0.004495607402571724,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 96,
+          "fxCount": 227,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 15,
+          "severedBridges": 16,
+          "drops": 46,
+          "drips": 61,
+          "crystallisedDrops": 42,
+          "turns": 18,
+          "amberPasses": 6,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              5.969
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 54.9,
+        "wallSeconds": 54.9,
+        "trusted": 777,
+        "downs": 70,
+        "moves": 560,
+        "actions": 138,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.026191196536742747,
+          "fx": 0,
+          "out": 0.017810013802799042,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 99,
+          "fxCount": 233,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 15,
+          "severedBridges": 16,
+          "drops": 46,
+          "drips": 70,
+          "crystallisedDrops": 42,
+          "turns": 18,
+          "amberPasses": 6,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              5.969
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 56.3,
+        "wallSeconds": 56.3,
+        "trusted": 796,
+        "downs": 72,
+        "moves": 576,
+        "actions": 139,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0019460030218238424,
+          "fx": 0,
+          "out": 0.0013232820695632177,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 101,
+          "fxCount": 240,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 15,
+          "severedBridges": 18,
+          "drops": 50,
+          "drips": 70,
+          "crystallisedDrops": 42,
+          "turns": 19,
+          "amberPasses": 6,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              8.087
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 57.2,
+        "wallSeconds": 57.2,
+        "trusted": 806,
+        "downs": 73,
+        "moves": 584,
+        "actions": 140,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007072209845161584,
+          "fx": 0.0005226661859193364,
+          "out": 0.004841803337251443,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 103,
+          "fxCount": 246,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 15,
+          "severedBridges": 18,
+          "drops": 50,
+          "drips": 70,
+          "crystallisedDrops": 46,
+          "turns": 20,
+          "amberPasses": 7,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              7.707
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 58.8,
+        "wallSeconds": 58.8,
+        "trusted": 825,
+        "downs": 75,
+        "moves": 600,
+        "actions": 141,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003976292117390884,
+          "fx": 0,
+          "out": 0.0027038786657183453,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 106,
+          "fxCount": 254,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 3,
+          "createdBridges": 16,
+          "severedBridges": 18,
+          "drops": 50,
+          "drips": 70,
+          "crystallisedDrops": 46,
+          "turns": 21,
+          "amberPasses": 7,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              7.326
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "drop",
+        "from": [
+          0.5,
+          0.4
+        ],
+        "to": [
+          0.5,
+          0.4
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 60,
+        "wallSeconds": 60,
+        "trusted": 844,
+        "downs": 77,
+        "moves": 616,
+        "actions": 142,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.033048496756225516,
+          "fx": 0,
+          "out": 0.022472978025844075,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 109,
+          "fxCount": 258,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 17,
+          "severedBridges": 18,
+          "drops": 50,
+          "drips": 71,
+          "crystallisedDrops": 46,
+          "turns": 21,
+          "amberPasses": 7,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              7.326
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.42,
+          0.36
+        ],
+        "to": [
+          0.62,
+          0.44
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 61.3,
+        "wallSeconds": 61.3,
+        "trusted": 863,
+        "downs": 79,
+        "moves": 632,
+        "actions": 143,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009800881688100208,
+          "fx": 0,
+          "out": 0.0066645996070825485,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 111,
+          "fxCount": 264,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 4,
+          "createdBridges": 17,
+          "severedBridges": 18,
+          "drops": 50,
+          "drips": 80,
+          "crystallisedDrops": 46,
+          "turns": 21,
+          "amberPasses": 7,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              7.326
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "turn",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.22,
+          0.36
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 62.9,
+        "wallSeconds": 62.9,
+        "trusted": 882,
+        "downs": 81,
+        "moves": 648,
+        "actions": 144,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.005180735736675293,
+          "fx": 0,
+          "out": 0.003522900343645318,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 114,
+          "fxCount": 271,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 17,
+          "severedBridges": 20,
+          "drops": 54,
+          "drips": 80,
+          "crystallisedDrops": 46,
+          "turns": 22,
+          "amberPasses": 7,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              9.445
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "amber",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 63.8,
+        "wallSeconds": 63.8,
+        "trusted": 892,
+        "downs": 82,
+        "moves": 656,
+        "actions": 145,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.017549547005633995,
+          "fx": 0.0023021457813938123,
+          "out": 0.01202104241792926,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 116,
+          "fxCount": 277,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 2,
+          "createdBridges": 17,
+          "severedBridges": 20,
+          "drops": 54,
+          "drips": 80,
+          "crystallisedDrops": 50,
+          "turns": 23,
+          "amberPasses": 8,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              9.065
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "bridge",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.81,
+          0.715
+        ]
+      },
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 65.1,
+        "wallSeconds": 65.1,
+        "trusted": 911,
+        "downs": 84,
+        "moves": 672,
+        "actions": 146,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0017375894624515663,
+          "fx": 0.0002076882527602101,
+          "out": 0.0012400336994910367,
+          "musicPeak": 0.047200807553505385,
+          "fxPeak": 0.07545327928688429,
+          "outPeak": 0.04819133963563455,
+          "musicCount": 118,
+          "fxCount": 284,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 3,
+          "createdBridges": 18,
+          "severedBridges": 20,
+          "drops": 54,
+          "drips": 80,
+          "crystallisedDrops": 50,
+          "turns": 24,
+          "amberPasses": 8,
+          "hardenedBridges": 2,
+          "nestPoses": [
+            [
+              220,
+              266,
+              8.684
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "7467381847e23c819ee607d42154a7febbb368ae0a8a117081dc76b93ad00f38",
+  "initial": {
+    "title": "蜜糖星巢",
+    "elapsed": 0.3,
+    "wallSeconds": 0.3,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 65,
+    "maxFrameMs": 27,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "mode": "bridge",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 5,
+      "createdBridges": 0,
+      "severedBridges": 0,
+      "drops": 4,
+      "drips": 0,
+      "crystallisedDrops": 3,
+      "turns": 0,
+      "amberPasses": 0,
+      "hardenedBridges": 0,
+      "nestPoses": [
+        [
+          280,
+          229,
+          -0.18
+        ],
+        [
+          690,
+          208,
+          0.23
+        ],
+        [
+          515,
+          470,
+          0.06
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "蜜糖星巢",
+    "elapsed": 3.7,
+    "wallSeconds": 3.7,
+    "trusted": 41,
+    "downs": 4,
+    "moves": 32,
+    "actions": 5,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 75,
+    "maxFrameMs": 76,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.0014491811025100316,
+      "fx": 0,
+      "out": 0.0009854431583825882,
+      "musicPeak": 0.03906630011900689,
+      "fxPeak": 0.041858189720785144,
+      "outPeak": 0.027973050667065003,
+      "musicCount": 6,
+      "fxCount": 13,
+      "activeVoices": 2,
+      "connectedNodes": 10,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "mode": "turn",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 4,
+      "createdBridges": 1,
+      "severedBridges": 2,
+      "drops": 9,
+      "drips": 1,
+      "crystallisedDrops": 5,
+      "turns": 1,
+      "amberPasses": 1,
+      "hardenedBridges": 4,
+      "nestPoses": [
+        [
+          220,
+          266,
+          -0.06
+        ],
+        [
+          690,
+          208,
+          0.23
+        ],
+        [
+          515,
+          470,
+          0.06
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "蜜糖星巢",
+    "elapsed": 6.6,
+    "wallSeconds": 6.6,
+    "trusted": 139,
+    "downs": 4,
+    "moves": 32,
+    "actions": 103,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 76,
+    "maxFrameMs": 76,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.007377651011358495,
+      "fx": 0.00191467167280813,
+      "out": 0.005196751112077259,
+      "musicPeak": 0.03906630011900689,
+      "fxPeak": 0.042792382155358,
+      "outPeak": 0.03315529157331086,
+      "musicCount": 12,
+      "fxCount": 32,
+      "activeVoices": 4,
+      "connectedNodes": 14,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "mode": "cut",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 4,
+      "createdBridges": 1,
+      "severedBridges": 2,
+      "drops": 9,
+      "drips": 1,
+      "crystallisedDrops": 9,
+      "turns": 1,
+      "amberPasses": 20,
+      "hardenedBridges": 4,
+      "nestPoses": [
+        [
+          220,
+          266,
+          -0.06
+        ],
+        [
+          690,
+          208,
+          0.23
+        ],
+        [
+          515,
+          470,
+          0.06
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "蜜糖星巢",
+    "elapsed": 12.1,
+    "wallSeconds": 12.1,
+    "trusted": 204,
+    "downs": 10,
+    "moves": 80,
+    "actions": 105,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 76,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.008321377001966604,
+      "fx": 0,
+      "out": 0.005658536426562877,
+      "musicPeak": 0.04353877720053276,
+      "fxPeak": 0.042792382155358,
+      "outPeak": 0.03559015904214537,
+      "musicCount": 16,
+      "fxCount": 36,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "mode": "bridge",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 5,
+      "createdBridges": 0,
+      "severedBridges": 0,
+      "drops": 4,
+      "drips": 0,
+      "crystallisedDrops": 3,
+      "turns": 0,
+      "amberPasses": 0,
+      "hardenedBridges": 0,
+      "nestPoses": [
+        [
+          280,
+          229,
+          -0.18
+        ],
+        [
+          690,
+          208,
+          0.23
+        ],
+        [
+          515,
+          470,
+          0.06
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 65.313,
+  "final": {
+    "title": "蜜糖星巢",
+    "elapsed": 65.8,
+    "wallSeconds": 65.8,
+    "trusted": 920,
+    "downs": 85,
+    "moves": 680,
+    "actions": 146,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      1440,
+      728.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 76,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.024538709225739492,
+      "fx": 0.0002076882527602101,
+      "out": 0.016597794935610095,
+      "musicPeak": 0.047200807553505385,
+      "fxPeak": 0.07545327928688429,
+      "outPeak": 0.04819133963563455,
+      "musicCount": 120,
+      "fxCount": 286,
+      "activeVoices": 4,
+      "connectedNodes": 14,
+      "suspended": false,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "mode": "bridge",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 4,
+      "createdBridges": 19,
+      "severedBridges": 20,
+      "drops": 54,
+      "drips": 80,
+      "crystallisedDrops": 50,
+      "turns": 24,
+      "amberPasses": 8,
+      "hardenedBridges": 2,
+      "nestPoses": [
+        [
+          220,
+          266,
+          8.684
+        ],
+        [
+          690,
+          208,
+          0.23
+        ],
+        [
+          515,
+          470,
+          0.06
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 1236,
+      "bottom": 77.6875
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 1333,
+      "bottom": 77.6875
+    },
+    {
+      "text": "存画面",
+      "height": 44,
+      "right": 1416,
+      "bottom": 77.6875
+    },
+    {
+      "text": "拉蜜丝架桥",
+      "height": 44,
+      "right": 128,
+      "bottom": 888
+    },
+    {
+      "text": "点滴结晶",
+      "height": 44,
+      "right": 225,
+      "bottom": 888
+    },
+    {
+      "text": "切开蜜桥",
+      "height": 44,
+      "right": 322,
+      "bottom": 888
+    },
+    {
+      "text": "转巢编排",
+      "height": 44,
+      "right": 419,
+      "bottom": 888
+    },
+    {
+      "text": "凝成蜜珀",
+      "height": 44,
+      "right": 516,
+      "bottom": 888
+    }
+  ],
+  "heap": {
+    "usedSize": 4240648,
+    "totalSize": 7536640,
+    "embedderHeapUsedSize": 3853704,
+    "backingStorageSize": 98286
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 3,
+    "state": "suspended",
+    "qa": {
+      "title": "蜜糖星巢",
+      "elapsed": 66.1,
+      "wallSeconds": 66.1,
+      "trusted": 920,
+      "downs": 85,
+      "moves": 680,
+      "actions": 146,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 77,
+      "maxFrameMs": 76,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.002394201734430823,
+        "fx": 0,
+        "out": 0.0016280571979628647,
+        "musicPeak": 0.047200807553505385,
+        "fxPeak": 0.07545327928688429,
+        "outPeak": 0.04819133963563455,
+        "musicCount": 120,
+        "fxCount": 286,
+        "activeVoices": 3,
+        "connectedNodes": 12,
+        "suspended": false,
+        "maxVoices": 7,
+        "limit": 18
+      },
+      "art": {
+        "mode": "bridge",
+        "nests": 4,
+        "cells": 216,
+        "bridges": 4,
+        "createdBridges": 19,
+        "severedBridges": 20,
+        "drops": 54,
+        "drips": 80,
+        "crystallisedDrops": 50,
+        "turns": 24,
+        "amberPasses": 8,
+        "hardenedBridges": 2,
+        "nestPoses": [
+          [
+            220,
+            266,
+            8.684
+          ],
+          [
+            690,
+            208,
+            0.23
+          ],
+          [
+            515,
+            470,
+            0.06
+          ],
+          [
+            810,
+            529,
+            -0.24
+          ]
+        ]
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

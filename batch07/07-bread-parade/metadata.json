@@ -1,0 +1,125 @@
+{
+  "slug": "07-bread-parade",
+  "file": "07-bread-parade.js",
+  "number": 7,
+  "title": "面包蓬蓬巡游",
+  "steps": [
+    "捏面团：从中部向右下拖，再捏边缘，让轮廓与宽高一起变化",
+    "盖花纹：点面团盖花瓣、麦穗或波纹，印记留在本地坐标",
+    "发酵两次，观察体积逐渐膨胀；烤皮两次比较软弹和硬脆步态",
+    "加入巡游保存完整配方，再做下一只；全队调头重新编排"
+  ],
+  "referenceUrls": [
+    "https://www.nga.gov/artworks/61452-shirt-front-and-fork",
+    "https://www.tomiungerer.com/posters"
+  ],
+  "observations": [
+    "实际查看Arp《Shirt Front and Fork》像素：灰色厚轮廓、偏置圆点、乳白内区与不对称根形产生低浮雕重量。转化为原创面团的厚片轮廓和套印影。",
+    "实际查看Ungerer《Too Far to Walk》像素：黑色巨腿与横向牌面组成角色；借鉴物体与步态合成叙事的一般思路。"
+  ],
+  "license": "参考图不随程序分发。NGA表示该对象媒体不可下载分发；Ungerer官方Estate保留版权。所有成品图形和材质由Canvas原创自绘。",
+  "historyDifference": "不是胖柑/果汁的单角色发声或面具换饰件，而是轮廓塑形→发酵/烤皮→保存多个队员的制作系统。",
+  "testPlan": [
+    {
+      "action": "knead",
+      "from": [
+        0.5,
+        0.405
+      ],
+      "to": [
+        0.63,
+        0.46
+      ],
+      "expect": "kneadMoves>0，width/height/outline改变"
+    },
+    {
+      "action": "stamp",
+      "clicks": [
+        [
+          0.45,
+          0.35
+        ],
+        [
+          0.55,
+          0.45
+        ]
+      ],
+      "expect": "stamps=2"
+    },
+    {
+      "actions": [
+        "rise",
+        "rise",
+        "bake",
+        "bake"
+      ],
+      "advanceSeconds": 3,
+      "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+    },
+    {
+      "actions": [
+        "join",
+        "turn"
+      ],
+      "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+    }
+  ],
+  "limits": {
+    "queue": 7,
+    "stampsPerBread": 24,
+    "confetti": 64
+  },
+  "stateFields": [
+    "kneadMoves",
+    "width",
+    "height",
+    "outline",
+    "stamps",
+    "fermentation",
+    "targetFermentation",
+    "crust",
+    "queueRecipes",
+    "joined",
+    "direction"
+  ],
+  "instructionsFile": "07-面包蓬蓬巡游-说明.md",
+  "subtitle": "把手感捏进面包，让每一种体型走出不同的步子",
+  "palette": {
+    "bg": "#f4ead5",
+    "ink": "#203259",
+    "accent": "#e84933"
+  },
+  "tools": [
+    {
+      "id": "knead",
+      "label": "捏面团"
+    },
+    {
+      "id": "stamp",
+      "label": "盖花纹"
+    },
+    {
+      "id": "rise",
+      "label": "发酵"
+    },
+    {
+      "id": "bake",
+      "label": "烤皮"
+    },
+    {
+      "id": "join",
+      "label": "加入巡游"
+    },
+    {
+      "id": "turn",
+      "label": "全队调头"
+    }
+  ],
+  "qa": {
+    "browser": "passed_20_total_cases",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "touchHardware": "not_run",
+    "humanListening": "not_run"
+  }
+}

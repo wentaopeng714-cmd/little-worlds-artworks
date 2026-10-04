@@ -1,0 +1,522 @@
+{
+  "batch": "07",
+  "group": "characters",
+  "api": "window.ART = {title,subtitle,palette,tools,init,draw,pointer,action,stats}",
+  "rendering": "Canvas 2D; CSS pixels; host manages DPR; t/dt seconds; pointer normalised to full canvas",
+  "assetPolicy": "100% original procedural Canvas, no embedded external reference images, fonts or network dependency",
+  "validation": {
+    "syntax": "node --check passed for all four",
+    "offlineCanvas": "@napi-rs/canvas real offscreen render inspected at desktop and narrow dimensions",
+    "stateChecks": "07/08 state-check and bounds-check; 09/10 independent state, resize, reset, bounded-array tests",
+    "browserQA": "Not performed. Real browser events, touch and WebAudio remain unverified."
+  },
+  "items": [
+    {
+      "slug": "07-bread-parade",
+      "file": "07-bread-parade.js",
+      "number": 7,
+      "title": "面包蓬蓬巡游",
+      "steps": [
+        "捏面团：从中部向右下拖，再捏边缘，让轮廓与宽高一起变化",
+        "盖花纹：点面团盖花瓣、麦穗或波纹，印记留在本地坐标",
+        "发酵两次，观察体积逐渐膨胀；烤皮两次比较软弹和硬脆步态",
+        "加入巡游保存完整配方，再做下一只；全队调头重新编排"
+      ],
+      "referenceUrls": [
+        "https://www.nga.gov/artworks/61452-shirt-front-and-fork",
+        "https://www.tomiungerer.com/posters"
+      ],
+      "observations": [
+        "实际查看Arp《Shirt Front and Fork》像素：灰色厚轮廓、偏置圆点、乳白内区与不对称根形产生低浮雕重量。转化为原创面团的厚片轮廓和套印影。",
+        "实际查看Ungerer《Too Far to Walk》像素：黑色巨腿与横向牌面组成角色；借鉴物体与步态合成叙事的一般思路。"
+      ],
+      "license": "参考图不随程序分发。NGA表示该对象媒体不可下载分发；Ungerer官方Estate保留版权。所有成品图形和材质由Canvas原创自绘。",
+      "historyDifference": "不是胖柑/果汁的单角色发声或面具换饰件，而是轮廓塑形→发酵/烤皮→保存多个队员的制作系统。",
+      "testPlan": [
+        {
+          "action": "knead",
+          "from": [
+            0.5,
+            0.405
+          ],
+          "to": [
+            0.63,
+            0.46
+          ],
+          "expect": "kneadMoves>0，width/height/outline改变"
+        },
+        {
+          "action": "stamp",
+          "clicks": [
+            [
+              0.45,
+              0.35
+            ],
+            [
+              0.55,
+              0.45
+            ]
+          ],
+          "expect": "stamps=2"
+        },
+        {
+          "actions": [
+            "rise",
+            "rise",
+            "bake",
+            "bake"
+          ],
+          "advanceSeconds": 3,
+          "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+        },
+        {
+          "actions": [
+            "join",
+            "turn"
+          ],
+          "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+        }
+      ],
+      "limits": {
+        "queue": 7,
+        "stampsPerBread": 24,
+        "confetti": 64
+      },
+      "stateFields": [
+        "kneadMoves",
+        "width",
+        "height",
+        "outline",
+        "stamps",
+        "fermentation",
+        "targetFermentation",
+        "crust",
+        "queueRecipes",
+        "joined",
+        "direction"
+      ],
+      "instructionsFile": "07-面包蓬蓬巡游-说明.md",
+      "subtitle": "把手感捏进面包，让每一种体型走出不同的步子",
+      "palette": {
+        "bg": "#f4ead5",
+        "ink": "#203259",
+        "accent": "#e84933"
+      },
+      "tools": [
+        {
+          "id": "knead",
+          "label": "捏面团"
+        },
+        {
+          "id": "stamp",
+          "label": "盖花纹"
+        },
+        {
+          "id": "rise",
+          "label": "发酵"
+        },
+        {
+          "id": "bake",
+          "label": "烤皮"
+        },
+        {
+          "id": "join",
+          "label": "加入巡游"
+        },
+        {
+          "id": "turn",
+          "label": "全队调头"
+        }
+      ]
+    },
+    {
+      "slug": "08-jelly-post",
+      "file": "08-jelly-post.js",
+      "number": 8,
+      "title": "果冻邮差",
+      "steps": [
+        "点击左侧信件，或把它们拖进巨嘴；肚子保存每封邮票图案",
+        "换邮票后点信，尝试太阳/波浪/水滴对步频、摇摆与腹围的影响",
+        "拉一长一短的腿；搬动邮箱，连接线随位置改变",
+        "编邮路时按顺序点邮箱；出发送信，查看匹配投递与回执",
+        "路线遗漏某图案时会停下；补入对应邮箱继续送完"
+      ],
+      "referenceUrls": [
+        "https://www.tomiungerer.com/posters",
+        "https://www.metmuseum.org/art/collection/search/483153"
+      ],
+      "observations": [
+        "实际查看Ungerer《Too Far to Walk》像素：巨型折腿、平面牌块和大量留白，转化为原创邮差的长腿剪影。",
+        "实际查看Klee《Ventriloquist and Crier in the Moor》像素：粉色透明身体里住着细线小兽，浅蓝横带穿过腹部。只转译内部小物件构成叙事，未复刻图案。"
+      ],
+      "license": "Ungerer由Estate保留版权；Met标注ARS版权及图片限制。参考图片未嵌入成品，不随包分发。全部角色、邮箱、邮票与颗粒为原创Canvas。",
+      "historyDifference": "与果汁雷客吸饮料/压力值不同，这里有实体库存、带类型的腹中清单、可移动目的地、可编辑路线和匹配交付。",
+      "testPlan": [
+        {
+          "action": "feed",
+          "clicks": [
+            [
+              0.115,
+              0.38
+            ],
+            [
+              0.115,
+              0.495
+            ]
+          ],
+          "from": [
+            0.115,
+            0.61
+          ],
+          "to": [
+            0.47,
+            0.33
+          ],
+          "expect": "belly=3，bellyStamps=[0,1,2]"
+        },
+        {
+          "action": "legs",
+          "from": [
+            0.43,
+            0.71
+          ],
+          "to": [
+            0.4,
+            0.81
+          ],
+          "expect": "legs[0]=1.4"
+        },
+        {
+          "action": "stamp",
+          "clicks": [
+            [
+              0.115,
+              0.38
+            ]
+          ],
+          "expect": "trayStamps[0]=1；feed后belly=4"
+        },
+        {
+          "action": "box",
+          "from": [
+            0.79,
+            0.27
+          ],
+          "to": [
+            0.73,
+            0.31
+          ],
+          "expect": "boxes[0]坐标改变"
+        },
+        {
+          "action": "route",
+          "clicks": [
+            [
+              0.29,
+              0.75
+            ],
+            [
+              0.82,
+              0.62
+            ],
+            [
+              0.73,
+              0.31
+            ]
+          ],
+          "expect": "route=[2,1,0]"
+        },
+        {
+          "action": "deliver",
+          "advanceSeconds": 90,
+          "expect": "实际提前完成，totalDelivered=4、belly=0、running=false，邮箱计数1/2/1"
+        }
+      ],
+      "limits": {
+        "belly": 9,
+        "route": 8,
+        "receipts": 14,
+        "flyLetters": 30
+      },
+      "stateFields": [
+        "belly",
+        "bellyStamps",
+        "trayStamps",
+        "legs",
+        "boxes",
+        "route",
+        "running",
+        "totalFed",
+        "totalDelivered",
+        "receiptCount"
+      ],
+      "instructionsFile": "08-果冻邮差-说明.md",
+      "subtitle": "邮票住进透明肚子，长短腿走出自己编的邮路",
+      "palette": {
+        "bg": "#c3e4d3",
+        "ink": "#193b35",
+        "accent": "#ee593a"
+      },
+      "tools": [
+        {
+          "id": "feed",
+          "label": "吞信"
+        },
+        {
+          "id": "legs",
+          "label": "拉长腿"
+        },
+        {
+          "id": "stamp",
+          "label": "换邮票"
+        },
+        {
+          "id": "box",
+          "label": "搬邮箱"
+        },
+        {
+          "id": "route",
+          "label": "编邮路"
+        },
+        {
+          "id": "deliver",
+          "label": "出发送信"
+        }
+      ]
+    },
+    {
+      "slug": "09-sardine-salon",
+      "file": "09-sardine-salon.js",
+      "number": 9,
+      "title": "沙丁鱼理发铺",
+      "steps": [
+        "梳头鳍：在鱼背顶部拖出高低与倾斜，每一根鳍独立保存",
+        "剪胡须：在嘴角点按/拖动，局部胡须真正变短",
+        "夹发卷：点头鳍夹卷，再点同处拆卷",
+        "换下一位：完整发型进入最多四位的合照队列",
+        "给不同顾客做不同造型，打开队列合照对比"
+      ],
+      "referenceUrls": [
+        "https://www.clevelandart.org/art/1973.142"
+      ],
+      "observations": [
+        "已实际查看Homer《Leaping Trout》1889官方像素：鱼腹发白、背部近黑、细红斑、下方横向白色水痕。转换为原创条纹鱼上的自绘刮线、纸纹与珊瑚色小斑，未复制作品。"
+      ],
+      "license": "Cleveland官方页明确允许复制、修改、分发此作品；成品仍未使用原图，所有图形由Canvas原创绘制。",
+      "historyDifference": "不是海葵/章鱼节拍角色或换色面板；剪、梳、卷持续编辑真实几何，完成造型深拷贝进入客户合照。",
+      "testPlan": [
+        {
+          "action": "comb",
+          "from": [
+            0.44,
+            0.23
+          ],
+          "to": [
+            0.49,
+            0.14
+          ],
+          "expect": "combMoves>0，fin改变"
+        },
+        {
+          "action": "scissors",
+          "clicks": [
+            [
+              0.744,
+              0.56
+            ],
+            [
+              0.73,
+              0.55
+            ]
+          ],
+          "intervalMs": 110,
+          "expect": "snips>0，beardLengths缩短"
+        },
+        {
+          "action": "rollers",
+          "clicks": [
+            [
+              0.45,
+              0.23
+            ]
+          ],
+          "expect": "rollerChanges>0，fin某项curl=true"
+        },
+        {
+          "action": "next",
+          "expect": "customersServed=1，portraits[0].fin/beardLengths等于换客前"
+        },
+        {
+          "action": "photo",
+          "expect": "photoMode=true"
+        }
+      ],
+      "testCoordinates": "09/10 testPlan归一化坐标基于1000×700等比内容框；宽高比不同须按view居中留白换算。",
+      "limits": {
+        "portraits": 4,
+        "particles": 65,
+        "finRibs": 15,
+        "beardStrands": 8
+      },
+      "stateFields": [
+        "customersServed",
+        "snips",
+        "combMoves",
+        "rollerChanges",
+        "currentEdits",
+        "fin",
+        "beardLengths",
+        "portraits",
+        "photoMode",
+        "particleCount"
+      ],
+      "instructionsFile": "09-sardine-salon.zh.md",
+      "subtitle": "每一撮怪发型，都值得一张合照。",
+      "palette": {
+        "bg": "#eee5cd",
+        "ink": "#183f64",
+        "accent": "#d77458"
+      },
+      "tools": [
+        {
+          "id": "scissors",
+          "label": "剪胡须"
+        },
+        {
+          "id": "comb",
+          "label": "梳头鳍"
+        },
+        {
+          "id": "rollers",
+          "label": "夹发卷"
+        },
+        {
+          "id": "next",
+          "label": "换下一位"
+        },
+        {
+          "id": "photo",
+          "label": "队列合照"
+        }
+      ]
+    },
+    {
+      "slug": "10-cloud-tailor",
+      "file": "10-cloud-tailor.js",
+      "number": 10,
+      "title": "云被裁缝",
+      "steps": [
+        "拉云被：拖动被面，网格节点持续变形",
+        "缝月补丁：点被面安放弯月，再点同一补丁可旋转",
+        "开洞漏星：点被面开洞，继续点可扩大；星星持续漏出",
+        "缝好小洞：对洞分次落针，四针后闭合；空白处可自由留针脚",
+        "拖动与折被后，月亮、洞与针脚随被面材料坐标一起移动"
+      ],
+      "referenceUrls": [
+        "https://www.musee-orsay.fr/en/artworks/les-yeux-clos-476"
+      ],
+      "observations": [
+        "已实际查看Redon《Les Yeux clos》1890官方像素：褐发围住斜垂头部、双眼低垂、灰蓝底色、胸口消融于水平亮带。转化为安静大头与横向纤维被面的原创构图。"
+      ],
+      "license": "奥赛官方图像标注RMN-Grand Palais/摄影师版权；仅研究查看，不嵌入或分发。成品夜空、角色、纤维、针脚与网格全为Canvas自绘。",
+      "historyDifference": "不是既有纸蛇、表情纸带或抽象云波；是带材料坐标的可变形被子，洞会漏星、缝合会止漏，角色随保暖状态变化。",
+      "testPlan": [
+        {
+          "action": "moon",
+          "clicks": [
+            [
+              0.52,
+              0.69
+            ]
+          ],
+          "expect": "moonPatches=1"
+        },
+        {
+          "action": "hole",
+          "clicks": [
+            [
+              0.7,
+              0.73
+            ]
+          ],
+          "advanceSeconds": 1,
+          "expect": "openHoles=1，starsEmitted>5"
+        },
+        {
+          "action": "sew",
+          "target": "holes[0].x/1000, holes[0].y/700",
+          "clickCount": 4,
+          "intervalMs": 110,
+          "expect": "openHoles=0，repairs=1"
+        },
+        {
+          "action": "pull",
+          "target": "patches[0]",
+          "deltaPixels": [
+            40,
+            -30
+          ],
+          "expect": "pullMoves>0，补丁位置随被面改变"
+        },
+        {
+          "action": "fold",
+          "expect": "folds=1，补丁及修复记录保留"
+        }
+      ],
+      "testCoordinates": "09/10 testPlan归一化坐标基于1000×700等比内容框；宽高比不同须按view居中留白换算。",
+      "limits": {
+        "moonPatches": 18,
+        "holes": 14,
+        "stars": 80,
+        "looseStitches": 45,
+        "nodes": 66
+      },
+      "stateFields": [
+        "moonPatches",
+        "totalMoonsPlaced",
+        "openHoles",
+        "holesMade",
+        "repairs",
+        "looseStitches",
+        "folds",
+        "foldMode",
+        "pullMoves",
+        "starsEmitted",
+        "liveStars",
+        "patches",
+        "holes",
+        "deformation",
+        "nodeCount"
+      ],
+      "instructionsFile": "10-cloud-tailor.zh.md",
+      "subtitle": "把漏掉的星星，慢慢缝回梦里。",
+      "palette": {
+        "bg": "#202342",
+        "ink": "#ddd9eb",
+        "accent": "#e7ba77"
+      },
+      "tools": [
+        {
+          "id": "pull",
+          "label": "拉云被"
+        },
+        {
+          "id": "moon",
+          "label": "缝月补丁"
+        },
+        {
+          "id": "hole",
+          "label": "开洞漏星"
+        },
+        {
+          "id": "sew",
+          "label": "缝好小洞"
+        },
+        {
+          "id": "fold",
+          "label": "折一折"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7100 @@
+[
+  {
+    "slug": "02-velvet-menagerie",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 0.4,
+        "wallSeconds": 0.5,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 50,
+        "maxFrameMs": 116,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011898320061806375,
+          "fx": 0,
+          "out": 0.008090857726090826,
+          "musicPeak": 0.042352082204433726,
+          "fxPeak": 0.026234411891505365,
+          "outPeak": 0.03329105797348759,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 1,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 562,
+          "averagePile": 13.4,
+          "colour": 0,
+          "revision": 1
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 0.8,
+        "wallSeconds": 0.8,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 61,
+        "maxFrameMs": 116,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.006410679846876304,
+          "fx": 0,
+          "out": 0.004359262355955899,
+          "musicPeak": 0.042352082204433726,
+          "fxPeak": 0.026234411891505365,
+          "outPeak": 0.03329105797348759,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 1,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 562,
+          "averagePile": 13.4,
+          "colour": 0,
+          "revision": 1
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 1,
+        "wallSeconds": 1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 64,
+        "maxFrameMs": 116,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.042352082204433726,
+          "fxPeak": 0.026234411891505365,
+          "outPeak": 0.03329105797348759,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 1,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 562,
+          "averagePile": 13.4,
+          "colour": 0,
+          "revision": 1
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "绒毯兽园",
+      "elapsed": 1.4,
+      "wallSeconds": 1.5,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 69,
+      "maxFrameMs": 116,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.004493097220299421,
+        "fx": 0,
+        "out": 0.0030553061333961845,
+        "musicPeak": 0.042352082204433726,
+        "fxPeak": 0.026234411891505365,
+        "outPeak": 0.03329105797348759,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "shear",
+        "tufts": 13800,
+        "shears": 2,
+        "combs": 0,
+        "grafts": 0,
+        "footprints": 0,
+        "cutTufts": 562,
+        "averagePile": 13.32,
+        "colour": 0,
+        "revision": 2
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "01-moon-moth",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 0.5,
+        "wallSeconds": 0.5,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 56,
+        "maxFrameMs": 113,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010917678153801609,
+          "fx": 0,
+          "out": 0.007424021244378527,
+          "musicPeak": 0.031395375977757385,
+          "fxPeak": 0.003979399423891629,
+          "outPeak": 0.021640273523027703,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 0.7,
+        "wallSeconds": 0.7,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 64,
+        "maxFrameMs": 113,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.007844473387499832,
+          "fx": 0,
+          "out": 0.005334241976559855,
+          "musicPeak": 0.031395375977757385,
+          "fxPeak": 0.003979399423891629,
+          "outPeak": 0.021640273523027703,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 1,
+        "wallSeconds": 1.1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 67,
+        "maxFrameMs": 113,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.031395375977757385,
+          "fxPeak": 0.003979399423891629,
+          "outPeak": 0.021640273523027703,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "绒羽月蛾",
+      "elapsed": 1.4,
+      "wallSeconds": 1.4,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 70,
+      "maxFrameMs": 113,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.007119239911752863,
+        "fx": 0,
+        "out": 0.0048410831935318055,
+        "musicPeak": 0.03549016231721826,
+        "fxPeak": 0.03048613672552838,
+        "outPeak": 0.034184136873640754,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "needle",
+        "moths": 1,
+        "active": 0,
+        "pulls": 0,
+        "powderMarks": 0,
+        "powderApplied": 0,
+        "folds": 0,
+        "foldedWings": 0,
+        "mounts": 0,
+        "dyes": 0,
+        "wingPins": [
+          [
+            -340,
+            -183
+          ],
+          [
+            -243,
+            207
+          ],
+          [
+            340,
+            -183
+          ],
+          [
+            243,
+            207
+          ]
+        ],
+        "foldAmount": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "01-moon-moth",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 0.5,
+        "wallSeconds": 0.5,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 61,
+        "maxFrameMs": 88,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010432875037010427,
+          "fx": 0,
+          "out": 0.0070943551129873,
+          "musicPeak": 0.030968326947236977,
+          "fxPeak": 0.0083282679413857,
+          "outPeak": 0.022306527670893576,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 0.8,
+        "wallSeconds": 0.8,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 68,
+        "maxFrameMs": 88,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.007018223306343641,
+          "fx": 0,
+          "out": 0.004772391893093615,
+          "musicPeak": 0.030968326947236977,
+          "fxPeak": 0.0083282679413857,
+          "outPeak": 0.022306527670893576,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 1,
+        "wallSeconds": 1.1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 88,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.030968326947236977,
+          "fxPeak": 0.0083282679413857,
+          "outPeak": 0.022306527670893576,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "绒羽月蛾",
+      "elapsed": 1.5,
+      "wallSeconds": 1.5,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 73,
+      "maxFrameMs": 88,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.005910003749427048,
+        "fx": 0,
+        "out": 0.004018802594245557,
+        "musicPeak": 0.030968326947236977,
+        "fxPeak": 0.0083282679413857,
+        "outPeak": 0.022306527670893576,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "needle",
+        "moths": 1,
+        "active": 0,
+        "pulls": 0,
+        "powderMarks": 0,
+        "powderApplied": 0,
+        "folds": 0,
+        "foldedWings": 0,
+        "mounts": 0,
+        "dyes": 0,
+        "wingPins": [
+          [
+            -340,
+            -183
+          ],
+          [
+            -243,
+            207
+          ],
+          [
+            340,
+            -183
+          ],
+          [
+            243,
+            207
+          ]
+        ],
+        "foldAmount": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "02-velvet-menagerie",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 0.5,
+        "wallSeconds": 0.5,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 63,
+        "maxFrameMs": 71,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010407290281663694,
+          "fx": 0,
+          "out": 0.007076957467685419,
+          "musicPeak": 0.023333500511761727,
+          "fxPeak": 0.003952199826950791,
+          "outPeak": 0.016397331559885316,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 1,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 521,
+          "averagePile": 13.4,
+          "colour": 0,
+          "revision": 1
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 0.9,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 71,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.006039866796170924,
+          "fx": 0,
+          "out": 0.004107109464566057,
+          "musicPeak": 0.023333500511761727,
+          "fxPeak": 0.003952199826950791,
+          "outPeak": 0.016397331559885316,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 1,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 521,
+          "averagePile": 13.4,
+          "colour": 0,
+          "revision": 1
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 1.1,
+        "wallSeconds": 1.1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 71,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.023333500511761727,
+          "fxPeak": 0.003952199826950791,
+          "outPeak": 0.016397331559885316,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 1,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 521,
+          "averagePile": 13.4,
+          "colour": 0,
+          "revision": 1
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "绒毯兽园",
+      "elapsed": 1.4,
+      "wallSeconds": 1.4,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 73,
+      "maxFrameMs": 71,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.009367243691374693,
+        "fx": 0.000056785157372634725,
+        "out": 0.0063744827281122735,
+        "musicPeak": 0.023333500511761727,
+        "fxPeak": 0.003952199826950791,
+        "outPeak": 0.016397331559885316,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 2,
+        "connectedNodes": 10,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "shear",
+        "tufts": 13800,
+        "shears": 2,
+        "combs": 0,
+        "grafts": 0,
+        "footprints": 0,
+        "cutTufts": 521,
+        "averagePile": 13.33,
+        "colour": 0,
+        "revision": 2
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "03-honey-constellation",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 81,
+        "maxFrameMs": 29,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010776552871051547,
+          "fx": 0,
+          "out": 0.00732805603590903,
+          "musicPeak": 0.0346090070716766,
+          "fxPeak": 0.017898721903208313,
+          "outPeak": 0.027614583114255156,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 0.7,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 81,
+        "maxFrameMs": 29,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.006922501270358649,
+          "fx": 0,
+          "out": 0.004707300911740454,
+          "musicPeak": 0.0346090070716766,
+          "fxPeak": 0.017898721903208313,
+          "outPeak": 0.027614583114255156,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 0.9,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 81,
+        "maxFrameMs": 29,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.0346090070716766,
+          "fxPeak": 0.017898721903208313,
+          "outPeak": 0.027614583114255156,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "蜜糖星巢",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 78,
+      "maxFrameMs": 29,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.004431013922655719,
+        "fx": 0,
+        "out": 0.003013089498046485,
+        "musicPeak": 0.0346090070716766,
+        "fxPeak": 0.017898721903208313,
+        "outPeak": 0.027614583114255156,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "bridge",
+        "nests": 4,
+        "cells": 216,
+        "bridges": 5,
+        "createdBridges": 0,
+        "severedBridges": 0,
+        "drops": 4,
+        "drips": 0,
+        "crystallisedDrops": 3,
+        "turns": 0,
+        "amberPasses": 0,
+        "hardenedBridges": 0,
+        "nestPoses": [
+          [
+            280,
+            229,
+            -0.18
+          ],
+          [
+            690,
+            208,
+            0.23
+          ],
+          [
+            515,
+            470,
+            0.06
+          ],
+          [
+            810,
+            529,
+            -0.24
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "03-honey-constellation",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 0.4,
+        "wallSeconds": 0.4,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 89,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007992471809830145,
+          "fx": 0,
+          "out": 0.005434880879149849,
+          "musicPeak": 0.03341685248376333,
+          "fxPeak": 0.02506269783323086,
+          "outPeak": 0.027802344854041726,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 0.8,
+        "wallSeconds": 0.8,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 82,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.004860206266966705,
+          "fx": 0,
+          "out": 0.0033049403064414366,
+          "musicPeak": 0.03341685248376333,
+          "fxPeak": 0.02506269783323086,
+          "outPeak": 0.027802344854041726,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "蜜糖星巢",
+        "elapsed": 1,
+        "wallSeconds": 1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 82,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03341685248376333,
+          "fxPeak": 0.02506269783323086,
+          "outPeak": 0.027802344854041726,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "蜜糖星巢",
+      "elapsed": 1.4,
+      "wallSeconds": 1.4,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 79,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.004688700491181614,
+        "fx": 0,
+        "out": 0.003188316377154075,
+        "musicPeak": 0.03341685248376333,
+        "fxPeak": 0.02506269783323086,
+        "outPeak": 0.027802344854041726,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "bridge",
+        "nests": 4,
+        "cells": 216,
+        "bridges": 5,
+        "createdBridges": 0,
+        "severedBridges": 0,
+        "drops": 4,
+        "drips": 0,
+        "crystallisedDrops": 3,
+        "turns": 0,
+        "amberPasses": 0,
+        "hardenedBridges": 0,
+        "nestPoses": [
+          [
+            280,
+            229,
+            -0.18
+          ],
+          [
+            690,
+            208,
+            0.23
+          ],
+          [
+            515,
+            470,
+            0.06
+          ],
+          [
+            810,
+            529,
+            -0.24
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "04-pearl-opera",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 0.4,
+        "wallSeconds": 0.4,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 85,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00886280560503494,
+          "fx": 0,
+          "out": 0.006026707876650583,
+          "musicPeak": 0.03108662132082835,
+          "fxPeak": 0.03193577895162339,
+          "outPeak": 0.032013190622820355,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 0.8,
+        "wallSeconds": 0.7,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 83,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.004336022272387326,
+          "fx": 0,
+          "out": 0.002948495181694146,
+          "musicPeak": 0.03108662132082835,
+          "fxPeak": 0.03193577895162339,
+          "outPeak": 0.032013190622820355,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 1,
+        "wallSeconds": 1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 80,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03108662132082835,
+          "fxPeak": 0.03193577895162339,
+          "outPeak": 0.032013190622820355,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "珠贝歌剧",
+      "elapsed": 1.4,
+      "wallSeconds": 1.4,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 77,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.004485345952171252,
+        "fx": 0,
+        "out": 0.003050035272045526,
+        "musicPeak": 0.03108662132082835,
+        "fxPeak": 0.03193577895162339,
+        "outPeak": 0.032013190622820355,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "shells": 3,
+        "chains": 2,
+        "opening": 0.88,
+        "pearlTurns": 0,
+        "hingeEdits": 0,
+        "added": 0,
+        "choir": false,
+        "mode": "hinge",
+        "selected": 0,
+        "positions": [
+          [
+            0.51,
+            0.53
+          ],
+          [
+            0.23,
+            0.71
+          ],
+          [
+            0.79,
+            0.72
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "04-pearl-opera",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 0.5,
+        "wallSeconds": 0.5,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 48,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.008941871507674917,
+          "fx": 0,
+          "out": 0.006080472688832686,
+          "musicPeak": 0.03630993130794074,
+          "fxPeak": 0.030239874480293888,
+          "outPeak": 0.03276275820034246,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 1.2,
+        "wallSeconds": 1.2,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 50,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.03213022806597204,
+          "fx": 0,
+          "out": 0.021848555315964108,
+          "musicPeak": 0.03630993130794074,
+          "fxPeak": 0.030239874480293888,
+          "outPeak": 0.03276275820034246,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "珠贝歌剧",
+        "elapsed": 1.5,
+        "wallSeconds": 1.5,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 48,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03630993130794074,
+          "fxPeak": 0.030239874480293888,
+          "outPeak": 0.03276275820034246,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.88,
+          "pearlTurns": 0,
+          "hingeEdits": 0,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "珠贝歌剧",
+      "elapsed": 2,
+      "wallSeconds": 2,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 47,
+      "maxFrameMs": 46,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.009480489560003014,
+        "fx": 0.00005718389872120208,
+        "out": 0.006447703173676504,
+        "musicPeak": 0.03630993130794074,
+        "fxPeak": 0.030239874480293888,
+        "outPeak": 0.03276275820034246,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 2,
+        "connectedNodes": 10,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "shells": 3,
+        "chains": 2,
+        "opening": 0.88,
+        "pearlTurns": 0,
+        "hingeEdits": 0,
+        "added": 0,
+        "choir": false,
+        "mode": "hinge",
+        "selected": 0,
+        "positions": [
+          [
+            0.51,
+            0.53
+          ],
+          [
+            0.23,
+            0.71
+          ],
+          [
+            0.79,
+            0.72
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "05-paper-dragon",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01054470472420222,
+          "fx": 0,
+          "out": 0.007170399303497567,
+          "musicPeak": 0.03228020105107919,
+          "fxPeak": 0.012471234753722374,
+          "outPeak": 0.02303892320101955,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 0.6,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.028227234147719382,
+          "fx": 0,
+          "out": 0.01919451944957475,
+          "musicPeak": 0.03228020105107919,
+          "fxPeak": 0.012471234753722374,
+          "outPeak": 0.02303892320101955,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 0.9,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03228020105107919,
+          "fxPeak": 0.012471234753722374,
+          "outPeak": 0.02303892320101955,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "纸骨游龙",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 78,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.005612643854752808,
+        "fx": 0,
+        "out": 0.003816597860908589,
+        "musicPeak": 0.03228020105107919,
+        "fxPeak": 0.012471234753722374,
+        "outPeak": 0.02303892320101955,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "segments": 12,
+        "cuts": 0,
+        "joined": 0,
+        "flipped": 0,
+        "wingTurns": 0,
+        "poseEdits": 0,
+        "dancing": false,
+        "selected": 0,
+        "mode": "joint",
+        "positions": [
+          [
+            0.76,
+            0.28
+          ],
+          [
+            0.61,
+            0.26
+          ],
+          [
+            0.47,
+            0.29
+          ],
+          [
+            0.36,
+            0.39
+          ],
+          [
+            0.4,
+            0.51
+          ],
+          [
+            0.54,
+            0.56
+          ],
+          [
+            0.69,
+            0.57
+          ],
+          [
+            0.78,
+            0.67
+          ],
+          [
+            0.67,
+            0.77
+          ],
+          [
+            0.51,
+            0.78
+          ],
+          [
+            0.36,
+            0.73
+          ],
+          [
+            0.23,
+            0.65
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "05-paper-dragon",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 0.4,
+        "wallSeconds": 0.4,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0072852200516984435,
+          "fx": 0,
+          "out": 0.004953949669228477,
+          "musicPeak": 0.03133549105341006,
+          "fxPeak": 0.017211533092505043,
+          "outPeak": 0.02313962130491801,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 0.6,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.025088918986767548,
+          "fx": 0,
+          "out": 0.01706046510301717,
+          "musicPeak": 0.03133549105341006,
+          "fxPeak": 0.017211533092505043,
+          "outPeak": 0.02313962130491801,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 1,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03133549105341006,
+          "fxPeak": 0.017211533092505043,
+          "outPeak": 0.02313962130491801,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "纸骨游龙",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 81,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.007338442267330218,
+        "fx": 0,
+        "out": 0.0049901407921461504,
+        "musicPeak": 0.03279215888391777,
+        "fxPeak": 0.017539768723364463,
+        "outPeak": 0.026760833996172587,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "segments": 12,
+        "cuts": 0,
+        "joined": 0,
+        "flipped": 0,
+        "wingTurns": 0,
+        "poseEdits": 0,
+        "dancing": false,
+        "selected": 0,
+        "mode": "joint",
+        "positions": [
+          [
+            0.76,
+            0.28
+          ],
+          [
+            0.61,
+            0.26
+          ],
+          [
+            0.47,
+            0.29
+          ],
+          [
+            0.36,
+            0.39
+          ],
+          [
+            0.4,
+            0.51
+          ],
+          [
+            0.54,
+            0.56
+          ],
+          [
+            0.69,
+            0.57
+          ],
+          [
+            0.78,
+            0.67
+          ],
+          [
+            0.67,
+            0.77
+          ],
+          [
+            0.51,
+            0.78
+          ],
+          [
+            0.36,
+            0.73
+          ],
+          [
+            0.23,
+            0.65
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "06-patchwork-village",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 0.5,
+        "wallSeconds": 0.4,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 34,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007915263620820031,
+          "fx": 0,
+          "out": 0.005382379321609316,
+          "musicPeak": 0.028693789384463878,
+          "fxPeak": 0.003412085017958146,
+          "outPeak": 0.01972830604537102,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 1,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.76,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 1,
+        "wallSeconds": 1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 34,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.01979778169359074,
+          "fx": 0,
+          "out": 0.013462491690144393,
+          "musicPeak": 0.028693789384463878,
+          "fxPeak": 0.003412085017958146,
+          "outPeak": 0.01972830604537102,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 1,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.76,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 1.3,
+        "wallSeconds": 1.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 34,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.028693789384463878,
+          "fxPeak": 0.003412085017958146,
+          "outPeak": 0.01972830604537102,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 1,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.76,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "织袋小镇",
+      "elapsed": 1.9,
+      "wallSeconds": 1.8,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 78,
+      "maxFrameMs": 34,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.004905287169862114,
+        "fx": 0,
+        "out": 0.0033355953240889386,
+        "musicPeak": 0.028693789384463878,
+        "fxPeak": 0.003412085017958146,
+        "outPeak": 0.01972830604537102,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "houses": 3,
+        "clotheslines": 2,
+        "hangingCloths": 7,
+        "roofStitches": 2,
+        "finishedRoofs": 0,
+        "selectedRoof": 0.78,
+        "selectedPuff": 0.68,
+        "moveEdits": 0,
+        "added": 0,
+        "wind": false,
+        "selected": 1,
+        "mode": "sew",
+        "positions": [
+          [
+            0.25,
+            0.66
+          ],
+          [
+            0.51,
+            0.62
+          ],
+          [
+            0.78,
+            0.65
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "07-bread-parade",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 3,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010827499057974121,
+          "fx": 0,
+          "out": 0.007362699439927488,
+          "musicPeak": 0.03953549728579395,
+          "fxPeak": 0.021201479943197724,
+          "outPeak": 0.03094798897367817,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 0.7,
+        "wallSeconds": 0.7,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 82,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.02908553206777286,
+          "fx": 0,
+          "out": 0.01977816200077326,
+          "musicPeak": 0.03953549728579395,
+          "fxPeak": 0.021201479943197724,
+          "outPeak": 0.03094798897367817,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 0.9,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 82,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03953549728579395,
+          "fxPeak": 0.021201479943197724,
+          "outPeak": 0.03094798897367817,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "面包蓬蓬巡游",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 84,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.005464646175880424,
+        "fx": 0,
+        "out": 0.003715959443229075,
+        "musicPeak": 0.03953549728579395,
+        "fxPeak": 0.021201479943197724,
+        "outPeak": 0.03094798897367817,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "knead",
+        "kneadMoves": 0,
+        "width": 1.1,
+        "height": 1.05,
+        "outline": [
+          1.025,
+          0.977,
+          1.02,
+          0.984,
+          1.013,
+          0.991,
+          1.004,
+          1,
+          0.996,
+          1.008,
+          0.988,
+          1.016,
+          0.981,
+          1.022,
+          0.975,
+          1.027,
+          0.971,
+          1.03,
+          0.97,
+          1.03,
+          0.971,
+          1.028,
+          0.974,
+          1.023,
+          0.98,
+          1.017,
+          0.987,
+          1.009
+        ],
+        "stamps": 0,
+        "totalStamps": 0,
+        "fermentation": 0,
+        "targetFermentation": 0,
+        "crust": 0,
+        "queue": 3,
+        "queueRecipes": [
+          {
+            "id": 2,
+            "width": 1.22,
+            "height": 0.95,
+            "crust": 0,
+            "stamps": 1,
+            "ferment": 0.15
+          },
+          {
+            "id": 3,
+            "width": 0.98,
+            "height": 1.05,
+            "crust": 1,
+            "stamps": 1,
+            "ferment": 0.27
+          },
+          {
+            "id": 4,
+            "width": 1.1,
+            "height": 0.95,
+            "crust": 2,
+            "stamps": 1,
+            "ferment": 0.39
+          }
+        ],
+        "joined": 0,
+        "direction": 1,
+        "turns": 0
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "07-bread-parade",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 3,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 92,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011546872827456488,
+          "fx": 0,
+          "out": 0.007851873587613373,
+          "musicPeak": 0.0288165246950845,
+          "fxPeak": 0.01015159105403775,
+          "outPeak": 0.02115430921839998,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 0.6,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 86,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.026864147649131705,
+          "fx": 0,
+          "out": 0.018267620554197426,
+          "musicPeak": 0.03254730581785033,
+          "fxPeak": 0.01015159105403775,
+          "outPeak": 0.022132168054941545,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 0.9,
+        "wallSeconds": 0.8,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 85,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03254730581785033,
+          "fxPeak": 0.01015159105403775,
+          "outPeak": 0.022132168054941545,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "面包蓬蓬巡游",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 87,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.004883283691583296,
+        "fx": 0,
+        "out": 0.0033206329511732235,
+        "musicPeak": 0.03254730581785033,
+        "fxPeak": 0.01015159105403775,
+        "outPeak": 0.022132168054941545,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "knead",
+        "kneadMoves": 0,
+        "width": 1.1,
+        "height": 1.05,
+        "outline": [
+          1.025,
+          0.977,
+          1.02,
+          0.984,
+          1.013,
+          0.991,
+          1.004,
+          1,
+          0.996,
+          1.008,
+          0.988,
+          1.016,
+          0.981,
+          1.022,
+          0.975,
+          1.027,
+          0.971,
+          1.03,
+          0.97,
+          1.03,
+          0.971,
+          1.028,
+          0.974,
+          1.023,
+          0.98,
+          1.017,
+          0.987,
+          1.009
+        ],
+        "stamps": 0,
+        "totalStamps": 0,
+        "fermentation": 0,
+        "targetFermentation": 0,
+        "crust": 0,
+        "queue": 3,
+        "queueRecipes": [
+          {
+            "id": 2,
+            "width": 1.22,
+            "height": 0.95,
+            "crust": 0,
+            "stamps": 1,
+            "ferment": 0.15
+          },
+          {
+            "id": 3,
+            "width": 0.98,
+            "height": 1.05,
+            "crust": 1,
+            "stamps": 1,
+            "ferment": 0.27
+          },
+          {
+            "id": 4,
+            "width": 1.1,
+            "height": 0.95,
+            "crust": 2,
+            "stamps": 1,
+            "ferment": 0.39
+          }
+        ],
+        "joined": 0,
+        "direction": 1,
+        "turns": 0
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "08-jelly-post",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 83,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007646919305578368,
+          "fx": 0,
+          "out": 0.0051999051868720165,
+          "musicPeak": 0.029736523041449178,
+          "fxPeak": 0.014251098376745937,
+          "outPeak": 0.02564100107386839,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 1,
+          "bellyStamps": [
+            0
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 0.8,
+        "wallSeconds": 0.7,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 88,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.02667034416549178,
+          "fx": 0,
+          "out": 0.018135834255538556,
+          "musicPeak": 0.029736523041449178,
+          "fxPeak": 0.014251098376745937,
+          "outPeak": 0.02564100107386839,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 1,
+          "bellyStamps": [
+            0
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 1,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 87,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.029736523041449178,
+          "fxPeak": 0.014251098376745937,
+          "outPeak": 0.02564100107386839,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 1,
+          "bellyStamps": [
+            0
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "果冻邮差",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 84,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.007702384576580992,
+        "fx": 0.00005668608066935817,
+        "out": 0.005235009288249335,
+        "musicPeak": 0.036554442798806,
+        "fxPeak": 0.03768961106761256,
+        "outPeak": 0.033262244116230966,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 2,
+        "connectedNodes": 10,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "feed",
+        "belly": 2,
+        "bellyStamps": [
+          0,
+          1
+        ],
+        "trayStamps": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "selectedStamp": 0,
+        "stampEdits": 0,
+        "legs": [
+          1,
+          1
+        ],
+        "legPulls": 0,
+        "boxes": [
+          {
+            "x": 0.79,
+            "y": 0.27,
+            "stamp": 0,
+            "delivered": 0
+          },
+          {
+            "x": 0.82,
+            "y": 0.62,
+            "stamp": 1,
+            "delivered": 0
+          },
+          {
+            "x": 0.29,
+            "y": 0.75,
+            "stamp": 2,
+            "delivered": 0
+          }
+        ],
+        "movedBoxes": 0,
+        "route": [
+          0,
+          1,
+          2
+        ],
+        "routeEdits": 0,
+        "routeIndex": 0,
+        "running": false,
+        "totalFed": 2,
+        "totalDelivered": 0,
+        "position": {
+          "x": 0.47,
+          "y": 0.42
+        },
+        "receiptCount": 0
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "06-patchwork-village",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 0.6,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 52,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009772729831208507,
+          "fx": 0,
+          "out": 0.006645456355174503,
+          "musicPeak": 0.027362883809702494,
+          "fxPeak": 0.030368035790170275,
+          "outPeak": 0.028754839880888387,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 1,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.76,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 1.6,
+        "wallSeconds": 1.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 52,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.0011636225414082353,
+          "fx": 0,
+          "out": 0.000791263337093591,
+          "musicPeak": 0.027362883809702494,
+          "fxPeak": 0.030368035790170275,
+          "outPeak": 0.028754839880888387,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 1,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.76,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "织袋小镇",
+        "elapsed": 2,
+        "wallSeconds": 2,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 32,
+        "maxFrameMs": 52,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.027362883809702494,
+          "fxPeak": 0.030368035790170275,
+          "outPeak": 0.028754839880888387,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 1,
+          "finishedRoofs": 0,
+          "selectedRoof": 0.76,
+          "selectedPuff": 0.68,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 1,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "织袋小镇",
+      "elapsed": 2.8,
+      "wallSeconds": 2.8,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 32,
+      "maxFrameMs": 52,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.005171892624159973,
+        "fx": 0,
+        "out": 0.003516887018776901,
+        "musicPeak": 0.027362883809702494,
+        "fxPeak": 0.030368035790170275,
+        "outPeak": 0.028754839880888387,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "houses": 3,
+        "clotheslines": 2,
+        "hangingCloths": 7,
+        "roofStitches": 2,
+        "finishedRoofs": 0,
+        "selectedRoof": 0.78,
+        "selectedPuff": 0.68,
+        "moveEdits": 0,
+        "added": 0,
+        "wind": false,
+        "selected": 1,
+        "mode": "sew",
+        "positions": [
+          [
+            0.25,
+            0.66
+          ],
+          [
+            0.51,
+            0.62
+          ],
+          [
+            0.78,
+            0.65
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "08-jelly-post",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 84,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009910637234196329,
+          "fx": 0,
+          "out": 0.006739233370413796,
+          "musicPeak": 0.029736523041449178,
+          "fxPeak": 0.017352506085739496,
+          "outPeak": 0.025896632688541726,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 1,
+          "bellyStamps": [
+            0
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 0.6,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 83,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.03906052566254366,
+          "fx": 0,
+          "out": 0.026561157800245188,
+          "musicPeak": 0.03906052566254366,
+          "fxPeak": 0.017352506085739496,
+          "outPeak": 0.026561157800245188,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 1,
+          "bellyStamps": [
+            0
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "果冻邮差",
+        "elapsed": 0.9,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 80,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03906052566254366,
+          "fxPeak": 0.017352506085739496,
+          "outPeak": 0.026561157800245188,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "mode": "feed",
+          "belly": 1,
+          "bellyStamps": [
+            0
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "果冻邮差",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 83,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.005891022615652988,
+        "fx": 0,
+        "out": 0.004005895431918117,
+        "musicPeak": 0.03906052566254366,
+        "fxPeak": 0.017352506085739496,
+        "outPeak": 0.026561157800245188,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "mode": "feed",
+        "belly": 2,
+        "bellyStamps": [
+          0,
+          1
+        ],
+        "trayStamps": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "selectedStamp": 0,
+        "stampEdits": 0,
+        "legs": [
+          1,
+          1
+        ],
+        "legPulls": 0,
+        "boxes": [
+          {
+            "x": 0.79,
+            "y": 0.27,
+            "stamp": 0,
+            "delivered": 0
+          },
+          {
+            "x": 0.82,
+            "y": 0.62,
+            "stamp": 1,
+            "delivered": 0
+          },
+          {
+            "x": 0.29,
+            "y": 0.75,
+            "stamp": 2,
+            "delivered": 0
+          }
+        ],
+        "movedBoxes": 0,
+        "route": [
+          0,
+          1,
+          2
+        ],
+        "routeEdits": 0,
+        "routeIndex": 0,
+        "running": false,
+        "totalFed": 2,
+        "totalDelivered": 0,
+        "position": {
+          "x": 0.47,
+          "y": 0.42
+        },
+        "receiptCount": 0
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "09-sardine-salon",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 3,
+      "qa": {
+        "title": "沙丁鱼理发铺",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 83,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009474111690868169,
+          "fx": 0,
+          "out": 0.006442396004097929,
+          "musicPeak": 0.031084383754273217,
+          "fxPeak": 0.012061658437091399,
+          "outPeak": 0.02215257189216983,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "comb",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 1,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 1,
+          "fin": [
+            {
+              "height": 63.68,
+              "lean": 4.74,
+              "curl": false
+            },
+            {
+              "height": 77.97,
+              "lean": 3.42,
+              "curl": false
+            },
+            {
+              "height": 70.76,
+              "lean": 0.6,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 87.43,
+              "lean": 15.05,
+              "curl": false
+            },
+            {
+              "height": 73.4,
+              "lean": 6.16,
+              "curl": false
+            },
+            {
+              "height": 64.05,
+              "lean": 2.28,
+              "curl": false
+            },
+            {
+              "height": 78.31,
+              "lean": -14.89,
+              "curl": false
+            },
+            {
+              "height": 66.59,
+              "lean": 5.9,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "沙丁鱼理发铺",
+        "elapsed": 0.6,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 82,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.022046575209561197,
+          "fx": 0,
+          "out": 0.014991671206904434,
+          "musicPeak": 0.031084383754273217,
+          "fxPeak": 0.012061658437091399,
+          "outPeak": 0.02215257189216983,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "comb",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 1,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 1,
+          "fin": [
+            {
+              "height": 63.68,
+              "lean": 4.74,
+              "curl": false
+            },
+            {
+              "height": 77.97,
+              "lean": 3.42,
+              "curl": false
+            },
+            {
+              "height": 70.76,
+              "lean": 0.6,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 87.43,
+              "lean": 15.05,
+              "curl": false
+            },
+            {
+              "height": 73.4,
+              "lean": 6.16,
+              "curl": false
+            },
+            {
+              "height": 64.05,
+              "lean": 2.28,
+              "curl": false
+            },
+            {
+              "height": 78.31,
+              "lean": -14.89,
+              "curl": false
+            },
+            {
+              "height": 66.59,
+              "lean": 5.9,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "沙丁鱼理发铺",
+        "elapsed": 1,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 83,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.031084383754273217,
+          "fxPeak": 0.012061658437091399,
+          "outPeak": 0.02215257189216983,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "comb",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 1,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 1,
+          "fin": [
+            {
+              "height": 63.68,
+              "lean": 4.74,
+              "curl": false
+            },
+            {
+              "height": 77.97,
+              "lean": 3.42,
+              "curl": false
+            },
+            {
+              "height": 70.76,
+              "lean": 0.6,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 87.43,
+              "lean": 15.05,
+              "curl": false
+            },
+            {
+              "height": 73.4,
+              "lean": 6.16,
+              "curl": false
+            },
+            {
+              "height": 64.05,
+              "lean": 2.28,
+              "curl": false
+            },
+            {
+              "height": 78.31,
+              "lean": -14.89,
+              "curl": false
+            },
+            {
+              "height": 66.59,
+              "lean": 5.9,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "沙丁鱼理发铺",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 83,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.0055118965865069555,
+        "fx": 0,
+        "out": 0.003748089717128108,
+        "musicPeak": 0.031084383754273217,
+        "fxPeak": 0.012061658437091399,
+        "outPeak": 0.02215257189216983,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "tool": "comb",
+        "customersServed": 0,
+        "snips": 0,
+        "combMoves": 2,
+        "rollerChanges": 0,
+        "photoMode": false,
+        "currentId": 0,
+        "currentEdits": 2,
+        "fin": [
+          {
+            "height": 63.68,
+            "lean": 4.74,
+            "curl": false
+          },
+          {
+            "height": 77.97,
+            "lean": 3.42,
+            "curl": false
+          },
+          {
+            "height": 70.76,
+            "lean": 0.6,
+            "curl": false
+          },
+          {
+            "height": 46.24,
+            "lean": 9.23,
+            "curl": false
+          },
+          {
+            "height": 48.33,
+            "lean": -13.27,
+            "curl": false
+          },
+          {
+            "height": 92.45,
+            "lean": 7.52,
+            "curl": false
+          },
+          {
+            "height": 81.87,
+            "lean": 17.65,
+            "curl": false
+          },
+          {
+            "height": 66.47,
+            "lean": 9.03,
+            "curl": false
+          },
+          {
+            "height": 58.13,
+            "lean": 1.6,
+            "curl": false
+          },
+          {
+            "height": 70.33,
+            "lean": -16.01,
+            "curl": false
+          },
+          {
+            "height": 64.67,
+            "lean": 1.21,
+            "curl": false
+          },
+          {
+            "height": 65.51,
+            "lean": -7.2,
+            "curl": false
+          },
+          {
+            "height": 82,
+            "lean": 5.72,
+            "curl": false
+          },
+          {
+            "height": 71.06,
+            "lean": -9.72,
+            "curl": false
+          },
+          {
+            "height": 57.25,
+            "lean": 1.17,
+            "curl": false
+          }
+        ],
+        "beardLengths": [
+          70.15,
+          65.39,
+          69.57,
+          75.76,
+          64.2,
+          56.1,
+          66.87,
+          57.12
+        ],
+        "portraits": [],
+        "particleCount": 0
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "09-sardine-salon",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 3,
+      "qa": {
+        "title": "沙丁鱼理发铺",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 89,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0115826094183605,
+          "fx": 0,
+          "out": 0.007876174466546725,
+          "musicPeak": 0.03251434562751802,
+          "fxPeak": 0.010021838189322618,
+          "outPeak": 0.023028256740949077,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "comb",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 1,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 1,
+          "fin": [
+            {
+              "height": 63.68,
+              "lean": 4.74,
+              "curl": false
+            },
+            {
+              "height": 77.97,
+              "lean": 3.42,
+              "curl": false
+            },
+            {
+              "height": 70.76,
+              "lean": 0.6,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 82.34,
+              "lean": 15.05,
+              "curl": false
+            },
+            {
+              "height": 63.35,
+              "lean": 6.16,
+              "curl": false
+            },
+            {
+              "height": 48.79,
+              "lean": 2.28,
+              "curl": false
+            },
+            {
+              "height": 67.79,
+              "lean": -14.89,
+              "curl": false
+            },
+            {
+              "height": 61.06,
+              "lean": 5.9,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "沙丁鱼理发铺",
+        "elapsed": 0.6,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 87,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.019996259009438258,
+          "fx": 0,
+          "out": 0.013597456253498803,
+          "musicPeak": 0.03251434562751802,
+          "fxPeak": 0.010021838189322618,
+          "outPeak": 0.023028256740949077,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "comb",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 1,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 1,
+          "fin": [
+            {
+              "height": 63.68,
+              "lean": 4.74,
+              "curl": false
+            },
+            {
+              "height": 77.97,
+              "lean": 3.42,
+              "curl": false
+            },
+            {
+              "height": 70.76,
+              "lean": 0.6,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 82.34,
+              "lean": 15.05,
+              "curl": false
+            },
+            {
+              "height": 63.35,
+              "lean": 6.16,
+              "curl": false
+            },
+            {
+              "height": 48.79,
+              "lean": 2.28,
+              "curl": false
+            },
+            {
+              "height": 67.79,
+              "lean": -14.89,
+              "curl": false
+            },
+            {
+              "height": 61.06,
+              "lean": 5.9,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "沙丁鱼理发铺",
+        "elapsed": 1,
+        "wallSeconds": 1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 83,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03251434562751802,
+          "fxPeak": 0.010021838189322618,
+          "outPeak": 0.023028256740949077,
+          "musicCount": 2,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "comb",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 1,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 1,
+          "fin": [
+            {
+              "height": 63.68,
+              "lean": 4.74,
+              "curl": false
+            },
+            {
+              "height": 77.97,
+              "lean": 3.42,
+              "curl": false
+            },
+            {
+              "height": 70.76,
+              "lean": 0.6,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 82.34,
+              "lean": 15.05,
+              "curl": false
+            },
+            {
+              "height": 63.35,
+              "lean": 6.16,
+              "curl": false
+            },
+            {
+              "height": 48.79,
+              "lean": 2.28,
+              "curl": false
+            },
+            {
+              "height": 67.79,
+              "lean": -14.89,
+              "curl": false
+            },
+            {
+              "height": 61.06,
+              "lean": 5.9,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "沙丁鱼理发铺",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 83,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.005825076719248327,
+        "fx": 0,
+        "out": 0.003961052217886092,
+        "musicPeak": 0.03251434562751802,
+        "fxPeak": 0.010021838189322618,
+        "outPeak": 0.023028256740949077,
+        "musicCount": 3,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "tool": "comb",
+        "customersServed": 0,
+        "snips": 0,
+        "combMoves": 2,
+        "rollerChanges": 0,
+        "photoMode": false,
+        "currentId": 0,
+        "currentEdits": 2,
+        "fin": [
+          {
+            "height": 63.68,
+            "lean": 4.74,
+            "curl": false
+          },
+          {
+            "height": 77.97,
+            "lean": 3.42,
+            "curl": false
+          },
+          {
+            "height": 70.76,
+            "lean": 0.6,
+            "curl": false
+          },
+          {
+            "height": 46.24,
+            "lean": 9.23,
+            "curl": false
+          },
+          {
+            "height": 48.33,
+            "lean": -13.27,
+            "curl": false
+          },
+          {
+            "height": 92.45,
+            "lean": 7.52,
+            "curl": false
+          },
+          {
+            "height": 72.48,
+            "lean": 17.65,
+            "curl": false
+          },
+          {
+            "height": 49.44,
+            "lean": 9.03,
+            "curl": false
+          },
+          {
+            "height": 34.63,
+            "lean": 1.6,
+            "curl": false
+          },
+          {
+            "height": 52.52,
+            "lean": -16.01,
+            "curl": false
+          },
+          {
+            "height": 54.46,
+            "lean": 1.21,
+            "curl": false
+          },
+          {
+            "height": 65.51,
+            "lean": -7.2,
+            "curl": false
+          },
+          {
+            "height": 82,
+            "lean": 5.72,
+            "curl": false
+          },
+          {
+            "height": 71.06,
+            "lean": -9.72,
+            "curl": false
+          },
+          {
+            "height": 57.25,
+            "lean": 1.17,
+            "curl": false
+          }
+        ],
+        "beardLengths": [
+          70.15,
+          65.39,
+          69.57,
+          75.76,
+          64.2,
+          56.1,
+          66.87,
+          57.12
+        ],
+        "portraits": [],
+        "particleCount": 0
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "10-cloud-tailor",
+    "device": "mobile",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 85,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010800714843024853,
+          "fx": 0,
+          "out": 0.0073444861577545715,
+          "musicPeak": 0.0333759612888875,
+          "fxPeak": 0.021007770100939047,
+          "outPeak": 0.029010995267262103,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 0.6,
+        "wallSeconds": 0.6,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 80,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.006772883251310747,
+          "fx": 0,
+          "out": 0.0046055606600888185,
+          "musicPeak": 0.0333759612888875,
+          "fxPeak": 0.021007770100939047,
+          "outPeak": 0.029010995267262103,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 1,
+        "wallSeconds": 1,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 82,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.0333759612888875,
+          "fxPeak": 0.021007770100939047,
+          "outPeak": 0.029010995267262103,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "云被裁缝",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 80,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.00597745212373728,
+        "fx": 0,
+        "out": 0.004064667489911445,
+        "musicPeak": 0.0333759612888875,
+        "fxPeak": 0.021007770100939047,
+        "outPeak": 0.029010995267262103,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "tool": "pull",
+        "moonPatches": 0,
+        "totalMoonsPlaced": 0,
+        "openHoles": 0,
+        "holesMade": 0,
+        "repairs": 0,
+        "looseStitches": 0,
+        "folds": 0,
+        "foldMode": 0,
+        "pullMoves": 0,
+        "starsEmitted": 0,
+        "liveStars": 0,
+        "patches": [],
+        "holes": [],
+        "deformation": 0,
+        "nodeCount": 66
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  },
+  {
+    "slug": "10-cloud-tailor",
+    "device": "desktop",
+    "errors": [],
+    "active": {
+      "connected": 2,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 0.3,
+        "wallSeconds": 0.3,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 84,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012415679367498099,
+          "fx": 0,
+          "out": 0.008442662069333444,
+          "musicPeak": 0.029905268075139307,
+          "fxPeak": 0.017146691411884983,
+          "outPeak": 0.0217470181025497,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    "blur": {
+      "trusted": true,
+      "connected": 0,
+      "state": "suspended",
+      "master": 0.6800000071525574,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 0.7,
+        "wallSeconds": 0.7,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 80,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0.0040571179934046474,
+          "fx": 0,
+          "out": 0.0027588402565180263,
+          "musicPeak": 0.029905268075139307,
+          "fxPeak": 0.017146691411884983,
+          "outPeak": 0.0217470181025497,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    "freshPausedProbe": {
+      "connected": 0,
+      "master": 0,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 0.9,
+        "wallSeconds": 0.9,
+        "trusted": 1,
+        "downs": 1,
+        "moves": 0,
+        "actions": 0,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          1440,
+          728.609375
+        ],
+        "fps": 81,
+        "maxFrameMs": 26,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.029905268075139307,
+          "fxPeak": 0.017146691411884983,
+          "outPeak": 0.0217470181025497,
+          "musicCount": 1,
+          "fxCount": 1,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 3,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    "resumed": {
+      "title": "云被裁缝",
+      "elapsed": 1.3,
+      "wallSeconds": 1.3,
+      "trusted": 2,
+      "downs": 2,
+      "moves": 0,
+      "actions": 0,
+      "resets": 0,
+      "resizes": 2,
+      "viewport": [
+        1440,
+        728.609375
+      ],
+      "fps": 78,
+      "maxFrameMs": 26,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.004580960809440277,
+        "fx": 0,
+        "out": 0.0031150533927308474,
+        "musicPeak": 0.029905268075139307,
+        "fxPeak": 0.017146691411884983,
+        "outPeak": 0.0217470181025497,
+        "musicCount": 2,
+        "fxCount": 2,
+        "activeVoices": 1,
+        "connectedNodes": 8,
+        "suspended": false,
+        "maxVoices": 3,
+        "limit": 18
+      },
+      "art": {
+        "tool": "pull",
+        "moonPatches": 0,
+        "totalMoonsPlaced": 0,
+        "openHoles": 0,
+        "holesMade": 0,
+        "repairs": 0,
+        "looseStitches": 0,
+        "folds": 0,
+        "foldMode": 0,
+        "pullMoves": 0,
+        "starsEmitted": 0,
+        "liveStars": 0,
+        "patches": [],
+        "holes": [],
+        "deformation": 0,
+        "nodeCount": 66
+      },
+      "errors": []
+    },
+    "pagehide": {
+      "trusted": true,
+      "connected": 0,
+      "master": 0.6800000071525574,
+      "state": "suspended"
+    },
+    "assertions": {
+      "activeNonzero": true,
+      "realBlur": true,
+      "blurGraphEmpty": true,
+      "freshRenderedMasterZero": true,
+      "blurSuspended": true,
+      "freshPausedOutputZero": true,
+      "gestureResumes": true,
+      "realPagehide": true,
+      "pagehideGraphEmpty": true,
+      "pagehideSuspended": true,
+      "noErrors": true
+    },
+    "pass": true
+  }
+]

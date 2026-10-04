@@ -1,0 +1,41 @@
+{
+  "method": "Synthetic DOM and AudioContext fixtures; no real browser or sound measured",
+  "checks": [
+    {
+      "check": "no AudioContext before a gesture fixture",
+      "pass": true
+    },
+    {
+      "check": "gesture fixture creates one AudioContext",
+      "pass": true
+    },
+    {
+      "check": "music interval starts",
+      "pass": true
+    },
+    {
+      "check": "voice cap of 18 structurally enforced",
+      "pass": true
+    },
+    {
+      "check": "mute suspends context and scheduling",
+      "pass": true
+    },
+    {
+      "check": "reset preserves muted choice",
+      "pass": true
+    },
+    {
+      "check": "unmute uses same AudioContext",
+      "pass": true
+    },
+    {
+      "check": "blur stops scheduling",
+      "pass": true
+    },
+    {
+      "check": "pagehide suspends context",
+      "pass": true
+    }
+  ]
+}

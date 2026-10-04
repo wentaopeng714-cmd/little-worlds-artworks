@@ -1,0 +1,7434 @@
+{
+  "slug": "05-paper-dragon",
+  "device": "mobile",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/05-paper-dragon/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 1.3,
+        "wallSeconds": 1.3,
+        "trusted": 10,
+        "downs": 1,
+        "moves": 8,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 62,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010122154611443626,
+          "fx": 0,
+          "out": 0.006883065213468596,
+          "musicPeak": 0.032930367499596276,
+          "fxPeak": 0.01067832258397575,
+          "outPeak": 0.023820252432512002,
+          "musicCount": 3,
+          "fxCount": 5,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 8,
+          "dancing": false,
+          "selected": 6,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 1.9,
+        "wallSeconds": 1.9,
+        "trusted": 12,
+        "downs": 2,
+        "moves": 8,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 59,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0083746005856893,
+          "fx": 0,
+          "out": 0.005694728467223539,
+          "musicPeak": 0.032930367499596276,
+          "fxPeak": 0.01067832258397575,
+          "outPeak": 0.023820252432512002,
+          "musicCount": 4,
+          "fxCount": 7,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 1,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 8,
+          "dancing": false,
+          "selected": 5,
+          "mode": "cut",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 2.7,
+        "wallSeconds": 2.7,
+        "trusted": 14,
+        "downs": 3,
+        "moves": 8,
+        "actions": 3,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 56,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.013621413930486598,
+          "fx": 0,
+          "out": 0.00926256160681146,
+          "musicPeak": 0.044078568936928283,
+          "fxPeak": 0.044520869402495826,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 6,
+          "fxCount": 9,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 1,
+          "joined": 0,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 8,
+          "dancing": false,
+          "selected": 4,
+          "mode": "flip",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "add",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 2.9,
+        "wallSeconds": 2.9,
+        "trusted": 15,
+        "downs": 3,
+        "moves": 8,
+        "actions": 4,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 56,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003472812302649186,
+          "fx": 0.0014187072800626022,
+          "out": 0.003004844871045048,
+          "musicPeak": 0.044078568936928283,
+          "fxPeak": 0.044520869402495826,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 6,
+          "fxCount": 10,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 8,
+          "dancing": false,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ],
+            [
+              0.176,
+              0.566
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "coil",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 3.1,
+        "wallSeconds": 3.1,
+        "trusted": 16,
+        "downs": 3,
+        "moves": 8,
+        "actions": 5,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 55,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.008842061806243652,
+          "fx": 0.0065790488119984005,
+          "out": 0.007210603387790637,
+          "musicPeak": 0.044078568936928283,
+          "fxPeak": 0.044520869402495826,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 7,
+          "fxCount": 11,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 9,
+          "dancing": false,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.235,
+              0.551
+            ],
+            [
+              0.233,
+              0.442
+            ],
+            [
+              0.284,
+              0.345
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "dance",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 3.3,
+        "wallSeconds": 3.3,
+        "trusted": 17,
+        "downs": 3,
+        "moves": 8,
+        "actions": 6,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 55,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03716539087649938,
+          "fx": 0.015229637618412907,
+          "out": 0.02875214302583562,
+          "musicPeak": 0.044078568936928283,
+          "fxPeak": 0.044520869402495826,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 8,
+          "fxCount": 12,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 9,
+          "dancing": true,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.235,
+              0.551
+            ],
+            [
+              0.233,
+              0.442
+            ],
+            [
+              0.284,
+              0.345
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 10.8,
+        "wallSeconds": 10.8,
+        "trusted": 127,
+        "downs": 4,
+        "moves": 16,
+        "actions": 106,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 62,
+        "maxFrameMs": 64,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 24,
+          "fxCount": 58,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 1,
+          "joined": 6,
+          "flipped": 4,
+          "wingTurns": 1,
+          "poseEdits": 25,
+          "dancing": true,
+          "selected": 17,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.786,
+              0.48
+            ],
+            [
+              0.772,
+              0.563
+            ],
+            [
+              0.729,
+              0.637
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.238,
+              0.538
+            ],
+            [
+              0.236,
+              0.46
+            ],
+            [
+              0.263,
+              0.387
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 11.1,
+        "wallSeconds": 11.1,
+        "trusted": 128,
+        "downs": 4,
+        "moves": 16,
+        "actions": 106,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 62,
+        "maxFrameMs": 64,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 24,
+          "fxCount": 58,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 12.8,
+        "wallSeconds": 12.8,
+        "trusted": 148,
+        "downs": 6,
+        "moves": 32,
+        "actions": 106,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 65,
+        "maxFrameMs": 64,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 26,
+          "fxCount": 59,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 13,
+        "wallSeconds": 13,
+        "trusted": 149,
+        "downs": 6,
+        "moves": 32,
+        "actions": 106,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 65,
+        "maxFrameMs": 64,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 26,
+          "fxCount": 59,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 14.7,
+        "wallSeconds": 14.7,
+        "trusted": 169,
+        "downs": 8,
+        "moves": 48,
+        "actions": 106,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 66,
+        "maxFrameMs": 64,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 28,
+          "fxCount": 60,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 15,
+        "wallSeconds": 15,
+        "trusted": 170,
+        "downs": 8,
+        "moves": 48,
+        "actions": 106,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 66,
+        "maxFrameMs": 64,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 28,
+          "fxCount": 60,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 0,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.51
+            ],
+            [
+              0.54,
+              0.56
+            ],
+            [
+              0.69,
+              0.57
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 17.6,
+        "wallSeconds": 17.5,
+        "trusted": 199,
+        "downs": 11,
+        "moves": 72,
+        "actions": 107,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 68,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0034728123014745754,
+          "fx": 0,
+          "out": 0.0023615123956527376,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 34,
+          "fxCount": 68,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 16,
+          "dancing": false,
+          "selected": 6,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.53,
+              0.32
+            ],
+            [
+              0.56,
+              0.49
+            ],
+            [
+              0.46,
+              0.54
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 18.8,
+        "wallSeconds": 18.8,
+        "trusted": 210,
+        "downs": 13,
+        "moves": 80,
+        "actions": 108,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.019240689436529172,
+          "fx": 0,
+          "out": 0.013083668915029217,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 38,
+          "fxCount": 71,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 1,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 16,
+          "dancing": false,
+          "selected": 5,
+          "mode": "cut",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.53,
+              0.32
+            ],
+            [
+              0.56,
+              0.49
+            ],
+            [
+              0.46,
+              0.54
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 20,
+        "wallSeconds": 20,
+        "trusted": 221,
+        "downs": 15,
+        "moves": 88,
+        "actions": 109,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.022402903575119558,
+          "fx": 0,
+          "out": 0.015233974622196752,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 41,
+          "fxCount": 74,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 12,
+          "cuts": 1,
+          "joined": 0,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 16,
+          "dancing": false,
+          "selected": 4,
+          "mode": "flip",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.53,
+              0.32
+            ],
+            [
+              0.56,
+              0.49
+            ],
+            [
+              0.46,
+              0.54
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "add",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 20.9,
+        "wallSeconds": 20.9,
+        "trusted": 231,
+        "downs": 16,
+        "moves": 96,
+        "actions": 110,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011255548235609699,
+          "fx": 0.0009464300962224726,
+          "out": 0.007739723731186081,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 43,
+          "fxCount": 76,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 16,
+          "dancing": false,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.28
+            ],
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.53,
+              0.32
+            ],
+            [
+              0.56,
+              0.49
+            ],
+            [
+              0.46,
+              0.54
+            ],
+            [
+              0.528,
+              0.533
+            ],
+            [
+              0.65,
+              0.48
+            ],
+            [
+              0.768,
+              0.643
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ],
+            [
+              0.176,
+              0.566
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "coil",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 21.8,
+        "wallSeconds": 21.8,
+        "trusted": 241,
+        "downs": 17,
+        "moves": 104,
+        "actions": 111,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009798766177415787,
+          "fx": 0.0010078312897031955,
+          "out": 0.007015600322528815,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 45,
+          "fxCount": 78,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 17,
+          "dancing": false,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.235,
+              0.551
+            ],
+            [
+              0.233,
+              0.442
+            ],
+            [
+              0.284,
+              0.345
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "dance",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 22.6,
+        "wallSeconds": 22.6,
+        "trusted": 251,
+        "downs": 18,
+        "moves": 112,
+        "actions": 112,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0027456901476956867,
+          "fx": 0.0028710235107951695,
+          "out": 0.002792936926557518,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 47,
+          "fxCount": 83,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 25,
+          "dancing": true,
+          "selected": 9,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.34,
+              0.581
+            ],
+            [
+              0.583,
+              0.542
+            ],
+            [
+              0.389,
+              0.375
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 23.9,
+        "wallSeconds": 23.9,
+        "trusted": 270,
+        "downs": 20,
+        "moves": 128,
+        "actions": 113,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01648448106165369,
+          "fx": 0,
+          "out": 0.011209447254193103,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 51,
+          "fxCount": 86,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 25,
+          "dancing": true,
+          "selected": 9,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.34,
+              0.581
+            ],
+            [
+              0.583,
+              0.542
+            ],
+            [
+              0.389,
+              0.375
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 25.3,
+        "wallSeconds": 25.3,
+        "trusted": 281,
+        "downs": 22,
+        "moves": 136,
+        "actions": 114,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00629033942243888,
+          "fx": 0,
+          "out": 0.004277430849237469,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 54,
+          "fxCount": 89,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 2,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 25,
+          "dancing": true,
+          "selected": 9,
+          "mode": "cut",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.34,
+              0.581
+            ],
+            [
+              0.583,
+              0.542
+            ],
+            [
+              0.389,
+              0.375
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 26.4,
+        "wallSeconds": 26.4,
+        "trusted": 292,
+        "downs": 24,
+        "moves": 144,
+        "actions": 115,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011341773998443801,
+          "fx": 0,
+          "out": 0.007712406381654583,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 57,
+          "fxCount": 92,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 13,
+          "cuts": 2,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 25,
+          "dancing": true,
+          "selected": 9,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.34,
+              0.581
+            ],
+            [
+              0.583,
+              0.542
+            ],
+            [
+              0.389,
+              0.375
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "add",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 27.3,
+        "wallSeconds": 27.3,
+        "trusted": 302,
+        "downs": 25,
+        "moves": 152,
+        "actions": 116,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.002802848027413756,
+          "fx": 0.0005734507185877207,
+          "out": 0.0019490500128094936,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 59,
+          "fxCount": 94,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 14,
+          "cuts": 2,
+          "joined": 2,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 25,
+          "dancing": true,
+          "selected": 13,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.34,
+              0.581
+            ],
+            [
+              0.583,
+              0.542
+            ],
+            [
+              0.389,
+              0.375
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ],
+            [
+              0.59,
+              0.278
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "coil",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 28,
+        "wallSeconds": 28,
+        "trusted": 312,
+        "downs": 26,
+        "moves": 160,
+        "actions": 117,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007873693969162035,
+          "fx": 0.0065790488119984005,
+          "out": 0.005463370851937869,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 61,
+          "fxCount": 96,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 14,
+          "cuts": 2,
+          "joined": 2,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 26,
+          "dancing": true,
+          "selected": 13,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.777,
+              0.418
+            ],
+            [
+              0.783,
+              0.525
+            ],
+            [
+              0.741,
+              0.624
+            ],
+            [
+              0.658,
+              0.699
+            ],
+            [
+              0.549,
+              0.736
+            ],
+            [
+              0.433,
+              0.731
+            ],
+            [
+              0.33,
+              0.684
+            ],
+            [
+              0.258,
+              0.605
+            ],
+            [
+              0.229,
+              0.507
+            ],
+            [
+              0.246,
+              0.408
+            ],
+            [
+              0.307,
+              0.325
+            ],
+            [
+              0.4,
+              0.271
+            ],
+            [
+              0.509,
+              0.256
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "dance",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 28.9,
+        "wallSeconds": 28.9,
+        "trusted": 322,
+        "downs": 27,
+        "moves": 168,
+        "actions": 118,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03256027250799871,
+          "fx": 0.0013456013304120932,
+          "out": 0.02215955990276211,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 64,
+          "fxCount": 98,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 14,
+          "cuts": 2,
+          "joined": 2,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 26,
+          "dancing": false,
+          "selected": 13,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.777,
+              0.418
+            ],
+            [
+              0.783,
+              0.525
+            ],
+            [
+              0.741,
+              0.624
+            ],
+            [
+              0.658,
+              0.699
+            ],
+            [
+              0.549,
+              0.736
+            ],
+            [
+              0.433,
+              0.731
+            ],
+            [
+              0.33,
+              0.684
+            ],
+            [
+              0.258,
+              0.605
+            ],
+            [
+              0.229,
+              0.507
+            ],
+            [
+              0.246,
+              0.408
+            ],
+            [
+              0.307,
+              0.325
+            ],
+            [
+              0.4,
+              0.271
+            ],
+            [
+              0.509,
+              0.256
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 30.3,
+        "wallSeconds": 30.3,
+        "trusted": 341,
+        "downs": 29,
+        "moves": 184,
+        "actions": 119,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009689858835897373,
+          "fx": 0,
+          "out": 0.006589104063218513,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 67,
+          "fxCount": 101,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 14,
+          "cuts": 2,
+          "joined": 2,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 26,
+          "dancing": false,
+          "selected": 13,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.777,
+              0.418
+            ],
+            [
+              0.783,
+              0.525
+            ],
+            [
+              0.741,
+              0.624
+            ],
+            [
+              0.658,
+              0.699
+            ],
+            [
+              0.549,
+              0.736
+            ],
+            [
+              0.433,
+              0.731
+            ],
+            [
+              0.33,
+              0.684
+            ],
+            [
+              0.258,
+              0.605
+            ],
+            [
+              0.229,
+              0.507
+            ],
+            [
+              0.246,
+              0.408
+            ],
+            [
+              0.307,
+              0.325
+            ],
+            [
+              0.4,
+              0.271
+            ],
+            [
+              0.509,
+              0.256
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 31.5,
+        "wallSeconds": 31.5,
+        "trusted": 352,
+        "downs": 31,
+        "moves": 192,
+        "actions": 120,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004550806979539521,
+          "fx": 0,
+          "out": 0.0030945487752405453,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 70,
+          "fxCount": 104,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 14,
+          "cuts": 2,
+          "joined": 2,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 26,
+          "dancing": false,
+          "selected": 13,
+          "mode": "cut",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.777,
+              0.418
+            ],
+            [
+              0.783,
+              0.525
+            ],
+            [
+              0.741,
+              0.624
+            ],
+            [
+              0.658,
+              0.699
+            ],
+            [
+              0.549,
+              0.736
+            ],
+            [
+              0.433,
+              0.731
+            ],
+            [
+              0.33,
+              0.684
+            ],
+            [
+              0.258,
+              0.605
+            ],
+            [
+              0.229,
+              0.507
+            ],
+            [
+              0.246,
+              0.408
+            ],
+            [
+              0.307,
+              0.325
+            ],
+            [
+              0.4,
+              0.271
+            ],
+            [
+              0.509,
+              0.256
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 32.7,
+        "wallSeconds": 32.7,
+        "trusted": 363,
+        "downs": 33,
+        "moves": 200,
+        "actions": 121,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0071480734856703585,
+          "fx": 0,
+          "out": 0.004860690034323686,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 73,
+          "fxCount": 107,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 14,
+          "cuts": 2,
+          "joined": 2,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 26,
+          "dancing": false,
+          "selected": 13,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.777,
+              0.418
+            ],
+            [
+              0.783,
+              0.525
+            ],
+            [
+              0.741,
+              0.624
+            ],
+            [
+              0.658,
+              0.699
+            ],
+            [
+              0.549,
+              0.736
+            ],
+            [
+              0.433,
+              0.731
+            ],
+            [
+              0.33,
+              0.684
+            ],
+            [
+              0.258,
+              0.605
+            ],
+            [
+              0.229,
+              0.507
+            ],
+            [
+              0.246,
+              0.408
+            ],
+            [
+              0.307,
+              0.325
+            ],
+            [
+              0.4,
+              0.271
+            ],
+            [
+              0.509,
+              0.256
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "add",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 33.6,
+        "wallSeconds": 33.6,
+        "trusted": 373,
+        "downs": 34,
+        "moves": 208,
+        "actions": 122,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.037422847397725,
+          "fx": 0.0028323593718872658,
+          "out": 0.02518062363917244,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 76,
+          "fxCount": 109,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 15,
+          "cuts": 2,
+          "joined": 3,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 26,
+          "dancing": false,
+          "selected": 14,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.777,
+              0.418
+            ],
+            [
+              0.783,
+              0.525
+            ],
+            [
+              0.741,
+              0.624
+            ],
+            [
+              0.658,
+              0.699
+            ],
+            [
+              0.549,
+              0.736
+            ],
+            [
+              0.433,
+              0.731
+            ],
+            [
+              0.33,
+              0.684
+            ],
+            [
+              0.258,
+              0.605
+            ],
+            [
+              0.229,
+              0.507
+            ],
+            [
+              0.246,
+              0.408
+            ],
+            [
+              0.307,
+              0.325
+            ],
+            [
+              0.4,
+              0.271
+            ],
+            [
+              0.509,
+              0.256
+            ],
+            [
+              0.604,
+              0.287
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "coil",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 34.4,
+        "wallSeconds": 34.4,
+        "trusted": 383,
+        "downs": 35,
+        "moves": 216,
+        "actions": 123,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02661974391864694,
+          "fx": 0.00465348010276344,
+          "out": 0.01820802184239083,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 78,
+          "fxCount": 111,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 15,
+          "cuts": 2,
+          "joined": 3,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 27,
+          "dancing": false,
+          "selected": 14,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.775,
+              0.412
+            ],
+            [
+              0.785,
+              0.512
+            ],
+            [
+              0.752,
+              0.607
+            ],
+            [
+              0.682,
+              0.683
+            ],
+            [
+              0.585,
+              0.728
+            ],
+            [
+              0.476,
+              0.737
+            ],
+            [
+              0.373,
+              0.708
+            ],
+            [
+              0.29,
+              0.647
+            ],
+            [
+              0.241,
+              0.563
+            ],
+            [
+              0.231,
+              0.47
+            ],
+            [
+              0.262,
+              0.38
+            ],
+            [
+              0.329,
+              0.309
+            ],
+            [
+              0.42,
+              0.267
+            ],
+            [
+              0.522,
+              0.259
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "dance",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 35.3,
+        "wallSeconds": 35.3,
+        "trusted": 393,
+        "downs": 36,
+        "moves": 224,
+        "actions": 124,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012939607920048472,
+          "fx": 0.005318563276632154,
+          "out": 0.005269581971039854,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 80,
+          "fxCount": 116,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 15,
+          "cuts": 2,
+          "joined": 3,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 35,
+          "dancing": true,
+          "selected": 10,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.775,
+              0.412
+            ],
+            [
+              0.785,
+              0.512
+            ],
+            [
+              0.752,
+              0.607
+            ],
+            [
+              0.682,
+              0.683
+            ],
+            [
+              0.585,
+              0.728
+            ],
+            [
+              0.476,
+              0.737
+            ],
+            [
+              0.373,
+              0.708
+            ],
+            [
+              0.29,
+              0.647
+            ],
+            [
+              0.346,
+              0.593
+            ],
+            [
+              0.581,
+              0.57
+            ],
+            [
+              0.367,
+              0.41
+            ],
+            [
+              0.329,
+              0.309
+            ],
+            [
+              0.42,
+              0.267
+            ],
+            [
+              0.522,
+              0.259
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 36.7,
+        "wallSeconds": 36.7,
+        "trusted": 412,
+        "downs": 38,
+        "moves": 240,
+        "actions": 125,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0023730699844819684,
+          "fx": 0,
+          "out": 0.0016136876092567864,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 83,
+          "fxCount": 119,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 15,
+          "cuts": 2,
+          "joined": 3,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 35,
+          "dancing": true,
+          "selected": 10,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.775,
+              0.412
+            ],
+            [
+              0.785,
+              0.512
+            ],
+            [
+              0.752,
+              0.607
+            ],
+            [
+              0.682,
+              0.683
+            ],
+            [
+              0.585,
+              0.728
+            ],
+            [
+              0.476,
+              0.737
+            ],
+            [
+              0.373,
+              0.708
+            ],
+            [
+              0.29,
+              0.647
+            ],
+            [
+              0.346,
+              0.593
+            ],
+            [
+              0.581,
+              0.57
+            ],
+            [
+              0.367,
+              0.41
+            ],
+            [
+              0.329,
+              0.309
+            ],
+            [
+              0.42,
+              0.267
+            ],
+            [
+              0.522,
+              0.259
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 37.9,
+        "wallSeconds": 37.9,
+        "trusted": 423,
+        "downs": 40,
+        "moves": 248,
+        "actions": 126,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0380277930984608,
+          "fx": 0,
+          "out": 0.02585889950299962,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 87,
+          "fxCount": 122,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 15,
+          "cuts": 3,
+          "joined": 3,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 35,
+          "dancing": true,
+          "selected": 10,
+          "mode": "cut",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.775,
+              0.412
+            ],
+            [
+              0.785,
+              0.512
+            ],
+            [
+              0.752,
+              0.607
+            ],
+            [
+              0.682,
+              0.683
+            ],
+            [
+              0.585,
+              0.728
+            ],
+            [
+              0.476,
+              0.737
+            ],
+            [
+              0.373,
+              0.708
+            ],
+            [
+              0.29,
+              0.647
+            ],
+            [
+              0.346,
+              0.593
+            ],
+            [
+              0.581,
+              0.57
+            ],
+            [
+              0.367,
+              0.41
+            ],
+            [
+              0.329,
+              0.309
+            ],
+            [
+              0.42,
+              0.267
+            ],
+            [
+              0.522,
+              0.259
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 39.2,
+        "wallSeconds": 39.1,
+        "trusted": 434,
+        "downs": 42,
+        "moves": 256,
+        "actions": 127,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01642832057696938,
+          "fx": 0,
+          "out": 0.0111712581321611,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 90,
+          "fxCount": 125,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 15,
+          "cuts": 3,
+          "joined": 3,
+          "flipped": 2,
+          "wingTurns": 1,
+          "poseEdits": 35,
+          "dancing": true,
+          "selected": 10,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.775,
+              0.412
+            ],
+            [
+              0.785,
+              0.512
+            ],
+            [
+              0.752,
+              0.607
+            ],
+            [
+              0.682,
+              0.683
+            ],
+            [
+              0.585,
+              0.728
+            ],
+            [
+              0.476,
+              0.737
+            ],
+            [
+              0.373,
+              0.708
+            ],
+            [
+              0.29,
+              0.647
+            ],
+            [
+              0.346,
+              0.593
+            ],
+            [
+              0.581,
+              0.57
+            ],
+            [
+              0.367,
+              0.41
+            ],
+            [
+              0.329,
+              0.309
+            ],
+            [
+              0.42,
+              0.267
+            ],
+            [
+              0.522,
+              0.259
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "add",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 40,
+        "wallSeconds": 40,
+        "trusted": 444,
+        "downs": 43,
+        "moves": 264,
+        "actions": 128,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.008638414864094548,
+          "fx": 0.0014279465777751001,
+          "out": 0.005930596374051683,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 92,
+          "fxCount": 127,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 16,
+          "cuts": 3,
+          "joined": 4,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 35,
+          "dancing": true,
+          "selected": 15,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.775,
+              0.412
+            ],
+            [
+              0.785,
+              0.512
+            ],
+            [
+              0.752,
+              0.607
+            ],
+            [
+              0.682,
+              0.683
+            ],
+            [
+              0.585,
+              0.728
+            ],
+            [
+              0.476,
+              0.737
+            ],
+            [
+              0.373,
+              0.708
+            ],
+            [
+              0.29,
+              0.647
+            ],
+            [
+              0.346,
+              0.593
+            ],
+            [
+              0.581,
+              0.57
+            ],
+            [
+              0.367,
+              0.41
+            ],
+            [
+              0.329,
+              0.309
+            ],
+            [
+              0.42,
+              0.267
+            ],
+            [
+              0.522,
+              0.259
+            ],
+            [
+              0.616,
+              0.295
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "coil",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 40.9,
+        "wallSeconds": 40.9,
+        "trusted": 454,
+        "downs": 44,
+        "moves": 272,
+        "actions": 129,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.005132565495208011,
+          "fx": 0.0020994533076733814,
+          "out": 0.003643114609240294,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 94,
+          "fxCount": 129,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 16,
+          "cuts": 3,
+          "joined": 4,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 36,
+          "dancing": true,
+          "selected": 15,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.772,
+              0.406
+            ],
+            [
+              0.786,
+              0.5
+            ],
+            [
+              0.761,
+              0.591
+            ],
+            [
+              0.701,
+              0.667
+            ],
+            [
+              0.615,
+              0.718
+            ],
+            [
+              0.515,
+              0.738
+            ],
+            [
+              0.414,
+              0.724
+            ],
+            [
+              0.326,
+              0.679
+            ],
+            [
+              0.263,
+              0.609
+            ],
+            [
+              0.233,
+              0.525
+            ],
+            [
+              0.239,
+              0.437
+            ],
+            [
+              0.28,
+              0.358
+            ],
+            [
+              0.349,
+              0.298
+            ],
+            [
+              0.438,
+              0.265
+            ],
+            [
+              0.534,
+              0.262
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "dance",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 41.6,
+        "wallSeconds": 41.6,
+        "trusted": 464,
+        "downs": 45,
+        "moves": 280,
+        "actions": 130,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0063389135897575204,
+          "fx": 0.022775734582430908,
+          "out": 0.016359264247418386,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 96,
+          "fxCount": 134,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 16,
+          "cuts": 3,
+          "joined": 4,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 44,
+          "dancing": false,
+          "selected": 11,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.772,
+              0.406
+            ],
+            [
+              0.786,
+              0.5
+            ],
+            [
+              0.761,
+              0.591
+            ],
+            [
+              0.701,
+              0.667
+            ],
+            [
+              0.615,
+              0.718
+            ],
+            [
+              0.515,
+              0.738
+            ],
+            [
+              0.414,
+              0.724
+            ],
+            [
+              0.326,
+              0.679
+            ],
+            [
+              0.263,
+              0.609
+            ],
+            [
+              0.338,
+              0.555
+            ],
+            [
+              0.589,
+              0.537
+            ],
+            [
+              0.385,
+              0.388
+            ],
+            [
+              0.349,
+              0.298
+            ],
+            [
+              0.438,
+              0.265
+            ],
+            [
+              0.534,
+              0.262
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 43.1,
+        "wallSeconds": 43.1,
+        "trusted": 483,
+        "downs": 47,
+        "moves": 296,
+        "actions": 131,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.015428792283395975,
+          "fx": 0,
+          "out": 0.01049157884649309,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 100,
+          "fxCount": 139,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 16,
+          "cuts": 3,
+          "joined": 4,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 52,
+          "dancing": false,
+          "selected": 3,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.772,
+              0.406
+            ],
+            [
+              0.774,
+              0.473
+            ],
+            [
+              0.721,
+              0.501
+            ],
+            [
+              0.689,
+              0.64
+            ],
+            [
+              0.615,
+              0.718
+            ],
+            [
+              0.515,
+              0.738
+            ],
+            [
+              0.414,
+              0.724
+            ],
+            [
+              0.326,
+              0.679
+            ],
+            [
+              0.263,
+              0.609
+            ],
+            [
+              0.338,
+              0.555
+            ],
+            [
+              0.589,
+              0.537
+            ],
+            [
+              0.385,
+              0.388
+            ],
+            [
+              0.349,
+              0.298
+            ],
+            [
+              0.438,
+              0.265
+            ],
+            [
+              0.534,
+              0.262
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 44.2,
+        "wallSeconds": 44.2,
+        "trusted": 494,
+        "downs": 49,
+        "moves": 304,
+        "actions": 132,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01456048910308088,
+          "fx": 0,
+          "out": 0.009901132675301766,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 103,
+          "fxCount": 142,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 16,
+          "cuts": 4,
+          "joined": 4,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 52,
+          "dancing": false,
+          "selected": 11,
+          "mode": "cut",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.772,
+              0.406
+            ],
+            [
+              0.774,
+              0.473
+            ],
+            [
+              0.721,
+              0.501
+            ],
+            [
+              0.689,
+              0.64
+            ],
+            [
+              0.615,
+              0.718
+            ],
+            [
+              0.515,
+              0.738
+            ],
+            [
+              0.414,
+              0.724
+            ],
+            [
+              0.326,
+              0.679
+            ],
+            [
+              0.263,
+              0.609
+            ],
+            [
+              0.338,
+              0.555
+            ],
+            [
+              0.589,
+              0.537
+            ],
+            [
+              0.385,
+              0.388
+            ],
+            [
+              0.349,
+              0.298
+            ],
+            [
+              0.438,
+              0.265
+            ],
+            [
+              0.534,
+              0.262
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 45.5,
+        "wallSeconds": 45.5,
+        "trusted": 505,
+        "downs": 51,
+        "moves": 312,
+        "actions": 133,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007101884301456007,
+          "fx": 0,
+          "out": 0.004829281396229938,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 106,
+          "fxCount": 145,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 16,
+          "cuts": 4,
+          "joined": 4,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 52,
+          "dancing": false,
+          "selected": 11,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.772,
+              0.406
+            ],
+            [
+              0.774,
+              0.473
+            ],
+            [
+              0.721,
+              0.501
+            ],
+            [
+              0.689,
+              0.64
+            ],
+            [
+              0.615,
+              0.718
+            ],
+            [
+              0.515,
+              0.738
+            ],
+            [
+              0.414,
+              0.724
+            ],
+            [
+              0.326,
+              0.679
+            ],
+            [
+              0.263,
+              0.609
+            ],
+            [
+              0.338,
+              0.555
+            ],
+            [
+              0.589,
+              0.537
+            ],
+            [
+              0.385,
+              0.388
+            ],
+            [
+              0.349,
+              0.298
+            ],
+            [
+              0.438,
+              0.265
+            ],
+            [
+              0.534,
+              0.262
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "add",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 46.4,
+        "wallSeconds": 46.4,
+        "trusted": 515,
+        "downs": 52,
+        "moves": 320,
+        "actions": 134,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0037759327728313715,
+          "fx": 0.00023550442623499209,
+          "out": 0.002594337172886869,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 108,
+          "fxCount": 147,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 17,
+          "cuts": 4,
+          "joined": 5,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 52,
+          "dancing": false,
+          "selected": 16,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.772,
+              0.406
+            ],
+            [
+              0.774,
+              0.473
+            ],
+            [
+              0.721,
+              0.501
+            ],
+            [
+              0.689,
+              0.64
+            ],
+            [
+              0.615,
+              0.718
+            ],
+            [
+              0.515,
+              0.738
+            ],
+            [
+              0.414,
+              0.724
+            ],
+            [
+              0.326,
+              0.679
+            ],
+            [
+              0.263,
+              0.609
+            ],
+            [
+              0.338,
+              0.555
+            ],
+            [
+              0.589,
+              0.537
+            ],
+            [
+              0.385,
+              0.388
+            ],
+            [
+              0.349,
+              0.298
+            ],
+            [
+              0.438,
+              0.265
+            ],
+            [
+              0.534,
+              0.262
+            ],
+            [
+              0.625,
+              0.303
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "coil",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 47.2,
+        "wallSeconds": 47.2,
+        "trusted": 525,
+        "downs": 53,
+        "moves": 328,
+        "actions": 135,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03383120347522574,
+          "fx": 0.0030842277146676668,
+          "out": 0.02307839689733764,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05026671309307587,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 111,
+          "fxCount": 149,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 17,
+          "cuts": 4,
+          "joined": 5,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 53,
+          "dancing": false,
+          "selected": 16,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.77,
+              0.401
+            ],
+            [
+              0.786,
+              0.49
+            ],
+            [
+              0.767,
+              0.576
+            ],
+            [
+              0.716,
+              0.652
+            ],
+            [
+              0.64,
+              0.706
+            ],
+            [
+              0.549,
+              0.734
+            ],
+            [
+              0.453,
+              0.732
+            ],
+            [
+              0.363,
+              0.702
+            ],
+            [
+              0.292,
+              0.646
+            ],
+            [
+              0.246,
+              0.573
+            ],
+            [
+              0.232,
+              0.49
+            ],
+            [
+              0.25,
+              0.41
+            ],
+            [
+              0.297,
+              0.34
+            ],
+            [
+              0.369,
+              0.289
+            ],
+            [
+              0.454,
+              0.264
+            ],
+            [
+              0.544,
+              0.265
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "dance",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 48.1,
+        "wallSeconds": 48.1,
+        "trusted": 535,
+        "downs": 54,
+        "moves": 336,
+        "actions": 136,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02446475741233985,
+          "fx": 0.002079459254655115,
+          "out": 0.016597222611628864,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 113,
+          "fxCount": 154,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 17,
+          "cuts": 4,
+          "joined": 5,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 61,
+          "dancing": true,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.77,
+              0.401
+            ],
+            [
+              0.786,
+              0.49
+            ],
+            [
+              0.767,
+              0.576
+            ],
+            [
+              0.716,
+              0.652
+            ],
+            [
+              0.64,
+              0.706
+            ],
+            [
+              0.549,
+              0.734
+            ],
+            [
+              0.453,
+              0.732
+            ],
+            [
+              0.363,
+              0.702
+            ],
+            [
+              0.292,
+              0.646
+            ],
+            [
+              0.246,
+              0.573
+            ],
+            [
+              0.337,
+              0.52
+            ],
+            [
+              0.6,
+              0.51
+            ],
+            [
+              0.402,
+              0.37
+            ],
+            [
+              0.369,
+              0.289
+            ],
+            [
+              0.454,
+              0.264
+            ],
+            [
+              0.544,
+              0.265
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 49.4,
+        "wallSeconds": 49.4,
+        "trusted": 554,
+        "downs": 56,
+        "moves": 352,
+        "actions": 137,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.006304218931238808,
+          "fx": 0,
+          "out": 0.004286868914273547,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 116,
+          "fxCount": 159,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 17,
+          "cuts": 4,
+          "joined": 5,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 69,
+          "dancing": true,
+          "selected": 3,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.77,
+              0.401
+            ],
+            [
+              0.774,
+              0.463
+            ],
+            [
+              0.727,
+              0.486
+            ],
+            [
+              0.704,
+              0.625
+            ],
+            [
+              0.64,
+              0.706
+            ],
+            [
+              0.549,
+              0.734
+            ],
+            [
+              0.453,
+              0.732
+            ],
+            [
+              0.363,
+              0.702
+            ],
+            [
+              0.292,
+              0.646
+            ],
+            [
+              0.246,
+              0.573
+            ],
+            [
+              0.337,
+              0.52
+            ],
+            [
+              0.6,
+              0.51
+            ],
+            [
+              0.402,
+              0.37
+            ],
+            [
+              0.369,
+              0.289
+            ],
+            [
+              0.454,
+              0.264
+            ],
+            [
+              0.544,
+              0.265
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 50.7,
+        "wallSeconds": 50.7,
+        "trusted": 565,
+        "downs": 58,
+        "moves": 360,
+        "actions": 138,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0024491267864252173,
+          "fx": 0,
+          "out": 0.001665406234993504,
+          "musicPeak": 0.04646890942895726,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 119,
+          "fxCount": 162,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 17,
+          "cuts": 4,
+          "joined": 5,
+          "flipped": 3,
+          "wingTurns": 1,
+          "poseEdits": 69,
+          "dancing": true,
+          "selected": 3,
+          "mode": "cut",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.77,
+              0.401
+            ],
+            [
+              0.774,
+              0.463
+            ],
+            [
+              0.727,
+              0.486
+            ],
+            [
+              0.704,
+              0.625
+            ],
+            [
+              0.64,
+              0.706
+            ],
+            [
+              0.549,
+              0.734
+            ],
+            [
+              0.453,
+              0.732
+            ],
+            [
+              0.363,
+              0.702
+            ],
+            [
+              0.292,
+              0.646
+            ],
+            [
+              0.246,
+              0.573
+            ],
+            [
+              0.337,
+              0.52
+            ],
+            [
+              0.6,
+              0.51
+            ],
+            [
+              0.402,
+              0.37
+            ],
+            [
+              0.369,
+              0.289
+            ],
+            [
+              0.454,
+              0.264
+            ],
+            [
+              0.544,
+              0.265
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 51.9,
+        "wallSeconds": 51.9,
+        "trusted": 576,
+        "downs": 60,
+        "moves": 368,
+        "actions": 139,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003337391291900423,
+          "fx": 0,
+          "out": 0.0022694261018325547,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 122,
+          "fxCount": 165,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 17,
+          "cuts": 4,
+          "joined": 5,
+          "flipped": 4,
+          "wingTurns": 2,
+          "poseEdits": 69,
+          "dancing": true,
+          "selected": 11,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.77,
+              0.401
+            ],
+            [
+              0.774,
+              0.463
+            ],
+            [
+              0.727,
+              0.486
+            ],
+            [
+              0.704,
+              0.625
+            ],
+            [
+              0.64,
+              0.706
+            ],
+            [
+              0.549,
+              0.734
+            ],
+            [
+              0.453,
+              0.732
+            ],
+            [
+              0.363,
+              0.702
+            ],
+            [
+              0.292,
+              0.646
+            ],
+            [
+              0.246,
+              0.573
+            ],
+            [
+              0.337,
+              0.52
+            ],
+            [
+              0.6,
+              0.51
+            ],
+            [
+              0.402,
+              0.37
+            ],
+            [
+              0.369,
+              0.289
+            ],
+            [
+              0.454,
+              0.264
+            ],
+            [
+              0.544,
+              0.265
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "add",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 52.8,
+        "wallSeconds": 52.7,
+        "trusted": 586,
+        "downs": 61,
+        "moves": 376,
+        "actions": 140,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02448379734277852,
+          "fx": 0.0018219170220469903,
+          "out": 0.016693683651719173,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 125,
+          "fxCount": 167,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 4,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 2,
+          "poseEdits": 69,
+          "dancing": true,
+          "selected": 17,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.77,
+              0.401
+            ],
+            [
+              0.774,
+              0.463
+            ],
+            [
+              0.727,
+              0.486
+            ],
+            [
+              0.704,
+              0.625
+            ],
+            [
+              0.64,
+              0.706
+            ],
+            [
+              0.549,
+              0.734
+            ],
+            [
+              0.453,
+              0.732
+            ],
+            [
+              0.363,
+              0.702
+            ],
+            [
+              0.292,
+              0.646
+            ],
+            [
+              0.246,
+              0.573
+            ],
+            [
+              0.337,
+              0.52
+            ],
+            [
+              0.6,
+              0.51
+            ],
+            [
+              0.402,
+              0.37
+            ],
+            [
+              0.369,
+              0.289
+            ],
+            [
+              0.454,
+              0.264
+            ],
+            [
+              0.544,
+              0.265
+            ],
+            [
+              0.633,
+              0.311
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "coil",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 53.6,
+        "wallSeconds": 53.6,
+        "trusted": 596,
+        "downs": 62,
+        "moves": 384,
+        "actions": 141,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010495066125490091,
+          "fx": 0.0020994533076733814,
+          "out": 0.007216360428467835,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 127,
+          "fxCount": 169,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 4,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 2,
+          "poseEdits": 70,
+          "dancing": true,
+          "selected": 17,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.786,
+              0.48
+            ],
+            [
+              0.772,
+              0.563
+            ],
+            [
+              0.729,
+              0.637
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.238,
+              0.538
+            ],
+            [
+              0.236,
+              0.46
+            ],
+            [
+              0.263,
+              0.387
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "dance",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 54.5,
+        "wallSeconds": 54.5,
+        "trusted": 606,
+        "downs": 63,
+        "moves": 392,
+        "actions": 142,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.013123310197027428,
+          "fx": 0.0020994533076733814,
+          "out": 0.00908413663468917,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 129,
+          "fxCount": 174,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 4,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 2,
+          "poseEdits": 78,
+          "dancing": false,
+          "selected": 12,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.786,
+              0.48
+            ],
+            [
+              0.772,
+              0.563
+            ],
+            [
+              0.729,
+              0.637
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.343,
+              0.568
+            ],
+            [
+              0.586,
+              0.56
+            ],
+            [
+              0.368,
+              0.417
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 55.8,
+        "wallSeconds": 55.8,
+        "trusted": 625,
+        "downs": 65,
+        "moves": 408,
+        "actions": 143,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0027820220087982762,
+          "fx": 0,
+          "out": 0.001891774992692638,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 132,
+          "fxCount": 179,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 4,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 2,
+          "poseEdits": 86,
+          "dancing": false,
+          "selected": 3,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.774,
+              0.453
+            ],
+            [
+              0.732,
+              0.473
+            ],
+            [
+              0.717,
+              0.61
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.343,
+              0.568
+            ],
+            [
+              0.586,
+              0.56
+            ],
+            [
+              0.368,
+              0.417
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 57.1,
+        "wallSeconds": 57.1,
+        "trusted": 636,
+        "downs": 67,
+        "moves": 416,
+        "actions": 144,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01871796438071095,
+          "fx": 0,
+          "out": 0.012728215873861609,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 136,
+          "fxCount": 182,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 5,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 2,
+          "poseEdits": 86,
+          "dancing": false,
+          "selected": 12,
+          "mode": "cut",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.774,
+              0.453
+            ],
+            [
+              0.732,
+              0.473
+            ],
+            [
+              0.717,
+              0.61
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.343,
+              0.568
+            ],
+            [
+              0.586,
+              0.56
+            ],
+            [
+              0.368,
+              0.417
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 58.4,
+        "wallSeconds": 58.4,
+        "trusted": 647,
+        "downs": 69,
+        "moves": 424,
+        "actions": 145,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007459764614640096,
+          "fx": 0,
+          "out": 0.005072639985278357,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 139,
+          "fxCount": 185,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 5,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 2,
+          "poseEdits": 86,
+          "dancing": false,
+          "selected": 12,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.774,
+              0.453
+            ],
+            [
+              0.732,
+              0.473
+            ],
+            [
+              0.717,
+              0.61
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.343,
+              0.568
+            ],
+            [
+              0.586,
+              0.56
+            ],
+            [
+              0.368,
+              0.417
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "add",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 59.2,
+        "wallSeconds": 59.2,
+        "trusted": 657,
+        "downs": 70,
+        "moves": 432,
+        "actions": 146,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009363566600390586,
+          "fx": 0,
+          "out": 0.0063672253425663934,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 141,
+          "fxCount": 186,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 5,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 2,
+          "poseEdits": 86,
+          "dancing": false,
+          "selected": 12,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.774,
+              0.453
+            ],
+            [
+              0.732,
+              0.473
+            ],
+            [
+              0.717,
+              0.61
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.343,
+              0.568
+            ],
+            [
+              0.586,
+              0.56
+            ],
+            [
+              0.368,
+              0.417
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "coil",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 60.1,
+        "wallSeconds": 60.1,
+        "trusted": 667,
+        "downs": 71,
+        "moves": 440,
+        "actions": 147,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.025438123762887167,
+          "fx": 0.0047019200903483105,
+          "out": 0.017450663455502165,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 144,
+          "fxCount": 188,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 5,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 2,
+          "poseEdits": 87,
+          "dancing": false,
+          "selected": 12,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.786,
+              0.48
+            ],
+            [
+              0.772,
+              0.563
+            ],
+            [
+              0.729,
+              0.637
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.238,
+              0.538
+            ],
+            [
+              0.236,
+              0.46
+            ],
+            [
+              0.263,
+              0.387
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "dance",
+        "clickOnly": true
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 61,
+        "wallSeconds": 61,
+        "trusted": 677,
+        "downs": 72,
+        "moves": 448,
+        "actions": 148,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.018502035498230682,
+          "fx": 0.0017404654219765493,
+          "out": 0.011807561801335879,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 146,
+          "fxCount": 191,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 5,
+          "joined": 6,
+          "flipped": 6,
+          "wingTurns": 3,
+          "poseEdits": 87,
+          "dancing": true,
+          "selected": 12,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.786,
+              0.48
+            ],
+            [
+              0.772,
+              0.563
+            ],
+            [
+              0.729,
+              0.637
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.238,
+              0.538
+            ],
+            [
+              0.236,
+              0.46
+            ],
+            [
+              0.263,
+              0.387
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "joint",
+        "from": [
+          0.69,
+          0.57
+        ],
+        "to": [
+          0.65,
+          0.48
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 62.3,
+        "wallSeconds": 62.2,
+        "trusted": 696,
+        "downs": 74,
+        "moves": 464,
+        "actions": 149,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012953615856583554,
+          "fx": 0,
+          "out": 0.008808458916335082,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 149,
+          "fxCount": 197,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 5,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 4,
+          "poseEdits": 95,
+          "dancing": true,
+          "selected": 3,
+          "mode": "joint",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.774,
+              0.453
+            ],
+            [
+              0.732,
+              0.473
+            ],
+            [
+              0.717,
+              0.61
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.238,
+              0.538
+            ],
+            [
+              0.236,
+              0.46
+            ],
+            [
+              0.263,
+              0.387
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "cut",
+        "from": [
+          0.54,
+          0.56
+        ],
+        "to": [
+          0.54,
+          0.56
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 63.6,
+        "wallSeconds": 63.6,
+        "trusted": 707,
+        "downs": 76,
+        "moves": 472,
+        "actions": 150,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.002489837285652286,
+          "fx": 0,
+          "out": 0.0016930893676975279,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 152,
+          "fxCount": 203,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 6,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 4,
+          "poseEdits": 103,
+          "dancing": true,
+          "selected": 12,
+          "mode": "cut",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.774,
+              0.453
+            ],
+            [
+              0.732,
+              0.473
+            ],
+            [
+              0.717,
+              0.61
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.343,
+              0.568
+            ],
+            [
+              0.586,
+              0.56
+            ],
+            [
+              0.368,
+              0.417
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "flip",
+        "from": [
+          0.4,
+          0.51
+        ],
+        "to": [
+          0.4,
+          0.51
+        ]
+      },
+      "qa": {
+        "title": "纸骨游龙",
+        "elapsed": 64.9,
+        "wallSeconds": 64.9,
+        "trusted": 718,
+        "downs": 78,
+        "moves": 480,
+        "actions": 151,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 64,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012506088824356727,
+          "fx": 0,
+          "out": 0.008504140485311888,
+          "musicPeak": 0.046567372628555356,
+          "fxPeak": 0.05466554140414286,
+          "outPeak": 0.0436327189354383,
+          "musicCount": 156,
+          "fxCount": 206,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "segments": 18,
+          "cuts": 6,
+          "joined": 6,
+          "flipped": 5,
+          "wingTurns": 4,
+          "poseEdits": 103,
+          "dancing": true,
+          "selected": 12,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.769,
+              0.397
+            ],
+            [
+              0.774,
+              0.453
+            ],
+            [
+              0.732,
+              0.473
+            ],
+            [
+              0.717,
+              0.61
+            ],
+            [
+              0.662,
+              0.694
+            ],
+            [
+              0.579,
+              0.728
+            ],
+            [
+              0.488,
+              0.736
+            ],
+            [
+              0.4,
+              0.717
+            ],
+            [
+              0.324,
+              0.674
+            ],
+            [
+              0.268,
+              0.612
+            ],
+            [
+              0.343,
+              0.568
+            ],
+            [
+              0.586,
+              0.56
+            ],
+            [
+              0.368,
+              0.417
+            ],
+            [
+              0.315,
+              0.326
+            ],
+            [
+              0.386,
+              0.283
+            ],
+            [
+              0.469,
+              0.264
+            ],
+            [
+              0.553,
+              0.269
+            ]
+          ]
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "bbb2ece6438b682a6140506279363425ca68171f73b2f7cec89549466069fb8b",
+  "initial": {
+    "title": "纸骨游龙",
+    "elapsed": 0.3,
+    "wallSeconds": 0.3,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 76,
+    "maxFrameMs": 26,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "segments": 12,
+      "cuts": 0,
+      "joined": 0,
+      "flipped": 0,
+      "wingTurns": 0,
+      "poseEdits": 0,
+      "dancing": false,
+      "selected": 0,
+      "mode": "joint",
+      "positions": [
+        [
+          0.76,
+          0.28
+        ],
+        [
+          0.61,
+          0.26
+        ],
+        [
+          0.47,
+          0.29
+        ],
+        [
+          0.36,
+          0.39
+        ],
+        [
+          0.4,
+          0.51
+        ],
+        [
+          0.54,
+          0.56
+        ],
+        [
+          0.69,
+          0.57
+        ],
+        [
+          0.78,
+          0.67
+        ],
+        [
+          0.67,
+          0.77
+        ],
+        [
+          0.51,
+          0.78
+        ],
+        [
+          0.36,
+          0.73
+        ],
+        [
+          0.23,
+          0.65
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "纸骨游龙",
+    "elapsed": 3.4,
+    "wallSeconds": 3.4,
+    "trusted": 17,
+    "downs": 3,
+    "moves": 8,
+    "actions": 6,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 54,
+    "maxFrameMs": 64,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.01785190787548809,
+      "fx": 0.0006886490582990947,
+      "out": 0.012117130177009206,
+      "musicPeak": 0.044078568936928283,
+      "fxPeak": 0.044520869402495826,
+      "outPeak": 0.0436327189354383,
+      "musicCount": 8,
+      "fxCount": 12,
+      "activeVoices": 5,
+      "connectedNodes": 16,
+      "suspended": false,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "segments": 13,
+      "cuts": 1,
+      "joined": 1,
+      "flipped": 1,
+      "wingTurns": 1,
+      "poseEdits": 9,
+      "dancing": true,
+      "selected": 12,
+      "mode": "joint",
+      "positions": [
+        [
+          0.722,
+          0.323
+        ],
+        [
+          0.779,
+          0.426
+        ],
+        [
+          0.78,
+          0.54
+        ],
+        [
+          0.727,
+          0.643
+        ],
+        [
+          0.629,
+          0.714
+        ],
+        [
+          0.508,
+          0.74
+        ],
+        [
+          0.386,
+          0.716
+        ],
+        [
+          0.289,
+          0.648
+        ],
+        [
+          0.235,
+          0.551
+        ],
+        [
+          0.233,
+          0.442
+        ],
+        [
+          0.284,
+          0.345
+        ],
+        [
+          0.377,
+          0.278
+        ],
+        [
+          0.493,
+          0.254
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "纸骨游龙",
+    "elapsed": 9.8,
+    "wallSeconds": 9.8,
+    "trusted": 116,
+    "downs": 3,
+    "moves": 8,
+    "actions": 105,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 61,
+    "maxFrameMs": 64,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.006428736668385849,
+      "fx": 0.008782955524988624,
+      "out": 0.0074382074405658465,
+      "musicPeak": 0.04646890942895726,
+      "fxPeak": 0.05026671309307587,
+      "outPeak": 0.0436327189354383,
+      "musicCount": 24,
+      "fxCount": 58,
+      "activeVoices": 5,
+      "connectedNodes": 16,
+      "suspended": false,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "segments": 18,
+      "cuts": 1,
+      "joined": 6,
+      "flipped": 4,
+      "wingTurns": 1,
+      "poseEdits": 25,
+      "dancing": true,
+      "selected": 17,
+      "mode": "flip",
+      "positions": [
+        [
+          0.722,
+          0.323
+        ],
+        [
+          0.769,
+          0.397
+        ],
+        [
+          0.786,
+          0.48
+        ],
+        [
+          0.772,
+          0.563
+        ],
+        [
+          0.729,
+          0.637
+        ],
+        [
+          0.662,
+          0.694
+        ],
+        [
+          0.579,
+          0.728
+        ],
+        [
+          0.488,
+          0.736
+        ],
+        [
+          0.4,
+          0.717
+        ],
+        [
+          0.324,
+          0.674
+        ],
+        [
+          0.268,
+          0.612
+        ],
+        [
+          0.238,
+          0.538
+        ],
+        [
+          0.236,
+          0.46
+        ],
+        [
+          0.263,
+          0.387
+        ],
+        [
+          0.315,
+          0.326
+        ],
+        [
+          0.386,
+          0.283
+        ],
+        [
+          0.469,
+          0.264
+        ],
+        [
+          0.553,
+          0.269
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "纸骨游龙",
+    "elapsed": 16.3,
+    "wallSeconds": 16.3,
+    "trusted": 180,
+    "downs": 9,
+    "moves": 56,
+    "actions": 106,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 67,
+    "maxFrameMs": 64,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.0186884623420672,
+      "fx": 0,
+      "out": 0.01270815453605764,
+      "musicPeak": 0.04646890942895726,
+      "fxPeak": 0.05026671309307587,
+      "outPeak": 0.0436327189354383,
+      "musicCount": 31,
+      "fxCount": 61,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "segments": 12,
+      "cuts": 0,
+      "joined": 0,
+      "flipped": 0,
+      "wingTurns": 0,
+      "poseEdits": 0,
+      "dancing": false,
+      "selected": 0,
+      "mode": "joint",
+      "positions": [
+        [
+          0.76,
+          0.28
+        ],
+        [
+          0.61,
+          0.26
+        ],
+        [
+          0.47,
+          0.29
+        ],
+        [
+          0.36,
+          0.39
+        ],
+        [
+          0.4,
+          0.51
+        ],
+        [
+          0.54,
+          0.56
+        ],
+        [
+          0.69,
+          0.57
+        ],
+        [
+          0.78,
+          0.67
+        ],
+        [
+          0.67,
+          0.77
+        ],
+        [
+          0.51,
+          0.78
+        ],
+        [
+          0.36,
+          0.73
+        ],
+        [
+          0.23,
+          0.65
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 65.246,
+  "final": {
+    "title": "纸骨游龙",
+    "elapsed": 65.6,
+    "wallSeconds": 65.6,
+    "trusted": 727,
+    "downs": 79,
+    "moves": 488,
+    "actions": 151,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 75,
+    "maxFrameMs": 64,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.027286316241206452,
+      "fx": 0,
+      "out": 0.018554695220736987,
+      "musicPeak": 0.046567372628555356,
+      "fxPeak": 0.05466554140414286,
+      "outPeak": 0.0436327189354383,
+      "musicCount": 158,
+      "fxCount": 207,
+      "activeVoices": 4,
+      "connectedNodes": 14,
+      "suspended": false,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "segments": 18,
+      "cuts": 6,
+      "joined": 6,
+      "flipped": 5,
+      "wingTurns": 4,
+      "poseEdits": 103,
+      "dancing": true,
+      "selected": 12,
+      "mode": "flip",
+      "positions": [
+        [
+          0.722,
+          0.323
+        ],
+        [
+          0.769,
+          0.397
+        ],
+        [
+          0.774,
+          0.453
+        ],
+        [
+          0.732,
+          0.473
+        ],
+        [
+          0.717,
+          0.61
+        ],
+        [
+          0.662,
+          0.694
+        ],
+        [
+          0.579,
+          0.728
+        ],
+        [
+          0.488,
+          0.736
+        ],
+        [
+          0.4,
+          0.717
+        ],
+        [
+          0.324,
+          0.674
+        ],
+        [
+          0.268,
+          0.612
+        ],
+        [
+          0.343,
+          0.568
+        ],
+        [
+          0.586,
+          0.56
+        ],
+        [
+          0.368,
+          0.417
+        ],
+        [
+          0.315,
+          0.326
+        ],
+        [
+          0.386,
+          0.283
+        ],
+        [
+          0.469,
+          0.264
+        ],
+        [
+          0.553,
+          0.269
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 301,
+      "bottom": 54
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 378,
+      "bottom": 54
+    },
+    {
+      "text": "牵纸骨",
+      "height": 44,
+      "right": 80,
+      "bottom": 784
+    },
+    {
+      "text": "剪月牙孔",
+      "height": 44,
+      "right": 168,
+      "bottom": 784
+    },
+    {
+      "text": "接一节新骨",
+      "height": 44,
+      "right": 270,
+      "bottom": 784
+    },
+    {
+      "text": "翻背翼",
+      "height": 44,
+      "right": 344,
+      "bottom": 784
+    },
+    {
+      "text": "盘成龙环",
+      "height": 44,
+      "right": 94,
+      "bottom": 834
+    },
+    {
+      "text": "起舞 / 停驻",
+      "height": 44,
+      "right": 193.703125,
+      "bottom": 834
+    }
+  ],
+  "heap": {
+    "usedSize": 3253560,
+    "totalSize": 4390912,
+    "embedderHeapUsedSize": 2357624,
+    "backingStorageSize": 27767
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 3,
+    "state": "suspended",
+    "qa": {
+      "title": "纸骨游龙",
+      "elapsed": 65.7,
+      "wallSeconds": 65.7,
+      "trusted": 727,
+      "downs": 79,
+      "moves": 488,
+      "actions": 151,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 75,
+      "maxFrameMs": 64,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.014877626048897285,
+        "fx": 0,
+        "out": 0.010116785819635597,
+        "musicPeak": 0.046567372628555356,
+        "fxPeak": 0.05466554140414286,
+        "outPeak": 0.0436327189354383,
+        "musicCount": 158,
+        "fxCount": 207,
+        "activeVoices": 4,
+        "connectedNodes": 14,
+        "suspended": false,
+        "maxVoices": 8,
+        "limit": 18
+      },
+      "art": {
+        "segments": 18,
+        "cuts": 6,
+        "joined": 6,
+        "flipped": 5,
+        "wingTurns": 4,
+        "poseEdits": 103,
+        "dancing": true,
+        "selected": 12,
+        "mode": "flip",
+        "positions": [
+          [
+            0.722,
+            0.323
+          ],
+          [
+            0.769,
+            0.397
+          ],
+          [
+            0.774,
+            0.453
+          ],
+          [
+            0.732,
+            0.473
+          ],
+          [
+            0.717,
+            0.61
+          ],
+          [
+            0.662,
+            0.694
+          ],
+          [
+            0.579,
+            0.728
+          ],
+          [
+            0.488,
+            0.736
+          ],
+          [
+            0.4,
+            0.717
+          ],
+          [
+            0.324,
+            0.674
+          ],
+          [
+            0.268,
+            0.612
+          ],
+          [
+            0.343,
+            0.568
+          ],
+          [
+            0.586,
+            0.56
+          ],
+          [
+            0.368,
+            0.417
+          ],
+          [
+            0.315,
+            0.326
+          ],
+          [
+            0.386,
+            0.283
+          ],
+          [
+            0.469,
+            0.264
+          ],
+          [
+            0.553,
+            0.269
+          ]
+        ]
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

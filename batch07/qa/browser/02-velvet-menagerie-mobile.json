@@ -1,0 +1,3153 @@
+{
+  "slug": "02-velvet-menagerie",
+  "device": "mobile",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/02-velvet-menagerie/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 1.4,
+        "wallSeconds": 1.4,
+        "trusted": 10,
+        "downs": 1,
+        "moves": 8,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.006686464331203653,
+          "fx": 0,
+          "out": 0.0045467958001922625,
+          "musicPeak": 0.03280350093081448,
+          "fxPeak": 0.03947689774977843,
+          "outPeak": 0.033067264746747586,
+          "musicCount": 2,
+          "fxCount": 5,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 9,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 1426,
+          "averagePile": 12.86,
+          "colour": 0,
+          "revision": 9
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 2.2,
+        "wallSeconds": 2.2,
+        "trusted": 20,
+        "downs": 2,
+        "moves": 16,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.017443465482064265,
+          "fx": 0,
+          "out": 0.011861556656973244,
+          "musicPeak": 0.03290905794515092,
+          "fxPeak": 0.03947689774977843,
+          "outPeak": 0.033067264746747586,
+          "musicCount": 4,
+          "fxCount": 10,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 13800,
+          "shears": 9,
+          "combs": 9,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 1426,
+          "averagePile": 13.09,
+          "colour": 0,
+          "revision": 18
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "colour",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 2.4,
+        "wallSeconds": 2.4,
+        "trusted": 21,
+        "downs": 2,
+        "moves": 16,
+        "actions": 3,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0035892331499610963,
+          "fx": 0.0018894047119320653,
+          "out": 0.0028636649001106897,
+          "musicPeak": 0.03290905794515092,
+          "fxPeak": 0.03947689774977843,
+          "outPeak": 0.033067264746747586,
+          "musicCount": 4,
+          "fxCount": 11,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 13800,
+          "shears": 9,
+          "combs": 9,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 1426,
+          "averagePile": 13.09,
+          "colour": 1,
+          "revision": 18
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "graft",
+        "from": [
+          0.23,
+          0.5
+        ],
+        "to": [
+          0.3,
+          0.54
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 3.2,
+        "wallSeconds": 3.2,
+        "trusted": 31,
+        "downs": 3,
+        "moves": 24,
+        "actions": 4,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0179717251727701,
+          "fx": 0,
+          "out": 0.012220773263641727,
+          "musicPeak": 0.038178090923206474,
+          "fxPeak": 0.0426880556098149,
+          "outPeak": 0.033067264746747586,
+          "musicCount": 6,
+          "fxCount": 16,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 14142,
+          "shears": 9,
+          "combs": 9,
+          "grafts": 9,
+          "footprints": 0,
+          "cutTufts": 1426,
+          "averagePile": 13.38,
+          "colour": 1,
+          "revision": 27
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "print",
+        "from": [
+          0.78,
+          0.6
+        ],
+        "to": [
+          0.78,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 3.8,
+        "wallSeconds": 3.8,
+        "trusted": 33,
+        "downs": 4,
+        "moves": 24,
+        "actions": 5,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 80,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0044109898301416695,
+          "fx": 0,
+          "out": 0.0029994731185833796,
+          "musicPeak": 0.038178090923206474,
+          "fxPeak": 0.0426880556098149,
+          "outPeak": 0.033067264746747586,
+          "musicCount": 7,
+          "fxCount": 18,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 14142,
+          "shears": 9,
+          "combs": 9,
+          "grafts": 9,
+          "footprints": 1,
+          "cutTufts": 1725,
+          "averagePile": 13.19,
+          "colour": 1,
+          "revision": 28
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 10,
+        "wallSeconds": 10,
+        "trusted": 143,
+        "downs": 5,
+        "moves": 32,
+        "actions": 105,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.0426880556098149,
+          "outPeak": 0.033067264746747586,
+          "musicCount": 18,
+          "fxCount": 38,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 14142,
+          "shears": 9,
+          "combs": 9,
+          "grafts": 9,
+          "footprints": 2,
+          "cutTufts": 2018,
+          "averagePile": 13.02,
+          "colour": 1,
+          "revision": 37
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 10.3,
+        "wallSeconds": 10.3,
+        "trusted": 144,
+        "downs": 5,
+        "moves": 32,
+        "actions": 105,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.0426880556098149,
+          "outPeak": 0.033067264746747586,
+          "musicCount": 18,
+          "fxCount": 38,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 0,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 0,
+          "averagePile": 13.52,
+          "colour": 0,
+          "revision": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 12,
+        "wallSeconds": 12,
+        "trusted": 164,
+        "downs": 7,
+        "moves": 48,
+        "actions": 105,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 20,
+          "fxCount": 43,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 18,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 1441,
+          "averagePile": 12.67,
+          "colour": 0,
+          "revision": 18
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 12.3,
+        "wallSeconds": 12.3,
+        "trusted": 165,
+        "downs": 7,
+        "moves": 48,
+        "actions": 105,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 20,
+          "fxCount": 43,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 0,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 0,
+          "averagePile": 13.52,
+          "colour": 0,
+          "revision": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 14,
+        "wallSeconds": 14,
+        "trusted": 185,
+        "downs": 9,
+        "moves": 64,
+        "actions": 105,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 22,
+          "fxCount": 48,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 18,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 1441,
+          "averagePile": 12.67,
+          "colour": 0,
+          "revision": 18
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 14.3,
+        "wallSeconds": 14.3,
+        "trusted": 186,
+        "downs": 9,
+        "moves": 64,
+        "actions": 105,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 22,
+          "fxCount": 48,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 0,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 0,
+          "averagePile": 13.52,
+          "colour": 0,
+          "revision": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 17.1,
+        "wallSeconds": 17.1,
+        "trusted": 215,
+        "downs": 12,
+        "moves": 88,
+        "actions": 106,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003523478780500003,
+          "fx": 0,
+          "out": 0.0023959656031015274,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 28,
+          "fxCount": 63,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 27,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 3420,
+          "averagePile": 11.78,
+          "colour": 0,
+          "revision": 27
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 18.6,
+        "wallSeconds": 18.6,
+        "trusted": 234,
+        "downs": 14,
+        "moves": 104,
+        "actions": 107,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.005136625944336366,
+          "fx": 0,
+          "out": 0.0034929056781774024,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 31,
+          "fxCount": 73,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 13800,
+          "shears": 36,
+          "combs": 9,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 5115,
+          "averagePile": 11.32,
+          "colour": 0,
+          "revision": 45
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "colour",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 19.5,
+        "wallSeconds": 19.5,
+        "trusted": 244,
+        "downs": 15,
+        "moves": 112,
+        "actions": 108,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00393338364281409,
+          "fx": 0.018280277178414503,
+          "out": 0.015074772693662558,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 33,
+          "fxCount": 79,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 13800,
+          "shears": 36,
+          "combs": 18,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 5115,
+          "averagePile": 11.52,
+          "colour": 1,
+          "revision": 54
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "graft",
+        "from": [
+          0.23,
+          0.5
+        ],
+        "to": [
+          0.3,
+          0.54
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 21.1,
+        "wallSeconds": 21,
+        "trusted": 263,
+        "downs": 17,
+        "moves": 128,
+        "actions": 109,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0018157292801173068,
+          "fx": 0.00008536902180354766,
+          "out": 0.0012326439490942583,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 36,
+          "fxCount": 90,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 14484,
+          "shears": 36,
+          "combs": 18,
+          "grafts": 18,
+          "footprints": 0,
+          "cutTufts": 5115,
+          "averagePile": 12.16,
+          "colour": 1,
+          "revision": 72
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "print",
+        "from": [
+          0.78,
+          0.6
+        ],
+        "to": [
+          0.78,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 22.5,
+        "wallSeconds": 22.5,
+        "trusted": 274,
+        "downs": 19,
+        "moves": 136,
+        "actions": 110,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.008149674111698356,
+          "fx": 0,
+          "out": 0.005541778441876225,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.041642913285268666,
+          "musicCount": 39,
+          "fxCount": 97,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 14826,
+          "shears": 36,
+          "combs": 18,
+          "grafts": 27,
+          "footprints": 1,
+          "cutTufts": 5414,
+          "averagePile": 12.29,
+          "colour": 1,
+          "revision": 82
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 24.1,
+        "wallSeconds": 24.1,
+        "trusted": 293,
+        "downs": 21,
+        "moves": 152,
+        "actions": 111,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.027750067484166453,
+          "fx": 0,
+          "out": 0.018870046115535923,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 43,
+          "fxCount": 104,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 14826,
+          "shears": 45,
+          "combs": 18,
+          "grafts": 27,
+          "footprints": 2,
+          "cutTufts": 5778,
+          "averagePile": 11.69,
+          "colour": 1,
+          "revision": 100
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 25.6,
+        "wallSeconds": 25.6,
+        "trusted": 312,
+        "downs": 23,
+        "moves": 168,
+        "actions": 112,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.013482969308866973,
+          "fx": 0,
+          "out": 0.009168419227962766,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 46,
+          "fxCount": 114,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 14826,
+          "shears": 54,
+          "combs": 27,
+          "grafts": 27,
+          "footprints": 2,
+          "cutTufts": 6390,
+          "averagePile": 10.98,
+          "colour": 1,
+          "revision": 118
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "colour",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 26.5,
+        "wallSeconds": 26.4,
+        "trusted": 322,
+        "downs": 24,
+        "moves": 176,
+        "actions": 113,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02358118739219634,
+          "fx": 0.008416011419925724,
+          "out": 0.014472372969494923,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 48,
+          "fxCount": 119,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 14826,
+          "shears": 54,
+          "combs": 36,
+          "grafts": 27,
+          "footprints": 2,
+          "cutTufts": 6390,
+          "averagePile": 11.24,
+          "colour": 2,
+          "revision": 127
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "graft",
+        "from": [
+          0.23,
+          0.5
+        ],
+        "to": [
+          0.3,
+          0.54
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 28,
+        "wallSeconds": 28,
+        "trusted": 341,
+        "downs": 26,
+        "moves": 192,
+        "actions": 114,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.019566406433608765,
+          "fx": 0,
+          "out": 0.01330515654840635,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 51,
+          "fxCount": 129,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 15510,
+          "shears": 54,
+          "combs": 36,
+          "grafts": 45,
+          "footprints": 2,
+          "cutTufts": 6390,
+          "averagePile": 11.85,
+          "colour": 2,
+          "revision": 145
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "print",
+        "from": [
+          0.78,
+          0.6
+        ],
+        "to": [
+          0.78,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 29.4,
+        "wallSeconds": 29.4,
+        "trusted": 352,
+        "downs": 28,
+        "moves": 200,
+        "actions": 115,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.013702135364042252,
+          "fx": 0,
+          "out": 0.009317452166787206,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 54,
+          "fxCount": 136,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 15852,
+          "shears": 54,
+          "combs": 36,
+          "grafts": 54,
+          "footprints": 3,
+          "cutTufts": 6390,
+          "averagePile": 12.07,
+          "colour": 2,
+          "revision": 155
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 30.9,
+        "wallSeconds": 30.9,
+        "trusted": 371,
+        "downs": 30,
+        "moves": 216,
+        "actions": 116,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007271266553468652,
+          "fx": 0,
+          "out": 0.004944461308596013,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 57,
+          "fxCount": 143,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 15852,
+          "shears": 63,
+          "combs": 36,
+          "grafts": 54,
+          "footprints": 4,
+          "cutTufts": 6758,
+          "averagePile": 11.56,
+          "colour": 2,
+          "revision": 173
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 32.4,
+        "wallSeconds": 32.3,
+        "trusted": 390,
+        "downs": 32,
+        "moves": 232,
+        "actions": 117,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00844508718186224,
+          "fx": 0,
+          "out": 0.005742659356829733,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 60,
+          "fxCount": 152,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 15852,
+          "shears": 72,
+          "combs": 45,
+          "grafts": 54,
+          "footprints": 4,
+          "cutTufts": 7377,
+          "averagePile": 10.74,
+          "colour": 2,
+          "revision": 191
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "colour",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 33.3,
+        "wallSeconds": 33.3,
+        "trusted": 400,
+        "downs": 33,
+        "moves": 240,
+        "actions": 118,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007235751367485782,
+          "fx": 0.0007310343404838718,
+          "out": 0.005176959880637828,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 62,
+          "fxCount": 158,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 15852,
+          "shears": 72,
+          "combs": 54,
+          "grafts": 54,
+          "footprints": 4,
+          "cutTufts": 7377,
+          "averagePile": 11.05,
+          "colour": 3,
+          "revision": 200
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "graft",
+        "from": [
+          0.23,
+          0.5
+        ],
+        "to": [
+          0.3,
+          0.54
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 34.9,
+        "wallSeconds": 34.9,
+        "trusted": 419,
+        "downs": 35,
+        "moves": 256,
+        "actions": 119,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0030931507417185445,
+          "fx": 0,
+          "out": 0.002103342531878264,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 65,
+          "fxCount": 168,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 16536,
+          "shears": 72,
+          "combs": 54,
+          "grafts": 72,
+          "footprints": 4,
+          "cutTufts": 7377,
+          "averagePile": 11.63,
+          "colour": 3,
+          "revision": 218
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "print",
+        "from": [
+          0.78,
+          0.6
+        ],
+        "to": [
+          0.78,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 36.1,
+        "wallSeconds": 36.1,
+        "trusted": 430,
+        "downs": 37,
+        "moves": 264,
+        "actions": 120,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014327387793786237,
+          "fx": 0,
+          "out": 0.009742623831647057,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 68,
+          "fxCount": 174,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 16768,
+          "shears": 72,
+          "combs": 54,
+          "grafts": 81,
+          "footprints": 5,
+          "cutTufts": 7316,
+          "averagePile": 11.9,
+          "colour": 3,
+          "revision": 228
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 37.5,
+        "wallSeconds": 37.5,
+        "trusted": 449,
+        "downs": 39,
+        "moves": 280,
+        "actions": 121,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02760871905433585,
+          "fx": 0.00006263426281538624,
+          "out": 0.018736473310828207,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 71,
+          "fxCount": 181,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 16768,
+          "shears": 81,
+          "combs": 54,
+          "grafts": 81,
+          "footprints": 6,
+          "cutTufts": 7675,
+          "averagePile": 11.41,
+          "colour": 3,
+          "revision": 246
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 39,
+        "wallSeconds": 39,
+        "trusted": 468,
+        "downs": 41,
+        "moves": 296,
+        "actions": 122,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010021699969737938,
+          "fx": 0,
+          "out": 0.0068147560489167265,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 74,
+          "fxCount": 191,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 16768,
+          "shears": 90,
+          "combs": 63,
+          "grafts": 81,
+          "footprints": 6,
+          "cutTufts": 8302,
+          "averagePile": 10.52,
+          "colour": 3,
+          "revision": 264
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "colour",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 39.9,
+        "wallSeconds": 39.9,
+        "trusted": 478,
+        "downs": 42,
+        "moves": 304,
+        "actions": 123,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.025911564631996533,
+          "fx": 0.006957355221386323,
+          "out": 0.018529151241472634,
+          "musicPeak": 0.03895799815393619,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 76,
+          "fxCount": 196,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 16768,
+          "shears": 90,
+          "combs": 72,
+          "grafts": 81,
+          "footprints": 6,
+          "cutTufts": 8302,
+          "averagePile": 10.88,
+          "colour": 4,
+          "revision": 273
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "graft",
+        "from": [
+          0.23,
+          0.5
+        ],
+        "to": [
+          0.3,
+          0.54
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 41.5,
+        "wallSeconds": 41.5,
+        "trusted": 497,
+        "downs": 44,
+        "moves": 320,
+        "actions": 124,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012236621326303085,
+          "fx": 0,
+          "out": 0.008320902587444348,
+          "musicPeak": 0.043038681445186376,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 79,
+          "fxCount": 205,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 16996,
+          "shears": 90,
+          "combs": 72,
+          "grafts": 99,
+          "footprints": 6,
+          "cutTufts": 8074,
+          "averagePile": 11.5,
+          "colour": 4,
+          "revision": 291
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "print",
+        "from": [
+          0.78,
+          0.6
+        ],
+        "to": [
+          0.78,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 42.8,
+        "wallSeconds": 42.7,
+        "trusted": 508,
+        "downs": 46,
+        "moves": 328,
+        "actions": 125,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02478204328998548,
+          "fx": 0,
+          "out": 0.016851789630274276,
+          "musicPeak": 0.043038681445186376,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 82,
+          "fxCount": 212,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 17224,
+          "shears": 90,
+          "combs": 72,
+          "grafts": 108,
+          "footprints": 7,
+          "cutTufts": 8016,
+          "averagePile": 11.78,
+          "colour": 4,
+          "revision": 301
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 44.3,
+        "wallSeconds": 44.3,
+        "trusted": 527,
+        "downs": 48,
+        "moves": 344,
+        "actions": 126,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01365318861112552,
+          "fx": 0,
+          "out": 0.00928416834429569,
+          "musicPeak": 0.043038681445186376,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 85,
+          "fxCount": 219,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 17224,
+          "shears": 99,
+          "combs": 72,
+          "grafts": 108,
+          "footprints": 8,
+          "cutTufts": 8352,
+          "averagePile": 11.33,
+          "colour": 4,
+          "revision": 319
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 45.7,
+        "wallSeconds": 45.7,
+        "trusted": 546,
+        "downs": 50,
+        "moves": 360,
+        "actions": 127,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014540574444596908,
+          "fx": 0,
+          "out": 0.009887590722071021,
+          "musicPeak": 0.043038681445186376,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 88,
+          "fxCount": 229,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 17224,
+          "shears": 108,
+          "combs": 81,
+          "grafts": 108,
+          "footprints": 8,
+          "cutTufts": 8980,
+          "averagePile": 10.35,
+          "colour": 4,
+          "revision": 337
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "colour",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 46.6,
+        "wallSeconds": 46.6,
+        "trusted": 556,
+        "downs": 51,
+        "moves": 368,
+        "actions": 128,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.027283794551581062,
+          "fx": 0.014979159328980786,
+          "out": 0.026220342322588876,
+          "musicPeak": 0.043038681445186376,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 90,
+          "fxCount": 235,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 17224,
+          "shears": 108,
+          "combs": 90,
+          "grafts": 108,
+          "footprints": 8,
+          "cutTufts": 8980,
+          "averagePile": 10.76,
+          "colour": 0,
+          "revision": 346
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "graft",
+        "from": [
+          0.23,
+          0.5
+        ],
+        "to": [
+          0.3,
+          0.54
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 48.2,
+        "wallSeconds": 48.1,
+        "trusted": 575,
+        "downs": 53,
+        "moves": 384,
+        "actions": 129,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010718425005443143,
+          "fx": 0,
+          "out": 0.007288529120586931,
+          "musicPeak": 0.043038681445186376,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 93,
+          "fxCount": 245,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 17342,
+          "shears": 108,
+          "combs": 90,
+          "grafts": 126,
+          "footprints": 8,
+          "cutTufts": 8682,
+          "averagePile": 11.38,
+          "colour": 0,
+          "revision": 364
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "print",
+        "from": [
+          0.78,
+          0.6
+        ],
+        "to": [
+          0.78,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 49.5,
+        "wallSeconds": 49.5,
+        "trusted": 586,
+        "downs": 55,
+        "moves": 392,
+        "actions": 130,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.026732644264900143,
+          "fx": 0,
+          "out": 0.01817819826426555,
+          "musicPeak": 0.043038681445186376,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 96,
+          "fxCount": 252,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 17380,
+          "shears": 108,
+          "combs": 90,
+          "grafts": 135,
+          "footprints": 9,
+          "cutTufts": 8524,
+          "averagePile": 11.66,
+          "colour": 0,
+          "revision": 374
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 51,
+        "wallSeconds": 51,
+        "trusted": 605,
+        "downs": 57,
+        "moves": 408,
+        "actions": 131,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.027119571388337774,
+          "fx": 0,
+          "out": 0.018441308669328565,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 99,
+          "fxCount": 259,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 17380,
+          "shears": 117,
+          "combs": 90,
+          "grafts": 135,
+          "footprints": 10,
+          "cutTufts": 8873,
+          "averagePile": 11.19,
+          "colour": 0,
+          "revision": 392
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 52.4,
+        "wallSeconds": 52.4,
+        "trusted": 624,
+        "downs": 59,
+        "moves": 424,
+        "actions": 132,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.020602677770097482,
+          "fx": 0,
+          "out": 0.01400982101342714,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 102,
+          "fxCount": 269,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 17380,
+          "shears": 126,
+          "combs": 99,
+          "grafts": 135,
+          "footprints": 10,
+          "cutTufts": 9506,
+          "averagePile": 10.15,
+          "colour": 0,
+          "revision": 410
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "colour",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 53.4,
+        "wallSeconds": 53.3,
+        "trusted": 634,
+        "downs": 60,
+        "moves": 432,
+        "actions": 133,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.013948948436481198,
+          "fx": 0.0006118393204632695,
+          "out": 0.009344975822753423,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 104,
+          "fxCount": 275,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 17380,
+          "shears": 126,
+          "combs": 108,
+          "grafts": 135,
+          "footprints": 10,
+          "cutTufts": 9506,
+          "averagePile": 10.61,
+          "colour": 1,
+          "revision": 419
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "graft",
+        "from": [
+          0.23,
+          0.5
+        ],
+        "to": [
+          0.3,
+          0.54
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 54.9,
+        "wallSeconds": 54.9,
+        "trusted": 653,
+        "downs": 62,
+        "moves": 448,
+        "actions": 134,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.015064081959820765,
+          "fx": 0,
+          "out": 0.010243575811360562,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 107,
+          "fxCount": 284,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 17418,
+          "shears": 126,
+          "combs": 108,
+          "grafts": 153,
+          "footprints": 10,
+          "cutTufts": 9193,
+          "averagePile": 11.21,
+          "colour": 1,
+          "revision": 437
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "print",
+        "from": [
+          0.78,
+          0.6
+        ],
+        "to": [
+          0.78,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 56.2,
+        "wallSeconds": 56.1,
+        "trusted": 664,
+        "downs": 64,
+        "moves": 456,
+        "actions": 135,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.027631502674920365,
+          "fx": 0,
+          "out": 0.018789422023062753,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 110,
+          "fxCount": 290,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 17456,
+          "shears": 126,
+          "combs": 108,
+          "grafts": 162,
+          "footprints": 11,
+          "cutTufts": 9045,
+          "averagePile": 11.5,
+          "colour": 1,
+          "revision": 447
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 57.7,
+        "wallSeconds": 57.6,
+        "trusted": 683,
+        "downs": 66,
+        "moves": 472,
+        "actions": 136,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01803424989084418,
+          "fx": 0.00006921060205352021,
+          "out": 0.012267545146196901,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 113,
+          "fxCount": 297,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 17456,
+          "shears": 135,
+          "combs": 108,
+          "grafts": 162,
+          "footprints": 12,
+          "cutTufts": 9409,
+          "averagePile": 11.02,
+          "colour": 1,
+          "revision": 465
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 59.2,
+        "wallSeconds": 59.2,
+        "trusted": 702,
+        "downs": 68,
+        "moves": 488,
+        "actions": 137,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.008097850750863961,
+          "fx": 0,
+          "out": 0.005506538583189324,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 116,
+          "fxCount": 307,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 17456,
+          "shears": 144,
+          "combs": 117,
+          "grafts": 162,
+          "footprints": 12,
+          "cutTufts": 10018,
+          "averagePile": 9.92,
+          "colour": 1,
+          "revision": 483
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "colour",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 60.1,
+        "wallSeconds": 60.1,
+        "trusted": 712,
+        "downs": 69,
+        "moves": 496,
+        "actions": 138,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01790180399404265,
+          "fx": 0.00043091314941638183,
+          "out": 0.012106125294113163,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 118,
+          "fxCount": 313,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 17456,
+          "shears": 144,
+          "combs": 126,
+          "grafts": 162,
+          "footprints": 12,
+          "cutTufts": 10018,
+          "averagePile": 10.43,
+          "colour": 2,
+          "revision": 492
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "graft",
+        "from": [
+          0.23,
+          0.5
+        ],
+        "to": [
+          0.3,
+          0.54
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 61.6,
+        "wallSeconds": 61.6,
+        "trusted": 731,
+        "downs": 71,
+        "moves": 512,
+        "actions": 139,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012929401672062175,
+          "fx": 0,
+          "out": 0.008791993209629078,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 121,
+          "fxCount": 322,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "graft",
+          "tufts": 17494,
+          "shears": 144,
+          "combs": 126,
+          "grafts": 180,
+          "footprints": 12,
+          "cutTufts": 9689,
+          "averagePile": 11.04,
+          "colour": 2,
+          "revision": 510
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "print",
+        "from": [
+          0.78,
+          0.6
+        ],
+        "to": [
+          0.78,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 62.9,
+        "wallSeconds": 62.9,
+        "trusted": 742,
+        "downs": 73,
+        "moves": 520,
+        "actions": 140,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.035697371835930254,
+          "fx": 0,
+          "out": 0.024274213140318482,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 124,
+          "fxCount": 329,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "print",
+          "tufts": 17532,
+          "shears": 144,
+          "combs": 126,
+          "grafts": 189,
+          "footprints": 13,
+          "cutTufts": 9542,
+          "averagePile": 11.31,
+          "colour": 2,
+          "revision": 520
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "shear",
+        "from": [
+          0.18,
+          0.54
+        ],
+        "to": [
+          0.35,
+          0.6
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 64.4,
+        "wallSeconds": 64.4,
+        "trusted": 761,
+        "downs": 75,
+        "moves": 536,
+        "actions": 141,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02683147220062578,
+          "fx": 0.00007648779584612544,
+          "out": 0.0182775855101135,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 127,
+          "fxCount": 336,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "shear",
+          "tufts": 17532,
+          "shears": 153,
+          "combs": 126,
+          "grafts": 189,
+          "footprints": 14,
+          "cutTufts": 9919,
+          "averagePile": 10.8,
+          "colour": 2,
+          "revision": 538
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "comb",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.58,
+          0.64
+        ]
+      },
+      "qa": {
+        "title": "绒毯兽园",
+        "elapsed": 65.9,
+        "wallSeconds": 65.9,
+        "trusted": 780,
+        "downs": 77,
+        "moves": 552,
+        "actions": 142,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 76,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011779275155907272,
+          "fx": 0,
+          "out": 0.008009907175740686,
+          "musicPeak": 0.04530047835692597,
+          "fxPeak": 0.05623362146280404,
+          "outPeak": 0.042464853024050335,
+          "musicCount": 130,
+          "fxCount": 346,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "comb",
+          "tufts": 17532,
+          "shears": 162,
+          "combs": 135,
+          "grafts": 189,
+          "footprints": 14,
+          "cutTufts": 10533,
+          "averagePile": 9.66,
+          "colour": 2,
+          "revision": 556
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "46bcb20e2c9ed1bd8b7aa2986e08a14142a0e46f238ea996d88db2d4be44ebb1",
+  "initial": {
+    "title": "绒毯兽园",
+    "elapsed": 0.4,
+    "wallSeconds": 0.4,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 71,
+    "maxFrameMs": 68,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "mode": "shear",
+      "tufts": 13800,
+      "shears": 0,
+      "combs": 0,
+      "grafts": 0,
+      "footprints": 0,
+      "cutTufts": 0,
+      "averagePile": 13.52,
+      "colour": 0,
+      "revision": 0
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "绒毯兽园",
+    "elapsed": 3.9,
+    "wallSeconds": 3.9,
+    "trusted": 33,
+    "downs": 4,
+    "moves": 24,
+    "actions": 5,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 79,
+    "maxFrameMs": 76,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.0020992555737780454,
+      "fx": 0,
+      "out": 0.0014274938085212263,
+      "musicPeak": 0.038178090923206474,
+      "fxPeak": 0.0426880556098149,
+      "outPeak": 0.033067264746747586,
+      "musicCount": 7,
+      "fxCount": 18,
+      "activeVoices": 4,
+      "connectedNodes": 14,
+      "suspended": false,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "mode": "print",
+      "tufts": 14142,
+      "shears": 9,
+      "combs": 9,
+      "grafts": 9,
+      "footprints": 1,
+      "cutTufts": 1725,
+      "averagePile": 13.19,
+      "colour": 1,
+      "revision": 28
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "绒毯兽园",
+    "elapsed": 9.1,
+    "wallSeconds": 9.1,
+    "trusted": 132,
+    "downs": 4,
+    "moves": 24,
+    "actions": 104,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 79,
+    "maxFrameMs": 76,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.006876340310007178,
+      "fx": 0.003831467984775833,
+      "out": 0.006392196626955468,
+      "musicPeak": 0.03895799815393619,
+      "fxPeak": 0.0426880556098149,
+      "outPeak": 0.033067264746747586,
+      "musicCount": 18,
+      "fxCount": 38,
+      "activeVoices": 4,
+      "connectedNodes": 14,
+      "suspended": false,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "mode": "graft",
+      "tufts": 14142,
+      "shears": 9,
+      "combs": 9,
+      "grafts": 9,
+      "footprints": 1,
+      "cutTufts": 1725,
+      "averagePile": 13.19,
+      "colour": 1,
+      "revision": 28
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "绒毯兽园",
+    "elapsed": 15.7,
+    "wallSeconds": 15.7,
+    "trusted": 196,
+    "downs": 10,
+    "moves": 72,
+    "actions": 105,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 76,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.030188923356349453,
+      "fx": 0,
+      "out": 0.020528468075811945,
+      "musicPeak": 0.03895799815393619,
+      "fxPeak": 0.05623362146280404,
+      "outPeak": 0.041642913285268666,
+      "musicCount": 25,
+      "fxCount": 54,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "mode": "shear",
+      "tufts": 13800,
+      "shears": 9,
+      "combs": 0,
+      "grafts": 0,
+      "footprints": 0,
+      "cutTufts": 1087,
+      "averagePile": 12.95,
+      "colour": 0,
+      "revision": 9
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 66.268,
+  "final": {
+    "title": "绒毯兽园",
+    "elapsed": 66.8,
+    "wallSeconds": 66.7,
+    "trusted": 789,
+    "downs": 78,
+    "moves": 560,
+    "actions": 142,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 76,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.026011099045691252,
+      "fx": 0,
+      "out": 0.017687547526735587,
+      "musicPeak": 0.04530047835692597,
+      "fxPeak": 0.05623362146280404,
+      "outPeak": 0.042464853024050335,
+      "musicCount": 132,
+      "fxCount": 352,
+      "activeVoices": 3,
+      "connectedNodes": 12,
+      "suspended": false,
+      "maxVoices": 9,
+      "limit": 18
+    },
+    "art": {
+      "mode": "comb",
+      "tufts": 17532,
+      "shears": 162,
+      "combs": 144,
+      "grafts": 189,
+      "footprints": 14,
+      "cutTufts": 10533,
+      "averagePile": 10.22,
+      "colour": 2,
+      "revision": 565
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 301,
+      "bottom": 54
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 378,
+      "bottom": 54
+    },
+    {
+      "text": "剪短绒面",
+      "height": 44,
+      "right": 94,
+      "bottom": 784
+    },
+    {
+      "text": "梳出旋卷",
+      "height": 44,
+      "right": 182,
+      "bottom": 784
+    },
+    {
+      "text": "接绒生长",
+      "height": 44,
+      "right": 270,
+      "bottom": 784
+    },
+    {
+      "text": "压下脚印",
+      "height": 44,
+      "right": 358,
+      "bottom": 784
+    },
+    {
+      "text": "换接绒色",
+      "height": 44,
+      "right": 94,
+      "bottom": 834
+    }
+  ],
+  "heap": {
+    "usedSize": 6652288,
+    "totalSize": 46596096,
+    "embedderHeapUsedSize": 1335904,
+    "backingStorageSize": 26293
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 3,
+    "state": "suspended",
+    "qa": {
+      "title": "绒毯兽园",
+      "elapsed": 66.9,
+      "wallSeconds": 66.8,
+      "trusted": 789,
+      "downs": 78,
+      "moves": 560,
+      "actions": 142,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 77,
+      "maxFrameMs": 76,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.012659267790490774,
+        "fx": 0,
+        "out": 0.008608302169275888,
+        "musicPeak": 0.04530047835692597,
+        "fxPeak": 0.05623362146280404,
+        "outPeak": 0.042464853024050335,
+        "musicCount": 132,
+        "fxCount": 352,
+        "activeVoices": 3,
+        "connectedNodes": 12,
+        "suspended": false,
+        "maxVoices": 9,
+        "limit": 18
+      },
+      "art": {
+        "mode": "comb",
+        "tufts": 17532,
+        "shears": 162,
+        "combs": 144,
+        "grafts": 189,
+        "footprints": 14,
+        "cutTufts": 10533,
+        "averagePile": 10.22,
+        "colour": 2,
+        "revision": 565
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

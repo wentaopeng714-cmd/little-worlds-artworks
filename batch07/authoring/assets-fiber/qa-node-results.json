@@ -1,0 +1,204 @@
+{
+  "method": "Node VM with @napi-rs/canvas; not browser QA",
+  "checks": [
+    "JavaScript syntax",
+    "ART operation state assertions",
+    "offscreen pixel rendering",
+    "390x650 resize without state loss",
+    "clean deterministic reset"
+  ],
+  "results": [
+    {
+      "art": "01-moon-moth",
+      "initial": {
+        "mode": "needle",
+        "moths": 1,
+        "active": 0,
+        "pulls": 0,
+        "powderMarks": 0,
+        "powderApplied": 0,
+        "folds": 0,
+        "foldedWings": 0,
+        "mounts": 0,
+        "dyes": 0,
+        "wingPins": [
+          [
+            -340,
+            -183
+          ],
+          [
+            -243,
+            207
+          ],
+          [
+            340,
+            -183
+          ],
+          [
+            243,
+            207
+          ]
+        ],
+        "foldAmount": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "operated": {
+        "mode": "needle",
+        "moths": 2,
+        "active": 0,
+        "pulls": 14,
+        "powderMarks": 2,
+        "powderApplied": 2,
+        "folds": 1,
+        "foldedWings": 1,
+        "mounts": 1,
+        "dyes": 1,
+        "wingPins": [
+          [
+            -340,
+            -183
+          ],
+          [
+            -243,
+            207
+          ],
+          [
+            340,
+            -183
+          ],
+          [
+            243,
+            207
+          ]
+        ],
+        "foldAmount": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "resizePreserved": true
+    },
+    {
+      "art": "02-velvet-menagerie",
+      "initial": {
+        "mode": "shear",
+        "tufts": 13800,
+        "shears": 0,
+        "combs": 0,
+        "grafts": 0,
+        "footprints": 0,
+        "cutTufts": 0,
+        "averagePile": 13.52,
+        "colour": 0,
+        "revision": 0
+      },
+      "sheared": {
+        "mode": "shear",
+        "tufts": 13800,
+        "shears": 15,
+        "combs": 0,
+        "grafts": 0,
+        "footprints": 0,
+        "cutTufts": 1431,
+        "averagePile": 12.72,
+        "colour": 0,
+        "revision": 15
+      },
+      "operated": {
+        "mode": "print",
+        "tufts": 14104,
+        "shears": 15,
+        "combs": 15,
+        "grafts": 8,
+        "footprints": 1,
+        "cutTufts": 1730,
+        "averagePile": 13.17,
+        "colour": 1,
+        "revision": 39
+      },
+      "resizePreserved": true
+    },
+    {
+      "art": "03-honey-constellation",
+      "initial": {
+        "mode": "bridge",
+        "nests": 4,
+        "cells": 216,
+        "bridges": 5,
+        "createdBridges": 0,
+        "severedBridges": 0,
+        "drops": 4,
+        "drips": 0,
+        "crystallisedDrops": 3,
+        "turns": 0,
+        "amberPasses": 0,
+        "hardenedBridges": 0,
+        "nestPoses": [
+          [
+            280,
+            229,
+            -0.18
+          ],
+          [
+            690,
+            208,
+            0.23
+          ],
+          [
+            515,
+            470,
+            0.06
+          ],
+          [
+            810,
+            529,
+            -0.24
+          ]
+        ]
+      },
+      "operated": {
+        "mode": "turn",
+        "nests": 4,
+        "cells": 216,
+        "bridges": 4,
+        "createdBridges": 1,
+        "severedBridges": 2,
+        "drops": 9,
+        "drips": 2,
+        "crystallisedDrops": 5,
+        "turns": 1,
+        "amberPasses": 1,
+        "hardenedBridges": 4,
+        "nestPoses": [
+          [
+            220,
+            266,
+            -0.06
+          ],
+          [
+            690,
+            208,
+            0.23
+          ],
+          [
+            515,
+            470,
+            0.06
+          ],
+          [
+            810,
+            529,
+            -0.24
+          ]
+        ]
+      },
+      "resizePreserved": true
+    }
+  ]
+}

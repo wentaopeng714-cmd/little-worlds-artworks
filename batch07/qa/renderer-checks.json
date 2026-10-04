@@ -1,0 +1,5023 @@
+[
+  {
+    "slug": "01-moon-moth",
+    "title": "绒羽月蛾",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "mode": "needle",
+      "moths": 1,
+      "active": 0,
+      "pulls": 0,
+      "powderMarks": 0,
+      "powderApplied": 0,
+      "folds": 0,
+      "foldedWings": 0,
+      "mounts": 0,
+      "dyes": 0,
+      "wingPins": [
+        [
+          -340,
+          -183
+        ],
+        [
+          -243,
+          207
+        ],
+        [
+          340,
+          -183
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "states": [
+      {
+        "tool": "needle",
+        "state": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 24,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -128
+            ],
+            [
+              -243,
+              262
+            ],
+            [
+              310,
+              -128
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "tool": "powder",
+        "state": {
+          "mode": "powder",
+          "moths": 1,
+          "active": 0,
+          "pulls": 24,
+          "powderMarks": 9,
+          "powderApplied": 9,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -128
+            ],
+            [
+              -243,
+              262
+            ],
+            [
+              310,
+              -128
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "tool": "fold",
+        "state": {
+          "mode": "fold",
+          "moths": 1,
+          "active": 0,
+          "pulls": 24,
+          "powderMarks": 9,
+          "powderApplied": 9,
+          "folds": 3,
+          "foldedWings": 3,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -128
+            ],
+            [
+              -243,
+              262
+            ],
+            [
+              310,
+              -128
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0.29,
+            0.29,
+            0.29,
+            0
+          ]
+        }
+      },
+      {
+        "tool": "mount",
+        "state": {
+          "mode": "needle",
+          "moths": 2,
+          "active": 0,
+          "pulls": 48,
+          "powderMarks": 9,
+          "powderApplied": 9,
+          "folds": 3,
+          "foldedWings": 3,
+          "mounts": 1,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -128
+            ],
+            [
+              -243,
+              262
+            ],
+            [
+              310,
+              -128
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "tool": "tint",
+        "state": {
+          "mode": "needle",
+          "moths": 2,
+          "active": 0,
+          "pulls": 72,
+          "powderMarks": 9,
+          "powderApplied": 9,
+          "folds": 3,
+          "foldedWings": 3,
+          "mounts": 1,
+          "dyes": 1,
+          "wingPins": [
+            [
+              -340,
+              -74
+            ],
+            [
+              -243,
+              270
+            ],
+            [
+              310,
+              -74
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "composed": {
+      "mode": "needle",
+      "moths": 2,
+      "active": 0,
+      "pulls": 72,
+      "powderMarks": 9,
+      "powderApplied": 9,
+      "folds": 3,
+      "foldedWings": 3,
+      "mounts": 1,
+      "dyes": 1,
+      "wingPins": [
+        [
+          -340,
+          -74
+        ],
+        [
+          -243,
+          270
+        ],
+        [
+          310,
+          -74
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "afterResize": {
+      "mode": "needle",
+      "moths": 2,
+      "active": 0,
+      "pulls": 72,
+      "powderMarks": 9,
+      "powderApplied": 9,
+      "folds": 3,
+      "foldedWings": 3,
+      "mounts": 1,
+      "dyes": 1,
+      "wingPins": [
+        [
+          -340,
+          -74
+        ],
+        [
+          -243,
+          270
+        ],
+        [
+          310,
+          -74
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "reset": {
+      "mode": "needle",
+      "moths": 1,
+      "active": 0,
+      "pulls": 0,
+      "powderMarks": 0,
+      "powderApplied": 0,
+      "folds": 0,
+      "foldedWings": 0,
+      "mounts": 0,
+      "dyes": 0,
+      "wingPins": [
+        [
+          -340,
+          -183
+        ],
+        [
+          -243,
+          207
+        ],
+        [
+          340,
+          -183
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "fxRequests": 5,
+    "totalNodeMilliseconds": 1262,
+    "validFinite": true
+  },
+  {
+    "slug": "02-velvet-menagerie",
+    "title": "绒毯兽园",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "mode": "shear",
+      "tufts": 13800,
+      "shears": 0,
+      "combs": 0,
+      "grafts": 0,
+      "footprints": 0,
+      "cutTufts": 0,
+      "averagePile": 13.52,
+      "colour": 0,
+      "revision": 0
+    },
+    "states": [
+      {
+        "tool": "shear",
+        "state": {
+          "mode": "shear",
+          "tufts": 13800,
+          "shears": 23,
+          "combs": 0,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 2153,
+          "averagePile": 12.63,
+          "colour": 0,
+          "revision": 23
+        }
+      },
+      {
+        "tool": "comb",
+        "state": {
+          "mode": "comb",
+          "tufts": 13800,
+          "shears": 23,
+          "combs": 23,
+          "grafts": 0,
+          "footprints": 0,
+          "cutTufts": 2153,
+          "averagePile": 12.94,
+          "colour": 0,
+          "revision": 46
+        }
+      },
+      {
+        "tool": "graft",
+        "state": {
+          "mode": "graft",
+          "tufts": 14636,
+          "shears": 23,
+          "combs": 23,
+          "grafts": 22,
+          "footprints": 0,
+          "cutTufts": 2153,
+          "averagePile": 13.63,
+          "colour": 0,
+          "revision": 68
+        }
+      },
+      {
+        "tool": "print",
+        "state": {
+          "mode": "print",
+          "tufts": 14636,
+          "shears": 23,
+          "combs": 23,
+          "grafts": 22,
+          "footprints": 3,
+          "cutTufts": 2236,
+          "averagePile": 13.45,
+          "colour": 0,
+          "revision": 95
+        }
+      },
+      {
+        "tool": "colour",
+        "state": {
+          "mode": "graft",
+          "tufts": 15624,
+          "shears": 23,
+          "combs": 23,
+          "grafts": 48,
+          "footprints": 3,
+          "cutTufts": 2236,
+          "averagePile": 14.18,
+          "colour": 1,
+          "revision": 121
+        }
+      }
+    ],
+    "composed": {
+      "mode": "graft",
+      "tufts": 15624,
+      "shears": 23,
+      "combs": 23,
+      "grafts": 48,
+      "footprints": 3,
+      "cutTufts": 2236,
+      "averagePile": 14.18,
+      "colour": 1,
+      "revision": 121
+    },
+    "afterResize": {
+      "mode": "graft",
+      "tufts": 15624,
+      "shears": 23,
+      "combs": 23,
+      "grafts": 48,
+      "footprints": 3,
+      "cutTufts": 2236,
+      "averagePile": 14.18,
+      "colour": 1,
+      "revision": 121
+    },
+    "reset": {
+      "mode": "shear",
+      "tufts": 13800,
+      "shears": 0,
+      "combs": 0,
+      "grafts": 0,
+      "footprints": 0,
+      "cutTufts": 0,
+      "averagePile": 13.52,
+      "colour": 0,
+      "revision": 0
+    },
+    "fxRequests": 5,
+    "totalNodeMilliseconds": 2906,
+    "validFinite": true
+  },
+  {
+    "slug": "03-honey-constellation",
+    "title": "蜜糖星巢",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "mode": "bridge",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 5,
+      "createdBridges": 0,
+      "severedBridges": 0,
+      "drops": 4,
+      "drips": 0,
+      "crystallisedDrops": 3,
+      "turns": 0,
+      "amberPasses": 0,
+      "hardenedBridges": 0,
+      "nestPoses": [
+        [
+          280,
+          229,
+          -0.18
+        ],
+        [
+          690,
+          208,
+          0.23
+        ],
+        [
+          515,
+          470,
+          0.06
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "states": [
+      {
+        "tool": "bridge",
+        "state": {
+          "mode": "bridge",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 4,
+          "drips": 0,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "drop",
+        "state": {
+          "mode": "drop",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 25,
+          "drips": 21,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "cut",
+        "state": {
+          "mode": "cut",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 25,
+          "drips": 21,
+          "crystallisedDrops": 3,
+          "turns": 0,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.18
+            ],
+            [
+              690,
+              208,
+              0.23
+            ],
+            [
+              515,
+              470,
+              0.06
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "turn",
+        "state": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 25,
+          "drips": 21,
+          "crystallisedDrops": 3,
+          "turns": 3,
+          "amberPasses": 0,
+          "hardenedBridges": 0,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -0.658
+            ],
+            [
+              690,
+              208,
+              0.574
+            ],
+            [
+              515,
+              470,
+              4.839
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "amber",
+        "state": {
+          "mode": "turn",
+          "nests": 4,
+          "cells": 216,
+          "bridges": 5,
+          "createdBridges": 0,
+          "severedBridges": 0,
+          "drops": 25,
+          "drips": 21,
+          "crystallisedDrops": 25,
+          "turns": 6,
+          "amberPasses": 1,
+          "hardenedBridges": 5,
+          "nestPoses": [
+            [
+              280,
+              229,
+              -1.135
+            ],
+            [
+              690,
+              208,
+              0.917
+            ],
+            [
+              515,
+              470,
+              9.617
+            ],
+            [
+              810,
+              529,
+              -0.24
+            ]
+          ]
+        }
+      }
+    ],
+    "composed": {
+      "mode": "turn",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 5,
+      "createdBridges": 0,
+      "severedBridges": 0,
+      "drops": 25,
+      "drips": 21,
+      "crystallisedDrops": 25,
+      "turns": 6,
+      "amberPasses": 1,
+      "hardenedBridges": 5,
+      "nestPoses": [
+        [
+          280,
+          229,
+          -1.135
+        ],
+        [
+          690,
+          208,
+          0.917
+        ],
+        [
+          515,
+          470,
+          9.617
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "afterResize": {
+      "mode": "turn",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 5,
+      "createdBridges": 0,
+      "severedBridges": 0,
+      "drops": 25,
+      "drips": 21,
+      "crystallisedDrops": 25,
+      "turns": 6,
+      "amberPasses": 1,
+      "hardenedBridges": 5,
+      "nestPoses": [
+        [
+          280,
+          229,
+          -1.135
+        ],
+        [
+          690,
+          208,
+          0.917
+        ],
+        [
+          515,
+          470,
+          9.617
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "reset": {
+      "mode": "bridge",
+      "nests": 4,
+      "cells": 216,
+      "bridges": 5,
+      "createdBridges": 0,
+      "severedBridges": 0,
+      "drops": 4,
+      "drips": 0,
+      "crystallisedDrops": 3,
+      "turns": 0,
+      "amberPasses": 0,
+      "hardenedBridges": 0,
+      "nestPoses": [
+        [
+          280,
+          229,
+          -0.18
+        ],
+        [
+          690,
+          208,
+          0.23
+        ],
+        [
+          515,
+          470,
+          0.06
+        ],
+        [
+          810,
+          529,
+          -0.24
+        ]
+      ]
+    },
+    "fxRequests": 2,
+    "totalNodeMilliseconds": 661,
+    "validFinite": true
+  },
+  {
+    "slug": "04-pearl-opera",
+    "title": "珠贝歌剧",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "shells": 3,
+      "chains": 2,
+      "opening": 0.88,
+      "pearlTurns": 0,
+      "hingeEdits": 0,
+      "added": 0,
+      "choir": false,
+      "mode": "hinge",
+      "selected": 0,
+      "positions": [
+        [
+          0.51,
+          0.53
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ]
+      ]
+    },
+    "states": [
+      {
+        "tool": "hinge",
+        "state": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.67,
+          "pearlTurns": 0,
+          "hingeEdits": 8,
+          "added": 0,
+          "choir": false,
+          "mode": "hinge",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "pearl",
+        "state": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.67,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 0,
+          "choir": false,
+          "mode": "pearl",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "chain",
+        "state": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.67,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 0,
+          "choir": false,
+          "mode": "chain",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "stage",
+        "state": {
+          "shells": 3,
+          "chains": 2,
+          "opening": 0.67,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 0,
+          "choir": false,
+          "mode": "stage",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.6
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "new",
+        "state": {
+          "shells": 4,
+          "chains": 2,
+          "opening": 0.67,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 1,
+          "choir": false,
+          "mode": "stage",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.67
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.3,
+              0.54
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "choir",
+        "state": {
+          "shells": 4,
+          "chains": 2,
+          "opening": 0.67,
+          "pearlTurns": 8,
+          "hingeEdits": 8,
+          "added": 1,
+          "choir": true,
+          "mode": "stage",
+          "selected": 0,
+          "positions": [
+            [
+              0.51,
+              0.74
+            ],
+            [
+              0.23,
+              0.71
+            ],
+            [
+              0.79,
+              0.72
+            ],
+            [
+              0.3,
+              0.61
+            ]
+          ]
+        }
+      }
+    ],
+    "composed": {
+      "shells": 4,
+      "chains": 2,
+      "opening": 0.67,
+      "pearlTurns": 8,
+      "hingeEdits": 8,
+      "added": 1,
+      "choir": true,
+      "mode": "stage",
+      "selected": 0,
+      "positions": [
+        [
+          0.51,
+          0.74
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ],
+        [
+          0.3,
+          0.61
+        ]
+      ]
+    },
+    "afterResize": {
+      "shells": 4,
+      "chains": 2,
+      "opening": 0.67,
+      "pearlTurns": 8,
+      "hingeEdits": 8,
+      "added": 1,
+      "choir": true,
+      "mode": "stage",
+      "selected": 0,
+      "positions": [
+        [
+          0.51,
+          0.74
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ],
+        [
+          0.3,
+          0.61
+        ]
+      ]
+    },
+    "reset": {
+      "shells": 3,
+      "chains": 2,
+      "opening": 0.88,
+      "pearlTurns": 0,
+      "hingeEdits": 0,
+      "added": 0,
+      "choir": false,
+      "mode": "hinge",
+      "selected": 0,
+      "positions": [
+        [
+          0.51,
+          0.53
+        ],
+        [
+          0.23,
+          0.71
+        ],
+        [
+          0.79,
+          0.72
+        ]
+      ]
+    },
+    "fxRequests": 6,
+    "totalNodeMilliseconds": 1606,
+    "validFinite": true
+  },
+  {
+    "slug": "05-paper-dragon",
+    "title": "纸骨游龙",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "segments": 12,
+      "cuts": 0,
+      "joined": 0,
+      "flipped": 0,
+      "wingTurns": 0,
+      "poseEdits": 0,
+      "dancing": false,
+      "selected": 0,
+      "mode": "joint",
+      "positions": [
+        [
+          0.76,
+          0.28
+        ],
+        [
+          0.61,
+          0.26
+        ],
+        [
+          0.47,
+          0.29
+        ],
+        [
+          0.36,
+          0.39
+        ],
+        [
+          0.4,
+          0.51
+        ],
+        [
+          0.54,
+          0.56
+        ],
+        [
+          0.69,
+          0.57
+        ],
+        [
+          0.78,
+          0.67
+        ],
+        [
+          0.67,
+          0.77
+        ],
+        [
+          0.51,
+          0.78
+        ],
+        [
+          0.36,
+          0.73
+        ],
+        [
+          0.23,
+          0.65
+        ]
+      ]
+    },
+    "states": [
+      {
+        "tool": "joint",
+        "state": {
+          "segments": 12,
+          "cuts": 0,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 16,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.35
+            ],
+            [
+              0.61,
+              0.281
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.531
+            ],
+            [
+              0.54,
+              0.63
+            ],
+            [
+              0.69,
+              0.591
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "cut",
+        "state": {
+          "segments": 12,
+          "cuts": 1,
+          "joined": 0,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 16,
+          "dancing": false,
+          "selected": 0,
+          "mode": "cut",
+          "positions": [
+            [
+              0.76,
+              0.35
+            ],
+            [
+              0.61,
+              0.281
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.531
+            ],
+            [
+              0.54,
+              0.63
+            ],
+            [
+              0.69,
+              0.591
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "add",
+        "state": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 0,
+          "wingTurns": 0,
+          "poseEdits": 32,
+          "dancing": false,
+          "selected": 0,
+          "mode": "joint",
+          "positions": [
+            [
+              0.76,
+              0.42
+            ],
+            [
+              0.61,
+              0.302
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.552
+            ],
+            [
+              0.54,
+              0.7
+            ],
+            [
+              0.69,
+              0.612
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ],
+            [
+              0.176,
+              0.566
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "flip",
+        "state": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 1,
+          "poseEdits": 32,
+          "dancing": false,
+          "selected": 0,
+          "mode": "flip",
+          "positions": [
+            [
+              0.76,
+              0.42
+            ],
+            [
+              0.61,
+              0.302
+            ],
+            [
+              0.47,
+              0.29
+            ],
+            [
+              0.36,
+              0.39
+            ],
+            [
+              0.4,
+              0.552
+            ],
+            [
+              0.54,
+              0.7
+            ],
+            [
+              0.69,
+              0.612
+            ],
+            [
+              0.78,
+              0.67
+            ],
+            [
+              0.67,
+              0.77
+            ],
+            [
+              0.51,
+              0.78
+            ],
+            [
+              0.36,
+              0.73
+            ],
+            [
+              0.23,
+              0.65
+            ],
+            [
+              0.176,
+              0.566
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "coil",
+        "state": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 3,
+          "poseEdits": 33,
+          "dancing": false,
+          "selected": 0,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.235,
+              0.551
+            ],
+            [
+              0.233,
+              0.442
+            ],
+            [
+              0.284,
+              0.345
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "dance",
+        "state": {
+          "segments": 13,
+          "cuts": 1,
+          "joined": 1,
+          "flipped": 1,
+          "wingTurns": 5,
+          "poseEdits": 33,
+          "dancing": true,
+          "selected": 0,
+          "mode": "flip",
+          "positions": [
+            [
+              0.722,
+              0.323
+            ],
+            [
+              0.779,
+              0.426
+            ],
+            [
+              0.78,
+              0.54
+            ],
+            [
+              0.727,
+              0.643
+            ],
+            [
+              0.629,
+              0.714
+            ],
+            [
+              0.508,
+              0.74
+            ],
+            [
+              0.386,
+              0.716
+            ],
+            [
+              0.289,
+              0.648
+            ],
+            [
+              0.235,
+              0.551
+            ],
+            [
+              0.233,
+              0.442
+            ],
+            [
+              0.284,
+              0.345
+            ],
+            [
+              0.377,
+              0.278
+            ],
+            [
+              0.493,
+              0.254
+            ]
+          ]
+        }
+      }
+    ],
+    "composed": {
+      "segments": 13,
+      "cuts": 1,
+      "joined": 1,
+      "flipped": 1,
+      "wingTurns": 5,
+      "poseEdits": 33,
+      "dancing": true,
+      "selected": 0,
+      "mode": "flip",
+      "positions": [
+        [
+          0.722,
+          0.323
+        ],
+        [
+          0.779,
+          0.426
+        ],
+        [
+          0.78,
+          0.54
+        ],
+        [
+          0.727,
+          0.643
+        ],
+        [
+          0.629,
+          0.714
+        ],
+        [
+          0.508,
+          0.74
+        ],
+        [
+          0.386,
+          0.716
+        ],
+        [
+          0.289,
+          0.648
+        ],
+        [
+          0.235,
+          0.551
+        ],
+        [
+          0.233,
+          0.442
+        ],
+        [
+          0.284,
+          0.345
+        ],
+        [
+          0.377,
+          0.278
+        ],
+        [
+          0.493,
+          0.254
+        ]
+      ]
+    },
+    "afterResize": {
+      "segments": 13,
+      "cuts": 1,
+      "joined": 1,
+      "flipped": 1,
+      "wingTurns": 5,
+      "poseEdits": 33,
+      "dancing": true,
+      "selected": 0,
+      "mode": "flip",
+      "positions": [
+        [
+          0.722,
+          0.323
+        ],
+        [
+          0.779,
+          0.426
+        ],
+        [
+          0.78,
+          0.54
+        ],
+        [
+          0.727,
+          0.643
+        ],
+        [
+          0.629,
+          0.714
+        ],
+        [
+          0.508,
+          0.74
+        ],
+        [
+          0.386,
+          0.716
+        ],
+        [
+          0.289,
+          0.648
+        ],
+        [
+          0.235,
+          0.551
+        ],
+        [
+          0.233,
+          0.442
+        ],
+        [
+          0.284,
+          0.345
+        ],
+        [
+          0.377,
+          0.278
+        ],
+        [
+          0.493,
+          0.254
+        ]
+      ]
+    },
+    "reset": {
+      "segments": 12,
+      "cuts": 0,
+      "joined": 0,
+      "flipped": 0,
+      "wingTurns": 0,
+      "poseEdits": 0,
+      "dancing": false,
+      "selected": 0,
+      "mode": "joint",
+      "positions": [
+        [
+          0.76,
+          0.28
+        ],
+        [
+          0.61,
+          0.26
+        ],
+        [
+          0.47,
+          0.29
+        ],
+        [
+          0.36,
+          0.39
+        ],
+        [
+          0.4,
+          0.51
+        ],
+        [
+          0.54,
+          0.56
+        ],
+        [
+          0.69,
+          0.57
+        ],
+        [
+          0.78,
+          0.67
+        ],
+        [
+          0.67,
+          0.77
+        ],
+        [
+          0.51,
+          0.78
+        ],
+        [
+          0.36,
+          0.73
+        ],
+        [
+          0.23,
+          0.65
+        ]
+      ]
+    },
+    "fxRequests": 6,
+    "totalNodeMilliseconds": 1103,
+    "validFinite": true
+  },
+  {
+    "slug": "06-patchwork-village",
+    "title": "织袋小镇",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "houses": 3,
+      "clotheslines": 2,
+      "hangingCloths": 7,
+      "roofStitches": 0,
+      "finishedRoofs": 0,
+      "selectedRoof": 0.73,
+      "selectedPuff": 0.68,
+      "moveEdits": 0,
+      "added": 0,
+      "wind": false,
+      "selected": 1,
+      "mode": "sew",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.51,
+          0.62
+        ],
+        [
+          0.78,
+          0.65
+        ]
+      ]
+    },
+    "states": [
+      {
+        "tool": "sew",
+        "state": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 23,
+          "finishedRoofs": 2,
+          "selectedRoof": 0.88,
+          "selectedPuff": 0.4,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 2,
+          "mode": "sew",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "puff",
+        "state": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 23,
+          "finishedRoofs": 2,
+          "selectedRoof": 0.88,
+          "selectedPuff": 0.18,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 2,
+          "mode": "puff",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "line",
+        "state": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 23,
+          "finishedRoofs": 2,
+          "selectedRoof": 0.88,
+          "selectedPuff": 0.18,
+          "moveEdits": 0,
+          "added": 0,
+          "wind": false,
+          "selected": 2,
+          "mode": "line",
+          "positions": [
+            [
+              0.25,
+              0.66
+            ],
+            [
+              0.51,
+              0.62
+            ],
+            [
+              0.78,
+              0.65
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "move",
+        "state": {
+          "houses": 3,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 23,
+          "finishedRoofs": 2,
+          "selectedRoof": 0.88,
+          "selectedPuff": 0.18,
+          "moveEdits": 24,
+          "added": 0,
+          "wind": false,
+          "selected": 2,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.73
+            ],
+            [
+              0.51,
+              0.69
+            ],
+            [
+              0.76,
+              0.72
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "new",
+        "state": {
+          "houses": 4,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 23,
+          "finishedRoofs": 2,
+          "selectedRoof": 1,
+          "selectedPuff": 0.46,
+          "moveEdits": 32,
+          "added": 1,
+          "wind": false,
+          "selected": 1,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.73
+            ],
+            [
+              0.51,
+              0.75
+            ],
+            [
+              0.76,
+              0.72
+            ],
+            [
+              0.3,
+              0.73
+            ]
+          ]
+        }
+      },
+      {
+        "tool": "wind",
+        "state": {
+          "houses": 4,
+          "clotheslines": 2,
+          "hangingCloths": 7,
+          "roofStitches": 23,
+          "finishedRoofs": 2,
+          "selectedRoof": 1,
+          "selectedPuff": 0.46,
+          "moveEdits": 40,
+          "added": 1,
+          "wind": true,
+          "selected": 1,
+          "mode": "move",
+          "positions": [
+            [
+              0.25,
+              0.73
+            ],
+            [
+              0.51,
+              0.75
+            ],
+            [
+              0.76,
+              0.72
+            ],
+            [
+              0.3,
+              0.73
+            ]
+          ]
+        }
+      }
+    ],
+    "composed": {
+      "houses": 4,
+      "clotheslines": 2,
+      "hangingCloths": 7,
+      "roofStitches": 23,
+      "finishedRoofs": 2,
+      "selectedRoof": 1,
+      "selectedPuff": 0.46,
+      "moveEdits": 40,
+      "added": 1,
+      "wind": true,
+      "selected": 1,
+      "mode": "move",
+      "positions": [
+        [
+          0.25,
+          0.73
+        ],
+        [
+          0.51,
+          0.75
+        ],
+        [
+          0.76,
+          0.72
+        ],
+        [
+          0.3,
+          0.73
+        ]
+      ]
+    },
+    "afterResize": {
+      "houses": 4,
+      "clotheslines": 2,
+      "hangingCloths": 7,
+      "roofStitches": 23,
+      "finishedRoofs": 2,
+      "selectedRoof": 1,
+      "selectedPuff": 0.46,
+      "moveEdits": 40,
+      "added": 1,
+      "wind": true,
+      "selected": 1,
+      "mode": "move",
+      "positions": [
+        [
+          0.25,
+          0.73
+        ],
+        [
+          0.51,
+          0.75
+        ],
+        [
+          0.76,
+          0.72
+        ],
+        [
+          0.3,
+          0.73
+        ]
+      ]
+    },
+    "reset": {
+      "houses": 3,
+      "clotheslines": 2,
+      "hangingCloths": 7,
+      "roofStitches": 0,
+      "finishedRoofs": 0,
+      "selectedRoof": 0.73,
+      "selectedPuff": 0.68,
+      "moveEdits": 0,
+      "added": 0,
+      "wind": false,
+      "selected": 1,
+      "mode": "sew",
+      "positions": [
+        [
+          0.25,
+          0.66
+        ],
+        [
+          0.51,
+          0.62
+        ],
+        [
+          0.78,
+          0.65
+        ]
+      ]
+    },
+    "fxRequests": 6,
+    "totalNodeMilliseconds": 1540,
+    "validFinite": true
+  },
+  {
+    "slug": "07-bread-parade",
+    "title": "面包蓬蓬巡游",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "mode": "knead",
+      "kneadMoves": 0,
+      "width": 1.1,
+      "height": 1.05,
+      "outline": [
+        1.025,
+        0.977,
+        1.02,
+        0.984,
+        1.013,
+        0.991,
+        1.004,
+        1,
+        0.996,
+        1.008,
+        0.988,
+        1.016,
+        0.981,
+        1.022,
+        0.975,
+        1.027,
+        0.971,
+        1.03,
+        0.97,
+        1.03,
+        0.971,
+        1.028,
+        0.974,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009
+      ],
+      "stamps": 0,
+      "totalStamps": 0,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 3,
+      "queueRecipes": [
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        }
+      ],
+      "joined": 0,
+      "direction": 1,
+      "turns": 0
+    },
+    "states": [
+      {
+        "tool": "knead",
+        "state": {
+          "mode": "knead",
+          "kneadMoves": 24,
+          "width": 1.1,
+          "height": 1.27,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            1.009,
+            1.179,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.254,
+            1.069,
+            1.055,
+            0.906,
+            0.857,
+            0.712,
+            0.723,
+            0.7,
+            0.772,
+            0.819,
+            0.966,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        }
+      },
+      {
+        "tool": "stamp",
+        "state": {
+          "mode": "stamp",
+          "kneadMoves": 24,
+          "width": 1.1,
+          "height": 1.27,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            1.009,
+            1.179,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.254,
+            1.069,
+            1.055,
+            0.906,
+            0.857,
+            0.712,
+            0.723,
+            0.7,
+            0.772,
+            0.819,
+            0.966,
+            0.987,
+            1.009
+          ],
+          "stamps": 3,
+          "totalStamps": 3,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        }
+      },
+      {
+        "tool": "rise",
+        "state": {
+          "mode": "stamp",
+          "kneadMoves": 24,
+          "width": 1.1,
+          "height": 1.27,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            1.009,
+            1.179,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.254,
+            1.069,
+            1.055,
+            0.906,
+            0.857,
+            0.712,
+            0.723,
+            0.7,
+            0.772,
+            0.819,
+            0.966,
+            0.987,
+            1.009
+          ],
+          "stamps": 6,
+          "totalStamps": 6,
+          "fermentation": 0.011,
+          "targetFermentation": 0.28,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        }
+      },
+      {
+        "tool": "bake",
+        "state": {
+          "mode": "stamp",
+          "kneadMoves": 24,
+          "width": 1.1,
+          "height": 1.27,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            1.009,
+            1.179,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.254,
+            1.069,
+            1.055,
+            0.906,
+            0.857,
+            0.712,
+            0.723,
+            0.7,
+            0.772,
+            0.819,
+            0.966,
+            0.987,
+            1.009
+          ],
+          "stamps": 9,
+          "totalStamps": 9,
+          "fermentation": 0.022,
+          "targetFermentation": 0.28,
+          "crust": 1,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        }
+      },
+      {
+        "tool": "join",
+        "state": {
+          "mode": "stamp",
+          "kneadMoves": 24,
+          "width": 1.22,
+          "height": 1.05,
+          "outline": [
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.004,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972
+          ],
+          "stamps": 3,
+          "totalStamps": 12,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 4,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.1,
+              "height": 1.27,
+              "crust": 1,
+              "stamps": 9,
+              "ferment": 0.28
+            }
+          ],
+          "joined": 1,
+          "direction": 1,
+          "turns": 0
+        }
+      },
+      {
+        "tool": "turn",
+        "state": {
+          "mode": "stamp",
+          "kneadMoves": 24,
+          "width": 1.22,
+          "height": 1.05,
+          "outline": [
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.004,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972
+          ],
+          "stamps": 6,
+          "totalStamps": 15,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 4,
+          "queueRecipes": [
+            {
+              "id": 1,
+              "width": 1.1,
+              "height": 1.27,
+              "crust": 1,
+              "stamps": 9,
+              "ferment": 0.28
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            }
+          ],
+          "joined": 1,
+          "direction": -1,
+          "turns": 1
+        }
+      }
+    ],
+    "composed": {
+      "mode": "stamp",
+      "kneadMoves": 24,
+      "width": 1.22,
+      "height": 1.05,
+      "outline": [
+        0.971,
+        1.03,
+        0.97,
+        1.03,
+        0.971,
+        1.027,
+        0.975,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009,
+        0.995,
+        1.001,
+        1.004,
+        0.992,
+        1.012,
+        0.984,
+        1.019,
+        0.978,
+        1.025,
+        0.973,
+        1.029,
+        0.97,
+        1.03,
+        0.97,
+        1.029,
+        0.972
+      ],
+      "stamps": 6,
+      "totalStamps": 15,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 4,
+      "queueRecipes": [
+        {
+          "id": 1,
+          "width": 1.1,
+          "height": 1.27,
+          "crust": 1,
+          "stamps": 9,
+          "ferment": 0.28
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        }
+      ],
+      "joined": 1,
+      "direction": -1,
+      "turns": 1
+    },
+    "afterResize": {
+      "mode": "stamp",
+      "kneadMoves": 24,
+      "width": 1.22,
+      "height": 1.05,
+      "outline": [
+        0.971,
+        1.03,
+        0.97,
+        1.03,
+        0.971,
+        1.027,
+        0.975,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009,
+        0.995,
+        1.001,
+        1.004,
+        0.992,
+        1.012,
+        0.984,
+        1.019,
+        0.978,
+        1.025,
+        0.973,
+        1.029,
+        0.97,
+        1.03,
+        0.97,
+        1.029,
+        0.972
+      ],
+      "stamps": 6,
+      "totalStamps": 15,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 4,
+      "queueRecipes": [
+        {
+          "id": 1,
+          "width": 1.1,
+          "height": 1.27,
+          "crust": 1,
+          "stamps": 9,
+          "ferment": 0.28
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        }
+      ],
+      "joined": 1,
+      "direction": -1,
+      "turns": 1
+    },
+    "reset": {
+      "mode": "knead",
+      "kneadMoves": 0,
+      "width": 1.1,
+      "height": 1.05,
+      "outline": [
+        1.025,
+        0.977,
+        1.02,
+        0.984,
+        1.013,
+        0.991,
+        1.004,
+        1,
+        0.996,
+        1.008,
+        0.988,
+        1.016,
+        0.981,
+        1.022,
+        0.975,
+        1.027,
+        0.971,
+        1.03,
+        0.97,
+        1.03,
+        0.971,
+        1.028,
+        0.974,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009
+      ],
+      "stamps": 0,
+      "totalStamps": 0,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 3,
+      "queueRecipes": [
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        }
+      ],
+      "joined": 0,
+      "direction": 1,
+      "turns": 0
+    },
+    "fxRequests": 1,
+    "totalNodeMilliseconds": 168,
+    "validFinite": true
+  },
+  {
+    "slug": "08-jelly-post",
+    "title": "果冻邮差",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "mode": "feed",
+      "belly": 0,
+      "bellyStamps": [],
+      "trayStamps": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "selectedStamp": 0,
+      "stampEdits": 0,
+      "legs": [
+        1,
+        1
+      ],
+      "legPulls": 0,
+      "boxes": [
+        {
+          "x": 0.79,
+          "y": 0.27,
+          "stamp": 0,
+          "delivered": 0
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 0
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 0
+        }
+      ],
+      "movedBoxes": 0,
+      "route": [
+        0,
+        1,
+        2
+      ],
+      "routeEdits": 0,
+      "routeIndex": 0,
+      "running": false,
+      "totalFed": 0,
+      "totalDelivered": 0,
+      "position": {
+        "x": 0.47,
+        "y": 0.42
+      },
+      "receiptCount": 0
+    },
+    "states": [
+      {
+        "tool": "feed",
+        "state": {
+          "mode": "feed",
+          "belly": 1,
+          "bellyStamps": [
+            0
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1,
+            1
+          ],
+          "legPulls": 0,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        }
+      },
+      {
+        "tool": "legs",
+        "state": {
+          "mode": "legs",
+          "belly": 1,
+          "bellyStamps": [
+            0
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 0,
+          "stampEdits": 0,
+          "legs": [
+            1.28,
+            1.56
+          ],
+          "legPulls": 24,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        }
+      },
+      {
+        "tool": "stamp",
+        "state": {
+          "mode": "stamp",
+          "belly": 1,
+          "bellyStamps": [
+            1
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 3,
+          "legs": [
+            1.28,
+            1.56
+          ],
+          "legPulls": 24,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.27,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 0,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        }
+      },
+      {
+        "tool": "box",
+        "state": {
+          "mode": "box",
+          "belly": 1,
+          "bellyStamps": [
+            1
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 3,
+          "legs": [
+            1.28,
+            1.56
+          ],
+          "legPulls": 24,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.34,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            0,
+            1,
+            2
+          ],
+          "routeEdits": 0,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        }
+      },
+      {
+        "tool": "route",
+        "state": {
+          "mode": "route",
+          "belly": 1,
+          "bellyStamps": [
+            1
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 3,
+          "legs": [
+            1.28,
+            1.56
+          ],
+          "legPulls": 24,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.34,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            0
+          ],
+          "routeEdits": 1,
+          "routeIndex": 0,
+          "running": false,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.47,
+            "y": 0.42
+          },
+          "receiptCount": 0
+        }
+      },
+      {
+        "tool": "deliver",
+        "state": {
+          "mode": "route",
+          "belly": 1,
+          "bellyStamps": [
+            1
+          ],
+          "trayStamps": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "selectedStamp": 1,
+          "stampEdits": 3,
+          "legs": [
+            1.28,
+            1.56
+          ],
+          "legPulls": 24,
+          "boxes": [
+            {
+              "x": 0.79,
+              "y": 0.34,
+              "stamp": 0,
+              "delivered": 0
+            },
+            {
+              "x": 0.82,
+              "y": 0.62,
+              "stamp": 1,
+              "delivered": 0
+            },
+            {
+              "x": 0.29,
+              "y": 0.75,
+              "stamp": 2,
+              "delivered": 0
+            }
+          ],
+          "movedBoxes": 8,
+          "route": [
+            0
+          ],
+          "routeEdits": 1,
+          "routeIndex": 0,
+          "running": true,
+          "totalFed": 1,
+          "totalDelivered": 0,
+          "position": {
+            "x": 0.473,
+            "y": 0.419
+          },
+          "receiptCount": 0
+        }
+      }
+    ],
+    "composed": {
+      "mode": "route",
+      "belly": 1,
+      "bellyStamps": [
+        1
+      ],
+      "trayStamps": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "selectedStamp": 1,
+      "stampEdits": 3,
+      "legs": [
+        1.28,
+        1.56
+      ],
+      "legPulls": 24,
+      "boxes": [
+        {
+          "x": 0.79,
+          "y": 0.34,
+          "stamp": 0,
+          "delivered": 0
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 0
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 0
+        }
+      ],
+      "movedBoxes": 8,
+      "route": [
+        0
+      ],
+      "routeEdits": 1,
+      "routeIndex": 0,
+      "running": true,
+      "totalFed": 1,
+      "totalDelivered": 0,
+      "position": {
+        "x": 0.5,
+        "y": 0.413
+      },
+      "receiptCount": 0
+    },
+    "afterResize": {
+      "mode": "route",
+      "belly": 1,
+      "bellyStamps": [
+        1
+      ],
+      "trayStamps": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "selectedStamp": 1,
+      "stampEdits": 3,
+      "legs": [
+        1.28,
+        1.56
+      ],
+      "legPulls": 24,
+      "boxes": [
+        {
+          "x": 0.79,
+          "y": 0.34,
+          "stamp": 0,
+          "delivered": 0
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 0
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 0
+        }
+      ],
+      "movedBoxes": 8,
+      "route": [
+        0
+      ],
+      "routeEdits": 1,
+      "routeIndex": 0,
+      "running": true,
+      "totalFed": 1,
+      "totalDelivered": 0,
+      "position": {
+        "x": 0.503,
+        "y": 0.412
+      },
+      "receiptCount": 0
+    },
+    "reset": {
+      "mode": "feed",
+      "belly": 0,
+      "bellyStamps": [],
+      "trayStamps": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "selectedStamp": 0,
+      "stampEdits": 0,
+      "legs": [
+        1,
+        1
+      ],
+      "legPulls": 0,
+      "boxes": [
+        {
+          "x": 0.79,
+          "y": 0.27,
+          "stamp": 0,
+          "delivered": 0
+        },
+        {
+          "x": 0.82,
+          "y": 0.62,
+          "stamp": 1,
+          "delivered": 0
+        },
+        {
+          "x": 0.29,
+          "y": 0.75,
+          "stamp": 2,
+          "delivered": 0
+        }
+      ],
+      "movedBoxes": 0,
+      "route": [
+        0,
+        1,
+        2
+      ],
+      "routeEdits": 0,
+      "routeIndex": 0,
+      "running": false,
+      "totalFed": 0,
+      "totalDelivered": 0,
+      "position": {
+        "x": 0.47,
+        "y": 0.42
+      },
+      "receiptCount": 0
+    },
+    "fxRequests": 1,
+    "totalNodeMilliseconds": 107,
+    "validFinite": true
+  },
+  {
+    "slug": "09-sardine-salon",
+    "title": "沙丁鱼理发铺",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "tool": "comb",
+      "customersServed": 0,
+      "snips": 0,
+      "combMoves": 0,
+      "rollerChanges": 0,
+      "photoMode": false,
+      "currentId": 0,
+      "currentEdits": 0,
+      "fin": [
+        {
+          "height": 63.68,
+          "lean": 4.74,
+          "curl": false
+        },
+        {
+          "height": 77.97,
+          "lean": 3.42,
+          "curl": false
+        },
+        {
+          "height": 70.76,
+          "lean": 0.6,
+          "curl": false
+        },
+        {
+          "height": 46.24,
+          "lean": 9.23,
+          "curl": false
+        },
+        {
+          "height": 48.33,
+          "lean": -13.27,
+          "curl": false
+        },
+        {
+          "height": 92.45,
+          "lean": 7.52,
+          "curl": false
+        },
+        {
+          "height": 93.99,
+          "lean": 12.17,
+          "curl": false
+        },
+        {
+          "height": 83.4,
+          "lean": 2.57,
+          "curl": false
+        },
+        {
+          "height": 75.02,
+          "lean": 3.26,
+          "curl": false
+        },
+        {
+          "height": 89.82,
+          "lean": -13.49,
+          "curl": false
+        },
+        {
+          "height": 68.86,
+          "lean": 11.11,
+          "curl": false
+        },
+        {
+          "height": 65.51,
+          "lean": -7.2,
+          "curl": false
+        },
+        {
+          "height": 82,
+          "lean": 5.72,
+          "curl": false
+        },
+        {
+          "height": 71.06,
+          "lean": -9.72,
+          "curl": false
+        },
+        {
+          "height": 57.25,
+          "lean": 1.17,
+          "curl": false
+        }
+      ],
+      "beardLengths": [
+        70.15,
+        65.39,
+        69.57,
+        75.76,
+        64.2,
+        56.1,
+        66.87,
+        57.12
+      ],
+      "portraits": [],
+      "particleCount": 0
+    },
+    "states": [
+      {
+        "tool": "scissors",
+        "state": {
+          "tool": "scissors",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 0,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 0,
+          "fin": [
+            {
+              "height": 63.68,
+              "lean": 4.74,
+              "curl": false
+            },
+            {
+              "height": 77.97,
+              "lean": 3.42,
+              "curl": false
+            },
+            {
+              "height": 70.76,
+              "lean": 0.6,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 93.99,
+              "lean": 12.17,
+              "curl": false
+            },
+            {
+              "height": 83.4,
+              "lean": 2.57,
+              "curl": false
+            },
+            {
+              "height": 75.02,
+              "lean": 3.26,
+              "curl": false
+            },
+            {
+              "height": 89.82,
+              "lean": -13.49,
+              "curl": false
+            },
+            {
+              "height": 68.86,
+              "lean": 11.11,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        }
+      },
+      {
+        "tool": "comb",
+        "state": {
+          "tool": "comb",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 5,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 5,
+          "fin": [
+            {
+              "height": 20.1,
+              "lean": -7.83,
+              "curl": false
+            },
+            {
+              "height": 27.61,
+              "lean": -19.2,
+              "curl": false
+            },
+            {
+              "height": 40.95,
+              "lean": -20.28,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 93.99,
+              "lean": 12.17,
+              "curl": false
+            },
+            {
+              "height": 83.4,
+              "lean": 2.57,
+              "curl": false
+            },
+            {
+              "height": 75.02,
+              "lean": 3.26,
+              "curl": false
+            },
+            {
+              "height": 89.82,
+              "lean": -13.49,
+              "curl": false
+            },
+            {
+              "height": 68.86,
+              "lean": 11.11,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        }
+      },
+      {
+        "tool": "rollers",
+        "state": {
+          "tool": "rollers",
+          "customersServed": 0,
+          "snips": 0,
+          "combMoves": 5,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 0,
+          "currentEdits": 5,
+          "fin": [
+            {
+              "height": 20.1,
+              "lean": -7.83,
+              "curl": false
+            },
+            {
+              "height": 27.61,
+              "lean": -19.2,
+              "curl": false
+            },
+            {
+              "height": 40.95,
+              "lean": -20.28,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 93.99,
+              "lean": 12.17,
+              "curl": false
+            },
+            {
+              "height": 83.4,
+              "lean": 2.57,
+              "curl": false
+            },
+            {
+              "height": 75.02,
+              "lean": 3.26,
+              "curl": false
+            },
+            {
+              "height": 89.82,
+              "lean": -13.49,
+              "curl": false
+            },
+            {
+              "height": 68.86,
+              "lean": 11.11,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ],
+          "portraits": [],
+          "particleCount": 0
+        }
+      },
+      {
+        "tool": "next",
+        "state": {
+          "tool": "rollers",
+          "customersServed": 1,
+          "snips": 0,
+          "combMoves": 5,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 1,
+          "currentEdits": 0,
+          "fin": [
+            {
+              "height": 67.41,
+              "lean": 13.23,
+              "curl": false
+            },
+            {
+              "height": 89.03,
+              "lean": 7.4,
+              "curl": false
+            },
+            {
+              "height": 57.06,
+              "lean": 4.27,
+              "curl": false
+            },
+            {
+              "height": 66.89,
+              "lean": 9.69,
+              "curl": false
+            },
+            {
+              "height": 76.15,
+              "lean": 14.77,
+              "curl": false
+            },
+            {
+              "height": 95.34,
+              "lean": 8.35,
+              "curl": false
+            },
+            {
+              "height": 81.26,
+              "lean": -4.52,
+              "curl": false
+            },
+            {
+              "height": 89.83,
+              "lean": 2.82,
+              "curl": false
+            },
+            {
+              "height": 65.74,
+              "lean": 14.4,
+              "curl": false
+            },
+            {
+              "height": 62.19,
+              "lean": -0.99,
+              "curl": false
+            },
+            {
+              "height": 53.62,
+              "lean": 12.35,
+              "curl": false
+            },
+            {
+              "height": 42.43,
+              "lean": -11.19,
+              "curl": false
+            },
+            {
+              "height": 64.32,
+              "lean": -3.22,
+              "curl": false
+            },
+            {
+              "height": 74.86,
+              "lean": 4.33,
+              "curl": false
+            },
+            {
+              "height": 69.46,
+              "lean": -13.97,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            75.77,
+            75.31,
+            56.88,
+            76.28,
+            59.51,
+            62.1,
+            71.9,
+            67.42
+          ],
+          "portraits": [
+            {
+              "id": 0,
+              "edits": 5,
+              "fin": [
+                {
+                  "height": 20.1,
+                  "lean": -7.83,
+                  "curl": false
+                },
+                {
+                  "height": 27.61,
+                  "lean": -19.2,
+                  "curl": false
+                },
+                {
+                  "height": 40.95,
+                  "lean": -20.28,
+                  "curl": false
+                },
+                {
+                  "height": 46.24,
+                  "lean": 9.23,
+                  "curl": false
+                },
+                {
+                  "height": 48.33,
+                  "lean": -13.27,
+                  "curl": false
+                },
+                {
+                  "height": 92.45,
+                  "lean": 7.52,
+                  "curl": false
+                },
+                {
+                  "height": 93.99,
+                  "lean": 12.17,
+                  "curl": false
+                },
+                {
+                  "height": 83.4,
+                  "lean": 2.57,
+                  "curl": false
+                },
+                {
+                  "height": 75.02,
+                  "lean": 3.26,
+                  "curl": false
+                },
+                {
+                  "height": 89.82,
+                  "lean": -13.49,
+                  "curl": false
+                },
+                {
+                  "height": 68.86,
+                  "lean": 11.11,
+                  "curl": false
+                },
+                {
+                  "height": 65.51,
+                  "lean": -7.2,
+                  "curl": false
+                },
+                {
+                  "height": 82,
+                  "lean": 5.72,
+                  "curl": false
+                },
+                {
+                  "height": 71.06,
+                  "lean": -9.72,
+                  "curl": false
+                },
+                {
+                  "height": 57.25,
+                  "lean": 1.17,
+                  "curl": false
+                }
+              ],
+              "beardLengths": [
+                70.15,
+                65.39,
+                69.57,
+                75.76,
+                64.2,
+                56.1,
+                66.87,
+                57.12
+              ]
+            }
+          ],
+          "particleCount": 0
+        }
+      },
+      {
+        "tool": "photo",
+        "state": {
+          "tool": "rollers",
+          "customersServed": 1,
+          "snips": 0,
+          "combMoves": 5,
+          "rollerChanges": 0,
+          "photoMode": false,
+          "currentId": 1,
+          "currentEdits": 0,
+          "fin": [
+            {
+              "height": 67.41,
+              "lean": 13.23,
+              "curl": false
+            },
+            {
+              "height": 89.03,
+              "lean": 7.4,
+              "curl": false
+            },
+            {
+              "height": 57.06,
+              "lean": 4.27,
+              "curl": false
+            },
+            {
+              "height": 66.89,
+              "lean": 9.69,
+              "curl": false
+            },
+            {
+              "height": 76.15,
+              "lean": 14.77,
+              "curl": false
+            },
+            {
+              "height": 95.34,
+              "lean": 8.35,
+              "curl": false
+            },
+            {
+              "height": 81.26,
+              "lean": -4.52,
+              "curl": false
+            },
+            {
+              "height": 89.83,
+              "lean": 2.82,
+              "curl": false
+            },
+            {
+              "height": 65.74,
+              "lean": 14.4,
+              "curl": false
+            },
+            {
+              "height": 62.19,
+              "lean": -0.99,
+              "curl": false
+            },
+            {
+              "height": 53.62,
+              "lean": 12.35,
+              "curl": false
+            },
+            {
+              "height": 42.43,
+              "lean": -11.19,
+              "curl": false
+            },
+            {
+              "height": 64.32,
+              "lean": -3.22,
+              "curl": false
+            },
+            {
+              "height": 74.86,
+              "lean": 4.33,
+              "curl": false
+            },
+            {
+              "height": 69.46,
+              "lean": -13.97,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            75.77,
+            75.31,
+            56.88,
+            76.28,
+            59.51,
+            62.1,
+            71.9,
+            67.42
+          ],
+          "portraits": [
+            {
+              "id": 0,
+              "edits": 5,
+              "fin": [
+                {
+                  "height": 20.1,
+                  "lean": -7.83,
+                  "curl": false
+                },
+                {
+                  "height": 27.61,
+                  "lean": -19.2,
+                  "curl": false
+                },
+                {
+                  "height": 40.95,
+                  "lean": -20.28,
+                  "curl": false
+                },
+                {
+                  "height": 46.24,
+                  "lean": 9.23,
+                  "curl": false
+                },
+                {
+                  "height": 48.33,
+                  "lean": -13.27,
+                  "curl": false
+                },
+                {
+                  "height": 92.45,
+                  "lean": 7.52,
+                  "curl": false
+                },
+                {
+                  "height": 93.99,
+                  "lean": 12.17,
+                  "curl": false
+                },
+                {
+                  "height": 83.4,
+                  "lean": 2.57,
+                  "curl": false
+                },
+                {
+                  "height": 75.02,
+                  "lean": 3.26,
+                  "curl": false
+                },
+                {
+                  "height": 89.82,
+                  "lean": -13.49,
+                  "curl": false
+                },
+                {
+                  "height": 68.86,
+                  "lean": 11.11,
+                  "curl": false
+                },
+                {
+                  "height": 65.51,
+                  "lean": -7.2,
+                  "curl": false
+                },
+                {
+                  "height": 82,
+                  "lean": 5.72,
+                  "curl": false
+                },
+                {
+                  "height": 71.06,
+                  "lean": -9.72,
+                  "curl": false
+                },
+                {
+                  "height": 57.25,
+                  "lean": 1.17,
+                  "curl": false
+                }
+              ],
+              "beardLengths": [
+                70.15,
+                65.39,
+                69.57,
+                75.76,
+                64.2,
+                56.1,
+                66.87,
+                57.12
+              ]
+            }
+          ],
+          "particleCount": 0
+        }
+      }
+    ],
+    "composed": {
+      "tool": "rollers",
+      "customersServed": 1,
+      "snips": 0,
+      "combMoves": 5,
+      "rollerChanges": 0,
+      "photoMode": false,
+      "currentId": 1,
+      "currentEdits": 0,
+      "fin": [
+        {
+          "height": 67.41,
+          "lean": 13.23,
+          "curl": false
+        },
+        {
+          "height": 89.03,
+          "lean": 7.4,
+          "curl": false
+        },
+        {
+          "height": 57.06,
+          "lean": 4.27,
+          "curl": false
+        },
+        {
+          "height": 66.89,
+          "lean": 9.69,
+          "curl": false
+        },
+        {
+          "height": 76.15,
+          "lean": 14.77,
+          "curl": false
+        },
+        {
+          "height": 95.34,
+          "lean": 8.35,
+          "curl": false
+        },
+        {
+          "height": 81.26,
+          "lean": -4.52,
+          "curl": false
+        },
+        {
+          "height": 89.83,
+          "lean": 2.82,
+          "curl": false
+        },
+        {
+          "height": 65.74,
+          "lean": 14.4,
+          "curl": false
+        },
+        {
+          "height": 62.19,
+          "lean": -0.99,
+          "curl": false
+        },
+        {
+          "height": 53.62,
+          "lean": 12.35,
+          "curl": false
+        },
+        {
+          "height": 42.43,
+          "lean": -11.19,
+          "curl": false
+        },
+        {
+          "height": 64.32,
+          "lean": -3.22,
+          "curl": false
+        },
+        {
+          "height": 74.86,
+          "lean": 4.33,
+          "curl": false
+        },
+        {
+          "height": 69.46,
+          "lean": -13.97,
+          "curl": false
+        }
+      ],
+      "beardLengths": [
+        75.77,
+        75.31,
+        56.88,
+        76.28,
+        59.51,
+        62.1,
+        71.9,
+        67.42
+      ],
+      "portraits": [
+        {
+          "id": 0,
+          "edits": 5,
+          "fin": [
+            {
+              "height": 20.1,
+              "lean": -7.83,
+              "curl": false
+            },
+            {
+              "height": 27.61,
+              "lean": -19.2,
+              "curl": false
+            },
+            {
+              "height": 40.95,
+              "lean": -20.28,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 93.99,
+              "lean": 12.17,
+              "curl": false
+            },
+            {
+              "height": 83.4,
+              "lean": 2.57,
+              "curl": false
+            },
+            {
+              "height": 75.02,
+              "lean": 3.26,
+              "curl": false
+            },
+            {
+              "height": 89.82,
+              "lean": -13.49,
+              "curl": false
+            },
+            {
+              "height": 68.86,
+              "lean": 11.11,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ]
+        }
+      ],
+      "particleCount": 0
+    },
+    "afterResize": {
+      "tool": "rollers",
+      "customersServed": 1,
+      "snips": 0,
+      "combMoves": 5,
+      "rollerChanges": 0,
+      "photoMode": false,
+      "currentId": 1,
+      "currentEdits": 0,
+      "fin": [
+        {
+          "height": 67.41,
+          "lean": 13.23,
+          "curl": false
+        },
+        {
+          "height": 89.03,
+          "lean": 7.4,
+          "curl": false
+        },
+        {
+          "height": 57.06,
+          "lean": 4.27,
+          "curl": false
+        },
+        {
+          "height": 66.89,
+          "lean": 9.69,
+          "curl": false
+        },
+        {
+          "height": 76.15,
+          "lean": 14.77,
+          "curl": false
+        },
+        {
+          "height": 95.34,
+          "lean": 8.35,
+          "curl": false
+        },
+        {
+          "height": 81.26,
+          "lean": -4.52,
+          "curl": false
+        },
+        {
+          "height": 89.83,
+          "lean": 2.82,
+          "curl": false
+        },
+        {
+          "height": 65.74,
+          "lean": 14.4,
+          "curl": false
+        },
+        {
+          "height": 62.19,
+          "lean": -0.99,
+          "curl": false
+        },
+        {
+          "height": 53.62,
+          "lean": 12.35,
+          "curl": false
+        },
+        {
+          "height": 42.43,
+          "lean": -11.19,
+          "curl": false
+        },
+        {
+          "height": 64.32,
+          "lean": -3.22,
+          "curl": false
+        },
+        {
+          "height": 74.86,
+          "lean": 4.33,
+          "curl": false
+        },
+        {
+          "height": 69.46,
+          "lean": -13.97,
+          "curl": false
+        }
+      ],
+      "beardLengths": [
+        75.77,
+        75.31,
+        56.88,
+        76.28,
+        59.51,
+        62.1,
+        71.9,
+        67.42
+      ],
+      "portraits": [
+        {
+          "id": 0,
+          "edits": 5,
+          "fin": [
+            {
+              "height": 20.1,
+              "lean": -7.83,
+              "curl": false
+            },
+            {
+              "height": 27.61,
+              "lean": -19.2,
+              "curl": false
+            },
+            {
+              "height": 40.95,
+              "lean": -20.28,
+              "curl": false
+            },
+            {
+              "height": 46.24,
+              "lean": 9.23,
+              "curl": false
+            },
+            {
+              "height": 48.33,
+              "lean": -13.27,
+              "curl": false
+            },
+            {
+              "height": 92.45,
+              "lean": 7.52,
+              "curl": false
+            },
+            {
+              "height": 93.99,
+              "lean": 12.17,
+              "curl": false
+            },
+            {
+              "height": 83.4,
+              "lean": 2.57,
+              "curl": false
+            },
+            {
+              "height": 75.02,
+              "lean": 3.26,
+              "curl": false
+            },
+            {
+              "height": 89.82,
+              "lean": -13.49,
+              "curl": false
+            },
+            {
+              "height": 68.86,
+              "lean": 11.11,
+              "curl": false
+            },
+            {
+              "height": 65.51,
+              "lean": -7.2,
+              "curl": false
+            },
+            {
+              "height": 82,
+              "lean": 5.72,
+              "curl": false
+            },
+            {
+              "height": 71.06,
+              "lean": -9.72,
+              "curl": false
+            },
+            {
+              "height": 57.25,
+              "lean": 1.17,
+              "curl": false
+            }
+          ],
+          "beardLengths": [
+            70.15,
+            65.39,
+            69.57,
+            75.76,
+            64.2,
+            56.1,
+            66.87,
+            57.12
+          ]
+        }
+      ],
+      "particleCount": 0
+    },
+    "reset": {
+      "tool": "comb",
+      "customersServed": 0,
+      "snips": 0,
+      "combMoves": 0,
+      "rollerChanges": 0,
+      "photoMode": false,
+      "currentId": 0,
+      "currentEdits": 0,
+      "fin": [
+        {
+          "height": 63.68,
+          "lean": 4.74,
+          "curl": false
+        },
+        {
+          "height": 77.97,
+          "lean": 3.42,
+          "curl": false
+        },
+        {
+          "height": 70.76,
+          "lean": 0.6,
+          "curl": false
+        },
+        {
+          "height": 46.24,
+          "lean": 9.23,
+          "curl": false
+        },
+        {
+          "height": 48.33,
+          "lean": -13.27,
+          "curl": false
+        },
+        {
+          "height": 92.45,
+          "lean": 7.52,
+          "curl": false
+        },
+        {
+          "height": 93.99,
+          "lean": 12.17,
+          "curl": false
+        },
+        {
+          "height": 83.4,
+          "lean": 2.57,
+          "curl": false
+        },
+        {
+          "height": 75.02,
+          "lean": 3.26,
+          "curl": false
+        },
+        {
+          "height": 89.82,
+          "lean": -13.49,
+          "curl": false
+        },
+        {
+          "height": 68.86,
+          "lean": 11.11,
+          "curl": false
+        },
+        {
+          "height": 65.51,
+          "lean": -7.2,
+          "curl": false
+        },
+        {
+          "height": 82,
+          "lean": 5.72,
+          "curl": false
+        },
+        {
+          "height": 71.06,
+          "lean": -9.72,
+          "curl": false
+        },
+        {
+          "height": 57.25,
+          "lean": 1.17,
+          "curl": false
+        }
+      ],
+      "beardLengths": [
+        70.15,
+        65.39,
+        69.57,
+        75.76,
+        64.2,
+        56.1,
+        66.87,
+        57.12
+      ],
+      "portraits": [],
+      "particleCount": 0
+    },
+    "fxRequests": 1,
+    "totalNodeMilliseconds": 166,
+    "validFinite": true
+  },
+  {
+    "slug": "10-cloud-tailor",
+    "title": "云被裁缝",
+    "method": "Node offscreen Canvas; direct ART API calls, NOT browser, touch, audio, or 60–90s QA",
+    "initial": {
+      "tool": "pull",
+      "moonPatches": 0,
+      "totalMoonsPlaced": 0,
+      "openHoles": 0,
+      "holesMade": 0,
+      "repairs": 0,
+      "looseStitches": 0,
+      "folds": 0,
+      "foldMode": 0,
+      "pullMoves": 0,
+      "starsEmitted": 0,
+      "liveStars": 0,
+      "patches": [],
+      "holes": [],
+      "deformation": 0,
+      "nodeCount": 66
+    },
+    "states": [
+      {
+        "tool": "pull",
+        "state": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 8,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 589.82,
+          "nodeCount": 66
+        }
+      },
+      {
+        "tool": "moon",
+        "state": {
+          "tool": "moon",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 8,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [
+            {
+              "u": 0.5111,
+              "v": 0.0417,
+              "x": 503.71,
+              "y": 401.55,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [],
+          "deformation": 589.82,
+          "nodeCount": 66
+        }
+      },
+      {
+        "tool": "hole",
+        "state": {
+          "tool": "hole",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 1,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 8,
+          "starsEmitted": 5,
+          "liveStars": 5,
+          "patches": [
+            {
+              "u": 0.5111,
+              "v": 0.0417,
+              "x": 503.71,
+              "y": 401.55,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.5111,
+              "v": 0.0417,
+              "x": 503.71,
+              "y": 401.55,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 589.82,
+          "nodeCount": 66
+        }
+      },
+      {
+        "tool": "sew",
+        "state": {
+          "tool": "sew",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 1,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 8,
+          "starsEmitted": 5,
+          "liveStars": 5,
+          "patches": [
+            {
+              "u": 0.5111,
+              "v": 0.0417,
+              "x": 503.71,
+              "y": 401.55,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.5111,
+              "v": 0.0417,
+              "x": 503.71,
+              "y": 401.55,
+              "progress": 0.26,
+              "closed": false
+            }
+          ],
+          "deformation": 589.82,
+          "nodeCount": 66
+        }
+      },
+      {
+        "tool": "fold",
+        "state": {
+          "tool": "sew",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 1,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 1,
+          "foldMode": 1,
+          "pullMoves": 8,
+          "starsEmitted": 5,
+          "liveStars": 5,
+          "patches": [
+            {
+              "u": 0.5111,
+              "v": 0.0417,
+              "x": 495.07,
+              "y": 381.72,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.5111,
+              "v": 0.0417,
+              "x": 495.07,
+              "y": 381.72,
+              "progress": 0.26,
+              "closed": false
+            }
+          ],
+          "deformation": 3144.45,
+          "nodeCount": 66
+        }
+      }
+    ],
+    "composed": {
+      "tool": "sew",
+      "moonPatches": 1,
+      "totalMoonsPlaced": 1,
+      "openHoles": 1,
+      "holesMade": 1,
+      "repairs": 0,
+      "looseStitches": 0,
+      "folds": 1,
+      "foldMode": 1,
+      "pullMoves": 8,
+      "starsEmitted": 5,
+      "liveStars": 5,
+      "patches": [
+        {
+          "u": 0.5111,
+          "v": 0.0417,
+          "x": 495.07,
+          "y": 381.72,
+          "rotation": -0.3
+        }
+      ],
+      "holes": [
+        {
+          "u": 0.5111,
+          "v": 0.0417,
+          "x": 495.07,
+          "y": 381.72,
+          "progress": 0.26,
+          "closed": false
+        }
+      ],
+      "deformation": 3144.45,
+      "nodeCount": 66
+    },
+    "afterResize": {
+      "tool": "sew",
+      "moonPatches": 1,
+      "totalMoonsPlaced": 1,
+      "openHoles": 1,
+      "holesMade": 1,
+      "repairs": 0,
+      "looseStitches": 0,
+      "folds": 1,
+      "foldMode": 1,
+      "pullMoves": 8,
+      "starsEmitted": 5,
+      "liveStars": 5,
+      "patches": [
+        {
+          "u": 0.5111,
+          "v": 0.0417,
+          "x": 495.07,
+          "y": 381.72,
+          "rotation": -0.3
+        }
+      ],
+      "holes": [
+        {
+          "u": 0.5111,
+          "v": 0.0417,
+          "x": 495.07,
+          "y": 381.72,
+          "progress": 0.26,
+          "closed": false
+        }
+      ],
+      "deformation": 3144.45,
+      "nodeCount": 66
+    },
+    "reset": {
+      "tool": "pull",
+      "moonPatches": 0,
+      "totalMoonsPlaced": 0,
+      "openHoles": 0,
+      "holesMade": 0,
+      "repairs": 0,
+      "looseStitches": 0,
+      "folds": 0,
+      "foldMode": 0,
+      "pullMoves": 0,
+      "starsEmitted": 0,
+      "liveStars": 0,
+      "patches": [],
+      "holes": [],
+      "deformation": 0,
+      "nodeCount": 66
+    },
+    "fxRequests": 1,
+    "totalNodeMilliseconds": 779,
+    "validFinite": true
+  }
+]

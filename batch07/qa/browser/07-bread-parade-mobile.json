@@ -1,0 +1,7754 @@
+{
+  "slug": "07-bread-parade",
+  "device": "mobile",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/07-bread-parade/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 1.4,
+        "wallSeconds": 1.4,
+        "trusted": 10,
+        "downs": 1,
+        "moves": 8,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0244541933705903,
+          "fx": 0,
+          "out": 0.016628851659685633,
+          "musicPeak": 0.04173334804508968,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 3,
+          "fxCount": 6,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 8,
+          "width": 1.243,
+          "height": 1.146,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1.102,
+            1.193,
+            1.268,
+            1.27,
+            1.27,
+            1.177,
+            1.125,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 2.4,
+        "wallSeconds": 2.5,
+        "trusted": 13,
+        "downs": 3,
+        "moves": 8,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 73,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012576397632439937,
+          "fx": 0,
+          "out": 0.008551950473270144,
+          "musicPeak": 0.04471868976010499,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 6,
+          "fxCount": 10,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 8,
+          "width": 1.243,
+          "height": 1.146,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1.102,
+            1.193,
+            1.268,
+            1.27,
+            1.27,
+            1.177,
+            1.125,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 2,
+          "totalStamps": 2,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "advanceSeconds": 3,
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 5.7,
+        "wallSeconds": 5.8,
+        "trusted": 17,
+        "downs": 3,
+        "moves": 8,
+        "actions": 6,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 76,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010789873159986267,
+          "fx": 0,
+          "out": 0.007337113819340818,
+          "musicPeak": 0.04471868976010499,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 16,
+          "fxCount": 12,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 8,
+          "width": 1.243,
+          "height": 1.146,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1.102,
+            1.193,
+            1.268,
+            1.27,
+            1.27,
+            1.177,
+            1.125,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 2,
+          "totalStamps": 2,
+          "fermentation": 0.56,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 6.1,
+        "wallSeconds": 6.1,
+        "trusted": 19,
+        "downs": 3,
+        "moves": 8,
+        "actions": 8,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 75,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.017756836659936295,
+          "fx": 0.00042194714698490595,
+          "out": 0.012064281028438092,
+          "musicPeak": 0.04471868976010499,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 17,
+          "fxCount": 13,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 7,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 8,
+          "width": 1.22,
+          "height": 1.05,
+          "outline": [
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.004,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972
+          ],
+          "stamps": 0,
+          "totalStamps": 2,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 4,
+          "queueRecipes": [
+            {
+              "id": 1,
+              "width": 1.243,
+              "height": 1.146,
+              "crust": 2,
+              "stamps": 2,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            }
+          ],
+          "joined": 1,
+          "direction": -1,
+          "turns": 1
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 12.2,
+        "wallSeconds": 12.2,
+        "trusted": 129,
+        "downs": 4,
+        "moves": 16,
+        "actions": 108,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04492513887221035,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 33,
+          "fxCount": 58,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 8,
+          "width": 0.98,
+          "height": 0.95,
+          "outline": [
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.973,
+            1.026,
+            0.977,
+            1.02,
+            0.983,
+            1.013,
+            0.991,
+            1.005,
+            0.999,
+            0.997,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.972,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974
+          ],
+          "stamps": 1,
+          "totalStamps": 3,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 23,
+              "width": 1.22,
+              "height": 1.05,
+              "crust": 0,
+              "stamps": 0,
+              "ferment": 0.28
+            },
+            {
+              "id": 24,
+              "width": 0.98,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 0,
+              "ferment": 0.28
+            },
+            {
+              "id": 25,
+              "width": 1.1,
+              "height": 1.05,
+              "crust": 0,
+              "stamps": 0,
+              "ferment": 0.28
+            },
+            {
+              "id": 26,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 0,
+              "ferment": 0.28
+            },
+            {
+              "id": 27,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 0,
+              "stamps": 0,
+              "ferment": 0.28
+            },
+            {
+              "id": 28,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 0,
+              "ferment": 0.28
+            },
+            {
+              "id": 29,
+              "width": 1.22,
+              "height": 1.05,
+              "crust": 0,
+              "stamps": 0,
+              "ferment": 0.28
+            }
+          ],
+          "joined": 26,
+          "direction": -1,
+          "turns": 1
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 12.5,
+        "wallSeconds": 12.5,
+        "trusted": 130,
+        "downs": 4,
+        "moves": 16,
+        "actions": 108,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04492513887221035,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 33,
+          "fxCount": 58,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 14.1,
+        "wallSeconds": 14.1,
+        "trusted": 150,
+        "downs": 6,
+        "moves": 32,
+        "actions": 108,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04492513887221035,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 36,
+          "fxCount": 64,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 16,
+          "width": 1.276,
+          "height": 1.311,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            1.001,
+            1.034,
+            1.106,
+            1.167,
+            1.248,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.17,
+            1.16,
+            1.024,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 14.3,
+        "wallSeconds": 14.3,
+        "trusted": 151,
+        "downs": 6,
+        "moves": 32,
+        "actions": 108,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04492513887221035,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 36,
+          "fxCount": 64,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 16,
+        "wallSeconds": 16.1,
+        "trusted": 171,
+        "downs": 8,
+        "moves": 48,
+        "actions": 108,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04492513887221035,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 39,
+          "fxCount": 70,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 16,
+          "width": 1.276,
+          "height": 1.311,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            1.001,
+            1.034,
+            1.106,
+            1.167,
+            1.248,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.17,
+            1.16,
+            1.024,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 16.4,
+        "wallSeconds": 16.4,
+        "trusted": 172,
+        "downs": 8,
+        "moves": 48,
+        "actions": 108,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.04492513887221035,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 39,
+          "fxCount": 70,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 0,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 18.8,
+        "wallSeconds": 18.9,
+        "trusted": 201,
+        "downs": 11,
+        "moves": 72,
+        "actions": 109,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01514800556761705,
+          "fx": 0,
+          "out": 0.010300643892670372,
+          "musicPeak": 0.04492513887221035,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 46,
+          "fxCount": 84,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 24,
+          "width": 1.5,
+          "height": 1.38,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            1.001,
+            1.034,
+            1.208,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.168,
+            1.121,
+            0.955,
+            0.951,
+            0.863,
+            0.931,
+            0.895,
+            0.97,
+            0.943,
+            1.007,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 0,
+          "totalStamps": 0,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 20.4,
+        "wallSeconds": 20.4,
+        "trusted": 213,
+        "downs": 14,
+        "moves": 80,
+        "actions": 110,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03592320460825195,
+          "fx": 0,
+          "out": 0.024427779313162888,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 51,
+          "fxCount": 93,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 32,
+          "width": 1.5,
+          "height": 1.38,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            1.001,
+            1.034,
+            1.208,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.117,
+            0.796,
+            0.733,
+            0.7,
+            0.787,
+            0.818,
+            0.944,
+            0.943,
+            1.007,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 2,
+          "totalStamps": 2,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 21.3,
+        "wallSeconds": 21.3,
+        "trusted": 226,
+        "downs": 15,
+        "moves": 88,
+        "actions": 114,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.005687670024271898,
+          "fx": 0.0008225773483237531,
+          "out": 0.003733934615439417,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 53,
+          "fxCount": 96,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 32,
+          "width": 1.5,
+          "height": 1.38,
+          "outline": [
+            1.025,
+            0.977,
+            1.02,
+            0.984,
+            1.013,
+            1.001,
+            1.034,
+            1.208,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.117,
+            0.796,
+            0.733,
+            0.7,
+            0.787,
+            0.818,
+            0.944,
+            0.943,
+            1.007,
+            0.98,
+            1.017,
+            0.987,
+            1.009
+          ],
+          "stamps": 3,
+          "totalStamps": 3,
+          "fermentation": 0.173,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 3,
+          "queueRecipes": [
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            }
+          ],
+          "joined": 0,
+          "direction": 1,
+          "turns": 0
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 22.2,
+        "wallSeconds": 22.2,
+        "trusted": 237,
+        "downs": 16,
+        "moves": 96,
+        "actions": 116,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.018682296955869707,
+          "fx": 0.002344998912258813,
+          "out": 0.012572046732285005,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 56,
+          "fxCount": 99,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 32,
+          "width": 1.22,
+          "height": 1.05,
+          "outline": [
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.004,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972
+          ],
+          "stamps": 0,
+          "totalStamps": 4,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 4,
+          "queueRecipes": [
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            }
+          ],
+          "joined": 1,
+          "direction": -1,
+          "turns": 1
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 23.6,
+        "wallSeconds": 23.6,
+        "trusted": 256,
+        "downs": 18,
+        "moves": 112,
+        "actions": 117,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01106279385231536,
+          "fx": 0,
+          "out": 0.007522699880412303,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 60,
+          "fxCount": 106,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 40,
+          "width": 1.363,
+          "height": 1.146,
+          "outline": [
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.125,
+            1.177,
+            1.27,
+            1.269,
+            1.269,
+            1.192,
+            1.103,
+            1.004,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972
+          ],
+          "stamps": 1,
+          "totalStamps": 5,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 4,
+          "queueRecipes": [
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            }
+          ],
+          "joined": 1,
+          "direction": -1,
+          "turns": 1
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 25.2,
+        "wallSeconds": 25.2,
+        "trusted": 268,
+        "downs": 21,
+        "moves": 120,
+        "actions": 118,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009276751955420541,
+          "fx": 0,
+          "out": 0.006308191368643722,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 65,
+          "fxCount": 115,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 48,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.125,
+            1.177,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.161,
+            0.988,
+            0.851,
+            0.76,
+            0.802,
+            0.834,
+            0.948,
+            0.947,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972
+          ],
+          "stamps": 3,
+          "totalStamps": 7,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 4,
+          "queueRecipes": [
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            }
+          ],
+          "joined": 1,
+          "direction": -1,
+          "turns": 1
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 26,
+        "wallSeconds": 26.1,
+        "trusted": 281,
+        "downs": 22,
+        "moves": 128,
+        "actions": 122,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02642937178774412,
+          "fx": 0.010197291938721001,
+          "out": 0.014518563838421981,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 68,
+          "fxCount": 119,
+          "activeVoices": 7,
+          "connectedNodes": 20,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 48,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.125,
+            1.177,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.161,
+            0.988,
+            0.851,
+            0.76,
+            0.802,
+            0.834,
+            0.948,
+            0.947,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972
+          ],
+          "stamps": 4,
+          "totalStamps": 8,
+          "fermentation": 0.165,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 4,
+          "queueRecipes": [
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            }
+          ],
+          "joined": 1,
+          "direction": -1,
+          "turns": 1
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 27,
+        "wallSeconds": 27.1,
+        "trusted": 292,
+        "downs": 23,
+        "moves": 136,
+        "actions": 124,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02285953392058773,
+          "fx": 0.0003617698139081763,
+          "out": 0.01557264269765077,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 71,
+          "fxCount": 122,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 48,
+          "width": 0.98,
+          "height": 0.95,
+          "outline": [
+            0.992,
+            1.012,
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.973,
+            1.026,
+            0.977,
+            1.02,
+            0.983,
+            1.013,
+            0.991,
+            1.005,
+            0.999,
+            0.997,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975
+          ],
+          "stamps": 0,
+          "totalStamps": 9,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 5,
+          "queueRecipes": [
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 2,
+          "direction": 1,
+          "turns": 2
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 28.3,
+        "wallSeconds": 28.3,
+        "trusted": 311,
+        "downs": 25,
+        "moves": 152,
+        "actions": 125,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03498427852844183,
+          "fx": 0,
+          "out": 0.02378930970341476,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 75,
+          "fxCount": 128,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 56,
+          "width": 1.123,
+          "height": 1.046,
+          "outline": [
+            0.992,
+            1.012,
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.131,
+            1.167,
+            1.27,
+            1.253,
+            1.27,
+            1.169,
+            1.128,
+            0.977,
+            1.02,
+            0.983,
+            1.013,
+            0.991,
+            1.005,
+            0.999,
+            0.997,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975
+          ],
+          "stamps": 1,
+          "totalStamps": 10,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 5,
+          "queueRecipes": [
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 2,
+          "direction": 1,
+          "turns": 2
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 30,
+        "wallSeconds": 30,
+        "trusted": 323,
+        "downs": 28,
+        "moves": 160,
+        "actions": 126,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.039883393642883506,
+          "fx": 0,
+          "out": 0.02712070792803047,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 80,
+          "fxCount": 136,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 64,
+          "width": 1.5,
+          "height": 1.22,
+          "outline": [
+            0.992,
+            1.012,
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.131,
+            1.167,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.134,
+            1.016,
+            0.822,
+            0.788,
+            0.774,
+            0.861,
+            0.922,
+            0.97,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975
+          ],
+          "stamps": 3,
+          "totalStamps": 12,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 5,
+          "queueRecipes": [
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 2,
+          "direction": 1,
+          "turns": 2
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 30.9,
+        "wallSeconds": 30.9,
+        "trusted": 336,
+        "downs": 29,
+        "moves": 168,
+        "actions": 130,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0033521530758591784,
+          "fx": 0.0007758114364713324,
+          "out": 0.002363327984619165,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 82,
+          "fxCount": 140,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 64,
+          "width": 1.5,
+          "height": 1.22,
+          "outline": [
+            0.992,
+            1.012,
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.131,
+            1.167,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.134,
+            1.016,
+            0.822,
+            0.788,
+            0.774,
+            0.861,
+            0.922,
+            0.97,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975
+          ],
+          "stamps": 4,
+          "totalStamps": 13,
+          "fermentation": 0.263,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 5,
+          "queueRecipes": [
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 2,
+          "direction": 1,
+          "turns": 2
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 31.7,
+        "wallSeconds": 31.8,
+        "trusted": 347,
+        "downs": 30,
+        "moves": 176,
+        "actions": 132,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011372890412109265,
+          "fx": 0.002810312135071697,
+          "out": 0.00914118543111894,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 85,
+          "fxCount": 143,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 64,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001
+          ],
+          "stamps": 0,
+          "totalStamps": 14,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 6,
+          "queueRecipes": [
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 3,
+          "direction": -1,
+          "turns": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 33,
+        "wallSeconds": 33,
+        "trusted": 366,
+        "downs": 32,
+        "moves": 192,
+        "actions": 133,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.021024558873576352,
+          "fx": 0,
+          "out": 0.014296700207373383,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 89,
+          "fxCount": 149,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 72,
+          "width": 1.243,
+          "height": 1.146,
+          "outline": [
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.11,
+            1.185,
+            1.27,
+            1.263,
+            1.27,
+            1.172,
+            1.129,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001
+          ],
+          "stamps": 1,
+          "totalStamps": 15,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 6,
+          "queueRecipes": [
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 3,
+          "direction": -1,
+          "turns": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 34.6,
+        "wallSeconds": 34.6,
+        "trusted": 378,
+        "downs": 35,
+        "moves": 200,
+        "actions": 134,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02410669787086258,
+          "fx": 0,
+          "out": 0.016392554716027172,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 94,
+          "fxCount": 157,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 80,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.11,
+            1.185,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.129,
+            1.026,
+            0.809,
+            0.805,
+            0.754,
+            0.883,
+            0.897,
+            0.997,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001
+          ],
+          "stamps": 3,
+          "totalStamps": 17,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 6,
+          "queueRecipes": [
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 3,
+          "direction": -1,
+          "turns": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 35.6,
+        "wallSeconds": 35.6,
+        "trusted": 391,
+        "downs": 36,
+        "moves": 208,
+        "actions": 138,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02248919613078184,
+          "fx": 0.0009101874248867,
+          "out": 0.015378734678001259,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 97,
+          "fxCount": 161,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 80,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            1.02,
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.11,
+            1.185,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.129,
+            1.026,
+            0.809,
+            0.805,
+            0.754,
+            0.883,
+            0.897,
+            0.997,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001
+          ],
+          "stamps": 4,
+          "totalStamps": 18,
+          "fermentation": 0.251,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 6,
+          "queueRecipes": [
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 3,
+          "direction": -1,
+          "turns": 3
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 36.4,
+        "wallSeconds": 36.4,
+        "trusted": 402,
+        "downs": 37,
+        "moves": 216,
+        "actions": 140,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012338197016536585,
+          "fx": 0.009923813922097418,
+          "out": 0.009867658482161526,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 99,
+          "fxCount": 164,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 80,
+          "width": 1.22,
+          "height": 0.95,
+          "outline": [
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.004,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026
+          ],
+          "stamps": 0,
+          "totalStamps": 19,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 7,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 4,
+          "direction": 1,
+          "turns": 4
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 37.7,
+        "wallSeconds": 37.7,
+        "trusted": 421,
+        "downs": 39,
+        "moves": 232,
+        "actions": 141,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011437525680727211,
+          "fx": 0,
+          "out": 0.007777517537938891,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 103,
+          "fxCount": 170,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 88,
+          "width": 1.363,
+          "height": 1.046,
+          "outline": [
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            1.082,
+            1.213,
+            1.247,
+            1.27,
+            1.255,
+            1.197,
+            1.106,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026
+          ],
+          "stamps": 1,
+          "totalStamps": 20,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 7,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 4,
+          "direction": 1,
+          "turns": 4
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 39.3,
+        "wallSeconds": 39.3,
+        "trusted": 433,
+        "downs": 42,
+        "moves": 240,
+        "actions": 142,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02188345361694889,
+          "fx": 0,
+          "out": 0.014880748669351976,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 108,
+          "fxCount": 178,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 96,
+          "width": 1.5,
+          "height": 1.22,
+          "outline": [
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            1.082,
+            1.213,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.15,
+            1.008,
+            0.823,
+            0.794,
+            0.761,
+            0.881,
+            0.896,
+            1.002,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026
+          ],
+          "stamps": 3,
+          "totalStamps": 22,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 7,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 4,
+          "direction": 1,
+          "turns": 4
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 40.3,
+        "wallSeconds": 40.3,
+        "trusted": 446,
+        "downs": 43,
+        "moves": 248,
+        "actions": 146,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.017680166023018775,
+          "fx": 0.0006310172990506264,
+          "out": 0.012393082480025831,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 111,
+          "fxCount": 182,
+          "activeVoices": 7,
+          "connectedNodes": 20,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 96,
+          "width": 1.5,
+          "height": 1.22,
+          "outline": [
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            1.082,
+            1.213,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.15,
+            1.008,
+            0.823,
+            0.794,
+            0.761,
+            0.881,
+            0.896,
+            1.002,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026
+          ],
+          "stamps": 4,
+          "totalStamps": 23,
+          "fermentation": 0.255,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 7,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 4,
+          "direction": 1,
+          "turns": 4
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 41,
+        "wallSeconds": 41.1,
+        "trusted": 457,
+        "downs": 44,
+        "moves": 256,
+        "actions": 148,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009182679403832597,
+          "fx": 0.006192000174529129,
+          "out": 0.006233068312760219,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 113,
+          "fxCount": 185,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 96,
+          "width": 0.98,
+          "height": 1.05,
+          "outline": [
+            1.012,
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.973,
+            1.026,
+            0.977,
+            1.02,
+            0.983,
+            1.013,
+            0.991,
+            1.005,
+            0.999,
+            0.997,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027
+          ],
+          "stamps": 0,
+          "totalStamps": 24,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 8,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 5,
+          "direction": -1,
+          "turns": 5
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 42.4,
+        "wallSeconds": 42.5,
+        "trusted": 476,
+        "downs": 46,
+        "moves": 272,
+        "actions": 149,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004964134410722291,
+          "fx": 0,
+          "out": 0.003375611436367417,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 117,
+          "fxCount": 191,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 104,
+          "width": 1.123,
+          "height": 1.146,
+          "outline": [
+            1.012,
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            1.073,
+            1.227,
+            1.23,
+            1.27,
+            1.233,
+            1.222,
+            1.079,
+            1.02,
+            0.983,
+            1.013,
+            0.991,
+            1.005,
+            0.999,
+            0.997,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027
+          ],
+          "stamps": 1,
+          "totalStamps": 25,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 8,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 5,
+          "direction": -1,
+          "turns": 5
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 44,
+        "wallSeconds": 44.1,
+        "trusted": 488,
+        "downs": 49,
+        "moves": 280,
+        "actions": 150,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007785102111017904,
+          "fx": 0,
+          "out": 0.005293869504745382,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 122,
+          "fxCount": 199,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 112,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            1.012,
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            1.073,
+            1.227,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.178,
+            0.979,
+            0.852,
+            0.766,
+            0.788,
+            0.855,
+            0.919,
+            0.981,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027
+          ],
+          "stamps": 3,
+          "totalStamps": 27,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 8,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 5,
+          "direction": -1,
+          "turns": 5
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 45,
+        "wallSeconds": 45,
+        "trusted": 501,
+        "downs": 50,
+        "moves": 288,
+        "actions": 154,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010798259024139818,
+          "fx": 0.0011181790079646912,
+          "out": 0.00798909531203265,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 125,
+          "fxCount": 203,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 112,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            1.012,
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            1.073,
+            1.227,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.178,
+            0.979,
+            0.852,
+            0.766,
+            0.788,
+            0.855,
+            0.919,
+            0.981,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027
+          ],
+          "stamps": 4,
+          "totalStamps": 28,
+          "fermentation": 0.253,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 8,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 5,
+          "direction": -1,
+          "turns": 5
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 45.8,
+        "wallSeconds": 45.8,
+        "trusted": 512,
+        "downs": 51,
+        "moves": 296,
+        "actions": 156,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012715815778090922,
+          "fx": 0.006178816178333584,
+          "out": 0.010090784177309802,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 128,
+          "fxCount": 206,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 112,
+          "width": 1.1,
+          "height": 0.95,
+          "outline": [
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.003
+          ],
+          "stamps": 0,
+          "totalStamps": 29,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 9,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 6,
+          "direction": 1,
+          "turns": 6
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 47.2,
+        "wallSeconds": 47.2,
+        "trusted": 531,
+        "downs": 53,
+        "moves": 312,
+        "actions": 157,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.025808422890586626,
+          "fx": 0,
+          "out": 0.01754972779205313,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 132,
+          "fxCount": 213,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 120,
+          "width": 1.243,
+          "height": 1.046,
+          "outline": [
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            1.09,
+            1.213,
+            1.241,
+            1.27,
+            1.235,
+            1.224,
+            1.074,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.003
+          ],
+          "stamps": 1,
+          "totalStamps": 30,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 9,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 6,
+          "direction": 1,
+          "turns": 6
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 48.7,
+        "wallSeconds": 48.8,
+        "trusted": 543,
+        "downs": 56,
+        "moves": 320,
+        "actions": 158,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.037607822582598795,
+          "fx": 0,
+          "out": 0.02557331960877294,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 137,
+          "fxCount": 221,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 128,
+          "width": 1.5,
+          "height": 1.22,
+          "outline": [
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            1.09,
+            1.213,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.187,
+            0.966,
+            0.869,
+            0.746,
+            0.811,
+            0.83,
+            0.946,
+            0.953,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.003
+          ],
+          "stamps": 3,
+          "totalStamps": 32,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 9,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 6,
+          "direction": 1,
+          "turns": 6
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 49.7,
+        "wallSeconds": 49.8,
+        "trusted": 556,
+        "downs": 57,
+        "moves": 328,
+        "actions": 162,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03179180748287842,
+          "fx": 0.0027637482611435624,
+          "out": 0.022240398046659213,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 140,
+          "fxCount": 225,
+          "activeVoices": 7,
+          "connectedNodes": 20,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 128,
+          "width": 1.5,
+          "height": 1.22,
+          "outline": [
+            0.984,
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            1.09,
+            1.213,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.187,
+            0.966,
+            0.869,
+            0.746,
+            0.811,
+            0.83,
+            0.946,
+            0.953,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.003
+          ],
+          "stamps": 4,
+          "totalStamps": 33,
+          "fermentation": 0.223,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 9,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 6,
+          "direction": 1,
+          "turns": 6
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 50.6,
+        "wallSeconds": 50.6,
+        "trusted": 567,
+        "downs": 58,
+        "moves": 336,
+        "actions": 164,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007747301401748473,
+          "fx": 0.0007932796220620999,
+          "out": 0.005040339602410051,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 142,
+          "fxCount": 228,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 128,
+          "width": 1.22,
+          "height": 1.05,
+          "outline": [
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.004,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026,
+            0.977
+          ],
+          "stamps": 0,
+          "totalStamps": 34,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 10,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 7,
+          "direction": -1,
+          "turns": 7
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 51.9,
+        "wallSeconds": 52,
+        "trusted": 586,
+        "downs": 60,
+        "moves": 352,
+        "actions": 165,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007133259026490557,
+          "fx": 0,
+          "out": 0.004850616183752498,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 146,
+          "fxCount": 234,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 136,
+          "width": 1.363,
+          "height": 1.146,
+          "outline": [
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.119,
+            1.184,
+            1.269,
+            1.27,
+            1.261,
+            1.2,
+            1.094,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026,
+            0.977
+          ],
+          "stamps": 1,
+          "totalStamps": 35,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 10,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 7,
+          "direction": -1,
+          "turns": 7
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 53.6,
+        "wallSeconds": 53.6,
+        "trusted": 598,
+        "downs": 63,
+        "moves": 360,
+        "actions": 166,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007230858012795571,
+          "fx": 0,
+          "out": 0.0049169835070581955,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 151,
+          "fxCount": 243,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 144,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.119,
+            1.184,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.169,
+            0.981,
+            0.858,
+            0.753,
+            0.808,
+            0.829,
+            0.951,
+            0.944,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026,
+            0.977
+          ],
+          "stamps": 3,
+          "totalStamps": 37,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 10,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 7,
+          "direction": -1,
+          "turns": 7
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 54.5,
+        "wallSeconds": 54.6,
+        "trusted": 611,
+        "downs": 64,
+        "moves": 368,
+        "actions": 170,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00898874623380669,
+          "fx": 0.009946278402577181,
+          "out": 0.012732867129202678,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 154,
+          "fxCount": 247,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 144,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            0.97,
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.119,
+            1.184,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.169,
+            0.981,
+            0.858,
+            0.753,
+            0.808,
+            0.829,
+            0.951,
+            0.944,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026,
+            0.977
+          ],
+          "stamps": 4,
+          "totalStamps": 38,
+          "fermentation": 0.186,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 10,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 7,
+          "direction": -1,
+          "turns": 7
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 55.4,
+        "wallSeconds": 55.4,
+        "trusted": 622,
+        "downs": 65,
+        "moves": 376,
+        "actions": 172,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02225144591278683,
+          "fx": 0.0020400239441665225,
+          "out": 0.014802567277333444,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 157,
+          "fxCount": 250,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 144,
+          "width": 0.98,
+          "height": 0.95,
+          "outline": [
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.973,
+            1.026,
+            0.977,
+            1.02,
+            0.983,
+            1.013,
+            0.991,
+            1.005,
+            0.999,
+            0.997,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.972
+          ],
+          "stamps": 0,
+          "totalStamps": 39,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 11,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 8,
+          "direction": 1,
+          "turns": 8
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 56.8,
+        "wallSeconds": 56.8,
+        "trusted": 641,
+        "downs": 67,
+        "moves": 392,
+        "actions": 173,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014715777874226284,
+          "fx": 0,
+          "out": 0.010006729075451396,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 161,
+          "fxCount": 257,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 152,
+          "width": 1.123,
+          "height": 1.046,
+          "outline": [
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.132,
+            1.167,
+            1.27,
+            1.255,
+            1.27,
+            1.174,
+            1.122,
+            0.983,
+            1.013,
+            0.991,
+            1.005,
+            0.999,
+            0.997,
+            1.008,
+            0.988,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.972
+          ],
+          "stamps": 1,
+          "totalStamps": 40,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 11,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 8,
+          "direction": 1,
+          "turns": 8
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 58.3,
+        "wallSeconds": 58.4,
+        "trusted": 653,
+        "downs": 70,
+        "moves": 400,
+        "actions": 174,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03391079304184107,
+          "fx": 0,
+          "out": 0.023059339523470397,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 166,
+          "fxCount": 265,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 160,
+          "width": 1.5,
+          "height": 1.22,
+          "outline": [
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.132,
+            1.167,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.141,
+            1.009,
+            0.83,
+            0.78,
+            0.782,
+            0.852,
+            0.931,
+            0.962,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.972
+          ],
+          "stamps": 3,
+          "totalStamps": 42,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 11,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 8,
+          "direction": 1,
+          "turns": 8
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 59.3,
+        "wallSeconds": 59.3,
+        "trusted": 666,
+        "downs": 71,
+        "moves": 408,
+        "actions": 178,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01989266060476197,
+          "fx": 0.012162097587793661,
+          "out": 0.012666484995303923,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 169,
+          "fxCount": 269,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 160,
+          "width": 1.5,
+          "height": 1.22,
+          "outline": [
+            0.984,
+            1.02,
+            0.977,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.132,
+            1.167,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.141,
+            1.009,
+            0.83,
+            0.78,
+            0.782,
+            0.852,
+            0.931,
+            0.962,
+            1.015,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.972
+          ],
+          "stamps": 4,
+          "totalStamps": 43,
+          "fermentation": 0.18,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 11,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 8,
+          "direction": 1,
+          "turns": 8
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 60.2,
+        "wallSeconds": 60.2,
+        "trusted": 677,
+        "downs": 72,
+        "moves": 416,
+        "actions": 180,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009303789964366555,
+          "fx": 0.002344998912258813,
+          "out": 0.00641837096985677,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 171,
+          "fxCount": 272,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 160,
+          "width": 1.1,
+          "height": 1.05,
+          "outline": [
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.016,
+            0.981,
+            1.022,
+            0.975,
+            1.027,
+            0.971,
+            1.03,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.003,
+            0.993
+          ],
+          "stamps": 0,
+          "totalStamps": 44,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 12,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 9,
+          "direction": -1,
+          "turns": 9
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "knead",
+        "from": [
+          0.5,
+          0.405
+        ],
+        "to": [
+          0.63,
+          0.46
+        ],
+        "expect": "kneadMoves>0，width/height/outline改变"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 61.5,
+        "wallSeconds": 61.5,
+        "trusted": 696,
+        "downs": 74,
+        "moves": 432,
+        "actions": 181,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007419273422903941,
+          "fx": 0,
+          "out": 0.005045105958340269,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 175,
+          "fxCount": 279,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "knead",
+          "kneadMoves": 168,
+          "width": 1.243,
+          "height": 1.146,
+          "outline": [
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.118,
+            1.177,
+            1.27,
+            1.257,
+            1.27,
+            1.168,
+            1.132,
+            0.97,
+            1.03,
+            0.971,
+            1.028,
+            0.974,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.003,
+            0.993
+          ],
+          "stamps": 1,
+          "totalStamps": 45,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 12,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 9,
+          "direction": -1,
+          "turns": 9
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "stamp",
+        "clicks": [
+          [
+            0.45,
+            0.35
+          ],
+          [
+            0.55,
+            0.45
+          ]
+        ],
+        "expect": "stamps=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 63.1,
+        "wallSeconds": 63.1,
+        "trusted": 708,
+        "downs": 77,
+        "moves": 440,
+        "actions": 182,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01604942427061414,
+          "fx": 0,
+          "out": 0.010913608615370003,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 180,
+          "fxCount": 288,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 176,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.118,
+            1.177,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.127,
+            1.026,
+            0.81,
+            0.803,
+            0.757,
+            0.879,
+            0.903,
+            0.991,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.003,
+            0.993
+          ],
+          "stamps": 3,
+          "totalStamps": 47,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 12,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 9,
+          "direction": -1,
+          "turns": 9
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "rise",
+          "rise",
+          "bake",
+          "bake"
+        ],
+        "expect": "targetFermentation=.56、fermentation>.54、crust=2"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 64.1,
+        "wallSeconds": 64.1,
+        "trusted": 721,
+        "downs": 78,
+        "moves": 448,
+        "actions": 186,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.013931130140748243,
+          "fx": 0.00230381597201218,
+          "out": 0.00914966342836766,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 183,
+          "fxCount": 292,
+          "activeVoices": 6,
+          "connectedNodes": 18,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 176,
+          "width": 1.5,
+          "height": 1.32,
+          "outline": [
+            1.013,
+            0.991,
+            1.004,
+            1,
+            0.996,
+            1.008,
+            0.988,
+            1.118,
+            1.177,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.27,
+            1.127,
+            1.026,
+            0.81,
+            0.803,
+            0.757,
+            0.879,
+            0.903,
+            0.991,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.003,
+            0.993
+          ],
+          "stamps": 4,
+          "totalStamps": 48,
+          "fermentation": 0.227,
+          "targetFermentation": 0.56,
+          "crust": 2,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 12,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 9,
+          "direction": -1,
+          "turns": 9
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "actions": [
+          "join",
+          "turn"
+        ],
+        "expect": "joined=1、queue=4，queueRecipes保留旧配方，direction=-1"
+      },
+      "qa": {
+        "title": "面包蓬蓬巡游",
+        "elapsed": 64.9,
+        "wallSeconds": 64.9,
+        "trusted": 732,
+        "downs": 79,
+        "moves": 456,
+        "actions": 188,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 103,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.041028013006528447,
+          "fx": 0.0017814899883331495,
+          "out": 0.02831761116368791,
+          "musicPeak": 0.05196993751574102,
+          "fxPeak": 0.07254569991772716,
+          "outPeak": 0.06468424174312126,
+          "musicCount": 186,
+          "fxCount": 295,
+          "activeVoices": 5,
+          "connectedNodes": 16,
+          "suspended": false,
+          "maxVoices": 9,
+          "limit": 18
+        },
+        "art": {
+          "mode": "stamp",
+          "kneadMoves": 176,
+          "width": 1.22,
+          "height": 0.95,
+          "outline": [
+            1.03,
+            0.971,
+            1.027,
+            0.975,
+            1.023,
+            0.98,
+            1.017,
+            0.987,
+            1.009,
+            0.995,
+            1.001,
+            1.004,
+            0.992,
+            1.012,
+            0.984,
+            1.019,
+            0.978,
+            1.025,
+            0.973,
+            1.029,
+            0.97,
+            1.03,
+            0.97,
+            1.029,
+            0.972,
+            1.026,
+            0.977,
+            1.02
+          ],
+          "stamps": 0,
+          "totalStamps": 49,
+          "fermentation": 0,
+          "targetFermentation": 0,
+          "crust": 0,
+          "queue": 7,
+          "queueRecipes": [
+            {
+              "id": 13,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 5,
+              "width": 1.5,
+              "height": 1.32,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            },
+            {
+              "id": 2,
+              "width": 1.22,
+              "height": 0.95,
+              "crust": 0,
+              "stamps": 1,
+              "ferment": 0.15
+            },
+            {
+              "id": 3,
+              "width": 0.98,
+              "height": 1.05,
+              "crust": 1,
+              "stamps": 1,
+              "ferment": 0.27
+            },
+            {
+              "id": 4,
+              "width": 1.1,
+              "height": 0.95,
+              "crust": 2,
+              "stamps": 1,
+              "ferment": 0.39
+            },
+            {
+              "id": 1,
+              "width": 1.5,
+              "height": 1.38,
+              "crust": 2,
+              "stamps": 4,
+              "ferment": 0.56
+            },
+            {
+              "id": 6,
+              "width": 1.5,
+              "height": 1.22,
+              "crust": 2,
+              "stamps": 5,
+              "ferment": 0.56
+            }
+          ],
+          "joined": 10,
+          "direction": 1,
+          "turns": 10
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "4b094b27a58fcee278b8734695ce93d7cb9139e4f6925657a3c29385ff5a0ff3",
+  "initial": {
+    "title": "面包蓬蓬巡游",
+    "elapsed": 0.3,
+    "wallSeconds": 0.3,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 84,
+    "maxFrameMs": 26,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "mode": "knead",
+      "kneadMoves": 0,
+      "width": 1.1,
+      "height": 1.05,
+      "outline": [
+        1.025,
+        0.977,
+        1.02,
+        0.984,
+        1.013,
+        0.991,
+        1.004,
+        1,
+        0.996,
+        1.008,
+        0.988,
+        1.016,
+        0.981,
+        1.022,
+        0.975,
+        1.027,
+        0.971,
+        1.03,
+        0.97,
+        1.03,
+        0.971,
+        1.028,
+        0.974,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009
+      ],
+      "stamps": 0,
+      "totalStamps": 0,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 3,
+      "queueRecipes": [
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        }
+      ],
+      "joined": 0,
+      "direction": 1,
+      "turns": 0
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "面包蓬蓬巡游",
+    "elapsed": 6.1,
+    "wallSeconds": 6.1,
+    "trusted": 19,
+    "downs": 3,
+    "moves": 8,
+    "actions": 8,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 75,
+    "maxFrameMs": 103,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.017756836659936295,
+      "fx": 0.00042194714698490595,
+      "out": 0.012064281028438092,
+      "musicPeak": 0.04471868976010499,
+      "fxPeak": 0.07254569991772716,
+      "outPeak": 0.06468424174312126,
+      "musicCount": 17,
+      "fxCount": 13,
+      "activeVoices": 6,
+      "connectedNodes": 18,
+      "suspended": false,
+      "maxVoices": 7,
+      "limit": 18
+    },
+    "art": {
+      "mode": "stamp",
+      "kneadMoves": 8,
+      "width": 1.22,
+      "height": 1.05,
+      "outline": [
+        0.971,
+        1.03,
+        0.97,
+        1.03,
+        0.971,
+        1.027,
+        0.975,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009,
+        0.995,
+        1.001,
+        1.004,
+        0.992,
+        1.012,
+        0.984,
+        1.019,
+        0.978,
+        1.025,
+        0.973,
+        1.029,
+        0.97,
+        1.03,
+        0.97,
+        1.029,
+        0.972
+      ],
+      "stamps": 0,
+      "totalStamps": 2,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 4,
+      "queueRecipes": [
+        {
+          "id": 1,
+          "width": 1.243,
+          "height": 1.146,
+          "crust": 2,
+          "stamps": 2,
+          "ferment": 0.56
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        }
+      ],
+      "joined": 1,
+      "direction": -1,
+      "turns": 1
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "面包蓬蓬巡游",
+    "elapsed": 11.2,
+    "wallSeconds": 11.2,
+    "trusted": 118,
+    "downs": 3,
+    "moves": 8,
+    "actions": 107,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 76,
+    "maxFrameMs": 103,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.04492513887221035,
+      "fx": 0.011865291474693788,
+      "out": 0.034644716202706316,
+      "musicPeak": 0.04492513887221035,
+      "fxPeak": 0.07254569991772716,
+      "outPeak": 0.06468424174312126,
+      "musicCount": 33,
+      "fxCount": 58,
+      "activeVoices": 7,
+      "connectedNodes": 20,
+      "suspended": false,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "mode": "stamp",
+      "kneadMoves": 8,
+      "width": 1.22,
+      "height": 1.05,
+      "outline": [
+        0.98,
+        1.017,
+        0.987,
+        1.009,
+        0.995,
+        1.001,
+        1.004,
+        0.992,
+        1.012,
+        0.984,
+        1.019,
+        0.978,
+        1.025,
+        0.973,
+        1.029,
+        0.97,
+        1.03,
+        0.97,
+        1.029,
+        0.972,
+        1.026,
+        0.977,
+        1.02,
+        0.983,
+        1.014,
+        0.99,
+        1.006,
+        0.999
+      ],
+      "stamps": 0,
+      "totalStamps": 2,
+      "fermentation": 0.006,
+      "targetFermentation": 0.28,
+      "crust": 0,
+      "queue": 7,
+      "queueRecipes": [
+        {
+          "id": 22,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 0,
+          "ferment": 0.28
+        },
+        {
+          "id": 23,
+          "width": 1.22,
+          "height": 1.05,
+          "crust": 0,
+          "stamps": 0,
+          "ferment": 0.28
+        },
+        {
+          "id": 24,
+          "width": 0.98,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 0,
+          "ferment": 0.28
+        },
+        {
+          "id": 25,
+          "width": 1.1,
+          "height": 1.05,
+          "crust": 0,
+          "stamps": 0,
+          "ferment": 0.28
+        },
+        {
+          "id": 26,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 0,
+          "ferment": 0.28
+        },
+        {
+          "id": 27,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 0,
+          "stamps": 0,
+          "ferment": 0.28
+        },
+        {
+          "id": 28,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 0,
+          "ferment": 0.28
+        }
+      ],
+      "joined": 25,
+      "direction": -1,
+      "turns": 1
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "面包蓬蓬巡游",
+    "elapsed": 17.6,
+    "wallSeconds": 17.7,
+    "trusted": 182,
+    "downs": 9,
+    "moves": 56,
+    "actions": 108,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 103,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.008832746242466955,
+      "fx": 0,
+      "out": 0.006006267510775366,
+      "musicPeak": 0.04492513887221035,
+      "fxPeak": 0.07254569991772716,
+      "outPeak": 0.06468424174312126,
+      "musicCount": 42,
+      "fxCount": 76,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "mode": "knead",
+      "kneadMoves": 8,
+      "width": 1.21,
+      "height": 1.137,
+      "outline": [
+        1.025,
+        0.977,
+        1.02,
+        0.984,
+        1.013,
+        1.001,
+        1.034,
+        1.106,
+        1.167,
+        1.216,
+        1.201,
+        1.2,
+        1.108,
+        1.083,
+        0.975,
+        1.027,
+        0.971,
+        1.03,
+        0.97,
+        1.03,
+        0.971,
+        1.028,
+        0.974,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009
+      ],
+      "stamps": 0,
+      "totalStamps": 0,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 3,
+      "queueRecipes": [
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        }
+      ],
+      "joined": 0,
+      "direction": 1,
+      "turns": 0
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 65.155,
+  "final": {
+    "title": "面包蓬蓬巡游",
+    "elapsed": 65.6,
+    "wallSeconds": 65.6,
+    "trusted": 741,
+    "downs": 80,
+    "moves": 464,
+    "actions": 188,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 78,
+    "maxFrameMs": 103,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.011409827221270024,
+      "fx": 0,
+      "out": 0.007758682562869932,
+      "musicPeak": 0.05196993751574102,
+      "fxPeak": 0.07254569991772716,
+      "outPeak": 0.06468424174312126,
+      "musicCount": 188,
+      "fxCount": 297,
+      "activeVoices": 5,
+      "connectedNodes": 16,
+      "suspended": false,
+      "maxVoices": 9,
+      "limit": 18
+    },
+    "art": {
+      "mode": "stamp",
+      "kneadMoves": 176,
+      "width": 1.22,
+      "height": 0.95,
+      "outline": [
+        1.03,
+        0.971,
+        1.027,
+        0.975,
+        1.023,
+        0.98,
+        1.017,
+        0.987,
+        1.009,
+        0.995,
+        1.001,
+        1.004,
+        0.992,
+        1.012,
+        0.984,
+        1.019,
+        0.978,
+        1.025,
+        0.973,
+        1.029,
+        0.97,
+        1.03,
+        0.97,
+        1.029,
+        0.972,
+        1.026,
+        0.977,
+        1.02
+      ],
+      "stamps": 1,
+      "totalStamps": 50,
+      "fermentation": 0,
+      "targetFermentation": 0,
+      "crust": 0,
+      "queue": 7,
+      "queueRecipes": [
+        {
+          "id": 13,
+          "width": 1.5,
+          "height": 1.32,
+          "crust": 2,
+          "stamps": 5,
+          "ferment": 0.56
+        },
+        {
+          "id": 5,
+          "width": 1.5,
+          "height": 1.32,
+          "crust": 2,
+          "stamps": 5,
+          "ferment": 0.56
+        },
+        {
+          "id": 2,
+          "width": 1.22,
+          "height": 0.95,
+          "crust": 0,
+          "stamps": 1,
+          "ferment": 0.15
+        },
+        {
+          "id": 3,
+          "width": 0.98,
+          "height": 1.05,
+          "crust": 1,
+          "stamps": 1,
+          "ferment": 0.27
+        },
+        {
+          "id": 4,
+          "width": 1.1,
+          "height": 0.95,
+          "crust": 2,
+          "stamps": 1,
+          "ferment": 0.39
+        },
+        {
+          "id": 1,
+          "width": 1.5,
+          "height": 1.38,
+          "crust": 2,
+          "stamps": 4,
+          "ferment": 0.56
+        },
+        {
+          "id": 6,
+          "width": 1.5,
+          "height": 1.22,
+          "crust": 2,
+          "stamps": 5,
+          "ferment": 0.56
+        }
+      ],
+      "joined": 10,
+      "direction": 1,
+      "turns": 10
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 301,
+      "bottom": 54
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 378,
+      "bottom": 54
+    },
+    {
+      "text": "捏面团",
+      "height": 44,
+      "right": 80,
+      "bottom": 784
+    },
+    {
+      "text": "盖花纹",
+      "height": 44,
+      "right": 154,
+      "bottom": 784
+    },
+    {
+      "text": "发酵",
+      "height": 44,
+      "right": 214,
+      "bottom": 784
+    },
+    {
+      "text": "烤皮",
+      "height": 44,
+      "right": 274,
+      "bottom": 784
+    },
+    {
+      "text": "加入巡游",
+      "height": 44,
+      "right": 362,
+      "bottom": 784
+    },
+    {
+      "text": "全队调头",
+      "height": 44,
+      "right": 94,
+      "bottom": 834
+    }
+  ],
+  "heap": {
+    "usedSize": 6474908,
+    "totalSize": 11206656,
+    "embedderHeapUsedSize": 4175824,
+    "backingStorageSize": 46004
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 5,
+    "state": "suspended",
+    "qa": {
+      "title": "面包蓬蓬巡游",
+      "elapsed": 65.6,
+      "wallSeconds": 65.6,
+      "trusted": 741,
+      "downs": 80,
+      "moves": 464,
+      "actions": 188,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 78,
+      "maxFrameMs": 103,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.011409827221270024,
+        "fx": 0,
+        "out": 0.007758682562869932,
+        "musicPeak": 0.05196993751574102,
+        "fxPeak": 0.07254569991772716,
+        "outPeak": 0.06468424174312126,
+        "musicCount": 188,
+        "fxCount": 297,
+        "activeVoices": 5,
+        "connectedNodes": 16,
+        "suspended": false,
+        "maxVoices": 9,
+        "limit": 18
+      },
+      "art": {
+        "mode": "stamp",
+        "kneadMoves": 176,
+        "width": 1.22,
+        "height": 0.95,
+        "outline": [
+          1.03,
+          0.971,
+          1.027,
+          0.975,
+          1.023,
+          0.98,
+          1.017,
+          0.987,
+          1.009,
+          0.995,
+          1.001,
+          1.004,
+          0.992,
+          1.012,
+          0.984,
+          1.019,
+          0.978,
+          1.025,
+          0.973,
+          1.029,
+          0.97,
+          1.03,
+          0.97,
+          1.029,
+          0.972,
+          1.026,
+          0.977,
+          1.02
+        ],
+        "stamps": 1,
+        "totalStamps": 50,
+        "fermentation": 0,
+        "targetFermentation": 0,
+        "crust": 0,
+        "queue": 7,
+        "queueRecipes": [
+          {
+            "id": 13,
+            "width": 1.5,
+            "height": 1.32,
+            "crust": 2,
+            "stamps": 5,
+            "ferment": 0.56
+          },
+          {
+            "id": 5,
+            "width": 1.5,
+            "height": 1.32,
+            "crust": 2,
+            "stamps": 5,
+            "ferment": 0.56
+          },
+          {
+            "id": 2,
+            "width": 1.22,
+            "height": 0.95,
+            "crust": 0,
+            "stamps": 1,
+            "ferment": 0.15
+          },
+          {
+            "id": 3,
+            "width": 0.98,
+            "height": 1.05,
+            "crust": 1,
+            "stamps": 1,
+            "ferment": 0.27
+          },
+          {
+            "id": 4,
+            "width": 1.1,
+            "height": 0.95,
+            "crust": 2,
+            "stamps": 1,
+            "ferment": 0.39
+          },
+          {
+            "id": 1,
+            "width": 1.5,
+            "height": 1.38,
+            "crust": 2,
+            "stamps": 4,
+            "ferment": 0.56
+          },
+          {
+            "id": 6,
+            "width": 1.5,
+            "height": 1.22,
+            "crust": 2,
+            "stamps": 5,
+            "ferment": 0.56
+          }
+        ],
+        "joined": 10,
+        "direction": 1,
+        "turns": 10
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

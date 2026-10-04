@@ -1,0 +1,130 @@
+{
+  "slug": "10-cloud-tailor",
+  "file": "10-cloud-tailor.js",
+  "number": 10,
+  "title": "云被裁缝",
+  "steps": [
+    "拉云被：拖动被面，网格节点持续变形",
+    "缝月补丁：点被面安放弯月，再点同一补丁可旋转",
+    "开洞漏星：点被面开洞，继续点可扩大；星星持续漏出",
+    "缝好小洞：对洞分次落针，四针后闭合；空白处可自由留针脚",
+    "拖动与折被后，月亮、洞与针脚随被面材料坐标一起移动"
+  ],
+  "referenceUrls": [
+    "https://www.musee-orsay.fr/en/artworks/les-yeux-clos-476"
+  ],
+  "observations": [
+    "已实际查看Redon《Les Yeux clos》1890官方像素：褐发围住斜垂头部、双眼低垂、灰蓝底色、胸口消融于水平亮带。转化为安静大头与横向纤维被面的原创构图。"
+  ],
+  "license": "奥赛官方图像标注RMN-Grand Palais/摄影师版权；仅研究查看，不嵌入或分发。成品夜空、角色、纤维、针脚与网格全为Canvas自绘。",
+  "historyDifference": "不是既有纸蛇、表情纸带或抽象云波；是带材料坐标的可变形被子，洞会漏星、缝合会止漏，角色随保暖状态变化。",
+  "testPlan": [
+    {
+      "action": "moon",
+      "clicks": [
+        [
+          0.52,
+          0.69
+        ]
+      ],
+      "expect": "moonPatches=1"
+    },
+    {
+      "action": "hole",
+      "clicks": [
+        [
+          0.7,
+          0.73
+        ]
+      ],
+      "advanceSeconds": 1,
+      "expect": "openHoles=1，starsEmitted>5"
+    },
+    {
+      "action": "sew",
+      "target": "holes[0].x/1000, holes[0].y/700",
+      "clickCount": 4,
+      "intervalMs": 110,
+      "expect": "openHoles=0，repairs=1"
+    },
+    {
+      "action": "pull",
+      "target": "patches[0]",
+      "deltaPixels": [
+        40,
+        -30
+      ],
+      "expect": "pullMoves>0，补丁位置随被面改变"
+    },
+    {
+      "action": "fold",
+      "expect": "folds=1，补丁及修复记录保留"
+    }
+  ],
+  "testCoordinates": "09/10 testPlan归一化坐标基于1000×700等比内容框；宽高比不同须按view居中留白换算。",
+  "limits": {
+    "moonPatches": 18,
+    "holes": 14,
+    "stars": 80,
+    "looseStitches": 45,
+    "nodes": 66
+  },
+  "stateFields": [
+    "moonPatches",
+    "totalMoonsPlaced",
+    "openHoles",
+    "holesMade",
+    "repairs",
+    "looseStitches",
+    "folds",
+    "foldMode",
+    "pullMoves",
+    "starsEmitted",
+    "liveStars",
+    "patches",
+    "holes",
+    "deformation",
+    "nodeCount"
+  ],
+  "instructionsFile": "10-cloud-tailor.zh.md",
+  "subtitle": "把漏掉的星星，慢慢缝回梦里。",
+  "palette": {
+    "bg": "#202342",
+    "ink": "#ddd9eb",
+    "accent": "#e7ba77"
+  },
+  "tools": [
+    {
+      "id": "pull",
+      "label": "拉云被"
+    },
+    {
+      "id": "moon",
+      "label": "缝月补丁"
+    },
+    {
+      "id": "hole",
+      "label": "开洞漏星"
+    },
+    {
+      "id": "sew",
+      "label": "缝好小洞"
+    },
+    {
+      "id": "fold",
+      "label": "折一折"
+    }
+  ],
+  "canonicalArtboard": [
+    1000,
+    700
+  ],
+  "testPlanCoordinates": "归一化坐标基于1000×700画板，按等比居中映射到真实画布。",
+  "qa": {
+    "browser": "passed_20_total_cases",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "touchHardware": "not_run",
+    "humanListening": "not_run"
+  }
+}

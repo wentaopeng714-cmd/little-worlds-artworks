@@ -1,0 +1,4855 @@
+{
+  "slug": "10-cloud-tailor",
+  "device": "mobile",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/10-cloud-tailor/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "action": "moon",
+        "clicks": [
+          [
+            0.52,
+            0.69
+          ]
+        ],
+        "expect": "moonPatches=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 1.1,
+        "wallSeconds": 1.1,
+        "trusted": 2,
+        "downs": 1,
+        "moves": 0,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003283160063410277,
+          "fx": 0,
+          "out": 0.002232548862081302,
+          "musicPeak": 0.03151782619327815,
+          "fxPeak": 0.015690811707964554,
+          "outPeak": 0.02370054226585415,
+          "musicCount": 1,
+          "fxCount": 2,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 4,
+          "limit": 18
+        },
+        "art": {
+          "tool": "moon",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 519.67,
+              "y": 479.22,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "hole",
+        "clicks": [
+          [
+            0.7,
+            0.73
+          ]
+        ],
+        "advanceSeconds": 1,
+        "expect": "openHoles=1，starsEmitted>5"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 2.6,
+        "wallSeconds": 2.6,
+        "trusted": 4,
+        "downs": 2,
+        "moves": 0,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0003526646652728623,
+          "fx": 0,
+          "out": 0.00023981197486017206,
+          "musicPeak": 0.036679194491637056,
+          "fxPeak": 0.015690811707964554,
+          "outPeak": 0.02494185248806473,
+          "musicCount": 3,
+          "fxCount": 4,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "tool": "hole",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 1,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 7,
+          "liveStars": 7,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 519.67,
+              "y": 479.22,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 702.16,
+              "y": 508.95,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "sew",
+        "target": "holes[0].x/1000, holes[0].y/700",
+        "clickCount": 4,
+        "intervalMs": 110,
+        "expect": "openHoles=0，repairs=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 4.5,
+        "wallSeconds": 4.5,
+        "trusted": 9,
+        "downs": 6,
+        "moves": 0,
+        "actions": 3,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.002484545070379738,
+          "fx": 0,
+          "out": 0.0016894906718664757,
+          "musicPeak": 0.036679194491637056,
+          "fxPeak": 0.035347047245067945,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 6,
+          "fxCount": 12,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "tool": "sew",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 1,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 9,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 519.67,
+              "y": 479.22,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 702.16,
+              "y": 508.95,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "pull",
+        "target": "patches[0]",
+        "deltaPixels": [
+          40,
+          -30
+        ],
+        "expect": "pullMoves>0，补丁位置随被面改变"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 5.5,
+        "wallSeconds": 5.5,
+        "trusted": 19,
+        "downs": 7,
+        "moves": 8,
+        "actions": 4,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0002287040530059642,
+          "fx": 0,
+          "out": 0.00015551875797422752,
+          "musicPeak": 0.036679194491637056,
+          "fxPeak": 0.035347047245067945,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 7,
+          "fxCount": 16,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 1,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 8,
+          "starsEmitted": 9,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 556.23,
+              "y": 451.8,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 713.03,
+              "y": 500.8,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 983.2,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "fold",
+        "expect": "folds=1，补丁及修复记录保留"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 5.6,
+        "wallSeconds": 5.6,
+        "trusted": 20,
+        "downs": 7,
+        "moves": 8,
+        "actions": 5,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 77,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02022562801836897,
+          "fx": 0.008146663429536438,
+          "out": 0.015392549038997425,
+          "musicPeak": 0.036679194491637056,
+          "fxPeak": 0.035347047245067945,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 8,
+          "fxCount": 17,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 1,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 1,
+          "foldMode": 1,
+          "pullMoves": 8,
+          "starsEmitted": 9,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 521.46,
+              "y": 474.03,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 648.76,
+              "y": 532.98,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 2883.16,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 11.8,
+        "wallSeconds": 11.8,
+        "trusted": 130,
+        "downs": 8,
+        "moves": 16,
+        "actions": 105,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.04030986077538421,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 15,
+          "fxCount": 37,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 1,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 21,
+          "foldMode": 0,
+          "pullMoves": 8,
+          "starsEmitted": 9,
+          "liveStars": 0,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 519.63,
+              "y": 475.23,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 696.48,
+              "y": 503.23,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 736.82,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 12.1,
+        "wallSeconds": 12.1,
+        "trusted": 131,
+        "downs": 8,
+        "moves": 16,
+        "actions": 105,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.04030986077538421,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 15,
+          "fxCount": 37,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 13.7,
+        "wallSeconds": 13.7,
+        "trusted": 151,
+        "downs": 10,
+        "moves": 32,
+        "actions": 105,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.04030986077538421,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 16,
+          "fxCount": 38,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 14,
+        "wallSeconds": 14,
+        "trusted": 152,
+        "downs": 10,
+        "moves": 32,
+        "actions": 105,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.04030986077538421,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 16,
+          "fxCount": 38,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 15.8,
+        "wallSeconds": 15.8,
+        "trusted": 172,
+        "downs": 12,
+        "moves": 48,
+        "actions": 105,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.04030986077538421,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 17,
+          "fxCount": 39,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 16,
+        "wallSeconds": 16,
+        "trusted": 173,
+        "downs": 12,
+        "moves": 48,
+        "actions": 105,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.04030986077538421,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 17,
+          "fxCount": 39,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 0,
+          "totalMoonsPlaced": 0,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "moon",
+        "clicks": [
+          [
+            0.52,
+            0.69
+          ]
+        ],
+        "expect": "moonPatches=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 18.4,
+        "wallSeconds": 18.4,
+        "trusted": 194,
+        "downs": 15,
+        "moves": 64,
+        "actions": 106,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004534265273992655,
+          "fx": 0,
+          "out": 0.003083300411154814,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.04030986077538421,
+          "outPeak": 0.028172101414367906,
+          "musicCount": 21,
+          "fxCount": 43,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "moon",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 0,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 0,
+          "liveStars": 0,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 519.67,
+              "y": 479.22,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "hole",
+        "clicks": [
+          [
+            0.7,
+            0.73
+          ]
+        ],
+        "expect": "openHoles=1，starsEmitted>5"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 19.6,
+        "wallSeconds": 19.6,
+        "trusted": 205,
+        "downs": 17,
+        "moves": 72,
+        "actions": 107,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.027310038882965862,
+          "fx": 0,
+          "out": 0.01857082661289173,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.04368284742623225,
+          "outPeak": 0.029572558433548772,
+          "musicCount": 23,
+          "fxCount": 46,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "hole",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 1,
+          "repairs": 0,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 6,
+          "liveStars": 6,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 519.67,
+              "y": 479.22,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 702.16,
+              "y": 508.95,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "sew",
+        "target": "holes[0].x/1000, holes[0].y/700",
+        "clickCount": 4,
+        "intervalMs": 110,
+        "expect": "openHoles=0，repairs=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 22,
+        "wallSeconds": 22,
+        "trusted": 219,
+        "downs": 22,
+        "moves": 80,
+        "actions": 108,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007226983416387938,
+          "fx": 0,
+          "out": 0.004914348780797848,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.046048152662121145,
+          "outPeak": 0.03407259623873422,
+          "musicCount": 26,
+          "fxCount": 55,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "sew",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 1,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 0,
+          "starsEmitted": 8,
+          "liveStars": 8,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 519.67,
+              "y": 479.22,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 702.16,
+              "y": 508.95,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 0,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "pull",
+        "target": "patches[0]",
+        "deltaPixels": [
+          40,
+          -30
+        ],
+        "expect": "pullMoves>0，补丁位置随被面改变"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 23.4,
+        "wallSeconds": 23.4,
+        "trusted": 238,
+        "downs": 24,
+        "moves": 96,
+        "actions": 109,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0034039420436102258,
+          "fx": 0,
+          "out": 0.0023146806106405914,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.046048152662121145,
+          "outPeak": 0.03407259623873422,
+          "musicCount": 28,
+          "fxCount": 60,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 1,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 0,
+          "foldMode": 0,
+          "pullMoves": 8,
+          "starsEmitted": 8,
+          "liveStars": 8,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 556.23,
+              "y": 451.8,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 713.03,
+              "y": 500.8,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 983.2,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "fold",
+        "expect": "folds=1，补丁及修复记录保留"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 24.3,
+        "wallSeconds": 24.3,
+        "trusted": 248,
+        "downs": 25,
+        "moves": 104,
+        "actions": 110,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0012644825394280967,
+          "fx": 0.001374614720079327,
+          "out": 0.0013657961694107568,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.046048152662121145,
+          "outPeak": 0.03407259623873422,
+          "musicCount": 29,
+          "fxCount": 62,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 1,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 1,
+          "foldMode": 1,
+          "pullMoves": 8,
+          "starsEmitted": 8,
+          "liveStars": 7,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 521.46,
+              "y": 474.03,
+              "rotation": -0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 648.76,
+              "y": 532.98,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 2883.16,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "moon",
+        "clicks": [
+          [
+            0.52,
+            0.69
+          ]
+        ],
+        "expect": "moonPatches=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 25.6,
+        "wallSeconds": 25.6,
+        "trusted": 259,
+        "downs": 27,
+        "moves": 112,
+        "actions": 111,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.003283797307349712,
+          "fx": 0,
+          "out": 0.002232982198777907,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.046048152662121145,
+          "outPeak": 0.03407259623873422,
+          "musicCount": 31,
+          "fxCount": 65,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "moon",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 0,
+          "holesMade": 1,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 1,
+          "foldMode": 1,
+          "pullMoves": 8,
+          "starsEmitted": 8,
+          "liveStars": 4,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 521.46,
+              "y": 474.03,
+              "rotation": 0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 648.76,
+              "y": 532.98,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 2883.16,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "hole",
+        "clicks": [
+          [
+            0.7,
+            0.73
+          ]
+        ],
+        "expect": "openHoles=1，starsEmitted>5"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 26.8,
+        "wallSeconds": 26.8,
+        "trusted": 270,
+        "downs": 29,
+        "moves": 120,
+        "actions": 112,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.012771686017661843,
+          "fx": 0,
+          "out": 0.00868474657579042,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.046048152662121145,
+          "outPeak": 0.03407259623873422,
+          "musicCount": 33,
+          "fxCount": 68,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "hole",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 2,
+          "repairs": 1,
+          "looseStitches": 0,
+          "folds": 1,
+          "foldMode": 1,
+          "pullMoves": 8,
+          "starsEmitted": 14,
+          "liveStars": 7,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 521.46,
+              "y": 474.03,
+              "rotation": 0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 648.76,
+              "y": 532.98,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 698.63,
+              "y": 513.86,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 2883.16,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "sew",
+        "target": "holes[0].x/1000, holes[0].y/700",
+        "clickCount": 4,
+        "intervalMs": 110,
+        "expect": "openHoles=0，repairs=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 29.2,
+        "wallSeconds": 29.2,
+        "trusted": 284,
+        "downs": 34,
+        "moves": 128,
+        "actions": 113,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0026594752601252357,
+          "fx": 0,
+          "out": 0.0018084431923647349,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.05221836975433203,
+          "outPeak": 0.035456472064283595,
+          "musicCount": 36,
+          "fxCount": 77,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "sew",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 2,
+          "repairs": 1,
+          "looseStitches": 4,
+          "folds": 1,
+          "foldMode": 1,
+          "pullMoves": 8,
+          "starsEmitted": 17,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 521.46,
+              "y": 474.03,
+              "rotation": 0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 648.76,
+              "y": 532.98,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 698.63,
+              "y": 513.86,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 2883.16,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "pull",
+        "target": "patches[0]",
+        "deltaPixels": [
+          40,
+          -30
+        ],
+        "expect": "pullMoves>0，补丁位置随被面改变"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 30.6,
+        "wallSeconds": 30.6,
+        "trusted": 303,
+        "downs": 36,
+        "moves": 144,
+        "actions": 114,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004867860758142596,
+          "fx": 0,
+          "out": 0.0033101453542184666,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.05221836975433203,
+          "outPeak": 0.035456472064283595,
+          "musicCount": 38,
+          "fxCount": 81,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 2,
+          "repairs": 1,
+          "looseStitches": 4,
+          "folds": 1,
+          "foldMode": 1,
+          "pullMoves": 16,
+          "starsEmitted": 19,
+          "liveStars": 11,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 557.66,
+              "y": 446.88,
+              "rotation": 0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 659.92,
+              "y": 524.61,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 701.36,
+              "y": 511.81,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 3270.83,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "fold",
+        "expect": "folds=1，补丁及修复记录保留"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 31.4,
+        "wallSeconds": 31.4,
+        "trusted": 313,
+        "downs": 37,
+        "moves": 152,
+        "actions": 115,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0012853971140402674,
+          "fx": 0.006481641643157559,
+          "out": 0.004791244086882777,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.05221836975433203,
+          "outPeak": 0.035456472064283595,
+          "musicCount": 39,
+          "fxCount": 83,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 1,
+          "totalMoonsPlaced": 1,
+          "openHoles": 1,
+          "holesMade": 2,
+          "repairs": 1,
+          "looseStitches": 4,
+          "folds": 2,
+          "foldMode": 2,
+          "pullMoves": 16,
+          "starsEmitted": 20,
+          "liveStars": 12,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 541.52,
+              "y": 444.3,
+              "rotation": 0.3
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 678.25,
+              "y": 473.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 735.26,
+              "y": 450.01,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 4124.89,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "moon",
+        "clicks": [
+          [
+            0.52,
+            0.69
+          ]
+        ],
+        "expect": "moonPatches=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 32.6,
+        "wallSeconds": 32.6,
+        "trusted": 324,
+        "downs": 39,
+        "moves": 160,
+        "actions": 116,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004271313816329512,
+          "fx": 0,
+          "out": 0.002904493423022058,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.05221836975433203,
+          "outPeak": 0.035456472064283595,
+          "musicCount": 41,
+          "fxCount": 86,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "moon",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 2,
+          "repairs": 1,
+          "looseStitches": 4,
+          "folds": 2,
+          "foldMode": 2,
+          "pullMoves": 16,
+          "starsEmitted": 22,
+          "liveStars": 12,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 541.52,
+              "y": 444.3,
+              "rotation": 0.3
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 521.87,
+              "y": 483.01,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 678.25,
+              "y": 473.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 735.26,
+              "y": 450.01,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 4124.89,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "hole",
+        "clicks": [
+          [
+            0.7,
+            0.73
+          ]
+        ],
+        "expect": "openHoles=1，starsEmitted>5"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 33.7,
+        "wallSeconds": 33.7,
+        "trusted": 335,
+        "downs": 41,
+        "moves": 168,
+        "actions": 117,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.001807131627301154,
+          "fx": 0,
+          "out": 0.0012288495239645013,
+          "musicPeak": 0.03860470506182804,
+          "fxPeak": 0.05221836975433203,
+          "outPeak": 0.035456472064283595,
+          "musicCount": 42,
+          "fxCount": 89,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "hole",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 2,
+          "holesMade": 3,
+          "repairs": 1,
+          "looseStitches": 4,
+          "folds": 2,
+          "foldMode": 2,
+          "pullMoves": 16,
+          "starsEmitted": 28,
+          "liveStars": 16,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 541.52,
+              "y": 444.3,
+              "rotation": 0.3
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 521.87,
+              "y": 483.01,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 678.25,
+              "y": 473.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 735.26,
+              "y": 450.01,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 696.65,
+              "y": 509.05,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 4124.89,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "sew",
+        "target": "holes[0].x/1000, holes[0].y/700",
+        "clickCount": 4,
+        "intervalMs": 110,
+        "expect": "openHoles=0，repairs=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 36.2,
+        "wallSeconds": 36.2,
+        "trusted": 349,
+        "downs": 46,
+        "moves": 176,
+        "actions": 118,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.007440797484964579,
+          "fx": 0,
+          "out": 0.005059742347237761,
+          "musicPeak": 0.03879055790370643,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.04791421059655293,
+          "musicCount": 46,
+          "fxCount": 98,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "sew",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 3,
+          "repairs": 2,
+          "looseStitches": 4,
+          "folds": 2,
+          "foldMode": 2,
+          "pullMoves": 16,
+          "starsEmitted": 35,
+          "liveStars": 17,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 541.52,
+              "y": 444.3,
+              "rotation": 0.3
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 521.87,
+              "y": 483.01,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 678.25,
+              "y": 473.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 735.26,
+              "y": 450.01,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 696.65,
+              "y": 509.05,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 4124.89,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "pull",
+        "target": "patches[0]",
+        "deltaPixels": [
+          40,
+          -30
+        ],
+        "expect": "pullMoves>0，补丁位置随被面改变"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 37.5,
+        "wallSeconds": 37.5,
+        "trusted": 368,
+        "downs": 48,
+        "moves": 192,
+        "actions": 119,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.005776373208517345,
+          "fx": 0,
+          "out": 0.003927933825105722,
+          "musicPeak": 0.03879055790370643,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.04791421059655293,
+          "musicCount": 48,
+          "fxCount": 103,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 3,
+          "repairs": 2,
+          "looseStitches": 4,
+          "folds": 2,
+          "foldMode": 2,
+          "pullMoves": 24,
+          "starsEmitted": 36,
+          "liveStars": 18,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 570.68,
+              "y": 422.43,
+              "rotation": 0.3
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 559.3,
+              "y": 454.94,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 686.66,
+              "y": 467.62,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 736.65,
+              "y": 448.97,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 702.83,
+              "y": 504.41,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 4882.29,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "fold",
+        "expect": "folds=1，补丁及修复记录保留"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 38.4,
+        "wallSeconds": 38.4,
+        "trusted": 378,
+        "downs": 49,
+        "moves": 200,
+        "actions": 120,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.002334943678024729,
+          "fx": 0.0009806495066956447,
+          "out": 0.0016920065535114114,
+          "musicPeak": 0.03879055790370643,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.04791421059655293,
+          "musicCount": 49,
+          "fxCount": 105,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 3,
+          "repairs": 2,
+          "looseStitches": 4,
+          "folds": 3,
+          "foldMode": 0,
+          "pullMoves": 24,
+          "starsEmitted": 38,
+          "liveStars": 19,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 528.85,
+              "y": 468.99,
+              "rotation": 0.3
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.37,
+              "y": 523.69,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 699.37,
+              "y": 501.51,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 778.61,
+              "y": 460.97,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 719.95,
+              "y": 561.31,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 878.81,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "moon",
+        "clicks": [
+          [
+            0.52,
+            0.69
+          ]
+        ],
+        "expect": "moonPatches=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 39.6,
+        "wallSeconds": 39.6,
+        "trusted": 389,
+        "downs": 51,
+        "moves": 208,
+        "actions": 121,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.010913638834464525,
+          "fx": 0,
+          "out": 0.007421274501212332,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.04791421059655293,
+          "musicCount": 51,
+          "fxCount": 108,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "moon",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 3,
+          "repairs": 2,
+          "looseStitches": 4,
+          "folds": 3,
+          "foldMode": 0,
+          "pullMoves": 24,
+          "starsEmitted": 39,
+          "liveStars": 13,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 528.85,
+              "y": 468.99,
+              "rotation": 0.9
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.37,
+              "y": 523.69,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 699.37,
+              "y": 501.51,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 778.61,
+              "y": 460.97,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 719.95,
+              "y": 561.31,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 878.81,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "hole",
+        "clicks": [
+          [
+            0.7,
+            0.73
+          ]
+        ],
+        "expect": "openHoles=1，starsEmitted>5"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 40.9,
+        "wallSeconds": 40.9,
+        "trusted": 400,
+        "downs": 53,
+        "moves": 216,
+        "actions": 122,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.029156933782436643,
+          "fx": 0,
+          "out": 0.01982671517910824,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.04791421059655293,
+          "musicCount": 53,
+          "fxCount": 111,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "hole",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 2,
+          "holesMade": 4,
+          "repairs": 2,
+          "looseStitches": 4,
+          "folds": 3,
+          "foldMode": 0,
+          "pullMoves": 24,
+          "starsEmitted": 47,
+          "liveStars": 15,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 528.85,
+              "y": 468.99,
+              "rotation": 0.9
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.37,
+              "y": 523.69,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 699.37,
+              "y": 501.51,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 778.61,
+              "y": 460.97,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 719.95,
+              "y": 561.31,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 699.64,
+              "y": 511.37,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 878.81,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "sew",
+        "target": "holes[0].x/1000, holes[0].y/700",
+        "clickCount": 4,
+        "intervalMs": 110,
+        "expect": "openHoles=0，repairs=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 43.2,
+        "wallSeconds": 43.2,
+        "trusted": 414,
+        "downs": 58,
+        "moves": 224,
+        "actions": 123,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.008905256118973573,
+          "fx": 0,
+          "out": 0.006055574239844709,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.048371937952881805,
+          "musicCount": 56,
+          "fxCount": 120,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "sew",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 4,
+          "repairs": 3,
+          "looseStitches": 4,
+          "folds": 3,
+          "foldMode": 0,
+          "pullMoves": 24,
+          "starsEmitted": 53,
+          "liveStars": 19,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 528.85,
+              "y": 468.99,
+              "rotation": 0.9
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.37,
+              "y": 523.69,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 699.37,
+              "y": 501.51,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 778.61,
+              "y": 460.97,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 719.95,
+              "y": 561.31,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 699.64,
+              "y": 511.37,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 878.81,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "pull",
+        "target": "patches[0]",
+        "deltaPixels": [
+          40,
+          -30
+        ],
+        "expect": "pullMoves>0，补丁位置随被面改变"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 44.7,
+        "wallSeconds": 44.7,
+        "trusted": 433,
+        "downs": 60,
+        "moves": 240,
+        "actions": 124,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009735068535711834,
+          "fx": 0,
+          "out": 0.006619846678203056,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.048371937952881805,
+          "musicCount": 58,
+          "fxCount": 125,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 4,
+          "repairs": 3,
+          "looseStitches": 4,
+          "folds": 3,
+          "foldMode": 0,
+          "pullMoves": 32,
+          "starsEmitted": 55,
+          "liveStars": 18,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 564.76,
+              "y": 442.07,
+              "rotation": 0.9
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 546.27,
+              "y": 499.02,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 708.31,
+              "y": 494.8,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 780.59,
+              "y": 459.49,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 724.24,
+              "y": 558.09,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 708.58,
+              "y": 504.67,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 1751.97,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "fold",
+        "expect": "folds=1，补丁及修复记录保留"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 45.5,
+        "wallSeconds": 45.5,
+        "trusted": 443,
+        "downs": 61,
+        "moves": 248,
+        "actions": 125,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0029771531200459803,
+          "fx": 0.0094862694659906,
+          "out": 0.006815137218672414,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.048371937952881805,
+          "musicCount": 59,
+          "fxCount": 127,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 4,
+          "repairs": 3,
+          "looseStitches": 4,
+          "folds": 4,
+          "foldMode": 1,
+          "pullMoves": 32,
+          "starsEmitted": 56,
+          "liveStars": 17,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 524.44,
+              "y": 470.13,
+              "rotation": 0.9
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.02,
+              "y": 524.95,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 647.1,
+              "y": 530.59,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 695.1,
+              "y": 513.07,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 676.08,
+              "y": 580.85,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 649.32,
+              "y": 538.57,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 3132.29,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "moon",
+        "clicks": [
+          [
+            0.52,
+            0.69
+          ]
+        ],
+        "expect": "moonPatches=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 46.7,
+        "wallSeconds": 46.7,
+        "trusted": 454,
+        "downs": 63,
+        "moves": 256,
+        "actions": 126,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014595955863891188,
+          "fx": 0,
+          "out": 0.009925250091865647,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.048371937952881805,
+          "musicCount": 61,
+          "fxCount": 130,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "moon",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 4,
+          "repairs": 3,
+          "looseStitches": 4,
+          "folds": 4,
+          "foldMode": 1,
+          "pullMoves": 32,
+          "starsEmitted": 58,
+          "liveStars": 14,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 524.44,
+              "y": 470.13,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.02,
+              "y": 524.95,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 647.1,
+              "y": 530.59,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 695.1,
+              "y": 513.07,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 676.08,
+              "y": 580.85,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 649.32,
+              "y": 538.57,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 3132.29,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "hole",
+        "clicks": [
+          [
+            0.7,
+            0.73
+          ]
+        ],
+        "expect": "openHoles=1，starsEmitted>5"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 47.9,
+        "wallSeconds": 47.9,
+        "trusted": 465,
+        "downs": 65,
+        "moves": 264,
+        "actions": 127,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.030060309109041967,
+          "fx": 0,
+          "out": 0.02044101035546463,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07026834945942019,
+          "outPeak": 0.048371937952881805,
+          "musicCount": 63,
+          "fxCount": 133,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "hole",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 4,
+          "repairs": 3,
+          "looseStitches": 4,
+          "folds": 4,
+          "foldMode": 1,
+          "pullMoves": 32,
+          "starsEmitted": 65,
+          "liveStars": 17,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 524.44,
+              "y": 470.13,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.02,
+              "y": 524.95,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 647.1,
+              "y": 530.59,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 695.1,
+              "y": 513.07,
+              "progress": 0,
+              "closed": false
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 676.08,
+              "y": 580.85,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 649.32,
+              "y": 538.57,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 3132.29,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "sew",
+        "target": "holes[0].x/1000, holes[0].y/700",
+        "clickCount": 4,
+        "intervalMs": 110,
+        "expect": "openHoles=0，repairs=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 50.3,
+        "wallSeconds": 50.3,
+        "trusted": 479,
+        "downs": 70,
+        "moves": 272,
+        "actions": 128,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 78,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00985137697206402,
+          "fx": 0,
+          "out": 0.006698936415232193,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 66,
+          "fxCount": 142,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "sew",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 4,
+          "repairs": 4,
+          "looseStitches": 4,
+          "folds": 4,
+          "foldMode": 1,
+          "pullMoves": 32,
+          "starsEmitted": 67,
+          "liveStars": 12,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 524.44,
+              "y": 470.13,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.02,
+              "y": 524.95,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 647.1,
+              "y": 530.59,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 695.1,
+              "y": 513.07,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 676.08,
+              "y": 580.85,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 649.32,
+              "y": 538.57,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 3132.29,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "pull",
+        "target": "patches[0]",
+        "deltaPixels": [
+          40,
+          -30
+        ],
+        "expect": "pullMoves>0，补丁位置随被面改变"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 51.8,
+        "wallSeconds": 51.8,
+        "trusted": 498,
+        "downs": 72,
+        "moves": 288,
+        "actions": 129,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.005185281084669809,
+          "fx": 0,
+          "out": 0.003525991164404661,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 68,
+          "fxCount": 147,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 4,
+          "repairs": 4,
+          "looseStitches": 4,
+          "folds": 4,
+          "foldMode": 1,
+          "pullMoves": 40,
+          "starsEmitted": 67,
+          "liveStars": 10,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 560.64,
+              "y": 442.99,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 545.53,
+              "y": 500.57,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 658.27,
+              "y": 522.21,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 697.83,
+              "y": 511.02,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 681.66,
+              "y": 576.66,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 660.48,
+              "y": 530.2,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 3553.65,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "fold",
+        "expect": "folds=1，补丁及修复记录保留"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 52.6,
+        "wallSeconds": 52.6,
+        "trusted": 508,
+        "downs": 73,
+        "moves": 296,
+        "actions": 130,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0016144005758044586,
+          "fx": 0.000458864902841847,
+          "out": 0.001229709337838981,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 69,
+          "fxCount": 149,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 4,
+          "repairs": 4,
+          "looseStitches": 4,
+          "folds": 5,
+          "foldMode": 2,
+          "pullMoves": 40,
+          "starsEmitted": 67,
+          "liveStars": 10,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 542.86,
+              "y": 442.94,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 523.89,
+              "y": 480.61,
+              "rotation": -0.05
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 677.51,
+              "y": 473.09,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 733.67,
+              "y": 449.74,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 695.97,
+              "y": 507.36,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 678.51,
+              "y": 478.65,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 4253.2,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "moon",
+        "clicks": [
+          [
+            0.52,
+            0.69
+          ]
+        ],
+        "expect": "moonPatches=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 53.8,
+        "wallSeconds": 53.8,
+        "trusted": 519,
+        "downs": 75,
+        "moves": 304,
+        "actions": 131,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011389945988515855,
+          "fx": 0,
+          "out": 0.007745163344874423,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 71,
+          "fxCount": 152,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "moon",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 4,
+          "repairs": 4,
+          "looseStitches": 4,
+          "folds": 5,
+          "foldMode": 2,
+          "pullMoves": 40,
+          "starsEmitted": 67,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 542.86,
+              "y": 442.94,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 523.89,
+              "y": 480.61,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 677.51,
+              "y": 473.09,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 733.67,
+              "y": 449.74,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 695.97,
+              "y": 507.36,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 678.51,
+              "y": 478.65,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 4253.2,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "hole",
+        "clicks": [
+          [
+            0.7,
+            0.73
+          ]
+        ],
+        "expect": "openHoles=1，starsEmitted>5"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 54.9,
+        "wallSeconds": 55,
+        "trusted": 530,
+        "downs": 77,
+        "moves": 312,
+        "actions": 132,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00037362364776459095,
+          "fx": 0,
+          "out": 0.0002540640837649687,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 72,
+          "fxCount": 155,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "hole",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 5,
+          "repairs": 4,
+          "looseStitches": 4,
+          "folds": 5,
+          "foldMode": 2,
+          "pullMoves": 40,
+          "starsEmitted": 72,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 542.86,
+              "y": 442.94,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 523.89,
+              "y": 480.61,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 677.51,
+              "y": 473.09,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 733.67,
+              "y": 449.74,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 695.97,
+              "y": 507.36,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 678.51,
+              "y": 478.65,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.8333,
+              "x": 698.19,
+              "y": 513,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 4253.2,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "sew",
+        "target": "holes[0].x/1000, holes[0].y/700",
+        "clickCount": 4,
+        "intervalMs": 110,
+        "expect": "openHoles=0，repairs=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 57.3,
+        "wallSeconds": 57.3,
+        "trusted": 544,
+        "downs": 82,
+        "moves": 320,
+        "actions": 133,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011442853147657491,
+          "fx": 0,
+          "out": 0.007781140206299071,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 76,
+          "fxCount": 164,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "sew",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 5,
+          "repairs": 5,
+          "looseStitches": 4,
+          "folds": 5,
+          "foldMode": 2,
+          "pullMoves": 40,
+          "starsEmitted": 75,
+          "liveStars": 8,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 542.86,
+              "y": 442.94,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 523.89,
+              "y": 480.61,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 677.51,
+              "y": 473.09,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 733.67,
+              "y": 449.74,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 695.97,
+              "y": 507.36,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 678.51,
+              "y": 478.65,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.8333,
+              "x": 698.19,
+              "y": 513,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 4253.2,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "pull",
+        "target": "patches[0]",
+        "deltaPixels": [
+          40,
+          -30
+        ],
+        "expect": "pullMoves>0，补丁位置随被面改变"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 58.7,
+        "wallSeconds": 58.7,
+        "trusted": 563,
+        "downs": 84,
+        "moves": 336,
+        "actions": 134,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.019245380000234194,
+          "fx": 0,
+          "out": 0.01308685853117607,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 78,
+          "fxCount": 169,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 5,
+          "repairs": 5,
+          "looseStitches": 4,
+          "folds": 5,
+          "foldMode": 2,
+          "pullMoves": 48,
+          "starsEmitted": 75,
+          "liveStars": 8,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 572.02,
+              "y": 421.07,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 561.32,
+              "y": 452.54,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 685.92,
+              "y": 466.78,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 735.06,
+              "y": 448.69,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 702.15,
+              "y": 502.73,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 687.49,
+              "y": 471.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.8333,
+              "x": 703.95,
+              "y": 508.68,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 5019.58,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "fold",
+        "expect": "folds=1，补丁及修复记录保留"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 59.6,
+        "wallSeconds": 59.6,
+        "trusted": 573,
+        "downs": 85,
+        "moves": 344,
+        "actions": 135,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0038017424034892523,
+          "fx": 0.001963680955574023,
+          "out": 0.0029560406995123574,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 79,
+          "fxCount": 171,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 5,
+          "repairs": 5,
+          "looseStitches": 4,
+          "folds": 6,
+          "foldMode": 0,
+          "pullMoves": 48,
+          "starsEmitted": 75,
+          "liveStars": 8,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 529.09,
+              "y": 468.75,
+              "rotation": 1.5
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.74,
+              "y": 523.26,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 699.24,
+              "y": 501.36,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 778.32,
+              "y": 460.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 719.83,
+              "y": 561,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 699.52,
+              "y": 511.19,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.8333,
+              "x": 721.43,
+              "y": 570.89,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 903.52,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "moon",
+        "clicks": [
+          [
+            0.52,
+            0.69
+          ]
+        ],
+        "expect": "moonPatches=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 60.9,
+        "wallSeconds": 60.9,
+        "trusted": 584,
+        "downs": 87,
+        "moves": 352,
+        "actions": 136,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.01168178999093728,
+          "fx": 0,
+          "out": 0.00794361728656294,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 81,
+          "fxCount": 174,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "moon",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 5,
+          "repairs": 5,
+          "looseStitches": 4,
+          "folds": 6,
+          "foldMode": 0,
+          "pullMoves": 48,
+          "starsEmitted": 75,
+          "liveStars": 6,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 529.09,
+              "y": 468.75,
+              "rotation": 2.1
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.74,
+              "y": 523.26,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 699.24,
+              "y": 501.36,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 778.32,
+              "y": 460.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 719.83,
+              "y": 561,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 699.52,
+              "y": 511.19,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.8333,
+              "x": 721.43,
+              "y": 570.89,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 903.52,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "hole",
+        "clicks": [
+          [
+            0.7,
+            0.73
+          ]
+        ],
+        "expect": "openHoles=1，starsEmitted>5"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 62,
+        "wallSeconds": 62,
+        "trusted": 595,
+        "downs": 89,
+        "moves": 360,
+        "actions": 137,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0029066059668777173,
+          "fx": 0,
+          "out": 0.0019764920794078746,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 82,
+          "fxCount": 177,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "hole",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 1,
+          "holesMade": 6,
+          "repairs": 5,
+          "looseStitches": 4,
+          "folds": 6,
+          "foldMode": 0,
+          "pullMoves": 48,
+          "starsEmitted": 81,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 529.09,
+              "y": 468.75,
+              "rotation": 2.1
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.74,
+              "y": 523.26,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 699.24,
+              "y": 501.36,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 778.32,
+              "y": 460.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 719.83,
+              "y": 561,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 699.52,
+              "y": 511.19,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.8333,
+              "x": 721.43,
+              "y": 570.89,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 699.52,
+              "y": 511.19,
+              "progress": 0,
+              "closed": false
+            }
+          ],
+          "deformation": 903.52,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "sew",
+        "target": "holes[0].x/1000, holes[0].y/700",
+        "clickCount": 4,
+        "intervalMs": 110,
+        "expect": "openHoles=0，repairs=1"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 64.4,
+        "wallSeconds": 64.4,
+        "trusted": 609,
+        "downs": 94,
+        "moves": 368,
+        "actions": 138,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.025104338735876846,
+          "fx": 0,
+          "out": 0.017070950464723785,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 86,
+          "fxCount": 186,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "sew",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 6,
+          "repairs": 6,
+          "looseStitches": 4,
+          "folds": 6,
+          "foldMode": 0,
+          "pullMoves": 48,
+          "starsEmitted": 84,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 529.09,
+              "y": 468.75,
+              "rotation": 2.1
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 513.74,
+              "y": 523.26,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 699.24,
+              "y": 501.36,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 778.32,
+              "y": 460.92,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 719.83,
+              "y": 561,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 699.52,
+              "y": 511.19,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.8333,
+              "x": 721.43,
+              "y": 570.89,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 699.52,
+              "y": 511.19,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 903.52,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "action": "pull",
+        "target": "patches[0]",
+        "deltaPixels": [
+          40,
+          -30
+        ],
+        "expect": "pullMoves>0，补丁位置随被面改变"
+      },
+      "qa": {
+        "title": "云被裁缝",
+        "elapsed": 65.8,
+        "wallSeconds": 65.8,
+        "trusted": 628,
+        "downs": 96,
+        "moves": 384,
+        "actions": 139,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 79,
+        "maxFrameMs": 43,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02509777571572886,
+          "fx": 0,
+          "out": 0.01706648762795178,
+          "musicPeak": 0.0447731728999224,
+          "fxPeak": 0.07688574722165316,
+          "outPeak": 0.0522721707368733,
+          "musicCount": 88,
+          "fxCount": 191,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "tool": "pull",
+          "moonPatches": 2,
+          "totalMoonsPlaced": 2,
+          "openHoles": 0,
+          "holesMade": 6,
+          "repairs": 6,
+          "looseStitches": 4,
+          "folds": 6,
+          "foldMode": 0,
+          "pullMoves": 56,
+          "starsEmitted": 84,
+          "liveStars": 9,
+          "patches": [
+            {
+              "u": 0.5333,
+              "v": 0.4583,
+              "x": 565,
+              "y": 441.82,
+              "rotation": 2.1
+            },
+            {
+              "u": 0.5111,
+              "v": 0.6667,
+              "x": 546.63,
+              "y": 498.59,
+              "rotation": 0.55
+            }
+          ],
+          "holes": [
+            {
+              "u": 0.7778,
+              "v": 0.5417,
+              "x": 708.18,
+              "y": 494.65,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8889,
+              "v": 0.375,
+              "x": 780.3,
+              "y": 459.44,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.7917,
+              "x": 724.12,
+              "y": 557.79,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 708.46,
+              "y": 504.49,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.8,
+              "v": 0.8333,
+              "x": 725.22,
+              "y": 568.05,
+              "progress": 1,
+              "closed": true
+            },
+            {
+              "u": 0.7778,
+              "v": 0.5833,
+              "x": 708.46,
+              "y": 504.49,
+              "progress": 1,
+              "closed": true
+            }
+          ],
+          "deformation": 1773.89,
+          "nodeCount": 66
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "bcb3f7ad4ec64493be1133bb280cd6653a6e76bef2ecd6e3b3960aef441a8210",
+  "initial": {
+    "title": "云被裁缝",
+    "elapsed": 0.3,
+    "wallSeconds": 0.3,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 66,
+    "maxFrameMs": 26,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "tool": "pull",
+      "moonPatches": 0,
+      "totalMoonsPlaced": 0,
+      "openHoles": 0,
+      "holesMade": 0,
+      "repairs": 0,
+      "looseStitches": 0,
+      "folds": 0,
+      "foldMode": 0,
+      "pullMoves": 0,
+      "starsEmitted": 0,
+      "liveStars": 0,
+      "patches": [],
+      "holes": [],
+      "deformation": 0,
+      "nodeCount": 66
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "云被裁缝",
+    "elapsed": 5.7,
+    "wallSeconds": 5.7,
+    "trusted": 20,
+    "downs": 7,
+    "moves": 8,
+    "actions": 5,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 77,
+    "maxFrameMs": 43,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.008733753066120573,
+      "fx": 0.00014162534089484687,
+      "out": 0.00593138656134785,
+      "musicPeak": 0.036679194491637056,
+      "fxPeak": 0.035347047245067945,
+      "outPeak": 0.028172101414367906,
+      "musicCount": 8,
+      "fxCount": 17,
+      "activeVoices": 2,
+      "connectedNodes": 10,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "tool": "pull",
+      "moonPatches": 1,
+      "totalMoonsPlaced": 1,
+      "openHoles": 0,
+      "holesMade": 1,
+      "repairs": 1,
+      "looseStitches": 0,
+      "folds": 1,
+      "foldMode": 1,
+      "pullMoves": 8,
+      "starsEmitted": 9,
+      "liveStars": 9,
+      "patches": [
+        {
+          "u": 0.5333,
+          "v": 0.4583,
+          "x": 521.46,
+          "y": 474.03,
+          "rotation": -0.3
+        }
+      ],
+      "holes": [
+        {
+          "u": 0.7778,
+          "v": 0.5417,
+          "x": 648.76,
+          "y": 532.98,
+          "progress": 1,
+          "closed": true
+        }
+      ],
+      "deformation": 2883.16,
+      "nodeCount": 66
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "云被裁缝",
+    "elapsed": 10.8,
+    "wallSeconds": 10.8,
+    "trusted": 118,
+    "downs": 7,
+    "moves": 8,
+    "actions": 103,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 78,
+    "maxFrameMs": 43,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.0028222873264064784,
+      "fx": 0.00008378501065611694,
+      "out": 0.0018918402071103632,
+      "musicPeak": 0.03860470506182804,
+      "fxPeak": 0.04030986077538421,
+      "outPeak": 0.028172101414367906,
+      "musicCount": 15,
+      "fxCount": 36,
+      "activeVoices": 3,
+      "connectedNodes": 12,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "tool": "sew",
+      "moonPatches": 1,
+      "totalMoonsPlaced": 1,
+      "openHoles": 0,
+      "holesMade": 1,
+      "repairs": 1,
+      "looseStitches": 0,
+      "folds": 20,
+      "foldMode": 2,
+      "pullMoves": 8,
+      "starsEmitted": 9,
+      "liveStars": 0,
+      "patches": [
+        {
+          "u": 0.5333,
+          "v": 0.4583,
+          "x": 519.47,
+          "y": 457.08,
+          "rotation": -0.3
+        }
+      ],
+      "holes": [
+        {
+          "u": 0.7778,
+          "v": 0.5417,
+          "x": 670.62,
+          "y": 477.2,
+          "progress": 1,
+          "closed": true
+        }
+      ],
+      "deformation": 4093.44,
+      "nodeCount": 66
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "云被裁缝",
+    "elapsed": 17.3,
+    "wallSeconds": 17.3,
+    "trusted": 183,
+    "downs": 13,
+    "moves": 56,
+    "actions": 105,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 78,
+    "maxFrameMs": 43,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.008672369205834132,
+      "fx": 0,
+      "out": 0.005897211106915955,
+      "musicPeak": 0.03860470506182804,
+      "fxPeak": 0.04030986077538421,
+      "outPeak": 0.028172101414367906,
+      "musicCount": 19,
+      "fxCount": 40,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "tool": "pull",
+      "moonPatches": 0,
+      "totalMoonsPlaced": 0,
+      "openHoles": 0,
+      "holesMade": 0,
+      "repairs": 0,
+      "looseStitches": 0,
+      "folds": 0,
+      "foldMode": 0,
+      "pullMoves": 0,
+      "starsEmitted": 0,
+      "liveStars": 0,
+      "patches": [],
+      "holes": [],
+      "deformation": 0,
+      "nodeCount": 66
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 66.098,
+  "final": {
+    "title": "云被裁缝",
+    "elapsed": 66.4,
+    "wallSeconds": 66.4,
+    "trusted": 637,
+    "downs": 97,
+    "moves": 392,
+    "actions": 139,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 79,
+    "maxFrameMs": 43,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.03289079506212932,
+      "fx": 0,
+      "out": 0.02236574087969131,
+      "musicPeak": 0.0447731728999224,
+      "fxPeak": 0.07688574722165316,
+      "outPeak": 0.0522721707368733,
+      "musicCount": 89,
+      "fxCount": 192,
+      "activeVoices": 2,
+      "connectedNodes": 10,
+      "suspended": false,
+      "maxVoices": 6,
+      "limit": 18
+    },
+    "art": {
+      "tool": "pull",
+      "moonPatches": 2,
+      "totalMoonsPlaced": 2,
+      "openHoles": 0,
+      "holesMade": 6,
+      "repairs": 6,
+      "looseStitches": 4,
+      "folds": 6,
+      "foldMode": 0,
+      "pullMoves": 56,
+      "starsEmitted": 84,
+      "liveStars": 9,
+      "patches": [
+        {
+          "u": 0.5333,
+          "v": 0.4583,
+          "x": 565,
+          "y": 441.82,
+          "rotation": 2.1
+        },
+        {
+          "u": 0.5111,
+          "v": 0.6667,
+          "x": 546.63,
+          "y": 498.59,
+          "rotation": 0.55
+        }
+      ],
+      "holes": [
+        {
+          "u": 0.7778,
+          "v": 0.5417,
+          "x": 708.18,
+          "y": 494.65,
+          "progress": 1,
+          "closed": true
+        },
+        {
+          "u": 0.8889,
+          "v": 0.375,
+          "x": 780.3,
+          "y": 459.44,
+          "progress": 1,
+          "closed": true
+        },
+        {
+          "u": 0.8,
+          "v": 0.7917,
+          "x": 724.12,
+          "y": 557.79,
+          "progress": 1,
+          "closed": true
+        },
+        {
+          "u": 0.7778,
+          "v": 0.5833,
+          "x": 708.46,
+          "y": 504.49,
+          "progress": 1,
+          "closed": true
+        },
+        {
+          "u": 0.8,
+          "v": 0.8333,
+          "x": 725.22,
+          "y": 568.05,
+          "progress": 1,
+          "closed": true
+        },
+        {
+          "u": 0.7778,
+          "v": 0.5833,
+          "x": 708.46,
+          "y": 504.49,
+          "progress": 1,
+          "closed": true
+        }
+      ],
+      "deformation": 1773.89,
+      "nodeCount": 66
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 301,
+      "bottom": 54
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 378,
+      "bottom": 54
+    },
+    {
+      "text": "拉云被",
+      "height": 44,
+      "right": 80,
+      "bottom": 784
+    },
+    {
+      "text": "缝月补丁",
+      "height": 44,
+      "right": 168,
+      "bottom": 784
+    },
+    {
+      "text": "开洞漏星",
+      "height": 44,
+      "right": 256,
+      "bottom": 784
+    },
+    {
+      "text": "缝好小洞",
+      "height": 44,
+      "right": 344,
+      "bottom": 784
+    },
+    {
+      "text": "折一折",
+      "height": 44,
+      "right": 80,
+      "bottom": 834
+    }
+  ],
+  "heap": {
+    "usedSize": 3310980,
+    "totalSize": 12255232,
+    "embedderHeapUsedSize": 936520,
+    "backingStorageSize": 73181
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 2,
+    "state": "suspended",
+    "qa": {
+      "title": "云被裁缝",
+      "elapsed": 66.5,
+      "wallSeconds": 66.5,
+      "trusted": 637,
+      "downs": 97,
+      "moves": 392,
+      "actions": 139,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 79,
+      "maxFrameMs": 43,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.015446276030690343,
+        "fx": 0,
+        "out": 0.010503467811864908,
+        "musicPeak": 0.0447731728999224,
+        "fxPeak": 0.07688574722165316,
+        "outPeak": 0.0522721707368733,
+        "musicCount": 89,
+        "fxCount": 192,
+        "activeVoices": 2,
+        "connectedNodes": 10,
+        "suspended": false,
+        "maxVoices": 6,
+        "limit": 18
+      },
+      "art": {
+        "tool": "pull",
+        "moonPatches": 2,
+        "totalMoonsPlaced": 2,
+        "openHoles": 0,
+        "holesMade": 6,
+        "repairs": 6,
+        "looseStitches": 4,
+        "folds": 6,
+        "foldMode": 0,
+        "pullMoves": 56,
+        "starsEmitted": 84,
+        "liveStars": 9,
+        "patches": [
+          {
+            "u": 0.5333,
+            "v": 0.4583,
+            "x": 565,
+            "y": 441.82,
+            "rotation": 2.1
+          },
+          {
+            "u": 0.5111,
+            "v": 0.6667,
+            "x": 546.63,
+            "y": 498.59,
+            "rotation": 0.55
+          }
+        ],
+        "holes": [
+          {
+            "u": 0.7778,
+            "v": 0.5417,
+            "x": 708.18,
+            "y": 494.65,
+            "progress": 1,
+            "closed": true
+          },
+          {
+            "u": 0.8889,
+            "v": 0.375,
+            "x": 780.3,
+            "y": 459.44,
+            "progress": 1,
+            "closed": true
+          },
+          {
+            "u": 0.8,
+            "v": 0.7917,
+            "x": 724.12,
+            "y": 557.79,
+            "progress": 1,
+            "closed": true
+          },
+          {
+            "u": 0.7778,
+            "v": 0.5833,
+            "x": 708.46,
+            "y": 504.49,
+            "progress": 1,
+            "closed": true
+          },
+          {
+            "u": 0.8,
+            "v": 0.8333,
+            "x": 725.22,
+            "y": 568.05,
+            "progress": 1,
+            "closed": true
+          },
+          {
+            "u": 0.7778,
+            "v": 0.5833,
+            "x": 708.46,
+            "y": 504.49,
+            "progress": 1,
+            "closed": true
+          }
+        ],
+        "deformation": 1773.89,
+        "nodeCount": 66
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

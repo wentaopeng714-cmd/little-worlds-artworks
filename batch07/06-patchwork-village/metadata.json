@@ -1,0 +1,138 @@
+{
+  "number": 6,
+  "slug": "06-patchwork-village",
+  "description": "给拼布袋房屋缝屋顶、提起鼓肚，移动布屋，再用晾衣绳把花布街道连起来。",
+  "newMechanics": [
+    "缝合进度决定软屋顶的线迹与松垂量",
+    "布袋鼓度改变建筑主体侧面曲率，状态保持",
+    "晾布绳以房屋为端点，搬屋后拓扑与布片数量保留",
+    "最多7间各有颜色和补片的屋；暖风只推动已晾布片"
+  ],
+  "artDirection": [
+    "奶油亚麻底、浅绿绗缝丘陵与纽扣太阳",
+    "三间圆鼓布屋，不等形余布、针脚和门窗口袋",
+    "织纹经纬、格纹斜纹与十字小绣，曲边缝线层层可见"
+  ],
+  "testPlan": [
+    {
+      "control": "sew",
+      "from": [
+        0.51,
+        0.5
+      ],
+      "to": [
+        0.64,
+        0.5
+      ]
+    },
+    {
+      "control": "puff",
+      "from": [
+        0.51,
+        0.62
+      ],
+      "to": [
+        0.51,
+        0.48
+      ]
+    },
+    {
+      "control": "line",
+      "from": [
+        0.25,
+        0.66
+      ],
+      "to": [
+        0.78,
+        0.65
+      ]
+    },
+    {
+      "control": "move",
+      "from": [
+        0.51,
+        0.62
+      ],
+      "to": [
+        0.56,
+        0.56
+      ]
+    },
+    {
+      "control": "new",
+      "clickOnly": true
+    },
+    {
+      "control": "wind",
+      "clickOnly": true
+    }
+  ],
+  "stateFields": {
+    "houses": "初始3，添屋最多7",
+    "clotheslines": "初始2，连两侧屋后3",
+    "roofStitches": "走针后增长",
+    "selectedRoof": "所选屋缝合进度0–1",
+    "selectedPuff": "所选屋鼓度0.08–1.25",
+    "hangingCloths": "由实际晾绳布片求和",
+    "wind": "暖风开关"
+  },
+  "references": [
+    {
+      "title": "V&A An introduction to quilting and patchwork；Bed cover, England, 1860–1870, T.427-1980",
+      "url": "https://www.vam.ac.uk/articles/an-introduction-to-quilting-and-patchwork",
+      "image": "https://vanda-production-assets.s3.amazonaws.com/2017/08/16/13/56/16/6d97ff17-13e2-4469-8489-519005f37031/patchwork-cover.jpg",
+      "license": "© Victoria and Albert Museum, London；只观察，不嵌入或重制馆藏图",
+      "observed": "实际查看320×390馆藏像素：深底上短面料片用明暗组成密集小立方体，各片本身有碎花与条纹；观察到色块与织纹的两层尺度。本作以软袋建筑及不规则大补片代替原作规则立方重复。"
+    }
+  ],
+  "difference": "不同于14折锦、18拼色折幕的几何纸片和21绣球礼焰的放射珠线：这里是带窗门、屋顶、布袋鼓肚的具体软建筑，缝合、鼓布和晾衣拓扑共同构成街景。",
+  "title": "织袋小镇",
+  "subtitle": "把余布缝成房子，鼓起口袋，再拉一条晒着花布的街。",
+  "ui": {
+    "bg": "#e9ddc5",
+    "ink": "#556553",
+    "accent": "#b8694f"
+  },
+  "controls": [
+    {
+      "id": "sew",
+      "label": "缝上软屋顶"
+    },
+    {
+      "id": "puff",
+      "label": "提起鼓布袋"
+    },
+    {
+      "id": "line",
+      "label": "牵晾布绳"
+    },
+    {
+      "id": "move",
+      "label": "搬动布屋"
+    },
+    {
+      "id": "new",
+      "label": "添一间小屋"
+    },
+    {
+      "id": "wind",
+      "label": "吹一阵暖风"
+    }
+  ],
+  "verification": {
+    "syntax": "node --check passed",
+    "rendering": "Node Canvas 1200×800 and 390×620 pixels inspected",
+    "interaction": "direct ART API simulation, not browser QA",
+    "browser": "not run",
+    "webAudio": "not run"
+  },
+  "playtime": "1–3分钟",
+  "assets": "全部Canvas程序自绘；无外部图片、字体、CDN",
+  "qa": {
+    "browser": "passed_20_total_cases",
+    "audio": "passed_internal_music_fx_output_analysis",
+    "offline": "passed_real_browser_network_disabled",
+    "touchHardware": "not_run",
+    "humanListening": "not_run"
+  }
+}

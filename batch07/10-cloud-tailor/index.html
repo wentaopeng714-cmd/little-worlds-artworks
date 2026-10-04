@@ -1,0 +1,212 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="dark light"><title>Little Worlds</title><style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden}body{--bg:#191820;--ink:#f9dfba;--accent:#e69065;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,"Noto Sans CJK SC",sans-serif;display:grid;grid-template-rows:auto 1fr auto}header{padding:18px 24px 10px;display:flex;justify-content:space-between;gap:16px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}h1{font:500 clamp(23px,3vw,34px) Georgia,serif;margin:0 0 5px;letter-spacing:.035em}#hint{font-size:14px;line-height:1.6;max-width:750px;opacity:.84}nav{display:flex;gap:7px;align-items:center;flex-shrink:0}button,a{font:inherit;color:inherit}button{min-height:44px;border:1px solid color-mix(in srgb,var(--ink) 35%,transparent);border-radius:999px;padding:9px 16px;background:transparent;cursor:pointer;font-size:14px;touch-action:manipulation}button:hover{background:color-mix(in srgb,var(--ink) 12%,transparent)}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}main{position:relative;min-height:0;overflow:hidden}canvas{width:100%;height:100%;display:block;touch-action:none;cursor:crosshair}footer{padding:10px 24px max(12px,env(safe-area-inset-bottom));border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent);display:flex;justify-content:space-between;gap:16px;align-items:center}#tools{display:flex;flex-wrap:wrap;gap:7px}#soundnote{font-size:12px;opacity:.65;max-width:160px;line-height:1.5}#qa{position:absolute;left:0;bottom:0;max-height:70px;overflow:auto;z-index:5;display:none;font:10px monospace;color:#fff;background:#000b;pointer-events:none;white-space:pre-wrap;width:100%}body.qa #qa{display:block}.back{text-decoration:none;font-size:12px;opacity:.6;white-space:nowrap} @media(max-width:650px){header{padding:12px 13px 8px;display:block}header nav{position:absolute;top:10px;right:12px}header nav button{min-height:44px;font-size:12px;padding:7px 10px}#capture{display:none}h1{font-size:23px;padding-right:155px}#hint{font-size:14px;line-height:1.6;padding-top:4px}footer{padding:8px 12px max(10px,env(safe-area-inset-bottom));display:block}#tools{gap:6px}#tools button{font-size:14px;min-height:44px;padding:8px 12px}#soundnote{display:none}.back{position:absolute;right:15px;bottom:10px;display:none}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style></head><body data-number="10"><header><div><h1 id="title"></h1><div id="hint"></div></div><nav><button id="sound" type="button" aria-pressed="false">声音开启</button><button id="reset" type="button">重新开始</button><button id="capture" type="button">存画面</button></nav></header><main><canvas aria-label="可拖动的互动艺术画面"></canvas><output id="qa"></output></main><footer><div id="tools" role="group" aria-label="作品工具"></div><div id="soundnote"></div></footer><script>(function () {
+  'use strict';
+  const C = { bg: '#202342', ink: '#ddd9eb', purple: '#6e648e', lavender: '#aaa6c7', cyan: '#76afb6', gold: '#e7ba77', dark: '#292742', pale: '#d1cbe0', rose: '#ba889c' };
+  const tools = [{ id: 'pull', label: '拉云被' }, { id: 'moon', label: '缝月补丁' }, { id: 'hole', label: '开洞漏星' }, { id: 'sew', label: '缝好小洞' }, { id: 'fold', label: '折一折' }];
+  const COL = 10, ROW = 5;
+  let S;
+  const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+  function seed(n) { let z = n >>> 0; return () => ((z = (z * 1664525 + 1013904223) >>> 0) / 4294967296); }
+  function init() {
+    const r = seed(912761);
+    S = { tool: 'pull', time: 0, down: false, x: 500, y: 430, lastX: 500, lastY: 430, anchor: null, lastSound: -10, lastSew: -10, lastLeak: 0, patches: [], holes: [], stars: [], stitches: [], folds: 0, pullMoves: 0, repairs: 0, emitted: 0, moonCount: 0, holesMade: 0, notice: '捏住云被，轻轻给他盖好。', noticeTime: 5, needle: null,
+      view: { w: 1000, h: 700, scale: 1, ox: 0, oy: 0 }, nodes: Array.from({ length: (COL + 1) * (ROW + 1) }, () => ({ dx: 0, dy: 0 })),
+      sky: Array.from({ length: 90 }, () => ({ x: r() * 1000, y: r() * 650, r: .5 + r() * 1.7, p: r() * 6.28 })),
+      dust: Array.from({ length: 670 }, () => ({ x: r() * 1000, y: r() * 700, len: 1 + r() * 4, a: .025 + r() * .055 })) };
+  }
+  function sound(note, kind) { if (S.time - S.lastSound > .15) { S.lastSound = S.time; if (window.SOUND && window.SOUND.fx) window.SOUND.fx(note, kind); } }
+  function say(s) { S.notice = s; S.noticeTime = 4; }
+  function base(u, v) { return { x: 100 + u * 790 + Math.sin(v * Math.PI) * Math.cos(u * Math.PI) * 17, y: 358 + v * 259 + Math.sin(u * Math.PI * 3) * (1 - v) * 12 + Math.sin(u * Math.PI) * v * 18 }; }
+  function node(i, j) { const p = base(i / COL, j / ROW), n = S.nodes[j * (COL + 1) + i]; return { x: p.x + n.dx, y: p.y + n.dy }; }
+  function pos(u, v) {
+    const gx = clamp(u, 0, .99999) * COL, gy = clamp(v, 0, .99999) * ROW, i = Math.floor(gx), j = Math.floor(gy), a = gx - i, b = gy - j;
+    const p = node(i, j), q = node(i + 1, j), r = node(i, j + 1), z = node(i + 1, j + 1);
+    return { x: p.x * (1 - a) * (1 - b) + q.x * a * (1 - b) + r.x * (1 - a) * b + z.x * a * b, y: p.y * (1 - a) * (1 - b) + q.y * a * (1 - b) + r.y * (1 - a) * b + z.y * a * b };
+  }
+  function locate(x, y, maxDistance) {
+    let best = null, dd = Infinity;
+    for (let j = 0; j <= 24; j++) for (let i = 0; i <= 45; i++) { const u = i / 45, v = j / 24, p = pos(u, v), d = (x - p.x) ** 2 + (y - p.y) ** 2; if (d < dd) { dd = d; best = { u, v }; } }
+    return dd <= (maxDistance || 35) ** 2 ? best : null;
+  }
+  function ellipse(c, x, y, rx, ry, fill) { c.beginPath(); c.ellipse(x, y, rx, ry, 0, 0, Math.PI * 2); c.fillStyle = fill; c.fill(); }
+  function line(c, pts, color, width) { c.beginPath(); pts.forEach((p, i) => i ? c.lineTo(p.x, p.y) : c.moveTo(p.x, p.y)); c.strokeStyle = color; c.lineWidth = width; c.stroke(); }
+  function label(c, str, x, y, size, color, weight) { c.font = (weight || '500') + ' ' + size + 'px sans-serif'; c.fillStyle = color; c.fillText(str, x, y); }
+  function star(c, x, y, r, col, angle) { c.save(); c.translate(x, y); c.rotate(angle || 0); c.beginPath(); for (let i = 0; i < 8; i++) { const a = i * Math.PI / 4 - Math.PI / 2, rr = i % 2 ? r * .26 : r; const xx = Math.cos(a) * rr, yy = Math.sin(a) * rr; i ? c.lineTo(xx, yy) : c.moveTo(xx, yy); } c.closePath(); c.fillStyle = col; c.fill(); c.restore(); }
+  function clothPath(c) {
+    const a = node(0, 0); c.beginPath(); c.moveTo(a.x, a.y);
+    for (let i = 1; i <= COL; i++) { const p = node(i - 1, 0), q = node(i, 0); c.quadraticCurveTo((p.x + q.x) / 2, (p.y + q.y) / 2 - 28, q.x, q.y); }
+    for (let j = 1; j <= ROW; j++) { const p = node(COL, j - 1), q = node(COL, j); c.quadraticCurveTo((p.x + q.x) / 2 + 25, (p.y + q.y) / 2, q.x, q.y); }
+    for (let i = COL - 1; i >= 0; i--) { const p = node(i + 1, ROW), q = node(i, ROW); c.quadraticCurveTo((p.x + q.x) / 2, (p.y + q.y) / 2 + 23, q.x, q.y); }
+    for (let j = ROW - 1; j >= 0; j--) { const p = node(0, j + 1), q = node(0, j); c.quadraticCurveTo((p.x + q.x) / 2 - 25, (p.y + q.y) / 2, q.x, q.y); } c.closePath();
+  }
+  function moonPatch(c, patch) {
+    const p = pos(patch.u, patch.v); const a = pos(clamp(patch.u + .025, 0, 1), patch.v); const angle = Math.atan2(a.y - p.y, a.x - p.x) + patch.rotation;
+    c.save(); c.translate(p.x, p.y); c.rotate(angle); c.fillStyle = C.gold; c.strokeStyle = '#857189'; c.lineWidth = 2;
+    c.beginPath(); c.moveTo(3, -28); c.bezierCurveTo(-33, -30, -41, 19, -7, 28); c.bezierCurveTo(7, 33, 24, 18, 24, 13); c.bezierCurveTo(1, 23, -14, -7, 3, -28); c.closePath(); c.fill(); c.stroke();
+    c.setLineDash([2, 5]); c.strokeStyle = '#fbdfaa'; c.lineWidth = 1.5; c.beginPath(); c.moveTo(-5, -21); c.bezierCurveTo(-27, -17, -28, 17, -7, 22); c.stroke(); c.setLineDash([]);
+    for (let i = 0; i < 6; i++) { const a = i / 5 * 3.8 + 1.3; const x = Math.cos(a) * 27 - 4, y = Math.sin(a) * 28; line(c, [{ x: x - 3, y: y - 2 }, { x: x + 3, y: y + 2 }], C.pale, 2); }
+    c.restore();
+  }
+  function editAt(x, y, type) {
+    const uv = locate(x, y, 39); if (!uv) return;
+    if (S.tool === 'moon' && type === 'down') {
+      const previous = S.patches.find(p => { const q = pos(p.u, p.v); return Math.hypot(q.x - x, q.y - y) < 35; });
+      if (previous) { previous.rotation += .6; say('让这弯月亮转个身。'); }
+      else { S.patches.push({ u: uv.u, v: uv.v, rotation: -.3 + (S.moonCount % 4) * .25 }); if (S.patches.length > 18) S.patches.shift(); S.moonCount++; say('月亮缝牢了，会跟着被子走。'); }
+      S.needle = { x, y, life: 1 }; sound(65 + S.moonCount % 6, 0);
+    }
+    if (S.tool === 'hole' && type === 'down') {
+      const previous = S.holes.find(p => { const q = pos(p.u, p.v); return !p.closed && Math.hypot(q.x - x, q.y - y) < p.r + 10; });
+      if (previous) { previous.r = Math.min(44, previous.r + 6); previous.progress = Math.max(0, previous.progress - .2); }
+      else { S.holes.push({ u: uv.u, v: uv.v, r: 22 + S.holesMade % 3 * 4, progress: 0, closed: false, phase: S.holesMade * 1.7 }); if (S.holes.length > 14) S.holes.shift(); S.holesMade++; }
+      leakAt(uv.u, uv.v, 5); sound(44, 1); say('星星漏出来了。用针线把洞慢慢收好。');
+    }
+    if (S.tool === 'sew' && S.time - S.lastSew > .085) {
+      S.lastSew = S.time;
+      let best = null, dist = Infinity;
+      S.holes.forEach(h => { const p = pos(h.u, h.v), d = Math.hypot(x - p.x, y - p.y); if (!h.closed && d < h.r + 23 && d < dist) { dist = d; best = h; } });
+      S.needle = { x, y, life: .7 };
+      if (best) { best.progress = Math.min(1, best.progress + .26); sound(59 + Math.round(best.progress * 10), 0); if (best.progress >= 1) { best.closed = true; S.repairs++; say('洞合拢了，留下一道温柔的针脚。'); } else say('再缝几针，星星就不冷了。'); }
+      else if (type === 'down') { S.stitches.push({ u: uv.u, v: uv.v, rotation: (S.stitches.length % 6) * .2 }); if (S.stitches.length > 45) S.stitches.shift(); sound(57, 0); say('在空白处，缝一道自己的星轨。'); }
+    }
+  }
+  function leakAt(u, v, count) { const p = pos(u, v), r = seed(S.emitted * 915 + 1719); for (let i = 0; i < count; i++) { S.stars.push({ x: p.x + (r() - .5) * 22, y: p.y, vx: (r() - .5) * 50, vy: -20 - r() * 40, life: 5 + r() * 3, maxLife: 8, r: 3 + r() * 5, a: r() * 6.28 }); S.emitted++; } if (S.stars.length > 80) S.stars.splice(0, S.stars.length - 80); }
+  function fold() {
+    S.folds++; const mode = S.folds % 3;
+    for (let j = 0; j <= ROW; j++) for (let i = 0; i <= COL; i++) {
+      const u = i / COL, v = j / ROW, n = S.nodes[j * (COL + 1) + i];
+      if (mode === 1) { const corner = Math.max(0, (u - .48) / .52); n.dx = clamp(n.dx * .35 - corner * 148 * (1 - v * .6), -168, 135); n.dy = clamp(n.dy * .4 + corner * (1 - v) * 104, -135, 126); }
+      else if (mode === 2) { n.dx = clamp(n.dx * .45 + Math.sin(u * Math.PI * 4) * 15, -168, 135); n.dy = clamp(n.dy * .35 - v * 103 + Math.sin(u * Math.PI) * 24, -135, 126); }
+      else { n.dx *= .18; n.dy *= .18; }
+    }
+    S.down = false; S.anchor = null; sound(48 + mode * 5, 1); say(['展开云被，旧月亮和针脚还在。', '右角折下来，所有补丁跟着打个盹。', '把下摆掖好，云被变成一条暖围巾。'][mode]);
+  }
+  function action(id) { if (id === 'fold') { fold(); return; } if (tools.some(t => t.id === id)) { S.tool = id; S.down = false; S.anchor = null; } }
+  function pointer(type, x, y) {
+    const view = S.view, xx = (clamp(x, 0, 1) * view.w - view.ox) / view.scale, yy = (clamp(y, 0, 1) * view.h - view.oy) / view.scale; S.x = xx; S.y = yy;
+    if (type === 'up') { S.down = false; S.anchor = null; return; }
+    if (type === 'down') { S.down = true; S.lastX = xx; S.lastY = yy; S.anchor = S.tool === 'pull' ? locate(xx, yy, 45) : null; if (S.anchor) say('慢慢拉，月亮和针脚会一起挪动。'); }
+    if (!S.down) return;
+    if (S.tool === 'pull' && S.anchor && type === 'move') {
+      const dx = clamp(xx - S.lastX, -45, 45), dy = clamp(yy - S.lastY, -45, 45);
+      for (let j = 0; j <= ROW; j++) for (let i = 0; i <= COL; i++) { const du = i / COL - S.anchor.u, dv = (j / ROW - S.anchor.v) * .5, influence = Math.exp(-(du * du + dv * dv) / .047); const n = S.nodes[j * (COL + 1) + i]; n.dx = clamp(n.dx + dx * influence, -168, 135); n.dy = clamp(n.dy + dy * influence, -135, 126); }
+      S.pullMoves++; if (Math.abs(dx) + Math.abs(dy) > 2) sound(45 + Math.round(S.anchor.u * 14), 1);
+    } else if (S.tool !== 'pull') editAt(xx, yy, type);
+    S.lastX = xx; S.lastY = yy;
+  }
+  function drawHead(c, t, warmth) {
+    // Layered pastel paper silhouette and a heavy, gently tilted head.
+    c.save(); c.translate(345, 228); c.rotate(-.11 + Math.sin(t * .4) * .012);
+    ellipse(c, -44, 77, 206, 111, '#39344f'); ellipse(c, -134, 45, 35, 53, C.purple);
+    ellipse(c, 0, 3, 164, 171, '#918aaf'); ellipse(c, 21, 3, 140, 162, '#b2a7c4'); ellipse(c, 38, 24, 111, 132, '#bab0ca');
+    // Cut-felt night cap, floppy point to the left.
+    c.beginPath(); c.moveTo(-156, -13); c.bezierCurveTo(-154, -167, -6, -200, 108, -102); c.bezierCurveTo(28, -152, -118, -155, -198, -96); c.bezierCurveTo(-190, -141, -185, -160, -172, -179); c.bezierCurveTo(-290, -110, -235, -58, -156, -13); c.closePath(); c.fillStyle = C.purple; c.fill();
+    c.beginPath(); c.moveTo(-156, -13); c.bezierCurveTo(-114, -106, 33, -151, 118, -87); c.strokeStyle = '#867da3'; c.lineWidth = 23; c.stroke();
+    c.setLineDash([2, 8]); c.strokeStyle = '#b7aacb'; c.lineWidth = 2; c.stroke(); c.setLineDash([]); star(c, -192, -159, 16, C.gold, .2);
+    // Eyes react to open holes: a cold draft makes one sleepy eyelid lift.
+    const wake = clamp((68 - warmth) / 55, 0, 1);
+    c.strokeStyle = C.dark; c.lineWidth = 5; c.beginPath(); c.moveTo(-82, 13); c.bezierCurveTo(-65, 25, -42, 25, -25, 14); c.stroke();
+    c.beginPath(); c.moveTo(39, 11); c.bezierCurveTo(54, 22 - wake * 17, 80, 22 - wake * 17, 94, 7); c.stroke();
+    if (wake > .2) ellipse(c, 66, 15, 4, 2 + wake * 5, C.dark);
+    for (let k = 0; k < 3; k++) { line(c, [{ x: -67 + k * 12, y: 24 }, { x: -71 + k * 12, y: 31 }], C.dark, 2); }
+    c.beginPath(); c.moveTo(7, 15); c.bezierCurveTo(-11, 40, -8, 55, 21, 50); c.strokeStyle = '#897c9b'; c.lineWidth = 3; c.stroke();
+    ellipse(c, -73, 59, 34, 20, C.rose); ellipse(c, 98, 47, 23, 16, C.rose);
+    for (let i = 0; i < 6; i++) { line(c, [{ x: -98 + i * 9, y: 56 }, { x: -94 + i * 9, y: 63 }], '#d7a4ac', 2); }
+    ellipse(c, 28, 88, 11, 8 + Math.sin(t * .95) * 2, '#77647c');
+    c.strokeStyle = '#d2c4d5'; c.lineWidth = 2; c.beginPath(); c.moveTo(51, -72); c.quadraticCurveTo(108, -52, 111, -6); c.stroke();
+    c.restore();
+    // Hand resting on the duvet, echoed by an embroidered cuff.
+    c.save(); c.translate(637, 356); c.rotate(.12); ellipse(c, 0, 0, 69, 25, '#a69ab7'); for (let i = 0; i < 4; i++) line(c, [{ x: -25 + i * 17, y: -3 }, { x: -27 + i * 17, y: 13 }], '#786b8d', 2); c.restore();
+  }
+  function drawCloth(c) {
+    c.save(); c.translate(8, 16); clothPath(c); c.fillStyle = '#171b3288'; c.fill(); c.restore();
+    clothPath(c); c.fillStyle = C.cyan; c.fill(); c.strokeStyle = '#899fb6'; c.lineWidth = 3; c.stroke();
+    c.save(); clothPath(c); c.clip();
+    const colors = ['#9bacbf', '#aeb9ce', '#86a8b8', '#a2baca', '#b5bcd0'];
+    for (let j = 0; j < ROW; j++) for (let i = 0; i < COL; i++) {
+      const p = [node(i, j), node(i + 1, j), node(i + 1, j + 1), node(i, j + 1)]; c.beginPath(); p.forEach((q, k) => k ? c.lineTo(q.x, q.y) : c.moveTo(q.x, q.y)); c.closePath(); c.fillStyle = colors[(i * 3 + j * 2) % colors.length]; c.fill(); c.strokeStyle = '#728ea36b'; c.lineWidth = 1.2; c.stroke();
+      // Fine alternating woven weft follows bilinear cloth coordinates.
+      for (let l = 1; l < 5; l++) { const v = (j + l / 5) / ROW; line(c, [pos((i + .05) / COL, v), pos((i + .94) / COL, v)], '#e3ddec24', .7); }
+      const mid = pos((i + .5) / COL, (j + .5) / ROW); if ((i + j) % 3 === 0) { c.strokeStyle = '#d8d5e080'; c.lineWidth = 1.5; c.beginPath(); c.arc(mid.x, mid.y, 7, .2, Math.PI - .2); c.stroke(); }
+    }
+    // Curving quilting channels, sewn down the mesh rather than screen space.
+    c.setLineDash([2.5, 5.5]);
+    for (let i = 1; i < COL; i += 2) { const pts = []; for (let j = 0; j <= 30; j++) pts.push(pos(i / COL + Math.sin(j / 30 * 6.28) * .008, j / 30)); line(c, pts, '#e4d9e7a0', 1.7); }
+    c.setLineDash([]);
+    S.patches.forEach(p => moonPatch(c, p));
+    S.holes.forEach(h => {
+      const p = pos(h.u, h.v); const rx = h.r * Math.max(.10, 1 - h.progress * .9);
+      if (!h.closed) { ellipse(c, p.x, p.y, rx, h.r * .78, '#272943'); ellipse(c, p.x + 2, p.y - 3, rx * .76, h.r * .55, '#353450'); star(c, p.x + Math.sin(S.time * 1.7 + h.phase) * rx * .35, p.y + 2, 5, C.gold, S.time * .2); c.strokeStyle = '#71819e'; c.lineWidth = 3; c.beginPath(); c.ellipse(p.x, p.y, rx, h.r * .78, 0, 0, Math.PI * 2); c.stroke(); }
+      const stitches = h.closed ? 7 : Math.floor(h.progress * 7);
+      for (let i = 0; i < stitches; i++) { const yy = p.y - h.r * .6 + i * h.r * .2; line(c, [{ x: p.x - 9, y: yy - 3 }, { x: p.x + 9, y: yy + 4 }], C.gold, 2.6); line(c, [{ x: p.x + 9, y: yy - 3 }, { x: p.x - 9, y: yy + 4 }], '#e9d5ad', 1.2); }
+    });
+    S.stitches.forEach(s => { const p = pos(s.u, s.v); c.save(); c.translate(p.x, p.y); c.rotate(s.rotation); for (let i = -2; i < 3; i++) { line(c, [{ x: i * 8 - 3, y: -4 }, { x: i * 8 + 3, y: 4 }], C.gold, 2.2); } c.restore(); });
+    c.restore();
+    // Stitched scalloped perimeter, separate from the fill.
+    clothPath(c); c.strokeStyle = '#d9cfe0b0'; c.lineWidth = 2; c.setLineDash([3, 7]); c.stroke(); c.setLineDash([]);
+  }
+  function draw(c, w, h, t, dt) {
+    if (!S) init(); dt = clamp(Number(dt) || 0, 0, .05); S.time += dt; S.noticeTime -= dt; if (S.needle) { S.needle.life -= dt; if (S.needle.life <= 0) S.needle = null; }
+    const open = S.holes.filter(hole => !hole.closed), warmth = clamp(85 + S.patches.length * 3 - open.length * 15, 0, 100);
+    if (S.time - S.lastLeak > .72) { S.lastLeak = S.time; open.forEach(hole => leakAt(hole.u, hole.v, 1)); }
+    S.stars.forEach(s => { s.x += s.vx * dt; s.y += s.vy * dt; s.vx += Math.sin(S.time + s.a) * 4 * dt; s.life -= dt; s.a += dt * .4; }); S.stars = S.stars.filter(s => s.life > 0 && s.y > -30);
+    const scale = Math.max(.001, Math.min(w / 1000, h / 700)), ox = (w - 1000 * scale) / 2, oy = (h - 700 * scale) / 2; S.view = { w, h, scale, ox, oy };
+    c.save(); c.fillStyle = C.bg; c.fillRect(0, 0, w, h);
+    S.sky.forEach(s => { c.globalAlpha = .18; ellipse(c, s.x * w / 1000, s.y * h / 700, Math.max(.5, s.r * scale), Math.max(.5, s.r * scale), '#c6bfd8'); }); c.globalAlpha = 1;
+    c.translate(ox, oy); c.scale(scale, scale); c.fillStyle = C.bg; c.fillRect(0, 0, 1000, 700); c.lineCap = 'round'; c.lineJoin = 'round';
+    const grad = c.createRadialGradient(481, 320, 80, 480, 355, 580); grad.addColorStop(0, '#54517388'); grad.addColorStop(1, '#20234200'); c.fillStyle = grad; c.fillRect(0, 0, 1000, 700);
+    S.sky.forEach(s => { c.globalAlpha = .25 + .23 * Math.sin(t * .4 + s.p); ellipse(c, s.x, s.y, s.r, s.r, '#c6bfd8'); }); c.globalAlpha = 1;
+    // Night workshop: thread reel, needle and a length of loose pale yarn.
+    c.strokeStyle = '#6a6588'; c.lineWidth = 1; c.beginPath(); c.moveTo(719, 73); c.bezierCurveTo(864, 11, 973, 151, 845, 229); c.bezierCurveTo(772, 273, 946, 265, 946, 331); c.stroke();
+    c.save(); c.translate(823, 195); c.rotate(.24); c.fillStyle = '#ba91a6'; c.fillRect(-26, -24, 52, 48); ellipse(c, 0, -25, 35, 9, '#866a8c'); ellipse(c, 0, 26, 35, 9, '#b195ae'); for (let i = -19; i <= 18; i += 5) line(c, [{ x: -24, y: i }, { x: 24, y: i + 3 }], '#d0adc0', 1); c.restore();
+    c.save(); c.translate(907, 172); c.rotate(.35); line(c, [{ x: 0, y: -33 }, { x: 0, y: 45 }], '#bbb9d5', 3); c.strokeStyle = C.bg; c.lineWidth = 1.2; c.beginPath(); c.ellipse(0, -23, 2, 6, 0, 0, Math.PI * 2); c.stroke(); c.restore();
+    label(c, '云被裁缝', 51, 67, 28, '#ddd4e8', '700'); label(c, 'CLOUD / MENDING ROOM', 638, 94, 12, '#a7b7cd', '600');
+    label(c, '10', 900, 67, 43, C.gold, '700');
+    drawHead(c, t, warmth); drawCloth(c);
+    S.stars.forEach(s => { c.globalAlpha = Math.min(1, s.life * .6); star(c, s.x, s.y, s.r, '#edc987', s.a); c.globalAlpha = 1; });
+    if (S.needle) { c.save(); c.translate(S.needle.x + 9, S.needle.y - 7); c.rotate(.75); line(c, [{ x: 0, y: -23 }, { x: 0, y: 22 }], '#f1e5dc', 2.4); c.strokeStyle = C.gold; c.lineWidth = 1.3; c.beginPath(); c.moveTo(0, -20); c.bezierCurveTo(-22, -36, 11, -54, 26, -31); c.stroke(); c.restore(); }
+    if (S.down && S.tool === 'pull' && S.anchor) { const p = pos(S.anchor.u, S.anchor.v); c.strokeStyle = '#e8d6b6'; c.lineWidth = 2; c.setLineDash([3, 6]); c.beginPath(); c.arc(p.x, p.y, 24, 0, Math.PI * 2); c.stroke(); c.setLineDash([]); }
+    // Quiet captions make the three-minute play loop discoverable.
+    label(c, '暖意 ' + Math.round(warmth) + '%', 51, 667, 13, C.gold, '600'); label(c, '月补丁 ' + S.patches.length + '  ·  漏星洞 ' + open.length + '  ·  缝好 ' + S.repairs, 739, 667, 12, '#b2bdcf');
+    c.textAlign = 'center'; label(c, S.noticeTime > 0 ? S.notice : ({ pull: '拖云被塑形；补丁、洞与针脚都跟着走。', moon: '点云被缝一弯月；再点月亮让它转身。', hole: '点云被开洞，看星星慢慢逃跑。', sew: '在洞上点四针，或慢慢拖动缝合。' })[S.tool], 500, 684, 13, '#c4c4d5'); c.textAlign = 'left';
+    S.dust.forEach(d => { c.fillStyle = 'rgba(225,213,237,' + d.a + ')'; c.fillRect(d.x, d.y, d.len, .65); });
+    c.restore();
+  }
+  function stats() { return { tool: S.tool, moonPatches: S.patches.length, totalMoonsPlaced: S.moonCount, openHoles: S.holes.filter(h => !h.closed).length, holesMade: S.holesMade, repairs: S.repairs, looseStitches: S.stitches.length, folds: S.folds, foldMode: S.folds % 3, pullMoves: S.pullMoves, starsEmitted: S.emitted, liveStars: S.stars.length, patches: S.patches.map(p => ({ u: +p.u.toFixed(4), v: +p.v.toFixed(4), x: +pos(p.u, p.v).x.toFixed(2), y: +pos(p.u, p.v).y.toFixed(2), rotation: +p.rotation.toFixed(2) })), holes: S.holes.map(h => ({ u: +h.u.toFixed(4), v: +h.v.toFixed(4), x: +pos(h.u, h.v).x.toFixed(2), y: +pos(h.u, h.v).y.toFixed(2), progress: +h.progress.toFixed(2), closed: h.closed })), deformation: +S.nodes.reduce((a, n) => a + Math.abs(n.dx) + Math.abs(n.dy), 0).toFixed(2), nodeCount: S.nodes.length }; }
+  window.ART = { title: '云被裁缝', subtitle: '把漏掉的星星，慢慢缝回梦里。', palette: { bg: C.bg, ink: C.ink, accent: C.gold }, tools, init, draw, pointer, action, stats };
+  init();
+}());
+</script><script>(()=>{'use strict';
+const ART=window.ART,canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d',{alpha:false});
+const q=new URLSearchParams(location.search),qa=q.has('qa');
+const $=s=>document.querySelector(s);let w=0,h=0,dpr=1,last=0,elapsed=0,frames=0,sumdt=0,maxdt=0,active=false,px=0,py=0,down=false,tool=ART.tools[0]?.id,muted=false;
+const metrics={trusted:0,downs:0,moves:0,actions:0,resets:0,resizes:0,errors:[],start:Date.now(),audio:{musicPeak:0,fxPeak:0,outPeak:0}};
+window.addEventListener('error',e=>metrics.errors.push(e.message));window.addEventListener('unhandledrejection',e=>metrics.errors.push(String(e.reason)));
+for(const[k,v]of Object.entries(ART.palette))document.body.style.setProperty('--'+k,v);document.title=ART.title+' · Little Worlds';$('#title').textContent=ART.title;$('#hint').textContent=ART.subtitle;
+const sounds={ctx:null,music:null,fxbus:null,master:null,ma:null,fa:null,oa:null,timer:null,unlocked:false,suspended:true,beat:0,voices:new Set(),maxVoices:0,musicCount:0,fxCount:0};
+const piece=Number(document.body.dataset.number||1)-1;const scales=[[0,2,5,7,9,12,14,17],[0,3,5,7,10,12,15,17],[0,2,4,7,9,12,14,16],[0,2,5,7,11,12,14,17],[0,3,5,7,10,12,15,17],[0,2,4,7,9,12,14,16],[0,2,4,5,7,9,12,14],[0,2,5,7,9,12,14,17],[0,3,5,6,7,10,12,15],[0,2,5,7,9,12,14,17]], motifs=[[0,4,2,6,1,3,5,2,0,5,3,7,4,2,1,6],[0,0,3,2,4,3,1,2,5,4,1,3,2,6,2,0],[0,3,6,2,5,1,7,3,4,2,6,1,5,3,2,0],[0,4,7,4,1,5,6,3,2,6,4,2,1,3,5,0],[0,2,1,4,2,5,3,6,4,7,3,5,2,4,1,0],[0,2,4,3,1,3,5,4,2,4,6,5,3,5,7,0],[0,2,4,2,0,3,5,3,1,4,6,4,2,5,7,4],[4,2,0,2,5,3,1,3,6,4,2,4,7,5,3,0],[0,3,2,5,1,4,3,6,2,5,4,7,3,6,5,0],[0,4,2,1,5,3,2,6,4,3,7,5,2,4,1,0]],scale=scales[piece%10],root=45+(piece+1)%8,motif=motifs[piece%10],tempo=[620,480,520,680,390,550,330,360,300,710][piece%10];
+function measure(a){if(!a)return 0;const arr=new Float32Array(256);a.getFloatTimeDomainData(arr);let n=0;for(const x of arr)n+=x*x;return Math.sqrt(n/arr.length);}
+function note(midi,duration,gain,bus,kind=0){if(!sounds.ctx||sounds.ctx.state!=='running'||muted||sounds.suspended||sounds.voices.size>=18)return;const ac=sounds.ctx,osc=ac.createOscillator(),amp=ac.createGain(),t=ac.currentTime;osc.type=kind===2?'sine':kind===1?'triangle':'sine';osc.frequency.setValueAtTime(440*Math.pow(2,(midi-69)/12),t);if(kind===3)osc.frequency.exponentialRampToValueAtTime(80,t+duration);amp.gain.setValueAtTime(0,t);amp.gain.linearRampToValueAtTime(gain,t+.012);amp.gain.exponentialRampToValueAtTime(.0001,t+duration);osc.connect(amp);amp.connect(bus);const v={osc,amp};sounds.voices.add(v);sounds.maxVoices=Math.max(sounds.maxVoices,sounds.voices.size);osc.onended=()=>{osc.disconnect();amp.disconnect();sounds.voices.delete(v)};osc.start(t);osc.stop(t+duration+.03);}
+function tick(){if(muted||sounds.suspended||document.hidden)return;const i=sounds.beat++;note(root+12+scale[motif[i%16]],.9,.055,sounds.music,i%3===0?1:0);if(i%4===0)note(root-12+scale[(i/4|0)%4],1.55,.035,sounds.music,2);if(i%8===6)note(root+24+scale[3],.45,.022,sounds.music);sounds.musicCount++;}
+function halt(){sounds.suspended=true;clearInterval(sounds.timer);sounds.timer=null;if(sounds.master){sounds.master.gain.cancelScheduledValues(sounds.ctx.currentTime);sounds.master.gain.setValueAtTime(0,sounds.ctx.currentTime);}for(const v of [...sounds.voices]){try{v.osc.stop();}catch{}v.osc.disconnect();v.amp.disconnect();sounds.voices.delete(v);}if(sounds.ctx&&sounds.ctx.state==='running')sounds.ctx.suspend().catch(()=>{});}
+async function unlock(e){if(e&&!e.isTrusted)return;if(!sounds.ctx){const C=window.AudioContext||window.webkitAudioContext;if(!C)return;sounds.ctx=new C();const ac=sounds.ctx;sounds.music=ac.createGain();sounds.fxbus=ac.createGain();sounds.master=ac.createGain();sounds.ma=ac.createAnalyser();sounds.fa=ac.createAnalyser();sounds.oa=ac.createAnalyser();for(const a of[sounds.ma,sounds.fa,sounds.oa])a.fftSize=256;sounds.music.connect(sounds.ma);sounds.ma.connect(sounds.master);sounds.fxbus.connect(sounds.fa);sounds.fa.connect(sounds.master);sounds.master.connect(sounds.oa);sounds.oa.connect(ac.destination);}
+try{await sounds.ctx.resume();sounds.unlocked=true;sounds.suspended=false;sounds.master.gain.setValueAtTime(muted?0:.68,sounds.ctx.currentTime);if(!muted&&!sounds.timer){tick();sounds.timer=setInterval(tick,tempo);}}catch{}
+}
+window.SOUND={fx(midi=64,kind=0){if(!sounds.unlocked||muted||sounds.suspended)return;midi=Math.max(24,Math.min(100,Number(midi)||64));kind=Math.max(0,Math.min(3,Number(kind)||0));note(midi,.17+kind*.035,.08,sounds.fxbus,kind%4);sounds.fxCount++;}};
+function audioLabel(){$('#sound').textContent=muted?'声音已关':'声音开启';$('#sound').setAttribute('aria-pressed',String(muted));$('#soundnote').textContent=sounds.unlocked?(muted?'已静音，重置会保留':'音乐与操作音效已开启'):'轻触画面，开启声音';}
+for(const a of ART.tools){const b=document.createElement('button');b.textContent=a.label;b.dataset.tool=a.id;b.type='button';b.setAttribute('aria-pressed',String(a.id===tool));b.addEventListener('click',e=>{metrics.trusted+=e.isTrusted?1:0;metrics.actions++;tool=a.id;for(const x of document.querySelectorAll('[data-tool]'))x.setAttribute('aria-pressed',String(x.dataset.tool===tool));unlock(e);ART.action(a.id);audioLabel();});$('#tools').append(b);}
+$('#sound').addEventListener('click',async e=>{metrics.trusted+=e.isTrusted?1:0;muted=!muted;if(muted){if(sounds.master)sounds.master.gain.setValueAtTime(0,sounds.ctx.currentTime);halt();}else await unlock(e);audioLabel();});
+$('#reset').addEventListener('click',e=>{metrics.trusted+=e.isTrusted?1:0;metrics.resets++;down=false;halt();sounds.beat=0;ART.init();tool=ART.tools[0]?.id;for(const x of document.querySelectorAll('[data-tool]'))x.setAttribute('aria-pressed',String(x.dataset.tool===tool));if(!muted)unlock(e);audioLabel();});
+$('#capture').addEventListener('click',()=>{const a=document.createElement('a');a.download=ART.title+'-画面.png';a.href=canvas.toDataURL('image/png');a.click();});
+function point(e){const r=canvas.getBoundingClientRect();return [Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))];}
+canvas.addEventListener('pointerdown',e=>{e.preventDefault();canvas.setPointerCapture(e.pointerId);const[x,y]=point(e);down=true;px=x;py=y;metrics.downs++;metrics.trusted+=e.isTrusted?1:0;unlock(e).then(()=>{audioLabel();window.SOUND.fx(root+24,1);});ART.pointer('down',x,y,0,0);});
+canvas.addEventListener('pointermove',e=>{if(!down)return;e.preventDefault();const[x,y]=point(e);metrics.moves++;metrics.trusted+=e.isTrusted?1:0;ART.pointer('move',x,y,x-px,y-py);px=x;py=y;});
+function up(e){if(!down)return;const[x,y]=point(e);down=false;ART.pointer('up',x,y,x-px,y-py);}
+canvas.addEventListener('pointerup',up);canvas.addEventListener('pointercancel',up);canvas.addEventListener('lostpointercapture',()=>down=false);
+window.addEventListener('blur',()=>{halt();down=false;});window.addEventListener('pagehide',halt);document.addEventListener('visibilitychange',()=>{last=0;if(document.hidden)halt();});window.addEventListener('focus',()=>{last=0;});
+function resize(){const r=canvas.getBoundingClientRect();w=r.width;h=r.height;dpr=Math.min(2,devicePixelRatio||1);canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);metrics.resizes++;}new ResizeObserver(resize).observe(canvas);resize();ART.init();audioLabel();
+let report=0;function frame(now){requestAnimationFrame(frame);let rawdt=last?(now-last)/1000:.016;let dt=Math.min(.08,rawdt);last=now;if(document.hidden)return;elapsed+=dt;frames++;sumdt+=rawdt;maxdt=Math.max(maxdt,rawdt);ctx.save();try{ART.draw(ctx,w,h,elapsed,dt);}catch(e){if(!metrics.errors.includes(e.message)){metrics.errors.push(e.message);console.error(e)}}finally{ctx.restore();}if(now-report>100){report=now;const music=measure(sounds.ma),fx=measure(sounds.fa),out=measure(sounds.oa);metrics.audio.musicPeak=Math.max(metrics.audio.musicPeak,music);metrics.audio.fxPeak=Math.max(metrics.audio.fxPeak,fx);metrics.audio.outPeak=Math.max(metrics.audio.outPeak,out);const dat={title:ART.title,elapsed:+elapsed.toFixed(1),wallSeconds:+((Date.now()-metrics.start)/1000).toFixed(1),trusted:metrics.trusted,downs:metrics.downs,moves:metrics.moves,actions:metrics.actions,resets:metrics.resets,resizes:metrics.resizes,viewport:[w,h],fps:Math.round(frames/sumdt),maxFrameMs:Math.round(maxdt*1000),muted,audioState:sounds.ctx?.state||'locked',audio:{music,fx,out,...metrics.audio,musicCount:sounds.musicCount,fxCount:sounds.fxCount,activeVoices:sounds.voices.size,connectedNodes:sounds.ctx?6+sounds.voices.size*2:0,suspended:sounds.suspended,maxVoices:sounds.maxVoices,limit:18},art:ART.stats(),errors:metrics.errors};$('#qa').textContent=JSON.stringify(dat);}}
+if(qa)document.body.classList.add('qa');requestAnimationFrame(frame);
+})();
+</script></body></html>

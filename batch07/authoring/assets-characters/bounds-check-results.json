@@ -1,0 +1,26 @@
+[
+  {
+    "file": "07-bread-parade.js",
+    "arrays": {
+      "stamps": 24
+    },
+    "limits": "proofing <=1, width/height clamped",
+    "checks": [
+      "state preserved on 1120×740→390×580→1120×740 resize",
+      "zero-size draw safe",
+      "deterministic reset"
+    ]
+  },
+  {
+    "file": "08-jelly-post.js",
+    "arrays": {
+      "belly": 9,
+      "route": 8
+    },
+    "checks": [
+      "state preserved on 1120×740→390×580→1120×740 resize",
+      "zero-size draw safe",
+      "deterministic reset"
+    ]
+  }
+]

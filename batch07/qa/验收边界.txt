@@ -1,0 +1,30 @@
+第七组 · 10件真实浏览器验收 · 2026-10-04
+
+通过：Chromium真实输入，桌面1440×900与390×844触控仿真各60–90秒；每件100次工具压力输入，三轮静音/重置/恢复；真实iframe焦点产生trusted blur、真实导航pagehide；音频声音节点同步断开、引擎暂停，恢复渲染后的输出RMS为0。
+通过：10独立ZIP解压后，浏览器断网file://实开，真实工具输入可用，无外部资源请求，HTML字节与整包一致。
+方法：后续QA使用Chromium默认与显式--mute-audio，仅内部WebAudio音乐/FX/输出分析器测量，不向扬声器输出。未实体手机测试，未人工听音，未真实OS应用切换。
+静音分析器：暂停时旧波形和AudioParam.value可保持最后值，故另以仍保持产品suspended=true的临时引擎resume取得新鲜波形，再立即suspend；20案例的新鲜输出均为0。
+修复：共用halt同步断开并清除声音节点，主音量设0；手机声音/重置按钮增至44px。作品美术与机制保持原实现。
+补充：理发铺与云被裁缝的真实输入坐标按1000×700等比居中画板映射。
+预览：previews为真实浏览器初始/组合截图，原始Node离屏证据只作生成历史。
+
+01-moon-moth / desktop：65.98s，FPS 59，最长帧 120ms，music RMS peak 0.04114981，FX RMS peak 0.04586440，声音峰值 7/18，堆 3193176 bytes，全部断言通过。
+01-moon-moth / mobile：65.26s，FPS 66，最长帧 134ms，music RMS peak 0.04967757，FX RMS peak 0.06982509，声音峰值 8/18，堆 3157360 bytes，全部断言通过。
+02-velvet-menagerie / desktop：66.54s，FPS 71，最长帧 92ms，music RMS peak 0.04412600，FX RMS peak 0.04576654，声音峰值 7/18，堆 6902068 bytes，全部断言通过。
+02-velvet-menagerie / mobile：66.27s，FPS 77，最长帧 76ms，music RMS peak 0.04530048，FX RMS peak 0.05623362，声音峰值 9/18，堆 6652288 bytes，全部断言通过。
+03-honey-constellation / desktop：65.31s，FPS 77，最长帧 76ms，music RMS peak 0.04720081，FX RMS peak 0.07545328，声音峰值 7/18，堆 4240648 bytes，全部断言通过。
+03-honey-constellation / mobile：65.61s，FPS 77，最长帧 67ms，music RMS peak 0.04546163，FX RMS peak 0.05852003，声音峰值 7/18，堆 3825080 bytes，全部断言通过。
+04-pearl-opera / desktop：67.01s，FPS 41，最长帧 78ms，music RMS peak 0.04715136，FX RMS peak 0.04636809，声音峰值 7/18，堆 3507392 bytes，全部断言通过。
+04-pearl-opera / mobile：66.25s，FPS 73，最长帧 67ms，music RMS peak 0.04522778，FX RMS peak 0.05269721，声音峰值 7/18，堆 3133636 bytes，全部断言通过。
+05-paper-dragon / desktop：66.02s，FPS 77，最长帧 63ms，music RMS peak 0.04380628，FX RMS peak 0.05164579，声音峰值 8/18，堆 3642540 bytes，全部断言通过。
+05-paper-dragon / mobile：65.25s，FPS 75，最长帧 64ms，music RMS peak 0.04656737，FX RMS peak 0.05466554，声音峰值 8/18，堆 3253560 bytes，全部断言通过。
+06-patchwork-village / desktop：66.14s，FPS 26，最长帧 86ms，music RMS peak 0.04500346，FX RMS peak 0.04234890，声音峰值 6/18，堆 4799608 bytes，全部断言通过。
+06-patchwork-village / mobile：66.42s，FPS 64，最长帧 62ms，music RMS peak 0.04558417，FX RMS peak 0.05535250，声音峰值 7/18，堆 3960948 bytes，全部断言通过。
+07-bread-parade / desktop：65.13s，FPS 78，最长帧 130ms，music RMS peak 0.04897243，FX RMS peak 0.07254570，声音峰值 9/18，堆 4264144 bytes，全部断言通过。
+07-bread-parade / mobile：65.16s，FPS 78，最长帧 103ms，music RMS peak 0.05196994，FX RMS peak 0.07254570，声音峰值 9/18，堆 6474908 bytes，全部断言通过。
+08-jelly-post / desktop：65.02s，FPS 78，最长帧 114ms，music RMS peak 0.04771053，FX RMS peak 0.07093839，声音峰值 9/18，堆 4412120 bytes，全部断言通过。
+08-jelly-post / mobile：67.15s，FPS 78，最长帧 101ms，music RMS peak 0.04736454，FX RMS peak 0.07386876，声音峰值 8/18，堆 4407088 bytes，全部断言通过。
+09-sardine-salon / desktop：65.50s，FPS 73，最长帧 46ms，music RMS peak 0.04844511，FX RMS peak 0.05926893，声音峰值 9/18，堆 5502788 bytes，全部断言通过。
+09-sardine-salon / mobile：66.62s，FPS 75，最长帧 58ms，music RMS peak 0.04652555，FX RMS peak 0.07375235，声音峰值 9/18，堆 4718748 bytes，全部断言通过。
+10-cloud-tailor / desktop：65.20s，FPS 78，最长帧 50ms，music RMS peak 0.04950498，FX RMS peak 0.06905611，声音峰值 6/18，堆 4379784 bytes，全部断言通过。
+10-cloud-tailor / mobile：66.10s，FPS 79，最长帧 43ms，music RMS peak 0.04477317，FX RMS peak 0.07688575，声音峰值 6/18，堆 3310980 bytes，全部断言通过。

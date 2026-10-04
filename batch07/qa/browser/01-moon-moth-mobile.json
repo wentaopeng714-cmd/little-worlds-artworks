@@ -1,0 +1,4190 @@
+{
+  "slug": "01-moon-moth",
+  "device": "mobile",
+  "errors": [],
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:8307/01-moon-moth/?qa",
+    "http://127.0.0.1:8307/",
+    "http://127.0.0.1:8307/previews/01-moon-moth-desktop.jpg",
+    "http://127.0.0.1:8307/previews/02-velvet-menagerie-desktop.jpg",
+    "http://127.0.0.1:8307/previews/03-honey-constellation-desktop.jpg",
+    "http://127.0.0.1:8307/previews/04-pearl-opera-desktop.jpg",
+    "http://127.0.0.1:8307/previews/05-paper-dragon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/06-patchwork-village-desktop.jpg",
+    "http://127.0.0.1:8307/previews/07-bread-parade-desktop.jpg",
+    "http://127.0.0.1:8307/previews/08-jelly-post-desktop.jpg",
+    "http://127.0.0.1:8307/previews/09-sardine-salon-desktop.jpg",
+    "http://127.0.0.1:8307/previews/10-cloud-tailor-desktop.jpg"
+  ],
+  "physicalPhone": false,
+  "humanListening": false,
+  "stages": [
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 1.4,
+        "wallSeconds": 1.5,
+        "trusted": 10,
+        "downs": 1,
+        "moves": 8,
+        "actions": 1,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009102274962362948,
+          "fx": 0,
+          "out": 0.006189547026065027,
+          "musicPeak": 0.031084383754273217,
+          "fxPeak": 0.0352115383836595,
+          "outPeak": 0.025836732796063036,
+          "musicCount": 2,
+          "fxCount": 5,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 8,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -410,
+              -230
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 2,
+        "wallSeconds": 2,
+        "trusted": 12,
+        "downs": 2,
+        "moves": 8,
+        "actions": 2,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.014936508255475196,
+          "fx": 0,
+          "out": 0.010156825745824884,
+          "musicPeak": 0.03463567282788192,
+          "fxPeak": 0.0352115383836595,
+          "outPeak": 0.025836732796063036,
+          "musicCount": 3,
+          "fxCount": 7,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 1,
+          "active": 0,
+          "pulls": 8,
+          "powderMarks": 1,
+          "powderApplied": 1,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -410,
+              -230
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 2.7,
+        "wallSeconds": 2.7,
+        "trusted": 14,
+        "downs": 3,
+        "moves": 8,
+        "actions": 3,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.008609365378027338,
+          "fx": 0,
+          "out": 0.005854368532371844,
+          "musicPeak": 0.03463567282788192,
+          "fxPeak": 0.03962591497465249,
+          "outPeak": 0.027357625295108386,
+          "musicCount": 4,
+          "fxCount": 9,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 1,
+          "active": 0,
+          "pulls": 8,
+          "powderMarks": 1,
+          "powderApplied": 1,
+          "folds": 1,
+          "foldedWings": 1,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -410,
+              -230
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 2.9,
+        "wallSeconds": 2.9,
+        "trusted": 15,
+        "downs": 3,
+        "moves": 8,
+        "actions": 4,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 74,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.001771988408891207,
+          "fx": 0.002314179850405458,
+          "out": 0.0017988158321846162,
+          "musicPeak": 0.03463567282788192,
+          "fxPeak": 0.03962591497465249,
+          "outPeak": 0.027357625295108386,
+          "musicCount": 4,
+          "fxCount": 10,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 2,
+          "active": 0,
+          "pulls": 8,
+          "powderMarks": 1,
+          "powderApplied": 1,
+          "folds": 1,
+          "foldedWings": 1,
+          "mounts": 1,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 0,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 11.7,
+        "wallSeconds": 11.7,
+        "trusted": 125,
+        "downs": 4,
+        "moves": 16,
+        "actions": 104,
+        "resets": 0,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 62,
+        "maxFrameMs": 134,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.03962591497465249,
+          "outPeak": 0.027357625295108386,
+          "musicCount": 17,
+          "fxCount": 35,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 0,
+          "pulls": 16,
+          "powderMarks": 0,
+          "powderApplied": 1,
+          "folds": 1,
+          "foldedWings": 0,
+          "mounts": 26,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              403,
+              -105
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 0,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 11.9,
+        "wallSeconds": 11.9,
+        "trusted": 126,
+        "downs": 4,
+        "moves": 16,
+        "actions": 104,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 62,
+        "maxFrameMs": 134,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.03962591497465249,
+          "outPeak": 0.027357625295108386,
+          "musicCount": 17,
+          "fxCount": 35,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 1,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 13.5,
+        "wallSeconds": 13.6,
+        "trusted": 146,
+        "downs": 6,
+        "moves": 32,
+        "actions": 104,
+        "resets": 1,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 64,
+        "maxFrameMs": 134,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.04283706311295158,
+          "outPeak": 0.028855556312789982,
+          "musicCount": 19,
+          "fxCount": 40,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 16,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              410,
+              -66
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 1,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 13.8,
+        "wallSeconds": 13.9,
+        "trusted": 147,
+        "downs": 6,
+        "moves": 32,
+        "actions": 104,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 65,
+        "maxFrameMs": 134,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.04283706311295158,
+          "outPeak": 0.028855556312789982,
+          "musicCount": 19,
+          "fxCount": 40,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "muteRound": 2,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 15.4,
+        "wallSeconds": 15.4,
+        "trusted": 167,
+        "downs": 8,
+        "moves": 48,
+        "actions": 104,
+        "resets": 2,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 66,
+        "maxFrameMs": 134,
+        "muted": true,
+        "audioState": "running",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.04283706311295158,
+          "outPeak": 0.028855556312789982,
+          "musicCount": 21,
+          "fxCount": 45,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 16,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              410,
+              -66
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "resetRound": 2,
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 15.7,
+        "wallSeconds": 15.7,
+        "trusted": 168,
+        "downs": 8,
+        "moves": 48,
+        "actions": 104,
+        "resets": 3,
+        "resizes": 2,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 67,
+        "maxFrameMs": 134,
+        "muted": true,
+        "audioState": "suspended",
+        "audio": {
+          "music": 0,
+          "fx": 0,
+          "out": 0,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.04283706311295158,
+          "outPeak": 0.028855556312789982,
+          "musicCount": 21,
+          "fxCount": 45,
+          "activeVoices": 0,
+          "connectedNodes": 6,
+          "suspended": true,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 0,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 18.2,
+        "wallSeconds": 18.3,
+        "trusted": 197,
+        "downs": 11,
+        "moves": 72,
+        "actions": 105,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 68,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0006629426079522735,
+          "fx": 0,
+          "out": 0.0004508009782698759,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.04283706311295158,
+          "outPeak": 0.030663988006844983,
+          "musicCount": 25,
+          "fxCount": 59,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 5,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 1,
+          "active": 0,
+          "pulls": 24,
+          "powderMarks": 0,
+          "powderApplied": 0,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -203,
+              -152
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              410,
+              -144
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 19.4,
+        "wallSeconds": 19.5,
+        "trusted": 208,
+        "downs": 13,
+        "moves": 80,
+        "actions": 106,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0011675697228956193,
+          "fx": 0,
+          "out": 0.0007939474181146015,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.05294198439711612,
+          "outPeak": 0.03749054190784745,
+          "musicCount": 27,
+          "fxCount": 65,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 6,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 1,
+          "active": 0,
+          "pulls": 32,
+          "powderMarks": 1,
+          "powderApplied": 1,
+          "folds": 0,
+          "foldedWings": 0,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              410,
+              -144
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 20.6,
+        "wallSeconds": 20.6,
+        "trusted": 219,
+        "downs": 15,
+        "moves": 88,
+        "actions": 107,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0021233848516164903,
+          "fx": 0,
+          "out": 0.0014439017158783946,
+          "musicPeak": 0.039869192599778336,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 29,
+          "fxCount": 72,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 1,
+          "active": 0,
+          "pulls": 32,
+          "powderMarks": 10,
+          "powderApplied": 10,
+          "folds": 1,
+          "foldedWings": 1,
+          "mounts": 0,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              410,
+              -144
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 21.4,
+        "wallSeconds": 21.5,
+        "trusted": 229,
+        "downs": 16,
+        "moves": 96,
+        "actions": 108,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.020849145976573148,
+          "fx": 0.0016235590134953892,
+          "out": 0.01412889202803497,
+          "musicPeak": 0.04114980779269933,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 31,
+          "fxCount": 75,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 2,
+          "active": 0,
+          "pulls": 32,
+          "powderMarks": 10,
+          "powderApplied": 10,
+          "folds": 2,
+          "foldedWings": 2,
+          "mounts": 1,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 22.9,
+        "wallSeconds": 23,
+        "trusted": 248,
+        "downs": 18,
+        "moves": 112,
+        "actions": 109,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0040815583962106276,
+          "fx": 0,
+          "out": 0.002775459734408783,
+          "musicPeak": 0.04114980779269933,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 33,
+          "fxCount": 85,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 2,
+          "active": 0,
+          "pulls": 48,
+          "powderMarks": 10,
+          "powderApplied": 10,
+          "folds": 2,
+          "foldedWings": 2,
+          "mounts": 1,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -184,
+              -152
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 24.3,
+        "wallSeconds": 24.3,
+        "trusted": 259,
+        "downs": 20,
+        "moves": 120,
+        "actions": 110,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0030415669266518927,
+          "fx": 0,
+          "out": 0.002068265530356617,
+          "musicPeak": 0.04114980779269933,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 35,
+          "fxCount": 91,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 2,
+          "active": 0,
+          "pulls": 56,
+          "powderMarks": 11,
+          "powderApplied": 11,
+          "folds": 2,
+          "foldedWings": 2,
+          "mounts": 1,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 25.7,
+        "wallSeconds": 25.7,
+        "trusted": 270,
+        "downs": 22,
+        "moves": 128,
+        "actions": 111,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0016862469121880959,
+          "fx": 0,
+          "out": 0.001146647914972606,
+          "musicPeak": 0.04114980779269933,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 37,
+          "fxCount": 98,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 2,
+          "active": 0,
+          "pulls": 56,
+          "powderMarks": 20,
+          "powderApplied": 20,
+          "folds": 3,
+          "foldedWings": 3,
+          "mounts": 1,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 26.5,
+        "wallSeconds": 26.6,
+        "trusted": 280,
+        "downs": 23,
+        "moves": 136,
+        "actions": 112,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011989024111475602,
+          "fx": 0.004078482366116944,
+          "out": 0.008620909607026522,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 39,
+          "fxCount": 101,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 3,
+          "active": 0,
+          "pulls": 56,
+          "powderMarks": 20,
+          "powderApplied": 20,
+          "folds": 4,
+          "foldedWings": 4,
+          "mounts": 2,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 28.1,
+        "wallSeconds": 28.2,
+        "trusted": 299,
+        "downs": 25,
+        "moves": 152,
+        "actions": 113,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0007862655213917823,
+          "fx": 0,
+          "out": 0.000534660560293779,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 41,
+          "fxCount": 111,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 3,
+          "active": 0,
+          "pulls": 72,
+          "powderMarks": 20,
+          "powderApplied": 20,
+          "folds": 4,
+          "foldedWings": 4,
+          "mounts": 2,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -184,
+              -152
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 29.4,
+        "wallSeconds": 29.5,
+        "trusted": 310,
+        "downs": 27,
+        "moves": 160,
+        "actions": 114,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.039468376653676716,
+          "fx": 0,
+          "out": 0.026838496434656016,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 44,
+          "fxCount": 117,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 3,
+          "active": 0,
+          "pulls": 80,
+          "powderMarks": 21,
+          "powderApplied": 21,
+          "folds": 4,
+          "foldedWings": 4,
+          "mounts": 2,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 30.8,
+        "wallSeconds": 30.9,
+        "trusted": 321,
+        "downs": 29,
+        "moves": 168,
+        "actions": 115,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02131664581219101,
+          "fx": 0,
+          "out": 0.01449531928141806,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 46,
+          "fxCount": 124,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 3,
+          "active": 0,
+          "pulls": 80,
+          "powderMarks": 30,
+          "powderApplied": 30,
+          "folds": 5,
+          "foldedWings": 5,
+          "mounts": 2,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 31.7,
+        "wallSeconds": 31.7,
+        "trusted": 331,
+        "downs": 30,
+        "moves": 176,
+        "actions": 116,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0029335678686979285,
+          "fx": 0.010000923877167956,
+          "out": 0.006918596384017921,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 47,
+          "fxCount": 127,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 4,
+          "active": 0,
+          "pulls": 80,
+          "powderMarks": 30,
+          "powderApplied": 30,
+          "folds": 6,
+          "foldedWings": 6,
+          "mounts": 3,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 33.2,
+        "wallSeconds": 33.2,
+        "trusted": 350,
+        "downs": 32,
+        "moves": 192,
+        "actions": 117,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.036055279655477376,
+          "fx": 0,
+          "out": 0.024517590449726737,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 50,
+          "fxCount": 136,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 4,
+          "active": 1,
+          "pulls": 96,
+          "powderMarks": 30,
+          "powderApplied": 30,
+          "folds": 6,
+          "foldedWings": 6,
+          "mounts": 3,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              110,
+              -280
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0.95,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 34.6,
+        "wallSeconds": 34.7,
+        "trusted": 361,
+        "downs": 34,
+        "moves": 200,
+        "actions": 118,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00836750239640259,
+          "fx": 0,
+          "out": 0.005689901688950631,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 52,
+          "fxCount": 143,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 4,
+          "active": 0,
+          "pulls": 104,
+          "powderMarks": 31,
+          "powderApplied": 31,
+          "folds": 6,
+          "foldedWings": 6,
+          "mounts": 3,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 36,
+        "wallSeconds": 36.1,
+        "trusted": 372,
+        "downs": 36,
+        "moves": 208,
+        "actions": 119,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004589170285148617,
+          "fx": 0,
+          "out": 0.003120635826179302,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 54,
+          "fxCount": 150,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 4,
+          "active": 0,
+          "pulls": 104,
+          "powderMarks": 40,
+          "powderApplied": 40,
+          "folds": 7,
+          "foldedWings": 7,
+          "mounts": 3,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 36.9,
+        "wallSeconds": 36.9,
+        "trusted": 382,
+        "downs": 37,
+        "moves": 216,
+        "actions": 120,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 72,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.03678328233250407,
+          "fx": 0.004813026744901054,
+          "out": 0.025533619973842632,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 56,
+          "fxCount": 153,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 5,
+          "active": 0,
+          "pulls": 104,
+          "powderMarks": 40,
+          "powderApplied": 40,
+          "folds": 8,
+          "foldedWings": 8,
+          "mounts": 4,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 38.6,
+        "wallSeconds": 38.6,
+        "trusted": 401,
+        "downs": 39,
+        "moves": 232,
+        "actions": 121,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0054077461191309115,
+          "fx": 0,
+          "out": 0.0036772674089503754,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 58,
+          "fxCount": 163,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 5,
+          "active": 2,
+          "pulls": 120,
+          "powderMarks": 40,
+          "powderApplied": 40,
+          "folds": 8,
+          "foldedWings": 8,
+          "mounts": 4,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              110,
+              -280
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0.95,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 39.9,
+        "wallSeconds": 40,
+        "trusted": 412,
+        "downs": 41,
+        "moves": 240,
+        "actions": 122,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0008407816332108702,
+          "fx": 0,
+          "out": 0.0005717315174181436,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 60,
+          "fxCount": 170,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 5,
+          "active": 0,
+          "pulls": 128,
+          "powderMarks": 41,
+          "powderApplied": 41,
+          "folds": 8,
+          "foldedWings": 8,
+          "mounts": 4,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 41.4,
+        "wallSeconds": 41.4,
+        "trusted": 423,
+        "downs": 43,
+        "moves": 248,
+        "actions": 123,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011031764075948804,
+          "fx": 0,
+          "out": 0.007501599652121031,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 63,
+          "fxCount": 177,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 5,
+          "active": 0,
+          "pulls": 128,
+          "powderMarks": 50,
+          "powderApplied": 50,
+          "folds": 9,
+          "foldedWings": 9,
+          "mounts": 4,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 42.3,
+        "wallSeconds": 42.3,
+        "trusted": 433,
+        "downs": 44,
+        "moves": 256,
+        "actions": 124,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 71,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0015101672851126446,
+          "fx": 0.008275960332490655,
+          "out": 0.005595575590341545,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 64,
+          "fxCount": 180,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 0,
+          "pulls": 128,
+          "powderMarks": 50,
+          "powderApplied": 50,
+          "folds": 10,
+          "foldedWings": 10,
+          "mounts": 5,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 44.1,
+        "wallSeconds": 44.2,
+        "trusted": 452,
+        "downs": 46,
+        "moves": 272,
+        "actions": 125,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.002249032836067338,
+          "fx": 0,
+          "out": 0.0015293423417117992,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 67,
+          "fxCount": 190,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 3,
+          "pulls": 144,
+          "powderMarks": 50,
+          "powderApplied": 50,
+          "folds": 10,
+          "foldedWings": 10,
+          "mounts": 5,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              110,
+              -280
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0.95,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 45.6,
+        "wallSeconds": 45.7,
+        "trusted": 463,
+        "downs": 48,
+        "moves": 280,
+        "actions": 126,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.02255500621418163,
+          "fx": 0,
+          "out": 0.015337404372675396,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 70,
+          "fxCount": 197,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 6,
+          "active": 0,
+          "pulls": 152,
+          "powderMarks": 51,
+          "powderApplied": 51,
+          "folds": 10,
+          "foldedWings": 10,
+          "mounts": 5,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 47.1,
+        "wallSeconds": 47.1,
+        "trusted": 474,
+        "downs": 50,
+        "moves": 288,
+        "actions": 127,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 70,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0068850901684728355,
+          "fx": 0,
+          "out": 0.004681861361781166,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 72,
+          "fxCount": 205,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 6,
+          "active": 0,
+          "pulls": 152,
+          "powderMarks": 60,
+          "powderApplied": 60,
+          "folds": 11,
+          "foldedWings": 11,
+          "mounts": 5,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 48.2,
+        "wallSeconds": 48.2,
+        "trusted": 484,
+        "downs": 51,
+        "moves": 296,
+        "actions": 128,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.020189426597181575,
+          "fx": 0.0013127075545110555,
+          "out": 0.013669559708238863,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 74,
+          "fxCount": 208,
+          "activeVoices": 4,
+          "connectedNodes": 14,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 0,
+          "pulls": 152,
+          "powderMarks": 50,
+          "powderApplied": 60,
+          "folds": 12,
+          "foldedWings": 10,
+          "mounts": 6,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 49.9,
+        "wallSeconds": 49.9,
+        "trusted": 503,
+        "downs": 53,
+        "moves": 312,
+        "actions": 129,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.009114345177679608,
+          "fx": 0,
+          "out": 0.006197754782036046,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 77,
+          "fxCount": 218,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 4,
+          "pulls": 168,
+          "powderMarks": 50,
+          "powderApplied": 60,
+          "folds": 12,
+          "foldedWings": 10,
+          "mounts": 6,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              110,
+              -280
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0.95,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 51.4,
+        "wallSeconds": 51.4,
+        "trusted": 514,
+        "downs": 55,
+        "moves": 320,
+        "actions": 130,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 69,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.006558720209585623,
+          "fx": 0,
+          "out": 0.004459929788822985,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 79,
+          "fxCount": 225,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 6,
+          "active": 0,
+          "pulls": 176,
+          "powderMarks": 51,
+          "powderApplied": 61,
+          "folds": 12,
+          "foldedWings": 10,
+          "mounts": 6,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 52.9,
+        "wallSeconds": 53,
+        "trusted": 525,
+        "downs": 57,
+        "moves": 328,
+        "actions": 131,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 68,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0008220572496374201,
+          "fx": 0,
+          "out": 0.0005589989362898535,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 81,
+          "fxCount": 233,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 6,
+          "active": 0,
+          "pulls": 176,
+          "powderMarks": 60,
+          "powderApplied": 70,
+          "folds": 13,
+          "foldedWings": 11,
+          "mounts": 6,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 54,
+        "wallSeconds": 54,
+        "trusted": 535,
+        "downs": 58,
+        "moves": 336,
+        "actions": 132,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 68,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.004456978533925203,
+          "fx": 0.00705606318088307,
+          "out": 0.005638607473532836,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 83,
+          "fxCount": 236,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 0,
+          "pulls": 176,
+          "powderMarks": 50,
+          "powderApplied": 70,
+          "folds": 14,
+          "foldedWings": 10,
+          "mounts": 7,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 55.9,
+        "wallSeconds": 55.9,
+        "trusted": 554,
+        "downs": 60,
+        "moves": 352,
+        "actions": 133,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 68,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.006483951327263377,
+          "fx": 0,
+          "out": 0.004409086957554756,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 86,
+          "fxCount": 246,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 5,
+          "pulls": 192,
+          "powderMarks": 50,
+          "powderApplied": 70,
+          "folds": 14,
+          "foldedWings": 10,
+          "mounts": 7,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -74
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              110,
+              -280
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0.95,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 57.4,
+        "wallSeconds": 57.5,
+        "trusted": 565,
+        "downs": 62,
+        "moves": 360,
+        "actions": 134,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 67,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.019039613560541922,
+          "fx": 0,
+          "out": 0.012946937401808321,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 89,
+          "fxCount": 253,
+          "activeVoices": 2,
+          "connectedNodes": 10,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 6,
+          "active": 0,
+          "pulls": 200,
+          "powderMarks": 51,
+          "powderApplied": 71,
+          "folds": 14,
+          "foldedWings": 10,
+          "mounts": 7,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 58.9,
+        "wallSeconds": 58.9,
+        "trusted": 576,
+        "downs": 64,
+        "moves": 368,
+        "actions": 135,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 67,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.00392250920898721,
+          "fx": 0,
+          "out": 0.002667306287521153,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 91,
+          "fxCount": 261,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 6,
+          "active": 0,
+          "pulls": 200,
+          "powderMarks": 60,
+          "powderApplied": 80,
+          "folds": 15,
+          "foldedWings": 11,
+          "mounts": 7,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "mount",
+        "buttonOnly": true
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 59.9,
+        "wallSeconds": 60,
+        "trusted": 586,
+        "downs": 65,
+        "moves": 376,
+        "actions": 136,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 67,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.017740104769904348,
+          "fx": 0.008298165759342958,
+          "out": 0.01318335581463469,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 93,
+          "fxCount": 264,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 0,
+          "pulls": 200,
+          "powderMarks": 50,
+          "powderApplied": 80,
+          "folds": 16,
+          "foldedWings": 10,
+          "mounts": 8,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -340,
+              -183
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "needle",
+        "from": [
+          0.18,
+          0.22
+        ],
+        "to": [
+          0.11,
+          0.16
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 61.8,
+        "wallSeconds": 61.8,
+        "trusted": 605,
+        "downs": 67,
+        "moves": 392,
+        "actions": 137,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 67,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0214870288560894,
+          "fx": 0,
+          "out": 0.014611179678136275,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 96,
+          "fxCount": 274,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "needle",
+          "moths": 6,
+          "active": 1,
+          "pulls": 216,
+          "powderMarks": 50,
+          "powderApplied": 80,
+          "folds": 16,
+          "foldedWings": 10,
+          "mounts": 8,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              110,
+              -280
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0.95,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "powder",
+        "from": [
+          0.33,
+          0.34
+        ],
+        "to": [
+          0.33,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 63.2,
+        "wallSeconds": 63.2,
+        "trusted": 616,
+        "downs": 69,
+        "moves": 400,
+        "actions": 138,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 67,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.011435773120279318,
+          "fx": 0,
+          "out": 0.007776325783704792,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 98,
+          "fxCount": 281,
+          "activeVoices": 3,
+          "connectedNodes": 12,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "powder",
+          "moths": 6,
+          "active": 0,
+          "pulls": 224,
+          "powderMarks": 51,
+          "powderApplied": 81,
+          "folds": 16,
+          "foldedWings": 10,
+          "mounts": 8,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": []
+      }
+    },
+    {
+      "step": {
+        "control": "fold",
+        "from": [
+          0.68,
+          0.34
+        ],
+        "to": [
+          0.68,
+          0.34
+        ]
+      },
+      "qa": {
+        "title": "绒羽月蛾",
+        "elapsed": 64.6,
+        "wallSeconds": 64.7,
+        "trusted": 627,
+        "downs": 71,
+        "moves": 408,
+        "actions": 139,
+        "resets": 3,
+        "resizes": 4,
+        "viewport": [
+          390,
+          646.609375
+        ],
+        "fps": 67,
+        "maxFrameMs": 134,
+        "muted": false,
+        "audioState": "running",
+        "audio": {
+          "music": 0.0010105278345522548,
+          "fx": 0,
+          "out": 0.0006871589348626635,
+          "musicPeak": 0.04967757210568955,
+          "fxPeak": 0.0698250916393003,
+          "outPeak": 0.0550041190406245,
+          "musicCount": 100,
+          "fxCount": 289,
+          "activeVoices": 1,
+          "connectedNodes": 8,
+          "suspended": false,
+          "maxVoices": 8,
+          "limit": 18
+        },
+        "art": {
+          "mode": "fold",
+          "moths": 6,
+          "active": 0,
+          "pulls": 224,
+          "powderMarks": 60,
+          "powderApplied": 90,
+          "folds": 17,
+          "foldedWings": 11,
+          "mounts": 8,
+          "dyes": 0,
+          "wingPins": [
+            [
+              -110,
+              -65
+            ],
+            [
+              -243,
+              207
+            ],
+            [
+              340,
+              -183
+            ],
+            [
+              243,
+              207
+            ]
+          ],
+          "foldAmount": [
+            0,
+            0,
+            0.88,
+            0
+          ]
+        },
+        "errors": []
+      }
+    }
+  ],
+  "htmlSHA": "114a966b78f2cec3226bf7f916f308d9988b68f56ddc64de1880d7258534ec3b",
+  "initial": {
+    "title": "绒羽月蛾",
+    "elapsed": 0.3,
+    "wallSeconds": 0.3,
+    "trusted": 0,
+    "downs": 0,
+    "moves": 0,
+    "actions": 0,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 69,
+    "maxFrameMs": 26,
+    "muted": false,
+    "audioState": "locked",
+    "audio": {
+      "music": 0,
+      "fx": 0,
+      "out": 0,
+      "musicPeak": 0,
+      "fxPeak": 0,
+      "outPeak": 0,
+      "musicCount": 0,
+      "fxCount": 0,
+      "activeVoices": 0,
+      "connectedNodes": 0,
+      "suspended": true,
+      "maxVoices": 0,
+      "limit": 18
+    },
+    "art": {
+      "mode": "needle",
+      "moths": 1,
+      "active": 0,
+      "pulls": 0,
+      "powderMarks": 0,
+      "powderApplied": 0,
+      "folds": 0,
+      "foldedWings": 0,
+      "mounts": 0,
+      "dyes": 0,
+      "wingPins": [
+        [
+          -340,
+          -183
+        ],
+        [
+          -243,
+          207
+        ],
+        [
+          340,
+          -183
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "errors": []
+  },
+  "composed": {
+    "title": "绒羽月蛾",
+    "elapsed": 2.9,
+    "wallSeconds": 2.9,
+    "trusted": 15,
+    "downs": 3,
+    "moves": 8,
+    "actions": 4,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 74,
+    "maxFrameMs": 134,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.001771988408891207,
+      "fx": 0.002314179850405458,
+      "out": 0.0017988158321846162,
+      "musicPeak": 0.03463567282788192,
+      "fxPeak": 0.03962591497465249,
+      "outPeak": 0.027357625295108386,
+      "musicCount": 4,
+      "fxCount": 10,
+      "activeVoices": 2,
+      "connectedNodes": 10,
+      "suspended": false,
+      "maxVoices": 5,
+      "limit": 18
+    },
+    "art": {
+      "mode": "needle",
+      "moths": 2,
+      "active": 0,
+      "pulls": 8,
+      "powderMarks": 1,
+      "powderApplied": 1,
+      "folds": 1,
+      "foldedWings": 1,
+      "mounts": 1,
+      "dyes": 0,
+      "wingPins": [
+        [
+          -340,
+          -183
+        ],
+        [
+          -243,
+          207
+        ],
+        [
+          340,
+          -183
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "errors": []
+  },
+  "stress": {
+    "title": "绒羽月蛾",
+    "elapsed": 10.6,
+    "wallSeconds": 10.7,
+    "trusted": 114,
+    "downs": 3,
+    "moves": 8,
+    "actions": 103,
+    "resets": 0,
+    "resizes": 2,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 62,
+    "maxFrameMs": 134,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.025377515835804068,
+      "fx": 0,
+      "out": 0.017256711055110514,
+      "musicPeak": 0.039869192599778336,
+      "fxPeak": 0.03962591497465249,
+      "outPeak": 0.027357625295108386,
+      "musicCount": 17,
+      "fxCount": 34,
+      "activeVoices": 3,
+      "connectedNodes": 12,
+      "suspended": false,
+      "maxVoices": 5,
+      "limit": 18
+    },
+    "art": {
+      "mode": "fold",
+      "moths": 6,
+      "active": 0,
+      "pulls": 8,
+      "powderMarks": 0,
+      "powderApplied": 1,
+      "folds": 1,
+      "foldedWings": 0,
+      "mounts": 25,
+      "dyes": 0,
+      "wingPins": [
+        [
+          -340,
+          -183
+        ],
+        [
+          -243,
+          207
+        ],
+        [
+          340,
+          -183
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "errors": []
+  },
+  "resizePreserved": true,
+  "blur": {
+    "title": "绒羽月蛾",
+    "elapsed": 17,
+    "wallSeconds": 17,
+    "trusted": 178,
+    "downs": 9,
+    "moves": 56,
+    "actions": 104,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 67,
+    "maxFrameMs": 134,
+    "muted": false,
+    "audioState": "suspended",
+    "audio": {
+      "music": 0.005221925211695496,
+      "fx": 0,
+      "out": 0.003550909173478806,
+      "musicPeak": 0.039869192599778336,
+      "fxPeak": 0.04283706311295158,
+      "outPeak": 0.030663988006844983,
+      "musicCount": 23,
+      "fxCount": 50,
+      "activeVoices": 0,
+      "connectedNodes": 6,
+      "suspended": true,
+      "maxVoices": 5,
+      "limit": 18
+    },
+    "art": {
+      "mode": "needle",
+      "moths": 1,
+      "active": 0,
+      "pulls": 8,
+      "powderMarks": 0,
+      "powderApplied": 0,
+      "folds": 0,
+      "foldedWings": 0,
+      "mounts": 0,
+      "dyes": 0,
+      "wingPins": [
+        [
+          -340,
+          -183
+        ],
+        [
+          -243,
+          207
+        ],
+        [
+          410,
+          -144
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "errors": []
+  },
+  "blurTrusted": true,
+  "nodesAfterBlur": 0,
+  "connectedAfterBlur": 6,
+  "durationSeconds": 65.26,
+  "final": {
+    "title": "绒羽月蛾",
+    "elapsed": 65.6,
+    "wallSeconds": 65.6,
+    "trusted": 636,
+    "downs": 72,
+    "moves": 416,
+    "actions": 139,
+    "resets": 3,
+    "resizes": 4,
+    "viewport": [
+      390,
+      646.609375
+    ],
+    "fps": 66,
+    "maxFrameMs": 134,
+    "muted": false,
+    "audioState": "running",
+    "audio": {
+      "music": 0.024700326667101376,
+      "fx": 0,
+      "out": 0.016796222324498063,
+      "musicPeak": 0.04967757210568955,
+      "fxPeak": 0.0698250916393003,
+      "outPeak": 0.0550041190406245,
+      "musicCount": 102,
+      "fxCount": 291,
+      "activeVoices": 3,
+      "connectedNodes": 12,
+      "suspended": false,
+      "maxVoices": 8,
+      "limit": 18
+    },
+    "art": {
+      "mode": "fold",
+      "moths": 6,
+      "active": 0,
+      "pulls": 224,
+      "powderMarks": 60,
+      "powderApplied": 90,
+      "folds": 18,
+      "foldedWings": 12,
+      "mounts": 8,
+      "dyes": 0,
+      "wingPins": [
+        [
+          -110,
+          -65
+        ],
+        [
+          -243,
+          207
+        ],
+        [
+          340,
+          -183
+        ],
+        [
+          243,
+          207
+        ]
+      ],
+      "foldAmount": [
+        0.95,
+        0,
+        0.88,
+        0
+      ]
+    },
+    "errors": []
+  },
+  "buttons": [
+    {
+      "text": "声音开启",
+      "height": 44,
+      "right": 301,
+      "bottom": 54
+    },
+    {
+      "text": "重新开始",
+      "height": 44,
+      "right": 378,
+      "bottom": 54
+    },
+    {
+      "text": "牵针塑翅",
+      "height": 44,
+      "right": 94,
+      "bottom": 784
+    },
+    {
+      "text": "压粉眼斑",
+      "height": 44,
+      "right": 182,
+      "bottom": 784
+    },
+    {
+      "text": "折叠翅瓣",
+      "height": 44,
+      "right": 270,
+      "bottom": 784
+    },
+    {
+      "text": "留蛾入册",
+      "height": 44,
+      "right": 358,
+      "bottom": 784
+    },
+    {
+      "text": "换绒染色",
+      "height": 44,
+      "right": 94,
+      "bottom": 834
+    }
+  ],
+  "heap": {
+    "usedSize": 3157360,
+    "totalSize": 13565952,
+    "embedderHeapUsedSize": 1337048,
+    "backingStorageSize": 27287
+  },
+  "pagehide": {
+    "trusted": true,
+    "nodes": 2,
+    "state": "suspended",
+    "qa": {
+      "title": "绒羽月蛾",
+      "elapsed": 65.7,
+      "wallSeconds": 65.7,
+      "trusted": 636,
+      "downs": 72,
+      "moves": 416,
+      "actions": 139,
+      "resets": 3,
+      "resizes": 4,
+      "viewport": [
+        390,
+        646.609375
+      ],
+      "fps": 67,
+      "maxFrameMs": 134,
+      "muted": false,
+      "audioState": "running",
+      "audio": {
+        "music": 0.01469231648948379,
+        "fx": 0,
+        "out": 0.009990775296035622,
+        "musicPeak": 0.04967757210568955,
+        "fxPeak": 0.0698250916393003,
+        "outPeak": 0.0550041190406245,
+        "musicCount": 102,
+        "fxCount": 291,
+        "activeVoices": 3,
+        "connectedNodes": 12,
+        "suspended": false,
+        "maxVoices": 8,
+        "limit": 18
+      },
+      "art": {
+        "mode": "fold",
+        "moths": 6,
+        "active": 0,
+        "pulls": 224,
+        "powderMarks": 60,
+        "powderApplied": 90,
+        "folds": 18,
+        "foldedWings": 12,
+        "mounts": 8,
+        "dyes": 0,
+        "wingPins": [
+          [
+            -110,
+            -65
+          ],
+          [
+            -243,
+            207
+          ],
+          [
+            340,
+            -183
+          ],
+          [
+            243,
+            207
+          ]
+        ],
+        "foldAmount": [
+          0.95,
+          0,
+          0.88,
+          0
+        ]
+      },
+      "errors": []
+    }
+  },
+  "assertions": {
+    "initialLocked": true,
+    "realInputs": true,
+    "musicNonzero": true,
+    "fxNonzero": true,
+    "outputNonzero": true,
+    "muteZero": true,
+    "resetPreservesMute": true,
+    "blurTrusted": true,
+    "blurSuspended": true,
+    "blurReclaims": true,
+    "pagehideTrusted": true,
+    "resizePreserved": true,
+    "voiceLimit": true,
+    "duration": true,
+    "noErrors": true,
+    "buttonTargets": true,
+    "noExternal": true,
+    "fps": true,
+    "heapBound": true
+  },
+  "pass": true
+}

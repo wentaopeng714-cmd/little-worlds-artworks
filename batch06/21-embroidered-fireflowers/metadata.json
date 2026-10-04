@@ -1,0 +1,124 @@
+{
+  "number": 21,
+  "slug": "21-embroidered-fireflowers",
+  "title": "绣球礼焰",
+  "group": "G",
+  "mothers": [
+    "generative_fireworks_studio.html"
+  ],
+  "innovation": "点珠射线花编成花序，拉瓣、系花、旋拍与开放/收束",
+  "description": "点出珠线礼焰，拉瓣变花形，系成花序再旋拍、轮流开放。",
+  "ui": {
+    "bg": "#090b0e",
+    "ink": "#dedfc5",
+    "accent": "#f0a8b9"
+  },
+  "controls": [
+    {
+      "id": "plant",
+      "label": "添礼焰"
+    },
+    {
+      "id": "stretch",
+      "label": "拉花瓣"
+    },
+    {
+      "id": "tie",
+      "label": "系花序"
+    },
+    {
+      "id": "twist",
+      "label": "旋花拍"
+    },
+    {
+      "id": "pulse",
+      "label": "轮放"
+    }
+  ],
+  "newMechanics": [
+    "点珠花持续保留并编成花序",
+    "拉瓣改变偏心与多层珠环",
+    "系花顺序决定轮放顺序",
+    "旋花对连接花团传递旋转与开合"
+  ],
+  "artDirection": [
+    "母本黑底薄环、点珠、暗色同心射线",
+    "粉青橙紫嫩绿协调，密度有主次",
+    "连接组成吊绣花序，收展留下结果"
+  ],
+  "testPlan": [
+    {
+      "control": "plant",
+      "from": [
+        0.42,
+        0.16
+      ],
+      "to": [
+        0.42,
+        0.16
+      ],
+      "hold": 650
+    },
+    {
+      "control": "stretch",
+      "from": [
+        0.5,
+        0.32
+      ],
+      "to": [
+        0.64,
+        0.44
+      ],
+      "hold": 650
+    },
+    {
+      "control": "tie",
+      "from": [
+        0.23,
+        0.22
+      ],
+      "to": [
+        0.68,
+        0.61
+      ],
+      "hold": 650
+    },
+    {
+      "control": "twist",
+      "from": [
+        0.68,
+        0.61
+      ],
+      "to": [
+        0.74,
+        0.53
+      ],
+      "hold": 650
+    },
+    {
+      "control": "pulse",
+      "from": [
+        0.5,
+        0.32
+      ],
+      "to": [
+        0.5,
+        0.32
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "bounded",
+    "mode",
+    "status",
+    "processed",
+    "persistentResult",
+    "flowers",
+    "links",
+    "pulsing",
+    "stretched",
+    "rotations"
+  ],
+  "css": "header h1{letter-spacing:.08em}"
+}

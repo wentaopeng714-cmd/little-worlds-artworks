@@ -1,0 +1,107 @@
+{
+  "number": 5,
+  "slug": "05-ink-tornado",
+  "title": "拓墨龙卷",
+  "group": "F",
+  "mothers": [
+    "pseudo_ink_drawing.html"
+  ],
+  "description": "湿墨拖出分叉墨丝；拨卷改变墨团，吸墨留白，转印后继续叠染与干湿切换。",
+  "ui": {
+    "bg": "#c37b32",
+    "ink": "#302326",
+    "accent": "#58436d"
+  },
+  "controls": [
+    {
+      "id": "wet",
+      "label": "湿墨生丝"
+    },
+    {
+      "id": "curl",
+      "label": "拨卷"
+    },
+    {
+      "id": "absorb",
+      "label": "吸墨隔版"
+    },
+    {
+      "id": "transfer",
+      "label": "翻纸转印"
+    },
+    {
+      "id": "dry",
+      "label": "干湿切换"
+    }
+  ],
+  "newMechanics": [
+    "透明墨丝一次分叉受控",
+    "湿墨持续长形",
+    "拨卷改墨团朝向与扭曲",
+    "吸墨隔版形成留白",
+    "翻纸转印与原版叠染"
+  ],
+  "artDirection": [
+    "赭纸纤维颗粒",
+    "多色透明递归枝丝",
+    "墨团卷成非对称龙卷与拓印"
+  ],
+  "testPlan": [
+    {
+      "control": "wet",
+      "from": [
+        0.35,
+        0.7
+      ],
+      "to": [
+        0.53,
+        0.23
+      ],
+      "hold": 1000
+    },
+    {
+      "control": "curl",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.72,
+        0.58
+      ],
+      "hold": 900
+    },
+    {
+      "control": "absorb",
+      "from": [
+        0.42,
+        0.45
+      ],
+      "to": [
+        0.54,
+        0.42
+      ],
+      "hold": 650
+    },
+    {
+      "control": "transfer",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": {
+    "inkPatches": "湿墨后增加；计数最多999，活墨丝上限3200",
+    "absorbMasks": "吸墨后>0",
+    "prints": "转印后>0",
+    "dry": "切换干湿状态",
+    "liveInkThreads": "湿墨时>0，最多3200；干版冻结",
+    "curlFields": "拨卷后>0，最多6"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "number": 34,
+  "slug": "34-paper-snake-machine",
+  "title": "纸蛇拉面机",
+  "group": "T",
+  "mothers": [
+    "jackpot_pull.html"
+  ],
+  "innovation": "有孔纸链伸缩拉撕，接回变纸蛇、折叠蓄力、甩尾与多节摆动",
+  "description": "拉长有孔纸蛇、拖动盘绕，撕下入碗；接回整碗再拉、调味重排，让纸链不断再加工。",
+  "ui": {
+    "bg": "#42b096",
+    "ink": "#25352c",
+    "accent": "#f5c543"
+  },
+  "controls": [
+    {
+      "id": "pull",
+      "label": "牵头加长"
+    },
+    {
+      "id": "curl",
+      "label": "盘绕纸蛇"
+    },
+    {
+      "id": "join",
+      "label": "接回长链"
+    },
+    {
+      "id": "tear",
+      "label": "撕下入碗"
+    },
+    {
+      "id": "spice",
+      "label": "换味摆席"
+    },
+    {
+      "id": "reverse",
+      "label": "纸链逆转"
+    }
+  ],
+  "newMechanics": [
+    "纸蛇头位置与链长改变整条曲线，不同卷度形成大轮廓差异",
+    "撕下的长链持久盘入汤碗，可接回再加工",
+    "调味染纸、摆席、逆转与接回保留链材质"
+  ],
+  "artDirection": [
+    "青绿场、侧置红色拉面机与白铁滚槽",
+    "蛋黄连孔纸蛇，细框表情头与密纸边节纹",
+    "暖汤象牙碗、盘绕整链与纸屑爆开"
+  ],
+  "testPlan": [
+    {
+      "control": "pull",
+      "from": [
+        0.65,
+        0.56
+      ],
+      "to": [
+        0.73,
+        0.65
+      ],
+      "hold": 500
+    },
+    {
+      "control": "curl",
+      "from": [
+        0.65,
+        0.56
+      ],
+      "to": [
+        0.45,
+        0.46
+      ],
+      "hold": 500
+    },
+    {
+      "control": "tear",
+      "from": [
+        0.65,
+        0.56
+      ],
+      "to": [
+        0.67,
+        0.56
+      ],
+      "hold": 300
+    },
+    {
+      "control": "join",
+      "from": [
+        0.54,
+        0.66
+      ],
+      "to": [
+        0.55,
+        0.67
+      ],
+      "hold": 300
+    }
+  ],
+  "stateFields": {
+    "segments": "牵头加长，限制7–32节",
+    "bowls": "撕下保存为碗，最多6",
+    "joins": "接回后增加且碗减少",
+    "curl": "盘绕后0.1–1.35之间改变"
+  },
+  "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}button{box-shadow:2px 2px 0 var(--ink);background:#fff1d8;color:#142a18}button.active{background:var(--accent);color:#142a18}"
+}

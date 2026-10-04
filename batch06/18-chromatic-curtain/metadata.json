@@ -1,0 +1,123 @@
+{
+  "number": 18,
+  "slug": "18-chromatic-curtain",
+  "title": "拼色折幕",
+  "group": "G",
+  "mothers": [
+    "code_artifact.html"
+  ],
+  "innovation": "纸色弧面织幕压折、错列、局部揭开与纹理投墨",
+  "description": "把相邻弧片组成的纸色幕压成窄褶；错动一行、揭开局部，再让纹理墨流过同色片。",
+  "ui": {
+    "bg": "#573f42",
+    "ink": "#edddc3",
+    "accent": "#98bbb0"
+  },
+  "controls": [
+    {
+      "id": "fold",
+      "label": "整列压折"
+    },
+    {
+      "id": "stagger",
+      "label": "错动横列"
+    },
+    {
+      "id": "peel",
+      "label": "揭开幕片"
+    },
+    {
+      "id": "ink",
+      "label": "纹理投墨"
+    },
+    {
+      "id": "roll",
+      "label": "卷收展开"
+    },
+    {
+      "id": "flat",
+      "label": "铺平留墨"
+    }
+  ],
+  "newMechanics": [
+    "列宽真实收窄改变整幅轮廓",
+    "行错位持久保存",
+    "单片绕上缘翻起露织纹背层",
+    "同色域一次投墨且保留印压点",
+    "卷收与已留墨/揭片组合"
+  ],
+  "artDirection": [
+    "保留用户母本邻接圆角和大片纸色连续区域，整幅布面以连片结构表现",
+    "朱陶、灰青、矿金、藕粉协调分区，织纹背层、细纸纤维、窄褶阴影"
+  ],
+  "testPlan": [
+    {
+      "control": "fold",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "stagger",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "peel",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "ink",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "roll",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    }
+  ],
+  "stateFields": [
+    "foldDepths拖压列持久变化",
+    "rowOffsets错行持久变化",
+    "peeledCells揭片增加",
+    "inkedCells投墨后增加",
+    "queue最终0",
+    "rolled卷收true再点false"
+  ]
+}

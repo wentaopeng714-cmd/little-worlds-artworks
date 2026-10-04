@@ -1,0 +1,123 @@
+{
+  "number": 29,
+  "slug": "29-titanium-diva",
+  "title": "钛羽歌姬",
+  "group": "T",
+  "mothers": [
+    "project_valkyrie_cyber_android_studio.html"
+  ],
+  "innovation": "多层赛博肖像，拆羽甲、调虹膜、超频与冷却，至少三种真实轮廓变化",
+  "description": "三套面甲、发片和耳翼可换。拖虹膜、展开耳翼；超频唱出大嘴型并发热，追踪三靶训练，揉动冷却。",
+  "ui": {
+    "bg": "#dde2e8",
+    "ink": "#536179",
+    "accent": "#7dc9bd"
+  },
+  "controls": [
+    {
+      "id": "form",
+      "label": "换装甲"
+    },
+    {
+      "id": "iris",
+      "label": "虹膜追踪"
+    },
+    {
+      "id": "wing",
+      "label": "展开耳翼"
+    },
+    {
+      "id": "drive",
+      "label": "超频演唱"
+    },
+    {
+      "id": "cool",
+      "label": "揉动冷却"
+    },
+    {
+      "id": "train",
+      "label": "三靶训练"
+    }
+  ],
+  "artDirection": [
+    "奶油陶瓷脸与逐层金属装甲",
+    "多环放射虹膜和密集发片细缝",
+    "三套羽冠、短甲、双流真实轮廓及HUD"
+  ],
+  "newMechanics": [
+    "换装甲更换羽冠巡演、短甲领唱、双流高音三套面甲／发片／耳翼真实轮廓",
+    "虹膜追踪横拖改变瞳孔视线",
+    "展开耳翼改变侧翼角度并加速散热，短甲散热倍率更高",
+    "超频演唱张嘴并积累热量，过热自动停止训练和超频",
+    "揉动冷却按真实拖动距离降温，展开耳翼提高揉冷效率",
+    "三靶训练依次触碰画面十字靶，积累训练记录与热量"
+  ],
+  "testPlan": [
+    {
+      "control": "form",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 50
+    },
+    {
+      "control": "wing",
+      "from": [
+        0.7,
+        0.4
+      ],
+      "to": [
+        0.9,
+        0.28
+      ],
+      "hold": 250
+    },
+    {
+      "control": "drive",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 50
+    },
+    {
+      "control": "train",
+      "from": [
+        0.3,
+        0.29
+      ],
+      "to": [
+        0.7,
+        0.4
+      ],
+      "hold": 200
+    },
+    {
+      "control": "cool",
+      "from": [
+        0.35,
+        0.4
+      ],
+      "to": [
+        0.7,
+        0.4
+      ],
+      "hold": 300
+    }
+  ],
+  "stateFields": [
+    "form:0/1/2",
+    "wing/iris/mouth",
+    "heat/drive/training",
+    "step/cycles/cools/history<=6"
+  ]
+}

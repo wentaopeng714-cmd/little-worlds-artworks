@@ -1,0 +1,123 @@
+{
+  "number": 12,
+  "slug": "12-luminous-terraces",
+  "title": "荧浆梯田",
+  "group": "F",
+  "mothers": [
+    "neon_staircase_waterway.html"
+  ],
+  "innovation": "阶渠筑坝、放闸、彩浆混流、反流与结晶蓄池",
+  "description": "紫白冰蓝细丝沿阶田落下；筑坝真实蓄池，放闸流向下阶，结晶与融化可组合。",
+  "ui": {
+    "bg": "#0d1020",
+    "ink": "#d7d3ef",
+    "accent": "#78d4e7"
+  },
+  "controls": [
+    {
+      "id": "source",
+      "label": "注浆蓄池"
+    },
+    {
+      "id": "dam",
+      "label": "筑坝收流"
+    },
+    {
+      "id": "gate",
+      "label": "放闸倾落"
+    },
+    {
+      "id": "backflow",
+      "label": "阶流逆向"
+    },
+    {
+      "id": "crystal",
+      "label": "局部结晶"
+    },
+    {
+      "id": "thaw",
+      "label": "融晶续流"
+    }
+  ],
+  "newMechanics": [
+    "六阶池独立水量",
+    "关闸累积/开闸向邻阶转移",
+    "冻结局部阶池暂停细丝",
+    "反向跨阶流动",
+    "结晶保留密线纹再融续流"
+  ],
+  "artDirection": [
+    "继承紫白冰蓝阶瀑细丝",
+    "5600根阶流丝＋2800根跨阶落丝，层叠弯曲池纹",
+    "实际蓄池深度改变与闸门"
+  ],
+  "testPlan": [
+    {
+      "control": "source",
+      "from": [
+        0.36,
+        0.42
+      ],
+      "to": [
+        0.5,
+        0.46
+      ],
+      "hold": 1100
+    },
+    {
+      "control": "dam",
+      "from": [
+        0.36,
+        0.42
+      ],
+      "to": [
+        0.5,
+        0.46
+      ],
+      "hold": 1100
+    },
+    {
+      "control": "gate",
+      "from": [
+        0.36,
+        0.42
+      ],
+      "to": [
+        0.5,
+        0.46
+      ],
+      "hold": 1100
+    },
+    {
+      "control": "crystal",
+      "from": [
+        0.36,
+        0.42
+      ],
+      "to": [
+        0.5,
+        0.46
+      ],
+      "hold": 1100
+    },
+    {
+      "control": "thaw",
+      "from": [
+        0.36,
+        0.42
+      ],
+      "to": [
+        0.5,
+        0.46
+      ],
+      "hold": 1100
+    }
+  ],
+  "stateFields": [
+    "waterLevels蓄/放改变",
+    "closedGates筑/放改变",
+    "frozenPools结/融改变",
+    "releases开闸增长",
+    "flowingStrands关闸/结晶后减少"
+  ]
+}

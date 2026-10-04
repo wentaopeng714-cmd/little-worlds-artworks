@@ -1,0 +1,123 @@
+{
+  "number": 19,
+  "slug": "19-pointillist-salt-lake",
+  "title": "点彩盐湖",
+  "group": "G",
+  "mothers": [
+    "pointillism_landscape.html"
+  ],
+  "innovation": "网点风景拖潮线，挪光、聚散云点、晒盐与倒影重组",
+  "description": "在纸上拖潮、挪光、聚云；晒出的盐晶会保留，再用回水溶开。",
+  "ui": {
+    "bg": "#20282e",
+    "ink": "#f5e9d9",
+    "accent": "#ec957f"
+  },
+  "controls": [
+    {
+      "id": "tide",
+      "label": "拖潮线"
+    },
+    {
+      "id": "sun",
+      "label": "挪日光"
+    },
+    {
+      "id": "cloud",
+      "label": "聚散云"
+    },
+    {
+      "id": "salt",
+      "label": "晒盐"
+    },
+    {
+      "id": "wash",
+      "label": "回水"
+    }
+  ],
+  "newMechanics": [
+    "潮线形变改变盐区与倒影边界",
+    "移动日光改变网点太阳、长倒影与结晶",
+    "云点聚散形成保留的孔洞与云团",
+    "晒盐后可重新回水溶解"
+  ],
+  "artDirection": [
+    "母本规则半色调网点与纸白孔隙",
+    "珊瑚盐岸、淡紫云、青绿湖与赭远山",
+    "全幅竖横自适应纸画框"
+  ],
+  "testPlan": [
+    {
+      "control": "tide",
+      "from": [
+        0.32,
+        0.68
+      ],
+      "to": [
+        0.64,
+        0.54
+      ],
+      "hold": 650
+    },
+    {
+      "control": "sun",
+      "from": [
+        0.71,
+        0.2
+      ],
+      "to": [
+        0.28,
+        0.2
+      ],
+      "hold": 650
+    },
+    {
+      "control": "cloud",
+      "from": [
+        0.27,
+        0.2
+      ],
+      "to": [
+        0.6,
+        0.15
+      ],
+      "hold": 650
+    },
+    {
+      "control": "salt",
+      "from": [
+        0.32,
+        0.75
+      ],
+      "to": [
+        0.65,
+        0.79
+      ],
+      "hold": 650
+    },
+    {
+      "control": "wash",
+      "from": [
+        0.45,
+        0.75
+      ],
+      "to": [
+        0.55,
+        0.8
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "bounded",
+    "mode",
+    "status",
+    "processed",
+    "persistentResult",
+    "crystalClusters",
+    "shoreMean",
+    "sun",
+    "cloudCount"
+  ],
+  "css": "header h1{letter-spacing:.08em}"
+}

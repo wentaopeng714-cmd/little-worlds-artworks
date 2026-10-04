@@ -1,0 +1,105 @@
+{
+  "number": 3,
+  "slug": "03-circuit-mycelium",
+  "title": "电路菌城",
+  "group": "F",
+  "mothers": [
+    "bioluminescent_poisson_growth_studio.html"
+  ],
+  "description": "播种彩色菌城；从城心拖到另一城架桥，再充能。剪断桥会改变通电范围。",
+  "ui": {
+    "bg": "#101b24",
+    "ink": "#c5e8d1",
+    "accent": "#e7c04f"
+  },
+  "controls": [
+    {
+      "id": "seed",
+      "label": "播城种"
+    },
+    {
+      "id": "bridge",
+      "label": "架菌桥"
+    },
+    {
+      "id": "cut",
+      "label": "剪菌路"
+    },
+    {
+      "id": "charge",
+      "label": "充能变城"
+    },
+    {
+      "id": "heal",
+      "label": "补生菌丝"
+    }
+  ],
+  "newMechanics": [
+    "领地持续分叉生长",
+    "架桥形成真实连通拓扑",
+    "电源城传播充能",
+    "剪桥改变通电城数",
+    "充能使菌丝节点珠化"
+  ],
+  "artDirection": [
+    "高密折枝彩色领地",
+    "发光菌珠与方孔城市节点",
+    "九股细桥导电脉冲"
+  ],
+  "testPlan": [
+    {
+      "control": "seed",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 700
+    },
+    {
+      "control": "bridge",
+      "from": [
+        0.25,
+        0.27
+      ],
+      "to": [
+        0.73,
+        0.25
+      ],
+      "hold": 1000
+    },
+    {
+      "control": "charge",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 7300
+    },
+    {
+      "control": "cut",
+      "from": [
+        0.49,
+        0.26
+      ],
+      "to": [
+        0.51,
+        0.29
+      ],
+      "hold": 600
+    }
+  ],
+  "stateFields": {
+    "districts": "播种增到5",
+    "bridges": "架桥后1以上",
+    "poweredDistricts": "接源后2以上，剪源桥减少",
+    "chargedDistricts": "充能12秒后连通城>0"
+  }
+}

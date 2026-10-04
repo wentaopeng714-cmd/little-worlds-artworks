@@ -1,0 +1,123 @@
+{
+  "number": 15,
+  "slug": "15-neon-step-city",
+  "title": "折线霓城",
+  "group": "G",
+  "mothers": [
+    "code_artifact (1).html"
+  ],
+  "innovation": "连续双轨正交笔建楼、接桥、回路通电与局部拆改",
+  "description": "拖画连续双轨阶梯，在楼上拉出层高；接桥、拆改后闭合回路，整座城亮起来。",
+  "ui": {
+    "bg": "#17121d",
+    "ink": "#d8d1c2",
+    "accent": "#72ddd0"
+  },
+  "controls": [
+    {
+      "id": "draw",
+      "label": "双轨引路"
+    },
+    {
+      "id": "tower",
+      "label": "建楼升层"
+    },
+    {
+      "id": "bridge",
+      "label": "跨楼接桥"
+    },
+    {
+      "id": "cut",
+      "label": "局部拆线"
+    },
+    {
+      "id": "circuit",
+      "label": "闭环通电"
+    },
+    {
+      "id": "switch",
+      "label": "电流开关"
+    }
+  ],
+  "newMechanics": [
+    "显式建楼与持久层高",
+    "两楼之间正交跨桥",
+    "局部拆线打断电流",
+    "闭环时绕接断线，沿线脉冲与建筑楼灯联动"
+  ],
+  "artDirection": [
+    "保留正交绘图母本连续双轨、短横绝缘跨线和步进十字笔头",
+    "用青绿、粉朱、金色光墨组成连续阶梯建筑，远离旧雨窗城市美术"
+  ],
+  "testPlan": [
+    {
+      "control": "draw",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "tower",
+      "from": [
+        0.42,
+        0.65
+      ],
+      "to": [
+        0.42,
+        0.43
+      ],
+      "hold": 450
+    },
+    {
+      "control": "bridge",
+      "from": [
+        0.2,
+        0.64
+      ],
+      "to": [
+        0.72,
+        0.58
+      ],
+      "hold": 450
+    },
+    {
+      "control": "cut",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "circuit",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    }
+  ],
+  "stateFields": [
+    "vertices<=2800",
+    "queuedSteps<=500",
+    "buildingHeights拖建楼改变",
+    "bridges拖跨楼增加",
+    "closedCircuits点击闭环增加",
+    "powered拆线后false闭环后true",
+    "repairedGaps拆线后闭环出现绕接补线"
+  ]
+}

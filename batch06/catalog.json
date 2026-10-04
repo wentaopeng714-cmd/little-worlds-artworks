@@ -1,0 +1,4167 @@
+[
+  {
+    "number": 1,
+    "slug": "01-comet-corrals",
+    "title": "彗尾驯场",
+    "group": "F",
+    "mothers": [
+      "attraction_particles.html"
+    ],
+    "description": "拖彗核移动整束纤维；铜门折流，反牵改向，再凝尾叠出旧尾印。",
+    "ui": {
+      "bg": "#11131e",
+      "ink": "#e8d7c4",
+      "accent": "#65cbd3"
+    },
+    "controls": [
+      {
+        "id": "core",
+        "label": "牵彗核"
+      },
+      {
+        "id": "gate",
+        "label": "设铜门"
+      },
+      {
+        "id": "repel",
+        "label": "反牵"
+      },
+      {
+        "id": "knot",
+        "label": "凝尾印"
+      },
+      {
+        "id": "release",
+        "label": "释放旧尾"
+      }
+    ],
+    "newMechanics": [
+      "多彗核持续位置编辑",
+      "铜门角度改变尾流折弯",
+      "反牵改变方向与弯度",
+      "最多三幅尾印叠加"
+    ],
+    "artDirection": [
+      "黑底染色纤维多层叠丝",
+      "紧核与长尾强烈形态对比",
+      "蓝青橙红紫金相互交织"
+    ],
+    "testPlan": [
+      {
+        "control": "core",
+        "from": [
+          0.31,
+          0.38
+        ],
+        "to": [
+          0.44,
+          0.28
+        ],
+        "hold": 650
+      },
+      {
+        "control": "gate",
+        "from": [
+          0.5,
+          0.55
+        ],
+        "to": [
+          0.65,
+          0.66
+        ],
+        "hold": 700
+      },
+      {
+        "control": "repel",
+        "from": [
+          0.73,
+          0.56
+        ],
+        "to": [
+          0.65,
+          0.4
+        ],
+        "hold": 600
+      },
+      {
+        "control": "knot",
+        "from": [
+          0.48,
+          0.4
+        ],
+        "to": [
+          0.48,
+          0.4
+        ],
+        "hold": 100
+      }
+    ],
+    "stateFields": {
+      "gates": "设门后增到1以上",
+      "tailPrints": "凝尾后1以上，最大3",
+      "knots": "凝尾结果累计",
+      "direction": "反牵后反向"
+    },
+    "html_sha256": "0cb8f8c13c33acd6d3df2b60b110df128d35de1345c1347104a3804bcbf9cea7",
+    "zip_sha256": "62fe4b2f411b436d669dd7db8e9fc48e283d17e128e5814cda89ed8ede231af9",
+    "zip_bytes": 205931
+  },
+  {
+    "number": 2,
+    "slug": "02-plume-migration",
+    "title": "羽焰迁徙",
+    "group": "F",
+    "mothers": [
+      "attraction_particles.html"
+    ],
+    "description": "拖羽尖牵弯长羽，剪出持久航路；合羽把两群牵到一起，逆焰与迁徙重组羽流。",
+    "ui": {
+      "bg": "#261c2c",
+      "ink": "#edc8b2",
+      "accent": "#ed976e"
+    },
+    "controls": [
+      {
+        "id": "plume",
+        "label": "牵羽尖"
+      },
+      {
+        "id": "cut",
+        "label": "剪航路"
+      },
+      {
+        "id": "fuse",
+        "label": "合羽群"
+      },
+      {
+        "id": "reverse",
+        "label": "逆羽焰"
+      },
+      {
+        "id": "migrate",
+        "label": "放迁徙"
+      }
+    ],
+    "newMechanics": [
+      "羽尖驱动整片羽形",
+      "持久剪道与牵形组合",
+      "近邻羽尖合群留下联羽丝",
+      "定时迁徙改变基部"
+    ],
+    "artDirection": [
+      "宽窄变化长羽轮廓",
+      "数百羽枝与密细轴丝",
+      "暖灰紫底与铜红青碧羽焰"
+    ],
+    "testPlan": [
+      {
+        "control": "plume",
+        "from": [
+          0.38,
+          0.14
+        ],
+        "to": [
+          0.5,
+          0.25
+        ],
+        "hold": 650
+      },
+      {
+        "control": "cut",
+        "from": [
+          0.15,
+          0.5
+        ],
+        "to": [
+          0.8,
+          0.58
+        ],
+        "hold": 700
+      },
+      {
+        "control": "fuse",
+        "from": [
+          0.58,
+          0.2
+        ],
+        "to": [
+          0.5,
+          0.25
+        ],
+        "hold": 750
+      },
+      {
+        "control": "migrate",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 1500
+      }
+    ],
+    "stateFields": {
+      "routes": "剪道后1以上",
+      "joinedFlocks": "把相邻羽尖拖近后1以上",
+      "migrating": "迁徙后true",
+      "direction": "逆焰后-1"
+    },
+    "html_sha256": "94baab6aad3d3667457b1486aaab3bda4b395b791fd99601425075f03febb290",
+    "zip_sha256": "4f5f4f353fff88da287382ce8b3edc3164eb000a49c21ac21cedf4026c1dc703",
+    "zip_bytes": 208031
+  },
+  {
+    "number": 3,
+    "slug": "03-circuit-mycelium",
+    "title": "电路菌城",
+    "group": "F",
+    "mothers": [
+      "bioluminescent_poisson_growth_studio.html"
+    ],
+    "description": "播种彩色菌城；从城心拖到另一城架桥，再充能。剪断桥会改变通电范围。",
+    "ui": {
+      "bg": "#101b24",
+      "ink": "#c5e8d1",
+      "accent": "#e7c04f"
+    },
+    "controls": [
+      {
+        "id": "seed",
+        "label": "播城种"
+      },
+      {
+        "id": "bridge",
+        "label": "架菌桥"
+      },
+      {
+        "id": "cut",
+        "label": "剪菌路"
+      },
+      {
+        "id": "charge",
+        "label": "充能变城"
+      },
+      {
+        "id": "heal",
+        "label": "补生菌丝"
+      }
+    ],
+    "newMechanics": [
+      "领地持续分叉生长",
+      "架桥形成真实连通拓扑",
+      "电源城传播充能",
+      "剪桥改变通电城数",
+      "充能使菌丝节点珠化"
+    ],
+    "artDirection": [
+      "高密折枝彩色领地",
+      "发光菌珠与方孔城市节点",
+      "九股细桥导电脉冲"
+    ],
+    "testPlan": [
+      {
+        "control": "seed",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 700
+      },
+      {
+        "control": "bridge",
+        "from": [
+          0.25,
+          0.27
+        ],
+        "to": [
+          0.73,
+          0.25
+        ],
+        "hold": 1000
+      },
+      {
+        "control": "charge",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 7300
+      },
+      {
+        "control": "cut",
+        "from": [
+          0.49,
+          0.26
+        ],
+        "to": [
+          0.51,
+          0.29
+        ],
+        "hold": 600
+      }
+    ],
+    "stateFields": {
+      "districts": "播种增到5",
+      "bridges": "架桥后1以上",
+      "poweredDistricts": "接源后2以上，剪源桥减少",
+      "chargedDistricts": "充能12秒后连通城>0"
+    },
+    "html_sha256": "7c4e22208afb20651762eaa85756cb80c98c3bd0661974f4ddc9639c2135d1ce",
+    "zip_sha256": "79cd663e4d1dd41f8d23e9e68170a80b96bd508f531b9035ec599e9826a7cd6a",
+    "zip_bytes": 504414
+  },
+  {
+    "number": 4,
+    "slug": "04-fluorescent-fissures",
+    "title": "荧光裂隙矿",
+    "group": "F",
+    "mothers": [
+      "bioluminescent_poisson_growth_studio.html"
+    ],
+    "description": "点染矿脉，拖压打开宽裂隙；跨裂口缝桥，封晶后又能局部重开。",
+    "ui": {
+      "bg": "#221922",
+      "ink": "#e6c7cf",
+      "accent": "#81d2b1"
+    },
+    "controls": [
+      {
+        "id": "vein",
+        "label": "种矿脉"
+      },
+      {
+        "id": "stress",
+        "label": "压开裂隙"
+      },
+      {
+        "id": "stitch",
+        "label": "缝晶桥"
+      },
+      {
+        "id": "seal",
+        "label": "封晶"
+      },
+      {
+        "id": "reopen",
+        "label": "重新开矿"
+      }
+    ],
+    "newMechanics": [
+      "矿种逐渐长密",
+      "应力拖线持续裂开矿片",
+      "跨裂口缝桥闭合",
+      "裂缝封晶成多面细晶",
+      "重开保留旧矿脉"
+    ],
+    "artDirection": [
+      "多层角面矿片与微脉枝丝",
+      "粉晶青铜紫金四矿区",
+      "粗裂口与细晶针密度反差"
+    ],
+    "testPlan": [
+      {
+        "control": "vein",
+        "from": [
+          0.3,
+          0.34
+        ],
+        "to": [
+          0.3,
+          0.34
+        ],
+        "hold": 650
+      },
+      {
+        "control": "stress",
+        "from": [
+          0.1,
+          0.5
+        ],
+        "to": [
+          0.86,
+          0.65
+        ],
+        "hold": 850
+      },
+      {
+        "control": "stitch",
+        "from": [
+          0.43,
+          0.42
+        ],
+        "to": [
+          0.55,
+          0.67
+        ],
+        "hold": 850
+      },
+      {
+        "control": "reopen",
+        "from": [
+          0.5,
+          0.53
+        ],
+        "to": [
+          0.5,
+          0.53
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": {
+      "mineralSeeds": "种矿后5以上",
+      "fissures": "应力后2以上",
+      "stitches": "缝桥后1以上",
+      "sealedFissures": "封晶后增大，重开减少"
+    },
+    "html_sha256": "79451106b2113ee1afffdbd00bd0463038c2791d2093c5a31976af8224588c09",
+    "zip_sha256": "235693e122e941e1c756d84cdb5f28fd6f0f35e91e93de18eb93e23591e0b02e",
+    "zip_bytes": 448518
+  },
+  {
+    "number": 5,
+    "slug": "05-ink-tornado",
+    "title": "拓墨龙卷",
+    "group": "F",
+    "mothers": [
+      "pseudo_ink_drawing.html"
+    ],
+    "description": "湿墨拖出分叉墨丝；拨卷改变墨团，吸墨留白，转印后继续叠染与干湿切换。",
+    "ui": {
+      "bg": "#c37b32",
+      "ink": "#302326",
+      "accent": "#58436d"
+    },
+    "controls": [
+      {
+        "id": "wet",
+        "label": "湿墨生丝"
+      },
+      {
+        "id": "curl",
+        "label": "拨卷"
+      },
+      {
+        "id": "absorb",
+        "label": "吸墨隔版"
+      },
+      {
+        "id": "transfer",
+        "label": "翻纸转印"
+      },
+      {
+        "id": "dry",
+        "label": "干湿切换"
+      }
+    ],
+    "newMechanics": [
+      "透明墨丝一次分叉受控",
+      "湿墨持续长形",
+      "拨卷改墨团朝向与扭曲",
+      "吸墨隔版形成留白",
+      "翻纸转印与原版叠染"
+    ],
+    "artDirection": [
+      "赭纸纤维颗粒",
+      "多色透明递归枝丝",
+      "墨团卷成非对称龙卷与拓印"
+    ],
+    "testPlan": [
+      {
+        "control": "wet",
+        "from": [
+          0.35,
+          0.7
+        ],
+        "to": [
+          0.53,
+          0.23
+        ],
+        "hold": 1000
+      },
+      {
+        "control": "curl",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.72,
+          0.58
+        ],
+        "hold": 900
+      },
+      {
+        "control": "absorb",
+        "from": [
+          0.42,
+          0.45
+        ],
+        "to": [
+          0.54,
+          0.42
+        ],
+        "hold": 650
+      },
+      {
+        "control": "transfer",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": {
+      "inkPatches": "湿墨后增加；计数最多999，活墨丝上限3200",
+      "absorbMasks": "吸墨后>0",
+      "prints": "转印后>0",
+      "dry": "切换干湿状态",
+      "liveInkThreads": "湿墨时>0，最多3200；干版冻结",
+      "curlFields": "拨卷后>0，最多6"
+    },
+    "html_sha256": "c74507db82aaec8c02c9195973eb78f28d6056f794f8b60de8cbf84cdaa362c3",
+    "zip_sha256": "5ab84ad3e2fd1ae326fb7146c535dc5b0ef1aecff60b524dd3872f3711d9b6c5",
+    "zip_bytes": 80572
+  },
+  {
+    "number": 6,
+    "slug": "06-star-sand-fold",
+    "title": "星砂折流",
+    "group": "F",
+    "mothers": [
+      "samuel_yan_interactive_mobile_sands.html"
+    ],
+    "description": "绘曲渠后注入矿砂；折流改渠形，沉积成细密矿脊，再扬起重走新渠。",
+    "ui": {
+      "bg": "#17181d",
+      "ink": "#e2c9a7",
+      "accent": "#73bab6"
+    },
+    "controls": [
+      {
+        "id": "canal",
+        "label": "绘曲渠"
+      },
+      {
+        "id": "pour",
+        "label": "注矿砂"
+      },
+      {
+        "id": "fold",
+        "label": "折流改道"
+      },
+      {
+        "id": "settle",
+        "label": "沉积成脊"
+      },
+      {
+        "id": "lift",
+        "label": "再扬砂"
+      }
+    ],
+    "newMechanics": [
+      "持久手绘曲渠改变砂丝路径",
+      "沿渠注砂累计矿料",
+      "折流保留渠形并扭曲",
+      "沉积出多层矿脊",
+      "再扬起已沉积砂走新路"
+    ],
+    "artDirection": [
+      "敦煌矿色与暗底",
+      "密细丝束和沉积针纹",
+      "流动砂脊与线性曲渠"
+    ],
+    "testPlan": [
+      {
+        "control": "canal",
+        "from": [
+          0.2,
+          0.72
+        ],
+        "to": [
+          0.8,
+          0.25
+        ],
+        "hold": 1200
+      },
+      {
+        "control": "pour",
+        "from": [
+          0.3,
+          0.45
+        ],
+        "to": [
+          0.7,
+          0.5
+        ],
+        "hold": 900
+      },
+      {
+        "control": "fold",
+        "from": [
+          0.48,
+          0.5
+        ],
+        "to": [
+          0.62,
+          0.64
+        ],
+        "hold": 800
+      },
+      {
+        "control": "settle",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 1200
+      }
+    ],
+    "stateFields": {
+      "canals": "绘渠后3以上",
+      "sandLoad": "注砂后增加",
+      "deposits": "沉积后1以上",
+      "folds": "改道后1以上"
+    },
+    "html_sha256": "022103ee7f6c445ed97c6e17a1b0ef2c292a3022f11266376fb4b3614fd13d0f",
+    "zip_sha256": "ef516ac3d8ea04cea3ec1fd5d4a6a58fda500bb8647bc5b07a18e51863592bd7",
+    "zip_bytes": 187489
+  },
+  {
+    "number": 7,
+    "slug": "07-wind-carved-dunes",
+    "title": "风蚀锦丘",
+    "group": "F",
+    "mothers": [
+      "samuel_yan_interactive_mobile_sands.html"
+    ],
+    "innovation": "细砂成锦丘，风梳刻沟、挡风积脊与局部再扬沙",
+    "description": "拖风梳出矿色细丝；画挡风脊让细砂沉成锦丘，再扬起局部重塑。",
+    "ui": {
+      "bg": "#0a1116",
+      "ink": "#ead2a5",
+      "accent": "#55c6bd"
+    },
+    "controls": [
+      {
+        "id": "wind",
+        "label": "风梳刻沟"
+      },
+      {
+        "id": "wall",
+        "label": "挡风积脊"
+      },
+      {
+        "id": "settle",
+        "label": "落砂成丘"
+      },
+      {
+        "id": "raise",
+        "label": "局部再扬"
+      },
+      {
+        "id": "reverse",
+        "label": "风向反转"
+      }
+    ],
+    "newMechanics": [
+      "风沟向量保持14秒",
+      "挡风脊使附近粒子减速沉积",
+      "落砂与再扬局部可逆"
+    ],
+    "artDirection": [
+      "保留琥珀/矿蓝/青碧细丝深底",
+      "密集等流线与多重沉积脊",
+      "流动拖尾跨屏不连脏线"
+    ],
+    "testPlan": [
+      {
+        "control": "wind",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "wall",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "settle",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "raise",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "walls增长",
+      "settledRidges随落砂改变",
+      "windDirection反转"
+    ],
+    "html_sha256": "9cba668afae0b9699d548f5a9ace849ce3b12c85cacf04105b40f44ea97aa94a",
+    "zip_sha256": "33094b0ddf7e14943c8023e1f369b77612601c80d81896e22ff4cdd7064c9bac",
+    "zip_bytes": 283897
+  },
+  {
+    "number": 8,
+    "slug": "08-lacquer-rivers",
+    "title": "漆河分色",
+    "group": "F",
+    "mothers": [
+      "samuel_yan_mobile_liquid_studio.html"
+    ],
+    "innovation": "黑朱金青湿漆注色、梳流、刮露底与固化裂纹",
+    "description": "朱金青黑厚漆会湿润流动；注漆后梳出水拓纹，刮黑河、固化，再局部回湿。",
+    "ui": {
+      "bg": "#101614",
+      "ink": "#e5ccb0",
+      "accent": "#e07742"
+    },
+    "controls": [
+      {
+        "id": "pour",
+        "label": "注湿漆"
+      },
+      {
+        "id": "comb",
+        "label": "梳流脉"
+      },
+      {
+        "id": "scrape",
+        "label": "刮露底"
+      },
+      {
+        "id": "cure",
+        "label": "局部固化"
+      },
+      {
+        "id": "reflow",
+        "label": "回湿旋合"
+      },
+      {
+        "id": "color",
+        "label": "换漆色"
+      }
+    ],
+    "newMechanics": [
+      "GPU持续颜料及厚度场",
+      "梳流拖动改变真实色层",
+      "固化材质阻止后续平流",
+      "回湿解除局部固化"
+    ],
+    "artDirection": [
+      "母本弯曲厚颜料折层",
+      "朱黑金青湿漆与受控虹彩",
+      "微粒/高光/固化裂纹"
+    ],
+    "testPlan": [
+      {
+        "control": "pour",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "comb",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "scrape",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "cure",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "reflow",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "materialThickness注漆与刮底不同",
+      "curedPercent固化后上升/回湿降低"
+    ],
+    "context": "webgl",
+    "html_sha256": "def084be96a1a4a039b812eede06ccfee6b18c47fa7845941b63d34ad50c2c95",
+    "zip_sha256": "cee85fb2ea94de4941dd32959315d7bc9e94a7f235cebeeb952f82c2ce9b408d",
+    "zip_bytes": 212787
+  },
+  {
+    "number": 9,
+    "slug": "09-molten-color-cut",
+    "title": "熔彩切流",
+    "group": "F",
+    "mothers": [
+      "samuel_yan_mobile_liquid_studio.html"
+    ],
+    "innovation": "亮彩厚料分区熔流，隔流肋、局部切流、牵伸与融合",
+    "description": "密集彩料在分区中熔流；牵伸层褶、画隔流肋、切色岸，再融合或局部冷凝。",
+    "ui": {
+      "bg": "#171321",
+      "ink": "#e8cddd",
+      "accent": "#62ccb8"
+    },
+    "controls": [
+      {
+        "id": "pull",
+        "label": "牵伸厚料"
+      },
+      {
+        "id": "cut",
+        "label": "切开色流"
+      },
+      {
+        "id": "wall",
+        "label": "画隔流肋"
+      },
+      {
+        "id": "weld",
+        "label": "融合色岸"
+      },
+      {
+        "id": "cool",
+        "label": "冷凝定形"
+      },
+      {
+        "id": "color",
+        "label": "换彩注料"
+      }
+    ],
+    "newMechanics": [
+      "初始多分区隔流场",
+      "隔流肋持续阻止输运",
+      "局部切削留低厚度河",
+      "融合消除堤肋并旋混色",
+      "冷凝稳定色层形态"
+    ],
+    "artDirection": [
+      "高饱和珊瑚青绿靛紫金色",
+      "母本厚料弯曲折痕/虹彩",
+      "跨区连通熔流而非椭圆贴片"
+    ],
+    "testPlan": [
+      {
+        "control": "pull",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "wall",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "cut",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "weld",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "cool",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "barrierPercent隔流上升/融合下降",
+      "curedPercent冷凝上升",
+      "materialThickness切流下降"
+    ],
+    "context": "webgl",
+    "html_sha256": "595cebfcdcf06920597e7d4d787583b7fac0f8f17500093ae65047daec1db357",
+    "zip_sha256": "31d0a99c586715988691f6aab613c1684d05392defd209ba6fd89b98222e4bf4",
+    "zip_bytes": 238141
+  },
+  {
+    "number": 10,
+    "slug": "10-chromatic-cells",
+    "title": "彩胞裂变",
+    "group": "F",
+    "mothers": [
+      "several_blobs_chromatic_fluid_shader_studio.html"
+    ],
+    "innovation": "粒膜色团拉长、融合、分裂与压力泡，替换无轮廓圆斑累积",
+    "description": "彩胞有弯曲膜层；牵长后触碰融合，划膜松手裂变，加压与泄压改变体积。",
+    "ui": {
+      "bg": "#151323",
+      "ink": "#e0c9eb",
+      "accent": "#7ce1cc"
+    },
+    "controls": [
+      {
+        "id": "pull",
+        "label": "牵膜拉长"
+      },
+      {
+        "id": "join",
+        "label": "触碰融合"
+      },
+      {
+        "id": "divide",
+        "label": "划膜裂变"
+      },
+      {
+        "id": "inflate",
+        "label": "加压鼓膜"
+      },
+      {
+        "id": "drain",
+        "label": "泄压收缩"
+      },
+      {
+        "id": "prism",
+        "label": "色散轮值"
+      }
+    ],
+    "newMechanics": [
+      "多叶轮廓有机膜",
+      "真实合并面积与色层",
+      "分裂减少母体半径并产生子胞",
+      "拉膜长宽比变化",
+      "压力影响内部弯曲脉纹"
+    ],
+    "artDirection": [
+      "保留母本RGB色散/颗粒软斑",
+      "替换圆斑为闭合多叶膜",
+      "膜内弯曲彩带及半透明边"
+    ],
+    "testPlan": [
+      {
+        "control": "pull",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "join",
+        "from": [
+          0.385,
+          0.48
+        ],
+        "to": [
+          0.62,
+          0.48
+        ],
+        "hold": 700
+      },
+      {
+        "control": "divide",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "inflate",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "drain",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "maximumStretch拖膜上升",
+      "fusions和fissions改变cells",
+      "cells始终不超过24"
+    ],
+    "html_sha256": "ab24377306b80d322b10b019a0e383392b92973c25800dc198216e8bd5e40dd3",
+    "zip_sha256": "589cec6c3e33d04ba2bf4550a28e32ec8c7bce2a5c1cb3018a487b382549c6e4",
+    "zip_bytes": 142958
+  },
+  {
+    "number": 11,
+    "slug": "11-ember-script",
+    "title": "焰书",
+    "group": "F",
+    "mothers": [
+      "magical_trail_shader.html"
+    ],
+    "innovation": "聚焰书写，牵引光字，分裂火种与交叉共振；限亮保留熔光细节",
+    "description": "按住聚焰写光字，松手释放火种；牵引笔画、分火、共振，再用金印封存。",
+    "ui": {
+      "bg": "#0d1015",
+      "ink": "#e4ccb3",
+      "accent": "#eb784b"
+    },
+    "controls": [
+      {
+        "id": "write",
+        "label": "聚焰书写"
+      },
+      {
+        "id": "pull",
+        "label": "牵引光字"
+      },
+      {
+        "id": "split",
+        "label": "划字分火"
+      },
+      {
+        "id": "resonate",
+        "label": "交叉共振"
+      },
+      {
+        "id": "seal",
+        "label": "金印封存"
+      }
+    ],
+    "newMechanics": [
+      "可保留而非消失光字",
+      "牵引持续改变笔画坐标",
+      "松手释放限量火种",
+      "封印锁住邻近光字",
+      "共振提高光字能量与轮换火色",
+      "共振检测笔画真实交点，在交点释放火结"
+    ],
+    "artDirection": [
+      "母本黑底熔光多色尾迹",
+      "局部辉光限亮避免白屏",
+      "有曲率的纤维笔锋/火种"
+    ],
+    "testPlan": [
+      {
+        "control": "write",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "pull",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "split",
+        "from": [
+          0.27,
+          0.32
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      },
+      {
+        "control": "resonate",
+        "from": [
+          0.55,
+          0.5
+        ],
+        "to": [
+          0.6,
+          0.55
+        ],
+        "hold": 700
+      },
+      {
+        "control": "seal",
+        "from": [
+          0.62,
+          0.52
+        ],
+        "to": [
+          0.7,
+          0.55
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "strokes书写增长",
+      "sealed金印上升",
+      "splitBursts分火增长",
+      "sparks不超过850",
+      "lastCrossings只计真实笔画交点"
+    ],
+    "html_sha256": "44030e1398e7266532b3a11ff6fbf8f22baf67049e1fa726015c5895d023485d",
+    "zip_sha256": "c0a89bf6c398e73aaa82f86bdba2d698c2ffda381560699d10dcc735a9e0e2db",
+    "zip_bytes": 132784
+  },
+  {
+    "number": 12,
+    "slug": "12-luminous-terraces",
+    "title": "荧浆梯田",
+    "group": "F",
+    "mothers": [
+      "neon_staircase_waterway.html"
+    ],
+    "innovation": "阶渠筑坝、放闸、彩浆混流、反流与结晶蓄池",
+    "description": "紫白冰蓝细丝沿阶田落下；筑坝真实蓄池，放闸流向下阶，结晶与融化可组合。",
+    "ui": {
+      "bg": "#0d1020",
+      "ink": "#d7d3ef",
+      "accent": "#78d4e7"
+    },
+    "controls": [
+      {
+        "id": "source",
+        "label": "注浆蓄池"
+      },
+      {
+        "id": "dam",
+        "label": "筑坝收流"
+      },
+      {
+        "id": "gate",
+        "label": "放闸倾落"
+      },
+      {
+        "id": "backflow",
+        "label": "阶流逆向"
+      },
+      {
+        "id": "crystal",
+        "label": "局部结晶"
+      },
+      {
+        "id": "thaw",
+        "label": "融晶续流"
+      }
+    ],
+    "newMechanics": [
+      "六阶池独立水量",
+      "关闸累积/开闸向邻阶转移",
+      "冻结局部阶池暂停细丝",
+      "反向跨阶流动",
+      "结晶保留密线纹再融续流"
+    ],
+    "artDirection": [
+      "继承紫白冰蓝阶瀑细丝",
+      "5600根阶流丝＋2800根跨阶落丝，层叠弯曲池纹",
+      "实际蓄池深度改变与闸门"
+    ],
+    "testPlan": [
+      {
+        "control": "source",
+        "from": [
+          0.36,
+          0.42
+        ],
+        "to": [
+          0.5,
+          0.46
+        ],
+        "hold": 1100
+      },
+      {
+        "control": "dam",
+        "from": [
+          0.36,
+          0.42
+        ],
+        "to": [
+          0.5,
+          0.46
+        ],
+        "hold": 1100
+      },
+      {
+        "control": "gate",
+        "from": [
+          0.36,
+          0.42
+        ],
+        "to": [
+          0.5,
+          0.46
+        ],
+        "hold": 1100
+      },
+      {
+        "control": "crystal",
+        "from": [
+          0.36,
+          0.42
+        ],
+        "to": [
+          0.5,
+          0.46
+        ],
+        "hold": 1100
+      },
+      {
+        "control": "thaw",
+        "from": [
+          0.36,
+          0.42
+        ],
+        "to": [
+          0.5,
+          0.46
+        ],
+        "hold": 1100
+      }
+    ],
+    "stateFields": [
+      "waterLevels蓄/放改变",
+      "closedGates筑/放改变",
+      "frozenPools结/融改变",
+      "releases开闸增长",
+      "flowingStrands关闸/结晶后减少"
+    ],
+    "html_sha256": "c655791cf58a1b1211b1daa5ae894c7089a555f50cbaebee857e9e14fa794815",
+    "zip_sha256": "cb3cdbd8ac7c839bc524760191403c14cbac0eec353b5d727ed5b4326886c909",
+    "zip_bytes": 157386
+  },
+  {
+    "number": 13,
+    "slug": "13-gilded-fans",
+    "title": "金箔万花扇",
+    "group": "G",
+    "mothers": [
+      "code_artifact (1)_副本.html"
+    ],
+    "innovation": "纹理纸扇分层展开、转轴、揭箔与拼扇压印",
+    "description": "横拖展开纹理纸扇，绕轴转扇；揭箔、拼轴与压印会留下新的组合。",
+    "ui": {
+      "bg": "#f3e9d3",
+      "ink": "#493c36",
+      "accent": "#bd714b"
+    },
+    "controls": [
+      {
+        "id": "open",
+        "label": "展开纸扇"
+      },
+      {
+        "id": "rotate",
+        "label": "转动扇轴"
+      },
+      {
+        "id": "foil",
+        "label": "揭开金箔"
+      },
+      {
+        "id": "join",
+        "label": "拼扇金线"
+      },
+      {
+        "id": "press",
+        "label": "叠扇压印"
+      },
+      {
+        "id": "bloom",
+        "label": "整阵开合"
+      }
+    ],
+    "newMechanics": [
+      "逐扇保存展开角与朝向",
+      "揭箔显露矿色纸纹",
+      "金线拼扇后移动构图",
+      "压印保留当前轮廓再叠印"
+    ],
+    "artDirection": [
+      "保留用户母本厚纸裁切纹路、细颗粒纸纤维、乳白薄边与大幅投影",
+      "矿色大理石纹在每张纸内独立裁切，随实体折面改变轮廓"
+    ],
+    "testPlan": [
+      {
+        "control": "open",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.67,
+          0.37
+        ],
+        "hold": 450
+      },
+      {
+        "control": "rotate",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.38,
+          0.64
+        ],
+        "hold": 450
+      },
+      {
+        "control": "foil",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.67,
+          0.37
+        ],
+        "hold": 450
+      },
+      {
+        "control": "join",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.38,
+          0.64
+        ],
+        "hold": 450
+      },
+      {
+        "control": "press",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.67,
+          0.37
+        ],
+        "hold": 450
+      }
+    ],
+    "stateFields": [
+      "openings拖动明显改变且松手保留",
+      "foilRemaining揭箔下降",
+      "joinedPairs点拼扇增加不超过8",
+      "imprints压印增加不超过14"
+    ],
+    "html_sha256": "0c6376cf1df7240205f4c409c533256bb7f5cb89600dc71c1981cfeb99220b7b",
+    "zip_sha256": "05efe2f8ae01478c46f04f65371e96ca1d0c9b2dba065ab58b03ae039c3c82ec",
+    "zip_bytes": 214804
+  },
+  {
+    "number": 14,
+    "slug": "14-folded-rosettes",
+    "title": "花砖折锦",
+    "group": "G",
+    "mothers": [
+      "code_artifact (1)_副本.html"
+    ],
+    "innovation": "纸雕花砖伸缩折翼、搭扣邻接、裁开与反面嵌色",
+    "description": "拉开纸雕花瓣，裁去一翼，再翻面嵌色；搭扣让邻砖一起错织成锦。",
+    "ui": {
+      "bg": "#e8e2d1",
+      "ink": "#4b4c48",
+      "accent": "#ab624e"
+    },
+    "controls": [
+      {
+        "id": "fold",
+        "label": "伸缩折翼"
+      },
+      {
+        "id": "clasp",
+        "label": "搭扣邻砖"
+      },
+      {
+        "id": "cut",
+        "label": "裁开纸瓣"
+      },
+      {
+        "id": "inlay",
+        "label": "反面嵌色"
+      },
+      {
+        "id": "weave",
+        "label": "错织移砖"
+      },
+      {
+        "id": "bloom",
+        "label": "错层开合"
+      }
+    ],
+    "newMechanics": [
+      "四向瓣真实变宽收拢",
+      "逐瓣裁开/接回保存缺口",
+      "反面纤维嵌色独立保留",
+      "搭扣邻砖共享错位"
+    ],
+    "artDirection": [
+      "保留用户母本厚纸裁切纹路、细颗粒纸纤维、乳白薄边与大幅投影",
+      "矿色大理石纹在每张纸内独立裁切，随实体折面改变轮廓"
+    ],
+    "testPlan": [
+      {
+        "control": "fold",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.67,
+          0.37
+        ],
+        "hold": 450
+      },
+      {
+        "control": "clasp",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.38,
+          0.64
+        ],
+        "hold": 450
+      },
+      {
+        "control": "cut",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.67,
+          0.37
+        ],
+        "hold": 450
+      },
+      {
+        "control": "inlay",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.38,
+          0.64
+        ],
+        "hold": 450
+      },
+      {
+        "control": "weave",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.67,
+          0.37
+        ],
+        "hold": 450
+      }
+    ],
+    "stateFields": [
+      "folds拖动持久变化",
+      "claspedPairs增加不超过20",
+      "cutPetals裁开增加再次点击恢复",
+      "reverseTiles点嵌色翻面"
+    ],
+    "html_sha256": "2fc778e2ca3852271f8c61c3c39ad4dcd97c6d976e5d86a48e40364392e1d9cc",
+    "zip_sha256": "90494cd2bb56b10cca2beba1600a3e7d3fc416f784e0aaa1854fe2b5723fbae4",
+    "zip_bytes": 208412
+  },
+  {
+    "number": 15,
+    "slug": "15-neon-step-city",
+    "title": "折线霓城",
+    "group": "G",
+    "mothers": [
+      "code_artifact (1).html"
+    ],
+    "innovation": "连续双轨正交笔建楼、接桥、回路通电与局部拆改",
+    "description": "拖画连续双轨阶梯，在楼上拉出层高；接桥、拆改后闭合回路，整座城亮起来。",
+    "ui": {
+      "bg": "#17121d",
+      "ink": "#d8d1c2",
+      "accent": "#72ddd0"
+    },
+    "controls": [
+      {
+        "id": "draw",
+        "label": "双轨引路"
+      },
+      {
+        "id": "tower",
+        "label": "建楼升层"
+      },
+      {
+        "id": "bridge",
+        "label": "跨楼接桥"
+      },
+      {
+        "id": "cut",
+        "label": "局部拆线"
+      },
+      {
+        "id": "circuit",
+        "label": "闭环通电"
+      },
+      {
+        "id": "switch",
+        "label": "电流开关"
+      }
+    ],
+    "newMechanics": [
+      "显式建楼与持久层高",
+      "两楼之间正交跨桥",
+      "局部拆线打断电流",
+      "闭环时绕接断线，沿线脉冲与建筑楼灯联动"
+    ],
+    "artDirection": [
+      "保留正交绘图母本连续双轨、短横绝缘跨线和步进十字笔头",
+      "用青绿、粉朱、金色光墨组成连续阶梯建筑，远离旧雨窗城市美术"
+    ],
+    "testPlan": [
+      {
+        "control": "draw",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "tower",
+        "from": [
+          0.42,
+          0.65
+        ],
+        "to": [
+          0.42,
+          0.43
+        ],
+        "hold": 450
+      },
+      {
+        "control": "bridge",
+        "from": [
+          0.2,
+          0.64
+        ],
+        "to": [
+          0.72,
+          0.58
+        ],
+        "hold": 450
+      },
+      {
+        "control": "cut",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "circuit",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      }
+    ],
+    "stateFields": [
+      "vertices<=2800",
+      "queuedSteps<=500",
+      "buildingHeights拖建楼改变",
+      "bridges拖跨楼增加",
+      "closedCircuits点击闭环增加",
+      "powered拆线后false闭环后true",
+      "repairedGaps拆线后闭环出现绕接补线"
+    ],
+    "html_sha256": "eed40905de578b0b79007fa25642c61a8f40e86d652509e3f19cbaa5f5841a84",
+    "zip_sha256": "7ed26f1b32408322cd64c339162cd0055afed036d8a4d5c8704ddd983e6f6b55",
+    "zip_bytes": 105780
+  },
+  {
+    "number": 16,
+    "slug": "16-signal-stair",
+    "title": "阶梯信号台",
+    "group": "G",
+    "mothers": [
+      "code_artifact (1).html"
+    ],
+    "innovation": "双轨折线织出信号路，置门、断路、转向、脉冲编排",
+    "description": "把双轨折线织成信号路；放门、切断或织转向旁路，再发脉冲观察它停住和释放。",
+    "ui": {
+      "bg": "#d4dfc9",
+      "ink": "#294d4b",
+      "accent": "#963e57"
+    },
+    "controls": [
+      {
+        "id": "trace",
+        "label": "织双轨线"
+      },
+      {
+        "id": "gate",
+        "label": "放门开合"
+      },
+      {
+        "id": "turn",
+        "label": "阶梯转向"
+      },
+      {
+        "id": "cut",
+        "label": "线路断接"
+      },
+      {
+        "id": "pulse",
+        "label": "发四脉冲"
+      },
+      {
+        "id": "tempo",
+        "label": "脉冲步频"
+      }
+    ],
+    "newMechanics": [
+      "门会拦住真实沿路径移动的脉冲",
+      "点线路插入往返阶梯旁路",
+      "可接回的断路",
+      "三档脉冲步频与持续门控状态"
+    ],
+    "artDirection": [
+      "双平行正交线、密排跨接短线、笔头靶环，保留母本逐步拓扑语法",
+      "矿绿坐标纸上靛青/铜墨线路与胭脂闸门；不是旧路径运输玩具"
+    ],
+    "testPlan": [
+      {
+        "control": "trace",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "gate",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "turn",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "cut",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "pulse",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      }
+    ],
+    "stateFields": [
+      "vertices<=2200",
+      "gates<=12",
+      "activePulses<=32",
+      "reroutes增加",
+      "openGates点门改变",
+      "blockedArrivals及delivered随真实门控改变"
+    ],
+    "html_sha256": "4b10bbce71ec95ffe02d49d03d62ad695ab1132f4baaaef2081313d6d0e1d80c",
+    "zip_sha256": "6099883f8c4d0945b8feba73ce00120ff311b92c8060dbb55983048865cc9ce4",
+    "zip_bytes": 113463
+  },
+  {
+    "number": 17,
+    "slug": "17-arc-tile-dance",
+    "title": "弧砖舞阵",
+    "group": "G",
+    "mothers": [
+      "code_artifact.html"
+    ],
+    "innovation": "邻接弧砖真实转铰、波行换色、推挤与连片翻面",
+    "description": "转动一块弧砖，推挤整片色域；让染色沿同色邻接走一次，再翻面或并片。",
+    "ui": {
+      "bg": "#2a3433",
+      "ink": "#e4d9c4",
+      "accent": "#dd795c"
+    },
+    "controls": [
+      {
+        "id": "hinge",
+        "label": "弧砖转铰"
+      },
+      {
+        "id": "shove",
+        "label": "连片推挤"
+      },
+      {
+        "id": "flood",
+        "label": "波行换色"
+      },
+      {
+        "id": "flip",
+        "label": "连片翻面"
+      },
+      {
+        "id": "merge",
+        "label": "拖接并片"
+      },
+      {
+        "id": "align",
+        "label": "归齐留色"
+      }
+    ],
+    "newMechanics": [
+      "转铰角度/压窄松手保留",
+      "同色连片整体错移",
+      "有限邻接传播按拓扑层距留下协调矿色色带，薄墨透出原纸色",
+      "翻面改变材料纹理及邻接轮廓",
+      "拖并两个色域重构连接"
+    ],
+    "artDirection": [
+      "严格以相邻同色格关系决定四分之一圆边，保留母本连片包豪斯弧面",
+      "七色实际独立取色；哑光纸面细印压纹与斜转薄边投影",
+      "传播保留原纸色层并形成宽细印墨带，反复组合维持七色材料层次"
+    ],
+    "testPlan": [
+      {
+        "control": "hinge",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.58,
+          0.56
+        ],
+        "hold": 450
+      },
+      {
+        "control": "shove",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "flood",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "flip",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "merge",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      }
+    ],
+    "stateFields": [
+      "distinctColors初始7",
+      "turnedTiles转铰后增加",
+      "pushedTiles推挤后增加",
+      "queuedFlood最终0",
+      "waves增加",
+      "reverseTiles翻面后增加",
+      "visibleColorLayers传播后持续7；inkedTiles增加；传播色带按层距变化"
+    ],
+    "html_sha256": "e53f7f50546222abf559bc6d8c2ca3c81896188d839ad8905fc7cebf91de3861",
+    "zip_sha256": "40e38e1889a011c649796b9c1cdf9e8f1d1467b8d42624b676c7661e2bbc2014",
+    "zip_bytes": 125733
+  },
+  {
+    "number": 18,
+    "slug": "18-chromatic-curtain",
+    "title": "拼色折幕",
+    "group": "G",
+    "mothers": [
+      "code_artifact.html"
+    ],
+    "innovation": "纸色弧面织幕压折、错列、局部揭开与纹理投墨",
+    "description": "把相邻弧片组成的纸色幕压成窄褶；错动一行、揭开局部，再让纹理墨流过同色片。",
+    "ui": {
+      "bg": "#573f42",
+      "ink": "#edddc3",
+      "accent": "#98bbb0"
+    },
+    "controls": [
+      {
+        "id": "fold",
+        "label": "整列压折"
+      },
+      {
+        "id": "stagger",
+        "label": "错动横列"
+      },
+      {
+        "id": "peel",
+        "label": "揭开幕片"
+      },
+      {
+        "id": "ink",
+        "label": "纹理投墨"
+      },
+      {
+        "id": "roll",
+        "label": "卷收展开"
+      },
+      {
+        "id": "flat",
+        "label": "铺平留墨"
+      }
+    ],
+    "newMechanics": [
+      "列宽真实收窄改变整幅轮廓",
+      "行错位持久保存",
+      "单片绕上缘翻起露织纹背层",
+      "同色域一次投墨且保留印压点",
+      "卷收与已留墨/揭片组合"
+    ],
+    "artDirection": [
+      "保留用户母本邻接圆角和大片纸色连续区域，整幅布面以连片结构表现",
+      "朱陶、灰青、矿金、藕粉协调分区，织纹背层、细纸纤维、窄褶阴影"
+    ],
+    "testPlan": [
+      {
+        "control": "fold",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "stagger",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "peel",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "ink",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      },
+      {
+        "control": "roll",
+        "from": [
+          0.48,
+          0.49
+        ],
+        "to": [
+          0.67,
+          0.36
+        ],
+        "hold": 450
+      }
+    ],
+    "stateFields": [
+      "foldDepths拖压列持久变化",
+      "rowOffsets错行持久变化",
+      "peeledCells揭片增加",
+      "inkedCells投墨后增加",
+      "queue最终0",
+      "rolled卷收true再点false"
+    ],
+    "html_sha256": "0c1853cdec0bd2dfa782dba74f9af56c6cc1e5d3f816679b023e15e617cd1d1e",
+    "zip_sha256": "e3d306f5b89e1e39508fc6b1c7592b8b9301a3edc8e86788ed1d24c179e236a3",
+    "zip_bytes": 128321
+  },
+  {
+    "number": 19,
+    "slug": "19-pointillist-salt-lake",
+    "title": "点彩盐湖",
+    "group": "G",
+    "mothers": [
+      "pointillism_landscape.html"
+    ],
+    "innovation": "网点风景拖潮线，挪光、聚散云点、晒盐与倒影重组",
+    "description": "在纸上拖潮、挪光、聚云；晒出的盐晶会保留，再用回水溶开。",
+    "ui": {
+      "bg": "#20282e",
+      "ink": "#f5e9d9",
+      "accent": "#ec957f"
+    },
+    "controls": [
+      {
+        "id": "tide",
+        "label": "拖潮线"
+      },
+      {
+        "id": "sun",
+        "label": "挪日光"
+      },
+      {
+        "id": "cloud",
+        "label": "聚散云"
+      },
+      {
+        "id": "salt",
+        "label": "晒盐"
+      },
+      {
+        "id": "wash",
+        "label": "回水"
+      }
+    ],
+    "newMechanics": [
+      "潮线形变改变盐区与倒影边界",
+      "移动日光改变网点太阳、长倒影与结晶",
+      "云点聚散形成保留的孔洞与云团",
+      "晒盐后可重新回水溶解"
+    ],
+    "artDirection": [
+      "母本规则半色调网点与纸白孔隙",
+      "珊瑚盐岸、淡紫云、青绿湖与赭远山",
+      "全幅竖横自适应纸画框"
+    ],
+    "testPlan": [
+      {
+        "control": "tide",
+        "from": [
+          0.32,
+          0.68
+        ],
+        "to": [
+          0.64,
+          0.54
+        ],
+        "hold": 650
+      },
+      {
+        "control": "sun",
+        "from": [
+          0.71,
+          0.2
+        ],
+        "to": [
+          0.28,
+          0.2
+        ],
+        "hold": 650
+      },
+      {
+        "control": "cloud",
+        "from": [
+          0.27,
+          0.2
+        ],
+        "to": [
+          0.6,
+          0.15
+        ],
+        "hold": 650
+      },
+      {
+        "control": "salt",
+        "from": [
+          0.32,
+          0.75
+        ],
+        "to": [
+          0.65,
+          0.79
+        ],
+        "hold": 650
+      },
+      {
+        "control": "wash",
+        "from": [
+          0.45,
+          0.75
+        ],
+        "to": [
+          0.55,
+          0.8
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "bounded",
+      "mode",
+      "status",
+      "processed",
+      "persistentResult",
+      "crystalClusters",
+      "shoreMean",
+      "sun",
+      "cloudCount"
+    ],
+    "css": "header h1{letter-spacing:.08em}",
+    "html_sha256": "cd760ea1672cde6a09e3ed0f256cdba0d92088c5ad74ba04988ebdd3c6f8bf96",
+    "zip_sha256": "09e6d8e650ded61ce065e7f386a2795e15b70558a9962b9f0a1f5f2818b4679a",
+    "zip_bytes": 302913
+  },
+  {
+    "number": 20,
+    "slug": "20-fiber-snowcrystals",
+    "title": "纤维雪晶",
+    "group": "G",
+    "mothers": [
+      "samuel_yan_plant_growing_interactive.html"
+    ],
+    "innovation": "亚麻纸上生长雪枝，嫁接晶种、拨风、融尖与冻结几何层",
+    "description": "嫁接六向纤维晶种，拨弯软枝，融尖再长；凝晶把相邻枝织成细格。",
+    "ui": {
+      "bg": "#f1dcd5",
+      "ink": "#65585c",
+      "accent": "#759f91"
+    },
+    "controls": [
+      {
+        "id": "seed",
+        "label": "嫁晶种"
+      },
+      {
+        "id": "wind",
+        "label": "拨纤风"
+      },
+      {
+        "id": "melt",
+        "label": "融尖"
+      },
+      {
+        "id": "freeze",
+        "label": "局部凝晶"
+      },
+      {
+        "id": "thaw",
+        "label": "全幅解冻"
+      }
+    ],
+    "newMechanics": [
+      "晶种六向蔓延形成纤维尖",
+      "嫁接近邻连成互传凝晶的网络",
+      "拨风永久弯折软枝但不改变已凝枝",
+      "融尖后重长，凝晶生成三角层"
+    ],
+    "artDirection": [
+      "母本浅粉亚麻颗粒、弧形细枝和晶格",
+      "繁密奶白纤枝与薄荷/珊瑚/金/淡紫晶片，偏移阴影和半透明分面",
+      "六向晶蕨互连，凝结生成有色细三角层"
+    ],
+    "testPlan": [
+      {
+        "control": "seed",
+        "from": [
+          0.35,
+          0.43
+        ],
+        "to": [
+          0.36,
+          0.43
+        ],
+        "hold": 650
+      },
+      {
+        "control": "wind",
+        "from": [
+          0.5,
+          0.46
+        ],
+        "to": [
+          0.56,
+          0.38
+        ],
+        "hold": 650
+      },
+      {
+        "control": "melt",
+        "from": [
+          0.68,
+          0.17
+        ],
+        "to": [
+          0.74,
+          0.21
+        ],
+        "hold": 650
+      },
+      {
+        "control": "freeze",
+        "from": [
+          0.5,
+          0.46
+        ],
+        "to": [
+          0.73,
+          0.71
+        ],
+        "hold": 650
+      },
+      {
+        "control": "thaw",
+        "from": [
+          0.5,
+          0.46
+        ],
+        "to": [
+          0.5,
+          0.46
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "bounded",
+      "mode",
+      "status",
+      "processed",
+      "persistentResult",
+      "crystalSeeds",
+      "grafts",
+      "frozen",
+      "melted",
+      "bend"
+    ],
+    "css": "header h1{letter-spacing:.08em}",
+    "html_sha256": "0327a310f79121753be2cf2776112dfbc42275bd71a20f27f15ea13817efc4f2",
+    "zip_sha256": "716c60b26f43eb622ee12715251571dec1d69f1b897b20b4000a7906bd5fb094",
+    "zip_bytes": 194294
+  },
+  {
+    "number": 21,
+    "slug": "21-embroidered-fireflowers",
+    "title": "绣球礼焰",
+    "group": "G",
+    "mothers": [
+      "generative_fireworks_studio.html"
+    ],
+    "innovation": "点珠射线花编成花序，拉瓣、系花、旋拍与开放/收束",
+    "description": "点出珠线礼焰，拉瓣变花形，系成花序再旋拍、轮流开放。",
+    "ui": {
+      "bg": "#090b0e",
+      "ink": "#dedfc5",
+      "accent": "#f0a8b9"
+    },
+    "controls": [
+      {
+        "id": "plant",
+        "label": "添礼焰"
+      },
+      {
+        "id": "stretch",
+        "label": "拉花瓣"
+      },
+      {
+        "id": "tie",
+        "label": "系花序"
+      },
+      {
+        "id": "twist",
+        "label": "旋花拍"
+      },
+      {
+        "id": "pulse",
+        "label": "轮放"
+      }
+    ],
+    "newMechanics": [
+      "点珠花持续保留并编成花序",
+      "拉瓣改变偏心与多层珠环",
+      "系花顺序决定轮放顺序",
+      "旋花对连接花团传递旋转与开合"
+    ],
+    "artDirection": [
+      "母本黑底薄环、点珠、暗色同心射线",
+      "粉青橙紫嫩绿协调，密度有主次",
+      "连接组成吊绣花序，收展留下结果"
+    ],
+    "testPlan": [
+      {
+        "control": "plant",
+        "from": [
+          0.42,
+          0.16
+        ],
+        "to": [
+          0.42,
+          0.16
+        ],
+        "hold": 650
+      },
+      {
+        "control": "stretch",
+        "from": [
+          0.5,
+          0.32
+        ],
+        "to": [
+          0.64,
+          0.44
+        ],
+        "hold": 650
+      },
+      {
+        "control": "tie",
+        "from": [
+          0.23,
+          0.22
+        ],
+        "to": [
+          0.68,
+          0.61
+        ],
+        "hold": 650
+      },
+      {
+        "control": "twist",
+        "from": [
+          0.68,
+          0.61
+        ],
+        "to": [
+          0.74,
+          0.53
+        ],
+        "hold": 650
+      },
+      {
+        "control": "pulse",
+        "from": [
+          0.5,
+          0.32
+        ],
+        "to": [
+          0.5,
+          0.32
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "bounded",
+      "mode",
+      "status",
+      "processed",
+      "persistentResult",
+      "flowers",
+      "links",
+      "pulsing",
+      "stretched",
+      "rotations"
+    ],
+    "css": "header h1{letter-spacing:.08em}",
+    "html_sha256": "96f54a98639b631df686e22bd9b464dcb850c4e4c86dbbeefc4bf635eee3b3c6",
+    "zip_sha256": "b9b1e4a1c4aaa8f26313071dc8c8d17fa0b5bc210eaac220f2f0b999e7369173",
+    "zip_bytes": 210210
+  },
+  {
+    "number": 22,
+    "slug": "22-metal-ripple-curtain",
+    "title": "金属涟幕",
+    "group": "G",
+    "mothers": [
+      "metal_wave_generative_studio.html"
+    ],
+    "innovation": "密金属线褶皱，拖脊、揉谷、分层翻褶与局部雕压",
+    "description": "直接拖褶脊、揉出谷、翻层与雕压；密金属线会跟着整幕变形。",
+    "ui": {
+      "bg": "#101216",
+      "ink": "#eee8d9",
+      "accent": "#dccc78"
+    },
+    "controls": [
+      {
+        "id": "ridge",
+        "label": "拖褶脊"
+      },
+      {
+        "id": "valley",
+        "label": "揉谷"
+      },
+      {
+        "id": "flip",
+        "label": "翻褶层"
+      },
+      {
+        "id": "stamp",
+        "label": "雕压"
+      },
+      {
+        "id": "release",
+        "label": "松悬幕"
+      }
+    ],
+    "newMechanics": [
+      "拖脊持久改变整个密线悬幕",
+      "揉谷制造深谷，后续翻褶改变谷口",
+      "分层翻折改变幕的真实外沿",
+      "雕压留下与褶脊一起运动的纹路"
+    ],
+    "artDirection": [
+      "母本密行轮廓、白偏移高光与饱和彩丝",
+      "整幅悬挂金属织面，褶谷有真实暗层",
+      "不复用极光透明光帘"
+    ],
+    "testPlan": [
+      {
+        "control": "ridge",
+        "from": [
+          0.32,
+          0.46
+        ],
+        "to": [
+          0.62,
+          0.52
+        ],
+        "hold": 650
+      },
+      {
+        "control": "valley",
+        "from": [
+          0.63,
+          0.32
+        ],
+        "to": [
+          0.47,
+          0.45
+        ],
+        "hold": 650
+      },
+      {
+        "control": "flip",
+        "from": [
+          0.52,
+          0.68
+        ],
+        "to": [
+          0.57,
+          0.45
+        ],
+        "hold": 650
+      },
+      {
+        "control": "stamp",
+        "from": [
+          0.44,
+          0.66
+        ],
+        "to": [
+          0.44,
+          0.66
+        ],
+        "hold": 650
+      },
+      {
+        "control": "release",
+        "from": [
+          0.39,
+          0.68
+        ],
+        "to": [
+          0.55,
+          0.58
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "bounded",
+      "mode",
+      "status",
+      "processed",
+      "persistentResult",
+      "deformations",
+      "engravings",
+      "fold",
+      "stress"
+    ],
+    "css": "header h1{letter-spacing:.08em}",
+    "html_sha256": "94f0e7c3663a2a138961ca5d8319c14a67e04e24ce9a2247092cb3e53f7ed072",
+    "zip_sha256": "e566398c3059279c2d032a5f5a2fb31142958212a601ad8a5d7dc79e4dc9d914",
+    "zip_bytes": 162178
+  },
+  {
+    "number": 23,
+    "slug": "23-tin-wave-relief",
+    "title": "锡浪浮刻",
+    "group": "G",
+    "mothers": [
+      "metal_wave_generative_studio.html"
+    ],
+    "innovation": "密线铜锡浮刻，刻槽、压凸、旋光与补缀，留下持续浮雕",
+    "description": "在铜锡薄板压凸与刻槽，补缀重塑旧痕，旋光和氧化显出浮刻。",
+    "ui": {
+      "bg": "#1c2424",
+      "ink": "#dbded2",
+      "accent": "#d79661"
+    },
+    "controls": [
+      {
+        "id": "raise",
+        "label": "压凸"
+      },
+      {
+        "id": "groove",
+        "label": "刻槽"
+      },
+      {
+        "id": "light",
+        "label": "旋光"
+      },
+      {
+        "id": "patch",
+        "label": "补缀"
+      },
+      {
+        "id": "patina",
+        "label": "氧化显色"
+      }
+    ],
+    "newMechanics": [
+      "铜锡板局部压凸改变密等高线",
+      "刻槽路径切开凸起并留下铜色沟边",
+      "补缀重塑凹面与旧沟，不删除全板",
+      "旋光控制高光并氧化显出加工区域"
+    ],
+    "artDirection": [
+      "母本极密金属轮廓形成体量",
+      "锡灰亮边、铜锈橙绿、黑刻槽",
+      "不规则片形外沿与局部凸凹雕刻"
+    ],
+    "testPlan": [
+      {
+        "control": "raise",
+        "from": [
+          0.32,
+          0.46
+        ],
+        "to": [
+          0.67,
+          0.57
+        ],
+        "hold": 650
+      },
+      {
+        "control": "groove",
+        "from": [
+          0.4,
+          0.3
+        ],
+        "to": [
+          0.7,
+          0.66
+        ],
+        "hold": 650
+      },
+      {
+        "control": "light",
+        "from": [
+          0.32,
+          0.46
+        ],
+        "to": [
+          0.67,
+          0.57
+        ],
+        "hold": 650
+      },
+      {
+        "control": "patch",
+        "from": [
+          0.53,
+          0.48
+        ],
+        "to": [
+          0.58,
+          0.5
+        ],
+        "hold": 650
+      },
+      {
+        "control": "patina",
+        "from": [
+          0.39,
+          0.68
+        ],
+        "to": [
+          0.55,
+          0.58
+        ],
+        "hold": 650
+      }
+    ],
+    "stateFields": [
+      "bounded",
+      "mode",
+      "status",
+      "processed",
+      "persistentResult",
+      "embossings",
+      "grooves",
+      "repairs",
+      "light",
+      "oxidized"
+    ],
+    "css": "header h1{letter-spacing:.08em}",
+    "html_sha256": "8d039ad1e5c2deba829423e1129ebc0d940dab8b392dc7c2ed6ef07d2f9a8f5e",
+    "zip_sha256": "776ceee137fb6bd7fdf3700921c13258ca2233b99942599ee306b14a2344c3f6",
+    "zip_bytes": 154276
+  },
+  {
+    "number": 24,
+    "slug": "24-citrus-radio",
+    "title": "电台胖柑",
+    "group": "T",
+    "mothers": [
+      "cartoon_rig_audio(1).html"
+    ],
+    "innovation": "块面柑橘播报员，拉眉/嘴/叶与脸颊，表情组合改变节目状态",
+    "description": "选部位拖动：眉毛变情绪，嘴型抿／嘟／露齿，脸颊充气，叶片调频道。收录三段表情后开播。",
+    "ui": {
+      "bg": "#c2c6b1",
+      "ink": "#233940",
+      "accent": "#e45a3f"
+    },
+    "controls": [
+      {
+        "id": "brow",
+        "label": "拉眉"
+      },
+      {
+        "id": "mouth",
+        "label": "拉嘴"
+      },
+      {
+        "id": "cheek",
+        "label": "充脸颊"
+      },
+      {
+        "id": "leaf",
+        "label": "转叶片"
+      },
+      {
+        "id": "capture",
+        "label": "收录节目"
+      },
+      {
+        "id": "broadcast",
+        "label": "开播／停播"
+      }
+    ],
+    "artDirection": [
+      "赭橙角面果皮与细孔",
+      "薄荷绿片叶发冠",
+      "西装织点与瓷麦克风"
+    ],
+    "newMechanics": [
+      "拉眉改变粗眉倾角和瞳孔",
+      "拉嘴从抿口变嘟口再露齿大口",
+      "充脸颊扩大整个角脸轮廓",
+      "转叶片切天气/奇闻/夜话频道",
+      "收录节目保留三个表情符号",
+      "开播／停播轮播12秒表情节目并累计期数"
+    ],
+    "testPlan": [
+      {
+        "control": "mouth",
+        "from": [
+          0.5,
+          0.48
+        ],
+        "to": [
+          0.58,
+          0.73
+        ],
+        "hold": 250
+      },
+      {
+        "control": "cheek",
+        "from": [
+          0.62,
+          0.42
+        ],
+        "to": [
+          0.82,
+          0.42
+        ],
+        "hold": 200
+      },
+      {
+        "control": "leaf",
+        "from": [
+          0.5,
+          0.2
+        ],
+        "to": [
+          0.72,
+          0.2
+        ],
+        "hold": 200
+      },
+      {
+        "control": "capture",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 100
+      },
+      {
+        "control": "broadcast",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 100
+      }
+    ],
+    "stateFields": [
+      "mouthZone: 0/1/2",
+      "cheek:0–1",
+      "channel:0–2",
+      "clips<=3",
+      "programs / onAir"
+    ],
+    "html_sha256": "45f5ade35fa3c31034d5bce6d59a8f7573acf0b619edd6f4865de6ecaac549ef",
+    "zip_sha256": "fb549a9cb6bb1031d50939e58ef8768f3c3dd37930497c4cd8d64aa4a757f73d",
+    "zip_bytes": 89310
+  },
+  {
+    "number": 25,
+    "slug": "25-mask-tuner",
+    "title": "面具调音师",
+    "group": "T",
+    "mothers": [
+      "cartoon_rig_audio(1).html"
+    ],
+    "innovation": "多片角面具可换层、拉折五官，三阶段嘴型与夸张面具变身",
+    "description": "拉眉折角、拉嘴三段开合、拉侧片露出底层；三种面具可换形，拓音章后共鸣。",
+    "ui": {
+      "bg": "#704a5b",
+      "ink": "#fff0d1",
+      "accent": "#efb757"
+    },
+    "controls": [
+      {
+        "id": "brow",
+        "label": "折眉"
+      },
+      {
+        "id": "mouth",
+        "label": "调嘴"
+      },
+      {
+        "id": "fold",
+        "label": "揭侧片"
+      },
+      {
+        "id": "layer",
+        "label": "换面具"
+      },
+      {
+        "id": "imprint",
+        "label": "拓音章"
+      },
+      {
+        "id": "resonate",
+        "label": "共鸣"
+      }
+    ],
+    "artDirection": [
+      "角面具三种真实轮廓",
+      "多层折片与粗块眉",
+      "铜挂架与绸纹幕"
+    ],
+    "newMechanics": [
+      "折眉改变眉角与眼瞳",
+      "调嘴抿口/嘟口/露齿",
+      "揭侧片展开双侧角面",
+      "换面具切鸮角/伶角/日芒轮廓",
+      "拓音章最多6枚面具音色章",
+      "共鸣让当前开合与嘴型影响回声形"
+    ],
+    "testPlan": [
+      {
+        "control": "mouth",
+        "from": [
+          0.5,
+          0.48
+        ],
+        "to": [
+          0.6,
+          0.73
+        ],
+        "hold": 250
+      },
+      {
+        "control": "fold",
+        "from": [
+          0.65,
+          0.5
+        ],
+        "to": [
+          0.84,
+          0.46
+        ],
+        "hold": 250
+      },
+      {
+        "control": "layer",
+        "from": [
+          0.5,
+          0.35
+        ],
+        "to": [
+          0.6,
+          0.45
+        ],
+        "hold": 150
+      },
+      {
+        "control": "imprint",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 100
+      },
+      {
+        "control": "resonate",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 100
+      }
+    ],
+    "stateFields": [
+      "mask 0/1/2",
+      "mouthZone 0/1/2",
+      "fold 0–1",
+      "seals<=6",
+      "chords"
+    ],
+    "html_sha256": "97490ebe0c1112743d44adb1a3520e7c550c077d4ad7f8f8a0a380d4fa644bfa",
+    "zip_sha256": "4897e5a1352f3fcf6d510ec402493c1019c40d9f4f61e83d3f3109fc266fe030",
+    "zip_bytes": 95200
+  },
+  {
+    "number": 26,
+    "slug": "26-juice-thunder",
+    "title": "果汁雷客",
+    "group": "T",
+    "mothers": [
+      "chill_slurp_overdrive.html"
+    ],
+    "innovation": "粗黑漫画饮者，多味配饮、拉镜弹射、吸冷/化冻与泡沫变身",
+    "description": "点饮用连喝触发脑冻；下拉墨镜松手弹射果汁雷。切口味补杯，揉徽章解冻，泡沫会鼓起脸颊。",
+    "ui": {
+      "bg": "#ffd752",
+      "ink": "#292331",
+      "accent": "#ff734f"
+    },
+    "controls": [
+      {
+        "id": "flavor",
+        "label": "换口味"
+      },
+      {
+        "id": "sip",
+        "label": "饮用"
+      },
+      {
+        "id": "warm",
+        "label": "暖徽章"
+      },
+      {
+        "id": "foam",
+        "label": "打泡沫"
+      },
+      {
+        "id": "shake",
+        "label": "重新调杯"
+      }
+    ],
+    "artDirection": [
+      "黄底粗黑漫画线",
+      "分瓣橘皮头与形变脸颊",
+      "闪电圆墨镜与分层果汁杯"
+    ],
+    "newMechanics": [
+      "换口味补满杯并改变弹射果雷颜色",
+      "饮用消耗杯中汁液，连喝进入抖动脑冻状态",
+      "暖徽章后在画面来回揉动降温",
+      "打泡沫鼓起脸颊、改变杯顶泡层",
+      "下拉墨镜蓄力松手发射果雷累积天气变化",
+      "重新调杯清掉果雷天气并补杯"
+    ],
+    "testPlan": [
+      {
+        "control": "sip",
+        "from": [
+          0.5,
+          0.48
+        ],
+        "to": [
+          0.5,
+          0.48
+        ],
+        "hold": 100
+      },
+      {
+        "control": "foam",
+        "from": [
+          0.5,
+          0.45
+        ],
+        "to": [
+          0.5,
+          0.45
+        ],
+        "hold": 100
+      },
+      {
+        "control": "warm",
+        "from": [
+          0.4,
+          0.68
+        ],
+        "to": [
+          0.7,
+          0.68
+        ],
+        "hold": 300
+      },
+      {
+        "control": "flavor",
+        "from": [
+          0.5,
+          0.33
+        ],
+        "to": [
+          0.5,
+          0.47
+        ],
+        "hold": 300
+      }
+    ],
+    "stateFields": [
+      "sips / cold / juice",
+      "shots / storm",
+      "thaw / foam",
+      "particles<=30"
+    ],
+    "html_sha256": "d23afa6541f7b1d8c547a5e09b5813c41095e3a81334502f4583b6c88dd526d9",
+    "zip_sha256": "d3a8f485c6a0cc68485b1473b0d3933e8cc65d452c66c1c0bdc36d2a407fbf5f",
+    "zip_bytes": 118363
+  },
+  {
+    "number": 27,
+    "slug": "27-octopus-groove",
+    "title": "章鱼踏拍",
+    "group": "T",
+    "mothers": [
+      "funky_walk_controller.html"
+    ],
+    "innovation": "面条多腿踏拍，拖脚改变步型，换地板、吸盘卷缩与节拍接力",
+    "description": "八触腕穿鞋踩拍。横拉放大步幅，竖拉速度；换踏步、溜步、盘腕及地板，开启20秒八脚接力。",
+    "ui": {
+      "bg": "#f1cf53",
+      "ink": "#2c2a35",
+      "accent": "#ee6b58"
+    },
+    "controls": [
+      {
+        "id": "stride",
+        "label": "拉步幅"
+      },
+      {
+        "id": "curl",
+        "label": "弯触腕"
+      },
+      {
+        "id": "gait",
+        "label": "换步型"
+      },
+      {
+        "id": "floor",
+        "label": "换地板"
+      },
+      {
+        "id": "relay",
+        "label": "八脚接力"
+      }
+    ],
+    "artDirection": [
+      "黄纸底与面条曲线触腕",
+      "贴地鞋底和吸盘纹理",
+      "珊瑚章鱼与靛蓝舞帽、条纹背心"
+    ],
+    "newMechanics": [
+      "拉步幅横向扩大八条触腕移动跨度，竖向改变节拍速度",
+      "弯触腕竖拉卷起膝部曲线",
+      "换步型切踏步／溜步／盘腕三种实质步态",
+      "换地板改变脚下木拍纹、唱片纹与潮水",
+      "八脚接力20秒持续踩亮八块脚垫，可与步态组合"
+    ],
+    "testPlan": [
+      {
+        "control": "stride",
+        "from": [
+          0.4,
+          0.64
+        ],
+        "to": [
+          0.65,
+          0.48
+        ],
+        "hold": 200
+      },
+      {
+        "control": "curl",
+        "from": [
+          0.5,
+          0.64
+        ],
+        "to": [
+          0.6,
+          0.42
+        ],
+        "hold": 200
+      },
+      {
+        "control": "gait",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 50
+      },
+      {
+        "control": "floor",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 50
+      },
+      {
+        "control": "relay",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 50
+      }
+    ],
+    "stateFields": [
+      "gait:0/1/2",
+      "stride/speed/curl",
+      "pads:8 bounded entries",
+      "relay/rounds/lit"
+    ],
+    "html_sha256": "3af36935db843772967053093c4a2ed03cac92f5c5b91082e6897b582c49de01",
+    "zip_sha256": "14529ebfef5850c81e37223b692aaacf8699ff7f88c297f2de8df4bfc9625a3c",
+    "zip_bytes": 104905
+  },
+  {
+    "number": 28,
+    "slug": "28-spring-heron",
+    "title": "弹簧鹭舞",
+    "group": "T",
+    "mothers": [
+      "funky_walk_controller.html"
+    ],
+    "innovation": "长腿鸟连续步态，拖膝蓄力、脚蹼跨物、帽气球与逆步",
+    "description": "拖膝盖蓄力，松手弹跳；横拉蹼掌，竖拉气囊。切倒踏和石障，把弹簧膝、浮力与跳步组合。",
+    "ui": {
+      "bg": "#f5d56e",
+      "ink": "#2b3b47",
+      "accent": "#cf795e"
+    },
+    "controls": [
+      {
+        "id": "knee",
+        "label": "拉弹簧膝"
+      },
+      {
+        "id": "web",
+        "label": "撑蹼掌"
+      },
+      {
+        "id": "gas",
+        "label": "调气囊"
+      },
+      {
+        "id": "reverse",
+        "label": "倒踏"
+      },
+      {
+        "id": "hurdles",
+        "label": "加石障"
+      },
+      {
+        "id": "leap",
+        "label": "弹跳"
+      }
+    ],
+    "artDirection": [
+      "黄纸舞台与长面条鹭腿",
+      "金属弹簧膝、珊瑚蹼掌",
+      "奶油羽片与织纹信包、半透明气囊"
+    ],
+    "newMechanics": [
+      "拉弹簧膝改变膝曲并蓄力，松手弹跳",
+      "撑蹼掌横拉改变脚掌真实外形",
+      "调气囊竖拉浮力，改变跳高和滞空时间",
+      "倒踏切换行走方向并反转腿相位",
+      "加石障保留1–3块石障，组合弹跳累计越障",
+      "弹跳即刻触发，可与气囊及膝盖组合"
+    ],
+    "testPlan": [
+      {
+        "control": "hurdles",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 50
+      },
+      {
+        "control": "gas",
+        "from": [
+          0.4,
+          0.35
+        ],
+        "to": [
+          0.4,
+          0.18
+        ],
+        "hold": 200
+      },
+      {
+        "control": "web",
+        "from": [
+          0.42,
+          0.71
+        ],
+        "to": [
+          0.7,
+          0.71
+        ],
+        "hold": 200
+      },
+      {
+        "control": "knee",
+        "from": [
+          0.5,
+          0.65
+        ],
+        "to": [
+          0.64,
+          0.42
+        ],
+        "hold": 300
+      },
+      {
+        "control": "reverse",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 50
+      }
+    ],
+    "stateFields": [
+      "bend/web/gas:0–1",
+      "reverse:+1/-1",
+      "hurdles:0–3",
+      "leaps/cleared"
+    ],
+    "html_sha256": "da04c2581b3ab98670f4acb3e1a38da2b05d026f759662bdd3c8d1cae4920533",
+    "zip_sha256": "a6d334d56f706f6532e6751ef4fadc9b85d623134ed7f5655003b50f26733661",
+    "zip_bytes": 79797
+  },
+  {
+    "number": 29,
+    "slug": "29-titanium-diva",
+    "title": "钛羽歌姬",
+    "group": "T",
+    "mothers": [
+      "project_valkyrie_cyber_android_studio.html"
+    ],
+    "innovation": "多层赛博肖像，拆羽甲、调虹膜、超频与冷却，至少三种真实轮廓变化",
+    "description": "三套面甲、发片和耳翼可换。拖虹膜、展开耳翼；超频唱出大嘴型并发热，追踪三靶训练，揉动冷却。",
+    "ui": {
+      "bg": "#dde2e8",
+      "ink": "#536179",
+      "accent": "#7dc9bd"
+    },
+    "controls": [
+      {
+        "id": "form",
+        "label": "换装甲"
+      },
+      {
+        "id": "iris",
+        "label": "虹膜追踪"
+      },
+      {
+        "id": "wing",
+        "label": "展开耳翼"
+      },
+      {
+        "id": "drive",
+        "label": "超频演唱"
+      },
+      {
+        "id": "cool",
+        "label": "揉动冷却"
+      },
+      {
+        "id": "train",
+        "label": "三靶训练"
+      }
+    ],
+    "artDirection": [
+      "奶油陶瓷脸与逐层金属装甲",
+      "多环放射虹膜和密集发片细缝",
+      "三套羽冠、短甲、双流真实轮廓及HUD"
+    ],
+    "newMechanics": [
+      "换装甲更换羽冠巡演、短甲领唱、双流高音三套面甲／发片／耳翼真实轮廓",
+      "虹膜追踪横拖改变瞳孔视线",
+      "展开耳翼改变侧翼角度并加速散热，短甲散热倍率更高",
+      "超频演唱张嘴并积累热量，过热自动停止训练和超频",
+      "揉动冷却按真实拖动距离降温，展开耳翼提高揉冷效率",
+      "三靶训练依次触碰画面十字靶，积累训练记录与热量"
+    ],
+    "testPlan": [
+      {
+        "control": "form",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 50
+      },
+      {
+        "control": "wing",
+        "from": [
+          0.7,
+          0.4
+        ],
+        "to": [
+          0.9,
+          0.28
+        ],
+        "hold": 250
+      },
+      {
+        "control": "drive",
+        "from": [
+          0.5,
+          0.5
+        ],
+        "to": [
+          0.5,
+          0.5
+        ],
+        "hold": 50
+      },
+      {
+        "control": "train",
+        "from": [
+          0.3,
+          0.29
+        ],
+        "to": [
+          0.7,
+          0.4
+        ],
+        "hold": 200
+      },
+      {
+        "control": "cool",
+        "from": [
+          0.35,
+          0.4
+        ],
+        "to": [
+          0.7,
+          0.4
+        ],
+        "hold": 300
+      }
+    ],
+    "stateFields": [
+      "form:0/1/2",
+      "wing/iris/mouth",
+      "heat/drive/training",
+      "step/cycles/cools/history<=6"
+    ],
+    "html_sha256": "0ea13d15f16e6980330109123fa68a02116a7713d0becba792d2cb03c15e770e",
+    "zip_sha256": "a14030d9d49414e6131e568d1ff2d251116ba2bdc47cc53a6f838b7985f71a7a",
+    "zip_bytes": 133698
+  },
+  {
+    "number": 30,
+    "slug": "30-mushroom-harmonica",
+    "title": "蘑菇口琴队",
+    "group": "T",
+    "mothers": [
+      "singing_beans_vocal_choir.html"
+    ],
+    "innovation": "Riso蘑菇嘴队，拉舌改音、连队成节奏链、帽褶展开与合唱呼应",
+    "description": "拉嘴留下一拍，拖连两顶帽子成呼应链。展开菌褶、录八拍，让自己的蘑菇队循环合奏。",
+    "ui": {
+      "bg": "#54a569",
+      "ink": "#142a18",
+      "accent": "#f378a8"
+    },
+    "controls": [
+      {
+        "id": "tongue",
+        "label": "拉舌留拍"
+      },
+      {
+        "id": "link",
+        "label": "连队呼应"
+      },
+      {
+        "id": "hats",
+        "label": "展开帽褶"
+      },
+      {
+        "id": "loop",
+        "label": "八拍循环"
+      },
+      {
+        "id": "call",
+        "label": "合唱接力"
+      }
+    ],
+    "newMechanics": [
+      "嘴型/音阶随拉舌大幅变形，释放记录当前拍",
+      "定向拖连队形成持久呼应链，循环重放已留节奏",
+      "展开帽褶与链路、循环可以组合"
+    ],
+    "artDirection": [
+      "草绿圆点Riso纸底，粉黄浅青菌帽与奶油粗茎",
+      "黑色有机口腔真实开合，奶齿弧和外伸粉舌",
+      "帽褶拉开展示密线菌褶，双色连线脉冲"
+    ],
+    "testPlan": [
+      {
+        "control": "tongue",
+        "from": [
+          0.23,
+          0.28
+        ],
+        "to": [
+          0.32,
+          0.46
+        ],
+        "hold": 500
+      },
+      {
+        "control": "link",
+        "from": [
+          0.23,
+          0.28
+        ],
+        "to": [
+          0.5,
+          0.24
+        ],
+        "hold": 600
+      },
+      {
+        "control": "hats",
+        "from": [
+          0.5,
+          0.24
+        ],
+        "to": [
+          0.5,
+          0.36
+        ],
+        "hold": 400
+      },
+      {
+        "control": "loop",
+        "from": [
+          0.68,
+          0.67
+        ],
+        "to": [
+          0.68,
+          0.74
+        ],
+        "hold": 350
+      }
+    ],
+    "stateFields": {
+      "links": "拖连不同成员后大于0",
+      "recorded": "拉舌释放后增加",
+      "unfolded": "展开帽褶后增加",
+      "looping": "八拍循环切换true/false"
+    },
+    "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}button{box-shadow:2px 2px 0 var(--ink);background:#fff1d8;color:#142a18}button.active{background:var(--accent);color:#142a18}",
+    "html_sha256": "fee98e5caa732289a284f334da836fe466643313c5eb52ce0a4f8bbb3bb44489",
+    "zip_sha256": "6438eb08dab6ca946e7440380a7425d947da64954b6f8d8b393af58b260962c9",
+    "zip_bytes": 138748
+  },
+  {
+    "number": 31,
+    "slug": "31-anemone-beatbox",
+    "title": "海葵嘻哈团",
+    "group": "T",
+    "mothers": [
+      "singing_beans_vocal_choir.html"
+    ],
+    "innovation": "Riso花边海葵口技，捏口变元音、合体低音、分组对唱与触须律动",
+    "description": "捏海葵黑嘴改变元音形，拨长彩色触须。四团合体成低音，再拆回左右轮流接拍。",
+    "ui": {
+      "bg": "#498f69",
+      "ink": "#142a18",
+      "accent": "#ff9ab5"
+    },
+    "controls": [
+      {
+        "id": "mouth",
+        "label": "捏口元音"
+      },
+      {
+        "id": "tentacle",
+        "label": "拨触须"
+      },
+      {
+        "id": "fuse",
+        "label": "合体低音"
+      },
+      {
+        "id": "split",
+        "label": "拆回双组"
+      },
+      {
+        "id": "echo",
+        "label": "轮流接拍"
+      }
+    ],
+    "newMechanics": [
+      "横捏口宽竖拉胖瘦，口形参与音效选调",
+      "选触须拉长，触须长度/口形在接拍里累积",
+      "四團合体/拆回与轮流应答相互影响"
+    ],
+    "artDirection": [
+      "草绿Riso网点，粉黄青紫十六瓣有机触须",
+      "四团双组构图与印刷海藻边框",
+      "奶齿、粉舌黑腔保留母本表情，口宽与胖瘦真变形"
+    ],
+    "testPlan": [
+      {
+        "control": "mouth",
+        "from": [
+          0.28,
+          0.31
+        ],
+        "to": [
+          0.39,
+          0.4
+        ],
+        "hold": 400
+      },
+      {
+        "control": "tentacle",
+        "from": [
+          0.72,
+          0.29
+        ],
+        "to": [
+          0.87,
+          0.39
+        ],
+        "hold": 400
+      },
+      {
+        "control": "fuse",
+        "from": [
+          0.5,
+          0.53
+        ],
+        "to": [
+          0.62,
+          0.58
+        ],
+        "hold": 300
+      },
+      {
+        "control": "echo",
+        "from": [
+          0.28,
+          0.73
+        ],
+        "to": [
+          0.38,
+          0.75
+        ],
+        "hold": 300
+      }
+    ],
+    "stateFields": {
+      "merged": "合体后true，拆回后false",
+      "pinches": "捏口后数组值改变",
+      "patterns": "每团操作后接拍序号改变",
+      "echo": "轮流接拍可开关"
+    },
+    "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}button{box-shadow:2px 2px 0 var(--ink);background:#fff1d8;color:#142a18}button.active{background:var(--accent);color:#142a18}",
+    "html_sha256": "4f4ae230faef11ba71279a05905ee1a41f9555107cb49693ab36b4d3c5408bbf",
+    "zip_sha256": "10698338fb9ec1f14c26eba28c40f6aaa5f083446555b8464fde8e9e7b0a4e5f",
+    "zip_bytes": 164752
+  },
+  {
+    "number": 32,
+    "slug": "32-wax-seal-press",
+    "title": "蜡章熔台",
+    "group": "T",
+    "mothers": [
+      "isometric_stamp_prototype.html"
+    ],
+    "innovation": "等距蜡料叠色、旋模、真实下压留浮雕、重熔与章片重组",
+    "description": "滴蜡叠色、转动三款模具，向下压柄留下真正浮雕；章片能回炉重熔与拖动镶嵌。",
+    "ui": {
+      "bg": "#d8b0b6",
+      "ink": "#5c3840",
+      "accent": "#7ed4bc"
+    },
+    "controls": [
+      {
+        "id": "drip",
+        "label": "滴蜡叠色"
+      },
+      {
+        "id": "color",
+        "label": "换蜡色"
+      },
+      {
+        "id": "turn",
+        "label": "旋模换纹"
+      },
+      {
+        "id": "press",
+        "label": "重压浮雕"
+      },
+      {
+        "id": "melt",
+        "label": "回炉重熔"
+      },
+      {
+        "id": "mosaic",
+        "label": "章片镶嵌"
+      }
+    ],
+    "newMechanics": [
+      "三色蜡料叠层影响压成章片的颜色",
+      "旋模换纹和拖压深度决定即时重量感",
+      "章片保留材料状态，可重熔再压或镶嵌重排"
+    ],
+    "artDirection": [
+      "藕粉地面、薄荷盒与象牙厚台，30度等距分面",
+      "灰木蘑菇握柄、暖木底座、接触投影与重量下压",
+      "红绿金蜡料波状边缘、叠色条纹和双线浮雕"
+    ],
+    "testPlan": [
+      {
+        "control": "drip",
+        "from": [
+          0.47,
+          0.5
+        ],
+        "to": [
+          0.55,
+          0.54
+        ],
+        "hold": 500
+      },
+      {
+        "control": "turn",
+        "from": [
+          0.5,
+          0.35
+        ],
+        "to": [
+          0.61,
+          0.35
+        ],
+        "hold": 500
+      },
+      {
+        "control": "press",
+        "from": [
+          0.5,
+          0.27
+        ],
+        "to": [
+          0.5,
+          0.49
+        ],
+        "hold": 700
+      },
+      {
+        "control": "mosaic",
+        "from": [
+          0.44,
+          0.85
+        ],
+        "to": [
+          0.6,
+          0.87
+        ],
+        "hold": 400,
+        "mobileFrom": [
+          0.36,
+          0.67
+        ],
+        "mobileTo": [
+          0.55,
+          0.74
+        ]
+      }
+    ],
+    "stateFields": {
+      "waxLayers": "滴蜡/换色后增长，最长12",
+      "pressed": "压印完成后增加",
+      "seals": "压印留下章片，最多8",
+      "mosaic": "镶嵌模式章片标记增长"
+    },
+    "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}",
+    "html_sha256": "d568809953a2b758868ea44a3f35b1b3cbcab86953ebb22947fead31f0d4dede",
+    "zip_sha256": "ff7d416de220cb6e9875a153bf11ce38d3b38d25c207086925792787b6933d1b",
+    "zip_bytes": 83530
+  },
+  {
+    "number": 33,
+    "slug": "33-expression-tape",
+    "title": "表情贴带厂",
+    "group": "T",
+    "mothers": [
+      "jackpot_pull.html"
+    ],
+    "innovation": "拟人纸贴长带拉出、按缺口分段、撕下再贴拼表情板，纸屑累计开新带",
+    "description": "下拉表情纸带，横甩撕开；贴片留在拼板。翻折、换表情与齐笑能组合到每一张纸。",
+    "ui": {
+      "bg": "#42b096",
+      "ink": "#25352c",
+      "accent": "#f23c55"
+    },
+    "controls": [
+      {
+        "id": "pull",
+        "label": "拉出纸带"
+      },
+      {
+        "id": "tear",
+        "label": "撕开长带"
+      },
+      {
+        "id": "paste",
+        "label": "贴片重排"
+      },
+      {
+        "id": "fold",
+        "label": "翻折贴纸"
+      },
+      {
+        "id": "print",
+        "label": "换表情色"
+      },
+      {
+        "id": "cheer",
+        "label": "拼板齐笑"
+      }
+    ],
+    "newMechanics": [
+      "长带下拉惯性式伸展、横甩断，长度影响贴片数",
+      "撕下票片作为可拖动持久表情谱",
+      "折纸/表情印色/齐笑可作用长带和已贴票，顺序留下不同结果"
+    ],
+    "artDirection": [
+      "青绿横纹场与斜面桃红票机，白铁板螺丝和黑槽",
+      "黄色缺口连纸、薄黑内框、巨眼雀斑粉舌",
+      "持久贴片拼板与真实横甩纸屑反馈"
+    ],
+    "testPlan": [
+      {
+        "control": "pull",
+        "from": [
+          0.32,
+          0.42
+        ],
+        "to": [
+          0.34,
+          0.7
+        ],
+        "hold": 600
+      },
+      {
+        "control": "tear",
+        "from": [
+          0.32,
+          0.6
+        ],
+        "to": [
+          0.43,
+          0.6
+        ],
+        "hold": 300
+      },
+      {
+        "control": "paste",
+        "from": [
+          0.67,
+          0.27
+        ],
+        "to": [
+          0.75,
+          0.43
+        ],
+        "hold": 400
+      },
+      {
+        "control": "fold",
+        "from": [
+          0.67,
+          0.27
+        ],
+        "to": [
+          0.68,
+          0.35
+        ],
+        "hold": 300
+      }
+    ],
+    "stateFields": {
+      "tears": "撕开后增加",
+      "tiles": "票片保留，最多12",
+      "emotion": "换表情色后0–3循环",
+      "folded": "翻折可切换"
+    },
+    "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}button{box-shadow:2px 2px 0 var(--ink);background:#fff1d8;color:#142a18}button.active{background:var(--accent);color:#142a18}",
+    "html_sha256": "a21ef898f45b44648f0153d912d120bc0aacf3658ee66fc47ce4d45de3cb0404",
+    "zip_sha256": "7a8dc7b81cfb57e83fbcb3a88a461e61c3404061ff1f89ac8990d177dc129460",
+    "zip_bytes": 116805
+  },
+  {
+    "number": 34,
+    "slug": "34-paper-snake-machine",
+    "title": "纸蛇拉面机",
+    "group": "T",
+    "mothers": [
+      "jackpot_pull.html"
+    ],
+    "innovation": "有孔纸链伸缩拉撕，接回变纸蛇、折叠蓄力、甩尾与多节摆动",
+    "description": "拉长有孔纸蛇、拖动盘绕，撕下入碗；接回整碗再拉、调味重排，让纸链不断再加工。",
+    "ui": {
+      "bg": "#42b096",
+      "ink": "#25352c",
+      "accent": "#f5c543"
+    },
+    "controls": [
+      {
+        "id": "pull",
+        "label": "牵头加长"
+      },
+      {
+        "id": "curl",
+        "label": "盘绕纸蛇"
+      },
+      {
+        "id": "join",
+        "label": "接回长链"
+      },
+      {
+        "id": "tear",
+        "label": "撕下入碗"
+      },
+      {
+        "id": "spice",
+        "label": "换味摆席"
+      },
+      {
+        "id": "reverse",
+        "label": "纸链逆转"
+      }
+    ],
+    "newMechanics": [
+      "纸蛇头位置与链长改变整条曲线，不同卷度形成大轮廓差异",
+      "撕下的长链持久盘入汤碗，可接回再加工",
+      "调味染纸、摆席、逆转与接回保留链材质"
+    ],
+    "artDirection": [
+      "青绿场、侧置红色拉面机与白铁滚槽",
+      "蛋黄连孔纸蛇，细框表情头与密纸边节纹",
+      "暖汤象牙碗、盘绕整链与纸屑爆开"
+    ],
+    "testPlan": [
+      {
+        "control": "pull",
+        "from": [
+          0.65,
+          0.56
+        ],
+        "to": [
+          0.73,
+          0.65
+        ],
+        "hold": 500
+      },
+      {
+        "control": "curl",
+        "from": [
+          0.65,
+          0.56
+        ],
+        "to": [
+          0.45,
+          0.46
+        ],
+        "hold": 500
+      },
+      {
+        "control": "tear",
+        "from": [
+          0.65,
+          0.56
+        ],
+        "to": [
+          0.67,
+          0.56
+        ],
+        "hold": 300
+      },
+      {
+        "control": "join",
+        "from": [
+          0.54,
+          0.66
+        ],
+        "to": [
+          0.55,
+          0.67
+        ],
+        "hold": 300
+      }
+    ],
+    "stateFields": {
+      "segments": "牵头加长，限制7–32节",
+      "bowls": "撕下保存为碗，最多6",
+      "joins": "接回后增加且碗减少",
+      "curl": "盘绕后0.1–1.35之间改变"
+    },
+    "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}button{box-shadow:2px 2px 0 var(--ink);background:#fff1d8;color:#142a18}button.active{background:var(--accent);color:#142a18}",
+    "html_sha256": "edff263a029f7ccada145789e60743b299a710fe0f788ae5dd55cb26d30e69c2",
+    "zip_sha256": "97c971194961ebc6e05406dfbd60cac54bf7830de4ba2fdba3914f414c427336",
+    "zip_bytes": 108894
+  },
+  {
+    "number": 35,
+    "slug": "35-rubber-ferret",
+    "title": "橡皮飞鼬",
+    "group": "T",
+    "mothers": [
+      "jungle_elastic.html"
+    ],
+    "innovation": "面条弹臂飞鼬选锚抓放，双手换抓、张力蓄能、风味果与循环舞台",
+    "description": "点藤选择锚点，拖身体拉长橡皮臂，松手飞行摘果。双手、翼膜、蓄力与开花锚点可以连用。",
+    "ui": {
+      "bg": "#378a81",
+      "ink": "#f5f1d8",
+      "accent": "#b5e61d"
+    },
+    "controls": [
+      {
+        "id": "grab",
+        "label": "选藤抓放"
+      },
+      {
+        "id": "double",
+        "label": "双手换抓"
+      },
+      {
+        "id": "glide",
+        "label": "展开翼膜"
+      },
+      {
+        "id": "recoil",
+        "label": "蓄力弹跳"
+      },
+      {
+        "id": "bloom",
+        "label": "开花移锚"
+      }
+    ],
+    "newMechanics": [
+      "选实际锚点，拖身形变，释放有方向的有限张力",
+      "双手保留前锚点，展开翼膜减落速，蓄力可与换抓组合",
+      "开花会改变锚点高度并长果；摘果推进花庭循环，角色持续可见"
+    ],
+    "artDirection": [
+      "青绿林地分层，荧黄垂藤与橘棕弹臂飞鼬",
+      "巨幅弯曲双臂、肤色抓手、细胡须表情与长尾",
+      "展开暖橙脉纹翼膜，蓄力时身形压扁加宽"
+    ],
+    "testPlan": [
+      {
+        "control": "grab",
+        "from": [
+          0.72,
+          0.34
+        ],
+        "to": [
+          0.48,
+          0.68
+        ],
+        "hold": 700
+      },
+      {
+        "control": "double",
+        "from": [
+          0.14,
+          0.29
+        ],
+        "to": [
+          0.31,
+          0.57
+        ],
+        "hold": 600
+      },
+      {
+        "control": "glide",
+        "from": [
+          0.89,
+          0.2
+        ],
+        "to": [
+          0.76,
+          0.48
+        ],
+        "hold": 500
+      },
+      {
+        "control": "bloom",
+        "from": [
+          0.4,
+          0.22
+        ],
+        "to": [
+          0.55,
+          0.35
+        ],
+        "hold": 500
+      }
+    ],
+    "stateFields": {
+      "swings": "释放/蓄力后增长",
+      "grips": "选藤1，双手最多2",
+      "glide": "翼膜开关",
+      "x": "始终0.09–0.91之间",
+      "y": "始终0.25–0.8之间"
+    },
+    "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}",
+    "html_sha256": "db3dc9220b2449f6f0f9a9f9a9389553c236239a3f9bb9bfc90d84beb95f7d6b",
+    "zip_sha256": "d356f1e511d1a0c4edc3197677f3e5bfe720884590b6762e07f09b907dfb8072",
+    "zip_bytes": 102202
+  }
+]

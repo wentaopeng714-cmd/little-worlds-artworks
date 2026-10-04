@@ -1,0 +1,124 @@
+{
+  "number": 24,
+  "slug": "24-citrus-radio",
+  "title": "电台胖柑",
+  "group": "T",
+  "mothers": [
+    "cartoon_rig_audio(1).html"
+  ],
+  "innovation": "块面柑橘播报员，拉眉/嘴/叶与脸颊，表情组合改变节目状态",
+  "description": "选部位拖动：眉毛变情绪，嘴型抿／嘟／露齿，脸颊充气，叶片调频道。收录三段表情后开播。",
+  "ui": {
+    "bg": "#c2c6b1",
+    "ink": "#233940",
+    "accent": "#e45a3f"
+  },
+  "controls": [
+    {
+      "id": "brow",
+      "label": "拉眉"
+    },
+    {
+      "id": "mouth",
+      "label": "拉嘴"
+    },
+    {
+      "id": "cheek",
+      "label": "充脸颊"
+    },
+    {
+      "id": "leaf",
+      "label": "转叶片"
+    },
+    {
+      "id": "capture",
+      "label": "收录节目"
+    },
+    {
+      "id": "broadcast",
+      "label": "开播／停播"
+    }
+  ],
+  "artDirection": [
+    "赭橙角面果皮与细孔",
+    "薄荷绿片叶发冠",
+    "西装织点与瓷麦克风"
+  ],
+  "newMechanics": [
+    "拉眉改变粗眉倾角和瞳孔",
+    "拉嘴从抿口变嘟口再露齿大口",
+    "充脸颊扩大整个角脸轮廓",
+    "转叶片切天气/奇闻/夜话频道",
+    "收录节目保留三个表情符号",
+    "开播／停播轮播12秒表情节目并累计期数"
+  ],
+  "testPlan": [
+    {
+      "control": "mouth",
+      "from": [
+        0.5,
+        0.48
+      ],
+      "to": [
+        0.58,
+        0.73
+      ],
+      "hold": 250
+    },
+    {
+      "control": "cheek",
+      "from": [
+        0.62,
+        0.42
+      ],
+      "to": [
+        0.82,
+        0.42
+      ],
+      "hold": 200
+    },
+    {
+      "control": "leaf",
+      "from": [
+        0.5,
+        0.2
+      ],
+      "to": [
+        0.72,
+        0.2
+      ],
+      "hold": 200
+    },
+    {
+      "control": "capture",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 100
+    },
+    {
+      "control": "broadcast",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 100
+    }
+  ],
+  "stateFields": [
+    "mouthZone: 0/1/2",
+    "cheek:0–1",
+    "channel:0–2",
+    "clips<=3",
+    "programs / onAir"
+  ]
+}

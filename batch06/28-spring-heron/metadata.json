@@ -1,0 +1,123 @@
+{
+  "number": 28,
+  "slug": "28-spring-heron",
+  "title": "弹簧鹭舞",
+  "group": "T",
+  "mothers": [
+    "funky_walk_controller.html"
+  ],
+  "innovation": "长腿鸟连续步态，拖膝蓄力、脚蹼跨物、帽气球与逆步",
+  "description": "拖膝盖蓄力，松手弹跳；横拉蹼掌，竖拉气囊。切倒踏和石障，把弹簧膝、浮力与跳步组合。",
+  "ui": {
+    "bg": "#f5d56e",
+    "ink": "#2b3b47",
+    "accent": "#cf795e"
+  },
+  "controls": [
+    {
+      "id": "knee",
+      "label": "拉弹簧膝"
+    },
+    {
+      "id": "web",
+      "label": "撑蹼掌"
+    },
+    {
+      "id": "gas",
+      "label": "调气囊"
+    },
+    {
+      "id": "reverse",
+      "label": "倒踏"
+    },
+    {
+      "id": "hurdles",
+      "label": "加石障"
+    },
+    {
+      "id": "leap",
+      "label": "弹跳"
+    }
+  ],
+  "artDirection": [
+    "黄纸舞台与长面条鹭腿",
+    "金属弹簧膝、珊瑚蹼掌",
+    "奶油羽片与织纹信包、半透明气囊"
+  ],
+  "newMechanics": [
+    "拉弹簧膝改变膝曲并蓄力，松手弹跳",
+    "撑蹼掌横拉改变脚掌真实外形",
+    "调气囊竖拉浮力，改变跳高和滞空时间",
+    "倒踏切换行走方向并反转腿相位",
+    "加石障保留1–3块石障，组合弹跳累计越障",
+    "弹跳即刻触发，可与气囊及膝盖组合"
+  ],
+  "testPlan": [
+    {
+      "control": "hurdles",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 50
+    },
+    {
+      "control": "gas",
+      "from": [
+        0.4,
+        0.35
+      ],
+      "to": [
+        0.4,
+        0.18
+      ],
+      "hold": 200
+    },
+    {
+      "control": "web",
+      "from": [
+        0.42,
+        0.71
+      ],
+      "to": [
+        0.7,
+        0.71
+      ],
+      "hold": 200
+    },
+    {
+      "control": "knee",
+      "from": [
+        0.5,
+        0.65
+      ],
+      "to": [
+        0.64,
+        0.42
+      ],
+      "hold": 300
+    },
+    {
+      "control": "reverse",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 50
+    }
+  ],
+  "stateFields": [
+    "bend/web/gas:0–1",
+    "reverse:+1/-1",
+    "hurdles:0–3",
+    "leaps/cleared"
+  ]
+}

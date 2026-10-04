@@ -1,0 +1,105 @@
+{
+  "number": 30,
+  "slug": "30-mushroom-harmonica",
+  "title": "蘑菇口琴队",
+  "group": "T",
+  "mothers": [
+    "singing_beans_vocal_choir.html"
+  ],
+  "innovation": "Riso蘑菇嘴队，拉舌改音、连队成节奏链、帽褶展开与合唱呼应",
+  "description": "拉嘴留下一拍，拖连两顶帽子成呼应链。展开菌褶、录八拍，让自己的蘑菇队循环合奏。",
+  "ui": {
+    "bg": "#54a569",
+    "ink": "#142a18",
+    "accent": "#f378a8"
+  },
+  "controls": [
+    {
+      "id": "tongue",
+      "label": "拉舌留拍"
+    },
+    {
+      "id": "link",
+      "label": "连队呼应"
+    },
+    {
+      "id": "hats",
+      "label": "展开帽褶"
+    },
+    {
+      "id": "loop",
+      "label": "八拍循环"
+    },
+    {
+      "id": "call",
+      "label": "合唱接力"
+    }
+  ],
+  "newMechanics": [
+    "嘴型/音阶随拉舌大幅变形，释放记录当前拍",
+    "定向拖连队形成持久呼应链，循环重放已留节奏",
+    "展开帽褶与链路、循环可以组合"
+  ],
+  "artDirection": [
+    "草绿圆点Riso纸底，粉黄浅青菌帽与奶油粗茎",
+    "黑色有机口腔真实开合，奶齿弧和外伸粉舌",
+    "帽褶拉开展示密线菌褶，双色连线脉冲"
+  ],
+  "testPlan": [
+    {
+      "control": "tongue",
+      "from": [
+        0.23,
+        0.28
+      ],
+      "to": [
+        0.32,
+        0.46
+      ],
+      "hold": 500
+    },
+    {
+      "control": "link",
+      "from": [
+        0.23,
+        0.28
+      ],
+      "to": [
+        0.5,
+        0.24
+      ],
+      "hold": 600
+    },
+    {
+      "control": "hats",
+      "from": [
+        0.5,
+        0.24
+      ],
+      "to": [
+        0.5,
+        0.36
+      ],
+      "hold": 400
+    },
+    {
+      "control": "loop",
+      "from": [
+        0.68,
+        0.67
+      ],
+      "to": [
+        0.68,
+        0.74
+      ],
+      "hold": 350
+    }
+  ],
+  "stateFields": {
+    "links": "拖连不同成员后大于0",
+    "recorded": "拉舌释放后增加",
+    "unfolded": "展开帽褶后增加",
+    "looping": "八拍循环切换true/false"
+  },
+  "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}button{box-shadow:2px 2px 0 var(--ink);background:#fff1d8;color:#142a18}button.active{background:var(--accent);color:#142a18}"
+}

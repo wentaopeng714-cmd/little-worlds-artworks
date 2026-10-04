@@ -1,0 +1,124 @@
+{
+  "number": 23,
+  "slug": "23-tin-wave-relief",
+  "title": "锡浪浮刻",
+  "group": "G",
+  "mothers": [
+    "metal_wave_generative_studio.html"
+  ],
+  "innovation": "密线铜锡浮刻，刻槽、压凸、旋光与补缀，留下持续浮雕",
+  "description": "在铜锡薄板压凸与刻槽，补缀重塑旧痕，旋光和氧化显出浮刻。",
+  "ui": {
+    "bg": "#1c2424",
+    "ink": "#dbded2",
+    "accent": "#d79661"
+  },
+  "controls": [
+    {
+      "id": "raise",
+      "label": "压凸"
+    },
+    {
+      "id": "groove",
+      "label": "刻槽"
+    },
+    {
+      "id": "light",
+      "label": "旋光"
+    },
+    {
+      "id": "patch",
+      "label": "补缀"
+    },
+    {
+      "id": "patina",
+      "label": "氧化显色"
+    }
+  ],
+  "newMechanics": [
+    "铜锡板局部压凸改变密等高线",
+    "刻槽路径切开凸起并留下铜色沟边",
+    "补缀重塑凹面与旧沟，不删除全板",
+    "旋光控制高光并氧化显出加工区域"
+  ],
+  "artDirection": [
+    "母本极密金属轮廓形成体量",
+    "锡灰亮边、铜锈橙绿、黑刻槽",
+    "不规则片形外沿与局部凸凹雕刻"
+  ],
+  "testPlan": [
+    {
+      "control": "raise",
+      "from": [
+        0.32,
+        0.46
+      ],
+      "to": [
+        0.67,
+        0.57
+      ],
+      "hold": 650
+    },
+    {
+      "control": "groove",
+      "from": [
+        0.4,
+        0.3
+      ],
+      "to": [
+        0.7,
+        0.66
+      ],
+      "hold": 650
+    },
+    {
+      "control": "light",
+      "from": [
+        0.32,
+        0.46
+      ],
+      "to": [
+        0.67,
+        0.57
+      ],
+      "hold": 650
+    },
+    {
+      "control": "patch",
+      "from": [
+        0.53,
+        0.48
+      ],
+      "to": [
+        0.58,
+        0.5
+      ],
+      "hold": 650
+    },
+    {
+      "control": "patina",
+      "from": [
+        0.39,
+        0.68
+      ],
+      "to": [
+        0.55,
+        0.58
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "bounded",
+    "mode",
+    "status",
+    "processed",
+    "persistentResult",
+    "embossings",
+    "grooves",
+    "repairs",
+    "light",
+    "oxidized"
+  ],
+  "css": "header h1{letter-spacing:.08em}"
+}

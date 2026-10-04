@@ -1,0 +1,120 @@
+{
+  "number": 11,
+  "slug": "11-ember-script",
+  "title": "焰书",
+  "group": "F",
+  "mothers": [
+    "magical_trail_shader.html"
+  ],
+  "innovation": "聚焰书写，牵引光字，分裂火种与交叉共振；限亮保留熔光细节",
+  "description": "按住聚焰写光字，松手释放火种；牵引笔画、分火、共振，再用金印封存。",
+  "ui": {
+    "bg": "#0d1015",
+    "ink": "#e4ccb3",
+    "accent": "#eb784b"
+  },
+  "controls": [
+    {
+      "id": "write",
+      "label": "聚焰书写"
+    },
+    {
+      "id": "pull",
+      "label": "牵引光字"
+    },
+    {
+      "id": "split",
+      "label": "划字分火"
+    },
+    {
+      "id": "resonate",
+      "label": "交叉共振"
+    },
+    {
+      "id": "seal",
+      "label": "金印封存"
+    }
+  ],
+  "newMechanics": [
+    "可保留而非消失光字",
+    "牵引持续改变笔画坐标",
+    "松手释放限量火种",
+    "封印锁住邻近光字",
+    "共振提高光字能量与轮换火色",
+    "共振检测笔画真实交点，在交点释放火结"
+  ],
+  "artDirection": [
+    "母本黑底熔光多色尾迹",
+    "局部辉光限亮避免白屏",
+    "有曲率的纤维笔锋/火种"
+  ],
+  "testPlan": [
+    {
+      "control": "write",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "pull",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "split",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "resonate",
+      "from": [
+        0.55,
+        0.5
+      ],
+      "to": [
+        0.6,
+        0.55
+      ],
+      "hold": 700
+    },
+    {
+      "control": "seal",
+      "from": [
+        0.62,
+        0.52
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "strokes书写增长",
+    "sealed金印上升",
+    "splitBursts分火增长",
+    "sparks不超过850",
+    "lastCrossings只计真实笔画交点"
+  ]
+}

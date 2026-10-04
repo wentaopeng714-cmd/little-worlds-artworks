@@ -1,0 +1,104 @@
+{
+  "number": 2,
+  "slug": "02-plume-migration",
+  "title": "羽焰迁徙",
+  "group": "F",
+  "mothers": [
+    "attraction_particles.html"
+  ],
+  "description": "拖羽尖牵弯长羽，剪出持久航路；合羽把两群牵到一起，逆焰与迁徙重组羽流。",
+  "ui": {
+    "bg": "#261c2c",
+    "ink": "#edc8b2",
+    "accent": "#ed976e"
+  },
+  "controls": [
+    {
+      "id": "plume",
+      "label": "牵羽尖"
+    },
+    {
+      "id": "cut",
+      "label": "剪航路"
+    },
+    {
+      "id": "fuse",
+      "label": "合羽群"
+    },
+    {
+      "id": "reverse",
+      "label": "逆羽焰"
+    },
+    {
+      "id": "migrate",
+      "label": "放迁徙"
+    }
+  ],
+  "newMechanics": [
+    "羽尖驱动整片羽形",
+    "持久剪道与牵形组合",
+    "近邻羽尖合群留下联羽丝",
+    "定时迁徙改变基部"
+  ],
+  "artDirection": [
+    "宽窄变化长羽轮廓",
+    "数百羽枝与密细轴丝",
+    "暖灰紫底与铜红青碧羽焰"
+  ],
+  "testPlan": [
+    {
+      "control": "plume",
+      "from": [
+        0.38,
+        0.14
+      ],
+      "to": [
+        0.5,
+        0.25
+      ],
+      "hold": 650
+    },
+    {
+      "control": "cut",
+      "from": [
+        0.15,
+        0.5
+      ],
+      "to": [
+        0.8,
+        0.58
+      ],
+      "hold": 700
+    },
+    {
+      "control": "fuse",
+      "from": [
+        0.58,
+        0.2
+      ],
+      "to": [
+        0.5,
+        0.25
+      ],
+      "hold": 750
+    },
+    {
+      "control": "migrate",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 1500
+    }
+  ],
+  "stateFields": {
+    "routes": "剪道后1以上",
+    "joinedFlocks": "把相邻羽尖拖近后1以上",
+    "migrating": "迁徙后true",
+    "direction": "逆焰后-1"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "number": 20,
+  "slug": "20-fiber-snowcrystals",
+  "title": "纤维雪晶",
+  "group": "G",
+  "mothers": [
+    "samuel_yan_plant_growing_interactive.html"
+  ],
+  "innovation": "亚麻纸上生长雪枝，嫁接晶种、拨风、融尖与冻结几何层",
+  "description": "嫁接六向纤维晶种，拨弯软枝，融尖再长；凝晶把相邻枝织成细格。",
+  "ui": {
+    "bg": "#f1dcd5",
+    "ink": "#65585c",
+    "accent": "#759f91"
+  },
+  "controls": [
+    {
+      "id": "seed",
+      "label": "嫁晶种"
+    },
+    {
+      "id": "wind",
+      "label": "拨纤风"
+    },
+    {
+      "id": "melt",
+      "label": "融尖"
+    },
+    {
+      "id": "freeze",
+      "label": "局部凝晶"
+    },
+    {
+      "id": "thaw",
+      "label": "全幅解冻"
+    }
+  ],
+  "newMechanics": [
+    "晶种六向蔓延形成纤维尖",
+    "嫁接近邻连成互传凝晶的网络",
+    "拨风永久弯折软枝但不改变已凝枝",
+    "融尖后重长，凝晶生成三角层"
+  ],
+  "artDirection": [
+    "母本浅粉亚麻颗粒、弧形细枝和晶格",
+    "繁密奶白纤枝与薄荷/珊瑚/金/淡紫晶片，偏移阴影和半透明分面",
+    "六向晶蕨互连，凝结生成有色细三角层"
+  ],
+  "testPlan": [
+    {
+      "control": "seed",
+      "from": [
+        0.35,
+        0.43
+      ],
+      "to": [
+        0.36,
+        0.43
+      ],
+      "hold": 650
+    },
+    {
+      "control": "wind",
+      "from": [
+        0.5,
+        0.46
+      ],
+      "to": [
+        0.56,
+        0.38
+      ],
+      "hold": 650
+    },
+    {
+      "control": "melt",
+      "from": [
+        0.68,
+        0.17
+      ],
+      "to": [
+        0.74,
+        0.21
+      ],
+      "hold": 650
+    },
+    {
+      "control": "freeze",
+      "from": [
+        0.5,
+        0.46
+      ],
+      "to": [
+        0.73,
+        0.71
+      ],
+      "hold": 650
+    },
+    {
+      "control": "thaw",
+      "from": [
+        0.5,
+        0.46
+      ],
+      "to": [
+        0.5,
+        0.46
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "bounded",
+    "mode",
+    "status",
+    "processed",
+    "persistentResult",
+    "crystalSeeds",
+    "grafts",
+    "frozen",
+    "melted",
+    "bend"
+  ],
+  "css": "header h1{letter-spacing:.08em}"
+}

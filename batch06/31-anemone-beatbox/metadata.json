@@ -1,0 +1,105 @@
+{
+  "number": 31,
+  "slug": "31-anemone-beatbox",
+  "title": "海葵嘻哈团",
+  "group": "T",
+  "mothers": [
+    "singing_beans_vocal_choir.html"
+  ],
+  "innovation": "Riso花边海葵口技，捏口变元音、合体低音、分组对唱与触须律动",
+  "description": "捏海葵黑嘴改变元音形，拨长彩色触须。四团合体成低音，再拆回左右轮流接拍。",
+  "ui": {
+    "bg": "#498f69",
+    "ink": "#142a18",
+    "accent": "#ff9ab5"
+  },
+  "controls": [
+    {
+      "id": "mouth",
+      "label": "捏口元音"
+    },
+    {
+      "id": "tentacle",
+      "label": "拨触须"
+    },
+    {
+      "id": "fuse",
+      "label": "合体低音"
+    },
+    {
+      "id": "split",
+      "label": "拆回双组"
+    },
+    {
+      "id": "echo",
+      "label": "轮流接拍"
+    }
+  ],
+  "newMechanics": [
+    "横捏口宽竖拉胖瘦，口形参与音效选调",
+    "选触须拉长，触须长度/口形在接拍里累积",
+    "四團合体/拆回与轮流应答相互影响"
+  ],
+  "artDirection": [
+    "草绿Riso网点，粉黄青紫十六瓣有机触须",
+    "四团双组构图与印刷海藻边框",
+    "奶齿、粉舌黑腔保留母本表情，口宽与胖瘦真变形"
+  ],
+  "testPlan": [
+    {
+      "control": "mouth",
+      "from": [
+        0.28,
+        0.31
+      ],
+      "to": [
+        0.39,
+        0.4
+      ],
+      "hold": 400
+    },
+    {
+      "control": "tentacle",
+      "from": [
+        0.72,
+        0.29
+      ],
+      "to": [
+        0.87,
+        0.39
+      ],
+      "hold": 400
+    },
+    {
+      "control": "fuse",
+      "from": [
+        0.5,
+        0.53
+      ],
+      "to": [
+        0.62,
+        0.58
+      ],
+      "hold": 300
+    },
+    {
+      "control": "echo",
+      "from": [
+        0.28,
+        0.73
+      ],
+      "to": [
+        0.38,
+        0.75
+      ],
+      "hold": 300
+    }
+  ],
+  "stateFields": {
+    "merged": "合体后true，拆回后false",
+    "pinches": "捏口后数组值改变",
+    "patterns": "每团操作后接拍序号改变",
+    "echo": "轮流接拍可开关"
+  },
+  "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}button{box-shadow:2px 2px 0 var(--ink);background:#fff1d8;color:#142a18}button.active{background:var(--accent);color:#142a18}"
+}

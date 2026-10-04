@@ -1,0 +1,125 @@
+{
+  "number": 17,
+  "slug": "17-arc-tile-dance",
+  "title": "弧砖舞阵",
+  "group": "G",
+  "mothers": [
+    "code_artifact.html"
+  ],
+  "innovation": "邻接弧砖真实转铰、波行换色、推挤与连片翻面",
+  "description": "转动一块弧砖，推挤整片色域；让染色沿同色邻接走一次，再翻面或并片。",
+  "ui": {
+    "bg": "#2a3433",
+    "ink": "#e4d9c4",
+    "accent": "#dd795c"
+  },
+  "controls": [
+    {
+      "id": "hinge",
+      "label": "弧砖转铰"
+    },
+    {
+      "id": "shove",
+      "label": "连片推挤"
+    },
+    {
+      "id": "flood",
+      "label": "波行换色"
+    },
+    {
+      "id": "flip",
+      "label": "连片翻面"
+    },
+    {
+      "id": "merge",
+      "label": "拖接并片"
+    },
+    {
+      "id": "align",
+      "label": "归齐留色"
+    }
+  ],
+  "newMechanics": [
+    "转铰角度/压窄松手保留",
+    "同色连片整体错移",
+    "有限邻接传播按拓扑层距留下协调矿色色带，薄墨透出原纸色",
+    "翻面改变材料纹理及邻接轮廓",
+    "拖并两个色域重构连接"
+  ],
+  "artDirection": [
+    "严格以相邻同色格关系决定四分之一圆边，保留母本连片包豪斯弧面",
+    "七色实际独立取色；哑光纸面细印压纹与斜转薄边投影",
+    "传播保留原纸色层并形成宽细印墨带，反复组合维持七色材料层次"
+  ],
+  "testPlan": [
+    {
+      "control": "hinge",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.58,
+        0.56
+      ],
+      "hold": 450
+    },
+    {
+      "control": "shove",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "flood",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "flip",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "merge",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    }
+  ],
+  "stateFields": [
+    "distinctColors初始7",
+    "turnedTiles转铰后增加",
+    "pushedTiles推挤后增加",
+    "queuedFlood最终0",
+    "waves增加",
+    "reverseTiles翻面后增加",
+    "visibleColorLayers传播后持续7；inkedTiles增加；传播色带按层距变化"
+  ]
+}

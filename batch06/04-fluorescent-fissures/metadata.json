@@ -1,0 +1,105 @@
+{
+  "number": 4,
+  "slug": "04-fluorescent-fissures",
+  "title": "荧光裂隙矿",
+  "group": "F",
+  "mothers": [
+    "bioluminescent_poisson_growth_studio.html"
+  ],
+  "description": "点染矿脉，拖压打开宽裂隙；跨裂口缝桥，封晶后又能局部重开。",
+  "ui": {
+    "bg": "#221922",
+    "ink": "#e6c7cf",
+    "accent": "#81d2b1"
+  },
+  "controls": [
+    {
+      "id": "vein",
+      "label": "种矿脉"
+    },
+    {
+      "id": "stress",
+      "label": "压开裂隙"
+    },
+    {
+      "id": "stitch",
+      "label": "缝晶桥"
+    },
+    {
+      "id": "seal",
+      "label": "封晶"
+    },
+    {
+      "id": "reopen",
+      "label": "重新开矿"
+    }
+  ],
+  "newMechanics": [
+    "矿种逐渐长密",
+    "应力拖线持续裂开矿片",
+    "跨裂口缝桥闭合",
+    "裂缝封晶成多面细晶",
+    "重开保留旧矿脉"
+  ],
+  "artDirection": [
+    "多层角面矿片与微脉枝丝",
+    "粉晶青铜紫金四矿区",
+    "粗裂口与细晶针密度反差"
+  ],
+  "testPlan": [
+    {
+      "control": "vein",
+      "from": [
+        0.3,
+        0.34
+      ],
+      "to": [
+        0.3,
+        0.34
+      ],
+      "hold": 650
+    },
+    {
+      "control": "stress",
+      "from": [
+        0.1,
+        0.5
+      ],
+      "to": [
+        0.86,
+        0.65
+      ],
+      "hold": 850
+    },
+    {
+      "control": "stitch",
+      "from": [
+        0.43,
+        0.42
+      ],
+      "to": [
+        0.55,
+        0.67
+      ],
+      "hold": 850
+    },
+    {
+      "control": "reopen",
+      "from": [
+        0.5,
+        0.53
+      ],
+      "to": [
+        0.5,
+        0.53
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": {
+    "mineralSeeds": "种矿后5以上",
+    "fissures": "应力后2以上",
+    "stitches": "缝桥后1以上",
+    "sealedFissures": "封晶后增大，重开减少"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "number": 16,
+  "slug": "16-signal-stair",
+  "title": "阶梯信号台",
+  "group": "G",
+  "mothers": [
+    "code_artifact (1).html"
+  ],
+  "innovation": "双轨折线织出信号路，置门、断路、转向、脉冲编排",
+  "description": "把双轨折线织成信号路；放门、切断或织转向旁路，再发脉冲观察它停住和释放。",
+  "ui": {
+    "bg": "#d4dfc9",
+    "ink": "#294d4b",
+    "accent": "#963e57"
+  },
+  "controls": [
+    {
+      "id": "trace",
+      "label": "织双轨线"
+    },
+    {
+      "id": "gate",
+      "label": "放门开合"
+    },
+    {
+      "id": "turn",
+      "label": "阶梯转向"
+    },
+    {
+      "id": "cut",
+      "label": "线路断接"
+    },
+    {
+      "id": "pulse",
+      "label": "发四脉冲"
+    },
+    {
+      "id": "tempo",
+      "label": "脉冲步频"
+    }
+  ],
+  "newMechanics": [
+    "门会拦住真实沿路径移动的脉冲",
+    "点线路插入往返阶梯旁路",
+    "可接回的断路",
+    "三档脉冲步频与持续门控状态"
+  ],
+  "artDirection": [
+    "双平行正交线、密排跨接短线、笔头靶环，保留母本逐步拓扑语法",
+    "矿绿坐标纸上靛青/铜墨线路与胭脂闸门；不是旧路径运输玩具"
+  ],
+  "testPlan": [
+    {
+      "control": "trace",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "gate",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "turn",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "cut",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    },
+    {
+      "control": "pulse",
+      "from": [
+        0.48,
+        0.49
+      ],
+      "to": [
+        0.67,
+        0.36
+      ],
+      "hold": 450
+    }
+  ],
+  "stateFields": [
+    "vertices<=2200",
+    "gates<=12",
+    "activePulses<=32",
+    "reroutes增加",
+    "openGates点门改变",
+    "blockedArrivals及delivered随真实门控改变"
+  ]
+}

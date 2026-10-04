@@ -1,0 +1,120 @@
+{
+  "number": 8,
+  "slug": "08-lacquer-rivers",
+  "title": "漆河分色",
+  "group": "F",
+  "mothers": [
+    "samuel_yan_mobile_liquid_studio.html"
+  ],
+  "innovation": "黑朱金青湿漆注色、梳流、刮露底与固化裂纹",
+  "description": "朱金青黑厚漆会湿润流动；注漆后梳出水拓纹，刮黑河、固化，再局部回湿。",
+  "ui": {
+    "bg": "#101614",
+    "ink": "#e5ccb0",
+    "accent": "#e07742"
+  },
+  "controls": [
+    {
+      "id": "pour",
+      "label": "注湿漆"
+    },
+    {
+      "id": "comb",
+      "label": "梳流脉"
+    },
+    {
+      "id": "scrape",
+      "label": "刮露底"
+    },
+    {
+      "id": "cure",
+      "label": "局部固化"
+    },
+    {
+      "id": "reflow",
+      "label": "回湿旋合"
+    },
+    {
+      "id": "color",
+      "label": "换漆色"
+    }
+  ],
+  "newMechanics": [
+    "GPU持续颜料及厚度场",
+    "梳流拖动改变真实色层",
+    "固化材质阻止后续平流",
+    "回湿解除局部固化"
+  ],
+  "artDirection": [
+    "母本弯曲厚颜料折层",
+    "朱黑金青湿漆与受控虹彩",
+    "微粒/高光/固化裂纹"
+  ],
+  "testPlan": [
+    {
+      "control": "pour",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "comb",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "scrape",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "cure",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "reflow",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "materialThickness注漆与刮底不同",
+    "curedPercent固化后上升/回湿降低"
+  ],
+  "context": "webgl"
+}

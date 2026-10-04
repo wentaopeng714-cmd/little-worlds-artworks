@@ -1,0 +1,120 @@
+{
+  "number": 13,
+  "slug": "13-gilded-fans",
+  "title": "金箔万花扇",
+  "group": "G",
+  "mothers": [
+    "code_artifact (1)_副本.html"
+  ],
+  "innovation": "纹理纸扇分层展开、转轴、揭箔与拼扇压印",
+  "description": "横拖展开纹理纸扇，绕轴转扇；揭箔、拼轴与压印会留下新的组合。",
+  "ui": {
+    "bg": "#f3e9d3",
+    "ink": "#493c36",
+    "accent": "#bd714b"
+  },
+  "controls": [
+    {
+      "id": "open",
+      "label": "展开纸扇"
+    },
+    {
+      "id": "rotate",
+      "label": "转动扇轴"
+    },
+    {
+      "id": "foil",
+      "label": "揭开金箔"
+    },
+    {
+      "id": "join",
+      "label": "拼扇金线"
+    },
+    {
+      "id": "press",
+      "label": "叠扇压印"
+    },
+    {
+      "id": "bloom",
+      "label": "整阵开合"
+    }
+  ],
+  "newMechanics": [
+    "逐扇保存展开角与朝向",
+    "揭箔显露矿色纸纹",
+    "金线拼扇后移动构图",
+    "压印保留当前轮廓再叠印"
+  ],
+  "artDirection": [
+    "保留用户母本厚纸裁切纹路、细颗粒纸纤维、乳白薄边与大幅投影",
+    "矿色大理石纹在每张纸内独立裁切，随实体折面改变轮廓"
+  ],
+  "testPlan": [
+    {
+      "control": "open",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.67,
+        0.37
+      ],
+      "hold": 450
+    },
+    {
+      "control": "rotate",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.38,
+        0.64
+      ],
+      "hold": 450
+    },
+    {
+      "control": "foil",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.67,
+        0.37
+      ],
+      "hold": 450
+    },
+    {
+      "control": "join",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.38,
+        0.64
+      ],
+      "hold": 450
+    },
+    {
+      "control": "press",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.67,
+        0.37
+      ],
+      "hold": 450
+    }
+  ],
+  "stateFields": [
+    "openings拖动明显改变且松手保留",
+    "foilRemaining揭箔下降",
+    "joinedPairs点拼扇增加不超过8",
+    "imprints压印增加不超过14"
+  ]
+}

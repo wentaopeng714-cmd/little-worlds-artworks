@@ -1,0 +1,104 @@
+{
+  "number": 1,
+  "slug": "01-comet-corrals",
+  "title": "彗尾驯场",
+  "group": "F",
+  "mothers": [
+    "attraction_particles.html"
+  ],
+  "description": "拖彗核移动整束纤维；铜门折流，反牵改向，再凝尾叠出旧尾印。",
+  "ui": {
+    "bg": "#11131e",
+    "ink": "#e8d7c4",
+    "accent": "#65cbd3"
+  },
+  "controls": [
+    {
+      "id": "core",
+      "label": "牵彗核"
+    },
+    {
+      "id": "gate",
+      "label": "设铜门"
+    },
+    {
+      "id": "repel",
+      "label": "反牵"
+    },
+    {
+      "id": "knot",
+      "label": "凝尾印"
+    },
+    {
+      "id": "release",
+      "label": "释放旧尾"
+    }
+  ],
+  "newMechanics": [
+    "多彗核持续位置编辑",
+    "铜门角度改变尾流折弯",
+    "反牵改变方向与弯度",
+    "最多三幅尾印叠加"
+  ],
+  "artDirection": [
+    "黑底染色纤维多层叠丝",
+    "紧核与长尾强烈形态对比",
+    "蓝青橙红紫金相互交织"
+  ],
+  "testPlan": [
+    {
+      "control": "core",
+      "from": [
+        0.31,
+        0.38
+      ],
+      "to": [
+        0.44,
+        0.28
+      ],
+      "hold": 650
+    },
+    {
+      "control": "gate",
+      "from": [
+        0.5,
+        0.55
+      ],
+      "to": [
+        0.65,
+        0.66
+      ],
+      "hold": 700
+    },
+    {
+      "control": "repel",
+      "from": [
+        0.73,
+        0.56
+      ],
+      "to": [
+        0.65,
+        0.4
+      ],
+      "hold": 600
+    },
+    {
+      "control": "knot",
+      "from": [
+        0.48,
+        0.4
+      ],
+      "to": [
+        0.48,
+        0.4
+      ],
+      "hold": 100
+    }
+  ],
+  "stateFields": {
+    "gates": "设门后增到1以上",
+    "tailPrints": "凝尾后1以上，最大3",
+    "knots": "凝尾结果累计",
+    "direction": "反牵后反向"
+  }
+}

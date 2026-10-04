@@ -1,0 +1,120 @@
+{
+  "number": 14,
+  "slug": "14-folded-rosettes",
+  "title": "花砖折锦",
+  "group": "G",
+  "mothers": [
+    "code_artifact (1)_副本.html"
+  ],
+  "innovation": "纸雕花砖伸缩折翼、搭扣邻接、裁开与反面嵌色",
+  "description": "拉开纸雕花瓣，裁去一翼，再翻面嵌色；搭扣让邻砖一起错织成锦。",
+  "ui": {
+    "bg": "#e8e2d1",
+    "ink": "#4b4c48",
+    "accent": "#ab624e"
+  },
+  "controls": [
+    {
+      "id": "fold",
+      "label": "伸缩折翼"
+    },
+    {
+      "id": "clasp",
+      "label": "搭扣邻砖"
+    },
+    {
+      "id": "cut",
+      "label": "裁开纸瓣"
+    },
+    {
+      "id": "inlay",
+      "label": "反面嵌色"
+    },
+    {
+      "id": "weave",
+      "label": "错织移砖"
+    },
+    {
+      "id": "bloom",
+      "label": "错层开合"
+    }
+  ],
+  "newMechanics": [
+    "四向瓣真实变宽收拢",
+    "逐瓣裁开/接回保存缺口",
+    "反面纤维嵌色独立保留",
+    "搭扣邻砖共享错位"
+  ],
+  "artDirection": [
+    "保留用户母本厚纸裁切纹路、细颗粒纸纤维、乳白薄边与大幅投影",
+    "矿色大理石纹在每张纸内独立裁切，随实体折面改变轮廓"
+  ],
+  "testPlan": [
+    {
+      "control": "fold",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.67,
+        0.37
+      ],
+      "hold": 450
+    },
+    {
+      "control": "clasp",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.38,
+        0.64
+      ],
+      "hold": 450
+    },
+    {
+      "control": "cut",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.67,
+        0.37
+      ],
+      "hold": 450
+    },
+    {
+      "control": "inlay",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.38,
+        0.64
+      ],
+      "hold": 450
+    },
+    {
+      "control": "weave",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.67,
+        0.37
+      ],
+      "hold": 450
+    }
+  ],
+  "stateFields": [
+    "folds拖动持久变化",
+    "claspedPairs增加不超过20",
+    "cutPetals裁开增加再次点击恢复",
+    "reverseTiles点嵌色翻面"
+  ]
+}

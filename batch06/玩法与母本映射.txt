@@ -1,0 +1,285 @@
+第六组：24份上传参考，23个独立母本，35件新作。
+已验收发布：35件。
+类型权重：流场与材质12；纸雕与纹样11；角色与物件12。
+两份放克控制器SHA完全相同，实际核看后只计一次权重。
+
+01 彗尾驯场
+玩法：拖彗核移动整束纤维；铜门折流，反牵改向，再凝尾叠出旧尾印。
+母本：attraction_particles.html
+母本Library身份：libfile_ded1abc731048191972b72cf94acca0d
+增强：多彗核持续位置编辑；铜门角度改变尾流折弯；反牵改变方向与弯度；最多三幅尾印叠加
+独立：01-comet-corrals/index.html
+ZIP：downloads/01-comet-corrals.zip
+
+02 羽焰迁徙
+玩法：拖羽尖牵弯长羽，剪出持久航路；合羽把两群牵到一起，逆焰与迁徙重组羽流。
+母本：attraction_particles.html
+母本Library身份：libfile_ded1abc731048191972b72cf94acca0d
+增强：羽尖驱动整片羽形；持久剪道与牵形组合；近邻羽尖合群留下联羽丝；定时迁徙改变基部
+独立：02-plume-migration/index.html
+ZIP：downloads/02-plume-migration.zip
+
+03 电路菌城
+玩法：播种彩色菌城；从城心拖到另一城架桥，再充能。剪断桥会改变通电范围。
+母本：bioluminescent_poisson_growth_studio.html
+母本Library身份：libfile_45db724fa75c81919fed0a2618f7f56b
+增强：领地持续分叉生长；架桥形成真实连通拓扑；电源城传播充能；剪桥改变通电城数；充能使菌丝节点珠化
+独立：03-circuit-mycelium/index.html
+ZIP：downloads/03-circuit-mycelium.zip
+
+04 荧光裂隙矿
+玩法：点染矿脉，拖压打开宽裂隙；跨裂口缝桥，封晶后又能局部重开。
+母本：bioluminescent_poisson_growth_studio.html
+母本Library身份：libfile_45db724fa75c81919fed0a2618f7f56b
+增强：矿种逐渐长密；应力拖线持续裂开矿片；跨裂口缝桥闭合；裂缝封晶成多面细晶；重开保留旧矿脉
+独立：04-fluorescent-fissures/index.html
+ZIP：downloads/04-fluorescent-fissures.zip
+
+05 拓墨龙卷
+玩法：湿墨拖出分叉墨丝；拨卷改变墨团，吸墨留白，转印后继续叠染与干湿切换。
+母本：pseudo_ink_drawing.html
+母本Library身份：libfile_4229af38484881919972e0b07951b83f
+增强：透明墨丝一次分叉受控；湿墨持续长形；拨卷改墨团朝向与扭曲；吸墨隔版形成留白；翻纸转印与原版叠染
+独立：05-ink-tornado/index.html
+ZIP：downloads/05-ink-tornado.zip
+
+06 星砂折流
+玩法：绘曲渠后注入矿砂；折流改渠形，沉积成细密矿脊，再扬起重走新渠。
+母本：samuel_yan_interactive_mobile_sands.html
+母本Library身份：libfile_6a337a9babe88191b0170801b81f0453
+增强：持久手绘曲渠改变砂丝路径；沿渠注砂累计矿料；折流保留渠形并扭曲；沉积出多层矿脊；再扬起已沉积砂走新路
+独立：06-star-sand-fold/index.html
+ZIP：downloads/06-star-sand-fold.zip
+
+07 风蚀锦丘
+玩法：拖风梳出矿色细丝；画挡风脊让细砂沉成锦丘，再扬起局部重塑。
+母本：samuel_yan_interactive_mobile_sands.html
+母本Library身份：libfile_6a337a9babe88191b0170801b81f0453
+增强：风沟向量保持14秒；挡风脊使附近粒子减速沉积；落砂与再扬局部可逆
+独立：07-wind-carved-dunes/index.html
+ZIP：downloads/07-wind-carved-dunes.zip
+
+08 漆河分色
+玩法：朱金青黑厚漆会湿润流动；注漆后梳出水拓纹，刮黑河、固化，再局部回湿。
+母本：samuel_yan_mobile_liquid_studio.html
+母本Library身份：libfile_f060bd4660f88191a4b969d769546daa
+增强：GPU持续颜料及厚度场；梳流拖动改变真实色层；固化材质阻止后续平流；回湿解除局部固化
+独立：08-lacquer-rivers/index.html
+ZIP：downloads/08-lacquer-rivers.zip
+
+09 熔彩切流
+玩法：密集彩料在分区中熔流；牵伸层褶、画隔流肋、切色岸，再融合或局部冷凝。
+母本：samuel_yan_mobile_liquid_studio.html
+母本Library身份：libfile_f060bd4660f88191a4b969d769546daa
+增强：初始多分区隔流场；隔流肋持续阻止输运；局部切削留低厚度河；融合消除堤肋并旋混色；冷凝稳定色层形态
+独立：09-molten-color-cut/index.html
+ZIP：downloads/09-molten-color-cut.zip
+
+10 彩胞裂变
+玩法：彩胞有弯曲膜层；牵长后触碰融合，划膜松手裂变，加压与泄压改变体积。
+母本：several_blobs_chromatic_fluid_shader_studio.html
+母本Library身份：libfile_f84e80e3be10819199f1ee9ac844535c
+增强：多叶轮廓有机膜；真实合并面积与色层；分裂减少母体半径并产生子胞；拉膜长宽比变化；压力影响内部弯曲脉纹
+独立：10-chromatic-cells/index.html
+ZIP：downloads/10-chromatic-cells.zip
+
+11 焰书
+玩法：按住聚焰写光字，松手释放火种；牵引笔画、分火、共振，再用金印封存。
+母本：magical_trail_shader.html
+母本Library身份：libfile_40ca2cee1ab88191aeddd401e0f1f128
+增强：可保留而非消失光字；牵引持续改变笔画坐标；松手释放限量火种；封印锁住邻近光字；共振提高光字能量与轮换火色；共振检测笔画真实交点，在交点释放火结
+独立：11-ember-script/index.html
+ZIP：downloads/11-ember-script.zip
+
+12 荧浆梯田
+玩法：紫白冰蓝细丝沿阶田落下；筑坝真实蓄池，放闸流向下阶，结晶与融化可组合。
+母本：neon_staircase_waterway.html
+母本Library身份：libfile_db8c7a7b8ce48191bb342852f7352bda
+增强：六阶池独立水量；关闸累积/开闸向邻阶转移；冻结局部阶池暂停细丝；反向跨阶流动；结晶保留密线纹再融续流
+独立：12-luminous-terraces/index.html
+ZIP：downloads/12-luminous-terraces.zip
+
+13 金箔万花扇
+玩法：横拖展开纹理纸扇，绕轴转扇；揭箔、拼轴与压印会留下新的组合。
+母本：code_artifact (1)_副本.html
+母本Library身份：libfile_0c584c59f84c8191970c8d4cd7602e7a
+增强：逐扇保存展开角与朝向；揭箔显露矿色纸纹；金线拼扇后移动构图；压印保留当前轮廓再叠印
+独立：13-gilded-fans/index.html
+ZIP：downloads/13-gilded-fans.zip
+
+14 花砖折锦
+玩法：拉开纸雕花瓣，裁去一翼，再翻面嵌色；搭扣让邻砖一起错织成锦。
+母本：code_artifact (1)_副本.html
+母本Library身份：libfile_0c584c59f84c8191970c8d4cd7602e7a
+增强：四向瓣真实变宽收拢；逐瓣裁开/接回保存缺口；反面纤维嵌色独立保留；搭扣邻砖共享错位
+独立：14-folded-rosettes/index.html
+ZIP：downloads/14-folded-rosettes.zip
+
+15 折线霓城
+玩法：拖画连续双轨阶梯，在楼上拉出层高；接桥、拆改后闭合回路，整座城亮起来。
+母本：code_artifact (1).html
+母本Library身份：libfile_66b7d7b645cc819182fb6242322e3d87
+增强：显式建楼与持久层高；两楼之间正交跨桥；局部拆线打断电流；闭环时绕接断线，沿线脉冲与建筑楼灯联动
+独立：15-neon-step-city/index.html
+ZIP：downloads/15-neon-step-city.zip
+
+16 阶梯信号台
+玩法：把双轨折线织成信号路；放门、切断或织转向旁路，再发脉冲观察它停住和释放。
+母本：code_artifact (1).html
+母本Library身份：libfile_66b7d7b645cc819182fb6242322e3d87
+增强：门会拦住真实沿路径移动的脉冲；点线路插入往返阶梯旁路；可接回的断路；三档脉冲步频与持续门控状态
+独立：16-signal-stair/index.html
+ZIP：downloads/16-signal-stair.zip
+
+17 弧砖舞阵
+玩法：转动一块弧砖，推挤整片色域；让染色沿同色邻接走一次，再翻面或并片。
+母本：code_artifact.html
+母本Library身份：libfile_4ec08ba6c740819193249b053640acb1
+增强：转铰角度/压窄松手保留；同色连片整体错移；有限邻接传播按拓扑层距留下协调矿色色带，薄墨透出原纸色；翻面改变材料纹理及邻接轮廓；拖并两个色域重构连接
+独立：17-arc-tile-dance/index.html
+ZIP：downloads/17-arc-tile-dance.zip
+
+18 拼色折幕
+玩法：把相邻弧片组成的纸色幕压成窄褶；错动一行、揭开局部，再让纹理墨流过同色片。
+母本：code_artifact.html
+母本Library身份：libfile_4ec08ba6c740819193249b053640acb1
+增强：列宽真实收窄改变整幅轮廓；行错位持久保存；单片绕上缘翻起露织纹背层；同色域一次投墨且保留印压点；卷收与已留墨/揭片组合
+独立：18-chromatic-curtain/index.html
+ZIP：downloads/18-chromatic-curtain.zip
+
+19 点彩盐湖
+玩法：在纸上拖潮、挪光、聚云；晒出的盐晶会保留，再用回水溶开。
+母本：pointillism_landscape.html
+母本Library身份：libfile_cef7a8aab2708191b6cb53e0a79ecee7
+增强：潮线形变改变盐区与倒影边界；移动日光改变网点太阳、长倒影与结晶；云点聚散形成保留的孔洞与云团；晒盐后可重新回水溶解
+独立：19-pointillist-salt-lake/index.html
+ZIP：downloads/19-pointillist-salt-lake.zip
+
+20 纤维雪晶
+玩法：嫁接六向纤维晶种，拨弯软枝，融尖再长；凝晶把相邻枝织成细格。
+母本：samuel_yan_plant_growing_interactive.html
+母本Library身份：libfile_bd3bacb8a57c819181c70cea48d9230e
+增强：晶种六向蔓延形成纤维尖；嫁接近邻连成互传凝晶的网络；拨风永久弯折软枝但不改变已凝枝；融尖后重长，凝晶生成三角层
+独立：20-fiber-snowcrystals/index.html
+ZIP：downloads/20-fiber-snowcrystals.zip
+
+21 绣球礼焰
+玩法：点出珠线礼焰，拉瓣变花形，系成花序再旋拍、轮流开放。
+母本：generative_fireworks_studio.html
+母本Library身份：libfile_837019be6ca081919c98756b1eb8da5c
+增强：点珠花持续保留并编成花序；拉瓣改变偏心与多层珠环；系花顺序决定轮放顺序；旋花对连接花团传递旋转与开合
+独立：21-embroidered-fireflowers/index.html
+ZIP：downloads/21-embroidered-fireflowers.zip
+
+22 金属涟幕
+玩法：直接拖褶脊、揉出谷、翻层与雕压；密金属线会跟着整幕变形。
+母本：metal_wave_generative_studio.html
+母本Library身份：libfile_6ccc6a2d6b2481919647a241451597e2
+增强：拖脊持久改变整个密线悬幕；揉谷制造深谷，后续翻褶改变谷口；分层翻折改变幕的真实外沿；雕压留下与褶脊一起运动的纹路
+独立：22-metal-ripple-curtain/index.html
+ZIP：downloads/22-metal-ripple-curtain.zip
+
+23 锡浪浮刻
+玩法：在铜锡薄板压凸与刻槽，补缀重塑旧痕，旋光和氧化显出浮刻。
+母本：metal_wave_generative_studio.html
+母本Library身份：libfile_6ccc6a2d6b2481919647a241451597e2
+增强：铜锡板局部压凸改变密等高线；刻槽路径切开凸起并留下铜色沟边；补缀重塑凹面与旧沟，不删除全板；旋光控制高光并氧化显出加工区域
+独立：23-tin-wave-relief/index.html
+ZIP：downloads/23-tin-wave-relief.zip
+
+24 电台胖柑
+玩法：选部位拖动：眉毛变情绪，嘴型抿／嘟／露齿，脸颊充气，叶片调频道。收录三段表情后开播。
+母本：cartoon_rig_audio(1).html
+母本Library身份：libfile_35d2375a9bd88191829990fa688a4743
+增强：拉眉改变粗眉倾角和瞳孔；拉嘴从抿口变嘟口再露齿大口；充脸颊扩大整个角脸轮廓；转叶片切天气/奇闻/夜话频道；收录节目保留三个表情符号；开播／停播轮播12秒表情节目并累计期数
+独立：24-citrus-radio/index.html
+ZIP：downloads/24-citrus-radio.zip
+
+25 面具调音师
+玩法：拉眉折角、拉嘴三段开合、拉侧片露出底层；三种面具可换形，拓音章后共鸣。
+母本：cartoon_rig_audio(1).html
+母本Library身份：libfile_35d2375a9bd88191829990fa688a4743
+增强：折眉改变眉角与眼瞳；调嘴抿口/嘟口/露齿；揭侧片展开双侧角面；换面具切鸮角/伶角/日芒轮廓；拓音章最多6枚面具音色章；共鸣让当前开合与嘴型影响回声形
+独立：25-mask-tuner/index.html
+ZIP：downloads/25-mask-tuner.zip
+
+26 果汁雷客
+玩法：点饮用连喝触发脑冻；下拉墨镜松手弹射果汁雷。切口味补杯，揉徽章解冻，泡沫会鼓起脸颊。
+母本：chill_slurp_overdrive.html
+母本Library身份：libfile_c4ae628bff208191abde7f8dfc6c85a4
+增强：换口味补满杯并改变弹射果雷颜色；饮用消耗杯中汁液，连喝进入抖动脑冻状态；暖徽章后在画面来回揉动降温；打泡沫鼓起脸颊、改变杯顶泡层；下拉墨镜蓄力松手发射果雷累积天气变化；重新调杯清掉果雷天气并补杯
+独立：26-juice-thunder/index.html
+ZIP：downloads/26-juice-thunder.zip
+
+27 章鱼踏拍
+玩法：八触腕穿鞋踩拍。横拉放大步幅，竖拉速度；换踏步、溜步、盘腕及地板，开启20秒八脚接力。
+母本：funky_walk_controller.html
+母本Library身份：libfile_6173ade6e7748191a682f7ddee3c16e2
+增强：拉步幅横向扩大八条触腕移动跨度，竖向改变节拍速度；弯触腕竖拉卷起膝部曲线；换步型切踏步／溜步／盘腕三种实质步态；换地板改变脚下木拍纹、唱片纹与潮水；八脚接力20秒持续踩亮八块脚垫，可与步态组合
+独立：27-octopus-groove/index.html
+ZIP：downloads/27-octopus-groove.zip
+
+28 弹簧鹭舞
+玩法：拖膝盖蓄力，松手弹跳；横拉蹼掌，竖拉气囊。切倒踏和石障，把弹簧膝、浮力与跳步组合。
+母本：funky_walk_controller.html
+母本Library身份：libfile_6173ade6e7748191a682f7ddee3c16e2
+增强：拉弹簧膝改变膝曲并蓄力，松手弹跳；撑蹼掌横拉改变脚掌真实外形；调气囊竖拉浮力，改变跳高和滞空时间；倒踏切换行走方向并反转腿相位；加石障保留1–3块石障，组合弹跳累计越障；弹跳即刻触发，可与气囊及膝盖组合
+独立：28-spring-heron/index.html
+ZIP：downloads/28-spring-heron.zip
+
+29 钛羽歌姬
+玩法：三套面甲、发片和耳翼可换。拖虹膜、展开耳翼；超频唱出大嘴型并发热，追踪三靶训练，揉动冷却。
+母本：project_valkyrie_cyber_android_studio.html
+母本Library身份：libfile_7b1faffe91ac819187ee73639c62d6e4
+增强：换装甲更换羽冠巡演、短甲领唱、双流高音三套面甲／发片／耳翼真实轮廓；虹膜追踪横拖改变瞳孔视线；展开耳翼改变侧翼角度并加速散热，短甲散热倍率更高；超频演唱张嘴并积累热量，过热自动停止训练和超频；揉动冷却按真实拖动距离降温，展开耳翼提高揉冷效率；三靶训练依次触碰画面十字靶，积累训练记录与热量
+独立：29-titanium-diva/index.html
+ZIP：downloads/29-titanium-diva.zip
+
+30 蘑菇口琴队
+玩法：拉嘴留下一拍，拖连两顶帽子成呼应链。展开菌褶、录八拍，让自己的蘑菇队循环合奏。
+母本：singing_beans_vocal_choir.html
+母本Library身份：libfile_855993bdee048191a337a47fa66c0f92
+增强：嘴型/音阶随拉舌大幅变形，释放记录当前拍；定向拖连队形成持久呼应链，循环重放已留节奏；展开帽褶与链路、循环可以组合
+独立：30-mushroom-harmonica/index.html
+ZIP：downloads/30-mushroom-harmonica.zip
+
+31 海葵嘻哈团
+玩法：捏海葵黑嘴改变元音形，拨长彩色触须。四团合体成低音，再拆回左右轮流接拍。
+母本：singing_beans_vocal_choir.html
+母本Library身份：libfile_855993bdee048191a337a47fa66c0f92
+增强：横捏口宽竖拉胖瘦，口形参与音效选调；选触须拉长，触须长度/口形在接拍里累积；四團合体/拆回与轮流应答相互影响
+独立：31-anemone-beatbox/index.html
+ZIP：downloads/31-anemone-beatbox.zip
+
+32 蜡章熔台
+玩法：滴蜡叠色、转动三款模具，向下压柄留下真正浮雕；章片能回炉重熔与拖动镶嵌。
+母本：isometric_stamp_prototype.html
+母本Library身份：libfile_e0ae36ddc078819190a4f27526eb3b08
+增强：三色蜡料叠层影响压成章片的颜色；旋模换纹和拖压深度决定即时重量感；章片保留材料状态，可重熔再压或镶嵌重排
+独立：32-wax-seal-press/index.html
+ZIP：downloads/32-wax-seal-press.zip
+
+33 表情贴带厂
+玩法：下拉表情纸带，横甩撕开；贴片留在拼板。翻折、换表情与齐笑能组合到每一张纸。
+母本：jackpot_pull.html
+母本Library身份：libfile_0fc5a0fb4988819197073d04e71bd760
+增强：长带下拉惯性式伸展、横甩断，长度影响贴片数；撕下票片作为可拖动持久表情谱；折纸/表情印色/齐笑可作用长带和已贴票，顺序留下不同结果
+独立：33-expression-tape/index.html
+ZIP：downloads/33-expression-tape.zip
+
+34 纸蛇拉面机
+玩法：拉长有孔纸蛇、拖动盘绕，撕下入碗；接回整碗再拉、调味重排，让纸链不断再加工。
+母本：jackpot_pull.html
+母本Library身份：libfile_0fc5a0fb4988819197073d04e71bd760
+增强：纸蛇头位置与链长改变整条曲线，不同卷度形成大轮廓差异；撕下的长链持久盘入汤碗，可接回再加工；调味染纸、摆席、逆转与接回保留链材质
+独立：34-paper-snake-machine/index.html
+ZIP：downloads/34-paper-snake-machine.zip
+
+35 橡皮飞鼬
+玩法：点藤选择锚点，拖身体拉长橡皮臂，松手飞行摘果。双手、翼膜、蓄力与开花锚点可以连用。
+母本：jungle_elastic.html
+母本Library身份：libfile_6a9da97b1ef08191837c6ac1e07936a1
+增强：选实际锚点，拖身形变，释放有方向的有限张力；双手保留前锚点，展开翼膜减落速，蓄力可与换抓组合；开花会改变锚点高度并长果；摘果推进花庭循环，角色持续可见
+独立：35-rubber-ferret/index.html
+ZIP：downloads/35-rubber-ferret.zip
+

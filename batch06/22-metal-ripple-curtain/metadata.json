@@ -1,0 +1,123 @@
+{
+  "number": 22,
+  "slug": "22-metal-ripple-curtain",
+  "title": "金属涟幕",
+  "group": "G",
+  "mothers": [
+    "metal_wave_generative_studio.html"
+  ],
+  "innovation": "密金属线褶皱，拖脊、揉谷、分层翻褶与局部雕压",
+  "description": "直接拖褶脊、揉出谷、翻层与雕压；密金属线会跟着整幕变形。",
+  "ui": {
+    "bg": "#101216",
+    "ink": "#eee8d9",
+    "accent": "#dccc78"
+  },
+  "controls": [
+    {
+      "id": "ridge",
+      "label": "拖褶脊"
+    },
+    {
+      "id": "valley",
+      "label": "揉谷"
+    },
+    {
+      "id": "flip",
+      "label": "翻褶层"
+    },
+    {
+      "id": "stamp",
+      "label": "雕压"
+    },
+    {
+      "id": "release",
+      "label": "松悬幕"
+    }
+  ],
+  "newMechanics": [
+    "拖脊持久改变整个密线悬幕",
+    "揉谷制造深谷，后续翻褶改变谷口",
+    "分层翻折改变幕的真实外沿",
+    "雕压留下与褶脊一起运动的纹路"
+  ],
+  "artDirection": [
+    "母本密行轮廓、白偏移高光与饱和彩丝",
+    "整幅悬挂金属织面，褶谷有真实暗层",
+    "不复用极光透明光帘"
+  ],
+  "testPlan": [
+    {
+      "control": "ridge",
+      "from": [
+        0.32,
+        0.46
+      ],
+      "to": [
+        0.62,
+        0.52
+      ],
+      "hold": 650
+    },
+    {
+      "control": "valley",
+      "from": [
+        0.63,
+        0.32
+      ],
+      "to": [
+        0.47,
+        0.45
+      ],
+      "hold": 650
+    },
+    {
+      "control": "flip",
+      "from": [
+        0.52,
+        0.68
+      ],
+      "to": [
+        0.57,
+        0.45
+      ],
+      "hold": 650
+    },
+    {
+      "control": "stamp",
+      "from": [
+        0.44,
+        0.66
+      ],
+      "to": [
+        0.44,
+        0.66
+      ],
+      "hold": 650
+    },
+    {
+      "control": "release",
+      "from": [
+        0.39,
+        0.68
+      ],
+      "to": [
+        0.55,
+        0.58
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "bounded",
+    "mode",
+    "status",
+    "processed",
+    "persistentResult",
+    "deformations",
+    "engravings",
+    "fold",
+    "stress"
+  ],
+  "css": "header h1{letter-spacing:.08em}"
+}

@@ -1,0 +1,117 @@
+{
+  "number": 32,
+  "slug": "32-wax-seal-press",
+  "title": "蜡章熔台",
+  "group": "T",
+  "mothers": [
+    "isometric_stamp_prototype.html"
+  ],
+  "innovation": "等距蜡料叠色、旋模、真实下压留浮雕、重熔与章片重组",
+  "description": "滴蜡叠色、转动三款模具，向下压柄留下真正浮雕；章片能回炉重熔与拖动镶嵌。",
+  "ui": {
+    "bg": "#d8b0b6",
+    "ink": "#5c3840",
+    "accent": "#7ed4bc"
+  },
+  "controls": [
+    {
+      "id": "drip",
+      "label": "滴蜡叠色"
+    },
+    {
+      "id": "color",
+      "label": "换蜡色"
+    },
+    {
+      "id": "turn",
+      "label": "旋模换纹"
+    },
+    {
+      "id": "press",
+      "label": "重压浮雕"
+    },
+    {
+      "id": "melt",
+      "label": "回炉重熔"
+    },
+    {
+      "id": "mosaic",
+      "label": "章片镶嵌"
+    }
+  ],
+  "newMechanics": [
+    "三色蜡料叠层影响压成章片的颜色",
+    "旋模换纹和拖压深度决定即时重量感",
+    "章片保留材料状态，可重熔再压或镶嵌重排"
+  ],
+  "artDirection": [
+    "藕粉地面、薄荷盒与象牙厚台，30度等距分面",
+    "灰木蘑菇握柄、暖木底座、接触投影与重量下压",
+    "红绿金蜡料波状边缘、叠色条纹和双线浮雕"
+  ],
+  "testPlan": [
+    {
+      "control": "drip",
+      "from": [
+        0.47,
+        0.5
+      ],
+      "to": [
+        0.55,
+        0.54
+      ],
+      "hold": 500
+    },
+    {
+      "control": "turn",
+      "from": [
+        0.5,
+        0.35
+      ],
+      "to": [
+        0.61,
+        0.35
+      ],
+      "hold": 500
+    },
+    {
+      "control": "press",
+      "from": [
+        0.5,
+        0.27
+      ],
+      "to": [
+        0.5,
+        0.49
+      ],
+      "hold": 700
+    },
+    {
+      "control": "mosaic",
+      "from": [
+        0.44,
+        0.85
+      ],
+      "to": [
+        0.6,
+        0.87
+      ],
+      "hold": 400,
+      "mobileFrom": [
+        0.36,
+        0.67
+      ],
+      "mobileTo": [
+        0.55,
+        0.74
+      ]
+    }
+  ],
+  "stateFields": {
+    "waxLayers": "滴蜡/换色后增长，最长12",
+    "pressed": "压印完成后增加",
+    "seals": "压印留下章片，最多8",
+    "mosaic": "镶嵌模式章片标记增长"
+  },
+  "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}"
+}

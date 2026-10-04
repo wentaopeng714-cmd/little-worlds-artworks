@@ -1,0 +1,105 @@
+{
+  "number": 6,
+  "slug": "06-star-sand-fold",
+  "title": "星砂折流",
+  "group": "F",
+  "mothers": [
+    "samuel_yan_interactive_mobile_sands.html"
+  ],
+  "description": "绘曲渠后注入矿砂；折流改渠形，沉积成细密矿脊，再扬起重走新渠。",
+  "ui": {
+    "bg": "#17181d",
+    "ink": "#e2c9a7",
+    "accent": "#73bab6"
+  },
+  "controls": [
+    {
+      "id": "canal",
+      "label": "绘曲渠"
+    },
+    {
+      "id": "pour",
+      "label": "注矿砂"
+    },
+    {
+      "id": "fold",
+      "label": "折流改道"
+    },
+    {
+      "id": "settle",
+      "label": "沉积成脊"
+    },
+    {
+      "id": "lift",
+      "label": "再扬砂"
+    }
+  ],
+  "newMechanics": [
+    "持久手绘曲渠改变砂丝路径",
+    "沿渠注砂累计矿料",
+    "折流保留渠形并扭曲",
+    "沉积出多层矿脊",
+    "再扬起已沉积砂走新路"
+  ],
+  "artDirection": [
+    "敦煌矿色与暗底",
+    "密细丝束和沉积针纹",
+    "流动砂脊与线性曲渠"
+  ],
+  "testPlan": [
+    {
+      "control": "canal",
+      "from": [
+        0.2,
+        0.72
+      ],
+      "to": [
+        0.8,
+        0.25
+      ],
+      "hold": 1200
+    },
+    {
+      "control": "pour",
+      "from": [
+        0.3,
+        0.45
+      ],
+      "to": [
+        0.7,
+        0.5
+      ],
+      "hold": 900
+    },
+    {
+      "control": "fold",
+      "from": [
+        0.48,
+        0.5
+      ],
+      "to": [
+        0.62,
+        0.64
+      ],
+      "hold": 800
+    },
+    {
+      "control": "settle",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 1200
+    }
+  ],
+  "stateFields": {
+    "canals": "绘渠后3以上",
+    "sandLoad": "注砂后增加",
+    "deposits": "沉积后1以上",
+    "folds": "改道后1以上"
+  }
+}

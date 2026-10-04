@@ -1,0 +1,103 @@
+{
+  "number": 7,
+  "slug": "07-wind-carved-dunes",
+  "title": "风蚀锦丘",
+  "group": "F",
+  "mothers": [
+    "samuel_yan_interactive_mobile_sands.html"
+  ],
+  "innovation": "细砂成锦丘，风梳刻沟、挡风积脊与局部再扬沙",
+  "description": "拖风梳出矿色细丝；画挡风脊让细砂沉成锦丘，再扬起局部重塑。",
+  "ui": {
+    "bg": "#0a1116",
+    "ink": "#ead2a5",
+    "accent": "#55c6bd"
+  },
+  "controls": [
+    {
+      "id": "wind",
+      "label": "风梳刻沟"
+    },
+    {
+      "id": "wall",
+      "label": "挡风积脊"
+    },
+    {
+      "id": "settle",
+      "label": "落砂成丘"
+    },
+    {
+      "id": "raise",
+      "label": "局部再扬"
+    },
+    {
+      "id": "reverse",
+      "label": "风向反转"
+    }
+  ],
+  "newMechanics": [
+    "风沟向量保持14秒",
+    "挡风脊使附近粒子减速沉积",
+    "落砂与再扬局部可逆"
+  ],
+  "artDirection": [
+    "保留琥珀/矿蓝/青碧细丝深底",
+    "密集等流线与多重沉积脊",
+    "流动拖尾跨屏不连脏线"
+  ],
+  "testPlan": [
+    {
+      "control": "wind",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "wall",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "settle",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "raise",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "walls增长",
+    "settledRidges随落砂改变",
+    "windDirection反转"
+  ]
+}

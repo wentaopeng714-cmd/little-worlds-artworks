@@ -1,0 +1,118 @@
+{
+  "number": 27,
+  "slug": "27-octopus-groove",
+  "title": "章鱼踏拍",
+  "group": "T",
+  "mothers": [
+    "funky_walk_controller.html"
+  ],
+  "innovation": "面条多腿踏拍，拖脚改变步型，换地板、吸盘卷缩与节拍接力",
+  "description": "八触腕穿鞋踩拍。横拉放大步幅，竖拉速度；换踏步、溜步、盘腕及地板，开启20秒八脚接力。",
+  "ui": {
+    "bg": "#f1cf53",
+    "ink": "#2c2a35",
+    "accent": "#ee6b58"
+  },
+  "controls": [
+    {
+      "id": "stride",
+      "label": "拉步幅"
+    },
+    {
+      "id": "curl",
+      "label": "弯触腕"
+    },
+    {
+      "id": "gait",
+      "label": "换步型"
+    },
+    {
+      "id": "floor",
+      "label": "换地板"
+    },
+    {
+      "id": "relay",
+      "label": "八脚接力"
+    }
+  ],
+  "artDirection": [
+    "黄纸底与面条曲线触腕",
+    "贴地鞋底和吸盘纹理",
+    "珊瑚章鱼与靛蓝舞帽、条纹背心"
+  ],
+  "newMechanics": [
+    "拉步幅横向扩大八条触腕移动跨度，竖向改变节拍速度",
+    "弯触腕竖拉卷起膝部曲线",
+    "换步型切踏步／溜步／盘腕三种实质步态",
+    "换地板改变脚下木拍纹、唱片纹与潮水",
+    "八脚接力20秒持续踩亮八块脚垫，可与步态组合"
+  ],
+  "testPlan": [
+    {
+      "control": "stride",
+      "from": [
+        0.4,
+        0.64
+      ],
+      "to": [
+        0.65,
+        0.48
+      ],
+      "hold": 200
+    },
+    {
+      "control": "curl",
+      "from": [
+        0.5,
+        0.64
+      ],
+      "to": [
+        0.6,
+        0.42
+      ],
+      "hold": 200
+    },
+    {
+      "control": "gait",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 50
+    },
+    {
+      "control": "floor",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 50
+    },
+    {
+      "control": "relay",
+      "from": [
+        0.5,
+        0.5
+      ],
+      "to": [
+        0.5,
+        0.5
+      ],
+      "hold": 50
+    }
+  ],
+  "stateFields": [
+    "gait:0/1/2",
+    "stride/speed/curl",
+    "pads:8 bounded entries",
+    "relay/rounds/lit"
+  ]
+}

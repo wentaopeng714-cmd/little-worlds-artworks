@@ -1,0 +1,106 @@
+{
+  "number": 35,
+  "slug": "35-rubber-ferret",
+  "title": "橡皮飞鼬",
+  "group": "T",
+  "mothers": [
+    "jungle_elastic.html"
+  ],
+  "innovation": "面条弹臂飞鼬选锚抓放，双手换抓、张力蓄能、风味果与循环舞台",
+  "description": "点藤选择锚点，拖身体拉长橡皮臂，松手飞行摘果。双手、翼膜、蓄力与开花锚点可以连用。",
+  "ui": {
+    "bg": "#378a81",
+    "ink": "#f5f1d8",
+    "accent": "#b5e61d"
+  },
+  "controls": [
+    {
+      "id": "grab",
+      "label": "选藤抓放"
+    },
+    {
+      "id": "double",
+      "label": "双手换抓"
+    },
+    {
+      "id": "glide",
+      "label": "展开翼膜"
+    },
+    {
+      "id": "recoil",
+      "label": "蓄力弹跳"
+    },
+    {
+      "id": "bloom",
+      "label": "开花移锚"
+    }
+  ],
+  "newMechanics": [
+    "选实际锚点，拖身形变，释放有方向的有限张力",
+    "双手保留前锚点，展开翼膜减落速，蓄力可与换抓组合",
+    "开花会改变锚点高度并长果；摘果推进花庭循环，角色持续可见"
+  ],
+  "artDirection": [
+    "青绿林地分层，荧黄垂藤与橘棕弹臂飞鼬",
+    "巨幅弯曲双臂、肤色抓手、细胡须表情与长尾",
+    "展开暖橙脉纹翼膜，蓄力时身形压扁加宽"
+  ],
+  "testPlan": [
+    {
+      "control": "grab",
+      "from": [
+        0.72,
+        0.34
+      ],
+      "to": [
+        0.48,
+        0.68
+      ],
+      "hold": 700
+    },
+    {
+      "control": "double",
+      "from": [
+        0.14,
+        0.29
+      ],
+      "to": [
+        0.31,
+        0.57
+      ],
+      "hold": 600
+    },
+    {
+      "control": "glide",
+      "from": [
+        0.89,
+        0.2
+      ],
+      "to": [
+        0.76,
+        0.48
+      ],
+      "hold": 500
+    },
+    {
+      "control": "bloom",
+      "from": [
+        0.4,
+        0.22
+      ],
+      "to": [
+        0.55,
+        0.35
+      ],
+      "hold": 500
+    }
+  ],
+  "stateFields": {
+    "swings": "释放/蓄力后增长",
+    "grips": "选藤1，双手最多2",
+    "glide": "翼膜开关",
+    "x": "始终0.09–0.91之间",
+    "y": "始终0.25–0.8之间"
+  },
+  "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}"
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "number": 1,
+    "slug": "01-comet-corrals",
+    "title": "彗尾驯场",
+    "group": "F",
+    "mothers": [
+      "attraction_particles.html"
+    ],
+    "innovation": "拖动多枚彗核，设环形拦流门，反牵与凝尾把细丝变成可保留的彗尾画",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/01-comet-corrals/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/01-comet-corrals.zip",
+    "html_library_id": "libfile_18b1d529b8bc81919b465bc4278f2603",
+    "zip_library_id": "libfile_5442833a223c81918c960855414d11a6",
+    "html_sha256": "0cb8f8c13c33acd6d3df2b60b110df128d35de1345c1347104a3804bcbf9cea7",
+    "zip_sha256": "62fe4b2f411b436d669dd7db8e9fc48e283d17e128e5814cda89ed8ede231af9"
+  },
+  {
+    "number": 2,
+    "slug": "02-plume-migration",
+    "title": "羽焰迁徙",
+    "group": "F",
+    "mothers": [
+      "attraction_particles.html"
+    ],
+    "innovation": "建立扇形羽流，剪开迁徙航路，合并彩羽群与反向涡流形成长羽火焰",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/02-plume-migration/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/02-plume-migration.zip",
+    "html_library_id": "libfile_074a21b8e854819186ebf055ca3d9ab5",
+    "zip_library_id": "libfile_a4a64992ea1881918e6815f135dbbf1c",
+    "html_sha256": "94baab6aad3d3667457b1486aaab3bda4b395b791fd99601425075f03febb290",
+    "zip_sha256": "4f5f4f353fff88da287382ce8b3edc3164eb000a49c21ac21cedf4026c1dc703"
+  },
+  {
+    "number": 3,
+    "slug": "03-circuit-mycelium",
+    "title": "电路菌城",
+    "group": "F",
+    "mothers": [
+      "bioluminescent_poisson_growth_studio.html"
+    ],
+    "innovation": "播种领地，架桥导通，剪路改电流，充能后折枝变珠状城市",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/03-circuit-mycelium/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/03-circuit-mycelium.zip",
+    "html_library_id": "libfile_9a345c142ffc8191bf66477a313f6710",
+    "zip_library_id": "libfile_2bc0d884103c8191a6dfd1c0fc4ab7b3",
+    "html_sha256": "7c4e22208afb20651762eaa85756cb80c98c3bd0661974f4ddc9639c2135d1ce",
+    "zip_sha256": "79cd663e4d1dd41f8d23e9e68170a80b96bd508f531b9035ec599e9826a7cd6a"
+  },
+  {
+    "number": 4,
+    "slug": "04-fluorescent-fissures",
+    "title": "荧光裂隙矿",
+    "group": "F",
+    "mothers": [
+      "bioluminescent_poisson_growth_studio.html"
+    ],
+    "innovation": "种矿脉、扩裂、架桥与封晶，领地应力变成可重开的矿片",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/04-fluorescent-fissures/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/04-fluorescent-fissures.zip",
+    "html_library_id": "libfile_6cf3dd6e321081919699f3b8555233d5",
+    "zip_library_id": "libfile_bbfb7691563c8191a035ba1051b91409",
+    "html_sha256": "79451106b2113ee1afffdbd00bd0463038c2791d2093c5a31976af8224588c09",
+    "zip_sha256": "235693e122e941e1c756d84cdb5f28fd6f0f35e91e93de18eb93e23591e0b02e"
+  },
+  {
+    "number": 5,
+    "slug": "05-ink-tornado",
+    "title": "拓墨龙卷",
+    "group": "F",
+    "mothers": [
+      "pseudo_ink_drawing.html"
+    ],
+    "innovation": "湿干递归墨丝，拨卷、吸墨隔版与转印，保留纸上纤维叠染",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/05-ink-tornado/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/05-ink-tornado.zip",
+    "html_library_id": "libfile_fa994c5e80008191bd562179a08e7237",
+    "zip_library_id": "libfile_a0158246bb808191a5a150559a5a7a40",
+    "html_sha256": "c74507db82aaec8c02c9195973eb78f28d6056f794f8b60de8cbf84cdaa362c3",
+    "zip_sha256": "5ab84ad3e2fd1ae326fb7146c535dc5b0ef1aecff60b524dd3872f3711d9b6c5"
+  },
+  {
+    "number": 6,
+    "slug": "06-star-sand-fold",
+    "title": "星砂折流",
+    "group": "F",
+    "mothers": [
+      "samuel_yan_interactive_mobile_sands.html"
+    ],
+    "innovation": "绘曲渠、注砂、变向与沉积，再扬起保留的矿色细丝",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/06-star-sand-fold/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/06-star-sand-fold.zip",
+    "html_library_id": "libfile_5bf14c10ba148191a5d6585524a1fb9c",
+    "zip_library_id": "libfile_81243662d93881918473bd346d1ea46f",
+    "html_sha256": "022103ee7f6c445ed97c6e17a1b0ef2c292a3022f11266376fb4b3614fd13d0f",
+    "zip_sha256": "ef516ac3d8ea04cea3ec1fd5d4a6a58fda500bb8647bc5b07a18e51863592bd7"
+  },
+  {
+    "number": 7,
+    "slug": "07-wind-carved-dunes",
+    "title": "风蚀锦丘",
+    "group": "F",
+    "mothers": [
+      "samuel_yan_interactive_mobile_sands.html"
+    ],
+    "innovation": "细砂成锦丘，风梳刻沟、挡风积脊与局部再扬沙",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/07-wind-carved-dunes/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/07-wind-carved-dunes.zip",
+    "html_library_id": "libfile_1a1f5c1b3db08191b4de009da9b213f4",
+    "zip_library_id": "libfile_976f7a08786881919e9d142338ce4ffc",
+    "html_sha256": "9cba668afae0b9699d548f5a9ace849ce3b12c85cacf04105b40f44ea97aa94a",
+    "zip_sha256": "33094b0ddf7e14943c8023e1f369b77612601c80d81896e22ff4cdd7064c9bac"
+  },
+  {
+    "number": 8,
+    "slug": "08-lacquer-rivers",
+    "title": "漆河分色",
+    "group": "F",
+    "mothers": [
+      "samuel_yan_mobile_liquid_studio.html"
+    ],
+    "innovation": "黑朱金青湿漆注色、梳流、刮露底与固化裂纹",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/08-lacquer-rivers/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/08-lacquer-rivers.zip",
+    "html_library_id": "libfile_f2ebba70d9308191ae4acfc6faa55bb1",
+    "zip_library_id": "libfile_0c16540906348191a6010e33e129d25b",
+    "html_sha256": "def084be96a1a4a039b812eede06ccfee6b18c47fa7845941b63d34ad50c2c95",
+    "zip_sha256": "cee85fb2ea94de4941dd32959315d7bc9e94a7f235cebeeb952f82c2ce9b408d"
+  },
+  {
+    "number": 9,
+    "slug": "09-molten-color-cut",
+    "title": "熔彩切流",
+    "group": "F",
+    "mothers": [
+      "samuel_yan_mobile_liquid_studio.html"
+    ],
+    "innovation": "亮彩厚料分区熔流，隔流肋、局部切流、牵伸与融合",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/09-molten-color-cut/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/09-molten-color-cut.zip",
+    "html_library_id": "libfile_f03eb149c8748191897fba6ebba60ccd",
+    "zip_library_id": "libfile_7bc37aa6d8588191919930ee4f63b289",
+    "html_sha256": "595cebfcdcf06920597e7d4d787583b7fac0f8f17500093ae65047daec1db357",
+    "zip_sha256": "31d0a99c586715988691f6aab613c1684d05392defd209ba6fd89b98222e4bf4"
+  },
+  {
+    "number": 10,
+    "slug": "10-chromatic-cells",
+    "title": "彩胞裂变",
+    "group": "F",
+    "mothers": [
+      "several_blobs_chromatic_fluid_shader_studio.html"
+    ],
+    "innovation": "粒膜色团拉长、融合、分裂与压力泡，替换无轮廓圆斑累积",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/10-chromatic-cells/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/10-chromatic-cells.zip",
+    "html_library_id": "libfile_761ed4e9096c8191980d66e94acba1c6",
+    "zip_library_id": "libfile_e3f2816d472481918e4699b7c69b70ef",
+    "html_sha256": "ab24377306b80d322b10b019a0e383392b92973c25800dc198216e8bd5e40dd3",
+    "zip_sha256": "589cec6c3e33d04ba2bf4550a28e32ec8c7bce2a5c1cb3018a487b382549c6e4"
+  },
+  {
+    "number": 11,
+    "slug": "11-ember-script",
+    "title": "焰书",
+    "group": "F",
+    "mothers": [
+      "magical_trail_shader.html"
+    ],
+    "innovation": "聚焰书写，牵引光字，分裂火种与交叉共振；限亮保留熔光细节",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/11-ember-script/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/11-ember-script.zip",
+    "html_library_id": "libfile_e45b6f58f108819195e1242f69b87968",
+    "zip_library_id": "libfile_8f180862f9c08191890794b4dc6dba42",
+    "html_sha256": "44030e1398e7266532b3a11ff6fbf8f22baf67049e1fa726015c5895d023485d",
+    "zip_sha256": "c0a89bf6c398e73aaa82f86bdba2d698c2ffda381560699d10dcc735a9e0e2db"
+  },
+  {
+    "number": 12,
+    "slug": "12-luminous-terraces",
+    "title": "荧浆梯田",
+    "group": "F",
+    "mothers": [
+      "neon_staircase_waterway.html"
+    ],
+    "innovation": "阶渠筑坝、放闸、彩浆混流、反流与结晶蓄池",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/12-luminous-terraces/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/12-luminous-terraces.zip",
+    "html_library_id": "libfile_601aacee2ba88191935ed12135f676dd",
+    "zip_library_id": "libfile_24ec779348348191a78cbbf60b40b7f0",
+    "html_sha256": "c655791cf58a1b1211b1daa5ae894c7089a555f50cbaebee857e9e14fa794815",
+    "zip_sha256": "cb3cdbd8ac7c839bc524760191403c14cbac0eec353b5d727ed5b4326886c909"
+  },
+  {
+    "number": 13,
+    "slug": "13-gilded-fans",
+    "title": "金箔万花扇",
+    "group": "G",
+    "mothers": [
+      "code_artifact (1)_副本.html"
+    ],
+    "innovation": "纹理纸扇分层展开、转轴、揭箔与拼扇压印",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/13-gilded-fans/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/13-gilded-fans.zip",
+    "html_library_id": "libfile_cb26d7fb1044819182026068217ce19b",
+    "zip_library_id": "libfile_18c722be671c8191bfedd8e7cee9805c",
+    "html_sha256": "0c6376cf1df7240205f4c409c533256bb7f5cb89600dc71c1981cfeb99220b7b",
+    "zip_sha256": "05efe2f8ae01478c46f04f65371e96ca1d0c9b2dba065ab58b03ae039c3c82ec"
+  },
+  {
+    "number": 14,
+    "slug": "14-folded-rosettes",
+    "title": "花砖折锦",
+    "group": "G",
+    "mothers": [
+      "code_artifact (1)_副本.html"
+    ],
+    "innovation": "纸雕花砖伸缩折翼、搭扣邻接、裁开与反面嵌色",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/14-folded-rosettes/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/14-folded-rosettes.zip",
+    "html_library_id": "libfile_5f7dd1d95ed88191bd1718ea32841d05",
+    "zip_library_id": "libfile_1dc012474dc08191a418d628fd26b9f0",
+    "html_sha256": "2fc778e2ca3852271f8c61c3c39ad4dcd97c6d976e5d86a48e40364392e1d9cc",
+    "zip_sha256": "90494cd2bb56b10cca2beba1600a3e7d3fc416f784e0aaa1854fe2b5723fbae4"
+  },
+  {
+    "number": 15,
+    "slug": "15-neon-step-city",
+    "title": "折线霓城",
+    "group": "G",
+    "mothers": [
+      "code_artifact (1).html"
+    ],
+    "innovation": "连续双轨正交笔建楼、接桥、回路通电与局部拆改",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/15-neon-step-city/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/15-neon-step-city.zip",
+    "html_library_id": "libfile_04d984c71ec88191b47d3f21a9c620b1",
+    "zip_library_id": "libfile_0ff76934123081919b2bb0992a0098b8",
+    "html_sha256": "eed40905de578b0b79007fa25642c61a8f40e86d652509e3f19cbaa5f5841a84",
+    "zip_sha256": "7ed26f1b32408322cd64c339162cd0055afed036d8a4d5c8704ddd983e6f6b55"
+  },
+  {
+    "number": 16,
+    "slug": "16-signal-stair",
+    "title": "阶梯信号台",
+    "group": "G",
+    "mothers": [
+      "code_artifact (1).html"
+    ],
+    "innovation": "双轨折线织出信号路，置门、断路、转向、脉冲编排",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/16-signal-stair/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/16-signal-stair.zip",
+    "html_library_id": "libfile_74d7e3b5dbac8191a86e73147282a582",
+    "zip_library_id": "libfile_df336cf4f0688191a6174d0b4c8ff766",
+    "html_sha256": "4b10bbce71ec95ffe02d49d03d62ad695ab1132f4baaaef2081313d6d0e1d80c",
+    "zip_sha256": "6099883f8c4d0945b8feba73ce00120ff311b92c8060dbb55983048865cc9ce4"
+  },
+  {
+    "number": 17,
+    "slug": "17-arc-tile-dance",
+    "title": "弧砖舞阵",
+    "group": "G",
+    "mothers": [
+      "code_artifact.html"
+    ],
+    "innovation": "邻接弧砖真实转铰、波行换色、推挤与连片翻面",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/17-arc-tile-dance/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/17-arc-tile-dance.zip",
+    "html_library_id": "libfile_74ead330435c8191b0313290045cd9ec",
+    "zip_library_id": "libfile_df5bfb1d39288191af74d05447bf0c37",
+    "html_sha256": "e53f7f50546222abf559bc6d8c2ca3c81896188d839ad8905fc7cebf91de3861",
+    "zip_sha256": "40e38e1889a011c649796b9c1cdf9e8f1d1467b8d42624b676c7661e2bbc2014"
+  },
+  {
+    "number": 18,
+    "slug": "18-chromatic-curtain",
+    "title": "拼色折幕",
+    "group": "G",
+    "mothers": [
+      "code_artifact.html"
+    ],
+    "innovation": "纸色弧面织幕压折、错列、局部揭开与纹理投墨",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/18-chromatic-curtain/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/18-chromatic-curtain.zip",
+    "html_library_id": "libfile_9627558eb7fc81919682a081e2fa44fd",
+    "zip_library_id": "libfile_79716767be8c81918ead5887bce7d41a",
+    "html_sha256": "0c1853cdec0bd2dfa782dba74f9af56c6cc1e5d3f816679b023e15e617cd1d1e",
+    "zip_sha256": "e3d306f5b89e1e39508fc6b1c7592b8b9301a3edc8e86788ed1d24c179e236a3"
+  },
+  {
+    "number": 19,
+    "slug": "19-pointillist-salt-lake",
+    "title": "点彩盐湖",
+    "group": "G",
+    "mothers": [
+      "pointillism_landscape.html"
+    ],
+    "innovation": "网点风景拖潮线，挪光、聚散云点、晒盐与倒影重组",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/19-pointillist-salt-lake/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/19-pointillist-salt-lake.zip",
+    "html_library_id": "libfile_0d3c4a4adc288191be8c4b9437cc778b",
+    "zip_library_id": "libfile_83c5fb315c8c8191b47b79d40a0ae741",
+    "html_sha256": "cd760ea1672cde6a09e3ed0f256cdba0d92088c5ad74ba04988ebdd3c6f8bf96",
+    "zip_sha256": "09e6d8e650ded61ce065e7f386a2795e15b70558a9962b9f0a1f5f2818b4679a"
+  },
+  {
+    "number": 20,
+    "slug": "20-fiber-snowcrystals",
+    "title": "纤维雪晶",
+    "group": "G",
+    "mothers": [
+      "samuel_yan_plant_growing_interactive.html"
+    ],
+    "innovation": "亚麻纸上生长雪枝，嫁接晶种、拨风、融尖与冻结几何层",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/20-fiber-snowcrystals/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/20-fiber-snowcrystals.zip",
+    "html_library_id": "libfile_bbb83a30984c8191bf12e118d911e8db",
+    "zip_library_id": "libfile_26796297f4048191b55b179cbb61ddfe",
+    "html_sha256": "0327a310f79121753be2cf2776112dfbc42275bd71a20f27f15ea13817efc4f2",
+    "zip_sha256": "716c60b26f43eb622ee12715251571dec1d69f1b897b20b4000a7906bd5fb094"
+  },
+  {
+    "number": 21,
+    "slug": "21-embroidered-fireflowers",
+    "title": "绣球礼焰",
+    "group": "G",
+    "mothers": [
+      "generative_fireworks_studio.html"
+    ],
+    "innovation": "点珠射线花编成花序，拉瓣、系花、旋拍与开放/收束",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/21-embroidered-fireflowers/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/21-embroidered-fireflowers.zip",
+    "html_library_id": "libfile_5ae16ffc07dc8191bddf0b8768eac139",
+    "zip_library_id": "libfile_b411120a12488191851decb1ed60bcfc",
+    "html_sha256": "96f54a98639b631df686e22bd9b464dcb850c4e4c86dbbeefc4bf635eee3b3c6",
+    "zip_sha256": "b9b1e4a1c4aaa8f26313071dc8c8d17fa0b5bc210eaac220f2f0b999e7369173"
+  },
+  {
+    "number": 22,
+    "slug": "22-metal-ripple-curtain",
+    "title": "金属涟幕",
+    "group": "G",
+    "mothers": [
+      "metal_wave_generative_studio.html"
+    ],
+    "innovation": "密金属线褶皱，拖脊、揉谷、分层翻褶与局部雕压",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/22-metal-ripple-curtain/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/22-metal-ripple-curtain.zip",
+    "html_library_id": "libfile_7e562f4d94c88191a7589157beb6cf81",
+    "zip_library_id": "libfile_d3e71b2f86148191b708bc1322d13465",
+    "html_sha256": "94f0e7c3663a2a138961ca5d8319c14a67e04e24ce9a2247092cb3e53f7ed072",
+    "zip_sha256": "e566398c3059279c2d032a5f5a2fb31142958212a601ad8a5d7dc79e4dc9d914"
+  },
+  {
+    "number": 23,
+    "slug": "23-tin-wave-relief",
+    "title": "锡浪浮刻",
+    "group": "G",
+    "mothers": [
+      "metal_wave_generative_studio.html"
+    ],
+    "innovation": "密线铜锡浮刻，刻槽、压凸、旋光与补缀，留下持续浮雕",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/23-tin-wave-relief/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/23-tin-wave-relief.zip",
+    "html_library_id": "libfile_4a3ba534b8b8819189992a048bb055ca",
+    "zip_library_id": "libfile_5d7abbe8664c819198f6c68d45fe2c0f",
+    "html_sha256": "8d039ad1e5c2deba829423e1129ebc0d940dab8b392dc7c2ed6ef07d2f9a8f5e",
+    "zip_sha256": "776ceee137fb6bd7fdf3700921c13258ca2233b99942599ee306b14a2344c3f6"
+  },
+  {
+    "number": 24,
+    "slug": "24-citrus-radio",
+    "title": "电台胖柑",
+    "group": "T",
+    "mothers": [
+      "cartoon_rig_audio(1).html"
+    ],
+    "innovation": "块面柑橘播报员，拉眉/嘴/叶与脸颊，表情组合改变节目状态",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/24-citrus-radio/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/24-citrus-radio.zip",
+    "html_library_id": "libfile_3f8a9b403a8481918ae8fe29815b66c7",
+    "zip_library_id": "libfile_de0b335634ec81919513e8f4268c3b45",
+    "html_sha256": "45f5ade35fa3c31034d5bce6d59a8f7573acf0b619edd6f4865de6ecaac549ef",
+    "zip_sha256": "fb549a9cb6bb1031d50939e58ef8768f3c3dd37930497c4cd8d64aa4a757f73d"
+  },
+  {
+    "number": 25,
+    "slug": "25-mask-tuner",
+    "title": "面具调音师",
+    "group": "T",
+    "mothers": [
+      "cartoon_rig_audio(1).html"
+    ],
+    "innovation": "多片角面具可换层、拉折五官，三阶段嘴型与夸张面具变身",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/25-mask-tuner/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/25-mask-tuner.zip",
+    "html_library_id": "libfile_d6c80fb9af788191bad74fa23039ebae",
+    "zip_library_id": "libfile_a85a6337dd488191aea9d3443d3f1530",
+    "html_sha256": "97490ebe0c1112743d44adb1a3520e7c550c077d4ad7f8f8a0a380d4fa644bfa",
+    "zip_sha256": "4897e5a1352f3fcf6d510ec402493c1019c40d9f4f61e83d3f3109fc266fe030"
+  },
+  {
+    "number": 26,
+    "slug": "26-juice-thunder",
+    "title": "果汁雷客",
+    "group": "T",
+    "mothers": [
+      "chill_slurp_overdrive.html"
+    ],
+    "innovation": "粗黑漫画饮者，多味配饮、拉镜弹射、吸冷/化冻与泡沫变身",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/26-juice-thunder/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/26-juice-thunder.zip",
+    "html_library_id": "libfile_452ff329c5c0819195ec6ed7233894b8",
+    "zip_library_id": "libfile_e2243d6927848191853473fef19112ec",
+    "html_sha256": "d23afa6541f7b1d8c547a5e09b5813c41095e3a81334502f4583b6c88dd526d9",
+    "zip_sha256": "d3a8f485c6a0cc68485b1473b0d3933e8cc65d452c66c1c0bdc36d2a407fbf5f"
+  },
+  {
+    "number": 27,
+    "slug": "27-octopus-groove",
+    "title": "章鱼踏拍",
+    "group": "T",
+    "mothers": [
+      "funky_walk_controller.html"
+    ],
+    "innovation": "面条多腿踏拍，拖脚改变步型，换地板、吸盘卷缩与节拍接力",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/27-octopus-groove/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/27-octopus-groove.zip",
+    "html_library_id": "libfile_f076f70717f4819180b0a1fd658a17d2",
+    "zip_library_id": "libfile_6afdc4bb1fe481918628eadf71d4c6a2",
+    "html_sha256": "3af36935db843772967053093c4a2ed03cac92f5c5b91082e6897b582c49de01",
+    "zip_sha256": "14529ebfef5850c81e37223b692aaacf8699ff7f88c297f2de8df4bfc9625a3c"
+  },
+  {
+    "number": 28,
+    "slug": "28-spring-heron",
+    "title": "弹簧鹭舞",
+    "group": "T",
+    "mothers": [
+      "funky_walk_controller.html"
+    ],
+    "innovation": "长腿鸟连续步态，拖膝蓄力、脚蹼跨物、帽气球与逆步",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/28-spring-heron/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/28-spring-heron.zip",
+    "html_library_id": "libfile_752b1a5bb04c8191870ab7902a990f14",
+    "zip_library_id": "libfile_b149eafdb36081918474896044ab4997",
+    "html_sha256": "da04c2581b3ab98670f4acb3e1a38da2b05d026f759662bdd3c8d1cae4920533",
+    "zip_sha256": "a6d334d56f706f6532e6751ef4fadc9b85d623134ed7f5655003b50f26733661"
+  },
+  {
+    "number": 29,
+    "slug": "29-titanium-diva",
+    "title": "钛羽歌姬",
+    "group": "T",
+    "mothers": [
+      "project_valkyrie_cyber_android_studio.html"
+    ],
+    "innovation": "多层赛博肖像，拆羽甲、调虹膜、超频与冷却，至少三种真实轮廓变化",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/29-titanium-diva/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/29-titanium-diva.zip",
+    "html_library_id": "libfile_f5f6cf612b688191bea21190220789fe",
+    "zip_library_id": "libfile_46f60deedef88191bee9f32aa9a21317",
+    "html_sha256": "0ea13d15f16e6980330109123fa68a02116a7713d0becba792d2cb03c15e770e",
+    "zip_sha256": "a14030d9d49414e6131e568d1ff2d251116ba2bdc47cc53a6f838b7985f71a7a"
+  },
+  {
+    "number": 30,
+    "slug": "30-mushroom-harmonica",
+    "title": "蘑菇口琴队",
+    "group": "T",
+    "mothers": [
+      "singing_beans_vocal_choir.html"
+    ],
+    "innovation": "Riso蘑菇嘴队，拉舌改音、连队成节奏链、帽褶展开与合唱呼应",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/30-mushroom-harmonica/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/30-mushroom-harmonica.zip",
+    "html_library_id": "libfile_b424fd823fe4819186f2937a9816cf09",
+    "zip_library_id": "libfile_7e35693f7b748191a902daea1f19b03b",
+    "html_sha256": "fee98e5caa732289a284f334da836fe466643313c5eb52ce0a4f8bbb3bb44489",
+    "zip_sha256": "6438eb08dab6ca946e7440380a7425d947da64954b6f8d8b393af58b260962c9"
+  },
+  {
+    "number": 31,
+    "slug": "31-anemone-beatbox",
+    "title": "海葵嘻哈团",
+    "group": "T",
+    "mothers": [
+      "singing_beans_vocal_choir.html"
+    ],
+    "innovation": "Riso花边海葵口技，捏口变元音、合体低音、分组对唱与触须律动",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/31-anemone-beatbox/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/31-anemone-beatbox.zip",
+    "html_library_id": "libfile_98a810b8066c819186363765ffa1533a",
+    "zip_library_id": "libfile_e72be8fea4a4819197cfa7edd0e7e92b",
+    "html_sha256": "4f4ae230faef11ba71279a05905ee1a41f9555107cb49693ab36b4d3c5408bbf",
+    "zip_sha256": "10698338fb9ec1f14c26eba28c40f6aaa5f083446555b8464fde8e9e7b0a4e5f"
+  },
+  {
+    "number": 32,
+    "slug": "32-wax-seal-press",
+    "title": "蜡章熔台",
+    "group": "T",
+    "mothers": [
+      "isometric_stamp_prototype.html"
+    ],
+    "innovation": "等距蜡料叠色、旋模、真实下压留浮雕、重熔与章片重组",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/32-wax-seal-press/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/32-wax-seal-press.zip",
+    "html_library_id": "libfile_3a6dbbd4609081918122da188a6776dd",
+    "zip_library_id": "libfile_ab6fe0fd83f88191a85bb6cc0178e71e",
+    "html_sha256": "d568809953a2b758868ea44a3f35b1b3cbcab86953ebb22947fead31f0d4dede",
+    "zip_sha256": "ff7d416de220cb6e9875a153bf11ce38d3b38d25c207086925792787b6933d1b"
+  },
+  {
+    "number": 33,
+    "slug": "33-expression-tape",
+    "title": "表情贴带厂",
+    "group": "T",
+    "mothers": [
+      "jackpot_pull.html"
+    ],
+    "innovation": "拟人纸贴长带拉出、按缺口分段、撕下再贴拼表情板，纸屑累计开新带",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/33-expression-tape/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/33-expression-tape.zip",
+    "html_library_id": "libfile_73b572c31c3c8191aa3c019d2bcfd497",
+    "zip_library_id": "libfile_8af547b9ac5c8191a3489a28805452d8",
+    "html_sha256": "a21ef898f45b44648f0153d912d120bc0aacf3658ee66fc47ce4d45de3cb0404",
+    "zip_sha256": "7a8dc7b81cfb57e83fbcb3a88a461e61c3404061ff1f89ac8990d177dc129460"
+  },
+  {
+    "number": 34,
+    "slug": "34-paper-snake-machine",
+    "title": "纸蛇拉面机",
+    "group": "T",
+    "mothers": [
+      "jackpot_pull.html"
+    ],
+    "innovation": "有孔纸链伸缩拉撕，接回变纸蛇、折叠蓄力、甩尾与多节摆动",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/34-paper-snake-machine/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/34-paper-snake-machine.zip",
+    "html_library_id": "libfile_03cd64a557c08191bdc579e0c9076d1c",
+    "zip_library_id": "libfile_31dbb03a12d88191a4026b8ae1822aa7",
+    "html_sha256": "edff263a029f7ccada145789e60743b299a710fe0f788ae5dd55cb26d30e69c2",
+    "zip_sha256": "97c971194961ebc6e05406dfbd60cac54bf7830de4ba2fdba3914f414c427336"
+  },
+  {
+    "number": 35,
+    "slug": "35-rubber-ferret",
+    "title": "橡皮飞鼬",
+    "group": "T",
+    "mothers": [
+      "jungle_elastic.html"
+    ],
+    "innovation": "面条弹臂飞鼬选锚抓放，双手换抓、张力蓄能、风味果与循环舞台",
+    "url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/35-rubber-ferret/",
+    "zip_url": "https://wentaopeng714-cmd.github.io/little-worlds-artworks/batch06/downloads/35-rubber-ferret.zip",
+    "html_library_id": "libfile_b3bf3c0869bc8191ab8257b379282c68",
+    "zip_library_id": "libfile_03c797646ca4819188b3351f6d878210",
+    "html_sha256": "db3dc9220b2449f6f0f9a9f9a9389553c236239a3f9bb9bfc90d84beb95f7d6b",
+    "zip_sha256": "d356f1e511d1a0c4edc3197677f3e5bfe720884590b6762e07f09b907dfb8072"
+  }
+]

@@ -1,0 +1,121 @@
+{
+  "number": 10,
+  "slug": "10-chromatic-cells",
+  "title": "彩胞裂变",
+  "group": "F",
+  "mothers": [
+    "several_blobs_chromatic_fluid_shader_studio.html"
+  ],
+  "innovation": "粒膜色团拉长、融合、分裂与压力泡，替换无轮廓圆斑累积",
+  "description": "彩胞有弯曲膜层；牵长后触碰融合，划膜松手裂变，加压与泄压改变体积。",
+  "ui": {
+    "bg": "#151323",
+    "ink": "#e0c9eb",
+    "accent": "#7ce1cc"
+  },
+  "controls": [
+    {
+      "id": "pull",
+      "label": "牵膜拉长"
+    },
+    {
+      "id": "join",
+      "label": "触碰融合"
+    },
+    {
+      "id": "divide",
+      "label": "划膜裂变"
+    },
+    {
+      "id": "inflate",
+      "label": "加压鼓膜"
+    },
+    {
+      "id": "drain",
+      "label": "泄压收缩"
+    },
+    {
+      "id": "prism",
+      "label": "色散轮值"
+    }
+  ],
+  "newMechanics": [
+    "多叶轮廓有机膜",
+    "真实合并面积与色层",
+    "分裂减少母体半径并产生子胞",
+    "拉膜长宽比变化",
+    "压力影响内部弯曲脉纹"
+  ],
+  "artDirection": [
+    "保留母本RGB色散/颗粒软斑",
+    "替换圆斑为闭合多叶膜",
+    "膜内弯曲彩带及半透明边"
+  ],
+  "testPlan": [
+    {
+      "control": "pull",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "join",
+      "from": [
+        0.385,
+        0.48
+      ],
+      "to": [
+        0.62,
+        0.48
+      ],
+      "hold": 700
+    },
+    {
+      "control": "divide",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "inflate",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "drain",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "maximumStretch拖膜上升",
+    "fusions和fissions改变cells",
+    "cells始终不超过24"
+  ]
+}

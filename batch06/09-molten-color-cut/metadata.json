@@ -1,0 +1,122 @@
+{
+  "number": 9,
+  "slug": "09-molten-color-cut",
+  "title": "熔彩切流",
+  "group": "F",
+  "mothers": [
+    "samuel_yan_mobile_liquid_studio.html"
+  ],
+  "innovation": "亮彩厚料分区熔流，隔流肋、局部切流、牵伸与融合",
+  "description": "密集彩料在分区中熔流；牵伸层褶、画隔流肋、切色岸，再融合或局部冷凝。",
+  "ui": {
+    "bg": "#171321",
+    "ink": "#e8cddd",
+    "accent": "#62ccb8"
+  },
+  "controls": [
+    {
+      "id": "pull",
+      "label": "牵伸厚料"
+    },
+    {
+      "id": "cut",
+      "label": "切开色流"
+    },
+    {
+      "id": "wall",
+      "label": "画隔流肋"
+    },
+    {
+      "id": "weld",
+      "label": "融合色岸"
+    },
+    {
+      "id": "cool",
+      "label": "冷凝定形"
+    },
+    {
+      "id": "color",
+      "label": "换彩注料"
+    }
+  ],
+  "newMechanics": [
+    "初始多分区隔流场",
+    "隔流肋持续阻止输运",
+    "局部切削留低厚度河",
+    "融合消除堤肋并旋混色",
+    "冷凝稳定色层形态"
+  ],
+  "artDirection": [
+    "高饱和珊瑚青绿靛紫金色",
+    "母本厚料弯曲折痕/虹彩",
+    "跨区连通熔流而非椭圆贴片"
+  ],
+  "testPlan": [
+    {
+      "control": "pull",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "wall",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "cut",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "weld",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    },
+    {
+      "control": "cool",
+      "from": [
+        0.27,
+        0.32
+      ],
+      "to": [
+        0.7,
+        0.55
+      ],
+      "hold": 650
+    }
+  ],
+  "stateFields": [
+    "barrierPercent隔流上升/融合下降",
+    "curedPercent冷凝上升",
+    "materialThickness切流下降"
+  ],
+  "context": "webgl"
+}

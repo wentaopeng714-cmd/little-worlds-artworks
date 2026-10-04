@@ -1,0 +1,107 @@
+{
+  "number": 26,
+  "slug": "26-juice-thunder",
+  "title": "果汁雷客",
+  "group": "T",
+  "mothers": [
+    "chill_slurp_overdrive.html"
+  ],
+  "innovation": "粗黑漫画饮者，多味配饮、拉镜弹射、吸冷/化冻与泡沫变身",
+  "description": "点饮用连喝触发脑冻；下拉墨镜松手弹射果汁雷。切口味补杯，揉徽章解冻，泡沫会鼓起脸颊。",
+  "ui": {
+    "bg": "#ffd752",
+    "ink": "#292331",
+    "accent": "#ff734f"
+  },
+  "controls": [
+    {
+      "id": "flavor",
+      "label": "换口味"
+    },
+    {
+      "id": "sip",
+      "label": "饮用"
+    },
+    {
+      "id": "warm",
+      "label": "暖徽章"
+    },
+    {
+      "id": "foam",
+      "label": "打泡沫"
+    },
+    {
+      "id": "shake",
+      "label": "重新调杯"
+    }
+  ],
+  "artDirection": [
+    "黄底粗黑漫画线",
+    "分瓣橘皮头与形变脸颊",
+    "闪电圆墨镜与分层果汁杯"
+  ],
+  "newMechanics": [
+    "换口味补满杯并改变弹射果雷颜色",
+    "饮用消耗杯中汁液，连喝进入抖动脑冻状态",
+    "暖徽章后在画面来回揉动降温",
+    "打泡沫鼓起脸颊、改变杯顶泡层",
+    "下拉墨镜蓄力松手发射果雷累积天气变化",
+    "重新调杯清掉果雷天气并补杯"
+  ],
+  "testPlan": [
+    {
+      "control": "sip",
+      "from": [
+        0.5,
+        0.48
+      ],
+      "to": [
+        0.5,
+        0.48
+      ],
+      "hold": 100
+    },
+    {
+      "control": "foam",
+      "from": [
+        0.5,
+        0.45
+      ],
+      "to": [
+        0.5,
+        0.45
+      ],
+      "hold": 100
+    },
+    {
+      "control": "warm",
+      "from": [
+        0.4,
+        0.68
+      ],
+      "to": [
+        0.7,
+        0.68
+      ],
+      "hold": 300
+    },
+    {
+      "control": "flavor",
+      "from": [
+        0.5,
+        0.33
+      ],
+      "to": [
+        0.5,
+        0.47
+      ],
+      "hold": 300
+    }
+  ],
+  "stateFields": [
+    "sips / cold / juice",
+    "shots / storm",
+    "thaw / foam",
+    "particles<=30"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "number": 33,
+  "slug": "33-expression-tape",
+  "title": "表情贴带厂",
+  "group": "T",
+  "mothers": [
+    "jackpot_pull.html"
+  ],
+  "innovation": "拟人纸贴长带拉出、按缺口分段、撕下再贴拼表情板，纸屑累计开新带",
+  "description": "下拉表情纸带，横甩撕开；贴片留在拼板。翻折、换表情与齐笑能组合到每一张纸。",
+  "ui": {
+    "bg": "#42b096",
+    "ink": "#25352c",
+    "accent": "#f23c55"
+  },
+  "controls": [
+    {
+      "id": "pull",
+      "label": "拉出纸带"
+    },
+    {
+      "id": "tear",
+      "label": "撕开长带"
+    },
+    {
+      "id": "paste",
+      "label": "贴片重排"
+    },
+    {
+      "id": "fold",
+      "label": "翻折贴纸"
+    },
+    {
+      "id": "print",
+      "label": "换表情色"
+    },
+    {
+      "id": "cheer",
+      "label": "拼板齐笑"
+    }
+  ],
+  "newMechanics": [
+    "长带下拉惯性式伸展、横甩断，长度影响贴片数",
+    "撕下票片作为可拖动持久表情谱",
+    "折纸/表情印色/齐笑可作用长带和已贴票，顺序留下不同结果"
+  ],
+  "artDirection": [
+    "青绿横纹场与斜面桃红票机，白铁板螺丝和黑槽",
+    "黄色缺口连纸、薄黑内框、巨眼雀斑粉舌",
+    "持久贴片拼板与真实横甩纸屑反馈"
+  ],
+  "testPlan": [
+    {
+      "control": "pull",
+      "from": [
+        0.32,
+        0.42
+      ],
+      "to": [
+        0.34,
+        0.7
+      ],
+      "hold": 600
+    },
+    {
+      "control": "tear",
+      "from": [
+        0.32,
+        0.6
+      ],
+      "to": [
+        0.43,
+        0.6
+      ],
+      "hold": 300
+    },
+    {
+      "control": "paste",
+      "from": [
+        0.67,
+        0.27
+      ],
+      "to": [
+        0.75,
+        0.43
+      ],
+      "hold": 400
+    },
+    {
+      "control": "fold",
+      "from": [
+        0.67,
+        0.27
+      ],
+      "to": [
+        0.68,
+        0.35
+      ],
+      "hold": 300
+    }
+  ],
+  "stateFields": {
+    "tears": "撕开后增加",
+    "tiles": "票片保留，最多12",
+    "emotion": "换表情色后0–3循环",
+    "folded": "翻折可切换"
+  },
+  "css": "header h1{font-family:system-ui;font-weight:850}button{border-width:2px}button{box-shadow:2px 2px 0 var(--ink);background:#fff1d8;color:#142a18}button.active{background:var(--accent);color:#142a18}"
+}
